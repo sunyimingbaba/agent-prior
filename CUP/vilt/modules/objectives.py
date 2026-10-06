@@ -402,32 +402,71 @@ def compute_nlvr2(pl_module, batch):
     return ret
 
 def compute_clip(pl_module, batch):
+    """
+    CUP 训练的核心损失函数，对应论文 Section III-D "Uncertainty Estimation Module"。
+
+    计算三个子损失，对应论文公式 (10)：
+        L = L_USCE + λ_C · L_CMR + λ_K · L_KLD
+
+    ┌─────────────────┬────────────────────┬──────────────────────────────┐
+    │ 论文名称          │ 代码变量             │ 论文公式                      │
+    ├─────────────────┼────────────────────┼──────────────────────────────┤
+    │ USCE Loss        │ clip_loss          │ 公式 (5)  不确定性对称交叉熵   │
+    │ CMR Loss         │ uncertainty_loss   │ 公式 (6)(7) 跨模态关系对齐    │
+    │ KLD Loss         │ prior_loss         │ 公式 (8)(9) KL 散度正则化     │
+    └─────────────────┴────────────────────┴──────────────────────────────┘
+
+    核心思路（重参数化技巧，公式 (4)）：
+        f^{TE} = f^T + σ^T · ε    （文本特征 + 不确定性 × 随机噪声）
+        f^{VE} = f^V + σ^V · ε    （图像特征 + 不确定性 × 随机噪声）
+    重复 τ=10 次采样取平均，得到稳定期望。不确定性 σ 由网络自己预测，
+    σ 大 → 噪声大 → 匹配差 → loss 大 → 优化器被迫压小 σ。
+    无需人工标注"哪里不确定"，全靠梯度反传自动学到。
+    """
     is_training_phase = pl_module.training
-    # print("this is batch.keys:{}".format(batch.keys()))
-    NUM_SAMPLES = 10
-    imgs = batch["clip_img"]
-    texts = batch["clip_text_token"]
+    NUM_SAMPLES = 10                     # τ = 10，Monte Carlo 采样次数（参考文献 [78]）
+    imgs = batch["clip_img"]             # (B, 3, 224, 224) RS 图像
+    texts = batch["clip_text_token"]     # (B, 61) tokenize 后的文本（77-16=61，给 prompt 留16位）
 
+    # =========================================================================
+    # 阶段一：前向传播，获取所有中间结果
+    # 调用 vilt_module.infer() 跑完完整 CUP 12 步数据流：
+    #   图像→CCB聚类→先验+可学习prompt融合→CLIP→adapter残差→analysis不确定性
+    # =========================================================================
+    infer = pl_module.infer((imgs, texts), agent_hidden=batch.get("agent_hidden"))
 
-    infer = pl_module.infer(
-        (imgs,texts,)
-        )
+    # --- 损失权重超参数 ---
+    loss_scale_kl = infer["loss_scale_kl"]   # λ_K：KLD 损失的缩放系数，默认 1
+    loss_scale_un = infer["loss_scale_un"]   # λ_C：CMR 损失的缩放系数，默认 1
 
-    loss_scale_kl = infer["loss_scale_kl"]
-    loss_scale_un = infer["loss_scale_un"]
-    image_features = infer["image_features"]
-    text_features = infer["text_features"]
+    # --- CLIP + adapter 后的确定性特征（论文的 f^V, f^T） ---
+    image_features = infer["image_features"]  # (B, d_T)  d_T=768(ViT-L) 或 512(ViT-B)
+    text_features = infer["text_features"]    # (B, d_T)
+
+    # --- 不确定性估计（论文的 σ^V, σ^T），clamp≥0 保证标准差非负 ---
+    img_analy = infer["img_analysis"]        # (B, d_T)  图像每个维度的"不确定性"
+    txt_analy = infer["txt_analysis"]        # (B, d_T)  文本每个维度的"不确定性"
+
+    # --- 聚类先验（KLD 损失的源分布来源） ---
+    visual_prior_prompt_prior = infer["visual_prior_prompt_prior"]  # (B, d_T) prior_analysis_img 输出，≥0
+    visual_prior_prompt = infer["visual_prior_prompt"]              # (B, d_V) 聚类原始先验，未过 prior_img
+
+    # --- CLIP 直接输出的相似度（仅用于获取矩阵形状，后续重新算） ---
+    logits_per_image = infer["logits_per_image"]  # (B, B)
+    logits_per_text = infer["logits_per_text"]    # (B, B)
+
+    # =========================================================================
+    # 阶段二：Monte Carlo 采样 τ=10 次
+    # 每次用公式 (4) 对特征加噪声，然后 softmax 转概率，收集到对应收集器中。
     #
-    img_analy = infer["img_analysis"]
-    txt_analy = infer["txt_analysis"]
-    visual_prior_prompt_prior = infer["visual_prior_prompt_prior"]
+    # 6 条支线的梯度策略（.detach() 的使用是关键设计）：
+    #   支线1,5 — 训练 analysis：梯度穿过 σ，USCE 用
+    #   支线2,6 — 停掉 analysis：.detach() 切断 σ 梯度，CMR 用
+    #   支线3   — 停掉 analysis：.detach() 切断，KLD 目标分布用
+    #   支线4   — 先验分支：KLD 源分布用，梯度来自 prior_analysis_img
+    # =========================================================================
 
-    #
-    visual_prior_prompt = infer["visual_prior_prompt"]
-    logits_per_image = infer["logits_per_image"]
-    logits_per_text = infer["logits_per_text"]
-    #
-    # # print("this is the shape of logit_analysis_img:{} // logit_analysis_txt:{} ".format(logit_analysis_img.shape, logit_analysis_txt.shape))
+    # 7 个收集器：(τ, B, *) — 第 0 维存每次采样的结果
     total_img = torch.zeros((NUM_SAMPLES, logits_per_image.size(0), logits_per_image.size(1)))
     total_txt = torch.zeros((NUM_SAMPLES, logits_per_image.size(0), logits_per_image.size(1)))
     prob_total_img = torch.zeros((NUM_SAMPLES, logits_per_image.size(0), logits_per_image.size(1)))
@@ -438,81 +477,154 @@ def compute_clip(pl_module, batch):
     prob_toal_txt_intra = torch.zeros((NUM_SAMPLES, image_features.size(0), image_features.size(1)))
 
     for t in range(NUM_SAMPLES):
+        # ------------------------------------------------------------------
+        # 支线1：图像特征 + 噪声 → USCE 的图像侧匹配
+        # f^{VE}_{i,t} = f^V_i + σ^V_i · ε_{i,t}       ——公式 (4) 下
+        # σ 不对 detach → 梯度可穿过 img_analy 更新 uncertainty 参数
+        # ------------------------------------------------------------------
+        img_epsilon = torch.randn(image_features.size()).cuda()          # ε ~ N(0,1)
+        img_logit = image_features + torch.mul(img_analy, img_epsilon)   # f^V + σ^V·ε
 
-        img_epsilon = torch.randn(image_features.size()).cuda()
-        img_logit = image_features + torch.mul(img_analy, img_epsilon)
-        # img_logit = img_logit / img_logit.norm(dim=1, keepdim=True)
-
+        # ------------------------------------------------------------------
+        # 支线2：图像特征 + 噪声（σ detach）→ CMR 的图像内部结构
+        # .detach() 切断 analysis 梯度：CMR 只对齐两个空间的结构，
+        # 不更新 σ。σ 的更新由 USCE 单独负责，避免两个损失信号冲突。
+        # ------------------------------------------------------------------
         img_epsilon_intra = torch.randn(image_features.size()).cuda()
         img_logit_intra = image_features + torch.mul(img_analy.detach(), img_epsilon_intra)
 
+        # ------------------------------------------------------------------
+        # 支线3：图像特征 + 噪声（σ detach）→ KLD 的目标分布
+        # 同样 detach，因为这是 KLD 中的"目标"（被逼近的一方），梯度不应流向它
+        # ------------------------------------------------------------------
         img_epsilon_prompt = torch.randn(image_features.size()).cuda()
         img_logit_prompt = image_features + torch.mul(img_analy.detach(), img_epsilon_prompt)
 
+        # ------------------------------------------------------------------
+        # 支线4：聚类先验 + 噪声 → KLD 的源分布
+        # 用 visual_prior_prompt_prior（prior_analysis_img 输出）作为 σ，
+        # 梯度可穿过 prior_analysis_img 更新先验网络
+        # ------------------------------------------------------------------
         img_epsilon_prompt_prior = torch.randn(visual_prior_prompt.size()).cuda()
         img_logit_prior = visual_prior_prompt + torch.mul(visual_prior_prompt_prior, img_epsilon_prompt_prior)
 
+        # ------------------------------------------------------------------
+        # 支线5：文本特征 + 噪声 → USCE 的文本侧匹配
+        # f^{TE}_{i,t} = f^T_i + σ^T_i · ε_{i,t}       ——公式 (4) 上
+        # 对称图像侧，σ 不加 detach
+        # ------------------------------------------------------------------
         txt_epsilon = torch.randn(text_features.size()).cuda()
         txt_logit = text_features + torch.mul(txt_analy, txt_epsilon)
-        # txt_logit = txt_logit / txt_logit.norm(dim=1, keepdim=True)
 
+        # ------------------------------------------------------------------
+        # 支线6：文本特征 + 噪声（σ detach）→ CMR 的文本内部结构
+        # ------------------------------------------------------------------
         txt_epsilon_intra = torch.randn(text_features.size()).cuda()
         txt_logit_intra = text_features + torch.mul(txt_analy.detach(), txt_epsilon_intra)
 
+        # --- 计算相似度矩阵 ---
+        # CLIP 学到的温度系数 τ_clip（不同于 Monte Carlo 的 τ），控制 softmax 尖锐度
         logit_scale = pl_module.model.logit_scale.exp()
-        logit_img = logit_scale * img_logit @ txt_logit.t()
-        logit_txt = logit_img.t()
 
+        # USCE 用的相似度：带 σ 梯度
+        logit_img = logit_scale * img_logit @ txt_logit.t()   # (B, B) s(f^{VE}, f^{TE})
+        logit_txt = logit_img.t()                              # (B, B) 转置
+
+        # CMR 用的特征：σ 梯度已切断
         img_intra = img_logit_intra
         txt_intra = txt_logit_intra
 
-        total_img = F.softmax(img_logit, dim=1)
+        # softmax 概率化，收集第 t 次采样结果
+        total_img = F.softmax(img_logit, dim=1)               # 特征级 softmax（备用）
         total_txt = F.softmax(txt_logit, dim=1)
 
-        prob_total_img[t] = F.softmax(logit_img, dim=1)
-        prob_total_txt[t] = F.softmax(logit_txt, dim=1)
+        prob_total_img[t] = F.softmax(logit_img, dim=1)       # USCE 图像→文本匹配概率
+        prob_total_txt[t] = F.softmax(logit_txt, dim=1)       # USCE 文本→图像匹配概率
 
-        prob_toal_img_intra[t] = F.softmax(img_intra, dim=1)
-        prob_toal_txt_intra[t] = F.softmax(txt_intra, dim=1)
+        prob_toal_img_intra[t] = F.softmax(img_intra, dim=1)  # CMR 图像特征 softmax → U(f^V)
+        prob_toal_txt_intra[t] = F.softmax(txt_intra, dim=1)  # CMR 文本特征 softmax → U(f^T)
 
-        prob_total_img_prompt[t] = F.softmax(img_logit_prompt, dim=1)
-        prob_total_img_prior[t] = F.softmax(img_logit_prior, dim=1)
+        prob_total_img_prompt[t] = F.softmax(img_logit_prompt, dim=1)  # KLD 目标分布 → F^{VK}
+        prob_total_img_prior[t] = F.softmax(img_logit_prior, dim=1)    # KLD 源分布   → F^{VP}
 
+    # =========================================================================
+    # 阶段三：τ 次采样取平均 → Monte Carlo 期望估计
+    # prob_xxx_ave = (1/τ) Σ_{t=1}^{τ} prob_xxx[t]      ——公式 (5) 的 1/τ
+    # =========================================================================
     total_img_ave = torch.mean(total_img, 0).cuda()
     total_txt_ave = torch.mean(total_txt, 0).cuda()
 
-    prob_total_img_ave = torch.mean(prob_total_img, 0).cuda()
-    prob_total_txt_ave = torch.mean(prob_total_txt, 0).cuda()
-    prob_total_img_prompt = torch.mean(prob_total_img_prompt, 0).cuda()
-    prob_total_img_prior = torch.mean(prob_total_img_prior, 0).cuda()
-    prob_toal_img_intra_ave = torch.mean(prob_toal_img_intra, 0).cuda()
-    prob_toal_txt_intra_ave = torch.mean(prob_toal_txt_intra, 0).cuda()
-    _b, _ = logits_per_image.shape
-    label1 = torch.arange(_b).cuda()
+    prob_total_img_ave = torch.mean(prob_total_img, 0).cuda()                    # (B, B)
+    prob_total_txt_ave = torch.mean(prob_total_txt, 0).cuda()                    # (B, B)
+    prob_total_img_prompt = torch.mean(prob_total_img_prompt, 0).cuda()          # (B, d_T)
+    prob_total_img_prior = torch.mean(prob_total_img_prior, 0).cuda()            # (B, d_T)
+    prob_toal_img_intra_ave = torch.mean(prob_toal_img_intra, 0).cuda()          # (B, d_T)
+    prob_toal_txt_intra_ave = torch.mean(prob_toal_txt_intra, 0).cuda()          # (B, d_T)
 
+    _b, _ = logits_per_image.shape        # B = batch size
+    label1 = torch.arange(_b).cuda()      # [0, 1, 2, ..., B-1]，对角线是正确答案
+
+    # =========================================================================
+    # 损失①：USCE Loss（代码名 clip_loss） ——论文公式 (5)
+    #
+    # L_USCE = ½(L_t2v + L_v2t)
+    # L_t2v = -1/N Σ_i log( prob_avg[i][i] )     其中 prob_avg = (1/τ) Σ_t softmax(s_t)
+    #
+    # NLLLoss(log(p), label) = -1/N Σ_i log(p[i][label[i]])
+    # label[i] = i，即取对角线元素 → 鼓励匹配的图文对概率最高
+    # =========================================================================
     criterion3 = nn.NLLLoss().cuda()
     criterion4 = nn.NLLLoss().cuda()
 
+    loss_img = criterion3(torch.log(prob_total_img_ave), label1)    # L_t2v
+    loss_text = criterion4(torch.log(prob_total_txt_ave), label1)   # L_v2t
+    clip_loss = (loss_img + loss_text) / 2                          # L_USCE
 
-    loss_img = criterion3(torch.log(prob_total_img_ave), label1)
-    loss_text = criterion4(torch.log(prob_total_txt_ave), label1)
-    clip_loss = (loss_img + loss_text)/2
+    # =========================================================================
+    # 损失②：CMR Loss（代码名 uncertainty_loss） ——论文公式 (6)(7)
+    #
+    # 公式 (7)：U(f_i) = (1/τ) Σ_t Softmax(f_i + σ_i·ε_{i,t})   [σ 已 detach]
+    # 公式 (6)：L_CMR = (1/N) || F^{VC}·(F^{VC})^T - F^{TC}·(F^{TC})^T ||₁
+    #
+    # 做的事情：图像空间中"谁和谁像"的关系图，必须和文本空间中的一致
+    # A @ A^T 计算的是特征两两之间的自相似矩阵 (B,B)
+    # L1 距离衡量两个关系图的差异
+    # =========================================================================
+    prob_toal_img_intra_ave = prob_toal_img_intra_ave @ prob_toal_img_intra_ave.t()  # F^{VC}·(F^{VC})^T
+    prob_toal_txt_intra_ave = prob_toal_txt_intra_ave @ prob_toal_txt_intra_ave.t()  # F^{TC}·(F^{TC})^T
 
-    prob_toal_img_intra_ave = prob_toal_img_intra_ave @ prob_toal_img_intra_ave.t()
-    prob_toal_txt_intra_ave = prob_toal_txt_intra_ave @ prob_toal_txt_intra_ave.t()
+    uncertainty_loss = torch.abs(prob_toal_img_intra_ave - prob_toal_txt_intra_ave).mean()  # L1-norm / N
 
-    uncertainty_loss = torch.abs(prob_toal_img_intra_ave - prob_toal_txt_intra_ave).mean()
-
+    # =========================================================================
+    # 损失③：KLD Loss（代码名 prior_loss） ——论文公式 (8)(9)
+    #
+    # 公式 (9)：F^{VK} = {U(f^V_1), ..., U(f^V_N)}  ——可学习 prompt 的分布（目标）
+    #          F^{VP} = {U(f^{VP}_1), ..., U(f^{VP}_N)} ——聚类先验的分布（源）
+    # 公式 (8)：L_KLD = (1/N) Σ F^{VK}_i · log(F^{VK}_i / F^{VP}_i)
+    #
+    # F.kl_div(log(Q), P) 在 PyTorch 中 = KL(P || Q) = Σ P·log(P/Q)
+    # 所以这里算的是 KL(可学习分布 || 先验分布)
+    # 让 prompt 的分布向聚类先验"看齐"，防止 prompt 乱学
+    #
+    # .detach() 切断目标分布梯度：KLD 中目标是固定的，否则两端互相追逐形成振荡
+    # =========================================================================
     prob_total_img_prompt = prob_total_img_prompt.detach()
 
     prior_kl = F.kl_div(torch.log(prob_total_img_prior), prob_total_img_prompt)
 
+    # =========================================================================
+    # 汇总三个损失 ——论文公式 (10)
+    # L = L_USCE + λ_C·L_CMR + λ_K·L_KLD
+    # =========================================================================
     ret = {
-        "clip_loss": clip_loss,
-        "prior_loss":  loss_scale_kl * prior_kl,
-        "uncertainty_loss": loss_scale_un * uncertainty_loss,
+        "clip_loss": clip_loss,                             # L_USCE（USCE Loss）
+        "prior_loss": loss_scale_kl * prior_kl,             # λ_K · L_KLD
+        "uncertainty_loss": loss_scale_un * uncertainty_loss,  # λ_C · L_CMR
     }
 
+    # =========================================================================
+    # 阶段四：记录到 PyTorch Lightning 日志
+    # =========================================================================
     phase = "train" if pl_module.training else "val"
 
     clip_loss = getattr(pl_module, f"{phase}_clip_loss")(ret["clip_loss"])
@@ -572,6 +684,7 @@ def compute_clip_recall(pl_module):
                 "clip_img": _b["clip_img"].to(pl_module.device),
                 "cap_index": _b["cap_index"],
                 "raw_index": _b["raw_index"],
+                "agent_hidden": _b.get("agent_hidden"),
                 # "txt_label": _b["txt_label"],
             }
         )
@@ -646,7 +759,7 @@ def compute_clip_recall(pl_module):
         txt = out["text_feats"]
         # txt_cls = out["cls_txt"]
 
-        img_ = pl_module.img_embeds(_i)["image_feats"]
+        img_ = pl_module.img_embeds(_i, agent_hidden=_batch_txt.get("agent_hidden"))["image_feats"]
         _l, _ = txt.shape
 
 
@@ -701,6 +814,7 @@ def compute_clip_recall(pl_module):
                 "clip_img": _b["clip_img"].to(pl_module.device),
                 "cap_index": _b["cap_index"],
                 "raw_index": _b["raw_index"],
+                "agent_hidden": _b.get("agent_hidden"),
                 # "img_label": _b["img_label"],
             }
         )
@@ -712,7 +826,7 @@ def compute_clip_recall(pl_module):
         # _img_label = torch.tensor(_batch_img["img_label"])
         _iid = torch.tensor(_iid)
 
-        out = pl_module.img_embeds(_i)
+        out = pl_module.img_embeds(_i, agent_hidden=_batch_img.get("agent_hidden"))
         feature = out["image_feats"]
         # img_cls = out["cls_img"]
 

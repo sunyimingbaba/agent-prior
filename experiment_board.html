@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CUP 实验看板</title>
+<style>
+:root { --blue:#2563eb; --green:#16a34a; --orange:#ea580c; --gray:#6b7280; --line:#e5e7eb; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background:#f8fafc; color:#1f2937; padding: 24px 20px 60px; max-width: 1100px; margin: 0 auto; }
+header h1 { font-size: 22px; }
+header .sub { color: var(--gray); font-size: 13px; margin-top: 4px; line-height: 1.6; }
+nav { display: flex; gap: 4px; margin: 18px 0 20px; border-bottom: 1px solid var(--line); }
+nav button { border: none; background: none; padding: 8px 16px; font-size: 14px; cursor: pointer; color: var(--gray); border-bottom: 2px solid transparent; font-family: inherit; }
+nav button.active { color: var(--blue); border-bottom-color: var(--blue); font-weight: 600; }
+.card { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 16px 20px; margin-bottom: 16px; }
+.card h2 { font-size: 15px; margin-bottom: 10px; }
+.card h2 .count { color: var(--gray); font-weight: normal; font-size: 12px; margin-left: 8px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { padding: 6px 10px; text-align: center; border-bottom: 1px solid var(--line); }
+th { background: #f1f5f9; font-weight: 600; }
+td.name { text-align: left; }
+.badge { display: inline-block; font-size: 11px; padding: 1px 8px; border-radius: 10px; white-space: nowrap; }
+.badge.done { background: #dcfce7; color: var(--green); }
+.badge.run { background: #ffedd5; color: var(--orange); }
+.badge.todo { background: #f1f5f9; color: var(--gray); }
+.badge.best { background: #dbeafe; color: var(--blue); }
+.badge.warn { background: #fef9c3; color: #a16207; }
+.note-cell { color: var(--gray); font-size: 12px; }
+.todo-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.todo-item:last-child { border-bottom: none; }
+.todo-item input { margin-top: 3px; cursor: pointer; }
+.todo-item label { flex: 1; cursor: pointer; font-size: 14px; }
+.todo-item .note { color: var(--gray); font-size: 12px; margin-top: 2px; }
+.todo-item input:checked ~ label .t { text-decoration: line-through; color: var(--gray); }
+.pri { font-size: 11px; padding: 1px 6px; border-radius: 4px; margin-left: 6px; font-weight: 600; }
+.p0 { background: #fee2e2; color: #b91c1c; }
+.p1 { background: #fef9c3; color: #a16207; }
+.paper-card { display: flex; gap: 12px; align-items: flex-start; }
+.paper-card input { margin-top: 3px; cursor: pointer; }
+.paper-info { flex: 1; }
+.paper-info .pt { font-size: 14px; font-weight: 600; }
+.paper-info textarea { width: 100%; margin-top: 6px; min-height: 64px; border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; font-size: 12px; font-family: inherit; resize: vertical; color: #374151; }
+.paper-info textarea:focus { outline: none; border-color: var(--blue); }
+.paper-card input:checked ~ .paper-info .pt { text-decoration: line-through; color: var(--gray); }
+</style>
+</head>
+<body>
+<header>
+  <h1>CUP 实验看板</h1>
+  <div class="sub">主方法：域内工具 + Agent 先验 + GRPO 冷启动 &nbsp;·&nbsp; 投稿目标 2026-11 &nbsp;·&nbsp; 指标 mR（UCM / RSICD / RSITMD，ViT-L/14，seed=0）<br>勾选状态自动保存在本浏览器（localStorage），换浏览器或清缓存会丢失</div>
+</header>
+<nav>
+  <button data-tab="data" class="active">实验数据</button>
+  <button data-tab="ablation">消融表设计</button>
+  <button data-tab="todo">待办清单</button>
+  <button data-tab="papers">论文阅读</button>
+  <button data-tab="compare">对比实验</button>
+</nav>
+
+<section id="tab-data">
+  <div class="card">
+    <h2>主方法系列（消融表 3 的行）</h2>
+    <table>
+      <tr><th style="text-align:left">变体</th><th>UCM</th><th>RSICD</th><th>RSITMD</th><th>状态</th></tr>
+      <tr><td class="name">完整方法（新版 · 域内微调工具 + agent + GRPO 冷启动）<span class="badge best">主方法</span></td><td>58.55</td><td>43.12</td><td>58.63</td><td><span class="badge done">完成</span></td></tr>
+      <tr><td class="name">完整方法（旧版 · 零样本工具 + agent + GRPO 冷启动）</td><td>54.90</td><td>39.00</td><td>59.78</td><td><span class="badge done">完成</span></td></tr>
+      <tr><td class="name">w/ SFT 初始化（冷启动 → SFT-init）</td><td>52.16</td><td>30.24</td><td>41.62</td><td><span class="badge done">完成</span></td></tr>
+      <tr><td class="name">原版 CUP（CCB 聚类先验，无 agent 无工具）</td><td>50.85</td><td>31.15</td><td>40.25</td><td><span class="badge done">完成</span></td></tr>
+      <tr><td class="name">v2 SFT（工具 + SFT，无 RL）</td><td>53.47</td><td>28.52</td><td>—</td><td><span class="badge done">完成</span></td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>工具 / 先验变体（均无 RL）</h2>
+    <table>
+      <tr><th style="text-align:left">变体</th><th>UCM</th><th>RSICD</th><th>RSITMD</th><th>状态</th></tr>
+      <tr><td class="name">纯推理 agent（无工具无 RL）<span class="badge best">上界</span></td><td>59.49</td><td>45.69</td><td>68.17</td><td><span class="badge done">完成</span></td></tr>
+      <tr><td class="name">朴素工具（零样本工具，无 RL）</td><td>57.23</td><td>44.52</td><td>63.26</td><td><span class="badge done">完成</span></td></tr>
+      <tr><td class="name">注入版</td><td>53.45</td><td>38.43</td><td>60.44</td><td><span class="badge done">完成</span></td></tr>
+      <tr><td class="name">置信度过滤</td><td>—</td><td>—</td><td>60.04</td><td><span class="badge done">完成（仅 RSITMD）</span></td></tr>
+      <tr><td class="name">随机工具（工具返回随机类别）</td><td>56.47</td><td>42.75</td><td>58.16</td><td><span class="badge done">完成</span></td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>奖励设计</h2>
+    <table>
+      <tr><th style="text-align:left">变体</th><th>UCM</th><th>RSICD</th><th>RSITMD</th><th>状态</th></tr>
+      <tr><td class="name">完整奖励（λ=1.0，g8fs，同批次 CLIP 工具）</td><td>57.97</td><td>—</td><td>—</td><td><span class="badge done">完成（注入率 90.3%）</span></td></tr>
+      <tr><td class="name">format-only（仅 R_format，λ=0）</td><td>63.66</td><td>—</td><td>—</td><td><span class="badge done">完成（注入率 0%）</span></td></tr>
+      <tr><td class="name">硬命中（1/0 代替软分数）</td><td>61.64</td><td>—</td><td>—</td><td><span class="badge done">完成（注入率 0%）</span></td></tr>
+      <tr><td class="name">λ = 0.5 / 2.0 敏感性</td><td>57.94 / 56.97</td><td>—</td><td>—</td><td><span class="badge done">完成（98.9% / 75.4%）</span></td></tr>
+      <tr><td class="name">（参照）同批次纯推理基线</td><td>62.05</td><td>—</td><td>—</td><td><span class="badge done">完成</span></td></tr>
+    </table>
+    <div class="note-cell" style="margin-top:8px">此表为 CLIP 工具同批次（9/5）；域内工具版主方法（58.55）的奖励消融未跑。<br>六指标：format-only 22.49/71.34/99.10·25.71/70.48/92.86；hard 21.29/72.24/99.20·22.86/65.71/90.00；λ=0.5 18.41/65.87/98.21·21.43/65.71/86.67；λ=2.0 15.62/62.09/96.02·20.48/60.48/87.14。</div>
+  </div>
+
+  <div class="card">
+    <h2>CLIP 基线（表 2 自跑行）</h2>
+    <table>
+      <tr><th style="text-align:left">变体</th><th>UCM</th><th>RSICD</th><th>RSITMD</th><th>状态</th></tr>
+      <tr><td class="name">CLIP 零样本（ICML 2021）</td><td>42.55</td><td>19.51</td><td>27.24</td><td><span class="badge done">完成</span></td></tr>
+      <tr><td class="name">CLIP 线性探测（ICML 2021）</td><td>46.53</td><td>26.22</td><td>35.82</td><td><span class="badge done">完成</span></td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>2026 期刊 SOTA（抄录参考，协议不一致勿直接对比）</h2>
+    <table>
+      <tr><th style="text-align:left">方法</th><th>UCM</th><th>RSICD</th><th>RSITMD</th><th class="note-cell">备注</th></tr>
+      <tr><td class="name">CMER（JAG 2026，L/14）</td><td>—</td><td>32.61</td><td>48.70</td><td class="note-cell">仅两集</td></tr>
+    </table>
+  </div>
+</section>
+
+<section id="tab-ablation" hidden>
+  <div class="card">
+    <h2>总说明</h2>
+    <div class="note-cell" style="line-height:1.8">
+      数字为网页口径（六指标均值，UCM / RSICD / RSITMD）；最终论文表格需用标准评估（七指标）重跑。<br>
+      所有消融表建议加 <b>注入率%</b> 行为列（学 GeoEyes Table 4：准确率 + 工具行为双维度）。<br>
+      状态：<span class="badge done">已跑</span> <span class="badge run">在跑/排队</span> <span class="badge warn">需重跑/需整理</span> <span class="badge todo">待跑</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>表 1｜先验来源消融（谱系 4 行 + lr 敏感性子行）</h2>
+    <table>
+      <tr><th style="text-align:left">行</th><th>UCM</th><th>RSICD</th><th>RSITMD</th><th>状态</th></tr>
+      <tr><td class="name">(a) CCB 聚类先验（原版 CUP）</td><td>50.85</td><td>31.15</td><td>40.25</td><td><span class="badge done">已跑</span></td></tr>
+      <tr><td class="name">(b) 纯推理 agent 先验（无工具）</td><td>59.49</td><td>45.69</td><td>68.17</td><td><span class="badge done">已跑（lr=1e-4）</span></td></tr>
+      <tr><td class="name" style="padding-left:18px;color:var(--gray)">└ lr 3e-5</td><td>58.69</td><td>39.28</td><td>59.74</td><td><span class="badge done">已跑</span></td></tr>
+      <tr><td class="name" style="padding-left:18px;color:var(--gray)">└ lr 9e-6</td><td>55.23</td><td>32.63</td><td>51.70</td><td><span class="badge done">已跑</span></td></tr>
+      <tr><td class="name">(c) 素人工具 agent 先验（无 RL）</td><td>57.23</td><td>44.52</td><td>63.26</td><td><span class="badge done">已跑（lr=1e-4）</span></td></tr>
+      <tr><td class="name" style="padding-left:18px;color:var(--gray)">└ lr 3e-5</td><td>55.18</td><td>34.91</td><td>54.02</td><td><span class="badge done">已跑</span></td></tr>
+      <tr><td class="name">(d) GRPO 冷启动 agent 先验（完整）<span class="badge best">主方法</span></td><td>58.55</td><td>43.12</td><td>58.63</td><td><span class="badge done">已跑</span></td></tr>
+    </table>
+    <div class="note-cell" style="margin-top:8px">核心叙事：先验是全部增益来源（(a)→(b) 质变 +8.6~+27.9）；MLLM 内部加工具/RL 略降为负结果，按 TinyRS-R1 笔法诚实带过。<br>lr 敏感性（子行）：纯推理档 1e-4 → 3e-5 → 9e-6 三集单调递减、无拐点（每降 √10 倍掉 3~8 点，最优在 1e-4 或更高）；素人工具档 3e-5 同样低于 1e-4，两档位互相印证。敏感度排序一致——RSITMD 最敏感 &gt; RSICD &gt; UCM，工具注入放大了 lr 效应。1e-4 为旧批次数字（新批次通常高 ~2.6），同批次差距略大但方向不变。主方法沿用 CUP 默认 1e-4 合理，敏感性数据进附录或正文一句。</div>
+  </div>
+
+  <div class="card">
+    <h2>表 2｜组件与训练策略消融（5 行）</h2>
+    <table>
+      <tr><th style="text-align:left">行</th><th>UCM</th><th>RSICD</th><th>RSITMD</th><th>注入率</th><th>状态</th></tr>
+      <tr><td class="name">完整方法（agent 先验 + 域内工具 + few-shot + GRPO 冷启动）<span class="badge best">主方法</span></td><td>58.55</td><td>43.12</td><td>58.63</td><td>86.0</td><td><span class="badge done">已跑</span></td></tr>
+      <tr><td class="name">w/ 零样本工具（代替域内工具）</td><td>54.90</td><td>39.00</td><td>59.78</td><td>—</td><td><span class="badge warn">旧版无 few-shot，需重跑</span></td></tr>
+      <tr><td class="name">w/ 随机工具（分类头输出打乱）</td><td>56.47</td><td>42.75</td><td>58.16</td><td>—</td><td><span class="badge done">已跑</span></td></tr>
+      <tr><td class="name">w/o RL（域内工具 + 素人 Qwen）</td><td>—</td><td>—</td><td>—</td><td>—</td><td><span class="badge todo">必跑：主方法唯一缺的干净对照</span></td></tr>
+      <tr><td class="name">w/ SFT 初始化（代替冷启动）</td><td>52.16</td><td>30.24</td><td>41.62</td><td>—</td><td><span class="badge done">已跑</span></td></tr>
+    </table>
+    <div class="note-cell" style="margin-top:8px">对应 Think2Seg-RS 的 SFT vs GRPO 范式表；若 w/o RL 更高，学 TinyRS-R1 的诚实写法：分数据集报告 + 归因（GRPO 优化软 rank 奖励，收益在工具策略行为而非单点指标）。<br>主表列用全七指标（I2T/T2I R@1/5/10 + mR）；消融表用 mR 单列（GeoEyes / TinyRS 惯例）。</div>
+  </div>
+
+  <div class="card">
+    <h2>表 3｜奖励设计消融</h2>
+    <table>
+      <tr><th style="text-align:left">行</th><th>UCM</th><th>注入率</th><th>状态</th></tr>
+      <tr><td class="name">完整（λ=1.0，g8fs）</td><td>57.97</td><td>90.3</td><td><span class="badge done">已跑（CLIP 工具同批次）</span></td></tr>
+      <tr><td class="name">仅格式（format-only，λ=0）</td><td>63.66</td><td>0</td><td><span class="badge done">已跑（奖励黑客核心故事）</span></td></tr>
+      <tr><td class="name">硬命中（hard）</td><td>61.64</td><td>0</td><td><span class="badge done">已跑</span></td></tr>
+      <tr><td class="name">λ = 0.5</td><td>57.94</td><td>98.9</td><td><span class="badge done">已跑</span></td></tr>
+      <tr><td class="name">λ = 2.0</td><td>56.97</td><td>75.4</td><td><span class="badge done">已跑</span></td></tr>
+      <tr><td class="name">（参照）纯推理基线</td><td>62.05</td><td>—</td><td><span class="badge done">已跑</span></td></tr>
+    </table>
+    <div class="note-cell" style="margin-top:8px">λ 敏感性可画柱状图（学 EAPA Fig 3），表只留 0 / 0.5 / 1.0 / 2.0 四档。<br>注意：此表主方法行为 CLIP 工具同批次 57.97；域内工具版 58.55 的奖励消融未跑。趋势：凡带检索奖励均低于 format-only。</div>
+  </div>
+
+  <div class="card">
+    <h2>表 4｜工具注入协议与实现细节（附录级）</h2>
+    <table>
+      <tr><th style="text-align:left">行</th><th style="text-align:left">数据 / 说明</th><th>状态</th></tr>
+      <tr><td class="name">素人 Qwen 乱调工具（无 few-shot 无 SFT）</td><td class="name">注入协议证据链：格式错误率高</td><td><span class="badge warn">需整理对应数据</span></td></tr>
+      <tr><td class="name">+ SFT 教格式</td><td class="name">格式修复但策略呆板</td><td><span class="badge warn">需整理对应数据</span></td></tr>
+      <tr><td class="name">全注入（无置信度过滤）</td><td class="name">低置信结果也注入 → 噪声（53.45/38.43/60.44）</td><td><span class="badge done">已跑</span></td></tr>
+      <tr><td class="name">+ 置信度过滤（0.29）</td><td class="name">60.04 @RSITMD；档 3→4 严格同批次对照需重跑</td><td><span class="badge warn">另两集待补</span></td></tr>
+      <tr><td class="name">few-shot vs 无 few-shot</td><td class="name">新版 58.55 vs 旧版 54.90 混了工具变量，不干净</td><td><span class="badge todo">纯 rollout 重跑，便宜</span></td></tr>
+      <tr><td class="name">max_rounds 1 vs 3</td><td class="name">rollout.py 现成参数</td><td><span class="badge todo">便宜</span></td></tr>
+      <tr><td class="name">g=8 vs g=16</td><td class="name">g16 = 59.19（更低）</td><td><span class="badge done">已跑，一句话写正文即可</span></td></tr>
+      <tr><td class="name">RL 数据：全量 vs 难样本</td><td class="name">难样本 = 初始 rank 差的图（GeoZero Table VII 模式）</td><td><span class="badge todo">P2 可选</span></td></tr>
+    </table>
+    <div class="note-cell" style="margin-top:8px">数据补齐后决定进正文还是附录：注入协议若"过滤 > 全注入"三集一致 → 升为正式表；细节行 → 正文一句话。</div>
+  </div>
+
+  <div class="card">
+    <h2>优先级</h2>
+    <div class="note-cell" style="line-height:1.8">
+      1. 表 2 w/o RL 行 —— 唯一结构缺口，必跑<br>
+      2. 表 4 few-shot / max_rounds —— 零成本<br>
+      3. 域内工具版主方法的奖励消融 —— 可选（表 3 现为 CLIP 工具同批次）
+    </div>
+  </div>
+</section>
+
+<section id="tab-todo" hidden></section>
+<section id="tab-papers" hidden></section>
+
+<section id="tab-compare" hidden>
+  <div class="card">
+    <h2>总说明</h2>
+    <div class="note-cell" style="line-height:1.8">
+      数字为网页口径（六指标均值，UCM / RSICD / RSITMD）；最终论文表格用全七指标（I2T R@1/5/10 + T2I R@1/5/10 + mR）重跑。<br>
+      <b>引用三规则</b>：① 标注来源——引用数字右上角 †，表注写"取自 [文献]"；② 主表不动——核心证据始终是"Ours vs 原版 CUP 同骨干同 seed 同环境本机复现"；③ 口径统一——每行标清来源，不搞"自己用本机数字、别人用论文数字却不说明"的双标。
+    </div>
+  </div>
+
+  
+
+  <div class="card">
+    <h2>表 1｜主表（核心贡献表，2-3 行）</h2>
+    <table>
+      <tr><th style="text-align:left">方法</th><th>骨干</th><th>UCM</th><th>RSICD</th><th>RSITMD</th><th>来源</th></tr>
+      <tr><td class="name">原版 CUP（CCB 聚类先验 · TNNLS 2025）</td><td>ViT-L/14</td><td>50.85</td><td>31.15</td><td>40.25</td><td><span class="badge done">本机复现 · 2026</span></td></tr>
+      <tr><td class="name">原版 CUP（论文报告数字 · TNNLS 2025，可选行）</td><td>ViT-L/14</td><td>52.95 †</td><td>33.43 †</td><td>45.61 †</td><td><span class="badge warn">5 次平均 · TNNLS 2025</span></td></tr>
+      <tr><td class="name">Ours（工具 + agent + GRPO 冷启动 · 2026）<span class="badge best">主方法</span></td><td>ViT-L/14</td><td><b>58.55</b></td><td><b>43.12</b></td><td><b>58.63</b></td><td><span class="badge done">本机 · 2026</span></td></tr>
+    </table>
+    <div class="note-cell" style="margin-top:8px">护城河表注："同骨干 ViT-L/14、同 prompt_length、同 seed、同划分，本机复现"——引用数字的对比表永远做不到这一点。<br>纯推理版（59.49/45.69/68.17）不进主表，只当消融上界参考（导师定稿）。<br>CUP 论文数字是 5 次运行平均（原文 "average score over five times"），可解释本机复现偏低——多 seed 跑完后 Ours 换均值，口径对齐。</div>
+  </div>
+
+  <div class="card">
+    <h2>对比表 · UCM（仿 CUP Table V，七指标）</h2>
+    <table>
+      <tr><th style="text-align:left">方法</th><th>I2T R@1</th><th>R@5</th><th>R@10</th><th>T2I R@1</th><th>R@5</th><th>R@10</th><th>mR</th><th style="text-align:left">来源</th></tr>
+      <tr><td colspan="9" style="background:#f1f5f9;font-weight:600">① 非 CLIP 系（跨模态检索方法）</td></tr>
+      <tr><td class="name">LW-MCR-b（TGRS 2022）</td><td>12.38</td><td>43.81</td><td>59.52</td><td>12.00</td><td>46.38</td><td>72.48</td><td>41.10</td><td class="name">† CUP Table V · TGRS 2022</td></tr>
+      <tr><td class="name">LW-MCR-d（TGRS 2022）</td><td>15.24</td><td>51.90</td><td>62.86</td><td>11.90</td><td>50.95</td><td>75.24</td><td>44.68</td><td class="name">† CUP Table V · TGRS 2022</td></tr>
+      <tr><td class="name">LW-MCR-u（TGRS 2022）</td><td>18.10</td><td>47.14</td><td>63.81</td><td>13.14</td><td>50.38</td><td>79.52</td><td>45.35</td><td class="name">† CUP Table V · TGRS 2022</td></tr>
+      <tr><td class="name">SMLGN（GNTGRS 2024）</td><td>12.86</td><td>49.52</td><td>75.71</td><td>14.29</td><td>52.76</td><td>84.67</td><td>48.30 †</td><td class="name">† 转引第三方对比表</td></tr>
+      <tr><td class="name">MSITA（GNTGRS 2024）</td><td>16.86</td><td>49.33</td><td>73.33</td><td>14.29</td><td>57.16</td><td>91.58</td><td>50.43 †</td><td class="name">† 转引第三方对比表</td></tr>
+      <tr><td class="name">SSJDN（ResNet+Skip-Thought · ACM TOMM 2023）</td><td>17.86</td><td>53.57</td><td>72.02</td><td>20.54</td><td>62.56</td><td>82.98</td><td>51.59 †</td><td class="name">† CUP Table V · ACM TOMM 2023（T2I R@1 已核实 20.54）</td></tr>
+      <tr><td class="name">PGRN（JSTARS 2025）</td><td>16.19</td><td>51.43</td><td>75.24</td><td>13.62</td><td>60.86</td><td>95.05</td><td>52.06 †</td><td class="name">† JSTARS 2025（跨表互证）</td></tr>
+      <tr><td class="name">MSA（TGRS 2024）</td><td>13.33</td><td>59.05</td><td>77.14</td><td>13.14</td><td>57.52</td><td>92.48</td><td>52.11 †</td><td class="name">† 转引第三方对比表</td></tr>
+      <tr><td class="name">RGAL（TGRS 2025）</td><td>17.62</td><td>58.86</td><td>87.24</td><td>18.10</td><td>61.10</td><td>86.43</td><td>54.89 †</td><td class="name">† 转引第三方对比表</td></tr>
+      <tr><td colspan="9" style="background:#f1f5f9;font-weight:600">② CLIP 系（基线 / 微调 / 2025-2026 最新）</td></tr>
+      <tr><td class="name">CLIP 零样本（ICML 2021）</td><td>11.90</td><td>45.24</td><td>72.86</td><td>10.75</td><td>43.48</td><td>71.04</td><td>42.55</td><td class="name">本机 · ICML 2021</td></tr>
+      <tr><td class="name">CLIP 线性探测（ICML 2021）</td><td>9.52</td><td>46.67</td><td>80.48</td><td>12.54</td><td>49.65</td><td>80.30</td><td>46.53</td><td class="name">本机 · ICML 2021</td></tr>
+      <tr><td class="name">CLIP-Adapter（ViT-B/32 · arXiv 2021）</td><td>9.83</td><td>42.52</td><td>66.79</td><td>14.61</td><td>51.03</td><td>84.14</td><td>44.82 †</td><td class="name">† CUP Table V · arXiv 2021</td></tr>
+      <tr><td class="name">VL-Prompt（ViT-B/32 · arXiv 2022）</td><td>7.96</td><td>45.48</td><td>75.96</td><td>12.51</td><td>51.57</td><td>91.52</td><td>47.50 †</td><td class="name">† CUP Table V · arXiv 2022（I2T R@1 按 mR 反推）</td></tr>
+      <tr><td class="name">CoOp（ViT-B/32 · IJCV 2022）</td><td>7.19</td><td>42.76</td><td>74.19</td><td>9.78</td><td>48.34</td><td>87.41</td><td>44.95 †</td><td class="name">† CUP Table V · IJCV 2022</td></tr>
+      <tr><td class="name">PE-RSITR（CLIP + adapter · TGRS 2023）</td><td>18.82</td><td>62.84</td><td>93.72</td><td>22.71</td><td>55.81</td><td>80.33</td><td>55.71 †</td><td class="name">† 转引第三方对比表</td></tr>
+      <tr><td colspan="9" style="background:#f1f5f9;font-weight:600">③ Prompt 学习</td></tr>
+      <tr><td class="name">VPT（ViT-B/32 · ECCV 2022）</td><td>13.81</td><td>49.05</td><td>75.24</td><td>14.73</td><td>58.01</td><td>92.44</td><td>50.54 †</td><td class="name">† CUP Table V · ECCV 2022</td></tr>
+      <tr><td class="name">MaPLE（ViT-B/32 · CVPR 2023）</td><td>13.97</td><td>49.68</td><td>75.24</td><td>12.21</td><td>52.80</td><td>84.81</td><td>48.12 †</td><td class="name">† CUP Table V · CVPR 2023</td></tr>
+      <tr><td class="name">CUP（TNNLS 2025）</td><td>14.92</td><td>54.13</td><td>80.95</td><td>14.86</td><td>59.80</td><td>93.04</td><td>52.95 †</td><td class="name">† 原论文 · TNNLS 2025</td></tr>
+      <tr><td class="name">PDAR-RSITR（IJCAI 2026）</td><td>22.94</td><td>60.01</td><td>84.39</td><td>19.56</td><td>63.62</td><td>95.61</td><td>57.69 †</td><td class="name">† <a href="https://www.ijcai.org/proceedings/2026/0661.pdf" target="_blank">原论文 Table 1/2</a> · UCM · mR 为六项均值</td></tr>
+      <tr><td class="name">Ours（工具 + agent + GRPO 冷启动 · 2026）<span class="badge best">主方法</span></td><td>20.00</td><td>64.29</td><td>88.10</td><td>17.91</td><td>63.98</td><td>97.01</td><td><b>58.55</b></td><td class="name">本机 · 2026</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>对比表 · RSICD（仿 CUP Table IV，七指标）</h2>
+    <table>
+      <tr><th style="text-align:left">方法</th><th>I2T R@1</th><th>R@5</th><th>R@10</th><th>T2I R@1</th><th>R@5</th><th>R@10</th><th>mR</th><th style="text-align:left">来源</th></tr>
+      <tr><td colspan="9" style="background:#f1f5f9;font-weight:600">① 非 CLIP 系（跨模态检索方法）</td></tr>
+      <tr><td class="name">LW-MCR-b（TGRS 2022）</td><td>4.57</td><td>13.71</td><td>20.11</td><td>4.02</td><td>16.47</td><td>28.23</td><td>14.52</td><td class="name">† CUP Table IV · TGRS 2022</td></tr>
+      <tr><td class="name">LW-MCR-d（TGRS 2022）</td><td>3.29</td><td>12.52</td><td>19.93</td><td>4.66</td><td>17.51</td><td>30.02</td><td>14.66</td><td class="name">† CUP Table IV · TGRS 2022</td></tr>
+      <tr><td class="name">LW-MCR-u（TGRS 2022）</td><td>4.39</td><td>13.35</td><td>20.29</td><td>4.30</td><td>18.85</td><td>32.34</td><td>15.59</td><td class="name">† CUP Table IV · TGRS 2022</td></tr>
+      <tr><td class="name">GaLR w/o MR（TGRS 2022）</td><td>6.50</td><td>18.91</td><td>29.70</td><td>5.11</td><td>19.57</td><td>31.92</td><td>18.62</td><td class="name">† CUP Table IV · TGRS 2022（T2I R@1 经 PE-RSITR 表核对）</td></tr>
+      <tr><td class="name">GaLR with MR（TGRS 2022）</td><td>6.59</td><td>19.85</td><td>31.04</td><td>4.69</td><td>19.48</td><td>32.13</td><td>18.96</td><td class="name">† CUP Table IV · TGRS 2022</td></tr>
+      <tr><td class="name">PIR（ACM MM 2023）</td><td>9.88</td><td>27.26</td><td>39.16</td><td>6.97</td><td>24.56</td><td>38.92</td><td>24.46</td><td class="name">† EAPA Table 1 · ACM MM 2023</td></tr>
+      <tr><td class="name">DOVE（TGRS 2024）</td><td>8.66</td><td>22.35</td><td>34.95</td><td>6.04</td><td>23.95</td><td>40.35</td><td>22.72</td><td class="name">† EAPA Table 1 · TGRS 2024</td></tr>
+      <tr><td colspan="9" style="background:#f1f5f9;font-weight:600">② CLIP 系（基线 / 微调 / 2025-2026 最新）</td></tr>
+      <tr><td class="name">CLIP 零样本（ICML 2021）</td><td>6.68</td><td>21.50</td><td>33.76</td><td>5.50</td><td>19.43</td><td>30.17</td><td>19.51</td><td class="name">本机 · ICML 2021</td></tr>
+      <tr><td class="name">CLIP 线性探测（ICML 2021）</td><td>9.33</td><td>31.75</td><td>45.11</td><td>7.46</td><td>24.92</td><td>38.77</td><td>26.22</td><td class="name">本机 · ICML 2021</td></tr>
+      <tr><td class="name">GLISA（TGRS 2024）</td><td>19.52</td><td>40.44</td><td>52.28</td><td>14.75</td><td>39.50</td><td>55.46</td><td>36.99</td><td class="name">† EAPA Table 1 · TGRS 2024</td></tr>
+      <tr><td class="name">IERR（TGRS 2024）</td><td>17.29</td><td>35.41</td><td>48.58</td><td>13.07</td><td>35.32</td><td>51.31</td><td>33.50</td><td class="name">† EAPA Table 1 · TGRS 2024</td></tr>
+      <tr><td class="name">HarMA（ICLR-W 2024）</td><td>16.36</td><td>34.48</td><td>47.74</td><td>12.92</td><td>37.17</td><td>53.07</td><td>33.62</td><td class="name">† EAPA Table 1 · ICLR-W 2024</td></tr>
+      <tr><td colspan="9" style="background:#f1f5f9;font-weight:600">③ Prompt 学习</td></tr>
+      <tr><td class="name">VPT（ECCV 2022）</td><td>7.23</td><td>19.40</td><td>30.77</td><td>6.94</td><td>25.26</td><td>40.73</td><td>21.72</td><td class="name">† EAPA Table 1 · ECCV 2022</td></tr>
+      <tr><td class="name">MaPLE（CVPR 2023）</td><td>7.93</td><td>26.78</td><td>42.42</td><td>6.88</td><td>24.47</td><td>40.12</td><td>24.77</td><td class="name">† EAPA Table 1 · CVPR 2023</td></tr>
+      <tr><td class="name">CUP（TNNLS 2025）</td><td>13.14</td><td>36.14</td><td>51.36</td><td>12.17</td><td>35.36</td><td>52.45</td><td>33.43 †</td><td class="name">† 原论文 · TNNLS 2025</td></tr>
+      <tr><td class="name">DFIM（IJCAI 2025）</td><td>23.42</td><td>45.09</td><td>62.63</td><td>17.70</td><td>46.61</td><td>63.42</td><td>43.14 †</td><td class="name">† <a href="https://www.ijcai.org/proceedings/2025/0647.pdf" target="_blank">原论文 Table 1</a> · RSICD · ViT-B/32</td></tr>
+      <tr><td class="name">PDAR-RSITR（IJCAI 2026）</td><td>18.76</td><td>39.79</td><td>54.24</td><td>15.54</td><td>42.46</td><td>58.57</td><td>38.23 †</td><td class="name">† <a href="https://www.ijcai.org/proceedings/2026/0661.pdf" target="_blank">原论文 Table 1/2</a> · RSICD · mR 为六项均值</td></tr>
+      <tr><td class="name">RRSITR（CVPR 2026，0% 噪声）</td><td>15.86</td><td>35.50</td><td>48.54</td><td>12.05</td><td>34.68</td><td>50.41</td><td>32.84 †</td><td class="name">† <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Song_Robust_Remote_Sensing_Image-Text_Retrieval_with_Noisy_Correspondence_CVPR_2026_paper.html" target="_blank">CVPR 原文/补充表 1</a> · ViT-B/32，5 seeds</td></tr>
+      <tr><td class="name">EAPA（ACM MM 2025）</td><td>20.31</td><td>40.81</td><td>53.34</td><td>14.84</td><td>39.51</td><td>55.90</td><td>37.45</td><td class="name">† 原论文 · ACM MM 2025</td></tr>
+      <tr><td class="name">CMER（JAG 2026）</td><td>15.55</td><td>35.49</td><td>49.03</td><td>10.66</td><td>33.41</td><td>51.49</td><td>32.61 †</td><td class="name">† 原论文 · JAG 2026 · ViT-L/14 + BERT</td></tr>
+      <tr><td class="name">Ours（工具 + agent + GRPO 冷启动 · 2026）<span class="badge best">主方法</span></td><td>21.50</td><td>51.88</td><td>67.70</td><td>15.72</td><td>42.03</td><td>59.88</td><td><b>43.12</b></td><td class="name">本机 · 2026</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>对比表 · RSITMD（仿 CUP Table III，七指标）</h2>
+    <table>
+      <tr><th style="text-align:left">方法</th><th>I2T R@1</th><th>R@5</th><th>R@10</th><th>T2I R@1</th><th>R@5</th><th>R@10</th><th>mR</th><th style="text-align:left">来源</th></tr>
+      <tr><td colspan="9" style="background:#f1f5f9;font-weight:600">① 非 CLIP 系（跨模态检索方法）</td></tr>
+      <tr><td class="name">LW-MCR-b（TGRS 2022）</td><td>9.07</td><td>22.79</td><td>38.05</td><td>6.11</td><td>27.74</td><td>49.56</td><td>25.55</td><td class="name">† CUP Table III · TGRS 2022</td></tr>
+      <tr><td class="name">LW-MCR-d（TGRS 2022）</td><td>10.18</td><td>28.98</td><td>39.82</td><td>7.79</td><td>30.18</td><td>49.78</td><td>27.79</td><td class="name">† CUP Table III · TGRS 2022</td></tr>
+      <tr><td class="name">LW-MCR-u（TGRS 2022）</td><td>9.73</td><td>26.77</td><td>37.61</td><td>9.25</td><td>34.07</td><td>54.03</td><td>28.58</td><td class="name">† CUP Table III · TGRS 2022</td></tr>
+      <tr><td class="name">GaLR w/o MR（TGRS 2022）</td><td>13.05</td><td>30.09</td><td>42.70</td><td>10.47</td><td>36.34</td><td>53.35</td><td>31.00</td><td class="name">† CUP Table III · TGRS 2022</td></tr>
+      <tr><td class="name">GaLR with MR（TGRS 2022）</td><td>14.82</td><td>31.64</td><td>42.48</td><td>11.15</td><td>36.68</td><td>51.68</td><td>31.41</td><td class="name">† CUP Table III · TGRS 2022（T2I R@1 按 mR 反推，经 PE-RSITR 表核对）</td></tr>
+      <tr><td class="name">PIR（ACM MM 2023）</td><td>18.14</td><td>41.15</td><td>52.88</td><td>12.17</td><td>41.68</td><td>63.41</td><td>38.24</td><td class="name">† EAPA Table 1 · ACM MM 2023</td></tr>
+      <tr><td class="name">DOVE（TGRS 2024）</td><td>16.81</td><td>36.80</td><td>49.93</td><td>12.20</td><td>44.13</td><td>66.50</td><td>37.73</td><td class="name">† EAPA Table 1 · TGRS 2024</td></tr>
+      <tr><td colspan="9" style="background:#f1f5f9;font-weight:600">② CLIP 系（基线 / 微调 / 2025-2026 最新）</td></tr>
+      <tr><td class="name">CLIP 零样本（ICML 2021）</td><td>10.84</td><td>28.10</td><td>37.39</td><td>10.23</td><td>30.96</td><td>45.90</td><td>27.24</td><td class="name">本机 · ICML 2021</td></tr>
+      <tr><td class="name">CLIP 线性探测（ICML 2021）</td><td>18.14</td><td>36.95</td><td>50.44</td><td>12.82</td><td>39.77</td><td>56.79</td><td>35.82</td><td class="name">本机 · ICML 2021</td></tr>
+      <tr><td class="name">GLISA（TGRS 2024）</td><td>28.21</td><td>50.94</td><td>62.50</td><td>20.50</td><td>54.80</td><td>72.19</td><td>48.41</td><td class="name">† EAPA Table 1 · TGRS 2024（行内不自洽，见备注）</td></tr>
+      <tr><td class="name">IERR（TGRS 2024）</td><td>27.66</td><td>48.89</td><td>61.06</td><td>24.43</td><td>56.59</td><td>72.66</td><td>48.55</td><td class="name">† EAPA Table 1 · TGRS 2024</td></tr>
+      <tr><td class="name">HarMA（ICLR-W 2024）</td><td>25.81</td><td>48.37</td><td>60.61</td><td>19.92</td><td>53.27</td><td>71.21</td><td>46.53</td><td class="name">† EAPA Table 1 · ICLR-W 2024</td></tr>
+      <tr><td colspan="9" style="background:#f1f5f9;font-weight:600">③ Prompt 学习</td></tr>
+      <tr><td class="name">VPT（ECCV 2022）</td><td>14.98</td><td>32.05</td><td>40.15</td><td>15.97</td><td>41.35</td><td>60.35</td><td>34.14</td><td class="name">† EAPA Table 1 · ECCV 2022</td></tr>
+      <tr><td class="name">MaPLE（CVPR 2023）</td><td>16.96</td><td>39.97</td><td>53.02</td><td>13.59</td><td>43.25</td><td>61.92</td><td>38.12</td><td class="name">† EAPA Table 1 · CVPR 2023</td></tr>
+      <tr><td class="name">CUP（TNNLS 2025）</td><td>23.23</td><td>45.80</td><td>60.84</td><td>19.84</td><td>52.83</td><td>71.11</td><td>45.61 †</td><td class="name">† 原论文 · TNNLS 2025</td></tr>
+      <tr><td class="name">DFIM（IJCAI 2025）</td><td>34.97</td><td>57.36</td><td>71.25</td><td>28.72</td><td>59.83</td><td>77.92</td><td>55.01 †</td><td class="name">† <a href="https://www.ijcai.org/proceedings/2025/0647.pdf" target="_blank">原论文 Table 1</a> · RSITMD · ViT-B/32</td></tr>
+      <tr><td class="name">PDAR-RSITR（IJCAI 2026）</td><td>28.54</td><td>52.34</td><td>66.05</td><td>26.16</td><td>59.07</td><td>75.78</td><td>51.32 †</td><td class="name">† <a href="https://www.ijcai.org/proceedings/2026/0661.pdf" target="_blank">原论文 Table 1/2</a> · RSITMD · mR 为六项均值</td></tr>
+      <tr><td class="name">RRSITR（CVPR 2026，0% 噪声）</td><td>25.44</td><td>46.82</td><td>58.98</td><td>20.88</td><td>53.59</td><td>70.90</td><td>46.10 †</td><td class="name">† <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Song_Robust_Remote_Sensing_Image-Text_Retrieval_with_Noisy_Correspondence_CVPR_2026_paper.html" target="_blank">CVPR 原文/补充表 1</a> · ViT-B/32，5 seeds</td></tr>
+      <tr><td class="name">EAPA（ACM MM 2025）</td><td>29.87</td><td>53.32</td><td>62.83</td><td>24.16</td><td>57.48</td><td>71.81</td><td>49.91</td><td class="name">† 原论文 · ACM MM 2025</td></tr>
+      <tr><td class="name">CMER（JAG 2026）</td><td>23.67</td><td>49.77</td><td>63.93</td><td>17.25</td><td>56.41</td><td>81.15</td><td>48.70 †</td><td class="name">† 原论文 · JAG 2026 · ViT-L/14 + BERT</td></tr>
+      <tr><td class="name">Ours（工具 + agent + GRPO 冷启动 · 2026）<span class="badge best">主方法</span></td><td>36.50</td><td>65.93</td><td>75.88</td><td>32.19</td><td>64.04</td><td>77.24</td><td><b>58.63</b></td><td class="name">本机 · 2026</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>新增顶会结果｜噪声对应鲁棒性</h2>
+    <table>
+      <tr><th style="text-align:left">论文</th><th>会议</th><th>RSICD mR</th><th>RSITMD mR</th><th style="text-align:left">可用于什么对比</th></tr>
+      <tr><td class="name">RRSITR：Robust Remote Sensing Image-Text Retrieval with Noisy Correspondence</td><td>CVPR 2026</td><td>32.84 †</td><td>46.10 †</td><td class="name">0% 噪声基线；论文另报告 20/40/60/80% 噪声协议，适合作为你噪声曲线的顶会参照</td></tr>
+    </table>
+    <div class="note-cell" style="margin-top:8px">† 取自 CVPR 2026 补充材料 Table 1，ViT-B/32、5 seeds；不能与本机 ViT-L/14 单 seed 结果直接宣称严格优劣。RRSITR 的噪声是训练集图文错配（noisy correspondence），与你当前的 query word-drop 噪声不是同一种扰动，图中应分开标注。</div>
+  </div>
+
+  <div class="card">
+    <h2>数字陷阱（写表前必须知道）</h2>
+    <div class="note-cell" style="line-height:1.8">
+      ① 协议不一致——DKP 表里 CUP 的 RSITMD 只有 42.16（CUP 论文自报 45.61），跨论文数字差 2-3 点，"比 2026 顶刊高 8 点"不能直接写进论文；<br>
+      ② 骨干不同——2026 期刊论文多用 ViT-B/32、B/16，你是 L/14，领先含骨干成分，表里必须写清；<br>
+      ③ seed 不同——别人 5 次平均，你单 seed，多 seed 跑完换均值。<br>
+      ④ GLISA RSITMD 行照抄 EAPA Table 1 原样但行内不自洽（六数均值 48.19 ≠ 表内 mR 48.41），原论文订阅墙无法裁决，引用时只引 mR 更稳；<br>
+      ⑤ CMER 文本编码器是 BERT（非 CLIP）。<br>
+      三数据集台阶预期：零样本 &lt; 线性探测 &lt; CUP &lt; Ours，完美递增（已核实 ② 组数字）。<br>
+      I2T = 图搜文（Image-to-Text），T2I = 文搜图（Text-to-Image），mR = 六项 R@K 均值。
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>待办（这张表怎么做）</h2>
+    <div class="note-cell" style="line-height:1.8">
+      1. 全部对比行已填完并 mR 验算（2026-09-16），Ours 三集七指标已补齐（58.55 / 43.12 / 58.63）<br>
+      2. 标注规范：粗体最优、† 引用（表注"取自 [文献]"）、每表表注写协议（骨干/划分/seed）<br>
+      3. Ours 行：等 RSITMD 多 seed 跑完换均值，口径与其他论文对齐
+    </div>
+  </div>
+</section>
+
+<script>
+const TODOS = [
+  { group: "P0 实验", items: [
+    { id: "a1", t: "方案 A：UCM 域内分类器训练（21 类线性头，冻结骨干）", note: "正在进行，约 20 分钟", p: "P0" },
+    { id: "a2", t: "主方法重跑：域内工具 + agent + GRPO 冷启动（三数据集）", note: "三集完成：58.55 / 43.12 / 58.63", p: "P0" },
+    { id: "a3", t: "随机工具消融行（三数据集）", note: "三集完成：56.47 / 42.75 / 58.16", p: "P0" },
+    { id: "a4", t: "format-only 补跑 RSICD / RSITMD", note: "UCM 已跑完：63.66（注入率 0%）", p: "P0" },
+    { id: "a5", t: "硬命中奖励（跑完抄数字）", note: "UCM 已跑完：61.64（注入率 0%）", p: "P0" },
+    { id: "a6", t: "λ = 0.5 / 2.0 敏感性（跑完抄数字）", note: "UCM 已跑完：λ=0.5 57.94（98.9%）/ λ=2.0 56.97（75.4%）", p: "P0" },
+    { id: "a7", t: "检查主方法工具调用率", note: "已确认：λ=1.0 g8fs 90.3%；format-only 0%（奖励黑客实锤）", p: "P0" },
+    { id: "a8", t: "从旧服务器恢复 GRPO stats（scp）", note: "训练曲线 / 奖励分解图的数据", p: "P0" },
+  ]},
+  { group: "P1 实验", items: [
+    { id: "b1", t: "RSITMD 3 seeds", note: "多 seed 平均，对标 CUP 论文 5 次平均", p: "P1" },
+  ]},
+  { group: "图表", items: [
+    { id: "c1", t: "训练曲线图（4 子图）", note: "数据已有，交给 VSCode 画", p: "P1" },
+    { id: "c2", t: "λ 敏感性柱状图", note: "学 EAPA Fig 3 的样式", p: "P1" },
+    { id: "c3", t: "定性检索可视化", note: "EAPA 没有 = 差异化加分", p: "P1" },
+  ]},
+  { group: "表格 / 文字", items: [
+    { id: "d1", t: "抄 UCM 列经典方法数字（CUP PDF Table V）", note: "图片表格手动抄", p: "P1" },
+    { id: "d2", t: "主表表注三句话（协议声明：骨干 / 划分 / seed）", note: "", p: "P1" },
+  ]},
+];
+
+const PAPERS = [
+  { id: "e1", t: "EAPA（ACM MM 2025，新疆大学）", note: "Entity-Level Alignment with Prompt-Guided Adapter" },
+  { id: "e11", t: "DFIM（IJCAI 2025）", note: "Enhancing Semantic Clarity: Discriminative and Fine-grained Information Mining for Remote Sensing Image-Text Retrieval；RSICD mR 43.14，RSITMD mR 55.01；ViT-B/32。原文：https://www.ijcai.org/proceedings/2025/0647.pdf" },
+  { id: "e12", t: "PDAR-RSITR（IJCAI 2026）", note: "A Progressive Decoupling-Aggregation-Refinement Framework for Remote Sensing Image-Text Retrieval；报告 RSICD / RSITMD / UCM，适合补充三数据集顶会对照。原文：https://www.ijcai.org/proceedings/2026/0661.pdf" },
+  { id: "e13", t: "RRSITR（CVPR 2026）", note: "Robust Remote Sensing Image-Text Retrieval with Noisy Correspondence；CVPR 2026，专门用于噪声对应鲁棒性；补充材料包含 0/20/40/60/80% 噪声协议。原文：https://openaccess.thecvf.com/content/CVPR2026/html/Song_Robust_Remote_Sensing_Image-Text_Retrieval_with_Noisy_Correspondence_CVPR_2026_paper.html" },
+  { id: "e2", t: "Visual-RFT", note: "" },
+  { id: "e3", t: "GraphRAG-R1", note: "" },
+  { id: "e4", t: "DeepEyesV2", note: "" },
+  { id: "e5", t: "RRSITR", note: "" },
+  { id: "e6", t: "Text Before Vision", note: "" },
+  { id: "e7", t: "ToolZero（EMNLP 2025 Findings，哈工大+华为）", note: "优先读：纯 RL 工具学习 + GRPO；奖励 R_format+R_tool 与主方法同构；Table 5 Base vs Instruct 初始化对照 = 冷启动 vs SFT-init 先例" },
+  { id: "e8", t: "VisTA（arXiv 2505.20289）", note: "视觉工具选择 + RL 训练；看它怎么把 RL 驱动工具使用频率画成行为曲线" },
+  { id: "e9", t: "ThinkGeo（CVPR 2026 MONTI Best Paper Oral）", note: "遥感 agent benchmark；14 个工具 ReAct 循环；related work 表格可引用" },
+  { id: "e10", t: "Big Earth Data 多 agent（Big Earth Data 2026，清华）", note: "ExpertsRS 系统；遥感顶刊里 agent 论文的写作模板（md 全文）" },
+];
+
+const KEY_DONE = "cup_board_done";
+const KEY_NOTES = "cup_board_notes";
+
+function loadDone() {
+  try { return new Set(JSON.parse(localStorage.getItem(KEY_DONE)) || []); }
+  catch (e) { return new Set(); }
+}
+const DEFAULT_DONE = ["a1"];
+const done = new Set([...loadDone(), ...DEFAULT_DONE]);
+function saveDone(s) { localStorage.setItem(KEY_DONE, JSON.stringify([...s])); }
+function loadNotes() {
+  try { return JSON.parse(localStorage.getItem(KEY_NOTES)) || {}; }
+  catch (e) { return {}; }
+}
+function saveNotes(n) { localStorage.setItem(KEY_NOTES, JSON.stringify(n)); }
+
+const notes = loadNotes();
+
+function renderTodos() {
+  const box = document.getElementById("tab-todo");
+  box.innerHTML = "";
+  let total = 0, finished = 0;
+  TODOS.forEach(g => {
+    const card = document.createElement("div");
+    card.className = "card";
+    let gDone = 0;
+    const items = g.items.map(it => {
+      total++;
+      if (done.has(it.id)) gDone++;
+      const div = document.createElement("div");
+      div.className = "todo-item";
+      const cb = document.createElement("input");
+      cb.type = "checkbox";
+      cb.id = it.id;
+      cb.checked = done.has(it.id);
+      cb.addEventListener("change", () => {
+        if (cb.checked) done.add(it.id); else done.delete(it.id);
+        saveDone(done);
+        renderTodos();
+      });
+      const label = document.createElement("label");
+      label.htmlFor = it.id;
+      label.innerHTML = '<span class="t">' + it.t +
+        (it.p ? '<span class="pri ' + it.p.toLowerCase() + '">' + it.p + '</span>' : '') +
+        '</span>' + (it.note ? '<div class="note">' + it.note + '</div>' : '');
+      div.appendChild(cb);
+      div.appendChild(label);
+      card.appendChild(div);
+      return div;
+    });
+    finished += gDone;
+    const h = document.createElement("h2");
+    h.innerHTML = g.group + ' <span class="count">' + gDone + ' / ' + g.items.length + '</span>';
+    card.insertBefore(h, card.firstChild);
+    box.appendChild(card);
+  });
+  const prog = document.createElement("div");
+  prog.className = "card";
+  prog.innerHTML = '<h2>总进度</h2><div style="background:#f1f5f9;border-radius:6px;height:10px;overflow:hidden"><div style="background:var(--green);height:100%;width:' +
+    (total ? Math.round(finished / total * 100) : 0) + '%"></div></div><div class="note-cell" style="margin-top:6px">' + finished + ' / ' + total + ' 已完成</div>';
+  box.appendChild(prog);
+}
+
+function renderPapers() {
+  const box = document.getElementById("tab-papers");
+  box.innerHTML = "";
+  let doneCount = 0;
+  PAPERS.forEach(p => {
+    if (done.has(p.id)) doneCount++;
+    const card = document.createElement("div");
+    card.className = "card paper-card";
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.id = p.id;
+    cb.checked = done.has(p.id);
+    cb.addEventListener("change", () => {
+      if (cb.checked) done.add(p.id); else done.delete(p.id);
+      saveDone(done);
+      renderPapers();
+    });
+    const info = document.createElement("div");
+    info.className = "paper-info";
+    info.innerHTML = '<div class="pt">' + p.t + '</div>' +
+      (p.note ? '<div class="note" style="font-size:12px;color:var(--gray)">' + p.note + '</div>' : '');
+    const ta = document.createElement("textarea");
+    ta.placeholder = "4 行笔记：做了什么实验 / 表怎么排 / 能抄什么 / 不用做什么";
+    ta.value = notes[p.id] || "";
+    ta.addEventListener("input", () => { notes[p.id] = ta.value; saveNotes(notes); });
+    info.appendChild(ta);
+    card.appendChild(cb);
+    card.appendChild(info);
+    box.appendChild(card);
+  });
+  const prog = document.createElement("div");
+  prog.className = "card";
+  prog.innerHTML = '<h2>进度 <span class="count">' + doneCount + ' / ' + PAPERS.length + '</span></h2>';
+  box.appendChild(prog);
+}
+
+document.querySelectorAll("nav button").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll("nav button").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    ["data", "ablation", "todo", "papers", "compare"].forEach(t => {
+      document.getElementById("tab-" + t).hidden = t !== btn.dataset.tab;
+    });
+  });
+});
+
+renderTodos();
+renderPapers();
+</script>
+</body>
+</html>

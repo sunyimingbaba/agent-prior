@@ -39,6 +39,9 @@ class BaseDataModule(LightningDataModule):
         self.draw_false_text = _config["draw_false_text"]
         self.image_only = _config["image_only"]
 
+        self.use_agent_prior = _config.get("use_agent_prior", False)
+        self.agent_cache_dir = _config.get("agent_cache_dir", "")
+
         self.train_transform_keys = (
             ["default_train"]
             if len(_config["train_transform_keys"]) == 0
@@ -85,6 +88,8 @@ class BaseDataModule(LightningDataModule):
             draw_false_image=self.draw_false_image,
             draw_false_text=self.draw_false_text,
             image_only=self.image_only,
+            use_agent_prior=self.use_agent_prior,
+            agent_cache_dir=self.agent_cache_dir,
         )
 
     def set_val_dataset(self):
@@ -98,6 +103,8 @@ class BaseDataModule(LightningDataModule):
             draw_false_image=self.draw_false_image,
             draw_false_text=self.draw_false_text,
             image_only=self.image_only,
+            use_agent_prior=self.use_agent_prior,
+            agent_cache_dir=self.agent_cache_dir,
         )
 
         if hasattr(self, "dataset_cls_no_false"):
@@ -111,6 +118,8 @@ class BaseDataModule(LightningDataModule):
                 draw_false_image=0,
                 draw_false_text=0,
                 image_only=self.image_only,
+                use_agent_prior=self.use_agent_prior,
+                agent_cache_dir=self.agent_cache_dir,
             )
 
     def make_no_false_val_dset(self, image_only=False):
@@ -124,6 +133,8 @@ class BaseDataModule(LightningDataModule):
             draw_false_image=0,
             draw_false_text=0,
             image_only=image_only,
+            use_agent_prior=self.use_agent_prior,
+            agent_cache_dir=self.agent_cache_dir,
         )
 
     def set_test_dataset(self):
@@ -137,6 +148,8 @@ class BaseDataModule(LightningDataModule):
             draw_false_image=self.draw_false_image,
             draw_false_text=self.draw_false_text,
             image_only=self.image_only,
+            use_agent_prior=self.use_agent_prior,
+            agent_cache_dir=self.agent_cache_dir,
         )
 
     def make_no_false_test_dset(self, image_only=False):
@@ -150,6 +163,8 @@ class BaseDataModule(LightningDataModule):
             draw_false_image=0,
             draw_false_text=0,
             image_only=image_only,
+            use_agent_prior=self.use_agent_prior,
+            agent_cache_dir=self.agent_cache_dir,
         )
 
     def setup(self, stage):

@@ -22,11 +22,15 @@ class BaseDataset(torch.utils.data.Dataset):
         draw_false_image=0,
         draw_false_text=0,
         image_only=False,
+        use_agent_prior=False,
+        agent_cache_dir="",
     ):
         """
         data_dir : where dataset file *.arrow lives; existence should be guaranteed via DataModule.prepare_data
         transform_keys : keys for generating augmented views of images
         text_column_name : pyarrow table column name that has list of strings as elements
+        use_agent_prior : 为 True 时每个样本额外携带离线 MLLM 先验 h_end（读 agent_cache_dir）
+        agent_cache_dir : agent 缓存根目录（rollout.py 的输出），如 ./agent_cache
         """
         assert len(transform_keys) >= 1
         super().__init__()
@@ -43,6 +47,8 @@ class BaseDataset(torch.utils.data.Dataset):
         self.draw_false_text = draw_false_text
         self.image_only = image_only
         self.data_dir = data_dir
+        self.use_agent_prior = use_agent_prior
+        self.agent_cache_dir = agent_cache_dir
 
         # print("this is text_column_name:{}".format(text_column_name))
         if len(names) != 0:
@@ -56,6 +62,8 @@ class BaseDataset(torch.utils.data.Dataset):
 
             self.table_names = list()
             for i, name in enumerate(names):
+                if i >= len(tables):    # 表文件缺失（如 RSITMD 无 val 表）：跳过该 name
+                    continue
                 self.table_names += [name] * len(tables[i])
             # print("this is the self.table_names:{}".format(self.table_names))
             self.table = pa.concat_tables(tables, promote=True)
@@ -124,14 +132,25 @@ class BaseDataset(torch.utils.data.Dataset):
         _index, caption_index = self.index_mapper[index]
         image_path = self.table["path"][_index]
 
-
-        return {
+        ret = {
             "clip_img": clip_img,
             "img_index": self.index_mapper[index][0],
             "cap_index": self.index_mapper[index][1],
             "raw_index": index,
-            "path": image_path
+            "path": image_path,
         }
+
+        # agent 先验：按 (table_name, 图像行号) 读 h_end 缓存，与 rollout.py 约定一致。
+        # table_names[i] 记录第 i 行属于哪个 .arrow 表（含 split），
+        # 同一张图的多个 caption 共享同一个 h_end（缓存只按图存一份）。
+        # 缓存缺失直接抛 FileNotFoundError，不静默回退，避免验证指标失真。
+        if self.use_agent_prior:
+            cache_path = os.path.join(
+                self.agent_cache_dir, self.table_names[_index], f"{_index}.pt"
+            )
+            ret["agent_hidden"] = torch.load(cache_path, map_location="cpu")
+
+        return ret
 
     def get_false_image(self, rep, image_key="image"):
         random_index = random.randint(0, len(self.index_mapper) - 1)
@@ -214,5 +233,9 @@ class BaseDataset(torch.utils.data.Dataset):
             )
             dict_batch[f"{text_key}_txt"] = text
             dict_batch[f"{text_key}_token"] = clip_txt
+
+        # agent 先验：list of [3584] → [B, 3584]，与 clip_img/clip_text 的处理对齐
+        if "agent_hidden" in dict_batch:
+            dict_batch["agent_hidden"] = torch.stack(dict_batch["agent_hidden"])
 
         return dict_batch
