@@ -1,0 +1,18 @@
+{
+  "scope": "smoke",
+  "device": "cpu",
+  "python": "3.12.6",
+  "torch": "2.4.1+cu124",
+  "pyarrow": "14.0.0",
+  "cases_sha256": "7e3fa7e2e3622b0846706a76d6fe8b265eeda13daaf7411a369758bef040c9b6",
+  "audit_sha256": "d6618864396f5808abd3a6b0d2ad0bd10612e4fefc25b2fa7876b3f01f3abd54",
+  "model_sha256": {
+    "agse": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc",
+    "clip": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836"
+  },
+  "count_images": 4,
+  "count_pairs_per_model": 8,
+  "original_first_caption_used_for_prior": true,
+  "status": "complete",
+  "scored_pairs": 16
+}
