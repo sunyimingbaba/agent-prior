@@ -1,0 +1,101 @@
+{
+  "dataset": "UCM val",
+  "model": "CLIP ViT-L/14 original backbone",
+  "task": "image-text minimal pair, number",
+  "review": "assistant visual review; independent human review pending",
+  "n": 10,
+  "pairacc": 0.9,
+  "mean_margin": 0.002484853565692902,
+  "rows": [
+    {
+      "image": "190.tif",
+      "arrow_row": 18,
+      "positive": "There are two airplanes in the image.",
+      "negative": "There are three airplanes in the image.",
+      "positive_score": 0.246848002076149,
+      "negative_score": 0.2496536672115326,
+      "margin": -0.002805665135383606
+    },
+    {
+      "image": "2081.tif",
+      "arrow_row": 200,
+      "positive": "There are three tennis courts in the image.",
+      "negative": "There are four tennis courts in the image.",
+      "positive_score": 0.3263929784297943,
+      "negative_score": 0.32409849762916565,
+      "margin": 0.002294480800628662
+    },
+    {
+      "image": "2082.tif",
+      "arrow_row": 201,
+      "positive": "There are four tennis courts in the image.",
+      "negative": "There are three tennis courts in the image.",
+      "positive_score": 0.2996272146701813,
+      "negative_score": 0.2982446551322937,
+      "margin": 0.0013825595378875732
+    },
+    {
+      "image": "2084.tif",
+      "arrow_row": 203,
+      "positive": "There are two tennis courts in the image.",
+      "negative": "There are three tennis courts in the image.",
+      "positive_score": 0.2905830442905426,
+      "negative_score": 0.2862710654735565,
+      "margin": 0.004311978816986084
+    },
+    {
+      "image": "2085.tif",
+      "arrow_row": 204,
+      "positive": "There are two tennis courts in the image.",
+      "negative": "There are three tennis courts in the image.",
+      "positive_score": 0.3101343810558319,
+      "negative_score": 0.3087041974067688,
+      "margin": 0.0014301836490631104
+    },
+    {
+      "image": "2086.tif",
+      "arrow_row": 205,
+      "positive": "There are four tennis courts in the image.",
+      "negative": "There are three tennis courts in the image.",
+      "positive_score": 0.3119865655899048,
+      "negative_score": 0.3102536201477051,
+      "margin": 0.001732945442199707
+    },
+    {
+      "image": "2087.tif",
+      "arrow_row": 206,
+      "positive": "There are two tennis courts in the image.",
+      "negative": "There are three tennis courts in the image.",
+      "positive_score": 0.30095094442367554,
+      "negative_score": 0.2956024408340454,
+      "margin": 0.005348503589630127
+    },
+    {
+      "image": "2088.tif",
+      "arrow_row": 207,
+      "positive": "There are four tennis courts in the image.",
+      "negative": "There are three tennis courts in the image.",
+      "positive_score": 0.2985740602016449,
+      "negative_score": 0.29625454545021057,
+      "margin": 0.002319514751434326
+    },
+    {
+      "image": "2089.tif",
+      "arrow_row": 208,
+      "positive": "There are four tennis courts in the image.",
+      "negative": "There are three tennis courts in the image.",
+      "positive_score": 0.3039718270301819,
+      "negative_score": 0.2991220951080322,
+      "margin": 0.004849731922149658
+    },
+    {
+      "image": "2090.tif",
+      "arrow_row": 209,
+      "positive": "There are two tennis courts in the image.",
+      "negative": "There are three tennis courts in the image.",
+      "positive_score": 0.299762487411499,
+      "negative_score": 0.29577818512916565,
+      "margin": 0.003984302282333374
+    }
+  ]
+}
