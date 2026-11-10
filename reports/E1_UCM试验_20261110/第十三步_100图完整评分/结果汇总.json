@@ -1,0 +1,914 @@
+{
+  "overall": {
+    "CLIP_A_原句式": {
+      "n": 100,
+      "correct": 54,
+      "ties": 0,
+      "pairacc": 0.54,
+      "mean_margin": 0.0010948438942432403
+    },
+    "CLIP_B_改写句式": {
+      "n": 100,
+      "correct": 62,
+      "ties": 0,
+      "pairacc": 0.62,
+      "mean_margin": 0.0027271005511283874
+    },
+    "AGSE_A_原句式": {
+      "n": 100,
+      "correct": 81,
+      "ties": 0,
+      "pairacc": 0.81,
+      "mean_margin": 0.013915590494871139
+    },
+    "AGSE_B_改写句式": {
+      "n": 100,
+      "correct": 83,
+      "ties": 0,
+      "pairacc": 0.83,
+      "mean_margin": 0.013079356402158737
+    }
+  },
+  "grouped": [
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "数据来源",
+      "value": "UCM train",
+      "n": 78,
+      "correct": 47,
+      "ties": 0,
+      "pairacc": 0.6025641025641025,
+      "mean_margin": 0.001761444295063997
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "数据来源",
+      "value": "UCM val",
+      "n": 22,
+      "correct": 7,
+      "ties": 0,
+      "pairacc": 0.3181818181818182,
+      "mean_margin": -0.001268557526848533
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "目标类别",
+      "value": "住宅",
+      "n": 4,
+      "correct": 4,
+      "ties": 0,
+      "pairacc": 1.0,
+      "mean_margin": 0.003487318754196167
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "目标类别",
+      "value": "储罐",
+      "n": 26,
+      "correct": 16,
+      "ties": 0,
+      "pairacc": 0.6153846153846154,
+      "mean_margin": 0.001940364447923807
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "目标类别",
+      "value": "棒球场",
+      "n": 6,
+      "correct": 1,
+      "ties": 0,
+      "pairacc": 0.16666666666666666,
+      "mean_margin": -0.0006454984347025553
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "目标类别",
+      "value": "沙坑",
+      "n": 16,
+      "correct": 8,
+      "ties": 0,
+      "pairacc": 0.5,
+      "mean_margin": -0.00024559348821640015
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "目标类别",
+      "value": "网球场",
+      "n": 30,
+      "correct": 18,
+      "ties": 0,
+      "pairacc": 0.6,
+      "mean_margin": 0.0015400012334187826
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "目标类别",
+      "value": "飞机",
+      "n": 18,
+      "correct": 7,
+      "ties": 0,
+      "pairacc": 0.3888888888888889,
+      "mean_margin": 0.0003715604543685913
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "实际数量",
+      "value": "1",
+      "n": 20,
+      "correct": 2,
+      "ties": 0,
+      "pairacc": 0.1,
+      "mean_margin": -0.002998322993516922
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "实际数量",
+      "value": "2",
+      "n": 44,
+      "correct": 35,
+      "ties": 0,
+      "pairacc": 0.7954545454545454,
+      "mean_margin": 0.003942351110956885
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "实际数量",
+      "value": "3",
+      "n": 21,
+      "correct": 8,
+      "ties": 0,
+      "pairacc": 0.38095238095238093,
+      "mean_margin": -1.626639139084589e-05
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "实际数量",
+      "value": "4",
+      "n": 11,
+      "correct": 8,
+      "ties": 0,
+      "pairacc": 0.7272727272727273,
+      "mean_margin": 0.0009572058916091919
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "实际数量",
+      "value": "5",
+      "n": 1,
+      "correct": 1,
+      "ties": 0,
+      "pairacc": 1.0,
+      "mean_margin": 0.0014676153659820557
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "实际数量",
+      "value": "6",
+      "n": 2,
+      "correct": 0,
+      "ties": 0,
+      "pairacc": 0.0,
+      "mean_margin": -0.006732746958732605
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "实际数量",
+      "value": "7",
+      "n": 1,
+      "correct": 0,
+      "ties": 0,
+      "pairacc": 0.0,
+      "mean_margin": -0.0022023916244506836
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "数量方向",
+      "value": "正确数量较大",
+      "n": 44,
+      "correct": 37,
+      "ties": 0,
+      "pairacc": 0.8409090909090909,
+      "mean_margin": 0.003907530822537162
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "数量方向",
+      "value": "正确数量较小",
+      "n": 56,
+      "correct": 17,
+      "ties": 0,
+      "pairacc": 0.30357142857142855,
+      "mean_margin": -0.0011151244065591267
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "第一条描述明确含对应数词",
+      "value": "是",
+      "n": 64,
+      "correct": 44,
+      "ties": 0,
+      "pairacc": 0.6875,
+      "mean_margin": 0.002569962292909622
+    },
+    {
+      "model": "CLIP",
+      "wording": "A_原句式",
+      "group": "第一条描述明确含对应数词",
+      "value": "未检出",
+      "n": 36,
+      "correct": 10,
+      "ties": 0,
+      "pairacc": 0.2777777777777778,
+      "mean_margin": -0.001527588814496994
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "数据来源",
+      "value": "UCM train",
+      "n": 78,
+      "correct": 52,
+      "ties": 0,
+      "pairacc": 0.6666666666666666,
+      "mean_margin": 0.003602825105190277
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "数据来源",
+      "value": "UCM val",
+      "n": 22,
+      "correct": 10,
+      "ties": 0,
+      "pairacc": 0.45454545454545453,
+      "mean_margin": -0.00037774104963649404
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "目标类别",
+      "value": "住宅",
+      "n": 4,
+      "correct": 4,
+      "ties": 0,
+      "pairacc": 1.0,
+      "mean_margin": 0.012073297053575516
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "目标类别",
+      "value": "储罐",
+      "n": 26,
+      "correct": 16,
+      "ties": 0,
+      "pairacc": 0.6153846153846154,
+      "mean_margin": 0.004443498185047736
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "目标类别",
+      "value": "棒球场",
+      "n": 6,
+      "correct": 4,
+      "ties": 0,
+      "pairacc": 0.6666666666666666,
+      "mean_margin": 0.00024531781673431396
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "目标类别",
+      "value": "沙坑",
+      "n": 16,
+      "correct": 9,
+      "ties": 0,
+      "pairacc": 0.5625,
+      "mean_margin": 0.0012701842933893204
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "目标类别",
+      "value": "网球场",
+      "n": 30,
+      "correct": 19,
+      "ties": 0,
+      "pairacc": 0.6333333333333333,
+      "mean_margin": 0.0008201340834299724
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "目标类别",
+      "value": "飞机",
+      "n": 18,
+      "correct": 10,
+      "ties": 0,
+      "pairacc": 0.5555555555555556,
+      "mean_margin": 0.0034715019994311863
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "实际数量",
+      "value": "1",
+      "n": 20,
+      "correct": 6,
+      "ties": 0,
+      "pairacc": 0.3,
+      "mean_margin": -0.003728388994932175
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "实际数量",
+      "value": "2",
+      "n": 44,
+      "correct": 36,
+      "ties": 0,
+      "pairacc": 0.8181818181818182,
+      "mean_margin": 0.006464011628519405
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "实际数量",
+      "value": "3",
+      "n": 21,
+      "correct": 14,
+      "ties": 0,
+      "pairacc": 0.6666666666666666,
+      "mean_margin": 0.0026103215558188303
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "实际数量",
+      "value": "4",
+      "n": 11,
+      "correct": 6,
+      "ties": 0,
+      "pairacc": 0.5454545454545454,
+      "mean_margin": 0.002312069589441473
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "实际数量",
+      "value": "5",
+      "n": 1,
+      "correct": 0,
+      "ties": 0,
+      "pairacc": 0.0,
+      "mean_margin": -0.003939300775527954
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "实际数量",
+      "value": "6",
+      "n": 2,
+      "correct": 0,
+      "ties": 0,
+      "pairacc": 0.0,
+      "mean_margin": -0.005749434232711792
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "实际数量",
+      "value": "7",
+      "n": 1,
+      "correct": 0,
+      "ties": 0,
+      "pairacc": 0.0,
+      "mean_margin": -0.0019500255584716797
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "数量方向",
+      "value": "正确数量较大",
+      "n": 44,
+      "correct": 38,
+      "ties": 0,
+      "pairacc": 0.8636363636363636,
+      "mean_margin": 0.00780236077579585
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "数量方向",
+      "value": "正确数量较小",
+      "n": 56,
+      "correct": 24,
+      "ties": 0,
+      "pairacc": 0.42857142857142855,
+      "mean_margin": -0.0012606039111103331
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "第一条描述明确含对应数词",
+      "value": "是",
+      "n": 64,
+      "correct": 47,
+      "ties": 0,
+      "pairacc": 0.734375,
+      "mean_margin": 0.004971926799044013
+    },
+    {
+      "model": "CLIP",
+      "wording": "B_改写句式",
+      "group": "第一条描述明确含对应数词",
+      "value": "未检出",
+      "n": 36,
+      "correct": 15,
+      "ties": 0,
+      "pairacc": 0.4166666666666667,
+      "mean_margin": -0.0012637016673882802
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "数据来源",
+      "value": "UCM train",
+      "n": 78,
+      "correct": 65,
+      "ties": 0,
+      "pairacc": 0.8333333333333334,
+      "mean_margin": 0.01567907459460772
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "数据来源",
+      "value": "UCM val",
+      "n": 22,
+      "correct": 16,
+      "ties": 0,
+      "pairacc": 0.7272727272727273,
+      "mean_margin": 0.007663237777623263
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "目标类别",
+      "value": "住宅",
+      "n": 4,
+      "correct": 4,
+      "ties": 0,
+      "pairacc": 1.0,
+      "mean_margin": 0.03116150200366974
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "目标类别",
+      "value": "储罐",
+      "n": 26,
+      "correct": 23,
+      "ties": 0,
+      "pairacc": 0.8846153846153846,
+      "mean_margin": 0.017314071838672344
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "目标类别",
+      "value": "棒球场",
+      "n": 6,
+      "correct": 6,
+      "ties": 0,
+      "pairacc": 1.0,
+      "mean_margin": 0.01123037189245224
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "目标类别",
+      "value": "沙坑",
+      "n": 16,
+      "correct": 10,
+      "ties": 0,
+      "pairacc": 0.625,
+      "mean_margin": 0.0028236759826540947
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "目标类别",
+      "value": "网球场",
+      "n": 30,
+      "correct": 24,
+      "ties": 0,
+      "pairacc": 0.8,
+      "mean_margin": 0.014232080678145092
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "目标类别",
+      "value": "飞机",
+      "n": 18,
+      "correct": 14,
+      "ties": 0,
+      "pairacc": 0.7777777777777778,
+      "mean_margin": 0.015401317013634576
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "实际数量",
+      "value": "1",
+      "n": 20,
+      "correct": 16,
+      "ties": 0,
+      "pairacc": 0.8,
+      "mean_margin": 0.005490003526210785
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "实际数量",
+      "value": "2",
+      "n": 44,
+      "correct": 43,
+      "ties": 0,
+      "pairacc": 0.9772727272727273,
+      "mean_margin": 0.024819740517572922
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "实际数量",
+      "value": "3",
+      "n": 21,
+      "correct": 14,
+      "ties": 0,
+      "pairacc": 0.6666666666666666,
+      "mean_margin": 0.004829017179352897
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "实际数量",
+      "value": "4",
+      "n": 11,
+      "correct": 6,
+      "ties": 0,
+      "pairacc": 0.5454545454545454,
+      "mean_margin": 0.007987558841705322
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "实际数量",
+      "value": "5",
+      "n": 1,
+      "correct": 1,
+      "ties": 0,
+      "pairacc": 1.0,
+      "mean_margin": 0.006811976432800293
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "实际数量",
+      "value": "6",
+      "n": 2,
+      "correct": 1,
+      "ties": 0,
+      "pairacc": 0.5,
+      "mean_margin": -0.002863660454750061
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "实际数量",
+      "value": "7",
+      "n": 1,
+      "correct": 0,
+      "ties": 0,
+      "pairacc": 0.0,
+      "mean_margin": -0.0006667673587799072
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "数量方向",
+      "value": "正确数量较大",
+      "n": 44,
+      "correct": 39,
+      "ties": 0,
+      "pairacc": 0.8863636363636364,
+      "mean_margin": 0.016128505156798797
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "数量方向",
+      "value": "正确数量较小",
+      "n": 56,
+      "correct": 42,
+      "ties": 0,
+      "pairacc": 0.75,
+      "mean_margin": 0.01217687183192798
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "第一条描述明确含对应数词",
+      "value": "是",
+      "n": 64,
+      "correct": 56,
+      "ties": 0,
+      "pairacc": 0.875,
+      "mean_margin": 0.01937881181947887
+    },
+    {
+      "model": "AGSE",
+      "wording": "A_原句式",
+      "group": "第一条描述明确含对应数词",
+      "value": "未检出",
+      "n": 36,
+      "correct": 25,
+      "ties": 0,
+      "pairacc": 0.6944444444444444,
+      "mean_margin": 0.0042031970289018415
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "数据来源",
+      "value": "UCM train",
+      "n": 78,
+      "correct": 66,
+      "ties": 0,
+      "pairacc": 0.8461538461538461,
+      "mean_margin": 0.014427385078026699
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "数据来源",
+      "value": "UCM val",
+      "n": 22,
+      "correct": 17,
+      "ties": 0,
+      "pairacc": 0.7727272727272727,
+      "mean_margin": 0.008299982005899603
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "目标类别",
+      "value": "住宅",
+      "n": 4,
+      "correct": 4,
+      "ties": 0,
+      "pairacc": 1.0,
+      "mean_margin": 0.04042523354291916
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "目标类别",
+      "value": "储罐",
+      "n": 26,
+      "correct": 20,
+      "ties": 0,
+      "pairacc": 0.7692307692307693,
+      "mean_margin": 0.018024215331444375
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "目标类别",
+      "value": "棒球场",
+      "n": 6,
+      "correct": 6,
+      "ties": 0,
+      "pairacc": 1.0,
+      "mean_margin": 0.009232237935066223
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "目标类别",
+      "value": "沙坑",
+      "n": 16,
+      "correct": 10,
+      "ties": 0,
+      "pairacc": 0.625,
+      "mean_margin": 0.0020000068470835686
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "目标类别",
+      "value": "网球场",
+      "n": 30,
+      "correct": 26,
+      "ties": 0,
+      "pairacc": 0.8666666666666667,
+      "mean_margin": 0.008785066505273184
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "目标类别",
+      "value": "飞机",
+      "n": 18,
+      "correct": 17,
+      "ties": 0,
+      "pairacc": 0.9444444444444444,
+      "mean_margin": 0.01814775417248408
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "实际数量",
+      "value": "1",
+      "n": 20,
+      "correct": 16,
+      "ties": 0,
+      "pairacc": 0.8,
+      "mean_margin": 0.006197673082351684
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "实际数量",
+      "value": "2",
+      "n": 44,
+      "correct": 43,
+      "ties": 0,
+      "pairacc": 0.9772727272727273,
+      "mean_margin": 0.023304239931431683
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "实际数量",
+      "value": "3",
+      "n": 21,
+      "correct": 16,
+      "ties": 0,
+      "pairacc": 0.7619047619047619,
+      "mean_margin": 0.005930088105655852
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "实际数量",
+      "value": "4",
+      "n": 11,
+      "correct": 7,
+      "ties": 0,
+      "pairacc": 0.6363636363636364,
+      "mean_margin": 0.004475462165745822
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "实际数量",
+      "value": "5",
+      "n": 1,
+      "correct": 1,
+      "ties": 0,
+      "pairacc": 1.0,
+      "mean_margin": 0.003991603851318359
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "实际数量",
+      "value": "6",
+      "n": 2,
+      "correct": 0,
+      "ties": 0,
+      "pairacc": 0.0,
+      "mean_margin": -0.008264616131782532
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "实际数量",
+      "value": "7",
+      "n": 1,
+      "correct": 0,
+      "ties": 0,
+      "pairacc": 0.0,
+      "mean_margin": -0.0026286840438842773
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "数量方向",
+      "value": "正确数量较大",
+      "n": 44,
+      "correct": 40,
+      "ties": 0,
+      "pairacc": 0.9090909090909091,
+      "mean_margin": 0.01631811565973542
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "数量方向",
+      "value": "正确数量较小",
+      "n": 56,
+      "correct": 43,
+      "ties": 0,
+      "pairacc": 0.7678571428571429,
+      "mean_margin": 0.010534616985491343
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "第一条描述明确含对应数词",
+      "value": "是",
+      "n": 64,
+      "correct": 58,
+      "ties": 0,
+      "pairacc": 0.90625,
+      "mean_margin": 0.018165523884817958
+    },
+    {
+      "model": "AGSE",
+      "wording": "B_改写句式",
+      "group": "第一条描述明确含对应数词",
+      "value": "未检出",
+      "n": 36,
+      "correct": 25,
+      "ties": 0,
+      "pairacc": 0.6944444444444444,
+      "mean_margin": 0.0040372808774312334
+    }
+  ],
+  "wording_change": {
+    "CLIP": {
+      "images": 100,
+      "ranking_changed": 26,
+      "A_correct_B_incorrect": 9,
+      "A_incorrect_B_correct": 17,
+      "ties_in_either": 0
+    },
+    "AGSE": {
+      "images": 100,
+      "ranking_changed": 12,
+      "A_correct_B_incorrect": 5,
+      "A_incorrect_B_correct": 7,
+      "ties_in_either": 0
+    }
+  },
+  "method_comparison": {
+    "A_原句式": {
+      "both_correct": 51,
+      "clip_only": 3,
+      "agse_only": 30,
+      "both_incorrect_or_tie": 16
+    },
+    "B_改写句式": {
+      "both_correct": 56,
+      "clip_only": 6,
+      "agse_only": 27,
+      "both_incorrect_or_tie": 11
+    }
+  },
+  "checks": {
+    "results_complete": true,
+    "cases_match": true,
+    "historical_four": {
+      "passed": true,
+      "tolerance": 1e-06,
+      "pair_count": 16,
+      "score_count": 32,
+      "max_absolute_difference": 2.9802322387695312e-08,
+      "ranking_changes": 0
+    },
+    "historical_seventeen_max_difference": 2.9802322387695312e-08,
+    "historical_seventeen_checked_model_image_pairs": 34
+  }
+}
