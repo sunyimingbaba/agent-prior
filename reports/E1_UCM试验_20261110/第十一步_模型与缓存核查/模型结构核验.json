@@ -1,0 +1,25 @@
+{
+  "agse": {
+    "weights_only_metadata_loaded": true,
+    "parameter_entries": 524,
+    "use_agent_prior": true,
+    "agent_hidden_dim": 3584,
+    "clip_model": "ViT-L/14",
+    "agent_projection_weight_shape": [
+      1024,
+      3584
+    ]
+  },
+  "clip": {
+    "torchscript_loaded": true,
+    "parameter_entries": 449,
+    "visual_position_shape": [
+      257,
+      1024
+    ],
+    "text_embedding_shape": [
+      49408,
+      768
+    ]
+  }
+}

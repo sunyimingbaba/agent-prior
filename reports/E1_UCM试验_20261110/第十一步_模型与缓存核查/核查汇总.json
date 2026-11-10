@@ -1,0 +1,36 @@
+{
+  "sample_count": 100,
+  "split_counts": {
+    "val": 22,
+    "train": 78
+  },
+  "arrow_total_rows": {
+    "train": 1680,
+    "val": 210
+  },
+  "checks": {
+    "图像像素匹配": 100,
+    "第一条描述匹配清单": 100,
+    "张量3584维": 100,
+    "张量数值有限": 100,
+    "先验与传输归档一致": 100
+  },
+  "shapes": {
+    "(3584,)": 100
+  },
+  "dtypes": {
+    "torch.bfloat16": 100
+  },
+  "first_caption_contains_true_number_word": 64,
+  "model_files": {
+    "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/checkpoints/ucm_main_domain_tool.ckpt": {
+      "bytes": 1854653004,
+      "sha256": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc"
+    },
+    "/Users/botlv/cup-deploy-assets/models/ViT-L-14.pt": {
+      "bytes": 932768134,
+      "sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836"
+    }
+  },
+  "archive_sha256": "d2110e5033268b63a64f0a4d2dd812dfd75c7e901090de6a7e70168b6542304e"
+}
