@@ -1,0 +1,77 @@
+{
+  "mode": "compat",
+  "python": "3.13.13",
+  "python_executable": "/private/AGSE_E1_20261110/e1_prior_compat_20261111/venv/bin/python",
+  "python_prefix": "/private/AGSE_E1_20261110/e1_prior_compat_20261111/venv",
+  "packages": {
+    "torch": "2.10.0",
+    "transformers": "4.57.2",
+    "peft": "0.10.0",
+    "accelerate": "1.1.0",
+    "pyarrow": "21.0.0",
+    "torchvision": "0.25.0+cu130",
+    "pillow": "11.3.0",
+    "numpy": "2.4.3",
+    "tqdm": "4.66.5",
+    "ftfy": "6.3.1",
+    "regex": "2024.11.6",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.22.1"
+  },
+  "asset_paths": {
+    "base_model": {
+      "path": "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct",
+      "exists": true,
+      "under_private": true
+    },
+    "lora": {
+      "path": "/private/AGSE_E1_20261110/legacy/assets/ucm_main_lora",
+      "exists": true,
+      "under_private": true
+    },
+    "scene_head": {
+      "path": "/private/AGSE_E1_20261110/legacy/assets/ucm_scene_cls.pt",
+      "exists": true,
+      "under_private": true
+    },
+    "clip": {
+      "path": "/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt",
+      "exists": true,
+      "under_private": true
+    }
+  },
+  "processor_check": {
+    "ok": true,
+    "processor": "Qwen2_5_VLProcessor",
+    "qwen_class_imported": "Qwen2_5_VLForConditionalGeneration",
+    "peft_class_imported": "PeftModel",
+    "lora_tensor_headers": 584,
+    "scene_head_classes": 21,
+    "scene_head_feature_dim": 768
+  },
+  "gpu": {
+    "cuda_version": "13.0",
+    "available": true,
+    "arch_list": [
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_110",
+      "sm_120",
+      "compute_120"
+    ],
+    "name": "NVIDIA GeForce RTX 5090",
+    "capability": [
+      12,
+      0
+    ],
+    "tiny_compute_result": 4.0,
+    "tiny_compute_ok": true
+  },
+  "missing_required_packages": [],
+  "full_generation_tested": false,
+  "priors_generated": false,
+  "score_evaluated": false
+}

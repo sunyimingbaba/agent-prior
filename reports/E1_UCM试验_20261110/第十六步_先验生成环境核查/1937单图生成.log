@@ -1,0 +1,19 @@
+LOADING_QWEN
+`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading checkpoint shards:  20%|██        | 1/5 [00:03<00:15,  3.90s/it]
+Loading checkpoint shards:  40%|████      | 2/5 [00:08<00:12,  4.14s/it]
+Loading checkpoint shards:  60%|██████    | 3/5 [00:11<00:07,  3.87s/it]
+Loading checkpoint shards:  80%|████████  | 4/5 [00:15<00:03,  3.70s/it]
+Loading checkpoint shards: 100%|██████████| 5/5 [00:16<00:00,  2.79s/it]
+Loading checkpoint shards: 100%|██████████| 5/5 [00:16<00:00,  3.28s/it]
+已加载 LoRA 适配器: /private/AGSE_E1_20261110/legacy/assets/ucm_main_lora
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+The tokenizer you are loading from '/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e.  This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+LOADING_TOOL_CLIP
+this is name:/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt
+TOOL_PROBE storage tanks (0.63), airplane (0.04), parking lot (0.03) 0.629235
+GENERATING_ONE_PRIOR
+  [round 1] 模型输出: 'scene_classify\n addCriterion'
+SMOKE_RESULT {"purpose": "environment smoke; original caption only; not six-image intervention", "image": "1937.tif", "split": "train", "arrow_row": 1556, "caption": "Four storage tanks are arranged neatly on the ground .", "image_rgb_sha256": "d34589a2207d5463d7ebf83cb973be5b0d5e8e85dabe68b67876591d2af50d8a", "model": "Qwen2.5-VL-7B-Instruct", "lora": "ucm_main_lora", "device": "NVIDIA GeForce RTX 5090", "torch_version": "2.10.0", "cuda_version": "13.0", "temperature": 0.0, "max_new_tokens": 64, "max_rounds": 3, "threshold": 0.0, "manual_tool_probe": {"text": "storage tanks (0.63), airplane (0.04), parking lot (0.03)", "confidence": 0.6292350888252258}, "actual_tool_events": [], "tool_used": 0, "tool_filtered": 0, "hidden_shape": [3584], "hidden_dtype": "torch.bfloat16", "finite": true, "historical_prior_sha256": "a1ddbc360cdd708dd5104a27973f74797f66bfbd2a5eff0190197616ef2ce02c", "new_prior_sha256": "f8524059505924cd70bac242d2dd7a566404406da19afc05eba5d49a0000d4c9", "cosine_similarity_to_historical": 0.9998224973678589, "max_absolute_difference": 1.5, "peak_gpu_gib": 17.351, "elapsed_seconds": 25.06}

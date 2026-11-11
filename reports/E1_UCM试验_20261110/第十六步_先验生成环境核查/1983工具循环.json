@@ -1,0 +1,41 @@
+{
+  "purpose": "environment smoke; original caption only; not six-image intervention",
+  "image": "1983.tif",
+  "split": "val",
+  "arrow_row": 192,
+  "caption": "A storage tank with some houses and plants beside .",
+  "image_rgb_sha256": "7ca60533f6615e71e0bc77df4d50f12823fe76a88f63cf7abbf818ca001cbf54",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "lora": "ucm_main_lora",
+  "device": "NVIDIA GeForce RTX 5090",
+  "torch_version": "2.10.0",
+  "cuda_version": "13.0",
+  "temperature": 0.0,
+  "max_new_tokens": 64,
+  "max_rounds": 3,
+  "threshold": 0.0,
+  "manual_tool_probe": {
+    "text": "intersection (0.24), medium residential (0.09), storage tanks (0.08)",
+    "confidence": 0.2390136867761612
+  },
+  "actual_tool_events": [
+    {
+      "text": "intersection (0.24), medium residential (0.09), storage tanks (0.08)",
+      "confidence": 0.2390136867761612,
+      "accepted": true
+    }
+  ],
+  "tool_used": 1,
+  "tool_filtered": 0,
+  "hidden_shape": [
+    3584
+  ],
+  "hidden_dtype": "torch.bfloat16",
+  "finite": true,
+  "historical_prior_sha256": "e3daf7e838fdea114fb3304e3355e8a6754a182a82d7f5c6c29b255e9df3383b",
+  "new_prior_sha256": "c085e8e08947a541a9577d2e70e83ab7a90e6164fa8aad8a7a03af3c6b0c0296",
+  "cosine_similarity_to_historical": 0.9997828006744385,
+  "max_absolute_difference": 1.375,
+  "peak_gpu_gib": 17.442,
+  "elapsed_seconds": 13.24
+}
