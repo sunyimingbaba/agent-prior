@@ -1,0 +1,266 @@
+[
+  {
+    "image": "101.tif",
+    "split": "train",
+    "row": 80,
+    "condition": "original",
+    "caption": "Four airplanes are parked at the airport .",
+    "image_sha256": "b955328ba084df6c45b874caf8f63f97557a889019f7ec8dd6227e7b58d845b5",
+    "historical_prior_sha256": "1bca2b56fd7c92fd38cfc88c8c9797d28fb0230edfa82bde6d0a8a81788f915f",
+    "prior_file": "priors/101_original.pt",
+    "prior_sha256": "f55cb1b2549a17a96f55dc1048cf93f40648ba3b2e1d80ccb2a8292f67b7f1b4",
+    "historical_cosine": 0.9998143911361694,
+    "tool_used": 1,
+    "tool_filtered": 0,
+    "tool_events": [
+      {
+        "text": "airplane (0.41), runway (0.10), storage tanks (0.07)",
+        "confidence": 0.4098205268383026,
+        "accepted": true
+      }
+    ],
+    "trace_file": "traces/101_original.txt",
+    "contains_addCriterion": true,
+    "elapsed_seconds": 0.827
+  },
+  {
+    "image": "101.tif",
+    "split": "train",
+    "row": 80,
+    "condition": "neutral",
+    "caption": "Airplanes are parked at the airport .",
+    "image_sha256": "b955328ba084df6c45b874caf8f63f97557a889019f7ec8dd6227e7b58d845b5",
+    "historical_prior_sha256": "1bca2b56fd7c92fd38cfc88c8c9797d28fb0230edfa82bde6d0a8a81788f915f",
+    "prior_file": "priors/101_neutral.pt",
+    "prior_sha256": "1f4228983add28f42547c6a40c56ed40c28b71b5a0d49550e4c982d4a5f75ac8",
+    "historical_cosine": 0.9993194341659546,
+    "tool_used": 1,
+    "tool_filtered": 0,
+    "tool_events": [
+      {
+        "text": "airplane (0.41), runway (0.10), storage tanks (0.07)",
+        "confidence": 0.4098205268383026,
+        "accepted": true
+      }
+    ],
+    "trace_file": "traces/101_neutral.txt",
+    "contains_addCriterion": true,
+    "elapsed_seconds": 0.36
+  },
+  {
+    "image": "1918.tif",
+    "split": "train",
+    "row": 1537,
+    "condition": "original",
+    "caption": "Two storage tanks are in the rectangular box and some cars parked beside .",
+    "image_sha256": "65aba0419ebdd50b0de20f266acbd464bfb92d1e2bcc8f35c467397c274fa999",
+    "historical_prior_sha256": "227dbf022c58e2a7aa78e0056657936324c112ba96a501cfb9ef0fccbddd255a",
+    "prior_file": "priors/1918_original.pt",
+    "prior_sha256": "10d8c46aa68bb4b0933db1c750361ac812efdbbfb9bde11c161ecee6da825667",
+    "historical_cosine": 0.9997813701629639,
+    "tool_used": 0,
+    "tool_filtered": 0,
+    "tool_events": [],
+    "trace_file": "traces/1918_original.txt",
+    "contains_addCriterion": true,
+    "elapsed_seconds": 0.342
+  },
+  {
+    "image": "1918.tif",
+    "split": "train",
+    "row": 1537,
+    "condition": "neutral",
+    "caption": "Storage tanks are in the rectangular box and some cars parked beside .",
+    "image_sha256": "65aba0419ebdd50b0de20f266acbd464bfb92d1e2bcc8f35c467397c274fa999",
+    "historical_prior_sha256": "227dbf022c58e2a7aa78e0056657936324c112ba96a501cfb9ef0fccbddd255a",
+    "prior_file": "priors/1918_neutral.pt",
+    "prior_sha256": "40b695bead36d3008d1b762c13d4fc9ff1241282bb616795efc17c17faf95e36",
+    "historical_cosine": 0.9977520108222961,
+    "tool_used": 0,
+    "tool_filtered": 0,
+    "tool_events": [],
+    "trace_file": "traces/1918_neutral.txt",
+    "contains_addCriterion": true,
+    "elapsed_seconds": 0.249
+  },
+  {
+    "image": "1937.tif",
+    "split": "train",
+    "row": 1556,
+    "condition": "original",
+    "caption": "Four storage tanks are arranged neatly on the ground .",
+    "image_sha256": "d34589a2207d5463d7ebf83cb973be5b0d5e8e85dabe68b67876591d2af50d8a",
+    "historical_prior_sha256": "a1ddbc360cdd708dd5104a27973f74797f66bfbd2a5eff0190197616ef2ce02c",
+    "prior_file": "priors/1937_original.pt",
+    "prior_sha256": "829be0f466dc83de1446411bf4938ac0618ae2ae774ec8861b1b8b18b53a7071",
+    "historical_cosine": 0.9998224973678589,
+    "tool_used": 0,
+    "tool_filtered": 0,
+    "tool_events": [],
+    "trace_file": "traces/1937_original.txt",
+    "contains_addCriterion": true,
+    "elapsed_seconds": 0.254
+  },
+  {
+    "image": "1937.tif",
+    "split": "train",
+    "row": 1556,
+    "condition": "neutral",
+    "caption": "Storage tanks are arranged neatly on the ground .",
+    "image_sha256": "d34589a2207d5463d7ebf83cb973be5b0d5e8e85dabe68b67876591d2af50d8a",
+    "historical_prior_sha256": "a1ddbc360cdd708dd5104a27973f74797f66bfbd2a5eff0190197616ef2ce02c",
+    "prior_file": "priors/1937_neutral.pt",
+    "prior_sha256": "5ebb7439726737b8701798d1933d197675c9a96ee2b0434e05f492825e15821a",
+    "historical_cosine": 0.9982644319534302,
+    "tool_used": 0,
+    "tool_filtered": 0,
+    "tool_events": [],
+    "trace_file": "traces/1937_neutral.txt",
+    "contains_addCriterion": true,
+    "elapsed_seconds": 0.253
+  },
+  {
+    "image": "2014.tif",
+    "split": "train",
+    "row": 1613,
+    "condition": "original",
+    "caption": "Six tennis courts arranged in two lines with some plants surrounded .",
+    "image_sha256": "c5d6ffebe2a1516e16e92b93e5708c17a2a9bebd9ce367a920a8a7fe204809f0",
+    "historical_prior_sha256": "7b7b5f25552fa12f15e5648aada77b582f83093e7f2a10a4787929070271e381",
+    "prior_file": "priors/2014_original.pt",
+    "prior_sha256": "cd223fd5a957052cd83eacc7469eedae893f76799dd86ac8267dcb09abeb94d7",
+    "historical_cosine": 0.999718964099884,
+    "tool_used": 1,
+    "tool_filtered": 0,
+    "tool_events": [
+      {
+        "text": "tennis court (0.41), baseball diamond (0.09), golf course (0.05)",
+        "confidence": 0.40961670875549316,
+        "accepted": true
+      }
+    ],
+    "trace_file": "traces/2014_original.txt",
+    "contains_addCriterion": true,
+    "elapsed_seconds": 0.402
+  },
+  {
+    "image": "2014.tif",
+    "split": "train",
+    "row": 1613,
+    "condition": "neutral",
+    "caption": "Tennis courts arranged in rows with some plants surrounded .",
+    "image_sha256": "c5d6ffebe2a1516e16e92b93e5708c17a2a9bebd9ce367a920a8a7fe204809f0",
+    "historical_prior_sha256": "7b7b5f25552fa12f15e5648aada77b582f83093e7f2a10a4787929070271e381",
+    "prior_file": "priors/2014_neutral.pt",
+    "prior_sha256": "b8bc142f44ee46b37d4b79833a2c675ed0dfeb0e89cd26ac2f754eea24fadad2",
+    "historical_cosine": 0.9987618923187256,
+    "tool_used": 1,
+    "tool_filtered": 0,
+    "tool_events": [
+      {
+        "text": "tennis court (0.41), baseball diamond (0.09), golf course (0.05)",
+        "confidence": 0.40961670875549316,
+        "accepted": true
+      }
+    ],
+    "trace_file": "traces/2014_neutral.txt",
+    "contains_addCriterion": true,
+    "elapsed_seconds": 0.334
+  },
+  {
+    "image": "2058.tif",
+    "split": "train",
+    "row": 1657,
+    "condition": "original",
+    "caption": "Three tennis courts arranged neatly with some plants surrounded .",
+    "image_sha256": "4db3f43909a2dad73c1d3f2537c18cbada3d5428e7792ead23d07dbf7c13f94c",
+    "historical_prior_sha256": "433f2c35709ca343f0bac0b62d2595b56cb41160736d5e1487494ce888a3b935",
+    "prior_file": "priors/2058_original.pt",
+    "prior_sha256": "39a27df05b892261bc21f40ff5fdaa08333c9b320e48b992f0b334bbdd28ce46",
+    "historical_cosine": 0.9996951222419739,
+    "tool_used": 1,
+    "tool_filtered": 0,
+    "tool_events": [
+      {
+        "text": "tennis court (0.47), mobile home park (0.06), buildings (0.05)",
+        "confidence": 0.4681189954280853,
+        "accepted": true
+      }
+    ],
+    "trace_file": "traces/2058_original.txt",
+    "contains_addCriterion": true,
+    "elapsed_seconds": 0.412
+  },
+  {
+    "image": "2058.tif",
+    "split": "train",
+    "row": 1657,
+    "condition": "neutral",
+    "caption": "Tennis courts arranged neatly with some plants surrounded .",
+    "image_sha256": "4db3f43909a2dad73c1d3f2537c18cbada3d5428e7792ead23d07dbf7c13f94c",
+    "historical_prior_sha256": "433f2c35709ca343f0bac0b62d2595b56cb41160736d5e1487494ce888a3b935",
+    "prior_file": "priors/2058_neutral.pt",
+    "prior_sha256": "854a5f2eb8592b697f89227cd9cf3ae7854302f9811accf4a77afe27a383f251",
+    "historical_cosine": 0.9989116191864014,
+    "tool_used": 1,
+    "tool_filtered": 0,
+    "tool_events": [
+      {
+        "text": "tennis court (0.47), mobile home park (0.06), buildings (0.05)",
+        "confidence": 0.4681189954280853,
+        "accepted": true
+      }
+    ],
+    "trace_file": "traces/2058_neutral.txt",
+    "contains_addCriterion": true,
+    "elapsed_seconds": 0.319
+  },
+  {
+    "image": "2086.tif",
+    "split": "val",
+    "row": 205,
+    "condition": "original",
+    "caption": "Four tennis courts arranged neatly on the lawn .",
+    "image_sha256": "02041655ac9143f2b80237648cfeaf9592f7bd2f2c8dbb6f807944c6f3d114c0",
+    "historical_prior_sha256": "6ed90c180d6eac038b0ff51e940fa3eedcf8a7b911ecbc8be6bc80381929205d",
+    "prior_file": "priors/2086_original.pt",
+    "prior_sha256": "841a7263717e5e670102520f8743e2f7e3f4cbb7b03e5d14c7da518917a60055",
+    "historical_cosine": 0.9997165203094482,
+    "tool_used": 1,
+    "tool_filtered": 0,
+    "tool_events": [
+      {
+        "text": "tennis court (0.38), baseball diamond (0.12), golf course (0.07)",
+        "confidence": 0.3758135139942169,
+        "accepted": true
+      }
+    ],
+    "trace_file": "traces/2086_original.txt",
+    "contains_addCriterion": true,
+    "elapsed_seconds": 0.448
+  },
+  {
+    "image": "2086.tif",
+    "split": "val",
+    "row": 205,
+    "condition": "neutral",
+    "caption": "Tennis courts arranged neatly on the lawn .",
+    "image_sha256": "02041655ac9143f2b80237648cfeaf9592f7bd2f2c8dbb6f807944c6f3d114c0",
+    "historical_prior_sha256": "6ed90c180d6eac038b0ff51e940fa3eedcf8a7b911ecbc8be6bc80381929205d",
+    "prior_file": "priors/2086_neutral.pt",
+    "prior_sha256": "d56e98e85da145f9509c1082c55eb8431ab6afa84900aa77eced1f98cd9dc164",
+    "historical_cosine": 0.9989721775054932,
+    "tool_used": 1,
+    "tool_filtered": 0,
+    "tool_events": [
+      {
+        "text": "tennis court (0.38), baseball diamond (0.12), golf course (0.07)",
+        "confidence": 0.3758135139942169,
+        "accepted": true
+      }
+    ],
+    "trace_file": "traces/2086_neutral.txt",
+    "contains_addCriterion": true,
+    "elapsed_seconds": 0.309
+  }
+]
