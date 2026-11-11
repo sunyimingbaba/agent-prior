@@ -1,0 +1,182 @@
+{
+  "special_token_ids": {
+    "eos": 151645,
+    "pad": 151643
+  },
+  "runs": [
+    {
+      "image": "101.tif",
+      "mode": "lora",
+      "caption": "Four airplanes are parked at the airport .",
+      "trace": "  [round 1] 模型输出: '<tool_call>scene_classify'\n  [round 1] 工具调用: scene_classify -> 结果: 'airplane (0.41), runway (0.10), storage tanks (0.07)'\n  [round 2] 模型输出: ' addCriterion'\n",
+      "rounds": [
+        {
+          "input_length": 295,
+          "token_ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "tokens": [
+            "<tool_call>",
+            "scene",
+            "_class",
+            "ify",
+            "<|im_end|>"
+          ],
+          "decoded_keep_special": "<tool_call>scene_classify<|im_end|>",
+          "decoded_skip_special": "<tool_call>scene_classify",
+          "hidden_steps": 5,
+          "last_hidden_shape": [
+            1,
+            1,
+            3584
+          ]
+        },
+        {
+          "input_length": 328,
+          "token_ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "tokens": [
+            "<|im_start|>",
+            "ĠaddCriterion",
+            "<|im_end|>"
+          ],
+          "decoded_keep_special": "<|im_start|> addCriterion<|im_end|>",
+          "decoded_skip_special": " addCriterion",
+          "hidden_steps": 3,
+          "last_hidden_shape": [
+            1,
+            1,
+            3584
+          ]
+        }
+      ],
+      "tool_events": [
+        {
+          "text": "airplane (0.41), runway (0.10), storage tanks (0.07)",
+          "confidence": 0.4098205268383026
+        }
+      ],
+      "tool_used": 1,
+      "tool_filtered": 0,
+      "cosine_to_previous_same_condition": 1.0000007152557373,
+      "max_abs_diff_to_previous": 0.0
+    },
+    {
+      "image": "1937.tif",
+      "mode": "lora",
+      "caption": "Four storage tanks are arranged neatly on the ground .",
+      "trace": "  [round 1] 模型输出: 'scene_classify\\n addCriterion'\n",
+      "rounds": [
+        {
+          "input_length": 297,
+          "token_ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "tokens": [
+            "<|im_start|>",
+            "scene",
+            "_class",
+            "ify",
+            "<|im_start|>",
+            "Ċ",
+            "ĠaddCriterion",
+            "<|im_end|>"
+          ],
+          "decoded_keep_special": "<|im_start|>scene_classify<|im_start|>\n addCriterion<|im_end|>",
+          "decoded_skip_special": "scene_classify\n addCriterion",
+          "hidden_steps": 8,
+          "last_hidden_shape": [
+            1,
+            1,
+            3584
+          ]
+        }
+      ],
+      "tool_events": [],
+      "tool_used": 0,
+      "tool_filtered": 0,
+      "cosine_to_previous_same_condition": 1.0000007152557373,
+      "max_abs_diff_to_previous": 0.0
+    },
+    {
+      "image": "101.tif",
+      "mode": "base_adapter_disabled",
+      "caption": "Four airplanes are parked at the airport .",
+      "trace": "  [round 1] 模型输出: '<tool_call>scene_classify'\n  [round 1] 工具调用: scene_classify -> 结果: 'airplane (0.41), runway (0.10), storage tanks (0.07)'\n  [round 2] 模型输出: '\\n addCriterion'\n",
+      "rounds": [
+        {
+          "input_length": 295,
+          "token_ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "tokens": [
+            "<tool_call>",
+            "scene",
+            "_class",
+            "ify",
+            "<|im_end|>"
+          ],
+          "decoded_keep_special": "<tool_call>scene_classify<|im_end|>",
+          "decoded_skip_special": "<tool_call>scene_classify",
+          "hidden_steps": 5,
+          "last_hidden_shape": [
+            1,
+            1,
+            3584
+          ]
+        },
+        {
+          "input_length": 328,
+          "token_ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "tokens": [
+            "<|im_start|>",
+            "<|im_start|>",
+            "Ċ",
+            "ĠaddCriterion",
+            "<|im_end|>"
+          ],
+          "decoded_keep_special": "<|im_start|><|im_start|>\n addCriterion<|im_end|>",
+          "decoded_skip_special": "\n addCriterion",
+          "hidden_steps": 5,
+          "last_hidden_shape": [
+            1,
+            1,
+            3584
+          ]
+        }
+      ],
+      "tool_events": [
+        {
+          "text": "airplane (0.41), runway (0.10), storage tanks (0.07)",
+          "confidence": 0.4098205268383026
+        }
+      ],
+      "tool_used": 1,
+      "tool_filtered": 0
+    }
+  ]
+}

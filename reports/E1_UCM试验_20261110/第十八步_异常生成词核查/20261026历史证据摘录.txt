@@ -1,0 +1,16 @@
+2026-10-26 学校环境运行日志摘录
+来源：reports/school_legacy_smoke_20261026/smoke_retry1.log
+日志 SHA-256：f759ecde57df09c9b7542151b4c598e2991a8c521d19b682fc1298a8b6d1d0be
+环境结论 SHA-256：9ad61f0a492687b93f4be1b6b58708287837af99f5886e9af061fcc9b0c635f8
+
+1: SMOKE_STARTED 2026-10-26T11:28:28+08:00
+12: 已加载 LoRA 适配器: /public/cup-legacy-smoke-20261026/assets/ucm_main_lora
+22:   [round 1] 模型输出: ''
+25: === 图 1 | 查询: There is a piece of farmland . ===
+26:   [round 1] 模型输出: '<tool_call>scene_classify'
+27:   [round 1] 工具调用: scene_classify -> 结果: 'agricultural (0.34), chaparral (0.07), runway (0.06)'
+28:   [round 2] 模型输出: '\n addCriterion'
+31: === 图 2 | 查询: There is a piece of farmland . ===
+32:   [round 1] 模型输出: '<tool_call>scene_classify'
+33:   [round 1] 工具调用: scene_classify -> 结果: 'agricultural (0.40), runway (0.05), chaparral (0.05)'
+34:   [round 2] 模型输出: '\n addCriterion'
