@@ -1,0 +1,68 @@
+If for semantic segmentation, please install mmsegmentation first
+If for detection, please install mmdetection first
+
+###########This is config ####################
+{'exp_name': 'finetune_irtr_ucm_randaug', 'seed': 0, 'datasets': ['ucm'], 'loss_names': {'itm': 0, 'mlm': 0, 'mpp': 0, 'vqa': 0, 'nlvr2': 0, 'irtr': 0, 'clip': 1}, 'batch_size': 256, 'clip_model': 'ViT-L/14', 'current_epoch': 49, 'weight_margin': 0.015, 'loss_scale_kl': 1, 'loss_scale_un': 1, 'loss_scale': 1, 'max_image_len': -1, 'patch_size': 32, 'draw_false_image': 1, 'image_only': False, 'vqav2_label_size': 3129, 'max_text_len': 77, 'tokenizer': 'bert-base-uncased', 'vocab_size': 30522, 'whole_word_masking': False, 'mlm_prob': 0.15, 'draw_false_text': 0, 'vit': 'vit_base_patch32_384', 'hidden_size': 768, 'num_heads': 12, 'num_layers': 12, 'mlp_ratio': 4, 'drop_rate': 0.1, 'prompt_length': 16, 'optim_type': 'adamw', 'learning_rate': 0.0001, 'weight_decay': 0.01, 'decay_power': 1, 'max_epoch': 50, 'max_steps': None, 'warmup_steps': 0.1, 'end_lr': 0, 'lr_mult': 1, 'clip_zero': True, 'get_recall_metric': True, 'resume_from': None, 'fast_dev_run': False, 'val_check_interval': 1.0, 'test_only': False, 'data_root': '/workspace/cup-debug/data/ucm', 'log_dir': '/workspace/cup-debug/logs', 'per_gpu_batchsize': 32, 'num_gpus': 1, 'num_nodes': 1, 'load_path': '', 'num_workers': 8, 'precision': 16, 'linear_projector': 0.1, 'train_transform_keys': 'ViT-L/14', 'val_transform_keys': 'ViT-L/14', 'image_size': [14, 14], 'img_features_dim': 1024, 'txt_features_dim': 768, 'cls_number': 21, 'save_image_path': '/workspace/cup-debug/images', 'json': '/home/amax/wyj/dataset/UCM_captions/karpathy/ucm.json', 'use_agent_prior': True, 'agent_cache_dir': '/workspace/cup-debug/agent_cache_domain_tool', 'agent_hidden_dim': 3584, '__doc__': 'ViT-L/14 骨干：UCM 遥感数据集'}
+###########This is config ####################
+
+this is name:/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt
+CHECKPOINT <All keys matched successfully>
+SCORED_NEW_IMAGE 1 / 58 121.tif
+SCORED_NEW_IMAGE 2 / 58 124.tif
+SCORED_NEW_IMAGE 3 / 58 125.tif
+SCORED_NEW_IMAGE 4 / 58 134.tif
+SCORED_NEW_IMAGE 5 / 58 143.tif
+SCORED_NEW_IMAGE 6 / 58 147.tif
+SCORED_NEW_IMAGE 7 / 58 149.tif
+SCORED_NEW_IMAGE 8 / 58 151.tif
+SCORED_NEW_IMAGE 9 / 58 157.tif
+SCORED_NEW_IMAGE 10 / 58 180.tif
+SCORED_NEW_IMAGE 11 / 58 1826.tif
+SCORED_NEW_IMAGE 12 / 58 1836.tif
+SCORED_NEW_IMAGE 13 / 58 1841.tif
+SCORED_NEW_IMAGE 14 / 58 1844.tif
+SCORED_NEW_IMAGE 15 / 58 190.tif
+SCORED_NEW_IMAGE 16 / 58 1901.tif
+SCORED_NEW_IMAGE 17 / 58 1917.tif
+SCORED_NEW_IMAGE 18 / 58 1923.tif
+SCORED_NEW_IMAGE 19 / 58 1936.tif
+SCORED_NEW_IMAGE 20 / 58 1940.tif
+SCORED_NEW_IMAGE 21 / 58 1944.tif
+SCORED_NEW_IMAGE 22 / 58 1945.tif
+SCORED_NEW_IMAGE 23 / 58 1946.tif
+SCORED_NEW_IMAGE 24 / 58 1947.tif
+SCORED_NEW_IMAGE 25 / 58 1952.tif
+SCORED_NEW_IMAGE 26 / 58 1955.tif
+SCORED_NEW_IMAGE 27 / 58 1956.tif
+SCORED_NEW_IMAGE 28 / 58 1957.tif
+SCORED_NEW_IMAGE 29 / 58 1974.tif
+SCORED_NEW_IMAGE 30 / 58 1981.tif
+SCORED_NEW_IMAGE 31 / 58 2008.tif
+SCORED_NEW_IMAGE 32 / 58 2009.tif
+SCORED_NEW_IMAGE 33 / 58 2010.tif
+SCORED_NEW_IMAGE 34 / 58 2013.tif
+SCORED_NEW_IMAGE 35 / 58 2017.tif
+SCORED_NEW_IMAGE 36 / 58 2024.tif
+SCORED_NEW_IMAGE 37 / 58 2029.tif
+SCORED_NEW_IMAGE 38 / 58 2031.tif
+SCORED_NEW_IMAGE 39 / 58 2032.tif
+SCORED_NEW_IMAGE 40 / 58 2035.tif
+SCORED_NEW_IMAGE 41 / 58 2040.tif
+SCORED_NEW_IMAGE 42 / 58 2042.tif
+SCORED_NEW_IMAGE 43 / 58 2043.tif
+SCORED_NEW_IMAGE 44 / 58 2046.tif
+SCORED_NEW_IMAGE 45 / 58 2047.tif
+SCORED_NEW_IMAGE 46 / 58 2048.tif
+SCORED_NEW_IMAGE 47 / 58 2051.tif
+SCORED_NEW_IMAGE 48 / 58 2052.tif
+SCORED_NEW_IMAGE 49 / 58 2053.tif
+SCORED_NEW_IMAGE 50 / 58 2055.tif
+SCORED_NEW_IMAGE 51 / 58 2061.tif
+SCORED_NEW_IMAGE 52 / 58 2062.tif
+SCORED_NEW_IMAGE 53 / 58 2075.tif
+SCORED_NEW_IMAGE 54 / 58 2077.tif
+SCORED_NEW_IMAGE 55 / 58 2081.tif
+SCORED_NEW_IMAGE 56 / 58 2082.tif
+SCORED_NEW_IMAGE 57 / 58 2088.tif
+SCORED_NEW_IMAGE 58 / 58 257.tif
+COMPLETE 384 scores 48 unique text pairs

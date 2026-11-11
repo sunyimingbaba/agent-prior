@@ -1,0 +1,279 @@
+{
+  "all64": {
+    "images": 64,
+    "observations": 128,
+    "tie_observations": 0,
+    "A_原句式": {
+      "n": 64,
+      "original_correct": 55,
+      "neutral_correct": 53,
+      "historic_correct": 56,
+      "original_right_neutral_wrong": 2,
+      "original_wrong_neutral_right": 0,
+      "unchanged": 62,
+      "mean_margin_delta": -0.003741087159141898,
+      "median_margin_delta": -0.0012182965874671936
+    },
+    "B_改写句式": {
+      "n": 64,
+      "original_correct": 57,
+      "neutral_correct": 56,
+      "historic_correct": 58,
+      "original_right_neutral_wrong": 2,
+      "original_wrong_neutral_right": 1,
+      "unchanged": 61,
+      "mean_margin_delta": -0.0037474343553185463,
+      "median_margin_delta": -0.001452326774597168
+    }
+  },
+  "new58": {
+    "images": 58,
+    "observations": 116,
+    "tie_observations": 0,
+    "A_原句式": {
+      "n": 58,
+      "original_correct": 52,
+      "neutral_correct": 50,
+      "historic_correct": 53,
+      "original_right_neutral_wrong": 2,
+      "original_wrong_neutral_right": 0,
+      "unchanged": 56,
+      "mean_margin_delta": -0.004145862470413077,
+      "median_margin_delta": -0.0015069171786308289
+    },
+    "B_改写句式": {
+      "n": 58,
+      "original_correct": 54,
+      "neutral_correct": 53,
+      "historic_correct": 55,
+      "original_right_neutral_wrong": 2,
+      "original_wrong_neutral_right": 1,
+      "unchanged": 55,
+      "mean_margin_delta": -0.004137858491519402,
+      "median_margin_delta": -0.0016747191548347473
+    }
+  },
+  "explore6": {
+    "images": 6,
+    "observations": 12,
+    "tie_observations": 0,
+    "A_原句式": {
+      "n": 6,
+      "original_correct": 3,
+      "neutral_correct": 3,
+      "historic_correct": 3,
+      "original_right_neutral_wrong": 0,
+      "original_wrong_neutral_right": 0,
+      "unchanged": 6,
+      "mean_margin_delta": 0.00017174084981282553,
+      "median_margin_delta": 5.7756900787353516e-05
+    },
+    "B_改写句式": {
+      "n": 6,
+      "original_correct": 3,
+      "neutral_correct": 3,
+      "historic_correct": 3,
+      "original_right_neutral_wrong": 0,
+      "original_wrong_neutral_right": 0,
+      "unchanged": 6,
+      "mean_margin_delta": 2.666562795639038e-05,
+      "median_margin_delta": -0.0002047419548034668
+    }
+  },
+  "train": {
+    "images": 58,
+    "observations": 116,
+    "tie_observations": 0,
+    "A_原句式": {
+      "n": 58,
+      "original_correct": 50,
+      "neutral_correct": 48,
+      "historic_correct": 51,
+      "original_right_neutral_wrong": 2,
+      "original_wrong_neutral_right": 0,
+      "unchanged": 56,
+      "mean_margin_delta": -0.003331778635238779,
+      "median_margin_delta": -0.0012182965874671936
+    },
+    "B_改写句式": {
+      "n": 58,
+      "original_correct": 52,
+      "neutral_correct": 51,
+      "historic_correct": 53,
+      "original_right_neutral_wrong": 2,
+      "original_wrong_neutral_right": 1,
+      "unchanged": 55,
+      "mean_margin_delta": -0.0033061329660744503,
+      "median_margin_delta": -0.001452326774597168
+    }
+  },
+  "val": {
+    "images": 6,
+    "observations": 12,
+    "tie_observations": 0,
+    "A_原句式": {
+      "n": 6,
+      "original_correct": 5,
+      "neutral_correct": 5,
+      "historic_correct": 5,
+      "original_right_neutral_wrong": 0,
+      "original_wrong_neutral_right": 0,
+      "unchanged": 6,
+      "mean_margin_delta": -0.007697736223538716,
+      "median_margin_delta": -0.002329319715499878
+    },
+    "B_改写句式": {
+      "n": 6,
+      "original_correct": 5,
+      "neutral_correct": 5,
+      "historic_correct": 5,
+      "original_right_neutral_wrong": 0,
+      "original_wrong_neutral_right": 0,
+      "unchanged": 6,
+      "mean_margin_delta": -0.00801334778467814,
+      "median_margin_delta": -0.002165965735912323
+    }
+  },
+  "includes_one": {
+    "images": 19,
+    "observations": 38,
+    "tie_observations": 0,
+    "A_原句式": {
+      "n": 19,
+      "original_correct": 19,
+      "neutral_correct": 17,
+      "historic_correct": 19,
+      "original_right_neutral_wrong": 2,
+      "original_wrong_neutral_right": 0,
+      "unchanged": 17,
+      "mean_margin_delta": -0.01031879296428279,
+      "median_margin_delta": -0.006142958998680115
+    },
+    "B_改写句式": {
+      "n": 19,
+      "original_correct": 19,
+      "neutral_correct": 18,
+      "historic_correct": 19,
+      "original_right_neutral_wrong": 1,
+      "original_wrong_neutral_right": 0,
+      "unchanged": 18,
+      "mean_margin_delta": -0.010537784350545783,
+      "median_margin_delta": -0.006068766117095947
+    }
+  },
+  "both_above_one": {
+    "images": 45,
+    "observations": 90,
+    "tie_observations": 0,
+    "A_原句式": {
+      "n": 45,
+      "original_correct": 36,
+      "neutral_correct": 36,
+      "historic_correct": 37,
+      "original_right_neutral_wrong": 0,
+      "original_wrong_neutral_right": 0,
+      "unchanged": 45,
+      "mean_margin_delta": -0.0009638335969713,
+      "median_margin_delta": -0.0007708072662353516
+    },
+    "B_改写句式": {
+      "n": 45,
+      "original_correct": 38,
+      "neutral_correct": 38,
+      "historic_correct": 39,
+      "original_right_neutral_wrong": 1,
+      "original_wrong_neutral_right": 1,
+      "unchanged": 43,
+      "mean_margin_delta": -0.0008803976906670464,
+      "median_margin_delta": -0.0006270557641983032
+    }
+  },
+  "generation": {
+    "count": 128,
+    "contains_addCriterion": 123,
+    "tool_calls": 103,
+    "tool_calls_below_029": 4,
+    "by_condition": {
+      "original": {
+        "records": 64,
+        "called": 51,
+        "low_confidence_events": 2
+      },
+      "neutral": {
+        "records": 64,
+        "called": 52,
+        "low_confidence_events": 2
+      }
+    }
+  },
+  "tool_changes": [
+    {
+      "image": "125.tif",
+      "original": 0,
+      "neutral": 1
+    },
+    {
+      "image": "1923.tif",
+      "original": 1,
+      "neutral": 0
+    },
+    {
+      "image": "1947.tif",
+      "original": 0,
+      "neutral": 1
+    },
+    {
+      "image": "1955.tif",
+      "original": 0,
+      "neutral": 1
+    },
+    {
+      "image": "1974.tif",
+      "original": 1,
+      "neutral": 0
+    }
+  ],
+  "ranking_changes": [
+    {
+      "image": "147.tif",
+      "wording": "B_改写句式",
+      "original_correct": false,
+      "neutral_correct": true,
+      "original_margin": -0.0007702410221099854,
+      "neutral_margin": 0.0005886852741241455
+    },
+    {
+      "image": "1841.tif",
+      "wording": "A_原句式",
+      "original_correct": true,
+      "neutral_correct": false,
+      "original_margin": 0.010735750198364258,
+      "neutral_margin": -0.002752646803855896
+    },
+    {
+      "image": "1974.tif",
+      "wording": "A_原句式",
+      "original_correct": true,
+      "neutral_correct": false,
+      "original_margin": 0.013890370726585388,
+      "neutral_margin": -0.0075855553150177
+    },
+    {
+      "image": "1974.tif",
+      "wording": "B_改写句式",
+      "original_correct": true,
+      "neutral_correct": false,
+      "original_margin": 0.01772397756576538,
+      "neutral_margin": -0.006356656551361084
+    },
+    {
+      "image": "257.tif",
+      "wording": "B_改写句式",
+      "original_correct": true,
+      "neutral_correct": false,
+      "original_margin": 0.0016010105609893799,
+      "neutral_margin": -0.00029411911964416504
+    }
+  ],
+  "historic_max_abs_score_error": 0.0
+}
