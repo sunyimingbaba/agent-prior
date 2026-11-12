@@ -1,0 +1,20 @@
+{
+  "source": "installed pytorch_lightning 1.4.0 CheckpointConnector.dump_checkpoint and ModelCheckpoint.on_train_end",
+  "dump_checkpoint": {
+    "stored_global_step": "trainer.global_step + 1",
+    "stored_epoch_for_epoch_limited_fit": "trainer.current_epoch + 1"
+  },
+  "train_end_last_save": "ModelCheckpoint temporarily subtracts one global step before the final last save, then restores it.",
+  "observed_first_checkpoint": {
+    "ok": true,
+    "epoch": 1,
+    "stored_global_step": 32,
+    "bytes": 1854653388,
+    "sha256": "368a629651b083d526f58ebfdbaf13547bdfef03241773eafa12074bd2078ae3",
+    "model_state_tensors": 524,
+    "optimizer_parameter_states": 34,
+    "all_optimizer_tensors_finite": true,
+    "scheduler_state_present": true
+  },
+  "interpretation": "Training event epochs are zero-based; stored checkpoint epoch is the next epoch index for this epoch-limited fit. Completed epochs and trainer counters are recorded separately."
+}

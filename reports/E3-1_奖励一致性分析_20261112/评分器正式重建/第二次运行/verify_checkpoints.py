@@ -85,7 +85,8 @@ for label in ['validation_best', 'last']:
     backbone_sha = parameter_hash(model.model.state_dict().items())
     assert backbone_sha == result['initial_backbone_sha256']
     if label == 'last':
-        assert saved['epoch'] == 49
+        # PL 1.4 stores the next epoch index (current_epoch + 1) for epoch-limited fits.
+        assert saved['epoch'] == result['completed_epochs']
         assert abs(saved['global_step']-result['optimizer_steps']) <= 1
         assert parameter_hash((n, p) for n, p in model.named_parameters() if p.requires_grad) == result['final_trainable_sha256']
         last_model = model

@@ -1,0 +1,16 @@
+{
+  "independent_doc_replay_exit_code": 0,
+  "all_local_evidence_matches_reviewer_sha256": true,
+  "sha256": {
+    "独立预检重放.log": "88145672d7056cee09b5542f5abb6f6a972284a245ad20213eb336c60f9e53b3",
+    "实际展开配置.json": "62d0981c3a05ccf91e96a00377a56b43c85dc3f4c383dca5d39edcb45bd1c25e",
+    "预检结果.json": "10a0e72ecec7f5a06fa7c583c2e4a463be19bea5607b96159cdbeab8ef1165f0",
+    "train_scorer.py": "db10f38e5e095110bcd87f36f89c72831eface440ebff84c8139f2cd93a15de3"
+  },
+  "stage_enum_setup_teardown_tracking_passed": true,
+  "override_flags": {
+    "setup": true,
+    "teardown": false
+  },
+  "agent": "training_entry_review"
+}
