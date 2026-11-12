@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-12",
+  "latest_user_fact": {
+    "original_server_unavailable": true,
+    "original_checkpoint_recovery_unavailable": true,
+    "source": "current conversation"
+  },
+  "route": "new scorer under documented original scoring mechanism",
+  "status": "local preparation complete; server and GPU checks pending",
+  "source_task_function": {
+    "file": "/Users/botlv/CUP-code/CUP/vilt/config.py",
+    "name": "task_finetune_irtr_ucm_randaug_ViTL14",
+    "line": 659,
+    "sha256": "f5ebc571975032c668037799631d599ed12f79cb91cd23b2b908c4b9a5992ee8",
+    "literal_config": {
+      "exp_name": "finetune_irtr_ucm_randaug",
+      "datasets": [
+        "ucm"
+      ],
+      "train_transform_keys": "ViT-L/14",
+      "val_transform_keys": "ViT-L/14",
+      "clip_model": "ViT-L/14",
+      "image_size": [
+        14,
+        14
+      ],
+      "img_features_dim": 1024,
+      "txt_features_dim": 768,
+      "batch_size": 256,
+      "max_epoch": 50,
+      "max_steps": null,
+      "warmup_steps": 0.1,
+      "get_recall_metric": true,
+      "weight_margin": 0.015,
+      "draw_false_text": 0,
+      "learning_rate": 0.0001,
+      "current_epoch": 0,
+      "cls_number": 21,
+      "prompt_length": 16,
+      "clip_zero": true,
+      "save_image_path": "/home/amax/wyj/26-CyCLIP-main/CLIP-Retrieval-Cliploss/images/UCM",
+      "json": "/home/amax/wyj/dataset/UCM_captions/karpathy/ucm.json"
+    }
+  },
+  "historical_command_values": {
+    "batch_size": 256,
+    "per_gpu_batchsize": 32,
+    "num_gpus": 1,
+    "seed": 0,
+    "use_agent_prior": true,
+    "no_tools": true
+  },
+  "local_prior_groups": {
+    "agent_cache_rsicd_domain": {
+      "rsicd_caption_karpathy_label_train": 8734,
+      "rsicd_caption_karpathy_label_test": 1093,
+      "rsicd_caption_karpathy_label_val": 1094
+    },
+    "agent_cache_rsitmd_domain": {
+      "rsitmd_caption_karpathy_label_train": 4291,
+      "rsitmd_caption_karpathy_label_test": 452
+    },
+    "agent_cache_domain_tool": {
+      "ucm_caption_karpathy_label_val": 210,
+      "ucm_caption_karpathy_label_test": 210,
+      "ucm_caption_karpathy_label_train": 1680
+    }
+  },
+  "plain_prior_status": "not located in inspected local archive; check current private server before generation",
+  "proposed_train_val_image_count": 1890,
+  "proposed_optional_test_image_count": 210,
+  "server_root_proposed": "/private/AGSE_E3_1_rebuild_20261112",
+  "requires_server_check": [
+    "actual private mount",
+    "GPU and free memory",
+    "existing plain priors",
+    "forward/backward compatibility",
+    "checkpoint save/load",
+    "final expanded config",
+    "runtime and disk"
+  ],
+  "formal_training_started": false,
+  "original_project_sources_modified": false
+}
