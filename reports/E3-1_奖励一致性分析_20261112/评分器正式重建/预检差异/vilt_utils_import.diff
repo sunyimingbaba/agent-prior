@@ -1,0 +1,14 @@
+--- local_vilt_utils.py
++++ server_vilt_utils.py
+@@ -1,10 +1,7 @@
+ import torch
+ import random
+ import numpy as np
+-try:
+-    from transformers.optimization import AdamW
+-except ImportError:
+-    from torch.optim import AdamW
++from transformers.optimization import AdamW
+ from transformers import (
+     get_polynomial_decay_schedule_with_warmup,
+     get_cosine_schedule_with_warmup,

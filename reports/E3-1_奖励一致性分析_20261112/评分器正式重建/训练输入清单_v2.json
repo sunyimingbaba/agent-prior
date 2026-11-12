@@ -1,0 +1,43 @@
+{
+  "source_sha256": {
+    "run_frozen.py": "90528a1b0d77b9e218f75341b13c8e6849195a3d0cc1ae867c9d51169f6cfaf8",
+    "vilt/config.py": "f5ebc571975032c668037799631d599ed12f79cb91cd23b2b908c4b9a5992ee8",
+    "vilt/modules/vilt_module.py": "d1874861d081d0c9ea3d83c10ef43811c46b9b3ed20c747cd87b9272370396a4",
+    "vilt/modules/objectives.py": "541cbe92dc692a4bc45cbb2e852501b5dde1fcb5f9b2db431f2a0b0456b1e84b",
+    "vilt/modules/vilt_utils.py": "4da0b8d8160212d7e2076a0d5c6d164ffa9c515b27120401ab9f4c9dd1396f09",
+    "vilt/modules/dist_utils.py": "0ad9902f5d96875120171b32cadc80740a2e0365cc1889864f640f641ce3f9b7",
+    "vilt/datasets/base_dataset.py": "c7746dbb2065d121a48de3b6c719eeb644ffc9b24dcac4a082032034e6aaad3a",
+    "vilt/datasets/ucm_caption_karpathy_dataset.py": "087cc81f863da7e697d2a4d96d8f55fb6d3e5a1cd6a7998e50848603b19a4bab",
+    "vilt/datamodules/multitask_datamodule.py": "90a71bda8f02ce39d35110c79ab1f895ac58045c3890717e5e9589eb317b8dc7",
+    "vilt/datamodules/datamodule_base.py": "fcc825eac1df17e4b4fcf6695a214794fd3a983eac712d31034563776963b1c0",
+    "vilt/datamodules/ucm_caption_karpathy_datamodule.py": "64e751c96f01252d0fcf90de643f761c92d7458988a63afe79372888ec12d896",
+    "model/clip.py": "6db583e34f1cf685c1993820aa6058077bcf95181a66e2405a20003ac6514143",
+    "prompt_clip/clip.py": "e8b4f072b9630d193be35cd4e425ec6068a55c865129536b1abafbfc95c45f31",
+    "model/context_cluster.py": "b0159b05c23771607ae16dee901833ed07cb765ead4d67477411142cc8214854"
+  },
+  "clip_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+  "prior_manifest_sha256": "505b98f7317beb8ce2c3d79c034daa6ec3bb7bf8390f9303840d9329a19b81fb",
+  "prior_settings_sha256": "53ab1ae5d49f1ccbe6a360f2038c0b5dff5e8d4b1931de69f06ca19fd6a123f3",
+  "prior_records_sha256": "280e4d5df47a921dec9a76cd9264738cd1f43926d80282139e0ce514497c90c8",
+  "arrow_sha256": {
+    "train": "4dd3c7eed39d309ffba1e77066a7fffae7912768c0a01f18fb578f3e6e5f967f",
+    "val": "02204bf7566842f7fcd7c3e2a5ea012367ab5815bd8af09c06405c5e4adf20d2",
+    "test": "aa918799ddc1c4a782312cc9e1f01db0cd3cd3e4be4f825ca67e55effe9f0949"
+  },
+  "expected_versions": {
+    "torch": "2.4.1+cu124",
+    "pytorch-lightning": "1.4.0",
+    "transformers": "4.57.2",
+    "torchmetrics": "0.7.2"
+  },
+  "checkpoint_policy": "Use the last checkpoint after all 50 epochs; keep validation-best separately.",
+  "test_execution": "fit only; test datamodule metadata is initialized by legacy setup, no test batches or test recall evaluation.",
+  "source_compatibility_note": {
+    "file": "vilt/modules/vilt_utils.py",
+    "server_sha256": "4da0b8d8160212d7e2076a0d5c6d164ffa9c515b27120401ab9f4c9dd1396f09",
+    "local_sha256": "9662e845d40a08d2dd6a89bbb62a679fd9986dc7bda4146ce1dbca3215f5ce41",
+    "function_and_class_ast_identical": true,
+    "definitions_checked": 5,
+    "difference": "AdamW import only; runtime alias identity checked separately."
+  }
+}

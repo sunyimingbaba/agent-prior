@@ -1,0 +1,3 @@
+If for semantic segmentation, please install mmsegmentation first
+If for detection, please install mmdetection first
+FAILED {"status": "failed", "started_utc": "2026-11-12T08:57:47.404376+00:00", "checkpoint_policy": "last checkpoint after 50 epochs", "test_evaluation_executed": false, "ok": false, "error": "AssertionError: vilt/modules/vilt_utils.py", "traceback": "Traceback (most recent call last):\n  File \"/private/AGSE_E3_1_rebuild_20261112/scorer_training_20261112/train_scorer.py\", line 88, in <module>\n    assert sha(BASE/'CUP'/name) == expected, name\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: vilt/modules/vilt_utils.py\n", "elapsed_seconds": 4.919661273946986, "last_update_utc": "2026-11-12T08:57:52.324035+00:00"}
