@@ -1,0 +1,60 @@
+[
+  {
+    "prompt_tokens": 150,
+    "generated_tokens": 28,
+    "decoding_steps": 28,
+    "generated_token_ids": [
+      785,
+      2168,
+      4933,
+      264,
+      56411,
+      448,
+      12114,
+      31631,
+      27549,
+      291,
+      304,
+      28485,
+      6978,
+      13,
+      576,
+      3015,
+      14590,
+      279,
+      31631,
+      7952,
+      311,
+      387,
+      264,
+      5538,
+      6303,
+      1894,
+      13,
+      151645
+    ],
+    "generated_text": "The image shows a harbor with numerous boats docked in neat rows. The water surrounding the boats appears to be a deep blue color.",
+    "final_state_shape_before_squeeze": [
+      1,
+      3584
+    ],
+    "final_state_sha256": "748aa8c34d4555de05848191214ecedd2e4c8b26fa9154d11359fc19525470d6",
+    "final_hidden_step_shape": [
+      1,
+      1,
+      3584
+    ],
+    "generation_kwargs": {
+      "max_new_tokens": 64,
+      "do_sample": false,
+      "temperature": 1.0,
+      "output_hidden_states": true,
+      "return_dict_in_generate": true
+    },
+    "state_input_sequence_position": 176,
+    "state_input_token_id": 13,
+    "state_input_token": ".",
+    "last_emitted_token_id": 151645,
+    "last_emitted_token": "<|im_end|>"
+  }
+]

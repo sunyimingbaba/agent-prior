@@ -1,0 +1,66 @@
+{
+  "unique_images": 4,
+  "generation_calls": 5,
+  "local_remote_archive_sha256": "3f4c9c8944b620dd9694604dbefb1669f1416c8b0ae8c98d1b25ee68aa05bd1d",
+  "archive_matches_server": true,
+  "inputs_match_preselected_local_rows_and_rgb": true,
+  "all_five_prior_checks_passed": true,
+  "repeat_tensor_equal": true,
+  "repeat_max_abs_difference": 0.0,
+  "unique_tensor_hashes_for_four_images": 4,
+  "all_calls_end_with_im_end": true,
+  "peak_allocated_gib": 15.511610507965088,
+  "elapsed_seconds_including_loading": 19.379747609142214,
+  "records": [
+    {
+      "image": "1.tif",
+      "repeat": false,
+      "shape_finite_hash_state_checks_passed": true,
+      "generated_tokens": 21,
+      "state_input_token": ".",
+      "last_emitted_token": "<|im_end|>",
+      "elapsed_seconds": 2.3770552529022098,
+      "generated_text": "The image shows a large area of farmland with rows of crops, likely in a rural setting."
+    },
+    {
+      "image": "1043.tif",
+      "repeat": false,
+      "shape_finite_hash_state_checks_passed": true,
+      "generated_tokens": 17,
+      "state_input_token": "。",
+      "last_emitted_token": "<|im_end|>",
+      "elapsed_seconds": 0.6667062030173838,
+      "generated_text": "图像显示了多个船只停靠在码头上，水面看起来浑浊。"
+    },
+    {
+      "image": "2080.tif",
+      "repeat": false,
+      "shape_finite_hash_state_checks_passed": true,
+      "generated_tokens": 18,
+      "state_input_token": "。",
+      "last_emitted_token": "<|im_end|>",
+      "elapsed_seconds": 0.872690994059667,
+      "generated_text": "图像中有一个小的网球场，旁边有一些植物，并且有一个游泳池。"
+    },
+    {
+      "image": "1084.tif",
+      "repeat": false,
+      "shape_finite_hash_state_checks_passed": true,
+      "generated_tokens": 28,
+      "state_input_token": ".",
+      "last_emitted_token": "<|im_end|>",
+      "elapsed_seconds": 1.233107551932335,
+      "generated_text": "The image shows a harbor with numerous boats docked in neat rows. The water surrounding the boats appears to be a deep blue color."
+    },
+    {
+      "image": "1.tif",
+      "repeat": true,
+      "shape_finite_hash_state_checks_passed": true,
+      "generated_tokens": 21,
+      "state_input_token": ".",
+      "last_emitted_token": "<|im_end|>",
+      "elapsed_seconds": 0.9049174811225384,
+      "generated_text": "The image shows a large area of farmland with rows of crops, likely in a rural setting."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_tokens": 148,
+    "generated_tokens": 18,
+    "decoding_steps": 18,
+    "generated_token_ids": [
+      107553,
+      15946,
+      104133,
+      30709,
+      9370,
+      31139,
+      108992,
+      3837,
+      102708,
+      101529,
+      104155,
+      90395,
+      100136,
+      104133,
+      107140,
+      100230,
+      1773,
+      151645
+    ],
+    "generated_text": "图像中有一个小的网球场，旁边有一些植物，并且有一个游泳池。",
+    "final_state_shape_before_squeeze": [
+      1,
+      3584
+    ],
+    "final_state_sha256": "049f1c266900466c70da80a2af6c477fe34793aea172ea97ef5935f72ba83869",
+    "final_hidden_step_shape": [
+      1,
+      1,
+      3584
+    ],
+    "generation_kwargs": {
+      "max_new_tokens": 64,
+      "do_sample": false,
+      "temperature": 1.0,
+      "output_hidden_states": true,
+      "return_dict_in_generate": true
+    },
+    "state_input_sequence_position": 164,
+    "state_input_token_id": 1773,
+    "state_input_token": "。",
+    "last_emitted_token_id": 151645,
+    "last_emitted_token": "<|im_end|>"
+  }
+]

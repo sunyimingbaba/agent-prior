@@ -1,0 +1,18 @@
+LOADING_BASE_QWEN
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:06,  1.72s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:03<00:04,  1.65s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:04<00:03,  1.64s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:07<00:01,  1.91s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.39s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.55s/it]
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+The tokenizer you are loading from '/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e.  This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+GENERATING 0 1.tif train
+/private/AGSE_E1_20261110/legacy/env/lib/python3.12/site-packages/transformers/models/qwen2_5_vl/modeling_qwen2_5_vl.py:1171: UserWarning: Specified kernel cache directory could not be created! This disables kernel caching. Specified directory is /private/AGSE_E3_1_rebuild_20261112/plain_prior_smoke_20261112/run_02/scratch/cache/torch/kernels. This warning will appear only once per process. (Triggered internally at ../aten/src/ATen/native/cuda/jit_utils.cpp:1442.)
+  split_sizes = (image_grid_thw.prod(-1) // self.visual.spatial_merge_size**2).tolist()
+DONE 0 1.tif tokens 21 gpu_gib 15.507
+GENERATING 1 1043.tif train
+DONE 1 1043.tif tokens 17 gpu_gib 15.512
+GENERATING 2 2080.tif train
+DONE 2 2080.tif tokens 18 gpu_gib 15.511
+GENERATING 3 1084.tif val
+DONE 3 1084.tif tokens 28 gpu_gib 15.512
+GENERATING 4 1.tif repeat
+DONE 4 1.tif tokens 21 gpu_gib 15.508
+RESULT {"purpose": "small plain-prior pipeline validation", "formal_training_started": false, "existing_sources_modified": false, "selection": [["train", 0, "1.tif"], ["train", 840, "1043.tif"], ["train", 1679, "2080.tif"], ["val", 105, "1084.tif"]], "generation_calls": 5, "unique_images": 4, "lora_path": "", "tools_available": [], "seed": 0, "temperature": 0.0, "max_new_tokens": 64, "max_rounds": 3, "injected_h_end": false, "state_rule": "last generation call, final decoding step, final layer, final position", "device": "NVIDIA A100-SXM4-80GB", "torch": "2.4.1+cu124", "cuda": "12.4", "transformers": "4.57.2", "python": "3.12.6 | packaged by conda-forge | (main, Sep 22 2024, 14:16:49) [GCC 13.3.0]", "system_prompt": "你是遥感图像分析助手。给定一张遥感图像和一条查询文本，请简要描述图像中与查询相关的内容。直接回答，不要输出思考过程。", "rollout_source_sha256": "76db78e4730e22be5f75c4d8f74b4371ddb4ad81d11e1d2eb810a1b3d35c2365", "arrow_sha256": {"train": "4dd3c7eed39d309ffba1e77066a7fffae7912768c0a01f18fb578f3e6e5f967f", "val": "02204bf7566842f7fcd7c3e2a5ea012367ab5815bd8af09c06405c5e4adf20d2"}, "model_class": "Qwen2_5_VLForConditionalGeneration", "model_dtype": "torch.bfloat16", "processor_class": "Qwen2_5_VLProcessor", "ok": true, "completed_calls": 5, "repeat_tensor_equal": true, "repeat_max_abs_difference": 0.0, "peak_allocated_bytes": 16655464960, "elapsed_seconds": 19.379747609142214}

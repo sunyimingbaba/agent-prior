@@ -1,0 +1,49 @@
+[
+  {
+    "prompt_tokens": 150,
+    "generated_tokens": 17,
+    "decoding_steps": 17,
+    "generated_token_ids": [
+      107553,
+      54021,
+      34187,
+      101213,
+      118515,
+      94375,
+      99904,
+      18493,
+      106887,
+      17447,
+      3837,
+      110882,
+      104544,
+      103128,
+      111817,
+      1773,
+      151645
+    ],
+    "generated_text": "图像显示了多个船只停靠在码头上，水面看起来浑浊。",
+    "final_state_shape_before_squeeze": [
+      1,
+      3584
+    ],
+    "final_state_sha256": "768ab61f0ee18dc11c45ae34126d5839a7c9ae6d5c76ab129ee9b8009307f2ee",
+    "final_hidden_step_shape": [
+      1,
+      1,
+      3584
+    ],
+    "generation_kwargs": {
+      "max_new_tokens": 64,
+      "do_sample": false,
+      "temperature": 1.0,
+      "output_hidden_states": true,
+      "return_dict_in_generate": true
+    },
+    "state_input_sequence_position": 165,
+    "state_input_token_id": 1773,
+    "state_input_token": "。",
+    "last_emitted_token_id": 151645,
+    "last_emitted_token": "<|im_end|>"
+  }
+]

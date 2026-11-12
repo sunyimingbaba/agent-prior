@@ -1,0 +1,53 @@
+[
+  {
+    "prompt_tokens": 143,
+    "generated_tokens": 21,
+    "decoding_steps": 21,
+    "generated_token_ids": [
+      785,
+      2168,
+      4933,
+      264,
+      3460,
+      3082,
+      315,
+      3041,
+      85694,
+      448,
+      6978,
+      315,
+      30565,
+      11,
+      4363,
+      304,
+      264,
+      19082,
+      6243,
+      13,
+      151645
+    ],
+    "generated_text": "The image shows a large area of farmland with rows of crops, likely in a rural setting.",
+    "final_state_shape_before_squeeze": [
+      1,
+      3584
+    ],
+    "final_state_sha256": "3517195e2f6ee22351be9e695c1302409fed1dfbb1381bb827284bcd2290bc6b",
+    "final_hidden_step_shape": [
+      1,
+      1,
+      3584
+    ],
+    "generation_kwargs": {
+      "max_new_tokens": 64,
+      "do_sample": false,
+      "temperature": 1.0,
+      "output_hidden_states": true,
+      "return_dict_in_generate": true
+    },
+    "state_input_sequence_position": 162,
+    "state_input_token_id": 13,
+    "state_input_token": ".",
+    "last_emitted_token_id": 151645,
+    "last_emitted_token": "<|im_end|>"
+  }
+]

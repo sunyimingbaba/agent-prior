@@ -1,0 +1,57 @@
+{
+  "purpose": "small plain-prior pipeline validation",
+  "formal_training_started": false,
+  "existing_sources_modified": false,
+  "selection": [
+    [
+      "train",
+      0,
+      "1.tif"
+    ],
+    [
+      "train",
+      840,
+      "1043.tif"
+    ],
+    [
+      "train",
+      1679,
+      "2080.tif"
+    ],
+    [
+      "val",
+      105,
+      "1084.tif"
+    ]
+  ],
+  "generation_calls": 5,
+  "unique_images": 4,
+  "lora_path": "",
+  "tools_available": [],
+  "seed": 0,
+  "temperature": 0.0,
+  "max_new_tokens": 64,
+  "max_rounds": 3,
+  "injected_h_end": false,
+  "state_rule": "last generation call, final decoding step, final layer, final position",
+  "device": "NVIDIA A100-SXM4-80GB",
+  "torch": "2.4.1+cu124",
+  "cuda": "12.4",
+  "transformers": "4.57.2",
+  "python": "3.12.6 | packaged by conda-forge | (main, Sep 22 2024, 14:16:49) [GCC 13.3.0]",
+  "system_prompt": "你是遥感图像分析助手。给定一张遥感图像和一条查询文本，请简要描述图像中与查询相关的内容。直接回答，不要输出思考过程。",
+  "rollout_source_sha256": "76db78e4730e22be5f75c4d8f74b4371ddb4ad81d11e1d2eb810a1b3d35c2365",
+  "arrow_sha256": {
+    "train": "4dd3c7eed39d309ffba1e77066a7fffae7912768c0a01f18fb578f3e6e5f967f",
+    "val": "02204bf7566842f7fcd7c3e2a5ea012367ab5815bd8af09c06405c5e4adf20d2"
+  },
+  "model_class": "Qwen2_5_VLForConditionalGeneration",
+  "model_dtype": "torch.bfloat16",
+  "processor_class": "Qwen2_5_VLProcessor",
+  "ok": true,
+  "completed_calls": 5,
+  "repeat_tensor_equal": true,
+  "repeat_max_abs_difference": 0.0,
+  "peak_allocated_bytes": 16655464960,
+  "elapsed_seconds": 19.379747609142214
+}
