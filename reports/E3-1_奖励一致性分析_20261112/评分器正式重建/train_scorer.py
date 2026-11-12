@@ -241,8 +241,9 @@ try:
                        if isinstance(v, torch.Tensor) and v.numel() == 1}
             assert all(math.isfinite(v) for v in metrics.values())
             event('validation_end', epoch=trainer.current_epoch, optimizer_step=trainer.global_step,
-                  metrics=metrics, best_model_path=checkpoint.best_model_path,
-                  last_model_path=checkpoint.last_model_path)
+                  metrics=metrics, checkpoint_snapshot_stage='before_epoch_checkpoint_save',
+                  observed_best_model_path=checkpoint.best_model_path,
+                  observed_last_model_path=checkpoint.last_model_path)
             progress('epoch_complete', completed_epochs=trainer.current_epoch+1,
                      optimizer_steps=trainer.global_step, metrics=metrics)
             print('EPOCH_COMPLETE', trainer.current_epoch+1, json.dumps(metrics), flush=True)

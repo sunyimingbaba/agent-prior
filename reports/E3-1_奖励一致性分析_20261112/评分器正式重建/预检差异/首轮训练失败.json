@@ -1,0 +1,11 @@
+{
+  "status": "failed",
+  "started_utc": "2026-11-12T09:09:00.249186+00:00",
+  "checkpoint_policy": "last checkpoint after 50 epochs",
+  "test_evaluation_executed": false,
+  "elapsed_seconds": 16.945706413825974,
+  "last_update_utc": "2026-11-12T09:09:17.194886+00:00",
+  "ok": false,
+  "error": "AttributeError: 'MTDataModule' object has no attribute '_has_setup_TrainerFn.FITTING'",
+  "traceback": "Traceback (most recent call last):\n  File \"/private/AGSE_E3_1_rebuild_20261112/scorer_training_20261112/train_scorer.py\", line 269, in <module>\n    trainer.fit(model, datamodule=dm)\n  File \"/private/AGSE_E1_20261110/legacy/env/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py\", line 553, in fit\n    self._run(model)\n  File \"/private/AGSE_E1_20261110/legacy/env/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py\", line 865, in _run\n    self._call_setup_hook(model)  # allow user to setup lightning_module in accelerator environment\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/AGSE_E1_20261110/legacy/env/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py\", line 1169, in _call_setup_hook\n    self.datamodule.setup(stage=fn)\n  File \"/private/AGSE_E1_20261110/legacy/env/lib/python3.12/site-packages/pytorch_lightning/core/datamodule.py\", line 415, in wrapped_fn\n    has_run = getattr(obj, attr)\n              ^^^^^^^^^^^^^^^^^^\nAttributeError: 'MTDataModule' object has no attribute '_has_setup_TrainerFn.FITTING'\n"
+}
