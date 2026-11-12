@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-12",
+  "private_mount_verified": true,
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "gpu_memory_mib": 32108,
+  "asset_integrity_checks_passed": 29,
+  "legacy_cpu_autograd_ok": true,
+  "legacy_gpu_autograd_ok": false,
+  "modern_gpu_float32_autograd_ok": true,
+  "modern_gpu_bfloat16_autograd_ok": true,
+  "real_clip_prompt_autograd_ok": true,
+  "full_retrieval_training_entry_import_ok": false,
+  "missing_modern_packages": [
+    "pytorch-lightning",
+    "torchmetrics",
+    "timm",
+    "torch-ema",
+    "sacred",
+    "einops",
+    "scipy",
+    "scikit-learn"
+  ],
+  "packages_modified": false,
+  "formal_training_started": false,
+  "next_step": "prepare an isolated retrieval training environment, then verify full model backward and checkpoint save/load"
+}

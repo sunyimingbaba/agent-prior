@@ -1,0 +1,219 @@
+{
+  "root": "/private/AGSE_E1_20261110",
+  "source_assets_modified": false,
+  "mount": "{\n   \"filesystems\": [\n      {\n         \"target\": \"/private\",\n         \"source\": \"fs2[/private/user/lvjiacheng01]\",\n         \"fstype\": \"gpfs\",\n         \"options\": \"rw,relatime\"\n      }\n   ]\n}\n",
+  "gpu": "NVIDIA GeForce RTX 5090, 580.142, 32108 MiB, 0 MiB, 32108 MiB\n",
+  "files": {
+    "agse": {
+      "path": "/private/AGSE_E1_20261110/legacy/assets/ucm_main_domain_tool.ckpt",
+      "exists": true,
+      "bytes": 1854653004,
+      "sha256": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc"
+    },
+    "clip": {
+      "path": "/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt",
+      "exists": true,
+      "bytes": 932768134,
+      "sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836"
+    },
+    "lora": {
+      "path": "/private/AGSE_E1_20261110/legacy/assets/ucm_main_lora/adapter_model.safetensors",
+      "exists": true,
+      "bytes": 190443344,
+      "sha256": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb"
+    },
+    "old_feature_cache": {
+      "path": "/private/AGSE_E1_20261110/legacy/assets/grpo_val_cache.pt",
+      "exists": true,
+      "bytes": 646783,
+      "sha256": "a11db036d79812822cfff942b42a0fb2e04b0f595e370b6b4cda0e4efe37aba9"
+    }
+  },
+  "arrows": {
+    "train": {
+      "path": "/private/AGSE_E1_20261110/legacy/assets/ucm/ucm_caption_karpathy_label_train.arrow",
+      "rows": 1680,
+      "sha256": "4dd3c7eed39d309ffba1e77066a7fffae7912768c0a01f18fb578f3e6e5f967f",
+      "columns": [
+        "image",
+        "caption",
+        "path",
+        "split"
+      ]
+    },
+    "val": {
+      "path": "/private/AGSE_E1_20261110/legacy/assets/ucm/ucm_caption_karpathy_label_val.arrow",
+      "rows": 210,
+      "sha256": "02204bf7566842f7fcd7c3e2a5ea012367ab5815bd8af09c06405c5e4adf20d2",
+      "columns": [
+        "image",
+        "caption",
+        "path",
+        "split"
+      ]
+    },
+    "test": {
+      "path": "/private/AGSE_E1_20261110/legacy/assets/ucm/ucm_caption_karpathy_label_test.arrow",
+      "rows": 210,
+      "sha256": "aa918799ddc1c4a782312cc9e1f01db0cd3cd3e4be4f825ca67e55effe9f0949",
+      "columns": [
+        "image",
+        "caption",
+        "path",
+        "split"
+      ]
+    }
+  },
+  "prior_groups": {
+    "train": {
+      "path": "/private/AGSE_E1_20261110/ucm_prior_archive/agent_cache_domain_tool/ucm_caption_karpathy_label_train",
+      "count": 1680,
+      "filenames_complete": true,
+      "sample_checks": [
+        {
+          "row": 0,
+          "shape": [
+            3584
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "sha256": "8bf07cfe5a12ade11a2fe1c9e0ae66309e96b8ab7bd0c98d2e405afd497746eb"
+        },
+        {
+          "row": 840,
+          "shape": [
+            3584
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "sha256": "302760e08e2685716723e2658f2ce6d82daf6adb343163a16c622b115fddfa73"
+        },
+        {
+          "row": 1679,
+          "shape": [
+            3584
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "sha256": "52107ecdf5cd3023aa6c8ddec609d00fac1e6e48f570fbda5d3ed40a46541051"
+        }
+      ]
+    },
+    "val": {
+      "path": "/private/AGSE_E1_20261110/ucm_prior_archive/agent_cache_domain_tool/ucm_caption_karpathy_label_val",
+      "count": 210,
+      "filenames_complete": true,
+      "sample_checks": [
+        {
+          "row": 0,
+          "shape": [
+            3584
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "sha256": "0873a43eae696c2fe791fc6a5c99aed789e03cf3279f6d8e03bc43de9714f18d"
+        },
+        {
+          "row": 105,
+          "shape": [
+            3584
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "sha256": "becebac4a25ac514de1cc0bc859fd6b34d45815b3722cce8a53965d0d7414a7f"
+        },
+        {
+          "row": 209,
+          "shape": [
+            3584
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "sha256": "ca6bda369cbeb358fa12be2fcf10b1503ccac6103747a9bad6cac972d5373b5b"
+        }
+      ]
+    },
+    "test": {
+      "path": "/private/AGSE_E1_20261110/ucm_prior_archive/agent_cache_domain_tool/ucm_caption_karpathy_label_test",
+      "count": 210,
+      "filenames_complete": true,
+      "sample_checks": [
+        {
+          "row": 0,
+          "shape": [
+            3584
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "sha256": "c5f0044a1dc754f5517989ed075d26eb5ce7ffe49254b10b77c2428c1fbc87a8"
+        },
+        {
+          "row": 105,
+          "shape": [
+            3584
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "sha256": "7f7d52844267bb75cfb08e5772c48b342a7def9d77b171336ebd7f3e13db53f1"
+        },
+        {
+          "row": 209,
+          "shape": [
+            3584
+          ],
+          "dtype": "torch.bfloat16",
+          "finite": true,
+          "sha256": "deb3367cb3e64304d9fb1c50ac1c95ed5c73906ade368f28c368044a85211225"
+        }
+      ]
+    }
+  },
+  "source_hashes": {
+    "agent/rollout.py": "76db78e4730e22be5f75c4d8f74b4371ddb4ad81d11e1d2eb810a1b3d35c2365",
+    "agent/grpo/scorer.py": "e1ddb20c3eeef1f8722e2b6c2df22ed7d957495772d66486b692664323201355",
+    "agent/grpo/reward.py": "c6cad8a097ad4ac7749aa58f569d27c58065157133b2d169fa1838caf4a9c052",
+    "agent/grpo/train_grpo.py": "bb993c482e807d362cd7b2b59170100162ff41e47c9f918a99dcb910340aed68",
+    "vilt/config.py": "f5ebc571975032c668037799631d599ed12f79cb91cd23b2b908c4b9a5992ee8",
+    "run_frozen.py": "90528a1b0d77b9e218f75341b13c8e6849195a3d0cc1ae867c9d51169f6cfaf8",
+    "vilt/modules/vilt_module.py": "d1874861d081d0c9ea3d83c10ef43811c46b9b3ed20c747cd87b9272370396a4"
+  },
+  "qwen": {
+    "path": "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct",
+    "index_sha256": "73b333b0b16e5286ddba615d2caebcd495cf7e616f52eb217a81781393d79de9",
+    "config_sha256": "1a1306a1b2a9b144837681fbe4b2fe7cd85f105234d767a3af75ba5beae7c190",
+    "original_config_sha256": "77d9ec7321cc572e3579e2c84799c9cadaded63c49ce93b101733349fc330c43",
+    "shards": {
+      "model-00001-of-00005.safetensors": {
+        "exists": true,
+        "bytes": 3900233256
+      },
+      "model-00002-of-00005.safetensors": {
+        "exists": true,
+        "bytes": 3864726320
+      },
+      "model-00003-of-00005.safetensors": {
+        "exists": true,
+        "bytes": 3864726424
+      },
+      "model-00004-of-00005.safetensors": {
+        "exists": true,
+        "bytes": 3864733680
+      },
+      "model-00005-of-00005.safetensors": {
+        "exists": true,
+        "bytes": 1089994880
+      }
+    }
+  },
+  "legacy_debug_cache": {
+    "path": "/private/AGSE_E1_20261110/legacy/cache/ucm_caption_karpathy_label_train",
+    "files": [
+      "0.pt",
+      "1.pt",
+      "2.pt"
+    ]
+  },
+  "checkpoint_paths": [
+    "/private/AGSE_E1_20261110/legacy/assets/ucm_main_domain_tool.ckpt"
+  ]
+}

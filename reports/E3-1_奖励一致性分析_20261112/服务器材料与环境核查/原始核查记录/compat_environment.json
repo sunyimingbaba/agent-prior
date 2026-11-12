@@ -1,0 +1,111 @@
+{
+  "label": "compat",
+  "python": "3.13.13",
+  "executable": "/private/AGSE_E1_20261110/e1_prior_compat_20261111/venv/bin/python",
+  "prefix": "/private/AGSE_E1_20261110/e1_prior_compat_20261111/venv",
+  "packages": {
+    "torch": "2.10.0",
+    "torchvision": "0.25.0+cu130",
+    "pytorch-lightning": null,
+    "torchmetrics": null,
+    "transformers": "4.57.2",
+    "peft": "0.10.0",
+    "accelerate": "1.1.0",
+    "pyarrow": "21.0.0",
+    "numpy": "2.4.3",
+    "pillow": "11.3.0",
+    "timm": null,
+    "torch-ema": null,
+    "sacred": null,
+    "einops": null,
+    "scipy": null,
+    "scikit-learn": null,
+    "ftfy": "6.3.1",
+    "regex": "2024.11.6",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.22.1"
+  },
+  "imports": {
+    "torch": {
+      "ok": true
+    },
+    "torchvision": {
+      "ok": true
+    },
+    "pyarrow": {
+      "ok": true
+    },
+    "transformers": {
+      "ok": true
+    },
+    "peft": {
+      "ok": true
+    },
+    "timm": {
+      "ok": false,
+      "error": "ModuleNotFoundError: No module named 'timm'",
+      "traceback": "Traceback (most recent call last):\n  File \"/private/AGSE_E3_1_rebuild_20261112/audit_20261112/probe_environment.py\", line 46, in <module>\n    module = importlib.import_module(name)\n  File \"/opt/conda/envs/Pytorch-2.11.0/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1395, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1324, in _find_and_load_unlocked\nModuleNotFoundError: No module named 'timm'\n"
+    },
+    "torch_ema": {
+      "ok": false,
+      "error": "ModuleNotFoundError: No module named 'torch_ema'",
+      "traceback": "Traceback (most recent call last):\n  File \"/private/AGSE_E3_1_rebuild_20261112/audit_20261112/probe_environment.py\", line 46, in <module>\n    module = importlib.import_module(name)\n  File \"/opt/conda/envs/Pytorch-2.11.0/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1395, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1324, in _find_and_load_unlocked\nModuleNotFoundError: No module named 'torch_ema'\n"
+    },
+    "sacred": {
+      "ok": false,
+      "error": "ModuleNotFoundError: No module named 'sacred'",
+      "traceback": "Traceback (most recent call last):\n  File \"/private/AGSE_E3_1_rebuild_20261112/audit_20261112/probe_environment.py\", line 46, in <module>\n    module = importlib.import_module(name)\n  File \"/opt/conda/envs/Pytorch-2.11.0/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1395, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1324, in _find_and_load_unlocked\nModuleNotFoundError: No module named 'sacred'\n"
+    },
+    "pytorch_lightning": {
+      "ok": false,
+      "error": "ModuleNotFoundError: No module named 'pytorch_lightning'",
+      "traceback": "Traceback (most recent call last):\n  File \"/private/AGSE_E3_1_rebuild_20261112/audit_20261112/probe_environment.py\", line 46, in <module>\n    module = importlib.import_module(name)\n  File \"/opt/conda/envs/Pytorch-2.11.0/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1395, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1324, in _find_and_load_unlocked\nModuleNotFoundError: No module named 'pytorch_lightning'\n"
+    },
+    "vilt.modules.vilt_module": {
+      "ok": false,
+      "error": "ModuleNotFoundError: No module named 'pytorch_lightning'",
+      "traceback": "Traceback (most recent call last):\n  File \"/private/AGSE_E3_1_rebuild_20261112/audit_20261112/probe_environment.py\", line 46, in <module>\n    module = importlib.import_module(name)\n  File \"/opt/conda/envs/Pytorch-2.11.0/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1395, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1310, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"<frozen importlib._bootstrap>\", line 1395, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1331, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 935, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 1023, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/private/AGSE_E1_20261110/legacy/CUP/vilt/modules/__init__.py\", line 1, in <module>\n    from .vilt_module import ViLTransformerSS\n  File \"/private/AGSE_E1_20261110/legacy/CUP/vilt/modules/vilt_module.py\", line 41, in <module>\n    import pytorch_lightning as pl\nModuleNotFoundError: No module named 'pytorch_lightning'\n"
+    }
+  },
+  "autograd": {
+    "cpu_float32": {
+      "ok": true,
+      "loss": 14.738893508911133
+    },
+    "cuda_float32": {
+      "ok": true,
+      "loss": 16.96503448486328
+    },
+    "cuda_bfloat16": {
+      "ok": true,
+      "loss": 17.628292083740234
+    }
+  },
+  "full_model_forward_backward_tested": false,
+  "packages_modified": false,
+  "formal_training_started": false,
+  "cuda": {
+    "available": true,
+    "build_version": "13.0",
+    "supported_archs": [
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_110",
+      "sm_120",
+      "compute_120"
+    ],
+    "name": "NVIDIA GeForce RTX 5090",
+    "capability": [
+      12,
+      0
+    ]
+  },
+  "pip_check": {
+    "exit_code": 0,
+    "stdout": "No broken requirements found.\n",
+    "stderr": ""
+  }
+}
