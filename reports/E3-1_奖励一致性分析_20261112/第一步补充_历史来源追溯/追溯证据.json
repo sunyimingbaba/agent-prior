@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-12",
+  "source_file": "/Users/botlv/.claude/projects/-Users-botlv-CUP-code/139e7c5b-cae2-4f9f-9cec-63a6c4dff809.jsonl",
+  "source_sha256": "cd7dca386211b0aed09a41d709c00067ecdea4e28a61405ebde1e2f32779907d",
+  "source_role": "project conversation reference; tool outputs used for file-presence observations",
+  "observations": [
+    {
+      "line": 90,
+      "timestamp_utc": "2026-09-04T10:59:29.542Z",
+      "uuid": "08f219d4-6188-4809-bc75-2a6e7fadb822",
+      "block_types": [
+        "tool_result"
+      ],
+      "verified_terms": {
+        "--no_tools": true,
+        "use_agent_prior=True": true,
+        "agent_cache_dir=/workspace/cup-debug/agent_cache": true,
+        "version_0/checkpoints/last.ckpt": true
+      }
+    },
+    {
+      "line": 1561,
+      "timestamp_utc": "2026-09-07T11:33:43.485Z",
+      "uuid": "2d8e1e0b-1fd6-468a-92eb-e024184e2216",
+      "block_types": [
+        "tool_use"
+      ],
+      "historical_server_label": "1100"
+    },
+    {
+      "line": 1562,
+      "timestamp_utc": "2026-09-07T11:34:06.601Z",
+      "uuid": "bc8efb07-9d46-4c28-bd97-1145721ac66b",
+      "block_types": [
+        "tool_result"
+      ],
+      "directory_listing": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_0/checkpoints/:\nepoch=48-step=1567.ckpt\nlast.ckpt\n\n/workspace/cup-debug/models/:\nQwen2.5-VL-7B-Instruct\nViT-B-32.pt\nViT-L-14.pt\nucm_scene_cls.pt"
+    },
+    {
+      "line": 3077,
+      "timestamp_utc": "2026-09-16T10:43:20.456Z",
+      "uuid": "bb14976f-c8fa-4047-96fd-4d51c9c8d6bb",
+      "block_types": [
+        "tool_result"
+      ],
+      "hparam_mappings": [
+        {
+          "hparams": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_0/hparams.yaml",
+          "setting": "agent_cache_dir: /workspace/cup-debug/agent_cache"
+        },
+        {
+          "hparams": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_1/hparams.yaml",
+          "setting": "agent_cache_dir: /workspace/cup-debug/agent_cache_road1_g8fs"
+        },
+        {
+          "hparams": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_2/hparams.yaml",
+          "setting": "agent_cache_dir: /workspace/cup-debug/agent_cache_domain_tool"
+        },
+        {
+          "hparams": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_3/hparams.yaml",
+          "setting": "agent_cache_dir: /workspace/cup-debug/agent_cache_ucm_randtool"
+        },
+        {
+          "hparams": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_4/hparams.yaml",
+          "setting": "agent_cache_dir: /workspace/cup-debug/agent_cache_plain_lr1e5_ucm"
+        },
+        {
+          "hparams": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_5/hparams.yaml",
+          "setting": "agent_cache_dir: /workspace/cup-debug/agent_cache_plain_lr3e5_ucm"
+        },
+        {
+          "hparams": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_6/hparams.yaml",
+          "setting": "agent_cache_dir: /workspace/cup-debug/agent_cache_plain_lr3e5_ucm"
+        },
+        {
+          "hparams": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_7/hparams.yaml",
+          "setting": "agent_cache_dir: /workspace/cup-debug/agent_cache_notools_lr3e5_ucm"
+        },
+        {
+          "hparams": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_8/hparams.yaml",
+          "setting": "agent_cache_dir: /workspace/cup-debug/agent_cache_notools_lr3e6_ucm"
+        },
+        {
+          "hparams": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_9/hparams.yaml",
+          "setting": "agent_cache_dir: /workspace/cup-debug/agent_cache_notools_lr9e6_ucm"
+        }
+      ]
+    },
+    {
+      "line": 3513,
+      "timestamp_utc": "2026-09-18T10:16:11.895Z",
+      "uuid": "20c284dd-ed8e-44e7-a373-36410dcbf42e",
+      "block_types": [
+        "tool_use"
+      ],
+      "historical_server_label": "1052",
+      "model_download_mapping": [
+        {
+          "server_path": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_2/checkpoints/last.ckpt",
+          "local_filename": "ucm_main_domain_tool.ckpt"
+        },
+        {
+          "server_path": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_12/checkpoints/last.ckpt",
+          "local_filename": "ucm_ccb_clustering_prior.ckpt"
+        },
+        {
+          "server_path": "/workspace/cup-debug/logs/finetune_irtr_rsitmd_randaug_seed0_from_/version_1/checkpoints/last.ckpt",
+          "local_filename": "rsitmd_main_domain_tool.ckpt"
+        },
+        {
+          "server_path": "/workspace/cup-debug/logs/finetune_irtr_rsicd_randaug_seed0_from_/version_1/checkpoints/last.ckpt",
+          "local_filename": "rsicd_main_domain_tool.ckpt"
+        }
+      ]
+    },
+    {
+      "line": 3541,
+      "timestamp_utc": "2026-09-18T10:18:35.761Z",
+      "uuid": "7f369eb0-6622-4bfe-975c-e57b45d6a516",
+      "block_types": [
+        "text"
+      ],
+      "download_task_completed": true
+    },
+    {
+      "line": 3544,
+      "timestamp_utc": "2026-09-18T10:18:39.687Z",
+      "uuid": "f26d3b94-76cc-459b-bb7b-7e0e240e1394",
+      "block_types": [
+        "tool_result"
+      ],
+      "downloaded_filenames": [
+        "rsicd_main_domain_tool.ckpt",
+        "rsitmd_main_domain_tool.ckpt",
+        "ucm_ccb_clustering_prior.ckpt",
+        "ucm_main_domain_tool.ckpt"
+      ]
+    },
+    {
+      "line": 4958,
+      "timestamp_utc": "2026-10-18T07:44:38.342Z",
+      "uuid": "3718afd2-2b97-4fef-96b8-a94fab14cf71",
+      "block_types": [
+        "text"
+      ],
+      "review_note": "Historical assistant linked save_last=True to best validation checkpoint; actual checkpoint metadata requires separate last/best verification."
+    }
+  ],
+  "github": {
+    "repo": "sunyimingbaba/agent-prior",
+    "releases": [],
+    "tags": [],
+    "issues_and_pull_requests": [],
+    "branches": [
+      "main",
+      "codex/e1-ucm-diagnostics-20261110",
+      "codex/e3-1-asset-audit-20261112"
+    ]
+  },
+  "scope_note": "Task-specific structured summaries only; original dialogue and credential-bearing commands remain in place."
+}
