@@ -1,0 +1,214 @@
+{
+  "verified": true,
+  "count": 1890,
+  "split_counts": {
+    "train": 1680,
+    "val": 210
+  },
+  "shape": [
+    3584
+  ],
+  "dtype": "torch.bfloat16",
+  "all_finite_and_nonzero": true,
+  "all_inputs_files_traces_and_state_hashes_match": true,
+  "anchor_matches": 4,
+  "token_length_min": 6,
+  "token_length_max": 64,
+  "token_length_mean": 24.66084656084656,
+  "end_token_counts": {
+    "<|im_end|>": 1860,
+    " definit": 1,
+    " the": 3,
+    " another": 1,
+    " on": 1,
+    " The": 1,
+    ",": 1,
+    " white": 1,
+    " of": 3,
+    " chap": 1,
+    " spaces": 1,
+    " plants": 1,
+    " with": 1,
+    "al": 2,
+    " populated": 1,
+    " be": 1,
+    " curved": 1,
+    " it": 1,
+    " no": 1,
+    " developed": 1,
+    " setting": 1,
+    " image": 1,
+    " not": 1,
+    " diamond": 1,
+    " is": 1,
+    " appears": 1
+  },
+  "flags": {
+    "token_limit_with_non_end_token": [
+      {
+        "split": "train",
+        "row": 168,
+        "image": "208.tif"
+      },
+      {
+        "split": "train",
+        "row": 179,
+        "image": "219.tif"
+      },
+      {
+        "split": "train",
+        "row": 182,
+        "image": "222.tif"
+      },
+      {
+        "split": "train",
+        "row": 193,
+        "image": "233.tif"
+      },
+      {
+        "split": "train",
+        "row": 198,
+        "image": "238.tif"
+      },
+      {
+        "split": "train",
+        "row": 202,
+        "image": "242.tif"
+      },
+      {
+        "split": "train",
+        "row": 236,
+        "image": "276.tif"
+      },
+      {
+        "split": "train",
+        "row": 239,
+        "image": "279.tif"
+      },
+      {
+        "split": "train",
+        "row": 270,
+        "image": "330.tif"
+      },
+      {
+        "split": "train",
+        "row": 410,
+        "image": "510.tif"
+      },
+      {
+        "split": "train",
+        "row": 411,
+        "image": "511.tif"
+      },
+      {
+        "split": "train",
+        "row": 413,
+        "image": "513.tif"
+      },
+      {
+        "split": "train",
+        "row": 457,
+        "image": "557.tif"
+      },
+      {
+        "split": "train",
+        "row": 460,
+        "image": "560.tif"
+      },
+      {
+        "split": "train",
+        "row": 469,
+        "image": "569.tif"
+      },
+      {
+        "split": "train",
+        "row": 472,
+        "image": "572.tif"
+      },
+      {
+        "split": "train",
+        "row": 496,
+        "image": "619.tif"
+      },
+      {
+        "split": "train",
+        "row": 666,
+        "image": "829.tif"
+      },
+      {
+        "split": "train",
+        "row": 714,
+        "image": "877.tif"
+      },
+      {
+        "split": "train",
+        "row": 733,
+        "image": "916.tif"
+      },
+      {
+        "split": "train",
+        "row": 748,
+        "image": "931.tif"
+      },
+      {
+        "split": "train",
+        "row": 774,
+        "image": "957.tif"
+      },
+      {
+        "split": "train",
+        "row": 990,
+        "image": "1231.tif"
+      },
+      {
+        "split": "train",
+        "row": 1018,
+        "image": "1259.tif"
+      },
+      {
+        "split": "train",
+        "row": 1062,
+        "image": "1323.tif"
+      },
+      {
+        "split": "train",
+        "row": 1064,
+        "image": "1325.tif"
+      },
+      {
+        "split": "val",
+        "row": 25,
+        "image": "287.tif"
+      },
+      {
+        "split": "val",
+        "row": 26,
+        "image": "288.tif"
+      },
+      {
+        "split": "val",
+        "row": 53,
+        "image": "585.tif"
+      },
+      {
+        "split": "val",
+        "row": 136,
+        "image": "1387.tif"
+      }
+    ],
+    "empty_text": [],
+    "tool_markup": [],
+    "addCriterion": []
+  },
+  "flag_counts": {
+    "token_limit_with_non_end_token": 30,
+    "empty_text": 0,
+    "tool_markup": 0,
+    "addCriterion": 0
+  },
+  "duplicate_tensor_groups": [],
+  "peak_allocated_gib": 15.516345500946045,
+  "generation_seconds_sum": 1483.7185365066398,
+  "elapsed_seconds_server_attempt": 1533.5568048530258,
+  "formal_scorer_training_started": false
+}

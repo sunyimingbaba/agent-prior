@@ -1,0 +1,18 @@
+{
+  "verified": true,
+  "local_source_matches_server_archive": {
+    "generate_full_priors.py": "0cc58705a04226b0993d5d0078535f32cb5c9fdc5d27b4a6ffc3d91004eaa563",
+    "run_full_generation.sh": "207ac3dd757ce17e23b2f9d91831d9dac5c6dc341aec36959f1103f5812f595e",
+    "monitor_full.py": "3e204962ee7b35c0a61477216ba0edad133062bf55e78c763639ee99c3ebc9b3",
+    "verify_full_priors.py": "4999039e2bf2655caf47524609025366b66116f78868b9a7f8c321dbd2583b16",
+    "collect_evidence.py": "002bf6c97534a30fcc8b6302085aa597eb6616c4f17731bf31f9fc2417ed077e"
+  },
+  "settings_generator_hash_matches": true,
+  "settings_model_and_rollout_hashes_match_manifest": true,
+  "max_rounds": 3,
+  "injected_h_end": false,
+  "outer_rollout_temperature": 0.0,
+  "actual_generate_do_sample": false,
+  "actual_generate_temperature": 1.0,
+  "all_1890_trace_terminal_tokens_and_generation_kwargs_match": true
+}
