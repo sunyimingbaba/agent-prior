@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-12",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_memory_mib": 81920,
+  "same_private_mount_as_e1": true,
+  "legacy_runtime_usable_on_a100": true,
+  "torch": "2.4.1+cu124",
+  "lightning": "1.4.0",
+  "batch_size": 32,
+  "trainer_steps_before_save": 1,
+  "checkpoint_stored_global_step": 2,
+  "checkpoint_step_convention_source": "原始验证记录/checkpoint_step_convention.json",
+  "peak_allocated_gib": 14.230500221252441,
+  "peak_reserved_gib": 14.76953125,
+  "full_training_smoke_passed": true,
+  "checkpoint_strict_load_passed": true,
+  "optimizer_state_saved": true,
+  "formal_scorer_training_started": false,
+  "qwen_rfpo_training_tested": false,
+  "existing_source_or_model_files_changed": false,
+  "evidence_archive_sha256": "749066d026f7a108033c994dce7097462c62ed80d5b186c730fc932b68d3ac34",
+  "local_and_remote_evidence_match": true,
+  "checkpoint": {
+    "path": "/private/AGSE_E3_1_rebuild_20261112/a100_audit_20261112/environment_smoke_bs32.ckpt",
+    "bytes": 1854644110,
+    "sha256": "f95f0f73c1d0314d68e36b437d052b61f4e14b1e73541fa873101a9102090d05",
+    "global_step": 2
+  }
+}

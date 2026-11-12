@@ -1,0 +1,100 @@
+{
+  "label": "a100_legacy",
+  "python": "3.12.6",
+  "executable": "/private/AGSE_E1_20261110/legacy/env/bin/python",
+  "prefix": "/private/AGSE_E1_20261110/legacy/env",
+  "packages": {
+    "torch": "2.4.1+cu124",
+    "torchvision": "0.19.1+cu124",
+    "pytorch-lightning": "1.4.0",
+    "torchmetrics": "0.7.2",
+    "transformers": "4.57.2",
+    "peft": "0.10.0",
+    "accelerate": "1.1.0",
+    "pyarrow": "14.0.0",
+    "numpy": "1.26.4",
+    "pillow": "10.4.0",
+    "timm": "0.5.4",
+    "torch-ema": "0.3",
+    "sacred": "0.8.7",
+    "einops": "0.8.2",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.5.2",
+    "ftfy": "6.3.1",
+    "regex": "2023.10.3",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.22.1"
+  },
+  "imports": {
+    "torch": {
+      "ok": true
+    },
+    "torchvision": {
+      "ok": true
+    },
+    "pyarrow": {
+      "ok": true
+    },
+    "transformers": {
+      "ok": true
+    },
+    "peft": {
+      "ok": true
+    },
+    "timm": {
+      "ok": true
+    },
+    "torch_ema": {
+      "ok": true
+    },
+    "sacred": {
+      "ok": true
+    },
+    "pytorch_lightning": {
+      "ok": true
+    },
+    "vilt.modules.vilt_module": {
+      "ok": true
+    }
+  },
+  "autograd": {
+    "cpu_float32": {
+      "ok": true,
+      "loss": 14.883033752441406
+    },
+    "cuda_float32": {
+      "ok": true,
+      "loss": 15.585012435913086
+    },
+    "cuda_bfloat16": {
+      "ok": true,
+      "loss": 15.679420471191406
+    }
+  },
+  "full_model_forward_backward_tested": false,
+  "packages_modified": false,
+  "formal_training_started": false,
+  "cuda": {
+    "available": true,
+    "build_version": "12.4",
+    "supported_archs": [
+      "sm_50",
+      "sm_60",
+      "sm_70",
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90"
+    ],
+    "name": "NVIDIA A100-SXM4-80GB",
+    "capability": [
+      8,
+      0
+    ]
+  },
+  "pip_check": {
+    "exit_code": 0,
+    "stdout": "No broken requirements found.\n",
+    "stderr": ""
+  }
+}

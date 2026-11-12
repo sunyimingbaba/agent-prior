@@ -1,0 +1,80 @@
+{
+  "scope": "one-batch environment and checkpoint smoke check",
+  "formal_scorer_training_started": false,
+  "existing_source_files_modified": false,
+  "existing_model_weights_modified": false,
+  "model_initialization": "fresh trainable modules with local frozen CLIP backbone",
+  "configuration_reference": "archived AGSE checkpoint metadata",
+  "smoke_prior_source": "existing domain-tool train priors, for interface/gradient checks",
+  "batch_size": 32,
+  "frozen_backbone": true,
+  "trainable_parameter_count": 13349511,
+  "tracked_before": {},
+  "parameter_max_changes": {
+    "prompt_embeddings": 0.00010009109973907471,
+    "visual_prompt_embeddings": 6.332993507385254e-08,
+    "agent_proj.0.weight": 0.00010001659393310547
+  },
+  "one_batch_training_seconds": 2.9075091839767992,
+  "global_step": 1,
+  "gradient_records": [
+    {
+      "tensors_with_gradient": 34,
+      "all_finite": true,
+      "agent_projection_gradient_present": true,
+      "backbone_has_gradients": false
+    }
+  ],
+  "peak_allocated_bytes": 15279883264,
+  "peak_reserved_bytes": 15858663424,
+  "image_names": [
+    "1.tif",
+    "2.tif",
+    "3.tif",
+    "4.tif",
+    "5.tif",
+    "6.tif",
+    "7.tif",
+    "8.tif",
+    "9.tif",
+    "10.tif",
+    "11.tif",
+    "12.tif",
+    "13.tif",
+    "14.tif",
+    "15.tif",
+    "16.tif",
+    "17.tif",
+    "18.tif",
+    "19.tif",
+    "20.tif",
+    "21.tif",
+    "22.tif",
+    "23.tif",
+    "24.tif",
+    "25.tif",
+    "26.tif",
+    "27.tif",
+    "28.tif",
+    "29.tif",
+    "30.tif",
+    "31.tif",
+    "32.tif"
+  ],
+  "training_metrics": {
+    "clip/train/clip_loss": 5.023310661315918,
+    "clip/train/prior_loss": 0.0002296535822097212,
+    "clip/train/uncertainty_loss": 2.2461404114437755e-07,
+    "train/the_metric": 0.0
+  },
+  "checkpoint_strict_load_ok": true,
+  "optimizer_state_saved": true,
+  "checkpoint": {
+    "path": "/private/AGSE_E3_1_rebuild_20261112/a100_audit_20261112/environment_smoke_bs32.ckpt",
+    "bytes": 1854644110,
+    "sha256": "f95f0f73c1d0314d68e36b437d052b61f4e14b1e73541fa873101a9102090d05",
+    "global_step": 2
+  },
+  "ok": true,
+  "elapsed_seconds": 26.181140701984987
+}
