@@ -1,0 +1,425 @@
+{
+  "date": "2026-11-12",
+  "execution": "local CPU, source assets read only",
+  "runtime": {
+    "python": "3.12.7 (v3.12.7:0b05ead877f, Sep 30 2024, 23:18:00) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "torch": "2.11.0",
+    "pyarrow": "25.0.0"
+  },
+  "git": {
+    "head": "4bb83d44dd665b10102150dd45e1ffdddd80c385",
+    "branch": "codex/agse-ucm-tools-grpo",
+    "handoff_commit": "18fa34148533567e944c009147d3f288563ad173"
+  },
+  "checkpoints": {
+    "ucm_main_domain_tool.ckpt": {
+      "path": "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/checkpoints/ucm_main_domain_tool.ckpt",
+      "bytes": 1854653004,
+      "sha256": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc",
+      "epoch": 50,
+      "global_step": 1600,
+      "parameter_entries": 524,
+      "config": {
+        "use_agent_prior": true,
+        "agent_hidden_dim": 3584,
+        "agent_cache_dir": "/workspace/cup-debug/agent_cache_domain_tool",
+        "clip_model": "ViT-L/14",
+        "prompt_length": 16,
+        "img_features_dim": 1024,
+        "txt_features_dim": 768,
+        "datasets": [
+          "ucm"
+        ],
+        "seed": 0,
+        "load_path": ""
+      },
+      "agent_weights": {
+        "agent_proj.0.weight": {
+          "shape": [
+            1024,
+            3584
+          ],
+          "dtype": "torch.float32"
+        },
+        "agent_proj.0.bias": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.float32"
+        },
+        "agent_proj.1.weight": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.float32"
+        },
+        "agent_proj.1.bias": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.float32"
+        }
+      },
+      "callbacks": [
+        {
+          "key": "<class '__main__.MyBackboneFinetuning'>"
+        },
+        {
+          "key": "<class 'pytorch_lightning.callbacks.model_checkpoint.ModelCheckpoint'>",
+          "best_model_score": 81.36000061035156,
+          "best_model_path": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_2/checkpoints/epoch=42-step=1375.ckpt",
+          "dirpath": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_2/checkpoints"
+        }
+      ]
+    },
+    "ucm_ccb_clustering_prior.ckpt": {
+      "path": "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/checkpoints/ucm_ccb_clustering_prior.ckpt",
+      "bytes": 1841574236,
+      "sha256": "688126e8587d7d91e0b93ed131a0095c2923904775e0cf9efb6f3a4e044ec607",
+      "epoch": 50,
+      "global_step": 1600,
+      "parameter_entries": 524,
+      "config": {
+        "use_agent_prior": false,
+        "agent_hidden_dim": 3584,
+        "agent_cache_dir": "",
+        "clip_model": "ViT-L/14",
+        "prompt_length": 16,
+        "img_features_dim": 1024,
+        "txt_features_dim": 768,
+        "datasets": [
+          "ucm"
+        ],
+        "seed": 0,
+        "load_path": ""
+      },
+      "agent_weights": {
+        "agent_proj.0.weight": {
+          "shape": [
+            1024,
+            3584
+          ],
+          "dtype": "torch.float32"
+        },
+        "agent_proj.0.bias": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.float32"
+        },
+        "agent_proj.1.weight": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.float32"
+        },
+        "agent_proj.1.bias": {
+          "shape": [
+            1024
+          ],
+          "dtype": "torch.float32"
+        }
+      },
+      "callbacks": [
+        {
+          "key": "<class '__main__.MyBackboneFinetuning'>"
+        },
+        {
+          "key": "<class 'pytorch_lightning.callbacks.model_checkpoint.ModelCheckpoint'>",
+          "best_model_score": 74.31999969482422,
+          "best_model_path": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_12/checkpoints/epoch=35-step=1151.ckpt",
+          "dirpath": "/workspace/cup-debug/logs/finetune_irtr_ucm_randaug_seed0_from_/version_12/checkpoints"
+        }
+      ]
+    }
+  },
+  "feature_caches": {
+    "grpo_val_cache.pt": {
+      "path": "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/stats/grpo_val_cache.pt",
+      "bytes": 646783,
+      "sha256": "a11db036d79812822cfff942b42a0fb2e04b0f595e370b6b4cda0e4efe37aba9",
+      "keys": [
+        "image_features",
+        "image_indices"
+      ],
+      "shape": [
+        210,
+        768
+      ],
+      "dtype": "torch.float32",
+      "all_finite": true,
+      "norm_min": 0.9999998211860657,
+      "norm_max": 1.0000001192092896,
+      "index_count": 210,
+      "indices_are_identity": true,
+      "indices_unique": true,
+      "provenance_metadata_present": false
+    },
+    "grpo_val_cache_best.pt": {
+      "path": "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/stats/grpo_val_cache_best.pt",
+      "bytes": 646872,
+      "sha256": "e5354d1c7ee2d3b92384e0543e7df5b5f6773d6e49ba676b952464a5ce9d6676",
+      "keys": [
+        "image_features",
+        "image_indices"
+      ],
+      "shape": [
+        210,
+        768
+      ],
+      "dtype": "torch.float32",
+      "all_finite": true,
+      "norm_min": 0.9999998211860657,
+      "norm_max": 1.0000001192092896,
+      "index_count": 210,
+      "indices_are_identity": true,
+      "indices_unique": true,
+      "provenance_metadata_present": false
+    }
+  },
+  "cache_comparison": {
+    "feature_tensors_equal": true,
+    "max_abs_difference": 0.0
+  },
+  "arrows": {
+    "train": {
+      "path": "/Users/botlv/cup-deploy-assets/arrow/ucm/ucm_caption_karpathy_label_train.arrow",
+      "bytes": 333134594,
+      "sha256": "4dd3c7eed39d309ffba1e77066a7fffae7912768c0a01f18fb578f3e6e5f967f",
+      "rows": 1680,
+      "columns": [
+        "image",
+        "caption",
+        "path",
+        "split"
+      ],
+      "paths_unique": true,
+      "caption_count_histogram": {
+        "5": 1680
+      }
+    },
+    "val": {
+      "path": "/Users/botlv/cup-deploy-assets/arrow/ucm/ucm_caption_karpathy_label_val.arrow",
+      "bytes": 41387418,
+      "sha256": "02204bf7566842f7fcd7c3e2a5ea012367ab5815bd8af09c06405c5e4adf20d2",
+      "rows": 210,
+      "columns": [
+        "image",
+        "caption",
+        "path",
+        "split"
+      ],
+      "paths_unique": true,
+      "caption_count_histogram": {
+        "5": 210
+      }
+    },
+    "test": {
+      "path": "/Users/botlv/cup-deploy-assets/arrow/ucm/ucm_caption_karpathy_label_test.arrow",
+      "bytes": 41547682,
+      "sha256": "aa918799ddc1c4a782312cc9e1f01db0cd3cd3e4be4f825ca67e55effe9f0949",
+      "rows": 210,
+      "columns": [
+        "image",
+        "caption",
+        "path",
+        "split"
+      ],
+      "paths_unique": true,
+      "caption_count_histogram": {
+        "5": 210
+      }
+    }
+  },
+  "val_prior_checks": {
+    "count": 210,
+    "all_3584": true,
+    "all_finite": true
+  },
+  "cross_split_path_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "e1_overlap": {
+    "samples": 100,
+    "split_counts": {
+      "val": 22,
+      "train": 78
+    },
+    "all_path_matches": true,
+    "all_caption_matches": true,
+    "all_rgb_matches": true,
+    "historical_gallery_overlap": 22
+  },
+  "historical_stats": {
+    "path": "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/stats/domain_tool_stats.jsonl",
+    "bytes": 513455,
+    "sha256": "3a1c7f39f759625266b505cdbd4f4087414d5e9d525493efc0a4d163e269cf78",
+    "rows": 4000,
+    "fields": [
+      "has_tool",
+      "r_format",
+      "r_retrieval",
+      "r_total",
+      "rank",
+      "step"
+    ],
+    "steps": 500,
+    "step_min": 0,
+    "step_max": 499,
+    "candidates_per_step": {
+      "8": 500
+    },
+    "rank_min": 0,
+    "rank_max": 209,
+    "soft_reward_formula_matches_all": true,
+    "total_formula_lambda1_matches_all": true,
+    "format_reward_histogram": {
+      "0.0": 3971,
+      "0.2": 28,
+      "0.19999999999999996": 1
+    },
+    "has_tool_count": 1691,
+    "all_rewards_tied_steps": 3
+  },
+  "source_versions": {
+    "CUP/agent/grpo/scorer.py": {
+      "path": "/Users/botlv/CUP-code/CUP/agent/grpo/scorer.py",
+      "bytes": 6006,
+      "sha256": "e1ddb20c3eeef1f8722e2b6c2df22ed7d957495772d66486b692664323201355",
+      "oct08_tar_sha256": "e1ddb20c3eeef1f8722e2b6c2df22ed7d957495772d66486b692664323201355",
+      "matches_oct08_tar": true,
+      "matches_handoff_commit": true
+    },
+    "CUP/agent/grpo/reward.py": {
+      "path": "/Users/botlv/CUP-code/CUP/agent/grpo/reward.py",
+      "bytes": 1711,
+      "sha256": "c6cad8a097ad4ac7749aa58f569d27c58065157133b2d169fa1838caf4a9c052",
+      "oct08_tar_sha256": "c6cad8a097ad4ac7749aa58f569d27c58065157133b2d169fa1838caf4a9c052",
+      "matches_oct08_tar": true,
+      "matches_handoff_commit": true
+    },
+    "CUP/agent/grpo/train_grpo.py": {
+      "path": "/Users/botlv/CUP-code/CUP/agent/grpo/train_grpo.py",
+      "bytes": 12562,
+      "sha256": "bb993c482e807d362cd7b2b59170100162ff41e47c9f918a99dcb910340aed68",
+      "oct08_tar_sha256": "bb993c482e807d362cd7b2b59170100162ff41e47c9f918a99dcb910340aed68",
+      "matches_oct08_tar": true,
+      "matches_handoff_commit": true
+    },
+    "CUP/agent/rollout.py": {
+      "path": "/Users/botlv/CUP-code/CUP/agent/rollout.py",
+      "bytes": 15901,
+      "sha256": "76db78e4730e22be5f75c4d8f74b4371ddb4ad81d11e1d2eb810a1b3d35c2365",
+      "oct08_tar_sha256": "76db78e4730e22be5f75c4d8f74b4371ddb4ad81d11e1d2eb810a1b3d35c2365",
+      "matches_oct08_tar": true,
+      "matches_handoff_commit": true
+    }
+  },
+  "lora": {
+    "weights": {
+      "path": "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/lora/ucm_main_lora/adapter_model.safetensors",
+      "bytes": 190443344,
+      "sha256": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb"
+    },
+    "config": {
+      "alpha_pattern": {},
+      "auto_mapping": null,
+      "base_model_name_or_path": "/workspace/cup-debug/models/Qwen2.5-VL-7B-Instruct",
+      "bias": "none",
+      "fan_in_fan_out": false,
+      "inference_mode": true,
+      "init_lora_weights": true,
+      "layer_replication": null,
+      "layers_pattern": null,
+      "layers_to_transform": null,
+      "loftq_config": {},
+      "lora_alpha": 64,
+      "lora_dropout": 0.05,
+      "megatron_config": null,
+      "megatron_core": "megatron.core",
+      "modules_to_save": null,
+      "peft_type": "LORA",
+      "r": 32,
+      "rank_pattern": {},
+      "revision": null,
+      "target_modules": [
+        "v_proj",
+        "q_proj",
+        "o_proj",
+        "k_proj",
+        "down_proj",
+        "up_proj",
+        "gate_proj"
+      ],
+      "task_type": "CAUSAL_LM",
+      "use_dora": false,
+      "use_rslora": false
+    },
+    "tensor_count": 584,
+    "parameter_count": 95178752
+  },
+  "base_model": {
+    "config": {
+      "path": "/Users/botlv/cup-deploy-assets/models/Qwen2.5-VL-7B-Instruct/config.json",
+      "bytes": 1374,
+      "sha256": "77d9ec7321cc572e3579e2c84799c9cadaded63c49ce93b101733349fc330c43"
+    },
+    "index": {
+      "path": "/Users/botlv/cup-deploy-assets/models/Qwen2.5-VL-7B-Instruct/model.safetensors.index.json",
+      "bytes": 57619,
+      "sha256": "73b333b0b16e5286ddba615d2caebcd495cf7e616f52eb217a81781393d79de9"
+    },
+    "shards": {
+      "model-00001-of-00005.safetensors": {
+        "exists": true,
+        "bytes": 3900233256
+      },
+      "model-00002-of-00005.safetensors": {
+        "exists": true,
+        "bytes": 3864726320
+      },
+      "model-00003-of-00005.safetensors": {
+        "exists": true,
+        "bytes": 3864726424
+      },
+      "model-00004-of-00005.safetensors": {
+        "exists": true,
+        "bytes": 3864733680
+      },
+      "model-00005-of-00005.safetensors": {
+        "exists": true,
+        "bytes": 1089994880
+      }
+    }
+  },
+  "evidence_files": [
+    {
+      "path": "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/README.md",
+      "bytes": 3212,
+      "sha256": "2aa9294189dd314fd3049183f9001ef10bd326530fb0290e613a5f416d15e047"
+    },
+    {
+      "path": "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/scripts/pipeline_domain_tool.sh",
+      "bytes": 2269,
+      "sha256": "4a5d5b790a41b5c8449623a0fdbf1e663e84078af83b9c2243cddcff7214ab65"
+    },
+    {
+      "path": "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/logs/grpo_domain_tool.log",
+      "bytes": 8434,
+      "sha256": "f982d66e49ab78b1bc27cfd487ea2fb0be702f60504c1edd636cc08f3185b22c"
+    },
+    {
+      "path": "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/logs/pipeline_domain_tool.log",
+      "bytes": 204094,
+      "sha256": "ea57ea13e062d19c170efd1ace2601440fecf75d2bfd9258713a68c903a49da0"
+    }
+  ],
+  "searched_local_checkpoints": [
+    "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/checkpoints/rsicd_main_domain_tool.ckpt",
+    "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/checkpoints/rsitmd_main_domain_tool.ckpt",
+    "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/checkpoints/ucm_ccb_clustering_prior.ckpt",
+    "/Users/botlv/cup-deploy-assets/experiment_archive_2026-09/checkpoints/ucm_main_domain_tool.ckpt"
+  ]
+}
