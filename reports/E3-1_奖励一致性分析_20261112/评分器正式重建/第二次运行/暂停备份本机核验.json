@@ -1,0 +1,29 @@
+{
+  "status": "user_paused",
+  "all_three_checkpoint_copies_match": true,
+  "checkpoints": {
+    "preferred_epoch30": {
+      "local_path": "/Users/botlv/CUP-code/reports/E3-1_奖励一致性分析_20261112/评分器正式重建/第二次运行/检查点备份/epoch_30.ckpt",
+      "bytes": 1854653388,
+      "sha256": "0c0fe707dac3db1d59a9dedca024977b26a27f7a394d8e7becf84e5efc158583",
+      "verified": true
+    },
+    "latest_at_pause": {
+      "local_path": "/Users/botlv/CUP-code/reports/E3-1_奖励一致性分析_20261112/评分器正式重建/第二次运行/检查点备份/暂停时_last.ckpt",
+      "bytes": 1854653388,
+      "sha256": "01dae492f2855086026b3aa6de486e2e1f13ce55934f756b806cc23fac0eb995",
+      "verified": true
+    },
+    "validation_best": {
+      "local_path": "/Users/botlv/CUP-code/reports/E3-1_奖励一致性分析_20261112/评分器正式重建/第二次运行/检查点备份/暂停时_验证最佳.ckpt",
+      "bytes": 1854653388,
+      "sha256": "cf1182c89e5fb2e8e61a3825e43d2da77ce62b21abc2095413df548687fe2d1e",
+      "verified": true
+    }
+  },
+  "finite_logged_batch_losses": 7901,
+  "complete_validation_epochs": 31,
+  "preferred_resume_completed_epochs": 30,
+  "preferred_resume_optimizer_steps": 960,
+  "archive_sha256": "d66f3366b2d953b1e3527547a0948ed0ac6434ded87fc7a0d42f2d231289763f"
+}

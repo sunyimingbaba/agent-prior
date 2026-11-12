@@ -1,0 +1,34 @@
+{
+  "reason": "explicit user request: pause today and retain epoch 30 checkpoint",
+  "requested_utc": "2026-11-12T11:47:52.792486+00:00",
+  "progress_before_signal": {
+    "status": "training",
+    "started_utc": "2026-11-12T09:15:58.701430+00:00",
+    "checkpoint_policy": "last checkpoint after 50 epochs",
+    "test_evaluation_executed": false,
+    "elapsed_seconds": 9112.894078379031,
+    "last_update_utc": "2026-11-12T11:47:51.595501+00:00",
+    "epoch": 31,
+    "batch": 150,
+    "optimizer_steps": 1010,
+    "batches_seen": 7900,
+    "latest_loss": 0.6303988099098206,
+    "peak_allocated_gib": 14.396481990814209,
+    "completed_epochs": 31,
+    "metrics": {
+      "clip/train/clip_loss": 0.37074828147888184,
+      "clip/train/prior_loss": 7.673809705011081e-06,
+      "clip/train/uncertainty_loss": 1.651138887837078e-07,
+      "clip/val/clip_loss": 3.403865098953247,
+      "clip/val/prior_loss": 1.0216842383670155e-05,
+      "clip/val/uncertainty_loss": 1.868668135784901e-07,
+      "val/the_metric": 79.7699966430664,
+      "train/the_metric": 0.0
+    }
+  },
+  "signalled_pids": [
+    2999
+  ],
+  "signal": "SIGINT",
+  "preferred_resume_checkpoint": "/private/AGSE_E3_1_rebuild_20261112/scorer_training_20261112/attempt_02/snapshots/epoch_30/last.ckpt"
+}

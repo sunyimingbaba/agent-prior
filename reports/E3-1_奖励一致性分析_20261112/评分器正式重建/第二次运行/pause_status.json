@@ -1,0 +1,50 @@
+{
+  "status": "user_paused",
+  "reason": "explicit user request to stop today and retain epoch 30",
+  "registered_utc": "2026-11-12T11:51:07.561703+00:00",
+  "trainer_process_stopped": true,
+  "completed_epochs_before_pause": 31,
+  "logged_batch_count": 7901,
+  "last_logged_batch": {
+    "epoch": 31,
+    "batch": 150,
+    "optimizer_step": 1010,
+    "loss": 0.5804311633110046,
+    "lr": 3.926031294452347e-05
+  },
+  "latest_validation_metric": 79.7699966430664,
+  "preferred_resume_completed_epochs": 30,
+  "checkpoints": {
+    "preferred_epoch30": {
+      "path": "/private/AGSE_E3_1_rebuild_20261112/scorer_training_20261112/attempt_02/snapshots/epoch_30/last.ckpt",
+      "bytes": 1854653388,
+      "sha256": "0c0fe707dac3db1d59a9dedca024977b26a27f7a394d8e7becf84e5efc158583",
+      "stored_epoch": 30,
+      "stored_global_step": 960,
+      "all_model_state_tensors_finite": true,
+      "optimizer_and_scheduler_state_present": true
+    },
+    "latest_at_pause": {
+      "path": "/private/AGSE_E3_1_rebuild_20261112/scorer_training_20261112/attempt_02/run_01/checkpoints/last.ckpt",
+      "bytes": 1854653388,
+      "sha256": "01dae492f2855086026b3aa6de486e2e1f13ce55934f756b806cc23fac0eb995",
+      "stored_epoch": 31,
+      "stored_global_step": 992,
+      "all_model_state_tensors_finite": true,
+      "optimizer_and_scheduler_state_present": true
+    },
+    "validation_best": {
+      "path": "/private/AGSE_E3_1_rebuild_20261112/scorer_training_20261112/attempt_02/run_01/checkpoints/epoch=22-step=735.ckpt",
+      "bytes": 1854653388,
+      "sha256": "cf1182c89e5fb2e8e61a3825e43d2da77ce62b21abc2095413df548687fe2d1e",
+      "stored_epoch": 23,
+      "stored_global_step": 736,
+      "all_model_state_tensors_finite": true,
+      "optimizer_and_scheduler_state_present": true
+    }
+  },
+  "raw_wrapper_exit_code": 1,
+  "raw_wrapper_error": "AssertionError: 31",
+  "raw_exit_explanation": "After user interruption, the full-50-epoch completion assertion reports 31. Original logs and failure record are retained.",
+  "formal_50_epoch_freeze_pending": true
+}
