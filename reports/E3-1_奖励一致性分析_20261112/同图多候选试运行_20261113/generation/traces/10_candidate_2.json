@@ -1,0 +1,33 @@
+[
+  {
+    "prompt_tokens": 296,
+    "generated_token_ids": [
+      151644,
+      22483,
+      4790,
+      1437,
+      151644,
+      198,
+      18724,
+      151645
+    ],
+    "generated_tokens": 8,
+    "generated_text": "scene_classify\n addCriterion",
+    "last_emitted_token": "<|im_end|>",
+    "state_input_token_id": 18724,
+    "state_input_token": " addCriterion",
+    "state_input_sequence_position": 302,
+    "decoding_steps": 8,
+    "final_state_sha256": "99fc5e6dbb13cb5fb016ca72db135461cc0c4d2063d3acdbbee8feb453c8d174",
+    "final_state_shape": [
+      3584
+    ],
+    "generation_kwargs": {
+      "max_new_tokens": 64,
+      "do_sample": true,
+      "temperature": 1.0,
+      "output_hidden_states": true,
+      "return_dict_in_generate": true
+    }
+  }
+]

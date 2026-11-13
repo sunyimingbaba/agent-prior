@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "count": 30,
+  "candidates": 24,
+  "references": 3,
+  "repeats": [
+    {
+      "row": 10,
+      "seed": 0,
+      "state_hash_equal": true,
+      "generated_token_ids_equal": true,
+      "tool_events_equal": true
+    },
+    {
+      "row": 95,
+      "seed": 0,
+      "state_hash_equal": true,
+      "generated_token_ids_equal": true,
+      "tool_events_equal": true
+    },
+    {
+      "row": 207,
+      "seed": 0,
+      "state_hash_equal": true,
+      "generated_token_ids_equal": true,
+      "tool_events_equal": true
+    }
+  ],
+  "all_states_finite_bfloat16_3584": true,
+  "save_reload_bitwise_equal": true,
+  "source_files_unchanged": {
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/rollout.py": "76db78e4730e22be5f75c4d8f74b4371ddb4ad81d11e1d2eb810a1b3d35c2365",
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/tools.py": "ee163557b1d5ccc4b0b9b3deaafc0b5ff6b7850107af94e045966bdac807f7d8"
+  },
+  "plan_sha256": "14bbc6320c8a510c1aee22d1255a85aec7e198b69dd932b8c4dcda65f31bcfad",
+  "generator_sha256": "f68e63b42bf91bfa750427fbdb861a77609d7b6a35274fd67b0c9bcfe51e1915",
+  "peak_allocated_bytes": 18744290816,
+  "elapsed_seconds": 88.5526973369997
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "prompt_tokens": 297,
+    "generated_token_ids": [
+      151644,
+      22483,
+      4790,
+      1437,
+      151645
+    ],
+    "generated_tokens": 5,
+    "generated_text": "scene_classify",
+    "last_emitted_token": "<|im_end|>",
+    "state_input_token_id": 1437,
+    "state_input_token": "ify",
+    "state_input_sequence_position": 300,
+    "decoding_steps": 5,
+    "final_state_sha256": "34a3b8340598088fa8c393b172b21fc029f68f634c6da371404b4c4b7f08fed9",
+    "final_state_shape": [
+      3584
+    ],
+    "generation_kwargs": {
+      "max_new_tokens": 64,
+      "do_sample": true,
+      "temperature": 1.0,
+      "output_hidden_states": true,
+      "return_dict_in_generate": true
+    }
+  }
+]

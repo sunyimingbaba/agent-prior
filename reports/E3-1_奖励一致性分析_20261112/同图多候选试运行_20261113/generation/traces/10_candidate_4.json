@@ -1,0 +1,57 @@
+[
+  {
+    "prompt_tokens": 296,
+    "generated_token_ids": [
+      151657,
+      22483,
+      4790,
+      1437,
+      151644,
+      198,
+      18724,
+      151645
+    ],
+    "generated_tokens": 8,
+    "generated_text": "<tool_call>scene_classify\n addCriterion",
+    "last_emitted_token": "<|im_end|>",
+    "state_input_token_id": 18724,
+    "state_input_token": " addCriterion",
+    "state_input_sequence_position": 302,
+    "decoding_steps": 8,
+    "final_state_sha256": "75f87ca11ad0f3da6ac35ba224b5818dda87d62796400515b664ec19d3e39dc5",
+    "final_state_shape": [
+      3584
+    ],
+    "generation_kwargs": {
+      "max_new_tokens": 64,
+      "do_sample": true,
+      "temperature": 1.0,
+      "output_hidden_states": true,
+      "return_dict_in_generate": true
+    }
+  },
+  {
+    "prompt_tokens": 330,
+    "generated_token_ids": [
+      151645
+    ],
+    "generated_tokens": 1,
+    "generated_text": "",
+    "last_emitted_token": "<|im_end|>",
+    "state_input_token_id": 397,
+    "state_input_token": ">\n",
+    "state_input_sequence_position": 329,
+    "decoding_steps": 1,
+    "final_state_sha256": "c943894ef80df3dcb56d4bda65a04352738cc6842d67a2633607521e50586170",
+    "final_state_shape": [
+      3584
+    ],
+    "generation_kwargs": {
+      "max_new_tokens": 64,
+      "do_sample": true,
+      "temperature": 1.0,
+      "output_hidden_states": true,
+      "return_dict_in_generate": true
+    }
+  }
+]

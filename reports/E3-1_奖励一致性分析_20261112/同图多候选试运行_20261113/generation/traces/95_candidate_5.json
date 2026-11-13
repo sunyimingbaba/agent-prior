@@ -1,0 +1,80 @@
+[
+  {
+    "prompt_tokens": 312,
+    "generated_token_ids": [
+      151657,
+      22483,
+      4790,
+      1437,
+      151645
+    ],
+    "generated_tokens": 5,
+    "generated_text": "<tool_call>scene_classify",
+    "last_emitted_token": "<|im_end|>",
+    "state_input_token_id": 1437,
+    "state_input_token": "ify",
+    "state_input_sequence_position": 315,
+    "decoding_steps": 5,
+    "final_state_sha256": "de585ec308201b676dfadcf47629fdb821d4545a447611d696315c010a459523",
+    "final_state_shape": [
+      3584
+    ],
+    "generation_kwargs": {
+      "max_new_tokens": 64,
+      "do_sample": true,
+      "temperature": 1.0,
+      "output_hidden_states": true,
+      "return_dict_in_generate": true
+    }
+  },
+  {
+    "prompt_tokens": 347,
+    "generated_token_ids": [
+      151644,
+      18724,
+      198,
+      151644,
+      198,
+      18724,
+      198,
+      151644,
+      198,
+      18724,
+      198,
+      151644,
+      198,
+      18724,
+      198,
+      151644,
+      198,
+      18724,
+      198,
+      18724,
+      198,
+      151644,
+      198,
+      18724,
+      198,
+      18724,
+      151645
+    ],
+    "generated_tokens": 27,
+    "generated_text": " addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n addCriterion\n\n addCriterion\n addCriterion",
+    "last_emitted_token": "<|im_end|>",
+    "state_input_token_id": 18724,
+    "state_input_token": " addCriterion",
+    "state_input_sequence_position": 372,
+    "decoding_steps": 27,
+    "final_state_sha256": "18dafd4f6ee99bfdb41222aee9b6bc94895c2d9ff0f2dd51657f205e4d474364",
+    "final_state_shape": [
+      3584
+    ],
+    "generation_kwargs": {
+      "max_new_tokens": 64,
+      "do_sample": true,
+      "temperature": 1.0,
+      "output_hidden_states": true,
+      "return_dict_in_generate": true
+    }
+  }
+]

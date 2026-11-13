@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "records": 33,
+  "strict_checkpoint_load": true,
+  "frozen_eval_no_grad": true,
+  "source_files_unchanged": {
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/grpo/scorer.py": "e1ddb20c3eeef1f8722e2b6c2df22ed7d957495772d66486b692664323201355",
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/grpo/reward.py": "c6cad8a097ad4ac7749aa58f569d27c58065157133b2d169fa1838caf4a9c052",
+    "/private/AGSE_E1_20261110/legacy/CUP/vilt/modules/vilt_module.py": "d1874861d081d0c9ea3d83c10ef43811c46b9b3ed20c747cd87b9272370396a4",
+    "/private/AGSE_E1_20261110/legacy/CUP/prompt_clip/clip.py": "e8b4f072b9630d193be35cd4e425ec6068a55c865129536b1abafbfc95c45f31",
+    "/private/AGSE_E1_20261110/legacy/CUP/prompt_clip/model.py": "b741d181da1cbcfd5a721f7b59c596728c240089c9f82b9e49cc37d6a4e11097",
+    "/private/AGSE_E1_20261110/legacy/CUP/vilt/modules/vilt_utils.py": "4da0b8d8160212d7e2076a0d5c6d164ffa9c515b27120401ab9f4c9dd1396f09"
+  },
+  "all_features_and_similarities_finite": true,
+  "proxy_rank64_all_equal": true,
+  "utility_rank64_equal_count": 33,
+  "repeated_candidates_features_and_scores_bitwise_equal": true,
+  "E1_cross_checks": [
+    {
+      "row": 10,
+      "wording": "A",
+      "historical_CPU_max_abs_score_error": 5.960464477539063e-08,
+      "GPU_cached_text_vs_CPU_direct_margin_error": 8.940696716308594e-08
+    },
+    {
+      "row": 10,
+      "wording": "B",
+      "historical_CPU_max_abs_score_error": 2.9802322387695312e-08,
+      "GPU_cached_text_vs_CPU_direct_margin_error": 4.470348358154297e-08
+    },
+    {
+      "row": 95,
+      "wording": "A",
+      "historical_CPU_max_abs_score_error": 8.940696716308594e-08,
+      "GPU_cached_text_vs_CPU_direct_margin_error": 1.4901161193847656e-08
+    },
+    {
+      "row": 95,
+      "wording": "B",
+      "historical_CPU_max_abs_score_error": 2.2351741790771484e-07,
+      "GPU_cached_text_vs_CPU_direct_margin_error": 7.450580596923828e-08
+    },
+    {
+      "row": 207,
+      "wording": "A",
+      "historical_CPU_max_abs_score_error": 1.4901161193847656e-07,
+      "GPU_cached_text_vs_CPU_direct_margin_error": 1.7881393432617188e-07
+    },
+    {
+      "row": 207,
+      "wording": "B",
+      "historical_CPU_max_abs_score_error": 2.9802322387695312e-08,
+      "GPU_cached_text_vs_CPU_direct_margin_error": 2.9802322387695312e-08
+    }
+  ],
+  "plan_sha256": "14bbc6320c8a510c1aee22d1255a85aec7e198b69dd932b8c4dcda65f31bcfad",
+  "scorer_script_sha256": "c5d39166d1f784f6ff0cda2a68c84d7ee407b931c5828d5f514634b70be7f36c",
+  "text_gallery_sha256": "d62dead35f2f73b1e3457d444f62416a62db72637fe39bd3775aab2bcdac1665",
+  "gallery_size": 391,
+  "peak_allocated_bytes": 3662861312,
+  "elapsed_seconds": 29.875641494989395
+}

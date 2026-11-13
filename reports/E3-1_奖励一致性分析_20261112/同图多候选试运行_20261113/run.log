@@ -1,0 +1,93 @@
+PHASE_START generate_candidates.py
+VERIFIED_ASSETS_LOADING_MODELS
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:06<00:24,  6.15s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:12<00:19,  6.50s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:19<00:13,  6.67s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:25<00:06,  6.17s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:26<00:00,  4.43s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:26<00:00,  5.31s/it]
+已加载 LoRA 适配器: /private/AGSE_E1_20261110/legacy/assets/ucm_main_lora
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+The tokenizer you are loading from '/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e.  This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+this is name:/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt
+GENERATED 1 /30 10_reference_0 tools 1 rounds 2
+GENERATED 2 /30 10_candidate_0 tools 0 rounds 1
+GENERATED 3 /30 10_candidate_1 tools 0 rounds 1
+GENERATED 4 /30 10_candidate_2 tools 0 rounds 1
+GENERATED 5 /30 10_candidate_3 tools 0 rounds 1
+GENERATED 6 /30 10_candidate_4 tools 1 rounds 2
+GENERATED 7 /30 10_candidate_5 tools 1 rounds 2
+GENERATED 8 /30 10_candidate_6 tools 1 rounds 2
+GENERATED 9 /30 10_candidate_7 tools 0 rounds 1
+GENERATED 10 /30 10_repeat_0 tools 0 rounds 1
+GENERATED 11 /30 95_reference_0 tools 1 rounds 2
+GENERATED 12 /30 95_candidate_0 tools 0 rounds 1
+GENERATED 13 /30 95_candidate_1 tools 0 rounds 1
+GENERATED 14 /30 95_candidate_2 tools 0 rounds 1
+GENERATED 15 /30 95_candidate_3 tools 0 rounds 1
+GENERATED 16 /30 95_candidate_4 tools 1 rounds 2
+GENERATED 17 /30 95_candidate_5 tools 1 rounds 2
+GENERATED 18 /30 95_candidate_6 tools 1 rounds 2
+GENERATED 19 /30 95_candidate_7 tools 0 rounds 1
+GENERATED 20 /30 95_repeat_0 tools 0 rounds 1
+GENERATED 21 /30 207_reference_0 tools 1 rounds 2
+GENERATED 22 /30 207_candidate_0 tools 0 rounds 1
+GENERATED 23 /30 207_candidate_1 tools 0 rounds 1
+GENERATED 24 /30 207_candidate_2 tools 0 rounds 1
+GENERATED 25 /30 207_candidate_3 tools 0 rounds 1
+GENERATED 26 /30 207_candidate_4 tools 1 rounds 2
+GENERATED 27 /30 207_candidate_5 tools 1 rounds 2
+GENERATED 28 /30 207_candidate_6 tools 1 rounds 2
+GENERATED 29 /30 207_candidate_7 tools 0 rounds 1
+GENERATED 30 /30 207_repeat_0 tools 0 rounds 1
+GENERATION_COMPLETE
+PHASE_START score_candidates.py
+If for semantic segmentation, please install mmsegmentation first
+If for detection, please install mmdetection first
+
+###########This is config ####################
+{'exp_name': 'finetune_irtr_ucm_randaug', 'seed': 0, 'datasets': ['ucm'], 'loss_names': {'itm': 0, 'mlm': 0, 'mpp': 0, 'vqa': 0, 'nlvr2': 0, 'irtr': 0, 'clip': 1}, 'batch_size': 256, 'clip_model': 'ViT-L/14', 'current_epoch': 49, 'weight_margin': 0.015, 'loss_scale_kl': 1, 'loss_scale_un': 1, 'loss_scale': 1, 'max_image_len': -1, 'patch_size': 32, 'draw_false_image': 1, 'image_only': False, 'vqav2_label_size': 3129, 'max_text_len': 77, 'tokenizer': 'bert-base-uncased', 'vocab_size': 30522, 'whole_word_masking': False, 'mlm_prob': 0.15, 'draw_false_text': 0, 'vit': 'vit_base_patch32_384', 'hidden_size': 768, 'num_heads': 12, 'num_layers': 12, 'mlp_ratio': 4, 'drop_rate': 0.1, 'prompt_length': 16, 'optim_type': 'adamw', 'learning_rate': 0.0001, 'weight_decay': 0.01, 'decay_power': 1, 'max_epoch': 50, 'max_steps': None, 'warmup_steps': 0.1, 'end_lr': 0, 'lr_mult': 1, 'clip_zero': True, 'get_recall_metric': True, 'resume_from': '/private/AGSE_E3_1_rebuild_20261112/scorer_training_20261112/attempt_02/snapshots/epoch_30/last.ckpt', 'fast_dev_run': False, 'val_check_interval': 1.0, 'test_only': False, 'data_root': '/private/AGSE_E1_20261110/legacy/assets/ucm', 'log_dir': '/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/logs', 'per_gpu_batchsize': 32, 'num_gpus': 1, 'num_nodes': 1, 'load_path': '', 'num_workers': 8, 'precision': 32, 'linear_projector': 0.1, 'train_transform_keys': 'ViT-L/14', 'val_transform_keys': 'ViT-L/14', 'image_size': [14, 14], 'img_features_dim': 1024, 'txt_features_dim': 768, 'cls_number': 21, 'save_image_path': '/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/images', 'json': '/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/unused_legacy_annotation.json', 'use_agent_prior': True, 'agent_cache_dir': '/private/AGSE_E3_1_rebuild_20261112/plain_prior_full_20261112/run_01/priors', 'agent_hidden_dim': 3584, '__doc__': 'ViT-L/14 骨干：UCM 遥感数据集'}
+###########This is config ####################
+
+this is name:/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt
+/private/AGSE_E1_20261110/legacy/CUP/agent/grpo/scorer.py:72: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  data = torch.load(self.cache_path, map_location="cpu")
+
+###########This is config ####################
+{'exp_name': 'finetune_irtr_ucm_randaug', 'seed': 0, 'datasets': ['ucm'], 'loss_names': {'itm': 0, 'mlm': 0, 'mpp': 0, 'vqa': 0, 'nlvr2': 0, 'irtr': 0, 'clip': 1}, 'batch_size': 256, 'clip_model': 'ViT-L/14', 'current_epoch': 49, 'weight_margin': 0.015, 'loss_scale_kl': 1, 'loss_scale_un': 1, 'loss_scale': 1, 'max_image_len': -1, 'patch_size': 32, 'draw_false_image': 1, 'image_only': False, 'vqav2_label_size': 3129, 'max_text_len': 77, 'tokenizer': 'bert-base-uncased', 'vocab_size': 30522, 'whole_word_masking': False, 'mlm_prob': 0.15, 'draw_false_text': 0, 'vit': 'vit_base_patch32_384', 'hidden_size': 768, 'num_heads': 12, 'num_layers': 12, 'mlp_ratio': 4, 'drop_rate': 0.1, 'prompt_length': 16, 'optim_type': 'adamw', 'learning_rate': 0.0001, 'weight_decay': 0.01, 'decay_power': 1, 'max_epoch': 50, 'max_steps': None, 'warmup_steps': 0.1, 'end_lr': 0, 'lr_mult': 1, 'clip_zero': True, 'get_recall_metric': True, 'resume_from': None, 'fast_dev_run': False, 'val_check_interval': 1.0, 'test_only': False, 'data_root': '/workspace/cup-debug/data/ucm', 'log_dir': '/workspace/cup-debug/logs', 'per_gpu_batchsize': 32, 'num_gpus': 1, 'num_nodes': 1, 'load_path': '', 'num_workers': 8, 'precision': 16, 'linear_projector': 0.1, 'train_transform_keys': 'ViT-L/14', 'val_transform_keys': 'ViT-L/14', 'image_size': [14, 14], 'img_features_dim': 1024, 'txt_features_dim': 768, 'cls_number': 21, 'save_image_path': '/workspace/cup-debug/images', 'json': '/home/amax/wyj/dataset/UCM_captions/karpathy/ucm.json', 'use_agent_prior': True, 'agent_cache_dir': '/workspace/cup-debug/agent_cache_domain_tool', 'agent_hidden_dim': 3584, '__doc__': 'ViT-L/14 骨干：UCM 遥感数据集'}
+###########This is config ####################
+
+this is name:/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt
+SCORED 1 /33 10_reference_0 proxy_rank1 53 utility_rank1 2
+SCORED 2 /33 10_candidate_0 proxy_rank1 32 utility_rank1 2
+SCORED 3 /33 10_candidate_1 proxy_rank1 32 utility_rank1 2
+SCORED 4 /33 10_candidate_2 proxy_rank1 76 utility_rank1 2
+SCORED 5 /33 10_candidate_3 proxy_rank1 32 utility_rank1 2
+SCORED 6 /33 10_candidate_4 proxy_rank1 51 utility_rank1 2
+SCORED 7 /33 10_candidate_5 proxy_rank1 6 utility_rank1 3
+SCORED 8 /33 10_candidate_6 proxy_rank1 53 utility_rank1 2
+SCORED 9 /33 10_candidate_7 proxy_rank1 32 utility_rank1 2
+SCORED 10 /33 10_repeat_0 proxy_rank1 32 utility_rank1 2
+SCORED 11 /33 95_reference_0 proxy_rank1 138 utility_rank1 4
+SCORED 12 /33 95_candidate_0 proxy_rank1 139 utility_rank1 8
+SCORED 13 /33 95_candidate_1 proxy_rank1 139 utility_rank1 8
+SCORED 14 /33 95_candidate_2 proxy_rank1 156 utility_rank1 1
+SCORED 15 /33 95_candidate_3 proxy_rank1 139 utility_rank1 8
+SCORED 16 /33 95_candidate_4 proxy_rank1 134 utility_rank1 6
+SCORED 17 /33 95_candidate_5 proxy_rank1 151 utility_rank1 4
+SCORED 18 /33 95_candidate_6 proxy_rank1 138 utility_rank1 4
+SCORED 19 /33 95_candidate_7 proxy_rank1 139 utility_rank1 8
+SCORED 20 /33 95_repeat_0 proxy_rank1 139 utility_rank1 8
+SCORED 21 /33 207_reference_0 proxy_rank1 161 utility_rank1 22
+SCORED 22 /33 207_candidate_0 proxy_rank1 172 utility_rank1 13
+SCORED 23 /33 207_candidate_1 proxy_rank1 172 utility_rank1 13
+SCORED 24 /33 207_candidate_2 proxy_rank1 172 utility_rank1 11
+SCORED 25 /33 207_candidate_3 proxy_rank1 154 utility_rank1 18
+SCORED 26 /33 207_candidate_4 proxy_rank1 175 utility_rank1 13
+SCORED 27 /33 207_candidate_5 proxy_rank1 150 utility_rank1 13
+SCORED 28 /33 207_candidate_6 proxy_rank1 161 utility_rank1 22
+SCORED 29 /33 207_candidate_7 proxy_rank1 172 utility_rank1 13
+SCORED 30 /33 207_repeat_0 proxy_rank1 172 utility_rank1 13
+SCORED 31 /33 10_historical proxy_rank1 53 utility_rank1 2
+SCORED 32 /33 95_historical proxy_rank1 138 utility_rank1 4
+SCORED 33 /33 207_historical proxy_rank1 161 utility_rank1 22
+SCORING_COMPLETE
+PHASE_START analyze_pilot.py
+ANALYSIS_COMPLETE {"images": 3, "candidates": 24, "retrieval_reward_vs_primary_utility": {"pair_counts": {"concordant": 12, "discordant": 31, "reward_tie_only": 3, "utility_tie_only": 23, "both_tied": 15}, "informative_pairs": 43, "pooled_pair_concordance": 0.27906976744186046, "mean_image_concordance": 0.21587301587301586, "images_with_informative_pairs": 3, "images_with_defined_spearman": 3}}
+PILOT_COMPLETE {"status": "complete", "started_at_utc": "2026-11-13T06:22:26.088144+00:00", "phases": [{"script": "generate_candidates.py", "exit_code": 0, "elapsed_seconds": 97.10521632200107}, {"script": "score_candidates.py", "exit_code": 0, "elapsed_seconds": 39.35728532006033}, {"script": "analyze_pilot.py", "exit_code": 0, "elapsed_seconds": 3.2194732681382447}], "elapsed_seconds": 139.68242099299096, "completed_at_utc": "2026-11-13T06:24:45.770562+00:00"}
