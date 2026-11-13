@@ -1,0 +1,206 @@
+{
+  "purpose": "Locate empty EOS and addCriterion under matched model inputs, without editing original assets",
+  "selected_rows": [
+    10,
+    95,
+    207
+  ],
+  "images": [
+    {
+      "split": "val",
+      "row": 10,
+      "image": "181.tif",
+      "caption": "There is an airplanes stopped at the airport .",
+      "image_rgb_sha256": "b518b2390eed414d7fc4ea480e40f213979b63618ee5cfb9db97c5b55b383f94",
+      "image_bytes_sha256": "57ae91b46be13c94ae2eed0022b28d5aa0308ab9f606545ad7112097f0d83bd4",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/10.pt",
+      "historical_prior_sha256": "1b49ad7d489d9843e771ed5d39dcc661a810fb533e35cae038ff5da0db58575c",
+      "E1_pairs": [
+        {
+          "图像编号": "181.tif",
+          "数据来源": "UCM val",
+          "目标": "飞机",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of airplanes visible in the image is one.",
+          "错误描述": "The number of airplanes visible in the image is two.",
+          "文本1": "The number of airplanes visible in the image is two.",
+          "文本2": "The number of airplanes visible in the image is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "There is an airplanes stopped at the airport .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "181.tif",
+          "数据来源": "UCM val",
+          "目标": "飞机",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible airplanes is one.",
+          "错误描述": "The number of visible airplanes is two.",
+          "文本1": "The number of visible airplanes is two.",
+          "文本2": "The number of visible airplanes is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "There is an airplanes stopped at the airport .",
+          "用户确认状态": "已确认数量"
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "row": 95,
+      "image": "984.tif",
+      "caption": "This is a part of a golf course with green turfs and some bunkers and a trail go through the turfs .",
+      "image_rgb_sha256": "7b7a56edfce15bf10004f3bf12453c9f9b0b292a9a44a410ea4d9fef1986661f",
+      "image_bytes_sha256": "a2c3d483fda3e47ec846aac726fe76a2af230a665379896c69fed57a92b5bf1b",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/95.pt",
+      "historical_prior_sha256": "cc16e829a6af0787f4e957f42092f1439725e9c5e3e666b3dac146d93a3d86e7",
+      "E1_pairs": [
+        {
+          "图像编号": "984.tif",
+          "数据来源": "UCM val",
+          "目标": "沙坑",
+          "实际数量": "3",
+          "错误数量": "4",
+          "句式": "A_原句式",
+          "正确描述": "The number of sand bunkers visible in the image is three.",
+          "错误描述": "The number of sand bunkers visible in the image is four.",
+          "文本1": "The number of sand bunkers visible in the image is three.",
+          "文本2": "The number of sand bunkers visible in the image is four.",
+          "正确文本位置": "1",
+          "原始第一条描述": "This is a part of a golf course with green turfs and some bunkers and a trail go through the turfs .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "984.tif",
+          "数据来源": "UCM val",
+          "目标": "沙坑",
+          "实际数量": "3",
+          "错误数量": "4",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible sand bunkers is three.",
+          "错误描述": "The number of visible sand bunkers is four.",
+          "文本1": "The number of visible sand bunkers is three.",
+          "文本2": "The number of visible sand bunkers is four.",
+          "正确文本位置": "1",
+          "原始第一条描述": "This is a part of a golf course with green turfs and some bunkers and a trail go through the turfs .",
+          "用户确认状态": "已确认数量"
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "row": 207,
+      "image": "2088.tif",
+      "caption": "Four tennis courts arranged neatly with some plants surrounded .",
+      "image_rgb_sha256": "502d55e5a9c185d51f9081452035b1f2560e0db09677b604adaa7c800226a25a",
+      "image_bytes_sha256": "fdbc2926d24ee3ff092a706dfe37473da747dc4e0ac8a15a569c6a26247d538b",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/207.pt",
+      "historical_prior_sha256": "7545574be50a9a84437c27b1a1117d87356e1333ddf7111a46c6ecea3d975c50",
+      "E1_pairs": [
+        {
+          "图像编号": "2088.tif",
+          "数据来源": "UCM val",
+          "目标": "网球场",
+          "实际数量": "4",
+          "错误数量": "3",
+          "句式": "A_原句式",
+          "正确描述": "The number of tennis courts visible in the image is four.",
+          "错误描述": "The number of tennis courts visible in the image is three.",
+          "文本1": "The number of tennis courts visible in the image is three.",
+          "文本2": "The number of tennis courts visible in the image is four.",
+          "正确文本位置": "2",
+          "原始第一条描述": "Four tennis courts arranged neatly with some plants surrounded .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "2088.tif",
+          "数据来源": "UCM val",
+          "目标": "网球场",
+          "实际数量": "4",
+          "错误数量": "3",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible tennis courts is four.",
+          "错误描述": "The number of visible tennis courts is three.",
+          "文本1": "The number of visible tennis courts is three.",
+          "文本2": "The number of visible tennis courts is four.",
+          "正确文本位置": "2",
+          "原始第一条描述": "Four tennis courts arranged neatly with some plants surrounded .",
+          "用户确认状态": "已确认数量"
+        }
+      ]
+    }
+  ],
+  "source_plan_sha256": "14bbc6320c8a510c1aee22d1255a85aec7e198b69dd932b8c4dcda65f31bcfad",
+  "native_factorial": {
+    "adapter": [
+      "enabled",
+      "disabled"
+    ],
+    "prompt": [
+      "tool",
+      "plain"
+    ],
+    "generation": [
+      {
+        "temperature": 0.0,
+        "seed": 0
+      },
+      {
+        "temperature": 1.0,
+        "seed": 0
+      }
+    ]
+  },
+  "feedback_factorial": {
+    "adapter": [
+      "enabled",
+      "disabled"
+    ],
+    "prefix": [
+      "raw_unclosed",
+      "raw_closed",
+      "chat_closed"
+    ],
+    "temperature": 0.0,
+    "seed": 0,
+    "tool_response": "same actual scene classification result per image"
+  },
+  "processor_check": {
+    "anchor_row": 10,
+    "variants": [
+      "default",
+      "use_fast=False",
+      "fix_mistral_regex=True"
+    ],
+    "compare": [
+      "rendered_text",
+      "input_ids",
+      "pixel_values",
+      "image_grid_thw"
+    ]
+  },
+  "max_new_tokens": 64,
+  "max_rounds": 3,
+  "threshold": 0.0,
+  "state_rule": "original rollout: final generate, final decode step, last layer and position",
+  "lora_weights_sha256": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "clip_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+  "scene_head_sha256": "275f041920aa5747e9d90d6e14c79fb341882948bcf17cf02ae159d35cc9540b",
+  "rollout_sha256": "76db78e4730e22be5f75c4d8f74b4371ddb4ad81d11e1d2eb810a1b3d35c2365",
+  "asset_policy": "original files read-only; temporary processor objects only; no training or parameter update"
+}

@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "records": 42,
+  "all_states_finite_3584": true,
+  "all_state_save_reload_bitwise_equal": true,
+  "adapter_load_verified": true,
+  "source_files_unchanged": {
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/rollout.py": "76db78e4730e22be5f75c4d8f74b4371ddb4ad81d11e1d2eb810a1b3d35c2365",
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/tools.py": "ee163557b1d5ccc4b0b9b3deaafc0b5ff6b7850107af94e045966bdac807f7d8"
+  },
+  "input_asset_hashes": {
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/model-00001-of-00005.safetensors": "e97b877e47fde53a6c6e77aafb36e58e91ee9d95c4a3eeac6f1b5c0e6a1c986e",
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/model-00002-of-00005.safetensors": "a9a300a43b4724eee2abe7c18ceb26768d0ab011eb0cad19d9bfd2476a24d024",
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/model-00003-of-00005.safetensors": "111223d173e00bbee81cba1216fad28668df3476706b7fd26f4d5b50f8b3a507",
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/model-00004-of-00005.safetensors": "ef47f634fa57d46ee134edcc09f34085a47da1e16c12a2abe0d67118be6d72ed",
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/model-00005-of-00005.safetensors": "0c859795ad3a627a9b95bcb762e059d5b768a4a36fdd4affeff269d93fdecc67",
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/config.json": "1a1306a1b2a9b144837681fbe4b2fe7cd85f105234d767a3af75ba5beae7c190",
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/generation_config.json": "0a3aea82869fe29f20dc95ccf3e2bcff380eca1f5ad6447a4a4b37110b08e43e",
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/preprocessor_config.json": "f2058c716eef96ccaed1cc1e2d0c08306b62586d535b28d9d08e691b2fab7ca0",
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/tokenizer_config.json": "4abd3520120e266da84c0864fee064d1fb10806f02225911a47253dd38dc5f56",
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/chat_template.json": "ad60d90252ed0b0705ba14e2d0ad0fec0beac1ea955642b54059b36052d8bc96",
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/model.safetensors.index.json": "73b333b0b16e5286ddba615d2caebcd495cf7e616f52eb217a81781393d79de9",
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/config.original.json": "77d9ec7321cc572e3579e2c84799c9cadaded63c49ce93b101733349fc330c43",
+    "/private/AGSE_E1_20261110/legacy/assets/ucm_main_lora/adapter_model.safetensors": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+    "/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+    "/private/AGSE_E1_20261110/legacy/assets/ucm_scene_cls.pt": "275f041920aa5747e9d90d6e14c79fb341882948bcf17cf02ae159d35cc9540b"
+  },
+  "plan_sha256": "ce65435af1440f4337ede737b8c4ceb0994121c998f6a0e60c0e3da75b71d82b",
+  "script_sha256": "cf8dfe0435b3eb411df4bfa82641515885b0debf373add9434dc71ac1e571a3b",
+  "frozen_eval_no_parameter_updates": true,
+  "peak_allocated_bytes": 18752242176,
+  "all_parameters_frozen_at_each_generate_entry": true,
+  "loaded_adapter_parameter_hashes_unchanged": true,
+  "elapsed_seconds": 76.35672101611272
+}

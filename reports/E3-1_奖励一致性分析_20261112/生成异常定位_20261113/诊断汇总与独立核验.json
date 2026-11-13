@@ -1,0 +1,252 @@
+{
+  "ok": true,
+  "records": 42,
+  "groups": [
+    {
+      "role": "fixed_feedback",
+      "adapter": "disabled",
+      "variant": "chat_closed",
+      "temperature": 0.0,
+      "count": 3,
+      "empty": 0,
+      "addCriterion": 0,
+      "complete_answer": 3
+    },
+    {
+      "role": "fixed_feedback",
+      "adapter": "disabled",
+      "variant": "raw_closed",
+      "temperature": 0.0,
+      "count": 3,
+      "empty": 3,
+      "addCriterion": 0,
+      "complete_answer": 0
+    },
+    {
+      "role": "fixed_feedback",
+      "adapter": "disabled",
+      "variant": "raw_unclosed",
+      "temperature": 0.0,
+      "count": 3,
+      "empty": 0,
+      "addCriterion": 3,
+      "complete_answer": 0
+    },
+    {
+      "role": "fixed_feedback",
+      "adapter": "enabled",
+      "variant": "chat_closed",
+      "temperature": 0.0,
+      "count": 3,
+      "empty": 0,
+      "addCriterion": 0,
+      "complete_answer": 3
+    },
+    {
+      "role": "fixed_feedback",
+      "adapter": "enabled",
+      "variant": "raw_closed",
+      "temperature": 0.0,
+      "count": 3,
+      "empty": 0,
+      "addCriterion": 3,
+      "complete_answer": 0
+    },
+    {
+      "role": "fixed_feedback",
+      "adapter": "enabled",
+      "variant": "raw_unclosed",
+      "temperature": 0.0,
+      "count": 3,
+      "empty": 0,
+      "addCriterion": 3,
+      "complete_answer": 0
+    },
+    {
+      "role": "native",
+      "adapter": "disabled",
+      "variant": "plain",
+      "temperature": 0.0,
+      "count": 3,
+      "empty": 0,
+      "addCriterion": 0,
+      "complete_answer": 0
+    },
+    {
+      "role": "native",
+      "adapter": "disabled",
+      "variant": "plain",
+      "temperature": 1.0,
+      "count": 3,
+      "empty": 0,
+      "addCriterion": 0,
+      "complete_answer": 0
+    },
+    {
+      "role": "native",
+      "adapter": "disabled",
+      "variant": "tool",
+      "temperature": 0.0,
+      "count": 3,
+      "empty": 0,
+      "addCriterion": 3,
+      "complete_answer": 0
+    },
+    {
+      "role": "native",
+      "adapter": "disabled",
+      "variant": "tool",
+      "temperature": 1.0,
+      "count": 3,
+      "empty": 3,
+      "addCriterion": 0,
+      "complete_answer": 0
+    },
+    {
+      "role": "native",
+      "adapter": "enabled",
+      "variant": "plain",
+      "temperature": 0.0,
+      "count": 3,
+      "empty": 0,
+      "addCriterion": 0,
+      "complete_answer": 0
+    },
+    {
+      "role": "native",
+      "adapter": "enabled",
+      "variant": "plain",
+      "temperature": 1.0,
+      "count": 3,
+      "empty": 0,
+      "addCriterion": 0,
+      "complete_answer": 0
+    },
+    {
+      "role": "native",
+      "adapter": "enabled",
+      "variant": "tool",
+      "temperature": 0.0,
+      "count": 3,
+      "empty": 0,
+      "addCriterion": 3,
+      "complete_answer": 0
+    },
+    {
+      "role": "native",
+      "adapter": "enabled",
+      "variant": "tool",
+      "temperature": 1.0,
+      "count": 3,
+      "empty": 3,
+      "addCriterion": 0,
+      "complete_answer": 0
+    }
+  ],
+  "initial_EOS": [
+    {
+      "row": 10,
+      "image": "181.tif",
+      "enabled_raw_eos_probability": 0.3920181691646576,
+      "enabled_sampling_eos_probability": 0.39026063680648804,
+      "disabled_raw_eos_probability": 0.3940984606742859,
+      "disabled_sampling_eos_probability": 0.39377737045288086
+    },
+    {
+      "row": 95,
+      "image": "984.tif",
+      "enabled_raw_eos_probability": 0.33430278301239014,
+      "enabled_sampling_eos_probability": 0.3352750539779663,
+      "disabled_raw_eos_probability": 0.25827792286872864,
+      "disabled_sampling_eos_probability": 0.2637685537338257
+    },
+    {
+      "row": 207,
+      "image": "2088.tif",
+      "enabled_raw_eos_probability": 0.2428174465894699,
+      "enabled_sampling_eos_probability": 0.24721360206604004,
+      "disabled_raw_eos_probability": 0.24470043182373047,
+      "disabled_sampling_eos_probability": 0.24992407858371735
+    }
+  ],
+  "prior_pilot_replays": [
+    {
+      "new": "10_enabled_tool_t0",
+      "prior_pilot": "10_reference_0",
+      "state_and_tokens_identical": true
+    },
+    {
+      "new": "10_enabled_tool_t1",
+      "prior_pilot": "10_candidate_0",
+      "state_and_tokens_identical": true
+    },
+    {
+      "new": "95_enabled_tool_t0",
+      "prior_pilot": "95_reference_0",
+      "state_and_tokens_identical": true
+    },
+    {
+      "new": "95_enabled_tool_t1",
+      "prior_pilot": "95_candidate_0",
+      "state_and_tokens_identical": true
+    },
+    {
+      "new": "207_enabled_tool_t0",
+      "prior_pilot": "207_reference_0",
+      "state_and_tokens_identical": true
+    },
+    {
+      "new": "207_enabled_tool_t1",
+      "prior_pilot": "207_candidate_0",
+      "state_and_tokens_identical": true
+    }
+  ],
+  "raw_feedback_replays": [
+    {
+      "row": 10,
+      "fixed_raw_feedback_matches_native_second_round": true
+    },
+    {
+      "row": 95,
+      "fixed_raw_feedback_matches_native_second_round": true
+    },
+    {
+      "row": 207,
+      "fixed_raw_feedback_matches_native_second_round": true
+    }
+  ],
+  "first_attempt_replay": {
+    "cases": 42,
+    "all_trajectories_and_state_hashes_identical": true,
+    "first_attempt_status": "failed"
+  },
+  "independent_logit_vectors": 12,
+  "max_CPU_GPU_selected_probability_error": 1.802717204402171e-07,
+  "all_states_and_trace_hashes_verified": true,
+  "structured_feedback_answers": [
+    {
+      "id": "10_enabled_feedback_chat_closed",
+      "answer": "<answer>图中有一架飞机停在机场上，与查询文本相符。</answer>"
+    },
+    {
+      "id": "95_enabled_feedback_chat_closed",
+      "answer": "<answer>图中显示的是一个高尔夫球场的一部分，与查询文本相符。</answer>"
+    },
+    {
+      "id": "207_enabled_feedback_chat_closed",
+      "answer": "<answer>图中有四个排列整齐的网球场，周围有一些植物，这与查询文本相符。</answer>"
+    },
+    {
+      "id": "10_disabled_feedback_chat_closed",
+      "answer": "<answer>图中有一架飞机停在机场上，与查询文本相符。</answer>"
+    },
+    {
+      "id": "95_disabled_feedback_chat_closed",
+      "answer": "<answer>图中显示的是一个高尔夫球场的一部分，与查询文本相符。</answer>"
+    },
+    {
+      "id": "207_disabled_feedback_chat_closed",
+      "answer": "<answer>图中有四个排列整齐的网球场，周围有一些植物，这与查询文本相符。</answer>"
+    }
+  ]
+}

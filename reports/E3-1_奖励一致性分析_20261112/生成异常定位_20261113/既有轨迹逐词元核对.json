@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "empty_candidate_count": 11,
+  "all_empty_candidates_emit_only_EOS_151645": true,
+  "empty_cases": [
+    {
+      "id": "10_candidate_0",
+      "generated_token_ids": [
+        151645
+      ],
+      "last_emitted_token": "<|im_end|>"
+    },
+    {
+      "id": "10_candidate_1",
+      "generated_token_ids": [
+        151645
+      ],
+      "last_emitted_token": "<|im_end|>"
+    },
+    {
+      "id": "10_candidate_3",
+      "generated_token_ids": [
+        151645
+      ],
+      "last_emitted_token": "<|im_end|>"
+    },
+    {
+      "id": "10_candidate_7",
+      "generated_token_ids": [
+        151645
+      ],
+      "last_emitted_token": "<|im_end|>"
+    },
+    {
+      "id": "95_candidate_0",
+      "generated_token_ids": [
+        151645
+      ],
+      "last_emitted_token": "<|im_end|>"
+    },
+    {
+      "id": "95_candidate_1",
+      "generated_token_ids": [
+        151645
+      ],
+      "last_emitted_token": "<|im_end|>"
+    },
+    {
+      "id": "95_candidate_3",
+      "generated_token_ids": [
+        151645
+      ],
+      "last_emitted_token": "<|im_end|>"
+    },
+    {
+      "id": "95_candidate_7",
+      "generated_token_ids": [
+        151645
+      ],
+      "last_emitted_token": "<|im_end|>"
+    },
+    {
+      "id": "207_candidate_0",
+      "generated_token_ids": [
+        151645
+      ],
+      "last_emitted_token": "<|im_end|>"
+    },
+    {
+      "id": "207_candidate_1",
+      "generated_token_ids": [
+        151645
+      ],
+      "last_emitted_token": "<|im_end|>"
+    },
+    {
+      "id": "207_candidate_7",
+      "generated_token_ids": [
+        151645
+      ],
+      "last_emitted_token": "<|im_end|>"
+    }
+  ],
+  "greedy_tool_references": [
+    {
+      "id": "10_reference_0",
+      "round_tokens": [
+        [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        [
+          151644,
+          18724,
+          151645
+        ]
+      ],
+      "round_text": [
+        "<tool_call>scene_classify",
+        " addCriterion"
+      ]
+    },
+    {
+      "id": "95_reference_0",
+      "round_tokens": [
+        [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        [
+          151644,
+          18724,
+          151645
+        ]
+      ],
+      "round_text": [
+        "<tool_call>scene_classify",
+        " addCriterion"
+      ]
+    },
+    {
+      "id": "207_reference_0",
+      "round_tokens": [
+        [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        [
+          151644,
+          18724,
+          151645
+        ]
+      ],
+      "round_text": [
+        "<tool_call>scene_classify",
+        " addCriterion"
+      ]
+    }
+  ]
+}
