@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "datasets": {
+    "train": {
+      "images": 1680,
+      "caption_samples": 7999,
+      "caption_index_order_sha256": "af6e653cdb00033f45508f5c2cff594c9891aa6e638d8e2bf634a9f71164c723",
+      "batches": 250
+    },
+    "val": {
+      "images": 210,
+      "caption_samples": 982,
+      "caption_index_order_sha256": "e5fa89c5fefc25297710bbd7fd465546010b0b28412a0f52369956fc6cab9293",
+      "batches": 31
+    },
+    "test": {
+      "images": 210,
+      "caption_samples": 1005,
+      "caption_index_order_sha256": "ac6431379b8ba0bfeec338a2ce46f3b28e583f365214a66f04b77e41f598dedc",
+      "batches": 32
+    }
+  },
+  "effective_batch_size": 256,
+  "enum_setup_teardown_tracking_passed": true,
+  "hook_override_flags_preserved": {
+    "setup": true,
+    "teardown": false
+  },
+  "accumulate_grad_batches": 8,
+  "expected_optimizer_steps_per_epoch": 32,
+  "expected_optimizer_steps_total": 1600,
+  "remaining_epochs": 20,
+  "remaining_batches": 5000,
+  "remaining_optimizer_steps": 640,
+  "resume_epoch": 30,
+  "resume_global_step": 960,
+  "resume_optimizer_hash": "0aaac47b35ca50804f0e29e43966b69fa25e46d06fdcf3a12b0ab70ebe17f24a",
+  "resume_scheduler_hash": "d3ccce39095d7798cb7e3793412e95244fcea9c6e042ba582f27262047006a60",
+  "resume_lr": [
+    4.281650071123755e-05,
+    4.281650071123755e-05,
+    4.281650071123755e-05,
+    4.281650071123755e-05
+  ],
+  "legacy_scheduler_total_steps_formula": 1562,
+  "checkpoint_policy": "Use the last checkpoint after all 50 epochs; keep validation-best separately.",
+  "actual_precision": 32,
+  "test_evaluation_executed": false
+}
