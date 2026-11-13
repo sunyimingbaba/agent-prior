@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "started_at_utc": "2026-11-13T07:18:33.316816+00:00",
+  "phases": [
+    {
+      "script": "generate_candidates.py",
+      "exit_code": 0,
+      "elapsed_seconds": 92.01234980393201
+    },
+    {
+      "script": "score_candidates.py",
+      "exit_code": 0,
+      "elapsed_seconds": 34.86515569896437
+    },
+    {
+      "script": "analyze_pilot.py",
+      "exit_code": 0,
+      "elapsed_seconds": 2.733319496968761
+    }
+  ],
+  "elapsed_seconds": 129.6112148440443,
+  "completed_at_utc": "2026-11-13T07:20:42.928023+00:00"
+}

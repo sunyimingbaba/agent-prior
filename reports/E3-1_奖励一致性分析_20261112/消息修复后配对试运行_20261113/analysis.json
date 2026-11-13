@@ -1,0 +1,1049 @@
+{
+  "ok": true,
+  "image_count": 3,
+  "candidate_count": 24,
+  "pairs_per_image_per_metric": 28,
+  "candidate_usable_count": 6,
+  "candidate_stop_reasons": {
+    "format_failure": 12,
+    "answer": 12
+  },
+  "plan_sha256": "9baccc13b0b492432eb8dfd298843f09b423aa70f29a8c0833dc66ca0c9f5f81",
+  "scores_sha256": "d9c47e094330c89ded931dc043cc50f4f15c69e059f15acd2a3fef9325ccdb35",
+  "scope": "bounded messages-repair pilot of E1-selected val images; one attempt per seed, all candidates retained",
+  "primary_metric": "utility_rr",
+  "analysis_units": "within-image; ties and duplicates retained",
+  "candidate_format_reward_counts": {
+    "0.0": 12,
+    "0.2": 12
+  },
+  "candidate_tool_used_counts": {
+    "0": 12,
+    "1": 12
+  },
+  "candidate_flags": {
+    "addCriterion": 16,
+    "token_limit": 0,
+    "empty_trajectory": 0
+  },
+  "per_image": [
+    {
+      "row": 10,
+      "image": "181.tif",
+      "candidate_count": 8,
+      "unique_state_count": 8,
+      "unique_trajectory_count": 8,
+      "unique_retrieval_reward_count": 7,
+      "candidate_state_duplicate_groups": [],
+      "greedy_reference": {
+        "id": "10_reference_0",
+        "r_retrieval": 0.041666666666666664,
+        "r_format": 0.2,
+        "r_total": 0.24166666666666667,
+        "utility_rr": 0.3333333333333333,
+        "utility_margin": -0.010342925786972046,
+        "E1_margin_A": 0.002007797360420227,
+        "E1_margin_B": 0.006004497408866882
+      },
+      "historical_reference": {
+        "id": "10_historical",
+        "r_retrieval": 0.018867924528301886,
+        "utility_rr": 0.5,
+        "utility_margin": -0.0063073039054870605,
+        "E1_margin_A": 0.001398131251335144,
+        "E1_margin_B": 0.009807929396629333
+      },
+      "comparisons": {
+        "r_retrieval": {
+          "utility_rr": {
+            "pair_counts": {
+              "concordant": 0,
+              "discordant": 7,
+              "reward_tie_only": 0,
+              "utility_tie_only": 20,
+              "both_tied": 1
+            },
+            "informative_pairs": 7,
+            "concordance_in_informative_pairs": 0.0,
+            "spearman": -0.5808178695515156,
+            "unique_rounded_utility_count": 2,
+            "utility_range": [
+              0.3333333333333333,
+              0.5
+            ],
+            "utility_delta_range": [
+              0.0,
+              0.16666666666666669
+            ],
+            "max_reward": 0.034482758620689655,
+            "max_reward_candidate_ids": [
+              "10_candidate_7"
+            ],
+            "max_reward_utility_range": [
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "max_reward_regret_range": [
+              0.16666666666666669,
+              0.16666666666666669
+            ]
+          },
+          "utility_margin": {
+            "pair_counts": {
+              "concordant": 14,
+              "discordant": 13,
+              "reward_tie_only": 1,
+              "utility_tie_only": 0,
+              "both_tied": 0
+            },
+            "informative_pairs": 27,
+            "concordance_in_informative_pairs": 0.5185185185185185,
+            "spearman": -0.01197626261913259,
+            "unique_rounded_utility_count": 8,
+            "utility_range": [
+              -0.014738202095031738,
+              -0.003914371132850647
+            ],
+            "utility_delta_range": [
+              -0.004395276308059692,
+              0.006428554654121399
+            ],
+            "max_reward": 0.034482758620689655,
+            "max_reward_candidate_ids": [
+              "10_candidate_7"
+            ],
+            "max_reward_utility_range": [
+              -0.010061830282211304,
+              -0.010061830282211304
+            ],
+            "max_reward_regret_range": [
+              0.006147459149360657,
+              0.006147459149360657
+            ]
+          },
+          "E1_margin_A": {
+            "pair_counts": {
+              "concordant": 14,
+              "discordant": 13,
+              "reward_tie_only": 1,
+              "utility_tie_only": 0,
+              "both_tied": 0
+            },
+            "informative_pairs": 27,
+            "concordance_in_informative_pairs": 0.5185185185185185,
+            "spearman": 0.07185757571479554,
+            "unique_rounded_utility_count": 8,
+            "utility_range": [
+              -5.333125591278076e-05,
+              0.006392255425453186
+            ],
+            "utility_delta_range": [
+              -0.002061128616333008,
+              0.004384458065032959
+            ],
+            "max_reward": 0.034482758620689655,
+            "max_reward_candidate_ids": [
+              "10_candidate_7"
+            ],
+            "max_reward_utility_range": [
+              0.003974750638008118,
+              0.003974750638008118
+            ],
+            "max_reward_regret_range": [
+              0.0024175047874450684,
+              0.0024175047874450684
+            ]
+          },
+          "E1_margin_B": {
+            "pair_counts": {
+              "concordant": 7,
+              "discordant": 20,
+              "reward_tie_only": 1,
+              "utility_tie_only": 0,
+              "both_tied": 0
+            },
+            "informative_pairs": 27,
+            "concordance_in_informative_pairs": 0.25925925925925924,
+            "spearman": -0.5389318178609666,
+            "unique_rounded_utility_count": 8,
+            "utility_range": [
+              0.002276107668876648,
+              0.01204371452331543
+            ],
+            "utility_delta_range": [
+              -0.0037283897399902344,
+              0.006039217114448547
+            ],
+            "max_reward": 0.034482758620689655,
+            "max_reward_candidate_ids": [
+              "10_candidate_7"
+            ],
+            "max_reward_utility_range": [
+              0.006671711802482605,
+              0.006671711802482605
+            ],
+            "max_reward_regret_range": [
+              0.005372002720832825,
+              0.005372002720832825
+            ]
+          }
+        },
+        "r_total": {
+          "utility_rr": {
+            "pair_counts": {
+              "concordant": 0,
+              "discordant": 7,
+              "reward_tie_only": 0,
+              "utility_tie_only": 21,
+              "both_tied": 0
+            },
+            "informative_pairs": 7,
+            "concordance_in_informative_pairs": 0.0,
+            "spearman": -0.5773502691896257,
+            "unique_rounded_utility_count": 2,
+            "utility_range": [
+              0.3333333333333333,
+              0.5
+            ],
+            "utility_delta_range": [
+              0.0,
+              0.16666666666666669
+            ],
+            "max_reward": 0.23448275862068968,
+            "max_reward_candidate_ids": [
+              "10_candidate_7"
+            ],
+            "max_reward_utility_range": [
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "max_reward_regret_range": [
+              0.16666666666666669,
+              0.16666666666666669
+            ]
+          },
+          "utility_margin": {
+            "pair_counts": {
+              "concordant": 12,
+              "discordant": 16,
+              "reward_tie_only": 0,
+              "utility_tie_only": 0,
+              "both_tied": 0
+            },
+            "informative_pairs": 28,
+            "concordance_in_informative_pairs": 0.42857142857142855,
+            "spearman": -0.3333333333333333,
+            "unique_rounded_utility_count": 8,
+            "utility_range": [
+              -0.014738202095031738,
+              -0.003914371132850647
+            ],
+            "utility_delta_range": [
+              -0.004395276308059692,
+              0.006428554654121399
+            ],
+            "max_reward": 0.23448275862068968,
+            "max_reward_candidate_ids": [
+              "10_candidate_7"
+            ],
+            "max_reward_utility_range": [
+              -0.010061830282211304,
+              -0.010061830282211304
+            ],
+            "max_reward_regret_range": [
+              0.006147459149360657,
+              0.006147459149360657
+            ]
+          },
+          "E1_margin_A": {
+            "pair_counts": {
+              "concordant": 17,
+              "discordant": 11,
+              "reward_tie_only": 0,
+              "utility_tie_only": 0,
+              "both_tied": 0
+            },
+            "informative_pairs": 28,
+            "concordance_in_informative_pairs": 0.6071428571428571,
+            "spearman": 0.35714285714285715,
+            "unique_rounded_utility_count": 8,
+            "utility_range": [
+              -5.333125591278076e-05,
+              0.006392255425453186
+            ],
+            "utility_delta_range": [
+              -0.002061128616333008,
+              0.004384458065032959
+            ],
+            "max_reward": 0.23448275862068968,
+            "max_reward_candidate_ids": [
+              "10_candidate_7"
+            ],
+            "max_reward_utility_range": [
+              0.003974750638008118,
+              0.003974750638008118
+            ],
+            "max_reward_regret_range": [
+              0.0024175047874450684,
+              0.0024175047874450684
+            ]
+          },
+          "E1_margin_B": {
+            "pair_counts": {
+              "concordant": 10,
+              "discordant": 18,
+              "reward_tie_only": 0,
+              "utility_tie_only": 0,
+              "both_tied": 0
+            },
+            "informative_pairs": 28,
+            "concordance_in_informative_pairs": 0.35714285714285715,
+            "spearman": -0.2619047619047619,
+            "unique_rounded_utility_count": 8,
+            "utility_range": [
+              0.002276107668876648,
+              0.01204371452331543
+            ],
+            "utility_delta_range": [
+              -0.0037283897399902344,
+              0.006039217114448547
+            ],
+            "max_reward": 0.23448275862068968,
+            "max_reward_candidate_ids": [
+              "10_candidate_7"
+            ],
+            "max_reward_utility_range": [
+              0.006671711802482605,
+              0.006671711802482605
+            ],
+            "max_reward_regret_range": [
+              0.005372002720832825,
+              0.005372002720832825
+            ]
+          }
+        }
+      }
+    },
+    {
+      "row": 95,
+      "image": "984.tif",
+      "candidate_count": 8,
+      "unique_state_count": 8,
+      "unique_trajectory_count": 8,
+      "unique_retrieval_reward_count": 7,
+      "candidate_state_duplicate_groups": [],
+      "greedy_reference": {
+        "id": "95_reference_0",
+        "r_retrieval": 0.00641025641025641,
+        "r_format": 0.2,
+        "r_total": 0.20641025641025643,
+        "utility_rr": 0.1111111111111111,
+        "utility_margin": -0.029102712869644165,
+        "E1_margin_A": -0.0025135576725006104,
+        "E1_margin_B": -0.006247684359550476
+      },
+      "historical_reference": {
+        "id": "95_historical",
+        "r_retrieval": 0.007246376811594203,
+        "utility_rr": 0.25,
+        "utility_margin": -0.006372541189193726,
+        "E1_margin_A": -0.004593029618263245,
+        "E1_margin_B": -0.00887712836265564
+      },
+      "comparisons": {
+        "r_retrieval": {
+          "utility_rr": {
+            "pair_counts": {
+              "concordant": 11,
+              "discordant": 10,
+              "reward_tie_only": 1,
+              "utility_tie_only": 6,
+              "both_tied": 0
+            },
+            "informative_pairs": 21,
+            "concordance_in_informative_pairs": 0.5238095238095238,
+            "spearman": 0.12121844240150972,
+            "unique_rounded_utility_count": 5,
+            "utility_range": [
+              0.09090909090909091,
+              1.0
+            ],
+            "utility_delta_range": [
+              -0.020202020202020193,
+              0.8888888888888888
+            ],
+            "max_reward": 0.007936507936507936,
+            "max_reward_candidate_ids": [
+              "95_candidate_1"
+            ],
+            "max_reward_utility_range": [
+              0.125,
+              0.125
+            ],
+            "max_reward_regret_range": [
+              0.875,
+              0.875
+            ]
+          },
+          "utility_margin": {
+            "pair_counts": {
+              "concordant": 17,
+              "discordant": 10,
+              "reward_tie_only": 1,
+              "utility_tie_only": 0,
+              "both_tied": 0
+            },
+            "informative_pairs": 27,
+            "concordance_in_informative_pairs": 0.6296296296296297,
+            "spearman": 0.3473116159548451,
+            "unique_rounded_utility_count": 8,
+            "utility_range": [
+              -0.03142206370830536,
+              0.0057891011238098145
+            ],
+            "utility_delta_range": [
+              -0.002319350838661194,
+              0.03489181399345398
+            ],
+            "max_reward": 0.007936507936507936,
+            "max_reward_candidate_ids": [
+              "95_candidate_1"
+            ],
+            "max_reward_utility_range": [
+              -0.0239410400390625,
+              -0.0239410400390625
+            ],
+            "max_reward_regret_range": [
+              0.029730141162872314,
+              0.029730141162872314
+            ]
+          },
+          "E1_margin_A": {
+            "pair_counts": {
+              "concordant": 14,
+              "discordant": 13,
+              "reward_tie_only": 1,
+              "utility_tie_only": 0,
+              "both_tied": 0
+            },
+            "informative_pairs": 27,
+            "concordance_in_informative_pairs": 0.5185185185185185,
+            "spearman": 0.08383383833392813,
+            "unique_rounded_utility_count": 8,
+            "utility_range": [
+              -0.005895242094993591,
+              0.005865007638931274
+            ],
+            "utility_delta_range": [
+              -0.003381684422492981,
+              0.008378565311431885
+            ],
+            "max_reward": 0.007936507936507936,
+            "max_reward_candidate_ids": [
+              "95_candidate_1"
+            ],
+            "max_reward_utility_range": [
+              -0.0002353191375732422,
+              -0.0002353191375732422
+            ],
+            "max_reward_regret_range": [
+              0.006100326776504517,
+              0.006100326776504517
+            ]
+          },
+          "E1_margin_B": {
+            "pair_counts": {
+              "concordant": 14,
+              "discordant": 13,
+              "reward_tie_only": 1,
+              "utility_tie_only": 0,
+              "both_tied": 0
+            },
+            "informative_pairs": 27,
+            "concordance_in_informative_pairs": 0.5185185185185185,
+            "spearman": 0.03592878785739777,
+            "unique_rounded_utility_count": 8,
+            "utility_range": [
+              -0.007396891713142395,
+              0.004094541072845459
+            ],
+            "utility_delta_range": [
+              -0.001149207353591919,
+              0.010342225432395935
+            ],
+            "max_reward": 0.007936507936507936,
+            "max_reward_candidate_ids": [
+              "95_candidate_1"
+            ],
+            "max_reward_utility_range": [
+              -0.0002551078796386719,
+              -0.0002551078796386719
+            ],
+            "max_reward_regret_range": [
+              0.004349648952484131,
+              0.004349648952484131
+            ]
+          }
+        },
+        "r_total": {
+          "utility_rr": {
+            "pair_counts": {
+              "concordant": 6,
+              "discordant": 16,
+              "reward_tie_only": 0,
+              "utility_tie_only": 6,
+              "both_tied": 0
+            },
+            "informative_pairs": 22,
+            "concordance_in_informative_pairs": 0.2727272727272727,
+            "spearman": -0.4058770315454728,
+            "unique_rounded_utility_count": 5,
+            "utility_range": [
+              0.09090909090909091,
+              1.0
+            ],
+            "utility_delta_range": [
+              -0.020202020202020193,
+              0.8888888888888888
+            ],
+            "max_reward": 0.20666666666666667,
+            "max_reward_candidate_ids": [
+              "95_candidate_7"
+            ],
+            "max_reward_utility_range": [
+              0.1111111111111111,
+              0.1111111111111111
+            ],
+            "max_reward_regret_range": [
+              0.8888888888888888,
+              0.8888888888888888
+            ]
+          },
+          "utility_margin": {
+            "pair_counts": {
+              "concordant": 6,
+              "discordant": 22,
+              "reward_tie_only": 0,
+              "utility_tie_only": 0,
+              "both_tied": 0
+            },
+            "informative_pairs": 28,
+            "concordance_in_informative_pairs": 0.21428571428571427,
+            "spearman": -0.6904761904761905,
+            "unique_rounded_utility_count": 8,
+            "utility_range": [
+              -0.03142206370830536,
+              0.0057891011238098145
+            ],
+            "utility_delta_range": [
+              -0.002319350838661194,
+              0.03489181399345398
+            ],
+            "max_reward": 0.20666666666666667,
+            "max_reward_candidate_ids": [
+              "95_candidate_7"
+            ],
+            "max_reward_utility_range": [
+              -0.03106856346130371,
+              -0.03106856346130371
+            ],
+            "max_reward_regret_range": [
+              0.036857664585113525,
+              0.036857664585113525
+            ]
+          },
+          "E1_margin_A": {
+            "pair_counts": {
+              "concordant": 9,
+              "discordant": 19,
+              "reward_tie_only": 0,
+              "utility_tie_only": 0,
+              "both_tied": 0
+            },
+            "informative_pairs": 28,
+            "concordance_in_informative_pairs": 0.32142857142857145,
+            "spearman": -0.40476190476190477,
+            "unique_rounded_utility_count": 8,
+            "utility_range": [
+              -0.005895242094993591,
+              0.005865007638931274
+            ],
+            "utility_delta_range": [
+              -0.003381684422492981,
+              0.008378565311431885
+            ],
+            "max_reward": 0.20666666666666667,
+            "max_reward_candidate_ids": [
+              "95_candidate_7"
+            ],
+            "max_reward_utility_range": [
+              -0.003688439726829529,
+              -0.003688439726829529
+            ],
+            "max_reward_regret_range": [
+              0.009553447365760803,
+              0.009553447365760803
+            ]
+          },
+          "E1_margin_B": {
+            "pair_counts": {
+              "concordant": 7,
+              "discordant": 21,
+              "reward_tie_only": 0,
+              "utility_tie_only": 0,
+              "both_tied": 0
+            },
+            "informative_pairs": 28,
+            "concordance_in_informative_pairs": 0.25,
+            "spearman": -0.5952380952380952,
+            "unique_rounded_utility_count": 8,
+            "utility_range": [
+              -0.007396891713142395,
+              0.004094541072845459
+            ],
+            "utility_delta_range": [
+              -0.001149207353591919,
+              0.010342225432395935
+            ],
+            "max_reward": 0.20666666666666667,
+            "max_reward_candidate_ids": [
+              "95_candidate_7"
+            ],
+            "max_reward_utility_range": [
+              -0.007396891713142395,
+              -0.007396891713142395
+            ],
+            "max_reward_regret_range": [
+              0.011491432785987854,
+              0.011491432785987854
+            ]
+          }
+        }
+      }
+    },
+    {
+      "row": 207,
+      "image": "2088.tif",
+      "candidate_count": 8,
+      "unique_state_count": 7,
+      "unique_trajectory_count": 7,
+      "unique_retrieval_reward_count": 7,
+      "candidate_state_duplicate_groups": [
+        [
+          "207_candidate_1",
+          "207_candidate_3"
+        ]
+      ],
+      "greedy_reference": {
+        "id": "207_reference_0",
+        "r_retrieval": 0.005076142131979695,
+        "r_format": 0.2,
+        "r_total": 0.2050761421319797,
+        "utility_rr": 0.047619047619047616,
+        "utility_margin": -0.03253135085105896,
+        "E1_margin_A": 0.00864708423614502,
+        "E1_margin_B": 0.009978368878364563
+      },
+      "historical_reference": {
+        "id": "207_historical",
+        "r_retrieval": 0.006211180124223602,
+        "utility_rr": 0.045454545454545456,
+        "utility_margin": -0.024853795766830444,
+        "E1_margin_A": 0.011689364910125732,
+        "E1_margin_B": 0.01115572452545166
+      },
+      "comparisons": {
+        "r_retrieval": {
+          "utility_rr": {
+            "pair_counts": {
+              "concordant": 17,
+              "discordant": 8,
+              "reward_tie_only": 0,
+              "utility_tie_only": 2,
+              "both_tied": 1
+            },
+            "informative_pairs": 25,
+            "concordance_in_informative_pairs": 0.68,
+            "spearman": 0.5976054154994253,
+            "unique_rounded_utility_count": 5,
+            "utility_range": [
+              0.045454545454545456,
+              1.0
+            ],
+            "utility_delta_range": [
+              -0.0021645021645021606,
+              0.9523809523809523
+            ],
+            "max_reward": 0.006493506493506494,
+            "max_reward_candidate_ids": [
+              "207_candidate_1",
+              "207_candidate_3"
+            ],
+            "max_reward_utility_range": [
+              0.05555555555555555,
+              0.05555555555555555
+            ],
+            "max_reward_regret_range": [
+              0.9444444444444444,
+              0.9444444444444444
+            ]
+          },
+          "utility_margin": {
+            "pair_counts": {
+              "concordant": 9,
+              "discordant": 18,
+              "reward_tie_only": 0,
+              "utility_tie_only": 0,
+              "both_tied": 1
+            },
+            "informative_pairs": 27,
+            "concordance_in_informative_pairs": 0.3333333333333333,
+            "spearman": -0.4457831325301205,
+            "unique_rounded_utility_count": 7,
+            "utility_range": [
+              -0.045567408204078674,
+              0.0049193501472473145
+            ],
+            "utility_delta_range": [
+              -0.013036057353019714,
+              0.037450700998306274
+            ],
+            "max_reward": 0.006493506493506494,
+            "max_reward_candidate_ids": [
+              "207_candidate_1",
+              "207_candidate_3"
+            ],
+            "max_reward_utility_range": [
+              -0.045567408204078674,
+              -0.045567408204078674
+            ],
+            "max_reward_regret_range": [
+              0.05048675835132599,
+              0.05048675835132599
+            ]
+          },
+          "E1_margin_A": {
+            "pair_counts": {
+              "concordant": 20,
+              "discordant": 7,
+              "reward_tie_only": 0,
+              "utility_tie_only": 0,
+              "both_tied": 1
+            },
+            "informative_pairs": 27,
+            "concordance_in_informative_pairs": 0.7407407407407407,
+            "spearman": 0.6144578313253012,
+            "unique_rounded_utility_count": 7,
+            "utility_range": [
+              -0.01513439416885376,
+              0.02371034026145935
+            ],
+            "utility_delta_range": [
+              -0.02378147840499878,
+              0.015063256025314331
+            ],
+            "max_reward": 0.006493506493506494,
+            "max_reward_candidate_ids": [
+              "207_candidate_1",
+              "207_candidate_3"
+            ],
+            "max_reward_utility_range": [
+              0.02371034026145935,
+              0.02371034026145935
+            ],
+            "max_reward_regret_range": [
+              0.0,
+              0.0
+            ]
+          },
+          "E1_margin_B": {
+            "pair_counts": {
+              "concordant": 18,
+              "discordant": 9,
+              "reward_tie_only": 0,
+              "utility_tie_only": 0,
+              "both_tied": 1
+            },
+            "informative_pairs": 27,
+            "concordance_in_informative_pairs": 0.6666666666666666,
+            "spearman": 0.39759036144578314,
+            "unique_rounded_utility_count": 7,
+            "utility_range": [
+              -0.00961238145828247,
+              0.017843246459960938
+            ],
+            "utility_delta_range": [
+              -0.019590750336647034,
+              0.007864877581596375
+            ],
+            "max_reward": 0.006493506493506494,
+            "max_reward_candidate_ids": [
+              "207_candidate_1",
+              "207_candidate_3"
+            ],
+            "max_reward_utility_range": [
+              0.017843246459960938,
+              0.017843246459960938
+            ],
+            "max_reward_regret_range": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "r_total": {
+          "utility_rr": {
+            "pair_counts": {
+              "concordant": 1,
+              "discordant": 24,
+              "reward_tie_only": 0,
+              "utility_tie_only": 2,
+              "both_tied": 1
+            },
+            "informative_pairs": 25,
+            "concordance_in_informative_pairs": 0.04,
+            "spearman": -0.9634862821317264,
+            "unique_rounded_utility_count": 5,
+            "utility_range": [
+              0.045454545454545456,
+              1.0
+            ],
+            "utility_delta_range": [
+              -0.0021645021645021606,
+              0.9523809523809523
+            ],
+            "max_reward": 0.20552486187845304,
+            "max_reward_candidate_ids": [
+              "207_candidate_4"
+            ],
+            "max_reward_utility_range": [
+              0.045454545454545456,
+              0.045454545454545456
+            ],
+            "max_reward_regret_range": [
+              0.9545454545454546,
+              0.9545454545454546
+            ]
+          },
+          "utility_margin": {
+            "pair_counts": {
+              "concordant": 11,
+              "discordant": 16,
+              "reward_tie_only": 0,
+              "utility_tie_only": 0,
+              "both_tied": 1
+            },
+            "informative_pairs": 27,
+            "concordance_in_informative_pairs": 0.4074074074074074,
+            "spearman": -0.25301204819277107,
+            "unique_rounded_utility_count": 7,
+            "utility_range": [
+              -0.045567408204078674,
+              0.0049193501472473145
+            ],
+            "utility_delta_range": [
+              -0.013036057353019714,
+              0.037450700998306274
+            ],
+            "max_reward": 0.20552486187845304,
+            "max_reward_candidate_ids": [
+              "207_candidate_4"
+            ],
+            "max_reward_utility_range": [
+              -0.035534828901290894,
+              -0.035534828901290894
+            ],
+            "max_reward_regret_range": [
+              0.04045417904853821,
+              0.04045417904853821
+            ]
+          },
+          "E1_margin_A": {
+            "pair_counts": {
+              "concordant": 16,
+              "discordant": 11,
+              "reward_tie_only": 0,
+              "utility_tie_only": 0,
+              "both_tied": 1
+            },
+            "informative_pairs": 27,
+            "concordance_in_informative_pairs": 0.5925925925925926,
+            "spearman": 0.2289156626506024,
+            "unique_rounded_utility_count": 7,
+            "utility_range": [
+              -0.01513439416885376,
+              0.02371034026145935
+            ],
+            "utility_delta_range": [
+              -0.02378147840499878,
+              0.015063256025314331
+            ],
+            "max_reward": 0.20552486187845304,
+            "max_reward_candidate_ids": [
+              "207_candidate_4"
+            ],
+            "max_reward_utility_range": [
+              0.010775342583656311,
+              0.010775342583656311
+            ],
+            "max_reward_regret_range": [
+              0.01293499767780304,
+              0.01293499767780304
+            ]
+          },
+          "E1_margin_B": {
+            "pair_counts": {
+              "concordant": 18,
+              "discordant": 9,
+              "reward_tie_only": 0,
+              "utility_tie_only": 0,
+              "both_tied": 1
+            },
+            "informative_pairs": 27,
+            "concordance_in_informative_pairs": 0.6666666666666666,
+            "spearman": 0.39759036144578314,
+            "unique_rounded_utility_count": 7,
+            "utility_range": [
+              -0.00961238145828247,
+              0.017843246459960938
+            ],
+            "utility_delta_range": [
+              -0.019590750336647034,
+              0.007864877581596375
+            ],
+            "max_reward": 0.20552486187845304,
+            "max_reward_candidate_ids": [
+              "207_candidate_4"
+            ],
+            "max_reward_utility_range": [
+              0.01250101625919342,
+              0.01250101625919342
+            ],
+            "max_reward_regret_range": [
+              0.005342230200767517,
+              0.005342230200767517
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "aggregate": {
+    "r_retrieval": {
+      "utility_rr": {
+        "pair_counts": {
+          "concordant": 28,
+          "discordant": 25,
+          "reward_tie_only": 1,
+          "utility_tie_only": 28,
+          "both_tied": 2
+        },
+        "informative_pairs": 53,
+        "pooled_pair_concordance": 0.5283018867924528,
+        "mean_image_concordance": 0.4012698412698413,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "utility_margin": {
+        "pair_counts": {
+          "concordant": 40,
+          "discordant": 41,
+          "reward_tie_only": 2,
+          "utility_tie_only": 0,
+          "both_tied": 1
+        },
+        "informative_pairs": 81,
+        "pooled_pair_concordance": 0.49382716049382713,
+        "mean_image_concordance": 0.49382716049382713,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "E1_margin_A": {
+        "pair_counts": {
+          "concordant": 48,
+          "discordant": 33,
+          "reward_tie_only": 2,
+          "utility_tie_only": 0,
+          "both_tied": 1
+        },
+        "informative_pairs": 81,
+        "pooled_pair_concordance": 0.5925925925925926,
+        "mean_image_concordance": 0.5925925925925926,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "E1_margin_B": {
+        "pair_counts": {
+          "concordant": 39,
+          "discordant": 42,
+          "reward_tie_only": 2,
+          "utility_tie_only": 0,
+          "both_tied": 1
+        },
+        "informative_pairs": 81,
+        "pooled_pair_concordance": 0.48148148148148145,
+        "mean_image_concordance": 0.48148148148148145,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      }
+    },
+    "r_total": {
+      "utility_rr": {
+        "pair_counts": {
+          "concordant": 7,
+          "discordant": 47,
+          "reward_tie_only": 0,
+          "utility_tie_only": 29,
+          "both_tied": 1
+        },
+        "informative_pairs": 54,
+        "pooled_pair_concordance": 0.12962962962962962,
+        "mean_image_concordance": 0.10424242424242423,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "utility_margin": {
+        "pair_counts": {
+          "concordant": 29,
+          "discordant": 54,
+          "reward_tie_only": 0,
+          "utility_tie_only": 0,
+          "both_tied": 1
+        },
+        "informative_pairs": 83,
+        "pooled_pair_concordance": 0.3493975903614458,
+        "mean_image_concordance": 0.3500881834215167,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "E1_margin_A": {
+        "pair_counts": {
+          "concordant": 42,
+          "discordant": 41,
+          "reward_tie_only": 0,
+          "utility_tie_only": 0,
+          "both_tied": 1
+        },
+        "informative_pairs": 83,
+        "pooled_pair_concordance": 0.5060240963855421,
+        "mean_image_concordance": 0.5070546737213404,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "E1_margin_B": {
+        "pair_counts": {
+          "concordant": 35,
+          "discordant": 48,
+          "reward_tie_only": 0,
+          "utility_tie_only": 0,
+          "both_tied": 1
+        },
+        "informative_pairs": 83,
+        "pooled_pair_concordance": 0.42168674698795183,
+        "mean_image_concordance": 0.4246031746031746,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      }
+    }
+  }
+}

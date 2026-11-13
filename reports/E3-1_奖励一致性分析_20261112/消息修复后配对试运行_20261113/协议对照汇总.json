@@ -1,0 +1,322 @@
+{
+  "ok": true,
+  "same_frozen_scorers_and_text_gallery": true,
+  "paired_candidates": 24,
+  "repaired_usable_candidates": 6,
+  "repaired_stop_reasons": {
+    "format_failure": 12,
+    "answer": 12
+  },
+  "old_flags": {
+    "addCriterion": 12,
+    "token_limit": 2,
+    "empty_trajectory": 11
+  },
+  "repaired_flags": {
+    "addCriterion": 16,
+    "token_limit": 0,
+    "empty_trajectory": 0
+  },
+  "old_format_rewards": {
+    "0.0": 24
+  },
+  "repaired_format_rewards": {
+    "0.0": 12,
+    "0.2": 12
+  },
+  "per_image": [
+    {
+      "row": 10,
+      "image": "181.tif",
+      "usable_candidates": 2,
+      "old_greedy_utility_rank1": 2,
+      "repaired_greedy_utility_rank1": 3,
+      "paired_RR_improved": 0,
+      "paired_RR_worsened": 6,
+      "paired_RR_tied": 2,
+      "mean_paired_changes": {
+        "r_retrieval": -0.016515115859833417,
+        "r_format": 0.1,
+        "r_total": 0.0834848841401666,
+        "utility_rr": -0.125,
+        "utility_margin": -0.0045237913727760315,
+        "E1_margin_A": -0.007824121043086052,
+        "E1_margin_B": -0.006195802241563797
+      }
+    },
+    {
+      "row": 95,
+      "image": "984.tif",
+      "usable_candidates": 2,
+      "old_greedy_utility_rank1": 4,
+      "repaired_greedy_utility_rank1": 9,
+      "paired_RR_improved": 1,
+      "paired_RR_worsened": 5,
+      "paired_RR_tied": 2,
+      "mean_paired_changes": {
+        "r_retrieval": -0.0002715120653298388,
+        "r_format": 0.1,
+        "r_total": 0.09972848793467017,
+        "utility_rr": -0.04245580808080808,
+        "utility_margin": -0.01587536558508873,
+        "E1_margin_A": 6.116926670074463e-06,
+        "E1_margin_B": 0.00018290802836418152
+      }
+    },
+    {
+      "row": 207,
+      "image": "2088.tif",
+      "usable_candidates": 2,
+      "old_greedy_utility_rank1": 22,
+      "repaired_greedy_utility_rank1": 21,
+      "paired_RR_improved": 2,
+      "paired_RR_worsened": 4,
+      "paired_RR_tied": 2,
+      "mean_paired_changes": {
+        "r_retrieval": -0.00031983680396564297,
+        "r_format": 0.1,
+        "r_total": 0.09968016319603436,
+        "utility_rr": 0.10204933954933955,
+        "utility_margin": 0.002290310338139534,
+        "E1_margin_A": -0.0031153447926044464,
+        "E1_margin_B": -0.001344071701169014
+      }
+    }
+  ],
+  "original_reward_utility_statistics": {
+    "r_retrieval": {
+      "utility_rr": {
+        "pair_counts": {
+          "concordant": 12,
+          "discordant": 31,
+          "reward_tie_only": 3,
+          "utility_tie_only": 23,
+          "both_tied": 15
+        },
+        "informative_pairs": 43,
+        "pooled_pair_concordance": 0.27906976744186046,
+        "mean_image_concordance": 0.21587301587301586,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "utility_margin": {
+        "pair_counts": {
+          "concordant": 37,
+          "discordant": 29,
+          "reward_tie_only": 3,
+          "utility_tie_only": 0,
+          "both_tied": 15
+        },
+        "informative_pairs": 66,
+        "pooled_pair_concordance": 0.5606060606060606,
+        "mean_image_concordance": 0.5606060606060606,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "E1_margin_A": {
+        "pair_counts": {
+          "concordant": 26,
+          "discordant": 40,
+          "reward_tie_only": 3,
+          "utility_tie_only": 0,
+          "both_tied": 15
+        },
+        "informative_pairs": 66,
+        "pooled_pair_concordance": 0.3939393939393939,
+        "mean_image_concordance": 0.3939393939393939,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "E1_margin_B": {
+        "pair_counts": {
+          "concordant": 33,
+          "discordant": 33,
+          "reward_tie_only": 3,
+          "utility_tie_only": 0,
+          "both_tied": 15
+        },
+        "informative_pairs": 66,
+        "pooled_pair_concordance": 0.5,
+        "mean_image_concordance": 0.5,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      }
+    },
+    "r_total": {
+      "utility_rr": {
+        "pair_counts": {
+          "concordant": 12,
+          "discordant": 31,
+          "reward_tie_only": 3,
+          "utility_tie_only": 23,
+          "both_tied": 15
+        },
+        "informative_pairs": 43,
+        "pooled_pair_concordance": 0.27906976744186046,
+        "mean_image_concordance": 0.21587301587301586,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "utility_margin": {
+        "pair_counts": {
+          "concordant": 37,
+          "discordant": 29,
+          "reward_tie_only": 3,
+          "utility_tie_only": 0,
+          "both_tied": 15
+        },
+        "informative_pairs": 66,
+        "pooled_pair_concordance": 0.5606060606060606,
+        "mean_image_concordance": 0.5606060606060606,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "E1_margin_A": {
+        "pair_counts": {
+          "concordant": 26,
+          "discordant": 40,
+          "reward_tie_only": 3,
+          "utility_tie_only": 0,
+          "both_tied": 15
+        },
+        "informative_pairs": 66,
+        "pooled_pair_concordance": 0.3939393939393939,
+        "mean_image_concordance": 0.3939393939393939,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "E1_margin_B": {
+        "pair_counts": {
+          "concordant": 33,
+          "discordant": 33,
+          "reward_tie_only": 3,
+          "utility_tie_only": 0,
+          "both_tied": 15
+        },
+        "informative_pairs": 66,
+        "pooled_pair_concordance": 0.5,
+        "mean_image_concordance": 0.5,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      }
+    }
+  },
+  "repaired_reward_utility_statistics": {
+    "r_retrieval": {
+      "utility_rr": {
+        "pair_counts": {
+          "concordant": 28,
+          "discordant": 25,
+          "reward_tie_only": 1,
+          "utility_tie_only": 28,
+          "both_tied": 2
+        },
+        "informative_pairs": 53,
+        "pooled_pair_concordance": 0.5283018867924528,
+        "mean_image_concordance": 0.4012698412698413,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "utility_margin": {
+        "pair_counts": {
+          "concordant": 40,
+          "discordant": 41,
+          "reward_tie_only": 2,
+          "utility_tie_only": 0,
+          "both_tied": 1
+        },
+        "informative_pairs": 81,
+        "pooled_pair_concordance": 0.49382716049382713,
+        "mean_image_concordance": 0.49382716049382713,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "E1_margin_A": {
+        "pair_counts": {
+          "concordant": 48,
+          "discordant": 33,
+          "reward_tie_only": 2,
+          "utility_tie_only": 0,
+          "both_tied": 1
+        },
+        "informative_pairs": 81,
+        "pooled_pair_concordance": 0.5925925925925926,
+        "mean_image_concordance": 0.5925925925925926,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "E1_margin_B": {
+        "pair_counts": {
+          "concordant": 39,
+          "discordant": 42,
+          "reward_tie_only": 2,
+          "utility_tie_only": 0,
+          "both_tied": 1
+        },
+        "informative_pairs": 81,
+        "pooled_pair_concordance": 0.48148148148148145,
+        "mean_image_concordance": 0.48148148148148145,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      }
+    },
+    "r_total": {
+      "utility_rr": {
+        "pair_counts": {
+          "concordant": 7,
+          "discordant": 47,
+          "reward_tie_only": 0,
+          "utility_tie_only": 29,
+          "both_tied": 1
+        },
+        "informative_pairs": 54,
+        "pooled_pair_concordance": 0.12962962962962962,
+        "mean_image_concordance": 0.10424242424242423,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "utility_margin": {
+        "pair_counts": {
+          "concordant": 29,
+          "discordant": 54,
+          "reward_tie_only": 0,
+          "utility_tie_only": 0,
+          "both_tied": 1
+        },
+        "informative_pairs": 83,
+        "pooled_pair_concordance": 0.3493975903614458,
+        "mean_image_concordance": 0.3500881834215167,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "E1_margin_A": {
+        "pair_counts": {
+          "concordant": 42,
+          "discordant": 41,
+          "reward_tie_only": 0,
+          "utility_tie_only": 0,
+          "both_tied": 1
+        },
+        "informative_pairs": 83,
+        "pooled_pair_concordance": 0.5060240963855421,
+        "mean_image_concordance": 0.5070546737213404,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      },
+      "E1_margin_B": {
+        "pair_counts": {
+          "concordant": 35,
+          "discordant": 48,
+          "reward_tie_only": 0,
+          "utility_tie_only": 0,
+          "both_tied": 1
+        },
+        "informative_pairs": 83,
+        "pooled_pair_concordance": 0.42168674698795183,
+        "mean_image_concordance": 0.4246031746031746,
+        "images_with_informative_pairs": 3,
+        "images_with_defined_spearman": 3
+      }
+    }
+  }
+}
