@@ -1,0 +1,16 @@
+{
+  "gpu": "NVIDIA A100-SXM4-80GB, 4 MiB, 0 %",
+  "mount": "fs2[/private/user/lvjiacheng01] /private gpfs",
+  "anchors": [
+    0,
+    105,
+    209
+  ],
+  "controls": [
+    "own_plain",
+    "other_plain_control",
+    "zero_control"
+  ],
+  "cache_encoding": "original singleton _encode_image, then original second normalization",
+  "new_candidate_generation": false
+}

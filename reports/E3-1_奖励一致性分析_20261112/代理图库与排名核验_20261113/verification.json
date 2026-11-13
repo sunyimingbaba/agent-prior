@@ -1,0 +1,119 @@
+{
+  "ok": true,
+  "stage": "gallery_and_reward_numerical_verification",
+  "checkpoint": {
+    "path": "/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/checkpoints/last.ckpt",
+    "bytes": 1854653836,
+    "sha256": "e36801d50807519273408e4caf18604ad2f43db2c7b520cee98675631eac9a59",
+    "epoch": 50,
+    "global_step": 1600,
+    "strict_load_ok": true,
+    "all_state_tensors_finite": true,
+    "optimizer_state_tensors_finite": 102,
+    "optimizer_parameter_state_count": 34,
+    "lr_scheduler_state_present": true,
+    "frozen_backbone_matches_initial": true
+  },
+  "arrow": "/private/AGSE_E1_20261110/legacy/assets/ucm/ucm_caption_karpathy_label_val.arrow",
+  "arrow_sha256": "02204bf7566842f7fcd7c3e2a5ea012367ab5815bd8af09c06405c5e4adf20d2",
+  "input_manifest_sha256": "505b98f7317beb8ce2c3d79c034daa6ec3bb7bf8390f9303840d9329a19b81fb",
+  "prior_records_sha256": "280e4d5df47a921dec9a76cd9264738cd1f43926d80282139e0ce514497c90c8",
+  "gallery_cache": "/private/AGSE_E3_1_rebuild_20261112/proxy_gallery_20261113/grpo_val_cache_rebuilt_last50.pt",
+  "gallery_cache_sha256": "26cef629ac01ef90ea7bc7d8606bd92e513d776c3e8e3351b0ae523afa0a0b29",
+  "gallery_tensor_shape": [
+    210,
+    768
+  ],
+  "gallery_dtype": "torch.float32",
+  "all_210_rows_match_input_manifest": true,
+  "all_210_prior_file_hashes_match": true,
+  "feature_indices_equal_arrow_rows": true,
+  "max_norm_error": 1.1920928955078125e-07,
+  "save_reload_bitwise_equal": true,
+  "anchor_feature_recomputations": [
+    {
+      "row": 0,
+      "max_abs_delta": 0.0,
+      "bitwise_equal": true
+    },
+    {
+      "row": 105,
+      "max_abs_delta": 0.0,
+      "bitwise_equal": true
+    },
+    {
+      "row": 209,
+      "max_abs_delta": 0.0,
+      "bitwise_equal": true
+    }
+  ],
+  "rank_tie_unit_checks": [
+    {
+      "similarities": [
+        0.8,
+        0.8,
+        0.2
+      ],
+      "target": 0,
+      "rank0": 0,
+      "soft_reward": 1.0
+    },
+    {
+      "similarities": [
+        0.8,
+        0.8,
+        0.2
+      ],
+      "target": 2,
+      "rank0": 2,
+      "soft_reward": 0.3333333333333333
+    },
+    {
+      "similarities": [
+        0.1,
+        0.3,
+        0.2
+      ],
+      "target": 2,
+      "rank0": 1,
+      "soft_reward": 0.5
+    },
+    {
+      "similarities": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "target": 1,
+      "rank0": 0,
+      "soft_reward": 1.0
+    }
+  ],
+  "smoke_count": 9,
+  "smoke_anchor_rows": [
+    0,
+    105,
+    209
+  ],
+  "original_vs_independent_rank_equal": true,
+  "frozen_eval_no_grad": true,
+  "gallery_path": "RetrievalScorer._load_or_build_cache -> _encode_image: actual RGB image + zero visual prompt",
+  "proxy_path": "RetrievalScorer.score: h_end -> agent_proj -> fused visual prompt -> zero image -> encode_image",
+  "source_files_unchanged": {
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/grpo/scorer.py": "e1ddb20c3eeef1f8722e2b6c2df22ed7d957495772d66486b692664323201355",
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/grpo/reward.py": "c6cad8a097ad4ac7749aa58f569d27c58065157133b2d169fa1838caf4a9c052",
+    "/private/AGSE_E1_20261110/legacy/CUP/vilt/modules/vilt_module.py": "d1874861d081d0c9ea3d83c10ef43811c46b9b3ed20c747cd87b9272370396a4",
+    "/private/AGSE_E1_20261110/legacy/CUP/prompt_clip/clip.py": "e8b4f072b9630d193be35cd4e425ec6068a55c865129536b1abafbfc95c45f31",
+    "/private/AGSE_E1_20261110/legacy/CUP/prompt_clip/model.py": "b741d181da1cbcfd5a721f7b59c596728c240089c9f82b9e49cc37d6a4e11097",
+    "/private/AGSE_E1_20261110/legacy/CUP/vilt/modules/vilt_utils.py": "4da0b8d8160212d7e2076a0d5c6d164ffa9c515b27120401ab9f4c9dd1396f09"
+  },
+  "wrapper_sha256": "61888627d36b1e1128bc8329ae037a15c464d9a536301274649068b139f81f32",
+  "preprocess": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    <function _convert_image_to_rgb at 0x7fab218c4540>\n    ToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+  "torch": "2.4.1+cu124",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "tf32": false,
+  "mount": "fs2[/private/user/lvjiacheng01] /private gpfs",
+  "peak_allocated_bytes": 1796948480,
+  "elapsed_seconds": 22.641594409942627,
+  "scope": "3 fixed image rows, each with own prior, other-image prior and zero numerical controls; downstream utility pending"
+}
