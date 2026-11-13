@@ -1,0 +1,13 @@
+{
+  "source": {
+    "path": "/private/AGSE_E3_1_rebuild_20261112/fixed_tool_pilot_20261113/scoring/scoring_tensors.pt",
+    "sha256": "d504a13d4e5ceb4e354856d74c7b6af92d56dc732692d771b1e986443b8b9ac8",
+    "text_gallery_path": "/private/AGSE_E3_1_rebuild_20261112/fixed_tool_pilot_20261113/scoring/text_gallery.json",
+    "text_gallery_sha256": "d62dead35f2f73b1e3457d444f62416a62db72637fe39bd3775aab2bcdac1665",
+    "policy": "reuse feature vectors for exact known texts, including all 391 val texts; encode only new E1 quantity strings with the same frozen utility model"
+  },
+  "encoder_checkpoint_sha256": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc",
+  "reused_count": 403,
+  "new_text_count": 16,
+  "all_391_val_features_bitwise_equal": true
+}
