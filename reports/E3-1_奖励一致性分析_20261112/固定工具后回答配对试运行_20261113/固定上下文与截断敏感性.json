@@ -1,0 +1,104 @@
+{
+  "ok": true,
+  "fixed_context_checks": [
+    {
+      "row": 10,
+      "records": 10,
+      "unique_contexts": 1,
+      "unique_tool_result_texts": 1,
+      "actual_tool_executions": 10
+    },
+    {
+      "row": 95,
+      "records": 10,
+      "unique_contexts": 1,
+      "unique_tool_result_texts": 1,
+      "actual_tool_executions": 10
+    },
+    {
+      "row": 207,
+      "records": 10,
+      "unique_contexts": 1,
+      "unique_tool_result_texts": 1,
+      "actual_tool_executions": 10
+    }
+  ],
+  "greedy_reference_replays": [
+    {
+      "row": 10,
+      "greedy_reference_state_equal_to_messages_protocol": true
+    },
+    {
+      "row": 95,
+      "greedy_reference_state_equal_to_messages_protocol": true
+    },
+    {
+      "row": 207,
+      "greedy_reference_state_equal_to_messages_protocol": true
+    }
+  ],
+  "failed_candidates": [
+    {
+      "id": "95_candidate_3",
+      "row": 95,
+      "trajectory_text": "<answer>根据工具的结果，虽然场景分类为高尔夫球场（golf course），但是查询描述了绿茵草地上有沙坑和小径。从图像上看这似乎是一片草地区域，但并不足以确定具体是啥球场用途。不过，根据图像中可见的小径，并结合查询",
+      "any_token_limit": true,
+      "quality_stop_reason": "format_failure",
+      "r_format": 0.0,
+      "r_retrieval": 0.0070921985815602835,
+      "utility_rank1": 5,
+      "E1_margin_A": 0.007239386439323425,
+      "E1_margin_B": 0.0011495649814605713
+    }
+  ],
+  "sensitivity_label": "posthoc description of predefined quality_usable subset; all-candidate primary analysis preserved",
+  "quality_subset_RR": [
+    {
+      "row": 10,
+      "usable_candidates": 8,
+      "RR_values": [
+        0.3333333333333333
+      ],
+      "pair_counts": {
+        "concordant": 0,
+        "discordant": 0,
+        "reward_tie_only": 0,
+        "utility_tie_only": 26,
+        "both_tied": 2
+      }
+    },
+    {
+      "row": 95,
+      "usable_candidates": 7,
+      "RR_values": [
+        0.1111111111111111
+      ],
+      "pair_counts": {
+        "concordant": 0,
+        "discordant": 0,
+        "reward_tie_only": 0,
+        "utility_tie_only": 20,
+        "both_tied": 1
+      }
+    },
+    {
+      "row": 207,
+      "usable_candidates": 8,
+      "RR_values": [
+        0.045454545454545456,
+        0.047619047619047616,
+        0.05263157894736842,
+        0.05555555555555555
+      ],
+      "pair_counts": {
+        "concordant": 0,
+        "discordant": 17,
+        "reward_tie_only": 4,
+        "utility_tie_only": 4,
+        "both_tied": 3
+      }
+    }
+  ],
+  "actual_tool_executions_all_records": 30,
+  "model_generated_initial_tool_actions": 0
+}
