@@ -1,0 +1,52 @@
+{
+  "status": "complete",
+  "started_utc": "2026-11-13T04:03:04.001689+00:00",
+  "checkpoint_policy": "last checkpoint after 50 epochs",
+  "test_evaluation_executed": false,
+  "completed_epochs": 50,
+  "resume_from": "/private/AGSE_E3_1_rebuild_20261112/scorer_training_20261112/attempt_02/snapshots/epoch_30/last.ckpt",
+  "resume_sha256": "0c0fe707dac3db1d59a9dedca024977b26a27f7a394d8e7becf84e5efc158583",
+  "elapsed_seconds": 5821.422169924015,
+  "last_update_utc": "2026-11-13T05:40:05.423859+00:00",
+  "epoch": 49,
+  "batch": 250,
+  "optimizer_steps": 1600,
+  "batches_seen": 5000,
+  "latest_loss": 0.3949277102947235,
+  "peak_allocated_gib": 14.397412300109863,
+  "metrics": {
+    "clip/train/clip_loss": 0.3949224352836609,
+    "clip/train/prior_loss": 5.048543698649155e-06,
+    "clip/train/uncertainty_loss": 2.475451310601784e-07,
+    "clip/val/clip_loss": 3.44095516204834,
+    "clip/val/prior_loss": 6.064949502615491e-06,
+    "clip/val/uncertainty_loss": 2.1095034696827497e-07,
+    "val/the_metric": 80.45999908447266,
+    "train/the_metric": 0.0
+  },
+  "backbone_unchanged": true,
+  "initial_backbone_sha256": "c6bd01a684f5371eafb81707d89837497567fe48a08df59d39e1ba7f5750b390",
+  "final_backbone_sha256": "c6bd01a684f5371eafb81707d89837497567fe48a08df59d39e1ba7f5750b390",
+  "initial_trainable_sha256": "949e77eb12a56eebda066253c6fce7a9daf4a4b1be0d7aaa2f6f7c164c5d8bcc",
+  "final_trainable_sha256": "3c422f0dbd9acf14a8fe87fec86fd377cb2ae8a94559c1e4386b2d6830ed9bbc",
+  "gradient_checks_passed": 200,
+  "ok": true,
+  "trainer_current_epoch": 49,
+  "resumed_epochs": 20,
+  "resumed_optimizer_steps": 640,
+  "peak_allocated_bytes": 15459103744,
+  "peak_reserved_bytes": 17421041664,
+  "checkpoints": {
+    "last": {
+      "path": "/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/checkpoints/last.ckpt",
+      "bytes": 1854653836,
+      "sha256": "e36801d50807519273408e4caf18604ad2f43db2c7b520cee98675631eac9a59"
+    },
+    "validation_best": {
+      "path": "/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/checkpoints/epoch=36-step=1183.ckpt",
+      "bytes": 1854653836,
+      "sha256": "1939d320ca90c70693dc714e12453cfc9f00e0a4f203b5961fa34f88eb945a51"
+    }
+  },
+  "best_monitor_value": 81.33000183105469
+}

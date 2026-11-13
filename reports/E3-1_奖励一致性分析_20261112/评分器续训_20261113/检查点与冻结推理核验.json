@@ -1,0 +1,83 @@
+{
+  "verified": true,
+  "checkpoints": {
+    "validation_best": {
+      "path": "/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/checkpoints/epoch=36-step=1183.ckpt",
+      "bytes": 1854653836,
+      "sha256": "1939d320ca90c70693dc714e12453cfc9f00e0a4f203b5961fa34f88eb945a51",
+      "epoch": 37,
+      "global_step": 1184,
+      "strict_load_ok": true,
+      "all_state_tensors_finite": true,
+      "optimizer_state_tensors_finite": 102,
+      "optimizer_parameter_state_count": 34,
+      "lr_scheduler_state_present": true,
+      "frozen_backbone_matches_initial": true
+    },
+    "last": {
+      "path": "/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/checkpoints/last.ckpt",
+      "bytes": 1854653836,
+      "sha256": "e36801d50807519273408e4caf18604ad2f43db2c7b520cee98675631eac9a59",
+      "epoch": 50,
+      "global_step": 1600,
+      "strict_load_ok": true,
+      "all_state_tensors_finite": true,
+      "optimizer_state_tensors_finite": 102,
+      "optimizer_parameter_state_count": 34,
+      "lr_scheduler_state_present": true,
+      "frozen_backbone_matches_initial": true
+    }
+  },
+  "frozen_last_inference": {
+    "frozen_eval": true,
+    "inputs": [
+      {
+        "row": 0,
+        "image": "91.tif",
+        "caption": "There is a piece of farmland ."
+      },
+      {
+        "row": 105,
+        "image": "1084.tif",
+        "caption": "Lots of boats docked at the harbor and the water is deep blue ."
+      },
+      {
+        "row": 209,
+        "image": "2090.tif",
+        "caption": "Two tennis courts arranged neatly on the lawn with some trees beside ."
+      }
+    ],
+    "image_feature_shape": [
+      3,
+      768
+    ],
+    "text_feature_shape": [
+      3,
+      768
+    ],
+    "proxy_feature_shape": [
+      3,
+      768
+    ],
+    "all_features_and_scores_finite": true,
+    "image_text_scores": [
+      [
+        26.11433982849121,
+        2.8404200077056885,
+        6.911964416503906
+      ],
+      [
+        10.891708374023438,
+        27.746444702148438,
+        6.868298053741455
+      ],
+      [
+        16.137582778930664,
+        2.3576674461364746,
+        31.282686233520508
+      ]
+    ]
+  },
+  "trainer_optimizer_steps": 1600,
+  "completed_epochs": 50
+}
