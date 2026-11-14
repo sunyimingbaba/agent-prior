@@ -1,0 +1,17 @@
+policy,baseline,mode,metric,mean,ci95_lower,ci95_upper,wins,ties,losses
+global_margin,baseline,greedy,utility_rr,-0.009954455683359337,-0.050730818491831774,0.018862504362562503,7,37,6
+global_margin,baseline,greedy,utility_margin,0.00035153120756149293,-0.0008779477998614311,0.00128986968845129,33,0,17
+global_margin,baseline,greedy,quality,0.0,0.0,0.0,0,50,0
+global_margin,baseline,greedy,tool_usage,0.0,0.0,0.0,0,50,0
+global_margin,baseline,sample_mean,utility_rr,-0.08420008594386957,-0.15957076211764412,-0.01130674042414375,15,10,25
+global_margin,baseline,sample_mean,utility_margin,-0.004289775788784027,-0.009222485471516847,0.0005794709362089627,22,0,28
+global_margin,baseline,sample_mean,quality,0.69,0.6,0.78,47,2,1
+global_margin,baseline,sample_mean,tool_usage,0.58,0.49,0.67,47,1,2
+global_margin,format_only,greedy,utility_rr,-0.0066203265937315285,-0.05002413706543377,0.029598509444682362,5,42,3
+global_margin,format_only,greedy,utility_margin,-0.0001962128281593323,-0.0012335259914398194,0.0004654711931943894,28,0,22
+global_margin,format_only,greedy,quality,0.0,0.0,0.0,0,50,0
+global_margin,format_only,greedy,tool_usage,0.0,0.0,0.0,0,50,0
+global_margin,format_only,sample_mean,utility_rr,-0.08757034244874991,-0.14071591410295603,-0.04053889399320986,14,18,18
+global_margin,format_only,sample_mean,utility_margin,-0.000853925347328186,-0.004010025825351477,0.0023576908819377402,23,0,27
+global_margin,format_only,sample_mean,quality,-0.23,-0.3,-0.16,1,25,24
+global_margin,format_only,sample_mean,tool_usage,-0.38,-0.44,-0.31,0,13,37

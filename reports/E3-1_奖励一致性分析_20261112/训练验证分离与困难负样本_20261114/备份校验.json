@@ -1,0 +1,24 @@
+{
+  "archive_name": "separated_reward_evidence_20261114.tar.gz",
+  "remote_archive": "/private/AGSE_E3_1_rebuild_20261112/separated_reward_evidence_20261114.tar.gz",
+  "remote_root": "/private/AGSE_E3_1_rebuild_20261112/separated_hard_negative_20261114",
+  "archive_sha256": "5f97f1cc2f2994b276db05aea5d2c1235f0647b6dc93541324cd38349996fb23",
+  "archive_bytes": 37182406,
+  "archive_files": 1486,
+  "manifest_files": 1485,
+  "excluded": [
+    "scratch",
+    "__pycache__",
+    "training/*/checkpoint (separate model archive)"
+  ],
+  "gpu_after_run": "NVIDIA A100-SXM4-80GB, 4 MiB, 0 %",
+  "created_at_utc": "2026-11-14T04:31:43.151140+00:00",
+  "local_copy_verification": "passed",
+  "local_file_hashes_verified": 1485,
+  "existing_files_confirmed_unchanged": 1479,
+  "new_files_restored": 7,
+  "verified_at_utc": "2026-11-14T04:32:39.175420+00:00",
+  "model_backups_verified": "both archives: 12 files each, 584 finite FP32 LoRA tensors each and in-memory parameter hashes matched",
+  "primary_evidence_unchanged_between_preliminary_and_final": true,
+  "derived_code_updates_record": "衍生文件版本核验.json"
+}

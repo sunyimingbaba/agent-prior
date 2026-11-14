@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "train_images": 1680,
+  "val_images": 210,
+  "train_arrow_sha256": "4dd3c7eed39d309ffba1e77066a7fffae7912768c0a01f18fb578f3e6e5f967f",
+  "val_arrow_sha256": "02204bf7566842f7fcd7c3e2a5ea012367ab5815bd8af09c06405c5e4adf20d2",
+  "scene_label_source": "/private/AGSE_E1_20261110/legacy/CUP/agent/train_scene_cls.py",
+  "scene_label_source_sha256": "dd042fe83d5fff3e3b16f8eb77e58450a0f072fe073b34b321b5d77d0f221fd8",
+  "scene_label_rule": "(integer filename stem - 1) // 100; UCM_CLASSES equals saved scene-head classes",
+  "train_images_shared_with_val_by_bytes": 0,
+  "original_unique_train_captions": 1637,
+  "val_unique_canonical_captions": 391,
+  "training_reward_captions": 1437,
+  "canonical_text_overlap_after_purge": 0,
+  "selected_training_images": 19,
+  "eligible_training_images": 1277,
+  "class_coverage": {
+    "agricultural": {
+      "train_images": 80,
+      "eligible_images": 0,
+      "retained_unique_captions": 0
+    },
+    "airplane": {
+      "train_images": 81,
+      "eligible_images": 79,
+      "retained_unique_captions": 168
+    },
+    "baseball diamond": {
+      "train_images": 80,
+      "eligible_images": 38,
+      "retained_unique_captions": 15
+    },
+    "beach": {
+      "train_images": 80,
+      "eligible_images": 80,
+      "retained_unique_captions": 47
+    },
+    "buildings": {
+      "train_images": 80,
+      "eligible_images": 80,
+      "retained_unique_captions": 142
+    },
+    "chaparral": {
+      "train_images": 80,
+      "eligible_images": 0,
+      "retained_unique_captions": 0
+    },
+    "dense residential": {
+      "train_images": 77,
+      "eligible_images": 68,
+      "retained_unique_captions": 76
+    },
+    "forest": {
+      "train_images": 80,
+      "eligible_images": 55,
+      "retained_unique_captions": 31
+    },
+    "freeway": {
+      "train_images": 80,
+      "eligible_images": 80,
+      "retained_unique_captions": 53
+    },
+    "golf course": {
+      "train_images": 80,
+      "eligible_images": 73,
+      "retained_unique_captions": 44
+    },
+    "harbor": {
+      "train_images": 81,
+      "eligible_images": 76,
+      "retained_unique_captions": 25
+    },
+    "intersection": {
+      "train_images": 81,
+      "eligible_images": 67,
+      "retained_unique_captions": 60
+    },
+    "medium residential": {
+      "train_images": 80,
+      "eligible_images": 79,
+      "retained_unique_captions": 39
+    },
+    "mobile home park": {
+      "train_images": 80,
+      "eligible_images": 52,
+      "retained_unique_captions": 22
+    },
+    "overpass": {
+      "train_images": 80,
+      "eligible_images": 76,
+      "retained_unique_captions": 95
+    },
+    "parking lot": {
+      "train_images": 80,
+      "eligible_images": 54,
+      "retained_unique_captions": 36
+    },
+    "river": {
+      "train_images": 80,
+      "eligible_images": 79,
+      "retained_unique_captions": 51
+    },
+    "runway": {
+      "train_images": 80,
+      "eligible_images": 9,
+      "retained_unique_captions": 14
+    },
+    "sparse residential": {
+      "train_images": 80,
+      "eligible_images": 76,
+      "retained_unique_captions": 107
+    },
+    "storage tanks": {
+      "train_images": 80,
+      "eligible_images": 76,
+      "retained_unique_captions": 211
+    },
+    "tennis court": {
+      "train_images": 80,
+      "eligible_images": 80,
+      "retained_unique_captions": 201
+    }
+  },
+  "test_arrow_read": false,
+  "normalization": "Unicode NFKC, casefold, collapse whitespace, remove terminal spaces/.!?",
+  "prompt_caption": "first original caption surviving validation text purge",
+  "selection_sha256": "df24107cdb2e65043e08f2c15d519c95664c2909dd9af995c7ceae1485529486"
+}

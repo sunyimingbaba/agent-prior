@@ -1,0 +1,44 @@
+{
+  "status": "complete",
+  "phases": [
+    {
+      "args": [
+        "test_contract.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.1022273087874055
+    },
+    {
+      "args": [
+        "preflight.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 30.762131555005908
+    },
+    {
+      "args": [
+        "build_features.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 21.64853242901154
+    },
+    {
+      "args": [
+        "run_pilot.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 188.7674681050703
+    },
+    {
+      "args": [
+        "train_separated.py",
+        "--arm",
+        "smoke"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 52.692667335039005
+    }
+  ],
+  "elapsed_seconds": 296.97305271821097,
+  "completed_at_utc": "2026-11-14T03:57:35.647535+00:00"
+}
