@@ -1,0 +1,99 @@
+If for semantic segmentation, please install mmsegmentation first
+If for detection, please install mmdetection first
+DIAGNOSTIC_PREFLIGHT_PASSED
+/private/AGSE_E1_20261110/legacy/CUP/vilt/datasets/base_dataset.py:151: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ret["agent_hidden"] = torch.load(cache_path, map_location="cpu")
+If for semantic segmentation, please install mmsegmentation first
+If for detection, please install mmdetection first
+
+###########This is config ####################
+{'exp_name': 'finetune_irtr_ucm_randaug', 'seed': 0, 'datasets': ['ucm'], 'loss_names': {'itm': 0, 'mlm': 0, 'mpp': 0, 'vqa': 0, 'nlvr2': 0, 'irtr': 0, 'clip': 1}, 'batch_size': 256, 'clip_model': 'ViT-L/14', 'current_epoch': 49, 'weight_margin': 0.015, 'loss_scale_kl': 1, 'loss_scale_un': 1, 'loss_scale': 1, 'max_image_len': -1, 'patch_size': 32, 'draw_false_image': 1, 'image_only': False, 'vqav2_label_size': 3129, 'max_text_len': 77, 'tokenizer': 'bert-base-uncased', 'vocab_size': 30522, 'whole_word_masking': False, 'mlm_prob': 0.15, 'draw_false_text': 0, 'vit': 'vit_base_patch32_384', 'hidden_size': 768, 'num_heads': 12, 'num_layers': 12, 'mlp_ratio': 4, 'drop_rate': 0.1, 'prompt_length': 16, 'optim_type': 'adamw', 'learning_rate': 0.0001, 'weight_decay': 0.01, 'decay_power': 1, 'max_epoch': 50, 'max_steps': None, 'warmup_steps': 0.1, 'end_lr': 0, 'lr_mult': 1, 'clip_zero': True, 'get_recall_metric': True, 'resume_from': None, 'fast_dev_run': False, 'val_check_interval': 1.0, 'test_only': False, 'data_root': '/workspace/cup-debug/data/ucm', 'log_dir': '/workspace/cup-debug/logs', 'per_gpu_batchsize': 32, 'num_gpus': 1, 'num_nodes': 1, 'load_path': '', 'num_workers': 8, 'precision': 16, 'linear_projector': 0.1, 'train_transform_keys': 'ViT-L/14', 'val_transform_keys': 'ViT-L/14', 'image_size': [14, 14], 'img_features_dim': 1024, 'txt_features_dim': 768, 'cls_number': 21, 'save_image_path': '/workspace/cup-debug/images', 'json': '/home/amax/wyj/dataset/UCM_captions/karpathy/ucm.json', 'use_agent_prior': True, 'agent_cache_dir': '/workspace/cup-debug/agent_cache_domain_tool', 'agent_hidden_dim': 3584, '__doc__': 'ViT-L/14 骨干：UCM 遥感数据集'}
+###########This is config ####################
+
+this is name:/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt
+CONTROL_SCORED 6 /510
+CONTROL_SCORED 12 /510
+CONTROL_SCORED 18 /510
+CONTROL_SCORED 24 /510
+CONTROL_SCORED 30 /510
+CONTROL_SCORED 36 /510
+CONTROL_SCORED 42 /510
+CONTROL_SCORED 48 /510
+CONTROL_SCORED 54 /510
+CONTROL_SCORED 60 /510
+CONTROL_SCORED 66 /510
+CONTROL_SCORED 72 /510
+CONTROL_SCORED 78 /510
+CONTROL_SCORED 84 /510
+CONTROL_SCORED 90 /510
+CONTROL_SCORED 96 /510
+CONTROL_SCORED 102 /510
+CONTROL_SCORED 108 /510
+CONTROL_SCORED 114 /510
+CONTROL_SCORED 120 /510
+CONTROL_SCORED 126 /510
+CONTROL_SCORED 132 /510
+CONTROL_SCORED 138 /510
+CONTROL_SCORED 144 /510
+CONTROL_SCORED 150 /510
+CONTROL_SCORED 156 /510
+CONTROL_SCORED 162 /510
+CONTROL_SCORED 168 /510
+CONTROL_SCORED 174 /510
+CONTROL_SCORED 180 /510
+CONTROL_SCORED 186 /510
+CONTROL_SCORED 192 /510
+CONTROL_SCORED 198 /510
+CONTROL_SCORED 204 /510
+CONTROL_SCORED 210 /510
+CONTROL_SCORED 216 /510
+CONTROL_SCORED 222 /510
+CONTROL_SCORED 228 /510
+CONTROL_SCORED 234 /510
+CONTROL_SCORED 240 /510
+CONTROL_SCORED 246 /510
+CONTROL_SCORED 252 /510
+CONTROL_SCORED 258 /510
+CONTROL_SCORED 264 /510
+CONTROL_SCORED 270 /510
+CONTROL_SCORED 276 /510
+CONTROL_SCORED 282 /510
+CONTROL_SCORED 288 /510
+CONTROL_SCORED 294 /510
+CONTROL_SCORED 300 /510
+CONTROL_SCORED 306 /510
+CONTROL_SCORED 312 /510
+CONTROL_SCORED 318 /510
+CONTROL_SCORED 324 /510
+CONTROL_SCORED 330 /510
+CONTROL_SCORED 336 /510
+CONTROL_SCORED 342 /510
+CONTROL_SCORED 348 /510
+CONTROL_SCORED 354 /510
+CONTROL_SCORED 360 /510
+CONTROL_SCORED 366 /510
+CONTROL_SCORED 372 /510
+CONTROL_SCORED 378 /510
+CONTROL_SCORED 384 /510
+CONTROL_SCORED 390 /510
+CONTROL_SCORED 396 /510
+CONTROL_SCORED 402 /510
+CONTROL_SCORED 408 /510
+CONTROL_SCORED 414 /510
+CONTROL_SCORED 420 /510
+CONTROL_SCORED 426 /510
+CONTROL_SCORED 432 /510
+CONTROL_SCORED 438 /510
+CONTROL_SCORED 444 /510
+CONTROL_SCORED 450 /510
+CONTROL_SCORED 456 /510
+CONTROL_SCORED 462 /510
+CONTROL_SCORED 468 /510
+CONTROL_SCORED 474 /510
+CONTROL_SCORED 480 /510
+CONTROL_SCORED 486 /510
+CONTROL_SCORED 492 /510
+CONTROL_SCORED 498 /510
+CONTROL_SCORED 504 /510
+CONTROL_SCORED 510 /510
+ALL_510_CONTROLS_AND_ANCHORS_SCORED

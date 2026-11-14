@@ -1,0 +1,32 @@
+{
+  "utility": {
+    "file": "/private/AGSE_E1_20261110/legacy/assets/ucm_main_domain_tool.ckpt",
+    "sha256": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc",
+    "epoch": 50,
+    "global_step": 1600,
+    "config": {
+      "agent_cache_dir": "/workspace/cup-debug/agent_cache_domain_tool",
+      "use_agent_prior": true,
+      "agent_hidden_dim": 3584,
+      "prompt_length": 16,
+      "data_root": "/workspace/cup-debug/data/ucm",
+      "seed": 0,
+      "max_epoch": 50
+    }
+  },
+  "proxy": {
+    "file": "/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/checkpoints/last.ckpt",
+    "sha256": "e36801d50807519273408e4caf18604ad2f43db2c7b520cee98675631eac9a59",
+    "epoch": 50,
+    "global_step": 1600,
+    "config": {
+      "agent_cache_dir": "/private/AGSE_E3_1_rebuild_20261112/plain_prior_full_20261112/run_01/priors",
+      "use_agent_prior": true,
+      "agent_hidden_dim": 3584,
+      "prompt_length": 16,
+      "data_root": "/private/AGSE_E1_20261110/legacy/assets/ucm",
+      "seed": 0,
+      "max_epoch": 50
+    }
+  }
+}

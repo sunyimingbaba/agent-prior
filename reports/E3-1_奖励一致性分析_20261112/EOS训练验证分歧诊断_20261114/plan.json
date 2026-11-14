@@ -1,0 +1,71 @@
+{
+  "base_root": "/private/AGSE_E1_20261110/legacy",
+  "source_run_root": "/private/AGSE_E3_1_rebuild_20261112/fixed_tool_22_20261113",
+  "model_hashes": {
+    "lora_weights_sha256": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+    "clip_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+    "scene_head_sha256": "275f041920aa5747e9d90d6e14c79fb341882948bcf17cf02ae159d35cc9540b"
+  },
+  "utility_model_sha256": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc",
+  "prompt": "Describe the visible scene.",
+  "stage": "post-hoc EOS split diagnostic; frozen utility controls",
+  "created_at_utc": "2026-11-14T11:17:21.858887+00:00",
+  "remote_root": "/private/AGSE_E3_1_rebuild_20261112/eos_split_diagnostic_20261114",
+  "parent_root": "/private/AGSE_E3_1_rebuild_20261112/answer_eos_alignment_20261114",
+  "parent_archive_name": "answer_eos_alignment_evidence_20261114.tar.gz",
+  "parent_archive_sha256": "bba9576d1671620d1bdc44eba05543a50285fd0c344ce62b0f4c3df99e404872",
+  "parent_manifest_files": 1787,
+  "optimizer_updates": 0,
+  "new_generation_records": 0,
+  "analysis_role": "exploratory diagnosis after previously observed train/val discrepancy; thresholds from parent remain unchanged",
+  "historical_cache": "/private/AGSE_E1_20261110/ucm_prior_archive/agent_cache_domain_tool",
+  "proxy_checkpoint": "/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/checkpoints/last.ckpt",
+  "proxy_sha256": "e36801d50807519273408e4caf18604ad2f43db2c7b520cee98675631eac9a59",
+  "controls": [
+    "historical_cache",
+    "zero_input",
+    "shared_answer_close",
+    "shared_eos"
+  ],
+  "anchors": [
+    "own_answer_close",
+    "own_eos"
+  ],
+  "records": 510,
+  "reference_image": "102.tif",
+  "reference_rule": "first confirmation-train image in inherited evaluation order; greedy state selected without optimizing scores",
+  "samples_per_image": 4,
+  "groups": [
+    "actual_count",
+    "object",
+    "B_pair",
+    "first_caption_exact_true_number_word"
+  ],
+  "common_count_standardization": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "decomposition": "symmetric Kitagawa composition/within-count split-delta decomposition, restricted to shared counts 1..4; all-count aggregate also retained",
+  "bootstrap": {
+    "resamples": 10000,
+    "seed": 2026111451,
+    "unit": "image; stratified by true count for count-macro estimates"
+  },
+  "interpretation": {
+    "zero_input": "zero hidden vector fed through the original agent_proj; learned biases retained",
+    "shared_states": "fixed image-102 greedy states, unchanged across all 85 target images",
+    "cached_prior_scope": "historical priors keyed by split and image row; generated from first original caption according to preserved pipeline/source; per-record emitted token traces pending"
+  },
+  "next_decision": "explain composition and state bias; no policy/terminal selection using validation outputs in this stage",
+  "inputs_sha256": {
+    "inputs/cases.json": "6570a3235c13dc7bdd4833b626de96a068d3c2a346f0193aa67bed87fdbe3061",
+    "inputs/evaluation_cases.json": "0403328b37b7153f27ff1d2faa059d59141d017db8aa9f0c49938280ad75598a",
+    "inputs/historical_pipeline_domain_tool.sh": "4a5d5b790a41b5c8449623a0fdbf1e663e84078af83b9c2243cddcff7214ab65",
+    "inputs/plain_prior_settings.json": "53ab1ae5d49f1ccbe6a360f2038c0b5dff5e8d4b1931de69f06ca19fd6a123f3",
+    "inputs/冻结评分器登记.json": "0ea8c2986df4b4d1408e4d9907c3acafaa5149ebeab324171797fb093c75d1aa",
+    "inputs/实际展开配置.json": "c502cd9596bc13d711a038cb8905387007e307a17d3fce0080956cc3dbbd5e7d",
+    "inputs/训练输入清单_v2.json": "3b543a9bb5670c8711adc1defedfb27d1bbb54fcca134611755f75117da2ea0a"
+  }
+}

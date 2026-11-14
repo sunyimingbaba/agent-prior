@@ -1,0 +1,81 @@
+{
+  "manifest_sha256": "505b98f7317beb8ce2c3d79c034daa6ec3bb7bf8390f9303840d9329a19b81fb",
+  "generator_sha256": "0cc58705a04226b0993d5d0078535f32cb5c9fdc5d27b4a6ffc3d91004eaa563",
+  "rollout_source_sha256": "76db78e4730e22be5f75c4d8f74b4371ddb4ad81d11e1d2eb810a1b3d35c2365",
+  "model_asset_hashes": {
+    "model-00001-of-00005.safetensors": {
+      "sha256": "e97b877e47fde53a6c6e77aafb36e58e91ee9d95c4a3eeac6f1b5c0e6a1c986e",
+      "bytes": 3900233256
+    },
+    "model-00002-of-00005.safetensors": {
+      "sha256": "a9a300a43b4724eee2abe7c18ceb26768d0ab011eb0cad19d9bfd2476a24d024",
+      "bytes": 3864726320
+    },
+    "model-00003-of-00005.safetensors": {
+      "sha256": "111223d173e00bbee81cba1216fad28668df3476706b7fd26f4d5b50f8b3a507",
+      "bytes": 3864726424
+    },
+    "model-00004-of-00005.safetensors": {
+      "sha256": "ef47f634fa57d46ee134edcc09f34085a47da1e16c12a2abe0d67118be6d72ed",
+      "bytes": 3864733680
+    },
+    "model-00005-of-00005.safetensors": {
+      "sha256": "0c859795ad3a627a9b95bcb762e059d5b768a4a36fdd4affeff269d93fdecc67",
+      "bytes": 1089994880
+    },
+    "config.json": {
+      "sha256": "1a1306a1b2a9b144837681fbe4b2fe7cd85f105234d767a3af75ba5beae7c190",
+      "bytes": 1339
+    },
+    "generation_config.json": {
+      "sha256": "0a3aea82869fe29f20dc95ccf3e2bcff380eca1f5ad6447a4a4b37110b08e43e",
+      "bytes": 216
+    },
+    "preprocessor_config.json": {
+      "sha256": "f2058c716eef96ccaed1cc1e2d0c08306b62586d535b28d9d08e691b2fab7ca0",
+      "bytes": 350
+    },
+    "tokenizer_config.json": {
+      "sha256": "4abd3520120e266da84c0864fee064d1fb10806f02225911a47253dd38dc5f56",
+      "bytes": 5702
+    },
+    "tokenizer.json": {
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "bytes": 7031645
+    },
+    "chat_template.json": {
+      "sha256": "ad60d90252ed0b0705ba14e2d0ad0fec0beac1ea955642b54059b36052d8bc96",
+      "bytes": 1050
+    },
+    "merges.txt": {
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "bytes": 1671839
+    },
+    "vocab.json": {
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "bytes": 2776833
+    },
+    "model.safetensors.index.json": {
+      "sha256": "73b333b0b16e5286ddba615d2caebcd495cf7e616f52eb217a81781393d79de9",
+      "bytes": 57619
+    },
+    "config.original.json": {
+      "sha256": "77d9ec7321cc572e3579e2c84799c9cadaded63c49ce93b101733349fc330c43",
+      "bytes": 1374
+    }
+  },
+  "torch": "2.4.1+cu124",
+  "transformers": "4.57.2",
+  "device": "NVIDIA A100-SXM4-80GB",
+  "cuda": "12.4",
+  "system_prompt": "你是遥感图像分析助手。给定一张遥感图像和一条查询文本，请简要描述图像中与查询相关的内容。直接回答，不要输出思考过程。",
+  "lora_path": "",
+  "tools_available": [],
+  "seed_per_image": 0,
+  "temperature": 0.0,
+  "max_new_tokens": 64,
+  "max_rounds": 3,
+  "injected_h_end": false,
+  "generation_batch_size": 1,
+  "state_rule": "last generation call, final decoding step, final layer, final position"
+}
