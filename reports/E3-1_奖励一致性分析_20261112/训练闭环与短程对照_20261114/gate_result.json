@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "phases": [
+    {
+      "args": [
+        "test_contract.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.23338038707152
+    },
+    {
+      "args": [
+        "preflight.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 28.386274887947366
+    },
+    {
+      "args": [
+        "train_corrected.py",
+        "--arm",
+        "smoke"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 48.470893886173144
+    }
+  ],
+  "elapsed_seconds": 80.09056712198071,
+  "completed_at_utc": "2026-11-14T02:02:49.071973+00:00"
+}

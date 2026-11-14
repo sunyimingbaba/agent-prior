@@ -1,0 +1,59 @@
+{
+  "status": "complete",
+  "phases": [
+    {
+      "args": [
+        "evaluate_cache.py",
+        "--policy",
+        "baseline"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 203.44536718493327
+    },
+    {
+      "args": [
+        "train_corrected.py",
+        "--arm",
+        "retrieval"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 326.66270688478835
+    },
+    {
+      "args": [
+        "evaluate_cache.py",
+        "--policy",
+        "retrieval"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 248.40301616094075
+    },
+    {
+      "args": [
+        "train_corrected.py",
+        "--arm",
+        "format_only"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 243.07034016307443
+    },
+    {
+      "args": [
+        "evaluate_cache.py",
+        "--policy",
+        "format_only"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 253.00005914503708
+    },
+    {
+      "args": [
+        "score_evaluation.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 44.48567214095965
+    }
+  ],
+  "elapsed_seconds": 1319.0672011009883,
+  "completed_at_utc": "2026-11-14T02:25:31.283462+00:00"
+}
