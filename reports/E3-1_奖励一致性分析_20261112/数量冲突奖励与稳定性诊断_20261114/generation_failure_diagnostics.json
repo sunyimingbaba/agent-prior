@@ -1,0 +1,221 @@
+{
+  "ok": true,
+  "scope": "descriptive breakdown of existing 500 frozen-policy trajectories; no new generation or optimization",
+  "source_scores": "scoring/scores.json",
+  "source_analysis": "analysis.json",
+  "groups": {
+    "train": {
+      "greedy": {
+        "records": 78,
+        "protocol_valid": 72,
+        "protocol_valid_rate": 0.9230769230769231,
+        "all_stop_reasons": {
+          "answer": 72,
+          "format_failure": 6
+        },
+        "invalid_stop_reasons": {
+          "format_failure": 6
+        },
+        "invalid_ids": [
+          "all__train_1544_greedy_0",
+          "all__train_1547_greedy_0",
+          "all__train_1559_greedy_0",
+          "all__train_1577_greedy_0",
+          "all__train_1650_greedy_0",
+          "all__train_1657_greedy_0"
+        ]
+      },
+      "candidate": {
+        "records": 312,
+        "protocol_valid": 210,
+        "protocol_valid_rate": 0.6730769230769231,
+        "all_stop_reasons": {
+          "answer": 210,
+          "model_generated_tool_result": 36,
+          "format_failure": 64,
+          "token_limit": 2
+        },
+        "invalid_stop_reasons": {
+          "model_generated_tool_result": 36,
+          "format_failure": 64,
+          "token_limit": 2
+        },
+        "invalid_ids": [
+          "all__train_80_candidate_800001",
+          "all__train_80_candidate_800003",
+          "all__train_81_candidate_800006",
+          "all__train_99_candidate_800008",
+          "all__train_100_candidate_800012",
+          "all__train_100_candidate_800013",
+          "all__train_100_candidate_800015",
+          "all__train_104_candidate_800020",
+          "all__train_122_candidate_800028",
+          "all__train_122_candidate_800029",
+          "all__train_124_candidate_800034",
+          "all__train_126_candidate_800036",
+          "all__train_126_candidate_800038",
+          "all__train_128_candidate_800040",
+          "all__train_128_candidate_800041",
+          "all__train_128_candidate_800042",
+          "all__train_136_candidate_800048",
+          "all__train_136_candidate_800049",
+          "all__train_136_candidate_800050",
+          "all__train_159_candidate_800052",
+          "all__train_159_candidate_800054",
+          "all__train_217_candidate_800059",
+          "all__train_721_candidate_800061",
+          "all__train_721_candidate_800063",
+          "all__train_750_candidate_800069",
+          "all__train_750_candidate_800070",
+          "all__train_755_candidate_800080",
+          "all__train_755_candidate_800081",
+          "all__train_767_candidate_800084",
+          "all__train_767_candidate_800086",
+          "all__train_769_candidate_800089",
+          "all__train_769_candidate_800091",
+          "all__train_778_candidate_800095",
+          "all__train_787_candidate_800097",
+          "all__train_1465_candidate_800109",
+          "all__train_1475_candidate_800112",
+          "all__train_1475_candidate_800113",
+          "all__train_1475_candidate_800115",
+          "all__train_1483_candidate_800120",
+          "all__train_1483_candidate_800123",
+          "all__train_1520_candidate_800124",
+          "all__train_1520_candidate_800126",
+          "all__train_1520_candidate_800127",
+          "all__train_1521_candidate_800128",
+          "all__train_1521_candidate_800130",
+          "all__train_1528_candidate_800133",
+          "all__train_1537_candidate_800140",
+          "all__train_1547_candidate_800153",
+          "all__train_1547_candidate_800154",
+          "all__train_1555_candidate_800156",
+          "all__train_1555_candidate_800158",
+          "all__train_1555_candidate_800159",
+          "all__train_1556_candidate_800160",
+          "all__train_1563_candidate_800169",
+          "all__train_1564_candidate_800173",
+          "all__train_1565_candidate_800176",
+          "all__train_1565_candidate_800178",
+          "all__train_1565_candidate_800179",
+          "all__train_1574_candidate_800189",
+          "all__train_1575_candidate_800193",
+          "all__train_1575_candidate_800195",
+          "all__train_1576_candidate_800198",
+          "all__train_1577_candidate_800200",
+          "all__train_1593_candidate_800206",
+          "all__train_1607_candidate_800208",
+          "all__train_1607_candidate_800211",
+          "all__train_1608_candidate_800213",
+          "all__train_1608_candidate_800215",
+          "all__train_1609_candidate_800217",
+          "all__train_1609_candidate_800218",
+          "all__train_1612_candidate_800220",
+          "all__train_1612_candidate_800222",
+          "all__train_1612_candidate_800223",
+          "all__train_1613_candidate_800224",
+          "all__train_1613_candidate_800225",
+          "all__train_1616_candidate_800228",
+          "all__train_1616_candidate_800230",
+          "all__train_1616_candidate_800231",
+          "all__train_1623_candidate_800232",
+          "all__train_1623_candidate_800233",
+          "all__train_1623_candidate_800234",
+          "all__train_1628_candidate_800239",
+          "all__train_1630_candidate_800240",
+          "all__train_1631_candidate_800245",
+          "all__train_1631_candidate_800246",
+          "all__train_1634_candidate_800250",
+          "all__train_1639_candidate_800252",
+          "all__train_1639_candidate_800254",
+          "all__train_1641_candidate_800256",
+          "all__train_1641_candidate_800258",
+          "all__train_1642_candidate_800260",
+          "all__train_1642_candidate_800262",
+          "all__train_1642_candidate_800263",
+          "all__train_1646_candidate_800269",
+          "all__train_1646_candidate_800270",
+          "all__train_1647_candidate_800272",
+          "all__train_1650_candidate_800276",
+          "all__train_1652_candidate_800284",
+          "all__train_1652_candidate_800287",
+          "all__train_1660_candidate_800297",
+          "all__train_1661_candidate_800303",
+          "all__train_1674_candidate_800306"
+        ]
+      },
+      "raw_quantity_selection": {
+        "images": 78,
+        "protocol_valid": 49,
+        "invalid_stop_reasons": {
+          "model_generated_tool_result": 15,
+          "format_failure": 14
+        }
+      }
+    },
+    "val": {
+      "greedy": {
+        "records": 22,
+        "protocol_valid": 21,
+        "protocol_valid_rate": 0.9545454545454546,
+        "all_stop_reasons": {
+          "answer": 21,
+          "format_failure": 1
+        },
+        "invalid_stop_reasons": {
+          "format_failure": 1
+        },
+        "invalid_ids": [
+          "all__val_198_greedy_0"
+        ]
+      },
+      "candidate": {
+        "records": 88,
+        "protocol_valid": 66,
+        "protocol_valid_rate": 0.75,
+        "all_stop_reasons": {
+          "answer": 66,
+          "model_generated_tool_result": 7,
+          "format_failure": 15
+        },
+        "invalid_stop_reasons": {
+          "model_generated_tool_result": 7,
+          "format_failure": 15
+        },
+        "invalid_ids": [
+          "all__val_10_candidate_800313",
+          "all__val_13_candidate_800316",
+          "all__val_13_candidate_800318",
+          "all__val_13_candidate_800319",
+          "all__val_16_candidate_800321",
+          "all__val_19_candidate_800331",
+          "all__val_22_candidate_800333",
+          "all__val_24_candidate_800341",
+          "all__val_24_candidate_800343",
+          "all__val_28_candidate_800346",
+          "all__val_94_candidate_800355",
+          "all__val_99_candidate_800363",
+          "all__val_192_candidate_800369",
+          "all__val_195_candidate_800375",
+          "all__val_198_candidate_800376",
+          "all__val_198_candidate_800377",
+          "all__val_199_candidate_800380",
+          "all__val_199_candidate_800381",
+          "all__val_199_candidate_800382",
+          "all__val_201_candidate_800390",
+          "all__val_205_candidate_800395",
+          "all__val_207_candidate_800397"
+        ]
+      },
+      "raw_quantity_selection": {
+        "images": 22,
+        "protocol_valid": 9,
+        "invalid_stop_reasons": {
+          "format_failure": 11,
+          "model_generated_tool_result": 2
+        }
+      }
+    }
+  }
+}

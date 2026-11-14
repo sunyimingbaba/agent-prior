@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "phases": [
+    {
+      "args": [
+        "preflight_resume.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 25.60121196694672
+    },
+    {
+      "args": [
+        "resume_quantity.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1113.8909680619836
+    },
+    {
+      "args": [
+        "score_resumed_quantity.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 29.496194556122646
+    }
+  ],
+  "optimization_updates": 0,
+  "resumed_from_records": 160,
+  "new_generation_records": 340,
+  "elapsed_seconds": 1168.988394195214,
+  "elapsed_scope": "resume pipeline only; excludes original 160 trajectories and pause",
+  "completed_at_utc": "2026-11-14T07:43:23.467438+00:00"
+}
