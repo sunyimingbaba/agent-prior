@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "started_at_utc": "2026-11-14T01:28:12.196986+00:00",
+  "phases": [
+    {
+      "script": "generate_states.py",
+      "exit_code": 0,
+      "elapsed_seconds": 96.82357570901513
+    },
+    {
+      "script": "score_states.py",
+      "exit_code": 0,
+      "elapsed_seconds": 54.31210979213938
+    },
+    {
+      "script": "analyze_states.py",
+      "exit_code": 0,
+      "elapsed_seconds": 3.1782537610270083
+    }
+  ],
+  "elapsed_seconds": 154.31401338381693,
+  "completed_at_utc": "2026-11-14T01:30:46.510979+00:00"
+}

@@ -1,0 +1,63 @@
+{
+  "source_sha256": "bb993c482e807d362cd7b2b59170100162ff41e47c9f918a99dcb910340aed68",
+  "functions": {
+    "sample_group": {
+      "start": 52,
+      "end": 111
+    },
+    "forward_logprob": {
+      "start": 114,
+      "end": 128
+    },
+    "main": {
+      "start": 131,
+      "end": 264
+    }
+  },
+  "evidence_lines": {
+    "training_terminal": [
+      127
+    ],
+    "all_one_attention": [
+      120
+    ],
+    "sequence_padding": [
+      103
+    ],
+    "all_generated_logprobs": [
+      123
+    ],
+    "reward_state_call": [
+      224
+    ],
+    "sample_generate": [
+      92
+    ],
+    "policy_gradient_call": [
+      243
+    ],
+    "system_prompt": [
+      63
+    ]
+  },
+  "sample_group_call_targets": [
+    "max",
+    "messages.append",
+    "min",
+    "model.generate",
+    "processor",
+    "processor(text=[text] * n, images=[image] * n, return_tensors='pt').to",
+    "processor.apply_chat_template",
+    "processor.decode",
+    "range",
+    "results.append",
+    "seqs_list.append",
+    "torch.cat",
+    "torch.cuda.empty_cache",
+    "torch.nn.functional.pad",
+    "torch.no_grad"
+  ],
+  "actual_tool_execution_in_sample_group": false,
+  "fixed_tool_diagnostic_uses_archived_real_result": true,
+  "numeric_replay_context": "archived fixed-tool context; same original forward_logprob function; prompt difference isolated from terminal-position experiment"
+}

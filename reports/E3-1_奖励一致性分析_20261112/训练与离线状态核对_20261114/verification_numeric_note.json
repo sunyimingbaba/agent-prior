@@ -1,0 +1,8 @@
+{
+  "reason": "float32 CPU vector reduction differences between PyTorch 2.4.1 and 2.11.0",
+  "initial_absolute_geometry_tolerance": 1e-06,
+  "observed_max_abs_cosine_difference": 1.0728836059570312e-06,
+  "geometry_tolerance": "1e-5 * max(1, abs(saved measurement)); record actual max errors",
+  "state_hashes_and_saved_scores_and_ranks": "exact checks unchanged",
+  "source_state_and_result_files_modified": false
+}
