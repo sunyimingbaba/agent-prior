@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "all_feature_gallery_and_baseline_copies_bitwise_equal": true,
+  "files": {
+    "features/tensors.pt": {
+      "bytes": 1460632,
+      "sha256": "e13f9a9460aa32b1f2a615075e8407bc575a8f91f4a53edf59963ab658b02c9d"
+    },
+    "features/gallery.json": {
+      "bytes": 44774,
+      "sha256": "2c9385ff1fb1ccc54d04127220f34b91ea23c471281bc72540b5371478f98793"
+    },
+    "baseline_evidence/scoring_tensors.pt": {
+      "bytes": 1863572,
+      "sha256": "b918748b1f1614f059f3fd4b2fd028ecc8c737b294e06833f2e6a8550d2a0e8e"
+    },
+    "baseline_evidence/scores.json": {
+      "bytes": 691982,
+      "sha256": "ab0f35afcbf45484dfa423c4e445cf81bee36200d10c180ec5e04acb9171de9b"
+    },
+    "baseline_evidence/analysis.json": {
+      "bytes": 384588,
+      "sha256": "abfb5b62a00ae1781a69ae91c178ff084337923e2dd06c58b8f43388abd5b42f"
+    },
+    "baseline_evidence/plan.json": {
+      "bytes": 6702,
+      "sha256": "32c339c693fe7dafa48af4195c9711049094f0518754228d3e9603a27e57e2c6"
+    }
+  }
+}

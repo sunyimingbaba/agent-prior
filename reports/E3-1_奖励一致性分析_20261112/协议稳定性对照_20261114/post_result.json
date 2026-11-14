@@ -1,0 +1,58 @@
+{
+  "status": "complete",
+  "error": null,
+  "phases": [
+    {
+      "args": [
+        "score_protocol.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 31.244977553840727
+    },
+    {
+      "args": [
+        "replay_protocol.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 39.89309734478593
+    },
+    {
+      "args": [
+        "analyze_quantity.py",
+        "--root",
+        "/private/AGSE_E3_1_rebuild_20261112/protocol_stability_20261114"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.101511298911646
+    },
+    {
+      "args": [
+        "analyze_protocol.py",
+        "--root",
+        "/private/AGSE_E3_1_rebuild_20261112/protocol_stability_20261114"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.2634132320526987
+    },
+    {
+      "args": [
+        "verify_protocol.py",
+        "--root",
+        "/private/AGSE_E3_1_rebuild_20261112/protocol_stability_20261114",
+        "--out",
+        "/private/AGSE_E3_1_rebuild_20261112/protocol_stability_20261114/\u670d\u52a1\u5668\u72ec\u7acb\u6838\u9a8c.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 9.435459278989583
+    },
+    {
+      "args": [
+        "audit_protocol_sources.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 28.35985326487571
+    }
+  ],
+  "elapsed_seconds_including_wait": 2565.353657155996,
+  "completed_at_utc": "2026-11-14T08:55:09.050756+00:00"
+}

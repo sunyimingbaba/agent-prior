@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "scope": "observed token endings in the fixed three calibration arms",
+  "tool_token_ids": {
+    "<tool_call>": 151657,
+    "</tool_call>": 151658
+  },
+  "full_call_encoding": [
+    151657,
+    22483,
+    4790,
+    1437,
+    151658
+  ],
+  "full_call_decode_skip_special_tokens": "<tool_call>scene_classify</tool_call>",
+  "full_call_decode_raw": "<tool_call>scene_classify</tool_call>",
+  "tokenizer_config_sha256": "4abd3520120e266da84c0864fee064d1fb10806f02225911a47253dd38dc5f56",
+  "groups": {
+    "strict_boundary_t1": {
+      "records": 60,
+      "bare_registered_call_followed_by_eos": 33,
+      "rounds_emitting_tool_closing_token": 0,
+      "examples": [
+        {
+          "record_id": "strict_boundary_t1__train_80_candidate_800000",
+          "generated_ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "raw_decode": "<tool_call>scene_classify<|im_end|>",
+          "saved_decode": "<tool_call>scene_classify",
+          "trace_sha256": "2f57d80589f8c0347bb1412d90d19de962695fb1efe6a3f166f89a570076aadc"
+        },
+        {
+          "record_id": "strict_boundary_t1__train_80_candidate_800002",
+          "generated_ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "raw_decode": "<tool_call>scene_classify<|im_end|>",
+          "saved_decode": "<tool_call>scene_classify",
+          "trace_sha256": "2f57d80589f8c0347bb1412d90d19de962695fb1efe6a3f166f89a570076aadc"
+        },
+        {
+          "record_id": "strict_boundary_t1__train_113_candidate_800024",
+          "generated_ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "raw_decode": "<tool_call>scene_classify<|im_end|>",
+          "saved_decode": "<tool_call>scene_classify",
+          "trace_sha256": "aaaac13c676e6201c9ee10d1932f74259b2b61d568e5cd4fc5bd10e22cf48c76"
+        }
+      ]
+    },
+    "neutral_contract_t1": {
+      "records": 60,
+      "bare_registered_call_followed_by_eos": 3,
+      "rounds_emitting_tool_closing_token": 0,
+      "examples": [
+        {
+          "record_id": "neutral_contract_t1__train_755_candidate_800083",
+          "generated_ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "raw_decode": "<tool_call>scene_classify<|im_end|>",
+          "saved_decode": "<tool_call>scene_classify",
+          "trace_sha256": "9dbe60f6e12e0ac4d51cf25f001361311866ac5235bddbc6070eb68386cef5c7"
+        },
+        {
+          "record_id": "neutral_contract_t1__train_1483_candidate_800122",
+          "generated_ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "raw_decode": "<tool_call>scene_classify<|im_end|>",
+          "saved_decode": "<tool_call>scene_classify",
+          "trace_sha256": "226ad6f518d42c6ad0b7728fb8387e48f72cc768563e8d06a5ee9453f7717dab"
+        },
+        {
+          "record_id": "neutral_contract_t1__train_1521_candidate_800131",
+          "generated_ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "raw_decode": "<tool_call>scene_classify<|im_end|>",
+          "saved_decode": "<tool_call>scene_classify",
+          "trace_sha256": "ab3dafd37301447cb68a3a8ed5d1ac8aea6f8a2999c027ae1da15c98ae215b2e"
+        }
+      ]
+    },
+    "neutral_contract_t07": {
+      "records": 60,
+      "bare_registered_call_followed_by_eos": 2,
+      "rounds_emitting_tool_closing_token": 0,
+      "examples": [
+        {
+          "record_id": "neutral_contract_t07__train_755_candidate_800083",
+          "generated_ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "raw_decode": "<tool_call>scene_classify<|im_end|>",
+          "saved_decode": "<tool_call>scene_classify",
+          "trace_sha256": "04ba20aad1428f5e4ba0bec08b549db2f4fa0ade7a134ae54c8db8c3ec95d7b0"
+        },
+        {
+          "record_id": "neutral_contract_t07__train_1521_candidate_800131",
+          "generated_ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "raw_decode": "<tool_call>scene_classify<|im_end|>",
+          "saved_decode": "<tool_call>scene_classify",
+          "trace_sha256": "43e8bd9878e75ff9c3efae6d316f2541d075afdc8a5e8b7438d65defe3f6e30d"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "error": "Generation phase failed: generate_protocol.py",
+  "phases": [
+    {
+      "script": "test_protocol.py",
+      "exit_code": 0,
+      "elapsed_seconds": 2.786464991979301
+    },
+    {
+      "script": "generate_protocol.py",
+      "exit_code": 1,
+      "elapsed_seconds": 57.708363716024905
+    }
+  ],
+  "elapsed_seconds": 60.49505201517604,
+  "python_utf8_mode": 1,
+  "original_failed_attempt": "failed_attempt_01",
+  "authoritative_generation_result": true
+}

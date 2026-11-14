@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "error": null,
+  "phases": [
+    {
+      "script": "test_protocol.py",
+      "exit_code": 0,
+      "elapsed_seconds": 2.8592399379704148
+    },
+    {
+      "script": "preflight_protocol.py",
+      "exit_code": 0,
+      "elapsed_seconds": 29.336452540010214
+    },
+    {
+      "script": "generate_protocol.py",
+      "exit_code": 1,
+      "elapsed_seconds": 32.302888304926455
+    }
+  ],
+  "elapsed_seconds": 64.49862919910811
+}

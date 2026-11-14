@@ -1,0 +1,88 @@
+{
+  "ok": true,
+  "mount": "fs2[/private/user/lvjiacheng01] /private gpfs",
+  "warm_reuse": true,
+  "environment_modified": false,
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "seed0_kernel_loss": 35.21732711791992,
+  "finite_loss_and_gradient": true,
+  "previous_1219_files_preserved": 1219,
+  "original_source_hashes": {
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/rollout.py": "76db78e4730e22be5f75c4d8f74b4371ddb4ad81d11e1d2eb810a1b3d35c2365",
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/grpo/train_grpo.py": "bb993c482e807d362cd7b2b59170100162ff41e47c9f918a99dcb910340aed68",
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/grpo/scorer.py": "e1ddb20c3eeef1f8722e2b6c2df22ed7d957495772d66486b692664323201355",
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/grpo/reward.py": "c6cad8a097ad4ac7749aa58f569d27c58065157133b2d169fa1838caf4a9c052",
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/tools.py": "ee163557b1d5ccc4b0b9b3deaafc0b5ff6b7850107af94e045966bdac807f7d8"
+  },
+  "sitecustomize_sha256": "5dae4359905bc6d44c11eaaa957df8ec85f3975fe6173c35ad54164f055e6026",
+  "packages": {
+    "torch": "2.4.1+cu124",
+    "transformers": "4.57.2",
+    "peft": "0.10.0",
+    "numpy": "1.26.4",
+    "pyarrow": "14.0.0"
+  },
+  "model_asset_hashes": {
+    "model-00001-of-00005.safetensors": {
+      "sha256": "e97b877e47fde53a6c6e77aafb36e58e91ee9d95c4a3eeac6f1b5c0e6a1c986e",
+      "bytes": 3900233256
+    },
+    "model-00002-of-00005.safetensors": {
+      "sha256": "a9a300a43b4724eee2abe7c18ceb26768d0ab011eb0cad19d9bfd2476a24d024",
+      "bytes": 3864726320
+    },
+    "model-00003-of-00005.safetensors": {
+      "sha256": "111223d173e00bbee81cba1216fad28668df3476706b7fd26f4d5b50f8b3a507",
+      "bytes": 3864726424
+    },
+    "model-00004-of-00005.safetensors": {
+      "sha256": "ef47f634fa57d46ee134edcc09f34085a47da1e16c12a2abe0d67118be6d72ed",
+      "bytes": 3864733680
+    },
+    "model-00005-of-00005.safetensors": {
+      "sha256": "0c859795ad3a627a9b95bcb762e059d5b768a4a36fdd4affeff269d93fdecc67",
+      "bytes": 1089994880
+    },
+    "config.json": {
+      "sha256": "1a1306a1b2a9b144837681fbe4b2fe7cd85f105234d767a3af75ba5beae7c190",
+      "bytes": 1339
+    },
+    "generation_config.json": {
+      "sha256": "0a3aea82869fe29f20dc95ccf3e2bcff380eca1f5ad6447a4a4b37110b08e43e",
+      "bytes": 216
+    },
+    "preprocessor_config.json": {
+      "sha256": "f2058c716eef96ccaed1cc1e2d0c08306b62586d535b28d9d08e691b2fab7ca0",
+      "bytes": 350
+    },
+    "tokenizer_config.json": {
+      "sha256": "4abd3520120e266da84c0864fee064d1fb10806f02225911a47253dd38dc5f56",
+      "bytes": 5702
+    },
+    "tokenizer.json": {
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "bytes": 7031645
+    },
+    "chat_template.json": {
+      "sha256": "ad60d90252ed0b0705ba14e2d0ad0fec0beac1ea955642b54059b36052d8bc96",
+      "bytes": 1050
+    },
+    "merges.txt": {
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "bytes": 1671839
+    },
+    "vocab.json": {
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "bytes": 2776833
+    },
+    "model.safetensors.index.json": {
+      "sha256": "73b333b0b16e5286ddba615d2caebcd495cf7e616f52eb217a81781393d79de9",
+      "bytes": 57619
+    },
+    "config.original.json": {
+      "sha256": "77d9ec7321cc572e3579e2c84799c9cadaded63c49ce93b101733349fc330c43",
+      "bytes": 1374
+    }
+  },
+  "checked_at_utc": "2026-11-14T08:03:06.619753+00:00"
+}
