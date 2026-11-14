@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "error": null,
+  "phases": [
+    {
+      "args": [
+        "score_eos.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 27.290812878869474
+    },
+    {
+      "args": [
+        "replay_eos.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 36.395641101989895
+    },
+    {
+      "args": [
+        "analyze_eos.py",
+        "--root",
+        "/private/AGSE_E3_1_rebuild_20261112/answer_eos_alignment_20261114"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.05502498219721
+    },
+    {
+      "args": [
+        "verify_eos.py",
+        "--root",
+        "/private/AGSE_E3_1_rebuild_20261112/answer_eos_alignment_20261114",
+        "--out",
+        "/private/AGSE_E3_1_rebuild_20261112/answer_eos_alignment_20261114/\u670d\u52a1\u5668\u72ec\u7acb\u6838\u9a8c.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 25.896413506008685
+    },
+    {
+      "args": [
+        "audit_eos_sources.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 30.976199745200574
+    }
+  ],
+  "elapsed_seconds_including_wait": 725.6282805628143,
+  "completed_at_utc": "2026-11-14T11:00:36.348180+00:00"
+}
