@@ -1,0 +1,122 @@
+{
+  "stage": "Offline fixed-tool candidate-selection utility comparison",
+  "date": "2026-11-14",
+  "analysis_type": "follow-up analysis of previously observed 22-image candidates; selection rules fixed before this comparison computation",
+  "created_at_utc": "2026-11-14T01:07:09.712585+00:00",
+  "source_run": "fixed_tool_22_20261113",
+  "source_inputs": {
+    "scores.json": "5c3cc7067a7cc8520ca42601f8801df311f11848897479282ac3d5102c9a0b83",
+    "source_plan.json": "fb5adc4de0f84f78fb69d8995bd2342b18763182f88ccd093a7d028b9f1403bf"
+  },
+  "groups": {
+    "all22": [
+      10,
+      13,
+      16,
+      18,
+      19,
+      22,
+      23,
+      24,
+      28,
+      93,
+      94,
+      95,
+      99,
+      190,
+      192,
+      195,
+      198,
+      199,
+      200,
+      201,
+      205,
+      207
+    ],
+    "new19": [
+      13,
+      16,
+      18,
+      19,
+      22,
+      23,
+      24,
+      28,
+      93,
+      94,
+      99,
+      190,
+      192,
+      195,
+      198,
+      199,
+      200,
+      201,
+      205
+    ],
+    "pilot3": [
+      10,
+      95,
+      207
+    ]
+  },
+  "subsets": {
+    "all": "all 8 sampled candidates per image; retain duplicates and failures",
+    "quality_pass": "only saved quality_usable candidates; greedy reference unchanged; report coverage and fail if empty"
+  },
+  "policies": [
+    "retrieval_reward",
+    "total_reward",
+    "greedy",
+    "uniform_random",
+    "candidate_oracle"
+  ],
+  "reward_columns": {
+    "retrieval_reward": "r_retrieval",
+    "total_reward": "r_total"
+  },
+  "selection_ties": "exact reward equality; average utility over all top-reward candidates, the exact expectation of uniform tie-breaking",
+  "random": "exact expectation: mean over eligible sampled candidates; duplicates retain original sample mass",
+  "candidate_oracle": "maximum utility over eligible candidates, separately for each utility metric; greedy is outside this candidate pool",
+  "metrics": {
+    "utility_rr": {
+      "role": "primary",
+      "epsilon": 1e-12,
+      "higher_is_better": true
+    },
+    "utility_margin": {
+      "role": "secondary",
+      "epsilon": 1e-06,
+      "higher_is_better": true
+    },
+    "E1_margin_A": {
+      "role": "secondary",
+      "epsilon": 1e-06,
+      "higher_is_better": true
+    },
+    "E1_margin_B": {
+      "role": "secondary",
+      "epsilon": 1e-06,
+      "higher_is_better": true
+    }
+  },
+  "primary_comparisons": [
+    "retrieval_reward_minus_greedy",
+    "retrieval_reward_minus_uniform_random"
+  ],
+  "comparisons": "each policy minus greedy and minus uniform_random; report image-paired mean deltas and per-image win/tie/loss",
+  "bootstrap": {
+    "unit": "paired image",
+    "resamples": 10000,
+    "seed": 20261114,
+    "interval": "percentile 2.5 and 97.5; shared row draws across policies and metrics within each group"
+  },
+  "relative_improvement": "compute mean-delta / baseline-mean for RR with positive baseline; signed cosine margins use absolute differences only",
+  "quality": "selection quality probability and token-limit probability; exact tie expectation",
+  "training": "no model update or candidate regeneration",
+  "prior_models": {
+    "proxy_scorer_sha256": "e36801d50807519273408e4caf18604ad2f43db2c7b520cee98675631eac9a59",
+    "utility_model_sha256": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc",
+    "proxy_gallery_sha256": "26cef629ac01ef90ea7bc7d8606bd92e513d776c3e8e3351b0ae523afa0a0b29"
+  }
+}

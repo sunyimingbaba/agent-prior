@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "source_scores_sha256": "5c3cc7067a7cc8520ca42601f8801df311f11848897479282ac3d5102c9a0b83",
+  "per_image_policy_metric_checks": 880,
+  "paired_comparison_checks": 240,
+  "image_bootstrap_interval_recomputations": 360,
+  "bootstrap_resamples": 10000,
+  "csv_rows_checked": {
+    "逐图策略收益.csv": 880,
+    "策略收益汇总.csv": 120,
+    "相对基线配对差.csv": 240
+  },
+  "rr_expectations_rebuilt_from_exact_rank_fractions": true,
+  "all_selected_sets_and_quality_probabilities_verified": true,
+  "post_result_attribution_image_checks": 44,
+  "numpy": "2.4.4"
+}

@@ -1,0 +1,1232 @@
+{
+  "stage": "E3-1 all 22 E1 val images under fixed actual tool context",
+  "sample_selection": "All 22 previously user-confirmed E1 val images, ordered by Arrow row; includes prior pilot3 and new19",
+  "selected_rows": [
+    10,
+    13,
+    16,
+    18,
+    19,
+    22,
+    23,
+    24,
+    28,
+    93,
+    94,
+    95,
+    99,
+    190,
+    192,
+    195,
+    198,
+    199,
+    200,
+    201,
+    205,
+    207
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "group_size": 8,
+  "temperature": 1.0,
+  "reference": {
+    "type": "fresh greedy answer under identical fixed actual tool context",
+    "seed": 0,
+    "temperature": 0.0
+  },
+  "max_rounds": 1,
+  "max_new_tokens_per_round": 64,
+  "tool_conf_threshold": 0.0,
+  "generation_batch_size": 1,
+  "injected_h_end": false,
+  "state_rule": "last generate call, last decoding step, final layer, final position",
+  "candidate_policy": "historical main LoRA; supplied canonical scene_classify call and one actual tool result; sample answer only",
+  "training_state_rule_difference": "GRPO uses full-sequence forward including last sequence position; this pilot uses original offline rollout state shared with downstream evaluation",
+  "proxy_reward": {
+    "mode": "soft",
+    "lambda": 1.0,
+    "scorer_sha256": "e36801d50807519273408e4caf18604ad2f43db2c7b520cee98675631eac9a59",
+    "gallery_sha256": "26cef629ac01ef90ea7bc7d8606bd92e513d776c3e8e3351b0ae523afa0a0b29"
+  },
+  "utility_model_sha256": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc",
+  "lora_weights_sha256": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "clip_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+  "primary_utility": "image-to-text reciprocal rank of best annotated positive among all unique exact raw val caption strings; strict greater rank from zero",
+  "secondary_utilities": [
+    "best positive cosine minus highest negative cosine in the same unique caption gallery",
+    "E1 quantity pair cosine margin A",
+    "E1 quantity pair cosine margin B"
+  ],
+  "text_gallery_order": "Arrow row order, original per-row caption order, keep first occurrence of each exact raw string",
+  "positive_text_rule": "all unique exact raw captions belonging to the target image; other unique strings negative under annotation protocol",
+  "utility_delta_reference": "subtract own fresh greedy reference for each metric",
+  "tie_rules": {
+    "proxy_reward": "exact equality",
+    "reciprocal_rank": "absolute difference <= 1e-12",
+    "cosine_margins": "absolute difference <= 1e-6",
+    "spearman_cosine_margin": "round to 6 decimals then average ranks"
+  },
+  "pair_statistics": "all 28 candidate pairs per image; concordant, discordant, reward tie, utility tie, both tie counted separately; duplicates retained",
+  "repeat_check": "regenerate seed 0 stochastic candidate once per image and compare tokens, state hash and tool events",
+  "source_input_hashes": {
+    "E1_audit": "d6618864396f5808abd3a6b0d2ad0bd10612e4fefc25b2fa7876b3f01f3abd54",
+    "E1_pairs": "7e3fa7e2e3622b0846706a76d6fe8b265eeda13daaf7411a369758bef040c9b6"
+  },
+  "images": [
+    {
+      "split": "val",
+      "row": 10,
+      "image": "181.tif",
+      "caption": "There is an airplanes stopped at the airport .",
+      "image_rgb_sha256": "b518b2390eed414d7fc4ea480e40f213979b63618ee5cfb9db97c5b55b383f94",
+      "image_bytes_sha256": "57ae91b46be13c94ae2eed0022b28d5aa0308ab9f606545ad7112097f0d83bd4",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/10.pt",
+      "historical_prior_sha256": "1b49ad7d489d9843e771ed5d39dcc661a810fb533e35cae038ff5da0db58575c",
+      "E1_pairs": [
+        {
+          "图像编号": "181.tif",
+          "数据来源": "UCM val",
+          "目标": "飞机",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of airplanes visible in the image is one.",
+          "错误描述": "The number of airplanes visible in the image is two.",
+          "文本1": "The number of airplanes visible in the image is two.",
+          "文本2": "The number of airplanes visible in the image is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "There is an airplanes stopped at the airport .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "181.tif",
+          "数据来源": "UCM val",
+          "目标": "飞机",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible airplanes is one.",
+          "错误描述": "The number of visible airplanes is two.",
+          "文本1": "The number of visible airplanes is two.",
+          "文本2": "The number of visible airplanes is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "There is an airplanes stopped at the airport .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "1"
+    },
+    {
+      "split": "val",
+      "row": 13,
+      "image": "184.tif",
+      "caption": "There is a white airplane on the runway .",
+      "image_rgb_sha256": "6fb50ab4ba3ad3c01f6d1d092683061dc4c0ebef3bbb3701be7e4a602df5daaf",
+      "image_bytes_sha256": "82fd1a4099b962b7358adac745638603d5a023cc1cb4856fcc51367f1a7ffc03",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/13.pt",
+      "historical_prior_sha256": "35b60ab39a633fcab3a9f3af6a2edcff6733e47baca5f40e86a717b9f2791a32",
+      "E1_pairs": [
+        {
+          "图像编号": "184.tif",
+          "数据来源": "UCM val",
+          "目标": "飞机",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of airplanes visible in the image is one.",
+          "错误描述": "The number of airplanes visible in the image is two.",
+          "文本1": "The number of airplanes visible in the image is one.",
+          "文本2": "The number of airplanes visible in the image is two.",
+          "正确文本位置": "1",
+          "原始第一条描述": "There is a white airplane on the runway .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "184.tif",
+          "数据来源": "UCM val",
+          "目标": "飞机",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible airplanes is one.",
+          "错误描述": "The number of visible airplanes is two.",
+          "文本1": "The number of visible airplanes is one.",
+          "文本2": "The number of visible airplanes is two.",
+          "正确文本位置": "1",
+          "原始第一条描述": "There is a white airplane on the runway .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "1"
+    },
+    {
+      "split": "val",
+      "row": 16,
+      "image": "187.tif",
+      "caption": "There is an airplane stopped at the airport .",
+      "image_rgb_sha256": "8b486d382f79b159161f73df0d6303c60f3191192787bead1a56908dc30d6ac9",
+      "image_bytes_sha256": "d4d04a713e0e7e3c73d5ed59ae40726be9bfd498e33a457c59ba78c33c1d1b0e",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/16.pt",
+      "historical_prior_sha256": "52498821c6233cf1817fb72a376c7cd67388fcce4f64a6b3cd50515340c32792",
+      "E1_pairs": [
+        {
+          "图像编号": "187.tif",
+          "数据来源": "UCM val",
+          "目标": "飞机",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of airplanes visible in the image is one.",
+          "错误描述": "The number of airplanes visible in the image is two.",
+          "文本1": "The number of airplanes visible in the image is two.",
+          "文本2": "The number of airplanes visible in the image is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "There is an airplane stopped at the airport .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "187.tif",
+          "数据来源": "UCM val",
+          "目标": "飞机",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible airplanes is one.",
+          "错误描述": "The number of visible airplanes is two.",
+          "文本1": "The number of visible airplanes is two.",
+          "文本2": "The number of visible airplanes is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "There is an airplane stopped at the airport .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "1"
+    },
+    {
+      "split": "val",
+      "row": 18,
+      "image": "190.tif",
+      "caption": "There are two airplanes at the airport .",
+      "image_rgb_sha256": "f392eae7958a5dbc11d750f4fb696f4a40e7bad4c67f391404001c7cc5698de1",
+      "image_bytes_sha256": "d4f042550f01b47e2d4df88abc36cff85d981442df187f5a75b1d86071dfcfdf",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/18.pt",
+      "historical_prior_sha256": "4da4df2b3a088c5090d3cafd750c34f7e1028eafb32a6d0bd288dabaa90777d2",
+      "E1_pairs": [
+        {
+          "图像编号": "190.tif",
+          "数据来源": "UCM val",
+          "目标": "飞机",
+          "实际数量": "2",
+          "错误数量": "1",
+          "句式": "A_原句式",
+          "正确描述": "The number of airplanes visible in the image is two.",
+          "错误描述": "The number of airplanes visible in the image is one.",
+          "文本1": "The number of airplanes visible in the image is one.",
+          "文本2": "The number of airplanes visible in the image is two.",
+          "正确文本位置": "2",
+          "原始第一条描述": "There are two airplanes at the airport .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "190.tif",
+          "数据来源": "UCM val",
+          "目标": "飞机",
+          "实际数量": "2",
+          "错误数量": "1",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible airplanes is two.",
+          "错误描述": "The number of visible airplanes is one.",
+          "文本1": "The number of visible airplanes is one.",
+          "文本2": "The number of visible airplanes is two.",
+          "正确文本位置": "2",
+          "原始第一条描述": "There are two airplanes at the airport .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "2"
+    },
+    {
+      "split": "val",
+      "row": 19,
+      "image": "281.tif",
+      "caption": "This is a old baseball diamond .",
+      "image_rgb_sha256": "b0f7c8275cd621206f8e2338609ec64f666a81c958ae6dcbd75baf9a3b8cd709",
+      "image_bytes_sha256": "89dbd47c9248914e723ad230ef141130da3ac074f477ad8d79d804cdf541fb0f",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/19.pt",
+      "historical_prior_sha256": "bddd29860609f9774cbd538734c2fb3eb11e208f7af80be4df89bb7a8ba134be",
+      "E1_pairs": [
+        {
+          "图像编号": "281.tif",
+          "数据来源": "UCM val",
+          "目标": "棒球场",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of baseball fields visible in the image is one.",
+          "错误描述": "The number of baseball fields visible in the image is two.",
+          "文本1": "The number of baseball fields visible in the image is two.",
+          "文本2": "The number of baseball fields visible in the image is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "This is a old baseball diamond .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "281.tif",
+          "数据来源": "UCM val",
+          "目标": "棒球场",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible baseball fields is one.",
+          "错误描述": "The number of visible baseball fields is two.",
+          "文本1": "The number of visible baseball fields is two.",
+          "文本2": "The number of visible baseball fields is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "This is a old baseball diamond .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "1"
+    },
+    {
+      "split": "val",
+      "row": 22,
+      "image": "284.tif",
+      "caption": "This is a old baseball diamond .",
+      "image_rgb_sha256": "c19456370ecf4f5fd4a161a911ba03afd0baaa6d529e90af4eb5e537b61746a2",
+      "image_bytes_sha256": "3f4b26ce50cf225317c9c62cadb830e04a1110d2e7c51c7b75e8ad89fcbc9e1d",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/22.pt",
+      "historical_prior_sha256": "59a9559d57a8e1c0e973003881f1c646fc9b4dad8a6fb1510b9d1c430e817924",
+      "E1_pairs": [
+        {
+          "图像编号": "284.tif",
+          "数据来源": "UCM val",
+          "目标": "棒球场",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of baseball fields visible in the image is one.",
+          "错误描述": "The number of baseball fields visible in the image is two.",
+          "文本1": "The number of baseball fields visible in the image is two.",
+          "文本2": "The number of baseball fields visible in the image is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "This is a old baseball diamond .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "284.tif",
+          "数据来源": "UCM val",
+          "目标": "棒球场",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible baseball fields is one.",
+          "错误描述": "The number of visible baseball fields is two.",
+          "文本1": "The number of visible baseball fields is two.",
+          "文本2": "The number of visible baseball fields is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "This is a old baseball diamond .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "1"
+    },
+    {
+      "split": "val",
+      "row": 23,
+      "image": "285.tif",
+      "caption": "This is a big baseball diamond .",
+      "image_rgb_sha256": "e0a12c9a318015ae5204e335fd34f906a6b526adf2a7dfcd35024f7aef71f769",
+      "image_bytes_sha256": "4df2a31d1d4a087a840f2828b380ef6609416e2b5c43f6490409403f9dcc14e4",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/23.pt",
+      "historical_prior_sha256": "5cb59f6054e4113ed9ae627a2730ca7ecc9262bbb53e5aa77f32c87628eeccef",
+      "E1_pairs": [
+        {
+          "图像编号": "285.tif",
+          "数据来源": "UCM val",
+          "目标": "棒球场",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of baseball fields visible in the image is one.",
+          "错误描述": "The number of baseball fields visible in the image is two.",
+          "文本1": "The number of baseball fields visible in the image is two.",
+          "文本2": "The number of baseball fields visible in the image is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "This is a big baseball diamond .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "285.tif",
+          "数据来源": "UCM val",
+          "目标": "棒球场",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible baseball fields is one.",
+          "错误描述": "The number of visible baseball fields is two.",
+          "文本1": "The number of visible baseball fields is two.",
+          "文本2": "The number of visible baseball fields is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "This is a big baseball diamond .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "1"
+    },
+    {
+      "split": "val",
+      "row": 24,
+      "image": "286.tif",
+      "caption": "This is a big baseball diamond .",
+      "image_rgb_sha256": "0083a81747dea30961875424265e4e5027c2899da2583d9d82b3c0eb283cb1e4",
+      "image_bytes_sha256": "f4bb0cba256ae80fc7a66dbec4010af225ffa91bf282881811031148f3e00861",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/24.pt",
+      "historical_prior_sha256": "249bd9fc5d4264fa83711f6873cee80cff8534af57fc56d113b899cf220346a5",
+      "E1_pairs": [
+        {
+          "图像编号": "286.tif",
+          "数据来源": "UCM val",
+          "目标": "棒球场",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of baseball fields visible in the image is one.",
+          "错误描述": "The number of baseball fields visible in the image is two.",
+          "文本1": "The number of baseball fields visible in the image is two.",
+          "文本2": "The number of baseball fields visible in the image is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "This is a big baseball diamond .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "286.tif",
+          "数据来源": "UCM val",
+          "目标": "棒球场",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible baseball fields is one.",
+          "错误描述": "The number of visible baseball fields is two.",
+          "文本1": "The number of visible baseball fields is two.",
+          "文本2": "The number of visible baseball fields is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "This is a big baseball diamond .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "1"
+    },
+    {
+      "split": "val",
+      "row": 28,
+      "image": "290.tif",
+      "caption": "This is a baseball diamond .",
+      "image_rgb_sha256": "280e4185f5b6e56eb847bb7631ba247a9d695fd30fe678cf607a38342aac431b",
+      "image_bytes_sha256": "a7bd73da7aa289d97d07586a78ceaf0c04ce109ccf8efe7dd08eaa1883d26a91",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/28.pt",
+      "historical_prior_sha256": "50d8dd45b8f3bf75445f50871aa909906602939979d11cbbd48dd0d2a6449d04",
+      "E1_pairs": [
+        {
+          "图像编号": "290.tif",
+          "数据来源": "UCM val",
+          "目标": "棒球场",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of baseball fields visible in the image is one.",
+          "错误描述": "The number of baseball fields visible in the image is two.",
+          "文本1": "The number of baseball fields visible in the image is one.",
+          "文本2": "The number of baseball fields visible in the image is two.",
+          "正确文本位置": "1",
+          "原始第一条描述": "This is a baseball diamond .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "290.tif",
+          "数据来源": "UCM val",
+          "目标": "棒球场",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible baseball fields is one.",
+          "错误描述": "The number of visible baseball fields is two.",
+          "文本1": "The number of visible baseball fields is one.",
+          "文本2": "The number of visible baseball fields is two.",
+          "正确文本位置": "1",
+          "原始第一条描述": "This is a baseball diamond .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "1"
+    },
+    {
+      "split": "val",
+      "row": 93,
+      "image": "982.tif",
+      "caption": "This is a part of a golf course with green turfs and some bunkers and trees .",
+      "image_rgb_sha256": "c29d4906bb91b1c05b95e354fcc4a66f7c3b84f1b864713f15bb8b113ece8aa3",
+      "image_bytes_sha256": "26f9d1bb46d9f49de6999666a5a6664efe588afedef8c3f11650a89d9355fbc5",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/93.pt",
+      "historical_prior_sha256": "0a71615ebdf16959b92ad68b3e0004a650e8db6e4c8ba5b2d4fd476c61dc2826",
+      "E1_pairs": [
+        {
+          "图像编号": "982.tif",
+          "数据来源": "UCM val",
+          "目标": "沙坑",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of sand bunkers visible in the image is one.",
+          "错误描述": "The number of sand bunkers visible in the image is two.",
+          "文本1": "The number of sand bunkers visible in the image is two.",
+          "文本2": "The number of sand bunkers visible in the image is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "This is a part of a golf course with green turfs and some bunkers and trees .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "982.tif",
+          "数据来源": "UCM val",
+          "目标": "沙坑",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible sand bunkers is one.",
+          "错误描述": "The number of visible sand bunkers is two.",
+          "文本1": "The number of visible sand bunkers is two.",
+          "文本2": "The number of visible sand bunkers is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "This is a part of a golf course with green turfs and some bunkers and trees .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "1"
+    },
+    {
+      "split": "val",
+      "row": 94,
+      "image": "983.tif",
+      "caption": "This is a part of a golf course with green turfs and some bunkers and a trail go through the turfs .",
+      "image_rgb_sha256": "4f74de5b7ec0ee1b2923732e1dd3535687777e1047152e5709074d073f4e127a",
+      "image_bytes_sha256": "7c36f155efba8b371655cc110564b6b3433d6754894e485c30cebecf1349ec30",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/94.pt",
+      "historical_prior_sha256": "b1ce4b2d03ee47e24096b2acbeaef257e8f89a53f6c0c32e0d3bbda604f05fe8",
+      "E1_pairs": [
+        {
+          "图像编号": "983.tif",
+          "数据来源": "UCM val",
+          "目标": "沙坑",
+          "实际数量": "3",
+          "错误数量": "4",
+          "句式": "A_原句式",
+          "正确描述": "The number of sand bunkers visible in the image is three.",
+          "错误描述": "The number of sand bunkers visible in the image is four.",
+          "文本1": "The number of sand bunkers visible in the image is three.",
+          "文本2": "The number of sand bunkers visible in the image is four.",
+          "正确文本位置": "1",
+          "原始第一条描述": "This is a part of a golf course with green turfs and some bunkers and a trail go through the turfs .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "983.tif",
+          "数据来源": "UCM val",
+          "目标": "沙坑",
+          "实际数量": "3",
+          "错误数量": "4",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible sand bunkers is three.",
+          "错误描述": "The number of visible sand bunkers is four.",
+          "文本1": "The number of visible sand bunkers is three.",
+          "文本2": "The number of visible sand bunkers is four.",
+          "正确文本位置": "1",
+          "原始第一条描述": "This is a part of a golf course with green turfs and some bunkers and a trail go through the turfs .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "3"
+    },
+    {
+      "split": "val",
+      "row": 95,
+      "image": "984.tif",
+      "caption": "This is a part of a golf course with green turfs and some bunkers and a trail go through the turfs .",
+      "image_rgb_sha256": "7b7a56edfce15bf10004f3bf12453c9f9b0b292a9a44a410ea4d9fef1986661f",
+      "image_bytes_sha256": "a2c3d483fda3e47ec846aac726fe76a2af230a665379896c69fed57a92b5bf1b",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/95.pt",
+      "historical_prior_sha256": "cc16e829a6af0787f4e957f42092f1439725e9c5e3e666b3dac146d93a3d86e7",
+      "E1_pairs": [
+        {
+          "图像编号": "984.tif",
+          "数据来源": "UCM val",
+          "目标": "沙坑",
+          "实际数量": "3",
+          "错误数量": "4",
+          "句式": "A_原句式",
+          "正确描述": "The number of sand bunkers visible in the image is three.",
+          "错误描述": "The number of sand bunkers visible in the image is four.",
+          "文本1": "The number of sand bunkers visible in the image is three.",
+          "文本2": "The number of sand bunkers visible in the image is four.",
+          "正确文本位置": "1",
+          "原始第一条描述": "This is a part of a golf course with green turfs and some bunkers and a trail go through the turfs .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "984.tif",
+          "数据来源": "UCM val",
+          "目标": "沙坑",
+          "实际数量": "3",
+          "错误数量": "4",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible sand bunkers is three.",
+          "错误描述": "The number of visible sand bunkers is four.",
+          "文本1": "The number of visible sand bunkers is three.",
+          "文本2": "The number of visible sand bunkers is four.",
+          "正确文本位置": "1",
+          "原始第一条描述": "This is a part of a golf course with green turfs and some bunkers and a trail go through the turfs .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "3"
+    },
+    {
+      "split": "val",
+      "row": 99,
+      "image": "988.tif",
+      "caption": "This is a part of a golf course with green turfs and some bunkers .",
+      "image_rgb_sha256": "ff555b789cd1a847577d75f90d723db08019da39eb30d560307828bbd6f57dad",
+      "image_bytes_sha256": "ae1baed2eafc80209e465f95403daa08f3741830e70a805e7af15541bd90fd3c",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/99.pt",
+      "historical_prior_sha256": "b86c8dba698bb18ba5e5c7aa9984954513825f7351f2187ef8a746f70a0ad8ac",
+      "E1_pairs": [
+        {
+          "图像编号": "988.tif",
+          "数据来源": "UCM val",
+          "目标": "沙坑",
+          "实际数量": "4",
+          "错误数量": "3",
+          "句式": "A_原句式",
+          "正确描述": "The number of sand bunkers visible in the image is four.",
+          "错误描述": "The number of sand bunkers visible in the image is three.",
+          "文本1": "The number of sand bunkers visible in the image is four.",
+          "文本2": "The number of sand bunkers visible in the image is three.",
+          "正确文本位置": "1",
+          "原始第一条描述": "This is a part of a golf course with green turfs and some bunkers .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "988.tif",
+          "数据来源": "UCM val",
+          "目标": "沙坑",
+          "实际数量": "4",
+          "错误数量": "3",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible sand bunkers is four.",
+          "错误描述": "The number of visible sand bunkers is three.",
+          "文本1": "The number of visible sand bunkers is four.",
+          "文本2": "The number of visible sand bunkers is three.",
+          "正确文本位置": "1",
+          "原始第一条描述": "This is a part of a golf course with green turfs and some bunkers .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "4"
+    },
+    {
+      "split": "val",
+      "row": 190,
+      "image": "1981.tif",
+      "caption": "Two small storage tanks are on the ground .",
+      "image_rgb_sha256": "a5e2fdc526237727754fb5a24583bcdde57bb72ac82245a181d2785961cc0964",
+      "image_bytes_sha256": "ab1c8bc366281657c4d409f7c7c3ee45140460754e3f49ae0e1b15828899d515",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/190.pt",
+      "historical_prior_sha256": "f9d0176687458f821bebf0274dbe50d7155604b1c8a07dbcfda37f946b66bcec",
+      "E1_pairs": [
+        {
+          "图像编号": "1981.tif",
+          "数据来源": "UCM val",
+          "目标": "储罐",
+          "实际数量": "2",
+          "错误数量": "1",
+          "句式": "A_原句式",
+          "正确描述": "The number of storage tanks visible in the image is two.",
+          "错误描述": "The number of storage tanks visible in the image is one.",
+          "文本1": "The number of storage tanks visible in the image is one.",
+          "文本2": "The number of storage tanks visible in the image is two.",
+          "正确文本位置": "2",
+          "原始第一条描述": "Two small storage tanks are on the ground .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "1981.tif",
+          "数据来源": "UCM val",
+          "目标": "储罐",
+          "实际数量": "2",
+          "错误数量": "1",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible storage tanks is two.",
+          "错误描述": "The number of visible storage tanks is one.",
+          "文本1": "The number of visible storage tanks is one.",
+          "文本2": "The number of visible storage tanks is two.",
+          "正确文本位置": "2",
+          "原始第一条描述": "Two small storage tanks are on the ground .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "2"
+    },
+    {
+      "split": "val",
+      "row": 192,
+      "image": "1983.tif",
+      "caption": "A storage tank with some houses and plants beside .",
+      "image_rgb_sha256": "7ca60533f6615e71e0bc77df4d50f12823fe76a88f63cf7abbf818ca001cbf54",
+      "image_bytes_sha256": "fd535a98e3d9ae0dcc12f3c953cd0a61866d188a3c72901aed0d40a5be579781",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/192.pt",
+      "historical_prior_sha256": "e3daf7e838fdea114fb3304e3355e8a6754a182a82d7f5c6c29b255e9df3383b",
+      "E1_pairs": [
+        {
+          "图像编号": "1983.tif",
+          "数据来源": "UCM val",
+          "目标": "储罐",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of storage tanks visible in the image is one.",
+          "错误描述": "The number of storage tanks visible in the image is two.",
+          "文本1": "The number of storage tanks visible in the image is one.",
+          "文本2": "The number of storage tanks visible in the image is two.",
+          "正确文本位置": "1",
+          "原始第一条描述": "A storage tank with some houses and plants beside .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "1983.tif",
+          "数据来源": "UCM val",
+          "目标": "储罐",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible storage tanks is one.",
+          "错误描述": "The number of visible storage tanks is two.",
+          "文本1": "The number of visible storage tanks is one.",
+          "文本2": "The number of visible storage tanks is two.",
+          "正确文本位置": "1",
+          "原始第一条描述": "A storage tank with some houses and plants beside .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "1"
+    },
+    {
+      "split": "val",
+      "row": 195,
+      "image": "1986.tif",
+      "caption": "A big storage tank is on the ground .",
+      "image_rgb_sha256": "57baa042d594b4bd13d4cf198a0e38e9301a338b3aedf65b0eb58a30ad58954f",
+      "image_bytes_sha256": "55a6928416ea8842b4de317ca5c02ef40ced7e9029d2900d653313643660678c",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/195.pt",
+      "historical_prior_sha256": "989e7559613d3faa07140a06573a0487e0182752a2bbe6ea75f81aa2e24b1a3f",
+      "E1_pairs": [
+        {
+          "图像编号": "1986.tif",
+          "数据来源": "UCM val",
+          "目标": "储罐",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of storage tanks visible in the image is one.",
+          "错误描述": "The number of storage tanks visible in the image is two.",
+          "文本1": "The number of storage tanks visible in the image is one.",
+          "文本2": "The number of storage tanks visible in the image is two.",
+          "正确文本位置": "1",
+          "原始第一条描述": "A big storage tank is on the ground .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "1986.tif",
+          "数据来源": "UCM val",
+          "目标": "储罐",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible storage tanks is one.",
+          "错误描述": "The number of visible storage tanks is two.",
+          "文本1": "The number of visible storage tanks is one.",
+          "文本2": "The number of visible storage tanks is two.",
+          "正确文本位置": "1",
+          "原始第一条描述": "A big storage tank is on the ground .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "1"
+    },
+    {
+      "split": "val",
+      "row": 198,
+      "image": "1989.tif",
+      "caption": "A small storage tank is on the ground .",
+      "image_rgb_sha256": "c54e3d84a7de0da858d5189da73072131594e66a29478e2a405414c84b6f4d9e",
+      "image_bytes_sha256": "8ba7f79be2a69dd3cba84d1a8d1c41ea5e1e829d751ac34578e04ae147b18a07",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/198.pt",
+      "historical_prior_sha256": "329af0e5c7c3ff360e8849c4fe7b6ffe6327e0d22129bfef5c239ab9a9c30905",
+      "E1_pairs": [
+        {
+          "图像编号": "1989.tif",
+          "数据来源": "UCM val",
+          "目标": "储罐",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of storage tanks visible in the image is one.",
+          "错误描述": "The number of storage tanks visible in the image is two.",
+          "文本1": "The number of storage tanks visible in the image is two.",
+          "文本2": "The number of storage tanks visible in the image is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "A small storage tank is on the ground .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "1989.tif",
+          "数据来源": "UCM val",
+          "目标": "储罐",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible storage tanks is one.",
+          "错误描述": "The number of visible storage tanks is two.",
+          "文本1": "The number of visible storage tanks is two.",
+          "文本2": "The number of visible storage tanks is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "A small storage tank is on the ground .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "1"
+    },
+    {
+      "split": "val",
+      "row": 199,
+      "image": "1990.tif",
+      "caption": "A small storage tank is on the ground .",
+      "image_rgb_sha256": "b34c696b0d5812a1cf9af56e2484ad8a6b97a9f25ef899e7ad5d085feb0c37ae",
+      "image_bytes_sha256": "c53077f54836214b10a8bb9d42261870c2fb2dd6545f0d6f0a113402d6f642b8",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/199.pt",
+      "historical_prior_sha256": "bbbee7d8aa18dfb71870d042ce95f18e27fc9b0a083fa2760defe510a249d70c",
+      "E1_pairs": [
+        {
+          "图像编号": "1990.tif",
+          "数据来源": "UCM val",
+          "目标": "储罐",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of storage tanks visible in the image is one.",
+          "错误描述": "The number of storage tanks visible in the image is two.",
+          "文本1": "The number of storage tanks visible in the image is two.",
+          "文本2": "The number of storage tanks visible in the image is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "A small storage tank is on the ground .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "1990.tif",
+          "数据来源": "UCM val",
+          "目标": "储罐",
+          "实际数量": "1",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible storage tanks is one.",
+          "错误描述": "The number of visible storage tanks is two.",
+          "文本1": "The number of visible storage tanks is two.",
+          "文本2": "The number of visible storage tanks is one.",
+          "正确文本位置": "2",
+          "原始第一条描述": "A small storage tank is on the ground .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "1"
+    },
+    {
+      "split": "val",
+      "row": 200,
+      "image": "2081.tif",
+      "caption": "Three tennis courts arranged neatly with some plants surrounded .",
+      "image_rgb_sha256": "af64ba0f6087c7202332ff955286905030101da1d51b496ca180dbd2259966cf",
+      "image_bytes_sha256": "8cb0e891c094d673c319160370ce655f52c369dd4e2ed0ede4b04c70be58682d",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/200.pt",
+      "historical_prior_sha256": "d6f671c20f5b399d5e4e6a398203dd0f9d1925166d3eae0015ea26416dd74d13",
+      "E1_pairs": [
+        {
+          "图像编号": "2081.tif",
+          "数据来源": "UCM val",
+          "目标": "网球场",
+          "实际数量": "3",
+          "错误数量": "2",
+          "句式": "A_原句式",
+          "正确描述": "The number of tennis courts visible in the image is three.",
+          "错误描述": "The number of tennis courts visible in the image is two.",
+          "文本1": "The number of tennis courts visible in the image is two.",
+          "文本2": "The number of tennis courts visible in the image is three.",
+          "正确文本位置": "2",
+          "原始第一条描述": "Three tennis courts arranged neatly with some plants surrounded .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "2081.tif",
+          "数据来源": "UCM val",
+          "目标": "网球场",
+          "实际数量": "3",
+          "错误数量": "2",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible tennis courts is three.",
+          "错误描述": "The number of visible tennis courts is two.",
+          "文本1": "The number of visible tennis courts is two.",
+          "文本2": "The number of visible tennis courts is three.",
+          "正确文本位置": "2",
+          "原始第一条描述": "Three tennis courts arranged neatly with some plants surrounded .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "3"
+    },
+    {
+      "split": "val",
+      "row": 201,
+      "image": "2082.tif",
+      "caption": "Four tennis courts arranged neatly with some plants and lawn surrounded .",
+      "image_rgb_sha256": "d481871c12741539545b5fd893200c69b2692849f3590cb697d00ae7907d40ea",
+      "image_bytes_sha256": "9e1a0a5664e7a853c164821f29a2cb7ced9d44e7ee885546d107b4032c87e275",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/201.pt",
+      "historical_prior_sha256": "060f1229ea6f476b7b23426151d5c630b87e5c05d98e681cf791b5ed3e83f2e5",
+      "E1_pairs": [
+        {
+          "图像编号": "2082.tif",
+          "数据来源": "UCM val",
+          "目标": "网球场",
+          "实际数量": "4",
+          "错误数量": "3",
+          "句式": "A_原句式",
+          "正确描述": "The number of tennis courts visible in the image is four.",
+          "错误描述": "The number of tennis courts visible in the image is three.",
+          "文本1": "The number of tennis courts visible in the image is three.",
+          "文本2": "The number of tennis courts visible in the image is four.",
+          "正确文本位置": "2",
+          "原始第一条描述": "Four tennis courts arranged neatly with some plants and lawn surrounded .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "2082.tif",
+          "数据来源": "UCM val",
+          "目标": "网球场",
+          "实际数量": "4",
+          "错误数量": "3",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible tennis courts is four.",
+          "错误描述": "The number of visible tennis courts is three.",
+          "文本1": "The number of visible tennis courts is three.",
+          "文本2": "The number of visible tennis courts is four.",
+          "正确文本位置": "2",
+          "原始第一条描述": "Four tennis courts arranged neatly with some plants and lawn surrounded .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "4"
+    },
+    {
+      "split": "val",
+      "row": 205,
+      "image": "2086.tif",
+      "caption": "Four tennis courts arranged neatly on the lawn .",
+      "image_rgb_sha256": "02041655ac9143f2b80237648cfeaf9592f7bd2f2c8dbb6f807944c6f3d114c0",
+      "image_bytes_sha256": "888b21b7b240a8c13c51f3198df32e7e16cb16f89a8f4a80bc5a434dfb3ba017",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/205.pt",
+      "historical_prior_sha256": "6ed90c180d6eac038b0ff51e940fa3eedcf8a7b911ecbc8be6bc80381929205d",
+      "E1_pairs": [
+        {
+          "图像编号": "2086.tif",
+          "数据来源": "UCM val",
+          "目标": "网球场",
+          "实际数量": "4",
+          "错误数量": "5",
+          "句式": "A_原句式",
+          "正确描述": "The number of tennis courts visible in the image is four.",
+          "错误描述": "The number of tennis courts visible in the image is five.",
+          "文本1": "The number of tennis courts visible in the image is five.",
+          "文本2": "The number of tennis courts visible in the image is four.",
+          "正确文本位置": "2",
+          "原始第一条描述": "Four tennis courts arranged neatly on the lawn .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "2086.tif",
+          "数据来源": "UCM val",
+          "目标": "网球场",
+          "实际数量": "4",
+          "错误数量": "5",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible tennis courts is four.",
+          "错误描述": "The number of visible tennis courts is five.",
+          "文本1": "The number of visible tennis courts is five.",
+          "文本2": "The number of visible tennis courts is four.",
+          "正确文本位置": "2",
+          "原始第一条描述": "Four tennis courts arranged neatly on the lawn .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "4"
+    },
+    {
+      "split": "val",
+      "row": 207,
+      "image": "2088.tif",
+      "caption": "Four tennis courts arranged neatly with some plants surrounded .",
+      "image_rgb_sha256": "502d55e5a9c185d51f9081452035b1f2560e0db09677b604adaa7c800226a25a",
+      "image_bytes_sha256": "fdbc2926d24ee3ff092a706dfe37473da747dc4e0ac8a15a569c6a26247d538b",
+      "image_size": [
+        256,
+        256
+      ],
+      "historical_prior_file": "ucm_caption_karpathy_label_val/207.pt",
+      "historical_prior_sha256": "7545574be50a9a84437c27b1a1117d87356e1333ddf7111a46c6ecea3d975c50",
+      "E1_pairs": [
+        {
+          "图像编号": "2088.tif",
+          "数据来源": "UCM val",
+          "目标": "网球场",
+          "实际数量": "4",
+          "错误数量": "3",
+          "句式": "A_原句式",
+          "正确描述": "The number of tennis courts visible in the image is four.",
+          "错误描述": "The number of tennis courts visible in the image is three.",
+          "文本1": "The number of tennis courts visible in the image is three.",
+          "文本2": "The number of tennis courts visible in the image is four.",
+          "正确文本位置": "2",
+          "原始第一条描述": "Four tennis courts arranged neatly with some plants surrounded .",
+          "用户确认状态": "已确认数量"
+        },
+        {
+          "图像编号": "2088.tif",
+          "数据来源": "UCM val",
+          "目标": "网球场",
+          "实际数量": "4",
+          "错误数量": "3",
+          "句式": "B_改写句式",
+          "正确描述": "The number of visible tennis courts is four.",
+          "错误描述": "The number of visible tennis courts is three.",
+          "文本1": "The number of visible tennis courts is three.",
+          "文本2": "The number of visible tennis courts is four.",
+          "正确文本位置": "2",
+          "原始第一条描述": "Four tennis courts arranged neatly with some plants surrounded .",
+          "用户确认状态": "已确认数量"
+        }
+      ],
+      "confirmed_quantity": "4"
+    }
+  ],
+  "scene_head_sha256": "275f041920aa5747e9d90d6e14c79fb341882948bcf17cf02ae159d35cc9540b",
+  "tokenization": "CLIP context_length=61; no truncation (fail explicitly if longer)",
+  "text_feature_batch_size": 32,
+  "utility_image_batch_size": 1,
+  "cross_device_E1_reference_tolerance": 1e-05,
+  "previous_pilot_plan_sha256": "14bbc6320c8a510c1aee22d1255a85aec7e198b69dd932b8c4dcda65f31bcfad",
+  "fixed_tool_protocol": {
+    "action": "scene_classify supplied in assistant context before generation; executed once per rollout",
+    "tool_execution": "actual frozen CLIP plus domain scene head, threshold 0.0; verify same result per image across candidates",
+    "sampling": "one answer generation call per rollout, min_new_tokens=1, max_new_tokens=64, temperature=1.0, seeds0to7",
+    "resampling": "none; retain every failure and duplicate",
+    "model_generated_text": "answer continuation only; fixed tool call and result saved as supplied context",
+    "gate": "3 greedy references usable before any sampling",
+    "quality": "complete answer, nonempty, no addCriterion, no token limit and no additional tool request"
+  },
+  "previous_messages_plan_sha256": "9baccc13b0b492432eb8dfd298843f09b423aa70f29a8c0833dc66ca0c9f5f81",
+  "gate_rows": [
+    10,
+    95,
+    207
+  ],
+  "expected_counts": {
+    "images": 22,
+    "candidates": 176,
+    "references": 22,
+    "repeats": 22,
+    "generation": 220,
+    "historical": 22,
+    "scoring": 242,
+    "pairs_per_metric": 616
+  },
+  "image_groups": {
+    "all22": [
+      10,
+      13,
+      16,
+      18,
+      19,
+      22,
+      23,
+      24,
+      28,
+      93,
+      94,
+      95,
+      99,
+      190,
+      192,
+      195,
+      198,
+      199,
+      200,
+      201,
+      205,
+      207
+    ],
+    "new19": [
+      13,
+      16,
+      18,
+      19,
+      22,
+      23,
+      24,
+      28,
+      93,
+      94,
+      99,
+      190,
+      192,
+      195,
+      198,
+      199,
+      200,
+      201,
+      205
+    ],
+    "pilot3": [
+      10,
+      95,
+      207
+    ]
+  },
+  "full_analysis": {
+    "primary": "mean within-image concordance between r_retrieval and utility_rr among images with informative pairs; report image count and pooled pair ratio separately",
+    "secondary": [
+      "r_total",
+      "utility_margin",
+      "E1_margin_A",
+      "E1_margin_B",
+      "within-image Spearman and top-reward utility regret"
+    ],
+    "quality_subsets": [
+      "all candidates (primary)",
+      "predefined quality_usable candidates (secondary)"
+    ],
+    "bootstrap": {
+      "unit": "image",
+      "resamples": 10000,
+      "seed": 20261113,
+      "interval": "percentile 2.5 and 97.5; omit undefined resamples and report count"
+    },
+    "groups": "all22 primary; new19 and pilot3 separately",
+    "gate": "rerun pilot3 greedy references first; other 19 greedy failures retained and flagged"
+  },
+  "pilot_plan_sha256": "762c1e1ebd65db8727be36a9d0709140f5c3e8fb76bb7f95198df1d5f3e3e97a",
+  "text_feature_cache": {
+    "path": "/private/AGSE_E3_1_rebuild_20261112/fixed_tool_pilot_20261113/scoring/scoring_tensors.pt",
+    "sha256": "d504a13d4e5ceb4e354856d74c7b6af92d56dc732692d771b1e986443b8b9ac8",
+    "text_gallery_path": "/private/AGSE_E3_1_rebuild_20261112/fixed_tool_pilot_20261113/scoring/text_gallery.json",
+    "text_gallery_sha256": "d62dead35f2f73b1e3457d444f62416a62db72637fe39bd3775aab2bcdac1665",
+    "policy": "reuse feature vectors for exact known texts, including all 391 val texts; encode only new E1 quantity strings with the same frozen utility model"
+  }
+}

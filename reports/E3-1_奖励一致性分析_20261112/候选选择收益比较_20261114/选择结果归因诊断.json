@@ -1,0 +1,1101 @@
+{
+  "analysis_type": "post-result descriptive attribution; no replacement of the fixed primary analysis",
+  "metric": "utility_rr",
+  "groups": {
+    "all22": {
+      "quality_partitions": {
+        "invalid_selected": {
+          "images": 6,
+          "sum_reward_minus_greedy": 0.638041013506852,
+          "sum_reward_minus_random": 0.5007189116916084
+        },
+        "all_selected_pass": {
+          "images": 16,
+          "sum_reward_minus_greedy": 0.21045955309183212,
+          "sum_reward_minus_random": 0.18907899890290797
+        }
+      },
+      "total_reward_and_quality_filtered_reward_rr_identical_all_images": true,
+      "largest_greedy_gain": {
+        "row": 22,
+        "image": "284.tif",
+        "delta": 0.4565217391304348,
+        "share_of_net_sum_delta": 0.5380335112331824
+      },
+      "leave_one_image_out_reward_minus_greedy_range": [
+        0.01866565845086902,
+        0.04125512902170605
+      ],
+      "leave_one_image_out_reward_minus_random_range": [
+        0.014535297002281178,
+        0.03553687427951803
+      ],
+      "per_image": [
+        {
+          "group": "all22",
+          "row": 10,
+          "image": "181.tif",
+          "reward_selected_ids": [
+            "10_candidate_3",
+            "10_candidate_4"
+          ],
+          "reward_tie_count": 2,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.3333333333333333,
+          "all_total_rr": 0.3333333333333333,
+          "greedy_rr": 0.3333333333333333,
+          "all_random_rr": 0.3333333333333333,
+          "quality_reward_rr": 0.3333333333333333,
+          "quality_random_rr": 0.3333333333333333,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": 0.0,
+          "quality_reward_minus_random": 0.0,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 13,
+          "image": "184.tif",
+          "reward_selected_ids": [
+            "13_candidate_1"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.125,
+          "all_total_rr": 0.125,
+          "greedy_rr": 0.14285714285714285,
+          "all_random_rr": 0.140625,
+          "quality_reward_rr": 0.125,
+          "quality_random_rr": 0.140625,
+          "all_reward_minus_greedy": -0.01785714285714285,
+          "all_reward_minus_random": -0.015625,
+          "quality_reward_minus_random": -0.015625,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 16,
+          "image": "187.tif",
+          "reward_selected_ids": [
+            "16_candidate_1",
+            "16_candidate_3",
+            "16_candidate_5"
+          ],
+          "reward_tie_count": 3,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.20555555555555557,
+          "all_total_rr": 0.20555555555555557,
+          "greedy_rr": 0.2,
+          "all_random_rr": 0.22291666666666665,
+          "quality_reward_rr": 0.20555555555555557,
+          "quality_random_rr": 0.22291666666666665,
+          "all_reward_minus_greedy": 0.005555555555555564,
+          "all_reward_minus_random": -0.017361111111111077,
+          "quality_reward_minus_random": -0.017361111111111077,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 18,
+          "image": "190.tif",
+          "reward_selected_ids": [
+            "18_candidate_5"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 1.0,
+          "all_total_rr": 1.0,
+          "greedy_rr": 1.0,
+          "all_random_rr": 0.8875,
+          "quality_reward_rr": 1.0,
+          "quality_random_rr": 1.0,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": 0.11250000000000004,
+          "quality_reward_minus_random": 0.0,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 19,
+          "image": "281.tif",
+          "reward_selected_ids": [
+            "19_candidate_4"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 1.0,
+          "all_total_rr": 1.0,
+          "greedy_rr": 1.0,
+          "all_random_rr": 1.0,
+          "quality_reward_rr": 1.0,
+          "quality_random_rr": 1.0,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": 0.0,
+          "quality_reward_minus_random": 0.0,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 22,
+          "image": "284.tif",
+          "reward_selected_ids": [
+            "22_candidate_6"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 1.0,
+          "invalid_selected_ids": [
+            "22_candidate_6"
+          ],
+          "invalid_token_limit_count": 1,
+          "all_reward_rr": 0.5,
+          "all_total_rr": 0.05572755417956656,
+          "greedy_rr": 0.043478260869565216,
+          "all_random_rr": 0.11544332645338837,
+          "quality_reward_rr": 0.05572755417956656,
+          "quality_random_rr": 0.06050665880387242,
+          "all_reward_minus_greedy": 0.4565217391304348,
+          "all_reward_minus_random": 0.3845566735466116,
+          "quality_reward_minus_random": -0.004779104624305856,
+          "all_reward_minus_total": 0.44427244582043346
+        },
+        {
+          "group": "all22",
+          "row": 23,
+          "image": "285.tif",
+          "reward_selected_ids": [
+            "23_candidate_2",
+            "23_candidate_5"
+          ],
+          "reward_tie_count": 2,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.225,
+          "all_total_rr": 0.225,
+          "greedy_rr": 0.2,
+          "all_random_rr": 0.22708333333333333,
+          "quality_reward_rr": 0.225,
+          "quality_random_rr": 0.22708333333333333,
+          "all_reward_minus_greedy": 0.024999999999999994,
+          "all_reward_minus_random": -0.002083333333333326,
+          "quality_reward_minus_random": -0.002083333333333326,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 24,
+          "image": "286.tif",
+          "reward_selected_ids": [
+            "24_candidate_1"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.14285714285714285,
+          "all_total_rr": 0.14285714285714285,
+          "greedy_rr": 0.1111111111111111,
+          "all_random_rr": 0.12549603174603174,
+          "quality_reward_rr": 0.14285714285714285,
+          "quality_random_rr": 0.12549603174603174,
+          "all_reward_minus_greedy": 0.031746031746031744,
+          "all_reward_minus_random": 0.017361111111111105,
+          "quality_reward_minus_random": 0.017361111111111105,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 28,
+          "image": "290.tif",
+          "reward_selected_ids": [
+            "28_candidate_6"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.5,
+          "all_total_rr": 0.5,
+          "greedy_rr": 0.5,
+          "all_random_rr": 0.4583333333333333,
+          "quality_reward_rr": 0.5,
+          "quality_random_rr": 0.4583333333333333,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": 0.041666666666666685,
+          "quality_reward_minus_random": 0.041666666666666685,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 93,
+          "image": "982.tif",
+          "reward_selected_ids": [
+            "93_candidate_1"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 1.0,
+          "invalid_selected_ids": [
+            "93_candidate_1"
+          ],
+          "invalid_token_limit_count": 1,
+          "all_reward_rr": 1.0,
+          "all_total_rr": 1.0,
+          "greedy_rr": 1.0,
+          "all_random_rr": 1.0,
+          "quality_reward_rr": 1.0,
+          "quality_random_rr": 1.0,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": 0.0,
+          "quality_reward_minus_random": 0.0,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 94,
+          "image": "983.tif",
+          "reward_selected_ids": [
+            "94_candidate_3"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 1.0,
+          "invalid_selected_ids": [
+            "94_candidate_3"
+          ],
+          "invalid_token_limit_count": 1,
+          "all_reward_rr": 0.16666666666666666,
+          "all_total_rr": 0.10555555555555556,
+          "greedy_rr": 0.1,
+          "all_random_rr": 0.1111111111111111,
+          "quality_reward_rr": 0.10555555555555556,
+          "quality_random_rr": 0.10317460317460317,
+          "all_reward_minus_greedy": 0.06666666666666665,
+          "all_reward_minus_random": 0.05555555555555555,
+          "quality_reward_minus_random": 0.0023809523809523864,
+          "all_reward_minus_total": 0.0611111111111111
+        },
+        {
+          "group": "all22",
+          "row": 95,
+          "image": "984.tif",
+          "reward_selected_ids": [
+            "95_candidate_3"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 1.0,
+          "invalid_selected_ids": [
+            "95_candidate_3"
+          ],
+          "invalid_token_limit_count": 1,
+          "all_reward_rr": 0.2,
+          "all_total_rr": 0.1111111111111111,
+          "greedy_rr": 0.1111111111111111,
+          "all_random_rr": 0.12222222222222222,
+          "quality_reward_rr": 0.1111111111111111,
+          "quality_random_rr": 0.11111111111111109,
+          "all_reward_minus_greedy": 0.0888888888888889,
+          "all_reward_minus_random": 0.07777777777777779,
+          "quality_reward_minus_random": 1.3877787807814457e-17,
+          "all_reward_minus_total": 0.0888888888888889
+        },
+        {
+          "group": "all22",
+          "row": 99,
+          "image": "988.tif",
+          "reward_selected_ids": [
+            "99_candidate_4",
+            "99_candidate_5"
+          ],
+          "reward_tie_count": 2,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.3333333333333333,
+          "all_total_rr": 0.3333333333333333,
+          "greedy_rr": 0.3333333333333333,
+          "all_random_rr": 0.3125,
+          "quality_reward_rr": 0.3333333333333333,
+          "quality_random_rr": 0.3333333333333333,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": 0.020833333333333315,
+          "quality_reward_minus_random": 0.0,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 190,
+          "image": "1981.tif",
+          "reward_selected_ids": [
+            "190_candidate_3"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 1.0,
+          "all_total_rr": 1.0,
+          "greedy_rr": 1.0,
+          "all_random_rr": 1.0,
+          "quality_reward_rr": 1.0,
+          "quality_random_rr": 1.0,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": 0.0,
+          "quality_reward_minus_random": 0.0,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 192,
+          "image": "1983.tif",
+          "reward_selected_ids": [
+            "192_candidate_2"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.0053475935828877,
+          "all_total_rr": 0.0053475935828877,
+          "greedy_rr": 0.005025125628140704,
+          "all_random_rr": 0.0045615025095008645,
+          "quality_reward_rr": 0.0053475935828877,
+          "quality_random_rr": 0.0045615025095008645,
+          "all_reward_minus_greedy": 0.00032246795474699663,
+          "all_reward_minus_random": 0.0007860910733868357,
+          "quality_reward_minus_random": 0.0007860910733868357,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 195,
+          "image": "1986.tif",
+          "reward_selected_ids": [
+            "195_candidate_0"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.16666666666666666,
+          "all_total_rr": 0.16666666666666666,
+          "greedy_rr": 0.16666666666666666,
+          "all_random_rr": 0.1875,
+          "quality_reward_rr": 0.16666666666666666,
+          "quality_random_rr": 0.1875,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": -0.020833333333333343,
+          "quality_reward_minus_random": -0.020833333333333343,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 198,
+          "image": "1989.tif",
+          "reward_selected_ids": [
+            "198_candidate_0"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.08333333333333333,
+          "all_total_rr": 0.08333333333333333,
+          "greedy_rr": 0.1,
+          "all_random_rr": 0.13980978260869564,
+          "quality_reward_rr": 0.08333333333333333,
+          "quality_random_rr": 0.14583333333333334,
+          "all_reward_minus_greedy": -0.016666666666666677,
+          "all_reward_minus_random": -0.056476449275362314,
+          "quality_reward_minus_random": -0.06250000000000001,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 199,
+          "image": "1990.tif",
+          "reward_selected_ids": [
+            "199_candidate_2"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 1.0,
+          "invalid_selected_ids": [
+            "199_candidate_2"
+          ],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.02040816326530612,
+          "all_total_rr": 0.022727272727272728,
+          "greedy_rr": 0.027777777777777776,
+          "all_random_rr": 0.04382925845364269,
+          "quality_reward_rr": 0.022727272727272728,
+          "quality_random_rr": 0.04114876183841701,
+          "all_reward_minus_greedy": -0.007369614512471655,
+          "all_reward_minus_random": -0.023421095188336568,
+          "quality_reward_minus_random": -0.01842148911114428,
+          "all_reward_minus_total": -0.002319109461966607
+        },
+        {
+          "group": "all22",
+          "row": 200,
+          "image": "2081.tif",
+          "reward_selected_ids": [
+            "200_candidate_0"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.14285714285714285,
+          "all_total_rr": 0.14285714285714285,
+          "greedy_rr": 0.125,
+          "all_random_rr": 0.13392857142857142,
+          "quality_reward_rr": 0.14285714285714285,
+          "quality_random_rr": 0.13392857142857142,
+          "all_reward_minus_greedy": 0.01785714285714285,
+          "all_reward_minus_random": 0.008928571428571425,
+          "quality_reward_minus_random": 0.008928571428571425,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 201,
+          "image": "2082.tif",
+          "reward_selected_ids": [
+            "201_candidate_3"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 1.0,
+          "invalid_selected_ids": [
+            "201_candidate_3"
+          ],
+          "invalid_token_limit_count": 1,
+          "all_reward_rr": 0.2,
+          "all_total_rr": 0.16666666666666666,
+          "greedy_rr": 0.16666666666666666,
+          "all_random_rr": 0.19375,
+          "quality_reward_rr": 0.16666666666666666,
+          "quality_random_rr": 0.19285714285714287,
+          "all_reward_minus_greedy": 0.033333333333333354,
+          "all_reward_minus_random": 0.0062500000000000056,
+          "quality_reward_minus_random": -0.02619047619047621,
+          "all_reward_minus_total": 0.033333333333333354
+        },
+        {
+          "group": "all22",
+          "row": 205,
+          "image": "2086.tif",
+          "reward_selected_ids": [
+            "205_candidate_4"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.3333333333333333,
+          "all_total_rr": 0.3333333333333333,
+          "greedy_rr": 0.16666666666666666,
+          "all_random_rr": 0.23125,
+          "quality_reward_rr": 0.3333333333333333,
+          "quality_random_rr": 0.23125,
+          "all_reward_minus_greedy": 0.16666666666666666,
+          "all_reward_minus_random": 0.1020833333333333,
+          "quality_reward_minus_random": 0.1020833333333333,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "all22",
+          "row": 207,
+          "image": "2088.tif",
+          "reward_selected_ids": [
+            "207_candidate_3"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.045454545454545456,
+          "all_total_rr": 0.045454545454545456,
+          "greedy_rr": 0.047619047619047616,
+          "all_random_rr": 0.04815542644490013,
+          "quality_reward_rr": 0.045454545454545456,
+          "quality_random_rr": 0.04815542644490013,
+          "all_reward_minus_greedy": -0.0021645021645021606,
+          "all_reward_minus_random": -0.002700880990354676,
+          "quality_reward_minus_random": -0.002700880990354676,
+          "all_reward_minus_total": 0.0
+        }
+      ]
+    },
+    "new19": {
+      "quality_partitions": {
+        "invalid_selected": {
+          "images": 5,
+          "sum_reward_minus_greedy": 0.5491521246179631,
+          "sum_reward_minus_random": 0.4229411339138306
+        },
+        "all_selected_pass": {
+          "images": 14,
+          "sum_reward_minus_greedy": 0.21262405525633427,
+          "sum_reward_minus_random": 0.19177987989326264
+        }
+      },
+      "total_reward_and_quality_filtered_reward_rr_identical_all_images": true,
+      "largest_greedy_gain": {
+        "row": 22,
+        "image": "284.tif",
+        "delta": 0.4565217391304348,
+        "share_of_net_sum_delta": 0.5992859204468254
+      },
+      "leave_one_image_out_reward_minus_greedy_range": [
+        0.016958580041325704,
+        0.0433129623739689
+      ],
+      "leave_one_image_out_reward_minus_random_range": [
+        0.012786907792248978,
+        0.03728874794902531
+      ],
+      "per_image": [
+        {
+          "group": "new19",
+          "row": 13,
+          "image": "184.tif",
+          "reward_selected_ids": [
+            "13_candidate_1"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.125,
+          "all_total_rr": 0.125,
+          "greedy_rr": 0.14285714285714285,
+          "all_random_rr": 0.140625,
+          "quality_reward_rr": 0.125,
+          "quality_random_rr": 0.140625,
+          "all_reward_minus_greedy": -0.01785714285714285,
+          "all_reward_minus_random": -0.015625,
+          "quality_reward_minus_random": -0.015625,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "new19",
+          "row": 16,
+          "image": "187.tif",
+          "reward_selected_ids": [
+            "16_candidate_1",
+            "16_candidate_3",
+            "16_candidate_5"
+          ],
+          "reward_tie_count": 3,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.20555555555555557,
+          "all_total_rr": 0.20555555555555557,
+          "greedy_rr": 0.2,
+          "all_random_rr": 0.22291666666666665,
+          "quality_reward_rr": 0.20555555555555557,
+          "quality_random_rr": 0.22291666666666665,
+          "all_reward_minus_greedy": 0.005555555555555564,
+          "all_reward_minus_random": -0.017361111111111077,
+          "quality_reward_minus_random": -0.017361111111111077,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "new19",
+          "row": 18,
+          "image": "190.tif",
+          "reward_selected_ids": [
+            "18_candidate_5"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 1.0,
+          "all_total_rr": 1.0,
+          "greedy_rr": 1.0,
+          "all_random_rr": 0.8875,
+          "quality_reward_rr": 1.0,
+          "quality_random_rr": 1.0,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": 0.11250000000000004,
+          "quality_reward_minus_random": 0.0,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "new19",
+          "row": 19,
+          "image": "281.tif",
+          "reward_selected_ids": [
+            "19_candidate_4"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 1.0,
+          "all_total_rr": 1.0,
+          "greedy_rr": 1.0,
+          "all_random_rr": 1.0,
+          "quality_reward_rr": 1.0,
+          "quality_random_rr": 1.0,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": 0.0,
+          "quality_reward_minus_random": 0.0,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "new19",
+          "row": 22,
+          "image": "284.tif",
+          "reward_selected_ids": [
+            "22_candidate_6"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 1.0,
+          "invalid_selected_ids": [
+            "22_candidate_6"
+          ],
+          "invalid_token_limit_count": 1,
+          "all_reward_rr": 0.5,
+          "all_total_rr": 0.05572755417956656,
+          "greedy_rr": 0.043478260869565216,
+          "all_random_rr": 0.11544332645338837,
+          "quality_reward_rr": 0.05572755417956656,
+          "quality_random_rr": 0.06050665880387242,
+          "all_reward_minus_greedy": 0.4565217391304348,
+          "all_reward_minus_random": 0.3845566735466116,
+          "quality_reward_minus_random": -0.004779104624305856,
+          "all_reward_minus_total": 0.44427244582043346
+        },
+        {
+          "group": "new19",
+          "row": 23,
+          "image": "285.tif",
+          "reward_selected_ids": [
+            "23_candidate_2",
+            "23_candidate_5"
+          ],
+          "reward_tie_count": 2,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.225,
+          "all_total_rr": 0.225,
+          "greedy_rr": 0.2,
+          "all_random_rr": 0.22708333333333333,
+          "quality_reward_rr": 0.225,
+          "quality_random_rr": 0.22708333333333333,
+          "all_reward_minus_greedy": 0.024999999999999994,
+          "all_reward_minus_random": -0.002083333333333326,
+          "quality_reward_minus_random": -0.002083333333333326,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "new19",
+          "row": 24,
+          "image": "286.tif",
+          "reward_selected_ids": [
+            "24_candidate_1"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.14285714285714285,
+          "all_total_rr": 0.14285714285714285,
+          "greedy_rr": 0.1111111111111111,
+          "all_random_rr": 0.12549603174603174,
+          "quality_reward_rr": 0.14285714285714285,
+          "quality_random_rr": 0.12549603174603174,
+          "all_reward_minus_greedy": 0.031746031746031744,
+          "all_reward_minus_random": 0.017361111111111105,
+          "quality_reward_minus_random": 0.017361111111111105,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "new19",
+          "row": 28,
+          "image": "290.tif",
+          "reward_selected_ids": [
+            "28_candidate_6"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.5,
+          "all_total_rr": 0.5,
+          "greedy_rr": 0.5,
+          "all_random_rr": 0.4583333333333333,
+          "quality_reward_rr": 0.5,
+          "quality_random_rr": 0.4583333333333333,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": 0.041666666666666685,
+          "quality_reward_minus_random": 0.041666666666666685,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "new19",
+          "row": 93,
+          "image": "982.tif",
+          "reward_selected_ids": [
+            "93_candidate_1"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 1.0,
+          "invalid_selected_ids": [
+            "93_candidate_1"
+          ],
+          "invalid_token_limit_count": 1,
+          "all_reward_rr": 1.0,
+          "all_total_rr": 1.0,
+          "greedy_rr": 1.0,
+          "all_random_rr": 1.0,
+          "quality_reward_rr": 1.0,
+          "quality_random_rr": 1.0,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": 0.0,
+          "quality_reward_minus_random": 0.0,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "new19",
+          "row": 94,
+          "image": "983.tif",
+          "reward_selected_ids": [
+            "94_candidate_3"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 1.0,
+          "invalid_selected_ids": [
+            "94_candidate_3"
+          ],
+          "invalid_token_limit_count": 1,
+          "all_reward_rr": 0.16666666666666666,
+          "all_total_rr": 0.10555555555555556,
+          "greedy_rr": 0.1,
+          "all_random_rr": 0.1111111111111111,
+          "quality_reward_rr": 0.10555555555555556,
+          "quality_random_rr": 0.10317460317460317,
+          "all_reward_minus_greedy": 0.06666666666666665,
+          "all_reward_minus_random": 0.05555555555555555,
+          "quality_reward_minus_random": 0.0023809523809523864,
+          "all_reward_minus_total": 0.0611111111111111
+        },
+        {
+          "group": "new19",
+          "row": 99,
+          "image": "988.tif",
+          "reward_selected_ids": [
+            "99_candidate_4",
+            "99_candidate_5"
+          ],
+          "reward_tie_count": 2,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.3333333333333333,
+          "all_total_rr": 0.3333333333333333,
+          "greedy_rr": 0.3333333333333333,
+          "all_random_rr": 0.3125,
+          "quality_reward_rr": 0.3333333333333333,
+          "quality_random_rr": 0.3333333333333333,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": 0.020833333333333315,
+          "quality_reward_minus_random": 0.0,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "new19",
+          "row": 190,
+          "image": "1981.tif",
+          "reward_selected_ids": [
+            "190_candidate_3"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 1.0,
+          "all_total_rr": 1.0,
+          "greedy_rr": 1.0,
+          "all_random_rr": 1.0,
+          "quality_reward_rr": 1.0,
+          "quality_random_rr": 1.0,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": 0.0,
+          "quality_reward_minus_random": 0.0,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "new19",
+          "row": 192,
+          "image": "1983.tif",
+          "reward_selected_ids": [
+            "192_candidate_2"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.0053475935828877,
+          "all_total_rr": 0.0053475935828877,
+          "greedy_rr": 0.005025125628140704,
+          "all_random_rr": 0.0045615025095008645,
+          "quality_reward_rr": 0.0053475935828877,
+          "quality_random_rr": 0.0045615025095008645,
+          "all_reward_minus_greedy": 0.00032246795474699663,
+          "all_reward_minus_random": 0.0007860910733868357,
+          "quality_reward_minus_random": 0.0007860910733868357,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "new19",
+          "row": 195,
+          "image": "1986.tif",
+          "reward_selected_ids": [
+            "195_candidate_0"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.16666666666666666,
+          "all_total_rr": 0.16666666666666666,
+          "greedy_rr": 0.16666666666666666,
+          "all_random_rr": 0.1875,
+          "quality_reward_rr": 0.16666666666666666,
+          "quality_random_rr": 0.1875,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": -0.020833333333333343,
+          "quality_reward_minus_random": -0.020833333333333343,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "new19",
+          "row": 198,
+          "image": "1989.tif",
+          "reward_selected_ids": [
+            "198_candidate_0"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.08333333333333333,
+          "all_total_rr": 0.08333333333333333,
+          "greedy_rr": 0.1,
+          "all_random_rr": 0.13980978260869564,
+          "quality_reward_rr": 0.08333333333333333,
+          "quality_random_rr": 0.14583333333333334,
+          "all_reward_minus_greedy": -0.016666666666666677,
+          "all_reward_minus_random": -0.056476449275362314,
+          "quality_reward_minus_random": -0.06250000000000001,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "new19",
+          "row": 199,
+          "image": "1990.tif",
+          "reward_selected_ids": [
+            "199_candidate_2"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 1.0,
+          "invalid_selected_ids": [
+            "199_candidate_2"
+          ],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.02040816326530612,
+          "all_total_rr": 0.022727272727272728,
+          "greedy_rr": 0.027777777777777776,
+          "all_random_rr": 0.04382925845364269,
+          "quality_reward_rr": 0.022727272727272728,
+          "quality_random_rr": 0.04114876183841701,
+          "all_reward_minus_greedy": -0.007369614512471655,
+          "all_reward_minus_random": -0.023421095188336568,
+          "quality_reward_minus_random": -0.01842148911114428,
+          "all_reward_minus_total": -0.002319109461966607
+        },
+        {
+          "group": "new19",
+          "row": 200,
+          "image": "2081.tif",
+          "reward_selected_ids": [
+            "200_candidate_0"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.14285714285714285,
+          "all_total_rr": 0.14285714285714285,
+          "greedy_rr": 0.125,
+          "all_random_rr": 0.13392857142857142,
+          "quality_reward_rr": 0.14285714285714285,
+          "quality_random_rr": 0.13392857142857142,
+          "all_reward_minus_greedy": 0.01785714285714285,
+          "all_reward_minus_random": 0.008928571428571425,
+          "quality_reward_minus_random": 0.008928571428571425,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "new19",
+          "row": 201,
+          "image": "2082.tif",
+          "reward_selected_ids": [
+            "201_candidate_3"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 1.0,
+          "invalid_selected_ids": [
+            "201_candidate_3"
+          ],
+          "invalid_token_limit_count": 1,
+          "all_reward_rr": 0.2,
+          "all_total_rr": 0.16666666666666666,
+          "greedy_rr": 0.16666666666666666,
+          "all_random_rr": 0.19375,
+          "quality_reward_rr": 0.16666666666666666,
+          "quality_random_rr": 0.19285714285714287,
+          "all_reward_minus_greedy": 0.033333333333333354,
+          "all_reward_minus_random": 0.0062500000000000056,
+          "quality_reward_minus_random": -0.02619047619047621,
+          "all_reward_minus_total": 0.033333333333333354
+        },
+        {
+          "group": "new19",
+          "row": 205,
+          "image": "2086.tif",
+          "reward_selected_ids": [
+            "205_candidate_4"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.3333333333333333,
+          "all_total_rr": 0.3333333333333333,
+          "greedy_rr": 0.16666666666666666,
+          "all_random_rr": 0.23125,
+          "quality_reward_rr": 0.3333333333333333,
+          "quality_random_rr": 0.23125,
+          "all_reward_minus_greedy": 0.16666666666666666,
+          "all_reward_minus_random": 0.1020833333333333,
+          "quality_reward_minus_random": 0.1020833333333333,
+          "all_reward_minus_total": 0.0
+        }
+      ]
+    },
+    "pilot3": {
+      "quality_partitions": {
+        "invalid_selected": {
+          "images": 1,
+          "sum_reward_minus_greedy": 0.0888888888888889,
+          "sum_reward_minus_random": 0.07777777777777779
+        },
+        "all_selected_pass": {
+          "images": 2,
+          "sum_reward_minus_greedy": -0.0021645021645021606,
+          "sum_reward_minus_random": -0.002700880990354676
+        }
+      },
+      "total_reward_and_quality_filtered_reward_rr_identical_all_images": true,
+      "largest_greedy_gain": {
+        "row": 95,
+        "image": "984.tif",
+        "delta": 0.0888888888888889,
+        "share_of_net_sum_delta": 1.0249584026622296
+      },
+      "leave_one_image_out_reward_minus_greedy_range": [
+        -0.0010822510822510803,
+        0.04444444444444445
+      ],
+      "leave_one_image_out_reward_minus_random_range": [
+        -0.001350440495177338,
+        0.038888888888888896
+      ],
+      "per_image": [
+        {
+          "group": "pilot3",
+          "row": 10,
+          "image": "181.tif",
+          "reward_selected_ids": [
+            "10_candidate_3",
+            "10_candidate_4"
+          ],
+          "reward_tie_count": 2,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.3333333333333333,
+          "all_total_rr": 0.3333333333333333,
+          "greedy_rr": 0.3333333333333333,
+          "all_random_rr": 0.3333333333333333,
+          "quality_reward_rr": 0.3333333333333333,
+          "quality_random_rr": 0.3333333333333333,
+          "all_reward_minus_greedy": 0.0,
+          "all_reward_minus_random": 0.0,
+          "quality_reward_minus_random": 0.0,
+          "all_reward_minus_total": 0.0
+        },
+        {
+          "group": "pilot3",
+          "row": 95,
+          "image": "984.tif",
+          "reward_selected_ids": [
+            "95_candidate_3"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 1.0,
+          "invalid_selected_ids": [
+            "95_candidate_3"
+          ],
+          "invalid_token_limit_count": 1,
+          "all_reward_rr": 0.2,
+          "all_total_rr": 0.1111111111111111,
+          "greedy_rr": 0.1111111111111111,
+          "all_random_rr": 0.12222222222222222,
+          "quality_reward_rr": 0.1111111111111111,
+          "quality_random_rr": 0.11111111111111109,
+          "all_reward_minus_greedy": 0.0888888888888889,
+          "all_reward_minus_random": 0.07777777777777779,
+          "quality_reward_minus_random": 1.3877787807814457e-17,
+          "all_reward_minus_total": 0.0888888888888889
+        },
+        {
+          "group": "pilot3",
+          "row": 207,
+          "image": "2088.tif",
+          "reward_selected_ids": [
+            "207_candidate_3"
+          ],
+          "reward_tie_count": 1,
+          "reward_invalid_probability": 0.0,
+          "invalid_selected_ids": [],
+          "invalid_token_limit_count": 0,
+          "all_reward_rr": 0.045454545454545456,
+          "all_total_rr": 0.045454545454545456,
+          "greedy_rr": 0.047619047619047616,
+          "all_random_rr": 0.04815542644490013,
+          "quality_reward_rr": 0.045454545454545456,
+          "quality_random_rr": 0.04815542644490013,
+          "all_reward_minus_greedy": -0.0021645021645021606,
+          "all_reward_minus_random": -0.002700880990354676,
+          "quality_reward_minus_random": -0.002700880990354676,
+          "all_reward_minus_total": 0.0
+        }
+      ]
+    }
+  }
+}
