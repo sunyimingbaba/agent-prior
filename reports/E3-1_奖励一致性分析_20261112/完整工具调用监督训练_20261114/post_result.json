@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "error": null,
+  "phases": [
+    {
+      "args": [
+        "score_supervision.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 37.47945575998165
+    },
+    {
+      "args": [
+        "replay_supervision.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 45.46314046694897
+    },
+    {
+      "args": [
+        "replay_teacher_final.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 22.96340359398164
+    },
+    {
+      "args": [
+        "analyze_supervision.py",
+        "--root",
+        "/private/AGSE_E3_1_rebuild_20261112/full_tool_supervision_20261114"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.930005099158734
+    },
+    {
+      "args": [
+        "verify_supervision.py",
+        "--root",
+        "/private/AGSE_E3_1_rebuild_20261112/full_tool_supervision_20261114",
+        "--out",
+        "/private/AGSE_E3_1_rebuild_20261112/full_tool_supervision_20261114/\u670d\u52a1\u5668\u72ec\u7acb\u6838\u9a8c.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 10.618927079020068
+    },
+    {
+      "args": [
+        "audit_supervision_sources.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 32.05376601801254
+    }
+  ],
+  "elapsed_seconds_including_wait": 552.5175022860058,
+  "completed_at_utc": "2026-11-14T09:57:02.752313+00:00"
+}

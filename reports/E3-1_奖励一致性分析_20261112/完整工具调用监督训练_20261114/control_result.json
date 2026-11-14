@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "error": null,
+  "phases": [
+    {
+      "args": [
+        "test_supervised_format.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.9409181741066277
+    },
+    {
+      "args": [
+        "preflight_supervision.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 29.20388043881394
+    },
+    {
+      "args": [
+        "evaluate_supervision.py",
+        "--arm",
+        "c742_strict"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 522.9799576890655
+    }
+  ],
+  "elapsed_seconds": 555.1247944410425
+}

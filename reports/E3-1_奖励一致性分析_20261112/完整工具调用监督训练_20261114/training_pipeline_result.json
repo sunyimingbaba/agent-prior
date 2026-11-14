@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "error": null,
+  "phases": [
+    {
+      "args": [
+        "train_format.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 99.69109805300832
+    },
+    {
+      "args": [
+        "evaluate_supervision.py",
+        "--arm",
+        "sft_strict"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1231.8923259300645
+    },
+    {
+      "args": [
+        "evaluate_supervision.py",
+        "--arm",
+        "sft_legacy_greedy"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 254.46356615703553
+    }
+  ],
+  "elapsed_seconds_including_wait": 1646.049883171916
+}
