@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "phases": [
+    {
+      "args": [
+        "test_contract.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 4.4669174500741065
+    },
+    {
+      "args": [
+        "preflight.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 27.999338228954002
+    },
+    {
+      "args": [
+        "reward_bridge_witness.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 20.525287218857557
+    },
+    {
+      "args": [
+        "train_aligned.py",
+        "--arm",
+        "smoke"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 47.35673935804516
+    }
+  ],
+  "elapsed_seconds": 100.34831428411417,
+  "completed_at_utc": "2026-11-14T03:00:42.460299+00:00"
+}

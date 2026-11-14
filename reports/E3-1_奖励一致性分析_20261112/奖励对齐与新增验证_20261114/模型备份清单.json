@@ -1,0 +1,91 @@
+{
+  "created_at_utc": "2026-11-14T03:13:08.851942+00:00",
+  "policies": {
+    "aligned_margin": {
+      "archive_name": "reward_alignment_aligned_margin_checkpoint_20261114.tar.gz",
+      "remote_archive": "/private/AGSE_E3_1_rebuild_20261112/reward_alignment_aligned_margin_checkpoint_20261114.tar.gz",
+      "archive_bytes": 356754628,
+      "archive_sha256": "f1ad768017b67fdfa037d8a7d3b3fd7fe4dce1ef0a07007f9c01060eef7190c2",
+      "files": {
+        "README.md": {
+          "bytes": 5076,
+          "sha256": "16003f82ca4b3d5d0be79ab070eb2a93022c7ea2fce5a2b32032d40e4db89033"
+        },
+        "adapter_config.json": {
+          "bytes": 753,
+          "sha256": "ebe75534c7fdf57f9f9553217cd15325e0ad28a522af71b8efaf2503652543c7"
+        },
+        "adapter_model.safetensors": {
+          "bytes": 380800528,
+          "sha256": "5a845e488fd7ab538b02bb9ee4afd9a4b272faec78404fcca3c0db05c6f164d5"
+        },
+        "added_tokens.json": {
+          "bytes": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+        },
+        "chat_template.jinja": {
+          "bytes": 1017,
+          "sha256": "a0bc6f6fc7a29a80017a433e8f03a1cc1236e838a944a2d034295a60c4f2fddb"
+        },
+        "merges.txt": {
+          "bytes": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+        },
+        "preprocessor_config.json": {
+          "bytes": 829,
+          "sha256": "dfc7263fe735989c65c290d394198c4724d5afc58bf15c815d5e2e25b00b51b1"
+        },
+        "special_tokens_map.json": {
+          "bytes": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+        },
+        "tokenizer.json": {
+          "bytes": 11421896,
+          "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa"
+        },
+        "tokenizer_config.json": {
+          "bytes": 4730,
+          "sha256": "e04be4dd17e9f661bc487ba848a37f66a8f1adf2eef412f5d4ecb40cab4d39e7"
+        },
+        "video_preprocessor_config.json": {
+          "bytes": 913,
+          "sha256": "15bb7c2f2bc95fe9cc3749a4b287872b4886a15e9fcf550a4122a46ae26150bd"
+        },
+        "vocab.json": {
+          "bytes": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      },
+      "lora_tensor_hash": "72f72b5b1eff9bb4f5207117365ddb6ba46e465384f2a754571ef7ad8eb14372",
+      "attempted_groups": 20,
+      "optimizer_updates": 20,
+      "local_archive_sha256_equal": true,
+      "local_member_file_hashes_verified": 12,
+      "local_adapter_tensor_hash": "72f72b5b1eff9bb4f5207117365ddb6ba46e465384f2a754571ef7ad8eb14372",
+      "local_adapter_tensors_verified": 584,
+      "local_all_adapter_values_finite": true
+    }
+  },
+  "inherited_models": {
+    "source_stage": "training_loop_20261114",
+    "source_manifest": "../训练闭环与短程对照_20261114/模型备份清单.json",
+    "policies": {
+      "retrieval": {
+        "checkpoint_path": "/private/AGSE_E3_1_rebuild_20261112/training_loop_20261114/training/retrieval/checkpoint",
+        "lora_tensor_hash": "0a000fbb636313f50f0ede497fd3e9e45d222698e0e63cbaacdb2092be608a3e",
+        "adapter_file_sha256": "864d39fe4fdf8c748d91e611ee16804600862e184d72aa4b373bab695dd7b305",
+        "original_attempted_steps": 20,
+        "actual_optimizer_updates": 18
+      },
+      "format_only": {
+        "checkpoint_path": "/private/AGSE_E3_1_rebuild_20261112/training_loop_20261114/training/format_only/checkpoint",
+        "lora_tensor_hash": "b3960f80129470100b59cad40efe70ae37d63533484c63aa43e62e7fa471db3b",
+        "adapter_file_sha256": "285195ef22785c023af1e53576bdcb84c00346d160ce5ca47352e21df3e754b6",
+        "original_attempted_steps": 20,
+        "actual_optimizer_updates": 7
+      }
+    }
+  },
+  "local_verification": "passed",
+  "verified_at_utc": "2026-11-14T03:14:16.151906+00:00"
+}

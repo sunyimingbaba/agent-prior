@@ -1,0 +1,24 @@
+{
+  "archive_name": "reward_alignment_evidence_20261114.tar.gz",
+  "remote_archive": "/private/AGSE_E3_1_rebuild_20261112/reward_alignment_evidence_20261114.tar.gz",
+  "remote_root": "/private/AGSE_E3_1_rebuild_20261112/reward_alignment_20261114",
+  "archive_sha256": "e7a43cde70bd466df19c6539dc7a6d8a64abd0843ebe9a0f9cc849e36dd51da3",
+  "archive_bytes": 23752925,
+  "archive_files": 1997,
+  "manifest_files": 1996,
+  "excluded": [
+    "scratch",
+    "__pycache__",
+    "training/*/checkpoint (separate model archive)"
+  ],
+  "gpu_after_run": "NVIDIA A100-SXM4-80GB, 4 MiB, 0 %",
+  "created_at_utc": "2026-11-14T03:37:40.574422+00:00",
+  "local_copy_verification": "passed",
+  "local_file_hashes_verified": 1996,
+  "existing_files_confirmed_unchanged": 1990,
+  "new_files_restored": 7,
+  "verified_at_utc": "2026-11-14T03:38:00.888408+00:00",
+  "model_backups_verified": "new aligned archive: 12 member hashes, 584 finite FP32 tensors and in-memory parameter hash matched; inherited models retain previous verified archives",
+  "primary_evidence_unchanged_between_preliminary_and_final": true,
+  "derived_code_updates_record": "衍生文件版本核验.json"
+}
