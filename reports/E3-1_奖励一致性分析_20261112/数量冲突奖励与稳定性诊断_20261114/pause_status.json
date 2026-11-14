@@ -1,0 +1,30 @@
+{
+  "status": "paused",
+  "reason": "explicit user request to rest; save before user shuts down server",
+  "stopped_at_utc": "2026-11-14T05:04:46.319532+00:00",
+  "stopped_process_groups": [
+    {
+      "pid": 8967,
+      "pgid": 8967,
+      "command": "/private/AGSE_E1_20261110/legacy/env/bin/python /private/AGSE_E3_1_rebuild_20261112/quantity_counterfactual_20261114/code/run_post.py "
+    },
+    {
+      "pid": 8763,
+      "pgid": 8763,
+      "command": "/private/AGSE_E1_20261110/legacy/env/bin/python /private/AGSE_E3_1_rebuild_20261112/quantity_counterfactual_20261114/code/run_pipeline.py "
+    }
+  ],
+  "optimization_updates_in_stage": 0,
+  "referenced_policy_lora_tensor_hash": "c742c8dab5499595fd7b9698faffc4fedccad1befa531ed8a44a354bab0fb0c8",
+  "completed_full_run_records": 160,
+  "planned_full_run_records": 500,
+  "remaining_full_run_records": 340,
+  "next_record_id": "all__train_1521_greedy_0",
+  "completed_image_groups": 32,
+  "partial_next_image_records": 0,
+  "cache_and_trace_records_verified": 163,
+  "truncated_jsonl_tail_modes": [],
+  "uncommitted_orphan_files": [],
+  "plan_sha256": "32c339c693fe7dafa48af4195c9711049094f0518754228d3e9603a27e57e2c6",
+  "gpu_after_stop": "NVIDIA A100-SXM4-80GB, 4 MiB, 0 %"
+}

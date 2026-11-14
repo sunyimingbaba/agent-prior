@@ -1,0 +1,44 @@
+{
+  "status": "complete",
+  "phases": [
+    {
+      "args": [
+        "test_contract.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.166853453963995
+    },
+    {
+      "args": [
+        "preflight.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 25.607585681136698
+    },
+    {
+      "args": [
+        "build_quantity_features.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 18.90608886280097
+    },
+    {
+      "args": [
+        "verify_historical_anchors.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 22.572738040005788
+    },
+    {
+      "args": [
+        "generate_quantity.py",
+        "--mode",
+        "smoke"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 41.56029898207635
+    }
+  ],
+  "elapsed_seconds": 111.81359642581083,
+  "completed_at_utc": "2026-11-14T04:55:05.917457+00:00"
+}

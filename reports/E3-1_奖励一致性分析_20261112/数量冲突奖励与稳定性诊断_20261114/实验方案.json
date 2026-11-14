@@ -1,0 +1,130 @@
+{
+  "base_root": "/private/AGSE_E1_20261110/legacy",
+  "source_run_root": "/private/AGSE_E3_1_rebuild_20261112/fixed_tool_22_20261113",
+  "source_plan_sha256": "fb5adc4de0f84f78fb69d8995bd2342b18763182f88ccd093a7d028b9f1403bf",
+  "model_hashes": {
+    "lora_weights_sha256": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+    "clip_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+    "scene_head_sha256": "275f041920aa5747e9d90d6e14c79fb341882948bcf17cf02ae159d35cc9540b"
+  },
+  "utility_model_sha256": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc",
+  "rollout": {
+    "max_rounds": 3,
+    "max_new_tokens_per_round": 256,
+    "min_new_tokens": 1,
+    "temperature": 1.0,
+    "top_k": 0,
+    "top_p": 1.0,
+    "repetition_penalty": 1.0,
+    "tool_threshold": 0.0,
+    "tool": "actual scene_classify, registered tool calls only, role-separated feedback",
+    "state": "same last valid decoding-step final-layer final-position hidden tensor is cached and passed to frozen scorer; no terminal forward-state replacement",
+    "quality": "nonempty completed answer, no generated result tags, no mixed/unknown tool calls, no addCriterion, no token-limit or round-limit; failures retained",
+    "format_reward": "0.2 exactly when new rollout quality passes, otherwise 0.0; stricter than historical regex-only bonus",
+    "sampling_distribution": "untruncated categorical softmax; first-token EOS suppression from min_new_tokens=1 is identically applied in policy logprob",
+    "tool_boundary_stop": "stop immediately once a registered scene_classify call has been generated, closing tag optional; execute actual tool before sampling any result text"
+  },
+  "stage": "frozen-policy quantity-counterfactual reward and generation stability diagnostic",
+  "created_at_utc": "2026-11-14T04:49:06.110739+00:00",
+  "remote_root": "/private/AGSE_E3_1_rebuild_20261112/quantity_counterfactual_20261114",
+  "policy": {
+    "checkpoint": "/private/AGSE_E3_1_rebuild_20261112/separated_hard_negative_20261114/training/format_only/checkpoint",
+    "lora_tensor_hash": "c742c8dab5499595fd7b9698faffc4fedccad1befa531ed8a44a354bab0fb0c8",
+    "adapter_sha256": "279dcba41412b4a4a253aea01d084f9cb1a94d5d1bf359e24d00853b26ecb461",
+    "source_archive_name": "separated_format_only_checkpoint_20261114.tar.gz",
+    "source_archive_sha256": "e27e8e7f7f226959f66cffc2adb1632cfa3f52626fc41d73ef8b6b0709ee8808",
+    "source_archive_bytes": 356464373,
+    "source_remote_archive": "/private/AGSE_E3_1_rebuild_20261112/separated_format_only_checkpoint_20261114.tar.gz",
+    "source_local_archive": "/Users/botlv/CUP-code/reports/E3-1_奖励一致性分析_20261112/训练验证分离与困难负样本_20261114/模型检查点/separated_format_only_checkpoint_20261114.tar.gz",
+    "new_policy_updates_in_this_stage": 0,
+    "inherited_optimization_images": [
+      "1054.tif",
+      "1172.tif",
+      "1209.tif",
+      "1366.tif",
+      "1476.tif",
+      "154.tif",
+      "1565.tif",
+      "1655.tif",
+      "1727.tif",
+      "1832.tif",
+      "1913.tif",
+      "2049.tif",
+      "251.tif",
+      "331.tif",
+      "406.tif",
+      "644.tif",
+      "709.tif",
+      "802.tif",
+      "951.tif"
+    ],
+    "overlap_with_current_100_images": 0
+  },
+  "prompt": "Describe the visible scene.",
+  "training_split_images": 78,
+  "validation_split_images": 22,
+  "optimization_updates": 0,
+  "generation": {
+    "greedy_per_image": 1,
+    "sample_seeds": "800000 + image_order_index*4 + sample_index",
+    "samples_per_image": 4,
+    "temperature": 1.0,
+    "expected_records": 500
+  },
+  "selectors": {
+    "greedy": "greedy trajectory",
+    "sample_mean": "image mean of all four sampled trajectories",
+    "format_first": "first quality-usable sample; fallback greedy",
+    "quantity_raw": "sample with greatest A margin, stable first-index tie break",
+    "quantity_quality": "quality-usable sample with greatest A margin; fallback greedy",
+    "reverse_quality": "quality-usable sample with smallest A margin; fallback greedy"
+  },
+  "analysis": {
+    "reward_template": "A",
+    "heldout_wording": "B",
+    "selection_scope": "offline label-assisted candidate diagnostics; A selection uses confirmed target counts",
+    "primary": "train78 image-mean B margin: quantity_quality minus format_first",
+    "secondary": [
+      "B PairAcc",
+      "A margin and PairAcc",
+      "generation quality",
+      "real tool use",
+      "within-image A/B ranking concordance",
+      "val22 B transfer and original391-caption RR"
+    ],
+    "bootstrap": {
+      "resamples": 10000,
+      "seed": 2026111418,
+      "unit": "image",
+      "interval": "percentile 2.5/97.5"
+    },
+    "next_training_gate": {
+      "train_generation_quality_min": 0.9,
+      "train_images_with_2_usable_and_A_range_above_1e_6_min": 47,
+      "heldout_B_margin_gain_min": 0.0001,
+      "heldout_B_margin_paired_ci_lower_above_zero": true,
+      "heldout_B_pairacc_at_least_format_first": true,
+      "max_A_vs_reverse_A_B_margin_ci_lower_above_zero": true,
+      "quality_selected_min": 0.95
+    },
+    "validation_role": "separate diagnostics, excluded from next-training gate",
+    "known_scope": "previously examined E1 val22; existing checkpoint provenance retained; confirmed count vocabulary and fixed templates shared across splits"
+  },
+  "cases_sha256": "6570a3235c13dc7bdd4833b626de96a068d3c2a346f0193aa67bed87fdbe3061",
+  "inputs_sha256": {
+    "inputs/model_reference.json": "34de2e00730a403320e435c3d710857c6701e2034fb7321c5b3352ed0be2dfd7",
+    "inputs/source_provenance.json": "1d4f306f55c2e7f4691f0b56397ea928b22840f1126e82094a07a67fcfd18ee8",
+    "inputs/e1_pair_scores.csv": "31efe5e15f1d9d49cde61cb53562721f6b5ab04f4b4ae72d5db6fb52bdd9b97f",
+    "inputs/e1_supplement_confirmations.csv": "2333b7ca5f6077bea103676398c3a8fe7a531540e01b7f74bac47000635816b0",
+    "inputs/cases.json": "6570a3235c13dc7bdd4833b626de96a068d3c2a346f0193aa67bed87fdbe3061",
+    "inputs/e1_alignment_audit.csv": "d6618864396f5808abd3a6b0d2ad0bd10612e4fefc25b2fa7876b3f01f3abd54",
+    "inputs/e1_overlap_pixel_evidence.csv": "61d03d944c2cf039333b2063e2d9e59845cd7461e64a7f488893d89ae2f0a149",
+    "inputs/e1_final_100.csv": "7f59cc910cd1f3ebaf3200030e1e803931556c5f0429d90dd9e8ed09c150e2df",
+    "inputs/e1_overlap_removals.csv": "73c1921bf95bc99cb83d3ceb78ec1b498bacc27324e5b81999f3ae5fedf99a40"
+  },
+  "shared_code_sha256": {
+    "live_rollout.py": "23de6bfb86dfd73f3527284a7bbe830474664a787122d5dd2ec9cfe759a2f18a",
+    "checkpoint_io.py": "30ff45b41141734fee744b02165cc0dbd60bf292100569399c7d751e250b8073",
+    "test_contract.py": "8be3fe86f7024922dfffd2a5f83103a49a437acf2f98edbf7ffd479bb5350190"
+  }
+}
