@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "error": null,
+  "steps": [
+    {
+      "script": [
+        "analyze_stage.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": [
+        "verify_stage.py",
+        "--root",
+        "/private/AGSE_E3_1_rebuild_20261112/quantity_sampling_permutation_20261115",
+        "--out",
+        "/private/AGSE_E3_1_rebuild_20261112/quantity_sampling_permutation_20261115/服务器独立核验.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": [
+        "audit_sources.py"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "finished_at_utc": "2026-11-15T11:04:50.209572+00:00"
+}

@@ -1,0 +1,79 @@
+{
+  "ok": true,
+  "archive_name": "full_tool_supervision_checkpoint_20261114.tar.gz",
+  "remote_archive": "/private/AGSE_E3_1_rebuild_20261112/full_tool_supervision_checkpoint_20261114.tar.gz",
+  "archive_sha256": "ffddaeda587631002335aaa0c9aa0c4c668cb681bb6ef3af4dc7db55a3aa9957",
+  "archive_bytes": 1065804416,
+  "lora_tensor_hash": "10cb14e3f10f94eeaa8cc98f84b5fe7f9abd05d97cbc26ad4b219efde88017cb",
+  "optimizer_updates": 30,
+  "files": {
+    "optimizer.pt": {
+      "bytes": 761923050,
+      "sha256": "b4a418d88b4bb397cf632e4807cbdc9809f6683834ad9bf5e6b001a232268640"
+    },
+    "video_preprocessor_config.json": {
+      "bytes": 913,
+      "sha256": "15bb7c2f2bc95fe9cc3749a4b287872b4886a15e9fcf550a4122a46ae26150bd"
+    },
+    "vocab.json": {
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "adapter_model.safetensors": {
+      "bytes": 380800528,
+      "sha256": "081a819f34075f11589d3ddb9e871bbdebdad0790392111de4d59be32eccc610"
+    },
+    "tokenizer_config.json": {
+      "bytes": 4730,
+      "sha256": "e04be4dd17e9f661bc487ba848a37f66a8f1adf2eef412f5d4ecb40cab4d39e7"
+    },
+    "torch_rng.pt": {
+      "bytes": 6500,
+      "sha256": "adebcfc137f44ed233e3d824649525eb26730a2a3219568c34125c4ee7ca20e5"
+    },
+    "chat_template.jinja": {
+      "bytes": 1017,
+      "sha256": "a0bc6f6fc7a29a80017a433e8f03a1cc1236e838a944a2d034295a60c4f2fddb"
+    },
+    "adapter_config.json": {
+      "bytes": 753,
+      "sha256": "42be99fe24cb55f993d8bb93c67bcd28446a7461c2cfd7ed048f3d9dba4cf445"
+    },
+    "special_tokens_map.json": {
+      "bytes": 613,
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+    },
+    "added_tokens.json": {
+      "bytes": 605,
+      "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b"
+    },
+    "training_state.json": {
+      "bytes": 420,
+      "sha256": "1fb73daecf411b9364adbd4a68fab439d59d3b819a870e97bd5bb7daff2df827"
+    },
+    "python_numpy_rng.json": {
+      "bytes": 22370,
+      "sha256": "00497eb4ed63e374269ddf30e233075369be559f5c75fe18e697750e19d04bd8"
+    },
+    "README.md": {
+      "bytes": 5076,
+      "sha256": "16003f82ca4b3d5d0be79ab070eb2a93022c7ea2fce5a2b32032d40e4db89033"
+    },
+    "tokenizer.json": {
+      "bytes": 11421896,
+      "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa"
+    },
+    "preprocessor_config.json": {
+      "bytes": 829,
+      "sha256": "dfc7263fe735989c65c290d394198c4724d5afc58bf15c815d5e2e25b00b51b1"
+    },
+    "merges.txt": {
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    }
+  },
+  "includes_optimizer_and_rng_state": true,
+  "initial_policy_lora_tensor_hash": "c742c8dab5499595fd7b9698faffc4fedccad1befa531ed8a44a354bab0fb0c8",
+  "base_root_reference": "/private/AGSE_E1_20261110/legacy",
+  "created_at_utc": "2026-11-14T09:31:00.859006+00:00"
+}

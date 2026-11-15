@@ -1,0 +1,103 @@
+{
+  "status": "frozen_followup_design",
+  "title": "原8训练图采样覆盖与跨图先验置换对照",
+  "reason": {
+    "training8_current4samples_B_hard_decision_varies_images": 0,
+    "confirmation55_after_varies_images": 6,
+    "confirmation_hard_vs_pair_gain_image": "2035.tif",
+    "confirmation_hard_vs_pair_macro_gain": {
+      "mean": 0.08333333333333333,
+      "interval95": [
+        0.0,
+        0.25
+      ],
+      "images": 52
+    },
+    "own_vs_shared_macro_B_hard": {
+      "mean": -0.09803921568627451,
+      "interval95": [
+        -0.25735294117647056,
+        0.0
+      ],
+      "images": 52
+    }
+  },
+  "gpu": "existing NVIDIA A100-SXM4-80GB legacy environment; verify /private mount and idle before launch",
+  "planned_remote_root": "/private/AGSE_E3_1_rebuild_20261112/quantity_sampling_permutation_20261115",
+  "parent_a100_directory": "/private/AGSE_E3_1_rebuild_20261112/balanced_quantity_32_a100_20261115",
+  "policies": [
+    {
+      "name": "initial_SFT30",
+      "lora_hash": "10cb14e3f10f94eeaa8cc98f84b5fe7f9abd05d97cbc26ad4b219efde88017cb"
+    },
+    {
+      "name": "balanced32",
+      "lora_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85"
+    }
+  ],
+  "images": [
+    "102.tif",
+    "120.tif",
+    "121.tif",
+    "124.tif",
+    "147.tif",
+    "933.tif",
+    "157.tif",
+    "1937.tif"
+  ],
+  "images_per_count": 2,
+  "counts": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "new_samples_per_image_per_policy": 16,
+  "new_trajectories": 256,
+  "reused_greedy_trajectories": 16,
+  "optimizer_updates": 0,
+  "generation": {
+    "query": "Describe the visible scene.",
+    "temperature": 1.0,
+    "top_k": 0,
+    "top_p": 1.0,
+    "min_new_tokens": 1,
+    "max_rounds": 3,
+    "max_new_tokens_per_round": 256,
+    "seed_formula": "2100000 + policy_index*10000 + image_index*16 + sample_index; zero-based, fixed image order",
+    "tool": "actual scene_classify result injection; preserve all failures",
+    "state": "actual final effective generate hidden state, BF16[3584], EOS stopping identical to parent"
+  },
+  "scorer": {
+    "sha256": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc",
+    "quantity_text_features": "reuse frozen56 texts/768d features without re-encoding",
+    "forward_grid": "for each policy and sample index, score all8 target images under all8 donor-image generated states. Also replay16 existing greedy states on full8x8 grids.",
+    "new_sample_state_target_records": 2048,
+    "greedy_state_target_records": 128,
+    "total_state_target_records": 2176,
+    "same_object_analysis": "6 airplane images separately; 1 sand-bunker and1 storage-tank image use full grid as supplementary object-mismatch sensitivity"
+  },
+  "primary_questions": [
+    "Does expanded sampling produce B all-cached-count decision variation or qualified correct candidates within original8 images?",
+    "Do A hard margins rank held-out-wording B margins consistently within each image?",
+    "Does own-image prior outperform the mean of seven swapped donor priors for the same target image and matched sampling index?"
+  ],
+  "analysis": {
+    "unit": "image; preserve all16 sampling trajectories within each image for paired image bootstrap",
+    "macro": "counts1..4 equal weight,2 images each",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026111557,
+    "metrics": [
+      "B hard_top1",
+      "B hard_margin",
+      "A/B within-image rank concordance",
+      "quality and actual-tool rates",
+      "qualified B-oracle candidate headroom"
+    ],
+    "selectors": "A pair/hard reward selectors pre-fixed as this offline diagnostic; B oracle descriptive only",
+    "policy_comparison": "report SFT30 and balanced32 separately; checkpoints fixed",
+    "samples_4_vs_16": "fixed prefix first4 versus all16 new trajectories for coverage; report historical4 separately because seeds differ"
+  },
+  "decision": "Determine whether to improve candidate coverage/reward ranking or investigate prior-state conditioning before any further policy updates. Any training design is recorded after this zero-update mechanism check.",
+  "evidence": "model/hash, exact token/hidden/tool trace,2176 frozen-score records, failed trajectories, independent CPU feature reconstruction; backup locally and /private, upload code/report/evidence to GitHub"
+}

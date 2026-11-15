@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "error": null,
+  "steps": [
+    {
+      "script": [
+        "preflight_stage.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": [
+        "generate_policy.py",
+        "--policy-index",
+        "0"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": [
+        "generate_policy.py",
+        "--policy-index",
+        "1"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": [
+        "score_grid.py"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "finished_at_utc": "2026-11-15T11:04:00.848451+00:00"
+}
