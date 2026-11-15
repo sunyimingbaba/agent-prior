@@ -1,0 +1,18 @@
+Looking in indexes: https://download.pytorch.org/whl/cu128
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7fd91a2a7f20>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /whl/cu128/torch/
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7fd919a37a40>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /whl/cu128/torch/
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7fd919a37b60>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /whl/cu128/torch/
+WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7fd919a37da0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /whl/cu128/torch/
+WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7fd919a37fb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /whl/cu128/torch/
+ERROR: Cannot install torch==2.7.1 because these package versions have conflicting dependencies.
+
+The conflict is caused by:
+    The user requested torch==2.7.1
+    The user requested (constraint) torch==2.7.1+cu128
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip to attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+CalledProcessError(1, ['/private/AGSE_E3_1_rebuild_20261112/rtx5090_runtime_20261115/env/bin/python', '-m', 'pip', 'install', 'torch==2.7.1', 'torchvision==0.22.1', 'torchaudio==2.7.1', '--index-url', 'https://download.pytorch.org/whl/cu128', '--constraint', '/private/AGSE_E3_1_rebuild_20261112/rtx5090_runtime_20261115/constraints.txt'])

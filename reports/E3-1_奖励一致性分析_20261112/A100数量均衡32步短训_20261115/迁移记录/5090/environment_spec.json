@@ -1,0 +1,33 @@
+{
+  "runtime_root": "/private/AGSE_E3_1_rebuild_20261112/rtx5090_runtime_20261115",
+  "base_python": "/opt/conda/envs/PyTorch-2.4.1/bin/python3.12",
+  "preserved_legacy_venv": "/private/AGSE_E1_20261110/legacy/env",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "observed_memory_MiB": 32108,
+  "observed_driver": "580.142",
+  "private_mount": "GPFS fs2[/private/user/lvjiacheng01]",
+  "method": "new venv with base system packages; copy preserved legacy venv site-packages; install Blackwell-capable torch stack into new venv only",
+  "target_versions": {
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128",
+    "torchaudio": "2.7.1+cu128",
+    "numpy": "1.26.4",
+    "transformers": "4.57.2",
+    "peft": "0.10.0",
+    "pytorch-lightning": "1.4.0",
+    "torchmetrics": "0.7.2",
+    "pyarrow": "14.0.0",
+    "timm": "0.5.4"
+  },
+  "torch_wheel_index": "https://download.pytorch.org/whl/cu128",
+  "runtime_shim": "bytewise copied legacy sitecustomize; same preserved asset shim and AdamW alias",
+  "required_acceptance": [
+    "seed0 CUDA16x16 forward/backward loss35.21732711791992 and finite gradients",
+    "actual sm_120 runtime",
+    "strict SFT update30 checkpoint restore",
+    "real tool and scorer forward",
+    "real LoRA backward and temporary Adam step with reset",
+    "fresh-agent documented invocation replay"
+  ],
+  "comparison": "new RTX5090 baseline and final evaluation use the same runtime and seeds"
+}

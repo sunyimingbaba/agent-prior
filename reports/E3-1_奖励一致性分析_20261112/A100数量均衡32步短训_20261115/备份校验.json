@@ -1,0 +1,26 @@
+{
+  "archive_name": "balanced_quantity32_evidence_20261115.tar.gz",
+  "remote_archive": "/private/AGSE_E3_1_rebuild_20261112/balanced_quantity32_evidence_20261115.tar.gz",
+  "remote_root": "/private/AGSE_E3_1_rebuild_20261112/balanced_quantity_32_a100_20261115",
+  "archive_sha256": "a8796d61043282d6a3e3e0fd63ded985c5d5eb796c9b564f2960c329257b8992",
+  "archive_bytes": 71609959,
+  "archive_files": 1207,
+  "manifest_files": 1206,
+  "excluded": [
+    "scratch",
+    "__pycache__",
+    "training/*/checkpoint (separate model archive)"
+  ],
+  "gpu_after_run": "NVIDIA A100-SXM4-80GB, 4 MiB, 0 %",
+  "created_at_utc": "2026-11-15T10:01:09.565130+00:00",
+  "local_copy_verification": "passed",
+  "local_file_hashes_verified": 1206,
+  "existing_files_confirmed_unchanged": 1199,
+  "new_files_restored": 8,
+  "verified_at_utc": "2026-11-15T10:02:06.243624+00:00",
+  "delivery_files_verified_local_and_remote": 67,
+  "independent_local_reconstruction": "passed",
+  "final_model_archive_sha256": "55e2737695e943252ca888a7985a9f787adf04e10bd6074bad6baeb2f61621be",
+  "final_model_local_verification": "passed",
+  "gpu_idle_after_run": true
+}

@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "error": null,
+  "phases": [
+    {
+      "args": [
+        "score_stage.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 51.45357979205437
+    },
+    {
+      "args": [
+        "analyze_stage.py",
+        "--root",
+        "/private/AGSE_E3_1_rebuild_20261112/balanced_quantity_32_a100_20261115"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 4.447675409959629
+    },
+    {
+      "args": [
+        "verify_stage.py",
+        "--root",
+        "/private/AGSE_E3_1_rebuild_20261112/balanced_quantity_32_a100_20261115",
+        "--out",
+        "/private/AGSE_E3_1_rebuild_20261112/balanced_quantity_32_a100_20261115/\u670d\u52a1\u5668\u72ec\u7acb\u6838\u9a8c.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 46.4153541540727
+    },
+    {
+      "args": [
+        "audit_sources.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 37.082193485228345
+    }
+  ],
+  "elapsed_seconds_including_wait": 1609.4431610570755,
+  "completed_at_utc": "2026-11-15T09:50:42.096251+00:00"
+}
