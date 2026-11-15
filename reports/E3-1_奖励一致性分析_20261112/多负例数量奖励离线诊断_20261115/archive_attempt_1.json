@@ -1,0 +1,16 @@
+{
+  "archive_name": "multineg_quantity_offline_evidence_20261115.tar.gz",
+  "archive_bytes": 1166266,
+  "archive_sha256": "d1ea92167cf44afeb7bb52e838f7796354e3a3eca250d510961b4fceb93fac9f",
+  "archive_files": 48,
+  "manifest_files": 47,
+  "local_archive_verification": "passed",
+  "remote_backup_status": "pending",
+  "new_optimizer_updates": 0,
+  "new_generated_trajectories": 0,
+  "parent_a100_evidence_sha256": "a8796d61043282d6a3e3e0fd63ded985c5d5eb796c9b564f2960c329257b8992",
+  "created_at_utc": "2026-11-15T10:34:00.001408+00:00",
+  "status": "incomplete_source_snapshot_retained_for_audit",
+  "issue": "Initial path exclusion also matched nested source_data/原始运行记录 and nested source backup metadata.",
+  "corrected": "Final archive explicitly requires all9 frozen source inputs; extraction and CPU replay independently passed."
+}

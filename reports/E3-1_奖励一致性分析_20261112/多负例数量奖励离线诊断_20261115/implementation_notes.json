@@ -1,0 +1,5 @@
+{
+  "original_advantage_replay": "Use recorded GPU float32 group mean and sample std to preserve exact32-step historical replay.",
+  "hypothetical_reward_advantages": "CPU float32 reward mean/std; these are offline diagnostics with zero optimizer steps.",
+  "frozen_plan_sha256": "ea88e212d1be7ee65ab336297cc2f055da3a49b03a481670b6a71e1162621e9e"
+}

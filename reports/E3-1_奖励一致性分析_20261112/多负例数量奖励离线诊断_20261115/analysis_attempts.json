@@ -1,0 +1,16 @@
+[
+  {
+    "attempt": 1,
+    "status": "failed_before_output",
+    "source_sha256": "e8b5ab4c8ad3b17ac0f50906cd2e8d164cd049d14da2ef7e9680989423ed3fe8",
+    "error": "NameError: json import missing",
+    "fix": "add import json; analysis plan and formulas unchanged"
+  },
+  {
+    "attempt": 2,
+    "status": "failed_before_output",
+    "source_sha256": "d8d412be1b68c93c539ef853afba6ea3f8603f6178293e5d51229aa43c67a102",
+    "error": "CPU float64 reward moments differ from recorded GPU float32 moments by rounding",
+    "fix": "original pair advantage uses recorded float32 moments; hypothetical new rewards use CPU float32 moments"
+  }
+]

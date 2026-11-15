@@ -1,0 +1,112 @@
+{
+  "stage": "offline_same_object_multi_negative_quantity_diagnostic",
+  "date": "2026-11-15",
+  "parent_directory": "A100数量均衡32步短训_20261115",
+  "parent_evidence_sha256": "a8796d61043282d6a3e3e0fd63ded985c5d5eb796c9b564f2960c329257b8992",
+  "input_files": {
+    "balanced_quantity32_evidence_20261115.tar.gz": {
+      "bytes": 71609959,
+      "sha256": "a8796d61043282d6a3e3e0fd63ded985c5d5eb796c9b564f2960c329257b8992"
+    },
+    "原始运行记录/scoring/all_scores.json": {
+      "bytes": 1619444,
+      "sha256": "0a10bffde2a8197e1ca67ea2f472e5089893e1c156a52121df1e53da729932e5"
+    },
+    "原始运行记录/scoring/tensors.pt": {
+      "bytes": 4274452,
+      "sha256": "c240d44b313aa58ea36dea729979325552d44ec88579d76966d29bf5db1973b8"
+    },
+    "原始运行记录/features/gallery.json": {
+      "bytes": 44774,
+      "sha256": "2c9385ff1fb1ccc54d04127220f34b91ea23c471281bc72540b5371478f98793"
+    },
+    "原始运行记录/features/tensors.pt": {
+      "bytes": 1460632,
+      "sha256": "e13f9a9460aa32b1f2a615075e8407bc575a8f91f4a53edf59963ab658b02c9d"
+    },
+    "原始运行记录/inputs/evaluation_cases.json": {
+      "bytes": 103009,
+      "sha256": "0403328b37b7153f27ff1d2faa059d59141d017db8aa9f0c49938280ad75598a"
+    },
+    "原始运行记录/plan.json": {
+      "bytes": 12723,
+      "sha256": "19589700d2e5e81ead05a2ba1177434d766e97138ca000f39d2ab50891d0c578"
+    },
+    "原始运行记录/training/updates.jsonl": {
+      "bytes": 229986,
+      "sha256": "75e97ea7d5ed2b96c3c6e8062cfd6a0c9aa1f1465a0815629f9fba6335f2f531"
+    },
+    "本机独立核验.json": {
+      "bytes": 876,
+      "sha256": "3ee1e8647b34b635556da142e8c8bf522030d77afe1edadab4cfb794ec888523"
+    },
+    "备份校验.json": {
+      "bytes": 1133,
+      "sha256": "3878e3ea8b399ffbdd3bb5e3a3ff990f3644a5dfccb0b8402200756267e81c2c"
+    }
+  },
+  "execution": {
+    "device": "cpu",
+    "optimizer_updates": 0,
+    "new_generated_trajectories": 0,
+    "source_score_records": 1148,
+    "evaluation_candidate_groups": 170,
+    "training_groups": 32,
+    "python": "3.12.7",
+    "torch": "2.11.0",
+    "numpy": "2.4.4"
+  },
+  "negative_pool": "For each object and wording, use every count already in frozen quantity_text_order; positive is the user-confirmed actual count, all other cached counts are negatives. Preserve object-specific coverage.",
+  "score_precision": "Primary frozen float32 similarities; float64 dot products provide independent numerical sensitivity check. No re-encoding or model changes.",
+  "formulas": {
+    "pair_margin": "s_positive - s_original_negative",
+    "hard_margin": "s_positive - max(s_all_other_cached_counts)",
+    "mean_margin": "s_positive - mean(s_all_other_cached_counts)",
+    "hard_top1": "hard_margin > 0 (strict, any tie fails)",
+    "mean_pair_accuracy": "mean(s_positive > s_negative over cached wrong counts)",
+    "reward": "0.2 * quality_usable + A_margin",
+    "advantage": "(reward - group_mean)/(sample_std_ddof1 + 1e-8)"
+  },
+  "selectors": {
+    "uniform": "mean metrics over all four candidates; reference expectation",
+    "greedy": "saved greedy trajectory",
+    "pair_total": "argmax 0.2*quality + original A pair margin",
+    "hard_total": "argmax 0.2*quality + A hard margin (primary proposed selector)",
+    "mean_total": "argmax 0.2*quality + A mean margin (secondary diagnostic)",
+    "hard_quality_first": "restrict to quality_usable if any, then argmax A hard margin; fall back all four if no qualified candidate",
+    "B_oracle_quality_first": "same quality restriction, maximize B hard margin; descriptive candidate-pool upper bound"
+  },
+  "deterministic_ties": "lowest candidate seed; training ties lowest sample index. Original pair correctness and multi-negative top1 use strict >0.",
+  "cohorts": {
+    "training8": "original 8 training images; inspect reward mechanics",
+    "confirmation55": "remaining55 train images; primary confirmation count-macro uses52 with counts1..4",
+    "existing_val22": "supplementary only"
+  },
+  "primary_arm": "after fixed update32",
+  "primary_metric": "B hard_top1 count-macro over1..4",
+  "primary_contrasts": [
+    "hard_total-minus-pair_total",
+    "hard_total-minus-uniform"
+  ],
+  "bootstrap": {
+    "unit": "image",
+    "replicates": 10000,
+    "seed": 2026111556,
+    "macro": "equal weight counts1..4; resample images within each count",
+    "raw": "equal image weight; resample image pairs",
+    "label_seed": "(seed + first8hex SHA256(label)) mod2**32",
+    "interval": "percentile2.5,97.5; paired contrast"
+  },
+  "selection_analysis": "All170 fixed-policy groups and32 on-policy training groups are replayed. B evaluations stay separate from A-based selector definitions. Training groups include policy versions and are descriptive only.",
+  "recommendation_gate": {
+    "all_objects_have_at_least_two_wrong_counts": true,
+    "training_image_count_coverage_1_to_4_two_each": true,
+    "after_confirmation_hard_vs_pair_B_macro_CI_lower_strictly_positive": true,
+    "after_confirmation_hard_vs_uniform_B_macro_CI_lower_strictly_positive": true,
+    "after_confirmation_own_vs_shared_greedy_B_hard_macro_CI_lower_strictly_positive": true,
+    "after_confirmation_hard_selected_strict_quality_at_least_95pct": true,
+    "training8_hard_vs_pair_B_macro_change_nonnegative": true
+  },
+  "followup": "If all recommendation gates pass, freeze matched32-update comparison design for pair and hard reward. Otherwise audit reward/state sensitivity on frozen features, choose the next offline intervention from observed failure and record a concrete plan. No automatic extension beyond this offline stage.",
+  "fact_review": "Generated text semantic and counting accuracy remains [待确认]; scorer diagnostics describe frozen embedding discrimination."
+}
