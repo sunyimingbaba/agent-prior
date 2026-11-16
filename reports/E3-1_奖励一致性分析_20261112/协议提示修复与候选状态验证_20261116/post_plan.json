@@ -1,0 +1,21 @@
+{
+  "sealed_utc": "2026-11-16T10:58:42.048434+00:00",
+  "entries": [
+    "analyze_states.py",
+    "verify_generation.py",
+    "verify_evaluation.py",
+    "verify_descriptive.py",
+    "audit_originals.py"
+  ],
+  "retrieval_protocols": 3,
+  "readout_conditions": 270,
+  "retrieval_metric_values": 5670,
+  "quantity_summary_values": 6480,
+  "retrieval_intervals": 102,
+  "quantity_intervals": 136,
+  "source_rows": 79650,
+  "contrast_arithmetic": "subtract paired image/count outcomes before averaging20 permutations, so identical outcome profiles have exact zero deltas",
+  "interval_scope": "nominal pointwise, fixed readout/galleries and20 finite maps",
+  "strict_edge_check": "independent raw scan of dangling closing tool tags; any claimed-strict discrepancy stops verification and is investigated",
+  "test_examples_scored": 0
+}
