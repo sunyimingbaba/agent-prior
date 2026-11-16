@@ -1,0 +1,21 @@
+{
+  "mount": "fs2[/private/user/lvjiacheng01] /private gpfs",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "memory_total_MiB": 81920,
+  "memory_used_MiB_before_launch": 4,
+  "utilization_percent_before_launch": 0,
+  "runtime_python": "/private/AGSE_E1_20261110/legacy/env/bin/python",
+  "warm_reuse_kernel_loss": 35.21732711791992,
+  "warm_reuse_kernel_gradient_finite": true,
+  "warm_reuse_packages_unchanged": {
+    "torch": "2.4.1+cu124",
+    "torchvision": "0.19.1+cu124",
+    "transformers": "4.57.2",
+    "peft": "0.10.0",
+    "numpy": "1.26.4",
+    "pyarrow": "14.0.0"
+  },
+  "provider_environment_ledger_sha256": "f0ff2fbf62e7c4df732df3a91ae5d7e17aeb4da65180c8b65dd4a45285eb1300",
+  "environment_rebuilds": 0,
+  "source": "same-turn matched_remote_preflight and matched_warm_kernel SSH outputs before cache launch"
+}

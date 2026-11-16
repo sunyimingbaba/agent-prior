@@ -1,0 +1,48 @@
+{
+  "selection": "all four 10-epoch val-selected checkpoint hashes sealed before test caption access",
+  "test_arms": [
+    "native",
+    "calibrated_own",
+    "calibrated_shared",
+    "learned_visual_only",
+    "native_same_checkpoint_shared",
+    "calibrated_own_same_checkpoint_shared"
+  ],
+  "test_gallery": "original210 images/1050 captions; repository duplicate-token-equivalent positive rule; float32 saved score matrix/top-k authoritative",
+  "quantity": "original85 labeled images,63 train and22 val; four selected readouts, fixed original56 candidate texts; all-count strict top1 and original pair metrics; train63 are training diagnostics after readout adaptation",
+  "test_contrasts": [
+    [
+      "calibrated_own",
+      "native"
+    ],
+    [
+      "calibrated_own",
+      "calibrated_shared"
+    ],
+    [
+      "calibrated_own",
+      "learned_visual_only"
+    ],
+    [
+      "native",
+      "native_same_checkpoint_shared"
+    ],
+    [
+      "calibrated_own",
+      "calibrated_own_same_checkpoint_shared"
+    ]
+  ],
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 2026111604,
+  "bootstrap_unit": "paired image with all its caption queries; fixed gallery",
+  "training_implementation": "v4 adds per-batch equality to presealed sample indices and identical caption/parameter-set checks; v3 CPU preflight retained",
+  "all_test_results_reported": true,
+  "protocols": [
+    "repository_duplicate_token_positive",
+    "strict_image_correspondence"
+  ],
+  "primary_protocol": "repository_duplicate_token_positive",
+  "supplementary_protocol": "strict exact image-to-caption ownership; fixed before test; not used for training/model selection",
+  "source_preservation": "all77 original Python, all3 Arrow, original CLIP/AGSE/scene head, Qwen15assets, old32LoRA files and1458 parent evidence files rehashed after work",
+  "verification": "server and local CPU rebuilds of order/checkpoints/metrics/bootstrap; original CPU preflight preserved with revisions"
+}
