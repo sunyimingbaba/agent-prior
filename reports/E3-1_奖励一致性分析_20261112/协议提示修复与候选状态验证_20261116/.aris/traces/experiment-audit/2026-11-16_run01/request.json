@@ -1,0 +1,21 @@
+{
+  "skill": "/Users/botlv/.codex/skills/experiment-audit/SKILL.md",
+  "agent_id": "/root/protocol_supervision_integrity_review",
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_reasoning": "ultra",
+  "fork_turns": "none",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "scope": [
+    "executed SFT format masks and targets",
+    "RL assistant-only logprob/source roles",
+    "prompt coverage and controller boundaries",
+    "historical frozen counterfactual protocol evidence"
+  ],
+  "historical_roots": [
+    "../完整工具调用监督训练_20261114",
+    "../A100数量均衡32步短训_20261115",
+    "../图像依赖性与提示对照诊断_20261116"
+  ],
+  "created_utc": "2026-11-16T10:25:29.789383+00:00"
+}

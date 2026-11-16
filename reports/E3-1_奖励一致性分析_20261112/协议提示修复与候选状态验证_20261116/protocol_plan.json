@@ -1,0 +1,151 @@
+{
+  "stage": "protocol_prompt_repair_and_state_readability",
+  "remote_root": "/private/AGSE_E3_1_rebuild_20261112/protocol_prompt_state_validation_20261116",
+  "diagnostic_parent": "/private/AGSE_E3_1_rebuild_20261112/image_dependence_diagnostics_20261116",
+  "matched_parent": "/private/AGSE_E3_1_rebuild_20261112/image_only_matched_readout_20261116",
+  "sft_parent": "/private/AGSE_E3_1_rebuild_20261112/full_tool_supervision_20261114",
+  "rl_parent": "/private/AGSE_E3_1_rebuild_20261112/balanced_quantity_32_a100_20261115",
+  "runtime_python": "/private/AGSE_E1_20261110/legacy/env/bin/python",
+  "policy": {
+    "name": "balanced32",
+    "lora_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85",
+    "checkpoint": "/private/AGSE_E3_1_rebuild_20261112/balanced_quantity_32_a100_20261115/training/final/checkpoint",
+    "checkpoint_manifest": "inputs/balanced_checkpoint_reference.json"
+  },
+  "query": "Describe the visible scene.",
+  "rollout": {
+    "max_rounds": 3,
+    "max_new_tokens_per_round": 256,
+    "min_new_tokens": 1,
+    "temperature": 1.0,
+    "top_k": 0,
+    "top_p": 1.0,
+    "repetition_penalty": 1.0,
+    "tool_threshold": 0.0,
+    "tool": "actual scene_classify, registered tool calls only, role-separated feedback",
+    "state": "same last valid decoding-step final-layer final-position hidden tensor is cached and passed to frozen scorer; no terminal forward-state replacement",
+    "quality": "nonempty completed answer, no generated result tags, no mixed/unknown tool calls, no addCriterion, no token-limit or round-limit; failures retained",
+    "format_reward": "0.2 exactly when new rollout quality passes, otherwise 0.0; stricter than historical regex-only bonus",
+    "sampling_distribution": "untruncated categorical softmax; first-token EOS suppression from min_new_tokens=1 is identically applied in policy logprob",
+    "tool_boundary_stop": "complete scene_classify closing tag only; answers end on native configured EOS"
+  },
+  "cohort": {
+    "train": 63,
+    "val": 210,
+    "total": 273
+  },
+  "prompt_candidates_priority": [
+    "contract_only",
+    "neutral_placeholder",
+    "rotated_actual3"
+  ],
+  "pilot": {
+    "split": "train63",
+    "new_generations": 189,
+    "temperature": 0.0,
+    "seed_per_image": 0,
+    "gate": "at least95% strict completed answers with a model-requested tool and consumed recorded real feedback; generated-result failure at most2%",
+    "selection": "first passing prompt by fixed priority, only train63 protocol outcomes used; no utility/val based selection"
+  },
+  "baseline": "same legacy harbor prompt;273 exact state replays plus2 training warm anchors, each saves complete final-layer decode-step matrices",
+  "fallback_training": {
+    "trigger": "no prompt candidate passes train63 gate",
+    "updates": 30,
+    "initial_policy": "same balanced32",
+    "teacher_images": 15,
+    "epochs": 2,
+    "prompts_per_image": 3,
+    "assistant_targets_per_image": 6,
+    "loss": "existing SFT format-token loss, answer body/user/tool feedback excluded; normalize all6 assistant targets by active-format-token count",
+    "optimizer": "AdamW",
+    "lr": 1e-05,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.0,
+    "gradient_clip": 1.0,
+    "seed": 2026111610,
+    "selection": "fixed final30; repeat same train63 gates only",
+    "training_image_overlap_with_train63": 0
+  },
+  "state_families": [
+    "legacy_last",
+    "legacy_answer_prefill",
+    "legacy_answer_pool",
+    "selected_last",
+    "selected_answer_prefill",
+    "selected_answer_pool"
+  ],
+  "state_contract": {
+    "last": "unchanged last actual generate final-layer final-position state",
+    "answer_prefill": "first generate-step state of final strict answer round after requested tool feedback; last prompt token representation",
+    "answer_pool": "mean of actual generate states whose INPUT token lies wholly within answer body; byte-level actual-token alignment, step index=generated token index+1; float64 CPU mean cast BF16",
+    "undefined": "retain case; fall back to same-trajectory last state with reason and explicit coverage; no case filtering",
+    "raw_evidence": "save every final-layer actual generation-step state, emitted IDs, input IDs and body-byte spans"
+  },
+  "evaluation": {
+    "primary_readouts": [
+      "native",
+      "calibrated_own"
+    ],
+    "negative_readouts": [
+      "calibrated_shared",
+      "learned_visual_only"
+    ],
+    "val_images": 210,
+    "val_captions": 1050,
+    "quantity_cases": 85,
+    "protocols": [
+      "repository_duplicate_token_positive",
+      "strict_image_correspondence",
+      "strict_tie_averaged"
+    ],
+    "state_sources": [
+      "correct",
+      "shared_training102",
+      "permutation_00",
+      "permutation_01",
+      "permutation_02",
+      "permutation_03",
+      "permutation_04",
+      "permutation_05",
+      "permutation_06",
+      "permutation_07",
+      "permutation_08",
+      "permutation_09",
+      "permutation_10",
+      "permutation_11",
+      "permutation_12",
+      "permutation_13",
+      "permutation_14",
+      "permutation_15",
+      "permutation_16",
+      "permutation_17",
+      "permutation_18",
+      "permutation_19"
+    ],
+    "permutation": "same20fullval210 derangements as previous stage; train63 within-cohort derangements seed2026111609; preserve family state multiset",
+    "negative_conditions": [
+      "legacy_last/correct",
+      "selected_answer_prefill/permutation_00",
+      "selected_answer_pool/shared_training102"
+    ],
+    "expected_readout_conditions": 270,
+    "source_rows": 79650,
+    "reuse": "primary readouts only: legacy_last correct+20previous validation matrices reused after exact source/state/checkpoint proof; quantity recomputed for cohort-local train permutations",
+    "compact_storage": "text features once per readout, prior banks once per family/split; each forward saves image features, scores and top-k plus source indices"
+  },
+  "analysis": {
+    "bootstrap": 10000,
+    "seed": 2026111611,
+    "unit": "paired validation image cluster, same5captions; quantity stratified true counts1..4",
+    "contrasts": "correct minus20permmean; correct minusshared within6families; prefill/pool minuslast within each prompt; selected_last minuslegacy_last",
+    "all_conditions_reported": true,
+    "interval_scope": "fixed model/val gallery and finite20 mappings, nominal pointwise95%"
+  },
+  "test_examples_scored": 0,
+  "readout_optimizer_updates": 0,
+  "report_node": "executed supervision-mask audit + train-chosen repaired protocol +273image state extraction and all matched controls + dual reconstruction/backups/GitHub"
+}

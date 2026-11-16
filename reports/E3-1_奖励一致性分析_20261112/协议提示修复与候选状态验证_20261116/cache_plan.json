@@ -1,0 +1,58 @@
+{
+  "stage": "protocol_prompt_repair_and_candidate_generation_states",
+  "remote_root": "/private/AGSE_E3_1_rebuild_20261112/protocol_prompt_state_validation_20261116",
+  "base_root": "/private/AGSE_E1_20261110/legacy",
+  "parent_root": "/private/AGSE_E3_1_rebuild_20261112/prior_injection_calibration_20261116",
+  "source_run_root": "/private/AGSE_E3_1_rebuild_20261112/fixed_tool_22_20261113",
+  "runtime_python": "/private/AGSE_E1_20261110/legacy/env/bin/python",
+  "utility_model_sha256": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc",
+  "model_hashes": {
+    "lora_weights_sha256": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+    "clip_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+    "scene_head_sha256": "275f041920aa5747e9d90d6e14c79fb341882948bcf17cf02ae159d35cc9540b"
+  },
+  "policies": [
+    {
+      "name": "balanced32",
+      "lora_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85",
+      "checkpoint": "/private/AGSE_E3_1_rebuild_20261112/balanced_quantity_32_a100_20261115/training/final/checkpoint",
+      "checkpoint_manifest": "inputs/balanced_checkpoint_reference.json"
+    }
+  ],
+  "prompt": "Describe the visible scene.",
+  "rollout": {
+    "max_rounds": 3,
+    "max_new_tokens_per_round": 256,
+    "min_new_tokens": 1,
+    "temperature": 1.0,
+    "top_k": 0,
+    "top_p": 1.0,
+    "repetition_penalty": 1.0,
+    "tool_threshold": 0.0,
+    "tool": "actual scene_classify, registered tool calls only, role-separated feedback",
+    "state": "same last valid decoding-step final-layer final-position hidden tensor is cached and passed to frozen scorer; no terminal forward-state replacement",
+    "quality": "nonempty completed answer, no generated result tags, no mixed/unknown tool calls, no addCriterion, no token-limit or round-limit; failures retained",
+    "format_reward": "0.2 exactly when new rollout quality passes, otherwise 0.0; stricter than historical regex-only bonus",
+    "sampling_distribution": "untruncated categorical softmax; first-token EOS suppression from min_new_tokens=1 is identically applied in policy logprob",
+    "tool_boundary_stop": "complete scene_classify closing tag only; answers end on native configured EOS"
+  },
+  "cache": {
+    "splits": {
+      "train": 1680,
+      "val": 210,
+      "test": 210
+    },
+    "new_states": 1890,
+    "reused_val_states": 210,
+    "warm_anchor_replays": 2,
+    "temperature": 0.0,
+    "seed_per_image": 0,
+    "caption_conditioning": "fixed generic query only; annotations not passed to generator",
+    "resume": "per-image state+trace+record hashes; existing completed entries are verified and reused"
+  },
+  "optimizer_updates_during_generation": 0,
+  "parent_evidence_sha256": "00b4ae45ffaa4a2545f1dda68a5177c1e64d2b605c2bdc415ac6683f4856b9b4",
+  "report_node": "2100 cache + four matched readout adaptation arms + val selection + held-out test retrieval and quantity controls; dual-end verification and GitHub",
+  "matched_parent_root": "/private/AGSE_E3_1_rebuild_20261112/image_only_matched_readout_20261116",
+  "diagnostic_parent_root": "/private/AGSE_E3_1_rebuild_20261112/image_dependence_diagnostics_20261116"
+}
