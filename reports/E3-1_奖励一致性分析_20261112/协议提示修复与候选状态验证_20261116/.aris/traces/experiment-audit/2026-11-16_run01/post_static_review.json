@@ -1,0 +1,171 @@
+{
+  "audit_skill": "experiment-audit",
+  "scope": "static_evaluation_and_postprocessing_review",
+  "generated_at": "2026-11-16T11:07:36.410795+00:00",
+  "reviewer": "gpt-6-astra",
+  "reviewer_reasoning": "ultra",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "overall_verdict": "WARN",
+  "reason_code": "source_binding_supplements_and_pending_new_results",
+  "server_access_in_this_review": false,
+  "new_results_verified": false,
+  "checks": [
+    {
+      "id": "A",
+      "name": "GT provenance",
+      "status": "PASS",
+      "details": "检索标签使用原始验证图文从属关系。冻结验证集含210张图、1050条描述、391个唯一截断词元序列。数量任务使用85张已人工核对的图像，每图两种表述共170个正负配对，正文本的数量与人工确认数逐项一致。模型生成的描述只用于协议和状态提取。",
+      "evidence": [
+        "code/evaluate_states.py:37-55",
+        "code/analyze_states.py:11-16,37-50",
+        "inputs/quantity_cases.json:3-26"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Metrics, ties and paired inference",
+      "status": "PASS",
+      "details": "标准协议采用相同词元序列共享正例，严格图像协议采用数据集原配图像，严格并列协议在相同浮点分数的并列集合内均匀抽取。检索先按目标图像聚合其五条描述，计算同一目标的条件差后平均20个置换，进行10000次图像簇抽样。数量置信区间在真实数量1至4各层内配对抽样，各层等权。区间针对固定读出、固定图库和20个映射，为逐项名义区间。",
+      "evidence": [
+        "code/tie_metrics.py:4-14",
+        "code/analyze_states.py:12-27,33-36,52-68",
+        "code/verify_evaluation.py:31-40,87-104"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Result existence",
+      "status": "PENDING",
+      "details": "本次仅核验源代码、冻结输入和历史基线。新阶段指标、通过率、两端核验和完整归档需以实物复核。",
+      "evidence": [
+        "code/run_post.py:13-22",
+        "post_plan.json:10-20"
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Called execution paths and raw reconstruction",
+      "status": "PASS",
+      "details": "队列按顺序调用分析、生成核验、评估核验、描述统计及源文件核验。评估入口在效用计算前审计严格答案中的悬空工具标签。生成核验独立映射原始词元字节，重建末答第0步、正文词元j对应实际生成第j+1步及回退张量。锚点、历史末态、工具事件、原始逐步张量、负对照读出均设有检查。",
+      "evidence": [
+        "code/run_post.py:13-22",
+        "code/evaluate_states.py:19-23,79-86",
+        "code/verify_generation.py:19-62,74-89",
+        "code/verify_descriptive.py:12-27",
+        "code/audit_originals.py:6-31"
+      ]
+    },
+    {
+      "id": "E",
+      "name": "Scope and source binding",
+      "status": "WARN",
+      "details": "完整源索引检验还应把每行库元数据与冻结队列及原始图库逐项连接，绑定选定提示和父阶段的四份关键输入。独立核对的本地输入均一致。训练和验证数量样本分别为63、22。验证数量1至4的分层计数依次为13、2、3、4。",
+      "evidence": [
+        "code/evaluate_states.py:24-41,64-84",
+        "code/verify_generation.py:77-84",
+        "code/verify_evaluation.py:25-30,55-60"
+      ]
+    },
+    {
+      "id": "F",
+      "name": "Evaluation class",
+      "status": "PASS",
+      "details": "检索使用数据集配对，数量使用既有人工核对标签。置换与共享状态是对照干预。协议正确性由生成和回包事件直接判定，生成内容准确率另需独立的语义标签。",
+      "evidence": [
+        "code/analyze_states.py:35-50,79-82",
+        "code/verify_generation.py:39-60"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "E1",
+      "status": "supplement_requested",
+      "evidence": [
+        "code/evaluate_states.py:25-41",
+        "code/verify_generation.py:77-84",
+        "code/verify_evaluation.py:25,55-60"
+      ],
+      "finding": "评估按状态库在验证集中的行号连接 Arrow 图像。现有独立校验用库元数据反查轨迹，六个库同步重排或元数据重复时缺少对冻结队列行序的显式外部绑定。本机冻结验证集与父图库的210个文件名、顺序已逐项对齐。",
+      "action": "对下载的六个状态库的273个位置逐行核对冻结 cohort 的 key/image/split/row、唯一性和验证图库文件名。选定验证轨迹的 prompt、policy_hash 和首轮实际提示内容对齐训练锁及同提示训练轨迹。执行方已确认新增独立补充核验，实际产物待验。"
+    },
+    {
+      "id": "E2",
+      "status": "supplement_requested",
+      "evidence": [
+        "evaluation_code_hashes.json:2-11",
+        "post_code_hashes.json:2-16",
+        "code/evaluate_states.py:24,44",
+        "code/verify_evaluation.py:25,41-43,75-78"
+      ],
+      "finding": "四份复用输入由主程序和核验程序共同读取。评估及后处理源码清单未直接列入 quantity_cases.json、quantity_gallery.json、parent_selection_lock.json、frozen_path_assets.pt。本机这四份及 frozen_path_sources.json 与父诊断归档及父清单 SHA 逐项相同。",
+      "action": "下载服务端产物后逐字节比对这四份输入与父诊断原始输入，通过后可闭合来源链。执行方已确认新增补充核验。"
+    }
+  ],
+  "deterministic_checks": {
+    "evaluation_manifest_files": 10,
+    "post_manifest_files": 15,
+    "manifest_mismatches": 0,
+    "declared_conditions_by_arm": {
+      "native": 132,
+      "calibrated_own": 132,
+      "calibrated_shared": 3,
+      "learned_visual_only": 3
+    },
+    "retrieval_target_image_rows": 210,
+    "retrieval_caption_rows": 1050,
+    "unique_token_sequence_groups": 391,
+    "quantity_target_image_rows": 85,
+    "quantity_pairs_checked": 170,
+    "source_rows_declared": 79650,
+    "new_image_encodings_declared": 70830,
+    "reused_image_encodings_declared": 8820,
+    "reused_conditions_declared": 42,
+    "historical_tie_hits_checked": 3780,
+    "historical_cutoff_with_partial_ties": 411,
+    "historical_tie_max_abs_error": 1.1102230246251565e-16,
+    "historical_mR_checked": 63,
+    "historical_mR_or_paired_equivalence_max_abs_error": 2.220446049250313e-16,
+    "historical_retrieval_source": "previous diagnostics, calibrated_own, with-example real/recorded baseline plus 20 permutations; these values audit formulas only",
+    "parent_reference_files_matched": 5,
+    "historical_validation_derangements_checked": 20,
+    "quantity_val_count_strata_1_2_3_4": [
+      13,
+      2,
+      3,
+      4
+    ]
+  },
+  "audited_input_sha256": {
+    "evaluation_plan.json": "e76200a7bec02261d9eeab891ba5112d856fb4a0f779717ee7bae34a8ca4cb4a",
+    "post_plan.json": "e3d0b54ef1dc4c7cd6dd02a0a9e060184670c207cde92c3e28246c2c43ce163d",
+    "evaluation_code_hashes.json": "fe28906c1b483e876ab0705923332a636b8a1ea2f2872257f878a927dea2fd54",
+    "post_code_hashes.json": "ccc4bffffa571239a4d4ce2857be486f476e3d5fbfc8660534677f74c97e36c7",
+    "code/evaluate_states.py": "830d56e418847ad050b11e4137cf0d92a963809a4a02de1eded3a3ad4c03648d",
+    "code/analyze_states.py": "7304190daa2a6be07eb1db385bb8131eb0e19d8a3a2e51e56994021daa52207d",
+    "code/verify_generation.py": "fe24655380fa572aead86d8ba64c4c7643c807fe59f14b24bf7c0816d497c1cf",
+    "code/verify_evaluation.py": "bccbaa6db0d2d54730a214f33703ff7afc60075b80bff9ad25d12aa22c5e3a07",
+    "code/verify_descriptive.py": "43a86914650750b2f2f3f71fbffaa7d2cec37fdb6ab5d6b43745a3f7bc510d99",
+    "code/audit_originals.py": "f9bd26aa2c1179fcd75c314d3c6312747e9980364df4eb438ee92a4db97265f6",
+    "code/run_post.py": "1f20fba241f1848b8418c0f7f0ec1c50306722dc47e35d3455ab2007faecbca1",
+    "code/matched_common_v3.py": "ead86bdc4782ef48816461475038bff26dc9b18fe762322fa4c02c1a33bc3e6c",
+    "code/tie_metrics.py": "7ef15ac84a362a70833d115e1490723ce2f6ecc1587c7133f60e2a5a6b2f8bdf",
+    "code/generate_stage_v2.py": "8bdb8418358b9dba5f30c7b5c076f8425c0f32531bf02b6ee88c0c5df981eb92",
+    "code/protocol_rollout_v2.py": "333f950ccc79cf39c3bb2f2d499a5af0854183809e1ca470f8b9808299a74787",
+    "code/state_contract_v2.py": "8b06addabf36250781d4ec859535dfdea851cc15ad23638aabedfc2860592b00",
+    "inputs/cohort.json": "257b0507d7b1611375c682d69cec8a0e44eaad6fb117fed6c3a5f29d321a1107",
+    "inputs/quantity_cases.json": "0403328b37b7153f27ff1d2faa059d59141d017db8aa9f0c49938280ad75598a",
+    "inputs/quantity_gallery.json": "2c9385ff1fb1ccc54d04127220f34b91ea23c471281bc72540b5371478f98793",
+    "inputs/parent_selection_lock.json": "81dd3f822e9b7ef637607ab1acd690ac57e7fa6ff7fa7d64995c747c63ba60b7",
+    "inputs/frozen_path_assets.pt": "a332415eaf5f86f7918a142d5d3f987dc9bfa477d8df7bc43a971d6cedcf2c70",
+    "inputs/frozen_path_sources.json": "65bf81c314838de292aa57f7447a59af0b71e8accb3b02f12ac32b8d4e2612a0"
+  },
+  "new_outputs_at_review": {
+    "generation_result_v2.json": false,
+    "evaluation_result.json": false,
+    "analysis.json": false,
+    "server_generation_verification.json": false,
+    "server_evaluation_verification.json": false
+  }
+}
