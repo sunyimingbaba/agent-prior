@@ -1,0 +1,147 @@
+{
+  "stage": "frozen_image_dependence_diagnostics",
+  "remote_root": "/private/AGSE_E3_1_rebuild_20261112/image_dependence_diagnostics_20261116",
+  "matched_parent": "/private/AGSE_E3_1_rebuild_20261112/image_only_matched_readout_20261116",
+  "runtime_python": "/private/AGSE_E1_20261110/legacy/env/bin/python",
+  "conditions": [
+    {
+      "name": "with_example__real__recorded_real",
+      "example": "with_example",
+      "policy_image": "real",
+      "feedback": "recorded_real",
+      "baseline_reused": true
+    },
+    {
+      "name": "with_example__real__constant_training102",
+      "example": "with_example",
+      "policy_image": "real",
+      "feedback": "constant_training102",
+      "baseline_reused": false
+    },
+    {
+      "name": "with_example__gray127__recorded_real",
+      "example": "with_example",
+      "policy_image": "gray127",
+      "feedback": "recorded_real",
+      "baseline_reused": false
+    },
+    {
+      "name": "with_example__gray127__constant_training102",
+      "example": "with_example",
+      "policy_image": "gray127",
+      "feedback": "constant_training102",
+      "baseline_reused": false
+    },
+    {
+      "name": "without_example__real__recorded_real",
+      "example": "without_example",
+      "policy_image": "real",
+      "feedback": "recorded_real",
+      "baseline_reused": false
+    },
+    {
+      "name": "without_example__real__constant_training102",
+      "example": "without_example",
+      "policy_image": "real",
+      "feedback": "constant_training102",
+      "baseline_reused": false
+    },
+    {
+      "name": "without_example__gray127__recorded_real",
+      "example": "without_example",
+      "policy_image": "gray127",
+      "feedback": "recorded_real",
+      "baseline_reused": false
+    },
+    {
+      "name": "without_example__gray127__constant_training102",
+      "example": "without_example",
+      "policy_image": "gray127",
+      "feedback": "constant_training102",
+      "baseline_reused": false
+    }
+  ],
+  "generation_cohort": {
+    "val_all": 210,
+    "train_original_quantity": 63,
+    "total": 273,
+    "baseline_reused": 273,
+    "new_logical_states": 1911,
+    "new_actual_generation_cap": 1911,
+    "warm_baseline_replays": 2,
+    "gray_constant_reuse": "Within condition only: identical RGB bytes, shape, exact feedback text, prompt, seed and policy allow canonical-state reuse; all logical cases and provenance retained."
+  },
+  "query": "Describe the visible scene.",
+  "rollout": {
+    "max_rounds": 3,
+    "max_new_tokens_per_round": 256,
+    "min_new_tokens": 1,
+    "temperature": 1.0,
+    "top_k": 0,
+    "top_p": 1.0,
+    "repetition_penalty": 1.0,
+    "tool_threshold": 0.0,
+    "tool": "actual scene_classify, registered tool calls only, role-separated feedback",
+    "state": "same last valid decoding-step final-layer final-position hidden tensor is cached and passed to frozen scorer; no terminal forward-state replacement",
+    "quality": "nonempty completed answer, no generated result tags, no mixed/unknown tool calls, no addCriterion, no token-limit or round-limit; failures retained",
+    "format_reward": "0.2 exactly when new rollout quality passes, otherwise 0.0; stricter than historical regex-only bonus",
+    "sampling_distribution": "untruncated categorical softmax; first-token EOS suppression from min_new_tokens=1 is identically applied in policy logprob",
+    "tool_boundary_stop": "complete scene_classify closing tag only; answers end on native configured EOS"
+  },
+  "generation_seed": 0,
+  "generation_temperature": 0.0,
+  "policy_lora_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85",
+  "mask": "RGB(127,127,127), preserve original dimensions, Agent input only; retrieval backbone keeps real images",
+  "feedback": "Replay exact recorded real-image scene_classify text/confidence on model requests; constant arm replaces this by fixed training image102.tif recorded feedback; no tool call is forced. Log observed feedback rounds.",
+  "primary_readouts": [
+    "native",
+    "calibrated_own"
+  ],
+  "negative_control_readouts": [
+    "calibrated_shared",
+    "learned_visual_only"
+  ],
+  "frozen_readout_selection": "all four previous val-selected checkpoints; SHA copied before diagnosis",
+  "permutations": {
+    "count": 20,
+    "seed": 2026111607,
+    "method": "independent seeded uniform random permutations, rejecting all with any fixed point; one complete permutation per full train1680 and val210 split, preserve multiset; all 20 reported",
+    "state_family": "previous with-example real-image real-feedback state"
+  },
+  "negative_control_conditions": [
+    "baseline",
+    "permutation_00",
+    "without_example__real__recorded_real",
+    "without_example__gray127__constant_training102"
+  ],
+  "retrieval": {
+    "split": "val",
+    "images": 210,
+    "captions": 1050,
+    "protocols": [
+      "repository_duplicate_token_positive",
+      "strict_image_correspondence"
+    ],
+    "hold_gallery_fixed": true,
+    "test_access": false
+  },
+  "quantity": {
+    "train": 63,
+    "val": 22,
+    "source": "unchanged original cases and 56 candidate texts",
+    "primary": "B hard-correct counts1to4 macro; A and all pair metrics retained"
+  },
+  "uncertainty": {
+    "bootstrap": 10000,
+    "seed": 2026111608,
+    "unit": "paired image clusters; all five captions together; fixed gallery",
+    "permutation_summary": "all20 individual deltas plus mean-delta paired image bootstrap; permutation spread kept separate from sampling interval",
+    "factorial_contrasts": "example removed, gray image, constant feedback: paired factor changes averaged over the other two factors; also simple effects at real-image/real-feedback/with-example baseline",
+    "scope": "single frozen Agent/readout seed, train/val diagnostic, no new model selection"
+  },
+  "optimizer_updates": {
+    "Agent": 0,
+    "readout": 0
+  },
+  "report_node": "all generation-factor controls +20 distribution-preserving permutations + frozen readout path/quantity/retrieval evidence, dual verification/backups and GitHub"
+}
