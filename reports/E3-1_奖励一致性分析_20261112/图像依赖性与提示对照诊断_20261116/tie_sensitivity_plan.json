@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-11-16T08:19:28.642866+00:00",
+  "sealed_before": "new evaluation score generation/results viewing",
+  "protocol": "strict_tie_averaged",
+  "existing_primary_and_strict_protocols": "retained unchanged",
+  "score_equality": "exact saved float32 score equality",
+  "expected_hit": "At each K separately: any positive above cutoff gives1; otherwise1-C(t-p,q)/C(t,q), with t tied at cutoff, p strict positives among them, q remaining slots; impossible all-negative selection gives1",
+  "scope": "all64 forward conditions, same val210 and1050 captions, same paired image bootstrap and prespecified contrasts",
+  "reason": "duplicate caption score ties may select different strict image IDs across legal top-k conventions; report sensitivity alongside original scores",
+  "test_examples_scored": 0
+}

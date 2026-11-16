@@ -1,0 +1,18 @@
+{
+  "generation_progress": {
+    "condition": "with_example__real__constant_training102",
+    "logical_completed": 444,
+    "logical_total": 2184,
+    "new_actual_generations": 171,
+    "latest_image": "1781.tif",
+    "elapsed_seconds": 495.91547941206954,
+    "updated_utc": "2026-11-16T08:09:51.805022+00:00"
+  },
+  "evaluation_launch": {
+    "pid": 7174,
+    "entry": "code/run_evaluation.py",
+    "wait_for": "generation_job_result.json complete",
+    "frozen_conditions": 64,
+    "image_encodings": 18880
+  }
+}

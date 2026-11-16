@@ -1,0 +1,27 @@
+{
+  "split": "train",
+  "row": 81,
+  "image": "102.tif",
+  "rgb_sha256": "6322f15ea6b809a078f9f8b56185f2710a8645f27ac673d0a53bd0123c59f99c",
+  "reused_val": false,
+  "state_file": "cache/priors/ucm_caption_karpathy_label_train/81.pt",
+  "trace_file": "cache/traces/train_0081.json",
+  "state_file_sha256": "c0138ce762f52da7baf8c5b3f03e271abed60e04d218bcf95243b97a6aa71d6a",
+  "trace_sha256": "3a6e22b2c1f531b0edd7a0cb810f55e57e908b4a8165dea670dff097bd244292",
+  "numeric_state_sha256": "df4d2e0f23c11b23120a11fffd58052ed378300920a0eeb61b84b01df037fda9",
+  "quality_usable": true,
+  "strict_protocol_usable": true,
+  "stop_reason": "answer",
+  "tools_used": 1,
+  "key": "train_0081",
+  "size": [
+    256,
+    256
+  ],
+  "feedback": {
+    "text": "airplane (0.55), runway (0.07), freeway (0.05)",
+    "confidence": 0.5456549525260925,
+    "accepted": true
+  },
+  "feedback_original_trace_sha256": "3a6e22b2c1f531b0edd7a0cb810f55e57e908b4a8165dea670dff097bd244292"
+}

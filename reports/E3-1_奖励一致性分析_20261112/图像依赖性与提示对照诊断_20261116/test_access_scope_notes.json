@@ -1,0 +1,6 @@
+{
+  "clarification": "父阶段完整性核验包含既有test产物及三份Arrow的字节哈希读取；本阶段生成、评分和模型选择使用train/val。既有test评分矩阵保持封存。原记录test_data_opened:false指本阶段未加载test图像/描述用于生成或评分，字节完整性核验的范围另记于此。",
+  "training_updates": 0,
+  "test_examples_generated_or_scored": 0,
+  "new_model_selection": false
+}

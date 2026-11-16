@@ -1,0 +1,34 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "reason_code": "fixed_model_validation_scope_and_results_pending",
+  "model": "gpt-6-astra",
+  "agent_id": "/root/image_dependence_integrity_review",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "checks": {
+    "gt_provenance": "PASS",
+    "normalization": "PASS",
+    "result_existence": "PENDING",
+    "post_code_static_review": "PASS",
+    "scope": "WARN",
+    "evaluation_type": "real_gt for retrieval/manual counts; self_supervised_proxy for state/format/gate/lexical diagnostics"
+  },
+  "post_input_hashes": {
+    "code/run_post.py": "8809b5fe3ba94cafcf7d046f08461410c13509dd63989a8770698583e721a85c",
+    "code/analyze_diagnostics.py": "c966c710b545032a00eac20539d939b92186656715d9ab6c5a290036b6804dce",
+    "code/tie_metrics.py": "7ef15ac84a362a70833d115e1490723ce2f6ecc1587c7133f60e2a5a6b2f8bdf",
+    "code/verify_diagnostics.py": "43b81617516dd9da90e632b5234fc7caf928ee785261262a3d5a332bd2fe82f6",
+    "code/verify_path_states.py": "84b8cfda96646919c7b1456905efea85cde852612d73b8ece401b93d44d97e2e",
+    "code/audit_originals.py": "48430a6732b5fd767356f043e62392ff9be66658844ffdb443ef56ce701e81cd",
+    "code/stage_io.py": "c42284e8f27ec10ca4f85926a8a51f39e59e7cb8ea4738481efb40b9a4e822e1",
+    "code/checkpoint_metadata.py": "fd27f9e3fd07ad4595757643cc75ce8081a51a8b92b07e557e985b26dfd1604c",
+    "diagnostic_plan.json": "3360f35da9247be013b1e0e3f3b25e7a21893546d42be8128ecbb3bb6e74e9cf",
+    "evaluation_plan.json": "d486488d614ebf6b1a6883b1fb01c8eff43575682b6c71ee7a8f28eea0fc7fa1",
+    "tie_sensitivity_plan.json": "95bf5fa13ea8cdcf5437a1a76169bdfb6e5d18a4dd8c8f992cd2a87717520466",
+    "test_access_scope_notes.json": "6d2e54ad09ea85ea4649e5324a50589cdc77d6bdc19a9a187e1d6e5918ce4555",
+    "inputs/frozen_path_assets.pt": "a332415eaf5f86f7918a142d5d3f987dc9bfa477d8df7bc43a971d6cedcf2c70",
+    "inputs/frozen_path_sources.json": "65bf81c314838de292aa57f7447a59af0b71e8accb3b02f12ac32b8d4e2612a0"
+  },
+  "trace_path": ".aris/traces/experiment-audit/2026-11-16_run01"
+}
