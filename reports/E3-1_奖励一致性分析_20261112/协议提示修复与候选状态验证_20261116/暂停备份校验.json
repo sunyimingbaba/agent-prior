@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-11-16T11:20:30.696536+00:00",
+  "status": "paused_by_user",
+  "remote_root": "/private/AGSE_E3_1_rebuild_20261112/protocol_prompt_state_validation_20261116",
+  "archive_name": "protocol_state_pause_20261116.tar.gz",
+  "remote_archive": "/private/AGSE_E3_1_rebuild_20261112/protocol_state_pause_20261116.tar.gz",
+  "archive_bytes": 275266701,
+  "archive_sha256": "349d5b7c71eef73bdb60ec4697d3a374126a80b4a09159a6e667d1b92bf1e0e4",
+  "archive_files": 1528,
+  "manifest_files": 1527,
+  "completed_records": 651,
+  "planned_records": 672,
+  "Agent_optimizer_updates": 0,
+  "readout_optimizer_updates": 0,
+  "partial_verification": {
+    "ok": true,
+    "scope": "partial paused generation, byte-level preservation; final generation/evaluation checks remain pending",
+    "completed_records": 651,
+    "record_trace_and_tensor_hashes_verified": 1302,
+    "original_policy_checkpoint_files_verified": 16,
+    "V1_preserved_files_verified": 31,
+    "orphan_files_preserved": [],
+    "Agent_optimizer_updates": 0,
+    "readout_optimizer_updates": 0,
+    "verified_utc": "2026-11-16T11:20:14.665934+00:00"
+  },
+  "local_archive_copy_status": "pending_server_reconnection",
+  "local_archive_present": false,
+  "local_metadata_downloaded": true,
+  "last_connection_observation": "SSH172.18.113.4:32768 connection refused during archive download and follow-up read",
+  "local_recorded_utc": "2026-11-16T11:22:39.892438+00:00"
+}

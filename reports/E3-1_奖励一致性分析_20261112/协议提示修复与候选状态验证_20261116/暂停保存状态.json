@@ -1,0 +1,29 @@
+{
+  "status": "paused_by_user",
+  "generation_completed": 651,
+  "generation_planned": 672,
+  "selected_val_completed": 189,
+  "selected_val_total": 210,
+  "remaining_val_images": 21,
+  "selected_val_strict_with_consumed_feedback_partial": 185,
+  "selected_val_generated_result_tags_partial": 0,
+  "train_prompt_choice": "contract_only",
+  "train_choice_passed": 62,
+  "train_choice_total": 63,
+  "Agent_optimizer_updates": 0,
+  "readout_optimizer_updates": 0,
+  "generation_finalization_pending": true,
+  "frozen_readout_evaluation_pending": true,
+  "stopped_jobs": [
+    8199,
+    8376,
+    8450
+  ],
+  "gpu_verified_after_stop": "A100-SXM4-80GB,4 MiB,0%",
+  "remote_pause_archive": "/private/AGSE_E3_1_rebuild_20261112/protocol_state_pause_20261116.tar.gz",
+  "remote_pause_archive_sha256": "349d5b7c71eef73bdb60ec4697d3a374126a80b4a09159a6e667d1b92bf1e0e4",
+  "remote_pause_manifest_files": 1527,
+  "local_raw_archive_copy": "pending_server_reconnection",
+  "next_action": "download and verify paused archive before versioned continuation; preserve all original V2 logs, anchors and selection lock",
+  "updated_utc": "2026-11-16T11:22:39.892709+00:00"
+}
