@@ -1,0 +1,25 @@
+{
+  "source_root": "/private/AGSE_E3_1_rebuild_20261112/plain_prior_full_20261112",
+  "count": 1890,
+  "split_counts": {
+    "train": 1680,
+    "val": 210
+  },
+  "query_source": "first annotated caption: table caption[0], passed as item caption to rollout_one",
+  "source_evidence_lines": [
+    185,
+    187,
+    215,
+    217
+  ],
+  "logged_lora_path": "",
+  "logged_temperature": 0.0,
+  "logged_max_new_tokens": 64,
+  "contrast_to_current": "current cached policy states use fixed Describe the visible scene. query, SFT30/balanced32 LoRA and native-EOS controller",
+  "original_domain_tool_cached_policy": "[待确认：85份归档缓存未附模型版本元数据]",
+  "files": {
+    "generate_full_priors.py": "0cc58705a04226b0993d5d0078535f32cb5c9fdc5d27b4a6ffc3d91004eaa563",
+    "input_model_manifest.json": "505b98f7317beb8ce2c3d79c034daa6ec3bb7bf8390f9303840d9329a19b81fb",
+    "archive_summary.json": "98229e42caad35ba9a9619b94094dd695ca8112750aaa75346a29ac49c2de90d"
+  }
+}

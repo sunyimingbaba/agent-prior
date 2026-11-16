@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "steps": [
+    {
+      "script": [
+        "verify_parent_sources.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": [
+        "audit_sources.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": [
+        "analyze_stage.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": [
+        "verify_stage.py",
+        "--root",
+        "/private/AGSE_E3_1_rebuild_20261112/prior_injection_calibration_20261116",
+        "--out",
+        "/private/AGSE_E3_1_rebuild_20261112/prior_injection_calibration_20261116/服务器独立核验.json"
+      ],
+      "exit_code": 0
+    }
+  ]
+}

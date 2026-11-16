@@ -1,0 +1,27 @@
+{
+  "objective": "下一大阶段统一图像独立推理协议和训练端缓存：固定当前均衡第32步Agent及统一查询，复用本轮210张val缓存，为1680张train和210张test补齐1890份先验，形成2100图缓存；随后按相同划分、初始化与预算执行读出网络的匹配对照，完成val选择及保留test的最终检索评价。",
+  "official_splits": {
+    "train": 1680,
+    "val": 210,
+    "test": 210
+  },
+  "agent_policy": "balanced32",
+  "lora_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85",
+  "query": "Describe the visible scene.",
+  "cached_state_contract": "actual native-EOS last valid generate hidden; actual scene_classify feedback",
+  "reuse_current_val_states": 210,
+  "new_train_and_test_states": 1890,
+  "total_image_only_cache": 2100,
+  "readout_arms": [
+    "native image-only prior",
+    "mean-shift calibrated image-only prior",
+    "calibrated fixed shared prior",
+    "learned visual prompt only"
+  ],
+  "agent_updates_during_cache_generation": 0,
+  "training_setup": "audit actual training entry, keep matched initialization/data/budget, seal exact trainable parameter list and schedule before launch",
+  "selection_split": "val210",
+  "final_split": "test210",
+  "report_node": "full cache, matched readout training, final retrieval evaluation and prior-specificity controls",
+  "conditioning_provenance": "current8 reference cached priors are first-caption-conditioned; preserved as calibration provenance"
+}

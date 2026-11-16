@@ -1,0 +1,13 @@
+{
+  "status": "failed",
+  "steps": [
+    {
+      "script": "preflight_stage.py",
+      "exit_code": 0
+    },
+    {
+      "script": "run_audit.py",
+      "exit_code": 1
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "steps": [
+    {
+      "script": [
+        "analyze_full_validation.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "script": [
+        "verify_full_validation.py",
+        "--root",
+        "/private/AGSE_E3_1_rebuild_20261112/prior_injection_calibration_20261116",
+        "--out",
+        "/private/AGSE_E3_1_rebuild_20261112/prior_injection_calibration_20261116/full_validation/服务器独立核验.json"
+      ],
+      "exit_code": 0
+    }
+  ]
+}

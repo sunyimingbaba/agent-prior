@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "steps": [
+    {
+      "script": "run_full_validation.py",
+      "exit_code": 0
+    },
+    {
+      "script": "score_full_validation.py",
+      "exit_code": 0
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "stage": "original_prior_distribution_injection_and_confirmation",
+  "date": "2026-11-16",
+  "remote_root": "/private/AGSE_E3_1_rebuild_20261112/prior_injection_calibration_20261116",
+  "base_root": "/private/AGSE_E1_20261110/legacy",
+  "source_run_root": "/private/AGSE_E3_1_rebuild_20261112/fixed_tool_22_20261113",
+  "runtime_python": "/private/AGSE_E1_20261110/legacy/env/bin/python",
+  "parent_permutation_root": "/private/AGSE_E3_1_rebuild_20261112/quantity_sampling_permutation_20261115",
+  "parent_balanced_root": "/private/AGSE_E3_1_rebuild_20261112/balanced_quantity_32_a100_20261115",
+  "original_cache_root": "/private/AGSE_E1_20261110/ucm_prior_archive/agent_cache_domain_tool",
+  "parent_evidence_sha256": "f8bde4b5ded001a9f865f996928cd57f56b4e7763867520337721e0e32740933",
+  "utility_model_sha256": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc",
+  "model_hashes": {
+    "lora_weights_sha256": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+    "clip_sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+    "scene_head_sha256": "275f041920aa5747e9d90d6e14c79fb341882948bcf17cf02ae159d35cc9540b"
+  },
+  "prompt": "Describe the visible scene.",
+  "rollout": {
+    "max_rounds": 3,
+    "max_new_tokens_per_round": 256,
+    "min_new_tokens": 1,
+    "temperature": 1.0,
+    "top_k": 0,
+    "top_p": 1.0,
+    "repetition_penalty": 1.0,
+    "tool_threshold": 0.0,
+    "tool": "actual scene_classify, registered tool calls only, role-separated feedback",
+    "state": "same last valid decoding-step final-layer final-position hidden tensor is cached and passed to frozen scorer; no terminal forward-state replacement",
+    "quality": "nonempty completed answer, no generated result tags, no mixed/unknown tool calls, no addCriterion, no token-limit or round-limit; failures retained",
+    "format_reward": "0.2 exactly when new rollout quality passes, otherwise 0.0; stricter than historical regex-only bonus",
+    "sampling_distribution": "untruncated categorical softmax; first-token EOS suppression from min_new_tokens=1 is identically applied in policy logprob",
+    "tool_boundary_stop": "complete scene_classify closing tag only; answers end on native configured EOS"
+  },
+  "training_images": [
+    "102.tif",
+    "120.tif",
+    "121.tif",
+    "124.tif",
+    "147.tif",
+    "933.tif",
+    "157.tif",
+    "1937.tif"
+  ],
+  "policies": [
+    {
+      "name": "initial_SFT30",
+      "lora_hash": "10cb14e3f10f94eeaa8cc98f84b5fe7f9abd05d97cbc26ad4b219efde88017cb",
+      "checkpoint": "/private/AGSE_E3_1_rebuild_20261112/full_tool_supervision_20261114/training/final/checkpoint",
+      "checkpoint_manifest": "inputs/sft_checkpoint_reference.json"
+    },
+    {
+      "name": "balanced32",
+      "lora_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85",
+      "checkpoint": "/private/AGSE_E3_1_rebuild_20261112/balanced_quantity_32_a100_20261115/training/final/checkpoint",
+      "checkpoint_manifest": "inputs/balanced_checkpoint_reference.json"
+    }
+  ],
+  "variants": [
+    "auto",
+    "gate_0",
+    "gate_0p5",
+    "gate_1",
+    "mean_shift_auto"
+  ],
+  "budget": {
+    "new_Qwen_generations": 0,
+    "optimizer_updates": 0,
+    "projection_states": 511,
+    "original_cache_states": 85,
+    "greedy_states": 170,
+    "saved_sample_states": 256,
+    "diagnostic_grid_scores": 960,
+    "confirmation_scores": 510,
+    "new_frozen_utility_scores_total": 1470
+  },
+  "interventions": {
+    "auto": "unchanged original native forward",
+    "gate_0": "hook cluster_mapping output to0 before existing clamp; prior-only blend",
+    "gate_0p5": "hook cluster_mapping output to0.5; equal prior/learned blend",
+    "gate_1": "hook cluster_mapping output to1; learned visual prompt only",
+    "mean_shift_auto": "add training8 original-cache mean minus current-policy mean to agent_proj linear output, before existing LayerNorm; preserve native gate thereafter. Per-policy offsets; original-cache offset0."
+  },
+  "calibration_fit": "Offsets use only8 training images original cached priors and corresponding policy greedy priors. No confirmation or val vectors in fit.",
+  "selection": {
+    "policy": "balanced32",
+    "images": [
+      "102.tif",
+      "120.tif",
+      "121.tif",
+      "124.tif",
+      "147.tif",
+      "933.tif",
+      "157.tif",
+      "1937.tif"
+    ],
+    "metric_priority": [
+      "A all-cached-count strict top1 count-macro",
+      "A hard margin count-macro"
+    ],
+    "tie_order": [
+      "auto",
+      "gate_0",
+      "gate_0p5",
+      "gate_1",
+      "mean_shift_auto"
+    ],
+    "B_used_for_selection": false,
+    "freeze_selection_before_confirmation_scoring": true
+  },
+  "confirmation": {
+    "target_images": 85,
+    "primary": "55 train images outside8; count-macro uses52 with counts1..4",
+    "supplementary": "existing val22; RR original391 captions; excluded from selection",
+    "new_forward_sets": [
+      "selected own and selected102-shared for both2 policies:340",
+      "gate1 learned-only:85",
+      "original-cache own auto:85"
+    ],
+    "baseline": "reuse frozen parent340 native/shared greedy scores",
+    "primary_policy": "balanced32",
+    "primary_metrics": [
+      "B hard top1",
+      "B hard margin"
+    ],
+    "primary_contrasts": [
+      "selected native minus original native",
+      "selected native minus selected shared102",
+      "selected native minus gate1 learned-only"
+    ]
+  },
+  "bootstrap": {
+    "resamples": 10000,
+    "seed": 2026111601,
+    "unit": "paired image",
+    "macro": "equal counts1..4, within-count resampling",
+    "raw": "image mean"
+  },
+  "adoption_checks": {
+    "confirmation_B_hard_gain_CI_lower_positive": true,
+    "confirmation_selected_own_minus_shared_B_hard_CI_lower_positive": true,
+    "confirmation_selected_own_minus_learned_B_hard_CI_lower_positive": true,
+    "confirmation_B_hard_margin_gain_CI_lower_positive": true,
+    "immutable_model_and_original_sources_preserved": true
+  },
+  "claims": "Original cached prior first-caption conditioning is logged. Cached-policy provenance is audited and missing entries stay [待确认]. Calibration is a frozen-scorer intervention; any downstream training follows separate evidence.",
+  "completion_node": "finish distribution/path audit, candidate selection, confirmation and supplementary evaluation, independent CPU reconstruction, source/model preservation audit, local/private backups and GitHub",
+  "inputs_sha256": {
+    "inputs/evaluation_cases.json": "0403328b37b7153f27ff1d2faa059d59141d017db8aa9f0c49938280ad75598a",
+    "inputs/inherited_followup.json": "fd9adc62b9a96008155c75e3291f42c5695c968cc56cf094b13baee82de2d815",
+    "inputs/original8_inventory.json": "d9ac19a4c508a0b6e849cf27b9e5c7757afc5344522e3e5d4918f96d253e5a02",
+    "inputs/parent_preflight.json": "8f3a91d77648cfdc73e50b8354f7770b7b8ba0512df8a5f4640fc78f871987aa",
+    "inputs/permutation_plan.json": "dc11aa3fdb7624c1009078bdcf38e9ab2dea881779242842c9d5f09785f923c4"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "stage": "locked_calibration_full_val210_validation",
+  "date": "2026-11-16",
+  "reason": "Core A-only training8 calibration is locked; prior22 supplementary RR motivates larger validation. New188 are separately reported.",
+  "policy": "balanced32",
+  "query": "Describe the visible scene.",
+  "generation": "greedy seed0, existing native-EOS tool controller; reuse22 states, generate188, exact replay2 old val anchors",
+  "new_evaluation_generations": 188,
+  "warm_anchor_generations": 2,
+  "source_split": "val.arrow210; test.arrow stays for later work",
+  "arms": [
+    "native",
+    "mean_shift_auto",
+    "learned_only",
+    "mean_shift_shared102"
+  ],
+  "calibration": "fixed balanced32 offset from training8",
+  "scores": 840,
+  "selection_uses_extension": false,
+  "metrics": {
+    "primary": "repository token-equivalence-aware I2T/T2I R@1,5,10 and mean of6 recalls",
+    "source": "vilt/modules/objectives.py:650-948",
+    "gallery": "all val210 images and all their captions, original row/caption order",
+    "tokenization": "context61,truncateTrue, group exact token tuple",
+    "matrix": "saved float32 CPU matrix from frozen GPU encoder features, model logit scale retained",
+    "subsets": [
+      "all210",
+      "unseen188",
+      "previous22"
+    ],
+    "bootstrap": "10000 paired image-cluster draws, caption queries clustered by owner; seed2026111603",
+    "primary_contrasts": [
+      "mean_shift_auto-minus-native",
+      "mean_shift_auto-minus-learned_only",
+      "mean_shift_auto-minus-mean_shift_shared102"
+    ],
+    "confirm_adoption": "unseen188 mR gain95% lower bound positive versus native, learned-only and shared; report alongside core quantity gates"
+  },
+  "new_optimizer_updates": 0
+}
