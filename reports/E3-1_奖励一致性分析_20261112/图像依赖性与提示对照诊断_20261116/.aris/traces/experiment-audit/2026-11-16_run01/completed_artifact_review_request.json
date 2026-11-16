@@ -1,0 +1,20 @@
+{
+  "round": "completed raw artifact verification",
+  "task": "/root/image_dependence_integrity_review",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "raw_tree": "/Users/botlv/CUP-code/reports/E3-1_奖励一致性分析_20261112/图像依赖性与提示对照诊断_20261116/原始运行记录",
+  "raw_manifest_sha256": "eec3e8ddc1307daeaa4339a2f22e922dc913f29a781aa8bbf37fec32e9082378",
+  "artifact_scope": [
+    "generation states/traces/anchors/records",
+    "64 retrieval+quantity tensors and source indices",
+    "original GT/manual labels",
+    "analysis and all contrasts",
+    "all job exit status logs",
+    "all four baseline/freeze records",
+    "both server verifiers/source preservation",
+    "delivery builder claims before report construction"
+  ],
+  "analysis_sha256": "7e590a22517fef2656dad3071dd436dd750934585db5cc61d40e5c49a912884e",
+  "builder_sha256": "784435bdd65479c3ad1bb3747fe9aec96cdec33cfbfcbf83d3dbdd724c49937c"
+}

@@ -1,0 +1,143 @@
+{
+  "created_utc": "2026-11-16T09:40:09.539869+00:00",
+  "remote_root": "/private/AGSE_E3_1_rebuild_20261112/image_dependence_diagnostics_20261116",
+  "archive_name": "image_dependence_evidence_20261116.tar.xz",
+  "remote_archive": "/private/AGSE_E3_1_rebuild_20261112/image_dependence_evidence_20261116.tar.xz",
+  "archive_bytes": 278210156,
+  "archive_sha256": "c480b7e5c8a1814f4aedc2de19b770161484abfb2d1b8f5fae9fdf5e00b45feb",
+  "archive_files": 3865,
+  "manifest_files": 3864,
+  "Agent_optimizer_updates": 0,
+  "readout_optimizer_updates": 0,
+  "logical_states": 2184,
+  "new_actual_generations": 1367,
+  "forward_conditions": 64,
+  "image_encodings": 18880,
+  "gpu": "NVIDIA A100-SXM4-80GB, 4 MiB, 0 %",
+  "readout_checkpoint_backup_reference": {
+    "archive_name": "matched_readout_checkpoints_20261116.tar.gz",
+    "remote_archive": "/private/AGSE_E3_1_rebuild_20261112/matched_readout_checkpoints_20261116.tar.gz",
+    "archive_sha256": "d3e3414a1b2d2a1eb4a1ebdd69fe074f2588a97c1be2ff4c926eadc8e0019073",
+    "archive_bytes": 842319584,
+    "archive_files": 8,
+    "files": {
+      "training/calibrated_own/checkpoints/epoch=05-step=191.ckpt": {
+        "bytes": 143994372,
+        "sha256": "d03f71e6f56bd1f8f5c368513c05fd76d1f7d539e6ed6f42887526eed0dd3bd5"
+      },
+      "training/calibrated_own/checkpoints/last.ckpt": {
+        "bytes": 143994372,
+        "sha256": "2db383309355a8eb8ba61de46c13deeb5bcf0018287f183e161f8d2632078fdb"
+      },
+      "training/calibrated_shared/checkpoints/epoch=07-step=255.ckpt": {
+        "bytes": 143994372,
+        "sha256": "0d4249d49b71ae41454c8dac389c5436d52147ea292256cb9ba4764b6aecd989"
+      },
+      "training/calibrated_shared/checkpoints/last.ckpt": {
+        "bytes": 143994372,
+        "sha256": "494d2a745a4c870fa3424333d6c3b9e3a51244d6877bb8f5bed0331819308492"
+      },
+      "training/learned_visual_only/checkpoints/epoch=07-step=255.ckpt": {
+        "bytes": 143984528,
+        "sha256": "fa5069aa95ab89fde592fcc3b8007136188e6db023dfb3265c4ec277a4e9c90a"
+      },
+      "training/learned_visual_only/checkpoints/last.ckpt": {
+        "bytes": 143984528,
+        "sha256": "d9c86feb1b3c61ac5466e7ea400cce82c0ea43570f069b94dc70f9bbaad75e52"
+      },
+      "training/native/checkpoints/epoch=04-step=159.ckpt": {
+        "bytes": 143994372,
+        "sha256": "a3721cc40104ef2512e3132fbe8de272cd1fa6c8a1d31d0309244aeda92690f4"
+      },
+      "training/native/checkpoints/last.ckpt": {
+        "bytes": 143994372,
+        "sha256": "b4debca2d5d2b76cb654f03cf2afe656a0a2a78dc64cb09d2a9aa73612a80388"
+      }
+    }
+  },
+  "local_archive_and_file_verification": "passed",
+  "local_manifest_files_verified": 3864,
+  "existing_files_confirmed_unchanged": 3841,
+  "new_files_restored": 24,
+  "local_verified_utc": "2026-11-16T09:43:32.518353+00:00",
+  "server_final_backup_verification": {
+    "ok": true,
+    "remote_manifest_files_verified": 3864,
+    "remote_delivery_files_verified": 180,
+    "archive_sha256": "c480b7e5c8a1814f4aedc2de19b770161484abfb2d1b8f5fae9fdf5e00b45feb",
+    "archive_bytes": 278210156,
+    "parent_checkpoint_archive_sha256": "d3e3414a1b2d2a1eb4a1ebdd69fe074f2588a97c1be2ff4c926eadc8e0019073",
+    "parent_checkpoint_archive_bytes": 842319584,
+    "manifest_sha256": "542893534e22ce82df9d73020d9c28613cc3f257de4b2117b3b64db74a807db0",
+    "delivery_index_sha256": "bd7f36e4b416efa91b7f11ac408df5494bf1fb30301b8bd38a35dc7371991f40",
+    "report_sha256": "0291798ab024c63a57f9835327c01110ddeeed0f7b25ac19a863a460126f7bc5",
+    "all_phase_jobs_finished": true,
+    "active_phase_jobs": [],
+    "gpu": "NVIDIA A100-SXM4-80GB, 4 MiB, 0 %",
+    "verified_utc": "2026-11-16T09:43:04.971698+00:00"
+  },
+  "local_evidence_path": "/Users/botlv/CUP-code/reports/E3-1_奖励一致性分析_20261112/图像依赖性与提示对照诊断_20261116/image_dependence_evidence_20261116.tar.xz",
+  "local_delivery_files_verified": 180,
+  "local_results_independently_rebuilt": {
+    "ok": true,
+    "logical_generation_records_verified": 2184,
+    "new_actual_generations_verified": 1367,
+    "baseline_states_exact": 273,
+    "warm_generation_anchors_exact": 2,
+    "full_split_derangements_rebuilt": 40,
+    "frozen_readout_conditions_verified": 64,
+    "parent_selected_baselines_exact": 4,
+    "prior_source_rows_verified": 18880,
+    "negative_control_conditions_exactly_invariant": 8,
+    "retrieval_metric_values_rebuilt": 1344,
+    "quantity_summary_values_rebuilt": 1536,
+    "quantity_case_scores_verified": 5440,
+    "retrieval_intervals_rebuilt": 186,
+    "stratified_quantity_intervals_rebuilt": 248,
+    "float64_score_max_abs_error": 3.0164081024963707e-05,
+    "float64_projection_max_abs_error": 1.1647936570824413e-06,
+    "float64_gate_max_abs_error": 4.545837183345114e-07,
+    "test_examples_scored": 0,
+    "Agent_optimizer_updates": 0,
+    "readout_optimizer_updates": 0
+  },
+  "local_states_and_paths_independently_rebuilt": {
+    "ok": true,
+    "descriptive_values_independently_rebuilt": 878,
+    "generation_state_strata": 16,
+    "readout_path_conditions": 64,
+    "all_permutation_spreads_rebuilt": true,
+    "model_freeze_records_verified": 4
+  },
+  "local_parent_checkpoint_archive_rechecked": {
+    "ok": true,
+    "local_parent_checkpoint_archive_sha256": "d3e3414a1b2d2a1eb4a1ebdd69fe074f2588a97c1be2ff4c926eadc8e0019073",
+    "bytes": 842319584
+  },
+  "github_evidence_parts": {
+    "archive_name": "image_dependence_evidence_20261116.tar.xz",
+    "archive_bytes": 278210156,
+    "archive_sha256": "c480b7e5c8a1814f4aedc2de19b770161484abfb2d1b8f5fae9fdf5e00b45feb",
+    "parts": [
+      {
+        "name": "image_dependence_evidence_20261116.tar.xz.part000",
+        "bytes": 98566144,
+        "sha256": "98f99e8654f60397b6032d7424a46ccbd60698fd3bfec8b6632f35457232cb3a"
+      },
+      {
+        "name": "image_dependence_evidence_20261116.tar.xz.part001",
+        "bytes": 98566144,
+        "sha256": "adb6bf7481097966a5de0deb8a6b336c003bb1037ff4d1524ea4f5d5ad86efc4"
+      },
+      {
+        "name": "image_dependence_evidence_20261116.tar.xz.part002",
+        "bytes": 81077868,
+        "sha256": "e4897f5b43b205a28e89b422dbfb9646bad82ab6313659126eb49c21fff21ad1"
+      }
+    ]
+  },
+  "github_evidence_join_verified": true,
+  "all_original_assets_preserved": true,
+  "scientific_textual_review": "PASS",
+  "finalized_utc": "2026-11-16T09:44:21.489680+00:00"
+}

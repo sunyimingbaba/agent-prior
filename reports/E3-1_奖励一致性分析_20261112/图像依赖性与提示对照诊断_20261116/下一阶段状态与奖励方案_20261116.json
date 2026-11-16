@@ -1,0 +1,40 @@
+{
+  "objective": "优先修复对固定示例的工具协议依赖，再检验候选状态与读出对应信息，形成奖励方案",
+  "trigger": {
+    "calibrated_own_permutation_minus_baseline_pp": -0.15158730158729541,
+    "interval95_pp": [
+      -0.7444642857142794,
+      0.419841269841276
+    ],
+    "conclusion": "校准自身模型的置换差异区间覆盖0，逐图先验对应信息的额外收益继续待验证。"
+  },
+  "protocol_evidence": {
+    "no_example_model_generated_result_logical_cases": 1092,
+    "actual_tool_requests_without_example": 0
+  },
+  "protocol_actions": [
+    "audit assistant/tool-result supervision masks",
+    "neutral tool-format example",
+    "scene-rotated examples",
+    "verify requested actual tool feedback and completed answers before state/reward selection"
+  ],
+  "fixed_assets": "same balanced32 Agent and all frozen parent-selected readouts",
+  "candidate_states": [
+    "current last actual valid generate-step state",
+    "first answer-generation step after recorded tool feedback",
+    "answer-content state aggregation after exact input-token position audit"
+  ],
+  "controls": [
+    "correct image-state correspondence",
+    "within-split distribution-preserving permutation",
+    "constant/shared state"
+  ],
+  "development_splits": [
+    "train",
+    "val"
+  ],
+  "budget": "seal after auditing candidate state positions; reuse the same generation replay for multiple state extractions where possible",
+  "new_Agent_or_readout_updates_authorized_in_this_diagnostic_stage": 0,
+  "test_record": "existing results remain archived",
+  "report_node": "state image-information/readout correspondence and concrete reward choice with paired evidence"
+}

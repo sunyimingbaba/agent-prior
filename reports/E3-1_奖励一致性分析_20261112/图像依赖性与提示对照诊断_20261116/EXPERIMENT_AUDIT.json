@@ -1,0 +1,59 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "reason_code": "qualified_fixed_model_validation_scope_and_tie_sensitivity",
+  "summary": "Deterministic artifact and numerical reconstruction PASS; fixed-model validation scope and tie convention require stated qualifiers.",
+  "checks": {
+    "gt_provenance": {
+      "status": "PASS",
+      "details": "85 human-confirmed count labels and val owner annotations; original CSV sources preserved"
+    },
+    "score_normalization": {
+      "status": "PASS",
+      "details": "true image/caption denominators and equal four count strata; raw feature/margin statistics explicit"
+    },
+    "result_existence": {
+      "status": "PASS",
+      "details": "3841 manifest files, all declared64 matrices,2184 generation records and all intervals independently rebuilt"
+    },
+    "dead_code": {
+      "status": "PASS",
+      "details": "all186 retrieval and248 quantity intervals,18880 source rows and both verifiers called; four post exits0"
+    },
+    "scope": {
+      "status": "WARN",
+      "details": "fixed single Actor/readout seed, val-selected models and val210 plus countval22; finite20 derangements and pointwise conditional CIs; duplicate-caption tie sensitivity reported"
+    },
+    "evaluation_type": {
+      "status": "PASS",
+      "details": "real_gt retrieval/manual forced-choice counts; self_supervised_proxy state/gate/format/lexical statistics; generated answer semantics待确认"
+    }
+  },
+  "agent_id": "/root/image_dependence_integrity_review",
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_reasoning": "ultra",
+  "reviewer_family": "openai",
+  "executor_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "audited_input_hashes": {
+    "analysis.json": "7e590a22517fef2656dad3071dd436dd750934585db5cc61d40e5c49a912884e",
+    "server_verification.json": "65d61db1efe44d9898a35e63bb5bb1f4a90eb78cde945ba199bb52dcff66b2c2",
+    "server_path_state_verification.json": "61af4292c7308372021ccffe436378e2023a215ea05db1c78c1c74c76b2f05d3",
+    "本机独立核验.json": "9e37fbfa5f8d2ffce49aa18cf3df66acb63e0e59c630ed344ac5592173723d44",
+    "本机状态路径核验.json": "61af4292c7308372021ccffe436378e2023a215ea05db1c78c1c74c76b2f05d3",
+    "post_code_hashes.json": "102d7a2cf606c76f42cbd8e89d66e764480ae96055187deaadaf9f9247f063be",
+    "protocol_witnesses.json": "ac0899ca0c99e92dad0f221f1cc54987cea5c79aef8b32b9de3fad58245dc0d5",
+    "预备原始文件哈希.json": "eec3e8ddc1307daeaa4339a2f22e922dc913f29a781aa8bbf37fec32e9082378"
+  },
+  "trace_path": ".aris/traces/experiment-audit/2026-11-16_run01",
+  "generated_at": "2026-11-16T09:30:37.199755+00:00",
+  "textual_report_review": "PASS",
+  "audited_manifest_snapshot": "3841-file preliminary export, retained verbatim in预备原始文件哈希.json; final archive adds derived delivery artifacts",
+  "textual_report_sha256": "0291798ab024c63a57f9835327c01110ddeeed0f7b25ac19a863a460126f7bc5",
+  "textual_table_cells_and_endpoints_verified": 153,
+  "publication_archive_integrity_record": "备份校验.json and 服务器最终备份核验.json (archive sidecars generated after report signoff)",
+  "textual_review_utc": "2026-11-16T09:35:49.136357+00:00"
+}

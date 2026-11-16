@@ -1,0 +1,20 @@
+{
+  "publication_dependency": "PASS",
+  "scientific_numbers_and_text": "PASS",
+  "scope": "WARN fixed-model validation diagnostic and conditional intervals",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "agent_id": "/root/image_dependence_integrity_review",
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_reasoning": "ultra",
+  "raw_review_response": "Publication dependency PASS. Independently streamed every member of the final tar.xz: exactly3,864manifest-listed files plus file_checksums.json, all actual sizes andSHA match. All3,864restored local entries match; all3,841preliminary raw entries are unchanged and all180individually indexed delivery files match. The278,210,156-byte archive SHA is c480b7e5c8a1814f4aedc2de19b770161484abfb2d1b8f5fae9fdf5e00b45feb; all three part hashes/sizes and their streamed concatenation match. Independently hashed the parent842,319,584-byte checkpoint archive d3e3414a1b2d2a1eb4a1ebdd69fe074f2588a97c1be2ff4c926eadc8e0019073. Server verification record agrees on3864/180, archive/manifest/index/checkpoint hashes and unchanged scientific report SHA0291798ab024c63a57f9835327c01110ddeeed0f7b25ac19a863a460126f7bc5 (服务器最终备份核验.json:2–12; 备份校验.json:6–9,59–79). External backup sidecar is now present. Scientific/textualPASS, scopeWARN and same-family/provisional unchanged.\n\n归档交付核验PASS。最终归档、三份分片及顺序拼接后的SHA-256一致。归档内3864项文件与本机还原文件逐项匹配，180项交付索引和父阶段检查点备份也已核验。服务器记录中的文件数、归档哈希和报告哈希均与本机核验结果一致。\n",
+  "backup_metadata_sha256": "a081acaa74f91eb7ac666b004d1b1d79f60d50448e9d8f370084bb86095bb7b5",
+  "server_verification_sha256": "d67e990f7b52306f4c11a09e50e0d6a65a7462cff50eab5de4db2b6c61f1c1cd",
+  "archive_sha256": "c480b7e5c8a1814f4aedc2de19b770161484abfb2d1b8f5fae9fdf5e00b45feb",
+  "manifest_files_verified": 3864,
+  "indexed_delivery_files_verified": 180,
+  "parts_index_sha256": "033d271b07631839881d4ef149231e0e4ea0f475160628574970571aeb515773",
+  "report_sha256": "0291798ab024c63a57f9835327c01110ddeeed0f7b25ac19a863a460126f7bc5",
+  "created_utc": "2026-11-16T09:47:37.835170+00:00",
+  "scope_of_sidecar": "Post-archive delivery review, external to archive/index to avoid recursive self hashing."
+}

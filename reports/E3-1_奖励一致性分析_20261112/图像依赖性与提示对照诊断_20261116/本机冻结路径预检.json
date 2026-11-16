@@ -1,0 +1,110 @@
+{
+  "ok": true,
+  "readouts": [
+    {
+      "arm": "native",
+      "checkpoint_sha_verified": true,
+      "path_shapes": {
+        "agent_proj.0.weight": [
+          1024,
+          3584
+        ],
+        "agent_proj.0.bias": [
+          1024
+        ],
+        "agent_proj.1.weight": [
+          1024
+        ],
+        "agent_proj.1.bias": [
+          1024
+        ],
+        "cluster_mapping.weight": [
+          1,
+          1024
+        ],
+        "cluster_mapping.bias": [
+          1
+        ]
+      }
+    },
+    {
+      "arm": "calibrated_own",
+      "checkpoint_sha_verified": true,
+      "path_shapes": {
+        "agent_proj.0.weight": [
+          1024,
+          3584
+        ],
+        "agent_proj.0.bias": [
+          1024
+        ],
+        "agent_proj.1.weight": [
+          1024
+        ],
+        "agent_proj.1.bias": [
+          1024
+        ],
+        "cluster_mapping.weight": [
+          1,
+          1024
+        ],
+        "cluster_mapping.bias": [
+          1
+        ]
+      }
+    },
+    {
+      "arm": "calibrated_shared",
+      "checkpoint_sha_verified": true,
+      "path_shapes": {
+        "agent_proj.0.weight": [
+          1024,
+          3584
+        ],
+        "agent_proj.0.bias": [
+          1024
+        ],
+        "agent_proj.1.weight": [
+          1024
+        ],
+        "agent_proj.1.bias": [
+          1024
+        ],
+        "cluster_mapping.weight": [
+          1,
+          1024
+        ],
+        "cluster_mapping.bias": [
+          1
+        ]
+      }
+    },
+    {
+      "arm": "learned_visual_only",
+      "checkpoint_sha_verified": true,
+      "path_shapes": {
+        "agent_proj.0.weight": [
+          1024,
+          3584
+        ],
+        "agent_proj.0.bias": [
+          1024
+        ],
+        "agent_proj.1.weight": [
+          1024
+        ],
+        "agent_proj.1.bias": [
+          1024
+        ],
+        "cluster_mapping.weight": [
+          1,
+          1024
+        ],
+        "cluster_mapping.bias": [
+          1
+        ]
+      }
+    }
+  ],
+  "local_torch": "2.11.0"
+}
