@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "steps": [
+    {
+      "script": "train_arm_v4.py",
+      "arm": "native",
+      "adopted_uninterrupted": true,
+      "pid": 3632,
+      "exit_code": 0
+    },
+    {
+      "script": "train_arm_v4.py",
+      "arm": "calibrated_own",
+      "exit_code": 0
+    },
+    {
+      "script": "train_arm_v4.py",
+      "arm": "calibrated_shared",
+      "exit_code": 0
+    },
+    {
+      "script": "train_arm_v4.py",
+      "arm": "learned_visual_only",
+      "exit_code": 0
+    },
+    {
+      "script": "evaluate_selected_v2.py",
+      "exit_code": 0
+    }
+  ],
+  "all_training_arms_same_v4_entry": true,
+  "native_training_uninterrupted": true
+}

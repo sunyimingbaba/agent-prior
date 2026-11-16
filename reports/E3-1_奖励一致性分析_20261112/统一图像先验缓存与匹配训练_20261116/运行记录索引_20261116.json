@@ -1,0 +1,26 @@
+{
+  "remote_root": "/private/AGSE_E3_1_rebuild_20261112/image_only_matched_readout_20261116",
+  "generation_completed": true,
+  "cache_states": 2100,
+  "cache_archive_sha256": "4bd2a2b07072f1babc042ae2c257161af504a5855e9c37229fa6367c8391378f",
+  "cache_local_independent_verification": "passed",
+  "quality_normal": 2087,
+  "quality_failures": 13,
+  "training_entry": "code/train_arm_v4.py",
+  "queue_entry": "code/run_training_pipeline_v2.py",
+  "queue_pid_at_launch": 4051,
+  "native_adopted_pid": 3632,
+  "post_entry": "code/run_post_v4.py",
+  "post_pid_at_launch": 4052,
+  "evaluation_entry": "code/evaluate_selected_v2.py",
+  "independent_verifier": "code/verify_results_v4.py",
+  "packager": "code/package_evidence_v2.py",
+  "training_budget": {
+    "arms": 4,
+    "epochs_each": 10,
+    "optimizer_steps_each": 320,
+    "Agent_updates": 0
+  },
+  "launch_git_commit": "beac3f50f887ee4dfe96266af6b82d99ce28c780",
+  "note": "启动与运行入口快照；实际完成情况以最终结果、核验和阶段报告为准。"
+}

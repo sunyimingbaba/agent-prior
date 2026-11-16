@@ -1,0 +1,35 @@
+{
+  "objective": "固定本轮读出网络和均衡32步Agent，定位逐图先验图像对应信息及固定港口示例残留；在train/val完成置换、去示例与图像遮挡对照，形成后续奖励/状态方案的证据。",
+  "evidence_trigger": {
+    "test_mR": {
+      "native": 75.6507936508,
+      "calibrated_own": 76.0634920635,
+      "calibrated_shared": 77.3015873016,
+      "learned_visual_only": 72.4920634921
+    },
+    "calibrated_own_minus_same_checkpoint_shared_pp": -0.4285714286,
+    "paired95_pp": [
+      -1.2857142857,
+      0.4285714286
+    ],
+    "val22_B_count_macro": {
+      "calibrated_own": 44.7115384615,
+      "calibrated_shared": 46.6346153846,
+      "learned_visual_only": 55.2884615385
+    }
+  },
+  "fixed_assets": "this-phase val-selected readout checkpoints + existing balanced32 LoRA + current cached states; no actor/readout update in initial diagnosis",
+  "controls": [
+    "within-split deterministic prior permutation preserving the state distribution",
+    "remove the fixed harbor few-shot example with same generic query",
+    "mask image input with tool-feedback controls explicitly recorded"
+  ],
+  "development_splits": [
+    "train",
+    "val"
+  ],
+  "test_record": "current test210 report and matrices remain sealed",
+  "state_position": "same last actual generate valid decode-step state initially preserved",
+  "budget": "seal exact image cohort, permutations, generation cap and tool-feedback matching after auditing the actual controller; reused states prioritized",
+  "report_node": "image dependence and prompt-example effects identified, reproducible paired evidence saved, concrete next reward/state proposal"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "steps": [
+    {
+      "script": "analyze_results_v3.py",
+      "exit_code": 0
+    },
+    {
+      "script": "verify_results_v5.py",
+      "exit_code": 0
+    },
+    {
+      "script": "audit_originals.py",
+      "exit_code": 0
+    }
+  ]
+}

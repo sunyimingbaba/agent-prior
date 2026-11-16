@@ -1,0 +1,6 @@
+{
+  "failure": "analyze_results_v2.py completed analysis.json, then CSV row serialization hit missing json import; original partial CSV, numerical JSON, logs and code preserved",
+  "fix": "v3 imports json and writes separate analysis_v2.json and per_image_test_metrics_v2.csv; asserts complete numerical JSON equality with previous output",
+  "GPU_state": "four10-epoch trainings and six test variants already completed successfully; correction uses saved matrices; zero additional readout/Agent updates",
+  "active_post": "run_post_v5.py -> analyze_results_v3, verify_results_v5, audit_originals; completion post_result_v2.json"
+}

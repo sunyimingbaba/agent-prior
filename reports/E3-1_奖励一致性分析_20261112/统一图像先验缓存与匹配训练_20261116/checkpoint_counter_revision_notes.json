@@ -1,0 +1,6 @@
+{
+  "reason": "Native Lightning1.4 checkpoint epoch stores completed epochs; filename epoch is zero-based. First observed file epoch=00-step=31 has raw epoch1/globalstep32/AdamW maxstep32. Initial result writer added1 to raw epoch; v2 reader normalizes a separate result from optimizer count while all original results/checkpoints remain unchanged.",
+  "selection": "exact integer mR numerator (denominator6300) removes arithmetic tie noise, earliest-epoch tie rule unchanged",
+  "training_effect": "all four arms still execute original sealed train_arm_v4.py with identical7999sample order/10epochs/320updates. Existing native child is adopted without signal or restart; only orchestration parent is replaced.",
+  "offline_audit": "Lightning callback class is used as an inert dictionary key during checkpoint metadata inspection, allowing independent local Torch2.11/Numpy2.4 verification without installing Lightning; tensor/RNG payloads preserved."
+}

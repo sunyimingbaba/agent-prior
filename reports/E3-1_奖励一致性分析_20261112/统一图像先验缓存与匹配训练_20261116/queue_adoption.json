@@ -1,0 +1,26 @@
+{
+  "replaced_queue_pid": 3010,
+  "adopted_training_pid": 3632,
+  "adopted_arm": "native",
+  "training_command": [
+    "/private/AGSE_E1_20261110/legacy/env/bin/python",
+    "-u",
+    "/private/AGSE_E3_1_rebuild_20261112/image_only_matched_readout_20261116/code/train_arm_v4.py",
+    "--arm",
+    "native",
+    ""
+  ],
+  "native_child_will_not_receive_signal": true,
+  "before_progress": {
+    "phase": "training",
+    "arm": "native",
+    "elapsed_seconds": 1032.3708962488454,
+    "updated_utc": "2026-11-16T04:57:20.244183+00:00",
+    "epoch": 5,
+    "batch": 76,
+    "optimizer_step": 137,
+    "loss": 0.8350696563720703
+  },
+  "reason": "correct legacy checkpoint epoch metadata using separate v2 records; training v4 code, parameters, optimizer and RNG remain untouched",
+  "created_utc": "2026-11-16T04:57:24.142764+00:00"
+}

@@ -1,0 +1,60 @@
+{
+  "created_utc": "2026-11-16T07:18:16.206442+00:00",
+  "selection_metric": "exact hit-count mR numerator /6300; ties earliest epoch; unrounded reporting",
+  "arms": {
+    "native": {
+      "epoch": 5,
+      "val_mR": 0.7711111111111112,
+      "checkpoint": {
+        "path": "training/native/checkpoints/epoch=04-step=159.ckpt",
+        "sha256": "a3721cc40104ef2512e3132fbe8de272cd1fa6c8a1d31d0309244aeda92690f4",
+        "bytes": 143994372,
+        "global_step": 160,
+        "epoch": 5,
+        "native_saved_epoch": 5,
+        "optimizer_max_step": 160
+      }
+    },
+    "calibrated_own": {
+      "epoch": 6,
+      "val_mR": 0.7796825396825398,
+      "checkpoint": {
+        "path": "training/calibrated_own/checkpoints/epoch=05-step=191.ckpt",
+        "sha256": "d03f71e6f56bd1f8f5c368513c05fd76d1f7d539e6ed6f42887526eed0dd3bd5",
+        "bytes": 143994372,
+        "global_step": 192,
+        "epoch": 6,
+        "native_saved_epoch": 6,
+        "optimizer_max_step": 192
+      }
+    },
+    "calibrated_shared": {
+      "epoch": 8,
+      "val_mR": 0.7839682539682539,
+      "checkpoint": {
+        "path": "training/calibrated_shared/checkpoints/epoch=07-step=255.ckpt",
+        "sha256": "0d4249d49b71ae41454c8dac389c5436d52147ea292256cb9ba4764b6aecd989",
+        "bytes": 143994372,
+        "global_step": 256,
+        "epoch": 8,
+        "native_saved_epoch": 8,
+        "optimizer_max_step": 256
+      }
+    },
+    "learned_visual_only": {
+      "epoch": 8,
+      "val_mR": 0.7146031746031746,
+      "checkpoint": {
+        "path": "training/learned_visual_only/checkpoints/epoch=07-step=255.ckpt",
+        "sha256": "fa5069aa95ab89fde592fcc3b8007136188e6db023dfb3265c4ec277a4e9c90a",
+        "bytes": 143984528,
+        "global_step": 256,
+        "epoch": 8,
+        "native_saved_epoch": 8,
+        "optimizer_max_step": 256
+      }
+    }
+  },
+  "all_four_initializations_identical": true,
+  "test_metrics_available_at_selection": false
+}
