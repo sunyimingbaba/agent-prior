@@ -1,0 +1,139 @@
+{
+  "audit_skill": "experiment-audit",
+  "date": "2026-11-17",
+  "phase": "static_v2_continuation_pre_results",
+  "verdict": "WARN",
+  "reviewer_agent": "/root/rfpo_sampling_reward_integrity_review",
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_reasoning": "ultra",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "reason_code": "scope_uncertainty_unit_and_runtime_pending",
+  "checks": {
+    "A": {
+      "status": "PASS",
+      "title": "数据与冻结评分身份",
+      "details": "V2按权威train Arrow哈希、1680行、完整文件名顺序、所有特征有限且单位化验证代理图库。从已注册闭包抽取1024维offset与封存offset逐元素比对。准备阶段按15个权威基座/处理器文件校验，并核85个人工标注图像的像素身份。",
+      "evidence": "code/reward_model_v2.py:32；code/reward_model_v2.py:40；code/reward_model_v2.py:45；code/prepare_stage_v2.py:15；inputs/dataset_sources_reference.json:2"
+    },
+    "B": {
+      "status": "PASS",
+      "title": "奖励与检索公式",
+      "details": "每次生成给三个奖励使用相同的h和读出；数量分数按56条固定文本的余弦算出，只有A写入训练奖励，B保留给评价。代理奖励和数量成对、最难负例奖励可从逐条原始分数重算。三种mR均对六个方向/截断值等权汇总，精确并列下均匀抽取的命中概率通过独立组合数例证（75个值，最大差0）。",
+      "evidence": "code/reward_model_v2.py:57；code/reward_model_v2.py:64；code/train_reward_arm.py:36；code/evaluate_policy.py:53；code/tie_metrics.py:4"
+    },
+    "C": {
+      "status": "PASS",
+      "title": "源码清单与历史证据",
+      "details": "V2试运行清单38/38项、继续阶段清单6/6项通过本地字节哈希核验。15项基座引用与既有完整清单相同。上轮静态审计中的既有人工标签和工具反馈证据沿用。V1中两个算术路径的分数存在微量舍入差；V2要求图像特征逐位相同，并以1e-6为数量分数绝对误差阈值。",
+      "evidence": "pilot_code_hashes_v2.json:2；continuation_code_hashes.json:2；execution_addendum_v2.json:3；code/prepare_stage_v2.py:26"
+    },
+    "D": {
+      "status": "WARN",
+      "title": "调用和更新证明",
+      "details": "已接入概率门、贪心锚点、三臂训练和四策略评估。只在提示选择成功且概率门通过后进入训练，各训练臂在独立进程内重新载入balanced32并新建AdamW。实际通过次数、有效更新及各评估结果须以运行产物核实。队列在评估完成后标记分析待做。已另封存分析脚本，其中实现了主终点、区间与采纳判定逻辑，实际调用和产物待核。",
+      "evidence": "code/run_continuation.py:14；code/run_continuation.py:21；code/run_continuation.py:24；code/train_reward_arm.py:18；plan.json:156"
+    },
+    "E": {
+      "status": "WARN",
+      "title": "主指标选择与覆盖范围",
+      "details": "一个UCM继续训练种子、8张策略训练图，主要数量诊断为策略训练图外的52张train图，四个数量层分母3/34/12/3。每策略安排273条贪心和55图×2条随机轨迹。analysis_protocol_lock.json已指定主B数量指标用greedy，主检索警戒用repository_duplicate_token_positive，敏感性统计另列。封存时点待与实际运行时间线核对。训练预算相同而真实更新数不同时，归因限定在同等采样机会之下。",
+      "evidence": "plan.json:147；plan.json:161；plan.json:164；code/evaluate_policy.py:25；code/evaluate_policy.py:55"
+    },
+    "F": {
+      "status": "PASS",
+      "title": "评价类型",
+      "details": "人工确认数量作为标签，对应冻结读出模板排序的诊断。代理奖励的图像行ID真实，排序目标为self_supervised_proxy。检索使用数据集图文配对（real_gt），在验证域评估。分类器为真实历史反馈，按本次模型实际请求回放；当前协议指标衡量格式与上下文暴露。",
+      "evidence": "code/stochastic_rollout.py:31；code/stochastic_rollout.py:42；code/reward_model_v2.py:63；code/evaluate_policy.py:41"
+    }
+  },
+  "items": [
+    {
+      "title": "概率重放与覆盖",
+      "evidence": "code/stochastic_rollout.py:20；code/policy_logprob.py:9；code/probability_gate.py:11；code/probability_gate.py:19；code/train_reward_arm.py:42",
+      "details": "采样保存实际生成token的处理后分数并核实仅首位置禁EOS；教师前向把实际生成序列去掉最后一个输入token，在prompt末位开始逐token对齐（含终止token），同样屏蔽首位EOS。预检只抽固定排序前2条，来自同一训练图；后续每个有更新的组对全部候选的全部回合核对逐token误差（最大0.25 nat、每轮平均绝对0.05 nat）。仅预检另外检查末隐藏态余弦≥0.999。零方差组跳过教师重放；报告时给各阶段实际样本与token分母。"
+    },
+    {
+      "title": "临时更新恢复与失败记账",
+      "evidence": "code/probability_gate.py:27；code/probability_gate.py:32；code/run_continuation.py:21；code/train_reward_arm.py:21",
+      "details": "正常路径要求临时更新改变适配器哈希，再在finally按原适配器逐值还原，清梯度并核原哈希。临时进程的AdamW状态随后丢弃，三臂从新优化器开始。如果opt.step之后的断言或冻结检查失败，结果temporary_updates=int(ok)可能报0，实际应独立记step是否执行。发生该分支时以恢复与故障证据逐项核账。"
+    },
+    {
+      "title": "固定机会数和真实更新",
+      "evidence": "code/train_reward_arm.py:32；code/train_reward_arm.py:38；code/train_reward_arm.py:45；code/train_reward_arm.py:48；code/train_reward_arm.py:51",
+      "details": "各臂相同图像顺序和种子公式。每组8条完整采样含失败轨迹；仅本臂r_字段进入目标，组内使用FP32样本标准差，std≤1e-8时整个optimizer.step跳过，并检验参数哈希不动。每次真实更新后要求哈希变且梯度有限非零。验收时用逐条原始奖励和相同FP32规则重算，核32行组记账、256个记录哈希、Adam状态步数和最终权重。若计算某组中途报错，failure.json目前未写入该组已经算过的概率偏差列表，应保留组、样本/回合及误差以便复核。"
+    },
+    {
+      "title": "基线锚点、读出、验证图库",
+      "evidence": "code/baseline_replay.py:10；code/baseline_replay.py:16；code/baseline_replay.py:20；code/evaluate_policy.py:28；code/evaluate_policy.py:44；code/evaluate_policy.py:50；code/evaluate_policy.py:60",
+      "details": "若选择contract_only，基线用一张train和一张val实际重新生成，以各轮prompt和输出ID、全部步状态、质量、图像特征和数量分数验证复用条件；失败则新生成。基线复用的273条仍按本轮读出重新打分。评估聚类贡献直接reshape(210,5,3)；新增code/verify_val_protocol.py:5以权威哈希及每图5句保护这一假设。验收核实际validation_identity_guard、封存时点及owner顺序。"
+    },
+    {
+      "title": "主要数量终点与采纳口径",
+      "evidence": "plan.json:147；plan.json:164；code/evaluate_policy.py:25；code/evaluate_policy.py:55；code/run_continuation.py:24",
+      "details": "新analysis_protocol_lock.json:3–9已指定唯一口径。code/analyze_comparison.py:43–57按图先汇总2条随机轨迹，按真数量1–4四层对图像配对bootstrap，再以六个检索召回值汇总固定图库的逐图贡献。采纳要求主B hard差CI下界>0、验证mR差下界>−0.02、全部策略随机协议过门且三臂均32次实际更新。验收须重算各层分母、数量及检索CI，并核同步的封存时点。"
+    },
+    {
+      "title": "训练候选相关性的重采样单位",
+      "evidence": "code/analyze_comparison.py:16；code/analyze_comparison.py:22；code/analyze_comparison.py:32",
+      "details": "训练相关性在同一attempt和图像内计算正确。区间随后按有可定义相关性的attempt组独立重抽，字段名为spearman_image_bootstrap95；同图最多4次，实际独立图像仅8张。改作按唯一图像整簇重抽、携带其全部尝试，或仅报告描述统计；即便按图修正，范围仍为单次策略训练轨迹。"
+    },
+    {
+      "title": "随机评估的实际分母及排序",
+      "evidence": "plan.json:151；code/analyze_comparison.py:25；code/analyze_comparison.py:32；code/analyze_comparison.py:38",
+      "details": "sampled模式只含55图，但会写出all85字段；内部images记录实际55。需为此模式标明实际覆盖。评价端目前仅汇总数量得分和协议，候选排序相关性仅针对pilot或训练；如要报告持出55图的随机排序，按每图两条保存记录统计奖励与B效用同向、反向、并列及相应分母。"
+    }
+  ],
+  "audited_input_hashes": {
+    "cache_plan.json": "1ada544633bff58fc9402eea83d9c3dd6e87e505db41ed9dd2caeb4765e63fd0",
+    "code/checkpoint_io.py": "30ff45b41141734fee744b02165cc0dbd60bf292100569399c7d751e250b8073",
+    "code/checkpoint_metadata.py": "fd27f9e3fd07ad4595757643cc75ce8081a51a8b92b07e557e985b26dfd1604c",
+    "code/evidence_parts.py": "7f9ea10242e5dafa1057ff4df828a7188956c079a8cc9d7569ce83363ee9cc4e",
+    "code/live_rollout_legacy.py": "23de6bfb86dfd73f3527284a7bbe830474664a787122d5dd2ec9cfe759a2f18a",
+    "code/matched_common_v3.py": "2da0d66171d0da3212bc08db2181d20415b22a6a29d5e9ebd23bfc723c50a1f6",
+    "code/milestone_common.py": "853feffbe3b2095103aa6638b75f91feab874daa435f9e0e8132e0eed5f80664",
+    "code/policy_logprob.py": "407ac1e4fedb62417db2c63bb5281c8871ef07df8ee2162d61a53b0e6670c200",
+    "code/prepare_stage.py": "5cc1718f0eccc44a81273e223eba9f3222e083f5fe9350efd26812957d54467c",
+    "code/prepare_stage_v2.py": "4e87d15c43250df2d29d942bce4efd14b50c548bcbd3f21ab3aeee1fda1b3166",
+    "code/prompt_design.py": "4b4fe096469f27329d8a88194720588f1f7ebbbd85ba3baa66d8d439a7f32082",
+    "code/reward_model.py": "0bff535976e80deb1dc19ab7891837d0d32f57e4be8cf4602dfbfc13161dc523",
+    "code/reward_model_v2.py": "3645e18feeb5073b556d85c96b4c071c6e75b833481aba80a8d3d85f2bb5e3f8",
+    "code/run_initial_stage.py": "b0ae852a8d751e064e656c184f6b73708bba073b528ecc447c1ffba5cd861c8c",
+    "code/run_initial_stage_v2.py": "0e0ad1e9142f12da6152cb622e0cfc5c20a5893156a95c704a52b39cb5c18aab",
+    "code/run_pilot.py": "52d9e9881f08ff55b61051fb782cdcfcd8ef4f0a52029b5064c103dff1967510",
+    "code/run_pilot_v2.py": "859996513169e58cbecf0b971c42c947690591203603f9dc0f3368bb2a4c02e5",
+    "code/stage_io.py": "c42284e8f27ec10ca4f85926a8a51f39e59e7cb8ea4738481efb40b9a4e822e1",
+    "code/state_contract_v2.py": "8b06addabf36250781d4ec859535dfdea851cc15ad23638aabedfc2860592b00",
+    "code/stochastic_rollout.py": "ffe51b6cb355cd31e08e82a409a3bc5e68b757419078737b452ad925ebca2d34",
+    "code/tie_metrics.py": "7ef15ac84a362a70833d115e1490723ce2f6ecc1587c7133f60e2a5a6b2f8bdf",
+    "environment_context/school-a100-legacy-20261026.md": "f0ff2fbf62e7c4df732df3a91ae5d7e17aeb4da65180c8b65dd4a45285eb1300",
+    "execution_addendum_v2.json": "4b312b275f282349914e85db57e790d25bdc86b3a69383274ea0a645847de0d4",
+    "inputs/balanced_checkpoint_reference.json": "1c32b688d7fa869c116cf200174e4c41147037e67266668658a64316f1a38c5b",
+    "inputs/base_model_reference.json": "fdd5cd9af395f6a56b5b99579cb6037d3d67d8a644c3fe9e26630d9189c46450",
+    "inputs/cohort.json": "257b0507d7b1611375c682d69cec8a0e44eaad6fb117fed6c3a5f29d321a1107",
+    "inputs/dataset_sources_reference.json": "03dd0ef28920276b4a5b4290ffc00df9ae9ee8350cf6bd98694aa71c2b4f5f3c",
+    "inputs/frozen_path_assets.pt": "a332415eaf5f86f7918a142d5d3f987dc9bfa477d8df7bc43a971d6cedcf2c70",
+    "inputs/parent_environment.json": "544a7f80ea1281e00e9212d2d37dff644ba35179a3e0e3a7106b12a0a106cd3f",
+    "inputs/parent_selection_lock.json": "81dd3f822e9b7ef637607ab1acd690ac57e7fa6ff7fa7d64995c747c63ba60b7",
+    "inputs/quantity_cases.json": "0403328b37b7153f27ff1d2faa059d59141d017db8aa9f0c49938280ad75598a",
+    "inputs/quantity_gallery.json": "2c9385ff1fb1ccc54d04127220f34b91ea23c471281bc72540b5371478f98793",
+    "inputs/rotating_examples.json": "1ff3d4577206d7a2979d618ed95f8a7d305253ccf5720ef184bb092b1a44c84d",
+    "inputs/tokenizer_decoder.json": "a80fa7a3cc16c21fe90175c71750eea17093c00e3033373d5ad556e132934aea",
+    "inputs/tokenizer_snapshot.json": "f884026e05f6dfffe68b72d580b588006d98b3bc0a128bb1ac425c76f7fc438c",
+    "plan.json": "1c48fae539a4ea13b4b462f00444b049648a7736c83e177e37be921f93edb2b4",
+    "readout_reference_plan.json": "a24bb39cede524413c0b63dd038ac9f321569941b34f7f7c82d23fe046e419bd",
+    "source_snapshot/inventory_before.json": "0a0191cd5f07624265916159e38bdd16d3c5ba6fb782262f23d4591cdc2c3b3a",
+    "pilot_code_hashes_v2.json": "73476df1f64647aa99b8c3325606de2112d610685a07a26a0707d3d563880fe7",
+    "code/probability_gate.py": "099ecd491f0c04a7d11c44dd6c9181c8f725ecb5926a425217bab27e9e04e900",
+    "code/baseline_replay.py": "401a27c38a6c7aeff87c5e6d7a2d8cf0944279dd70f887a98fc3428f5a801001",
+    "code/train_reward_arm.py": "e97cbe0bcf99f8725e6e447cc0a286653bf139cfd756c61d1e39e501b95b71ce",
+    "code/evaluate_policy.py": "2d94b6b31929e9a521e2ba41091a238e3298e2f70705ada3be6c83ff9ec24ce0",
+    "code/run_continuation.py": "aeef1d1b06821448fb7288702387947dfb275d0e66cadd5eedf0088ac4c25068",
+    "continuation_code_hashes.json": "2f2bb92a5eb13c80158c88f05efa18b4adb827854b61f2a23da80aef67e873f4",
+    "analysis_protocol_lock.json": "701cd6918bc1a17972d782b5dab6fece39f7ae84751fc2e6a4b43ac293d4aad5",
+    "code/verify_val_protocol.py": "0ff2f81d81feee0022e78052b5af634e0c62f1f4e727b0065fbe1f4d9fb74bfb",
+    "code/analyze_comparison.py": "c3c9f2075837ca444634351e82823637f158a80684c909b1c4b668f88a1d28f9",
+    "analysis_support_hashes.json": "bfe5b90c401e9b9550a0a66aad01b14a832b019d923c918a7d58e5447c59abe5"
+  },
+  "generated_at": "2026-11-17T08:52:08.850252+00:00"
+}

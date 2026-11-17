@@ -1,0 +1,13 @@
+{
+  "sealed_before_continuation_training": true,
+  "primary_quantity_generation_mode": "greedy",
+  "primary_quantity_metric": "B hard accuracy macro true-count1to4 on52 heldout trainimages",
+  "primary_retrieval_guard": "repository_duplicate_token_positive mR on fullval210/1050",
+  "sensitivity": [
+    "sampled quantity means",
+    "strict_index retrieval",
+    "strict_tie_averaged retrieval"
+  ],
+  "unchanged_thresholds": "plan.json adoption thresholds unchanged",
+  "reason": "Explicitly bind generation mode and retrieval protocol before reading any final policy outcomes; report every policy and protocol."
+}

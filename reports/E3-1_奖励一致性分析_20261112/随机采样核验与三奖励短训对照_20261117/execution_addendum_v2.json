@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "reason": "Preflight V1 stopped before stochastic pilot and before any Agent update; saved actual image features exactly match, GPU single-row vs CPU batch quantity scores differ by <=1.341104507446289e-7.",
+  "preserved": [
+    "initial_job_result.json",
+    "prepare_stage.py.log",
+    "runtime_environment.json",
+    "warm_replay_diagnostic.json",
+    "pilot_code_hashes.json"
+  ],
+  "quantity_score_absolute_tolerance": 1e-06,
+  "tolerance_provenance": "Previous independent quantity scorer verification uses absolute tolerance1e-6; no reward/metric rounding or normalization added.",
+  "image_feature_check": "still bit-exact",
+  "new_guards": [
+    "all15 authoritative base/processor/generation assets",
+    "trainArrow authoritative1680 rows+SHA+unique full order",
+    "proxy feature finiteness/unitnorm",
+    "actualcalibration hook tensor matches frozen offset"
+  ],
+  "no_changes_to": [
+    "rollout sampling distribution",
+    "training images",
+    "prompt selection gates",
+    "reward formulas",
+    "training attempt budget",
+    "evaluation protocol",
+    "adoption gates"
+  ],
+  "Agent_optimizer_updates_before_fix": 0
+}
