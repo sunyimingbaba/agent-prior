@@ -1,0 +1,95 @@
+{
+  "review_type": "independent archive sidecar review and isolated recovery test",
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_reasoning": "ultra",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "result": "PASS",
+  "verified_at_utc": "2026-11-17T07:52:22.826476+00:00",
+  "scope": "final archive, mirror and seven parts verified in local filesystem; server values matched against preserved server verification JSON; no direct server connection and no new utility experiments",
+  "artifacts": {
+    "local_auxiliary_unindexed": {
+      "resume_20261117/before/file_checksums.json": {
+        "bytes": 241911,
+        "sha256": "cda95e468a215895a98210d9185a197ebf76973c834d553c4e17aece3ea1d7c9"
+      }
+    },
+    "pause_archive_sha256": "349d5b7c71eef73bdb60ec4697d3a374126a80b4a09159a6e667d1b92bf1e0e4",
+    "archive": {
+      "bytes": 647957009,
+      "sha256": "87eb5ad3efb18e5bdc096fb48bc38ef15f7a2f8b345b932b20d03843592444ee"
+    },
+    "members": 2795,
+    "manifest_entries": 2794,
+    "mirrors": 253,
+    "part_sizes": [
+      98566144,
+      98566144,
+      98566144,
+      98566144,
+      98566144,
+      98566144,
+      56560145
+    ],
+    "status_files": {
+      "协议提示修复与候选状态验证结论_20261117_v2.md": "53772f7b0beb1c153ab5dcfbcc34dcb87a10e69792f042ea3f59aef1a6800e60",
+      "RFPO后续决策说明_20261117_v2.md": "192eaf33e99572fb56b1b71ac5e712cddd024cafa547c88633b22d02b1c02c7a",
+      "后续RFPO实验依据与待验证项_20261117_v2.json": "038e9d599b79e113382535a3c2acc6389ab52923d596f40a0ae4acfe5c665e44"
+    },
+    "server_proof_sha256": "60c68d60e91f0294615e0b38043ce4832ec4ea223a06bd0be87b904a2a888604",
+    "parts_index_sha256": "1125e1533fc9ddd652462aff8b2fa9ee6350f1d1f42b48d2efea6b8ebd28b0ab",
+    "manifest_sha256": "04200d7f627a634f7e294a862086398078d393abefd0fd565de402e77e701b3e",
+    "delivery_index_sha256": "8ba5f2214858c695dad5acf685195863dbf10b1adea462289e025c17aac49bef",
+    "completion_status_sha256": "a36a000250cba51b719d85071f4520e94564c54d8c29733830361f4b2df136a2",
+    "checksums_rehashed_in_archive": 2795,
+    "frozen_audit_files_rechecked": 4,
+    "local_parent_proof_sha256": "c0c14191e1117a4483c110b20ed7cc26ba955ba61ef9c3eb052f09a48169e517",
+    "server_parent_proof_sha256": "65440d6e2cf204985fa226741d24f45d9ae1fe27b708e353011721b300cbb157"
+  },
+  "supplemental_recovery_metadata": {
+    "reason": "archive filename filter omitted the nested pre-resume manifest; original file preserved at both endpoints",
+    "file": "补充材料_恢复前文件清单_20261117.json",
+    "bytes": 241911,
+    "sha256": "cda95e468a215895a98210d9185a197ebf76973c834d553c4e17aece3ea1d7c9",
+    "restore_relative_path": "resume_20261117/before/file_checksums.json",
+    "documentation": "恢复材料补充说明_20261117.md",
+    "main_archive_sha256_unchanged": true
+  },
+  "isolated_recovery": {
+    "resume_verifier_exit_code": 0,
+    "isolated_full_reconstruction": true,
+    "backup_files_consumed": [
+      "protocol_state_evidence_20261117.tar.gz",
+      "补充材料_恢复前文件清单_20261117.json"
+    ],
+    "included_members": 2795,
+    "supplement_sha256": "cda95e468a215895a98210d9185a197ebf76973c834d553c4e17aece3ea1d7c9",
+    "supplement_bytes": 241911,
+    "replayed_verification": {
+      "ok": true,
+      "paused_manifest_files_verified": 1527,
+      "paused_existing_files_preserved_exact": 1526,
+      "original_record_journal_prefix_preserved": 651,
+      "new_records_verified": 21,
+      "exact_warm_replays_verified": 3,
+      "selected_prompt_lock_preserved": true,
+      "runtime_packages_unchanged": true,
+      "Agent_optimizer_updates": 0,
+      "readout_optimizer_updates": 0
+    }
+  },
+  "standalone_inputs": "For continuity replay, extract the main archive and provide the supplemental old manifest. The preserved journal before the append supplies the original 651-line prefix. The script runs on a reconstructed paused view with its own manifest.",
+  "proof_file_sha256": {
+    "备份校验.json": "c28f0be6452094086819840cd24b04087034c9d8572ea200c77a4255ba11f32a",
+    "服务器最终备份核验.json": "60c68d60e91f0294615e0b38043ce4832ec4ea223a06bd0be87b904a2a888604",
+    "归档分卷/protocol_state_evidence_20261117.tar.gz.parts.json": "1125e1533fc9ddd652462aff8b2fa9ee6350f1d1f42b48d2efea6b8ebd28b0ab",
+    "完成记录_20261117/原始运行记录/file_checksums.json": "04200d7f627a634f7e294a862086398078d393abefd0fd565de402e77e701b3e",
+    "交付文件索引.json": "8ba5f2214858c695dad5acf685195863dbf10b1adea462289e025c17aac49bef",
+    "完成保存状态_20261117.json": "a36a000250cba51b719d85071f4520e94564c54d8c29733830361f4b2df136a2",
+    "补充材料_恢复前文件清单_20261117.json": "cda95e468a215895a98210d9185a197ebf76973c834d553c4e17aece3ea1d7c9",
+    "恢复材料补充说明_20261117.md": "14813f148a679045b534a14d8e5d7e570ff43c6704eee594094f4f556f225dd4",
+    ".aris/traces/experiment-audit/2026-11-17_run01/text_review.json": "6e62e9c1fdfd5ee5d1a1109b4b2136c99b9629808b55b9fecbc7c510d2c42264"
+  },
+  "remote_evidence_basis": "server proof binds archive length/digest, 2794 source and 253 mirror entries, raw manifest and delivery-index hashes; archive partitions and supplemental recovery replay independently verified locally",
+  "sidecar_status": "This review, backup proof and supplemental material live outside the frozen archive and delivery index."
+}

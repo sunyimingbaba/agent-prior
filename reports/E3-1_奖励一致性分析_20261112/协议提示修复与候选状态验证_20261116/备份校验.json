@@ -229,5 +229,14 @@
     "server_sha256": "65440d6e2cf204985fa226741d24f45d9ae1fe27b708e353011721b300cbb157"
   },
   "no_active_phase_jobs": true,
-  "final_local_verification_utc": "2026-11-17T07:43:16.179076+00:00"
+  "final_local_verification_utc": "2026-11-17T07:43:16.179076+00:00",
+  "supplemental_recovery_metadata": {
+    "reason": "archive filename filter omitted the nested pre-resume manifest; original file preserved at both endpoints",
+    "file": "补充材料_恢复前文件清单_20261117.json",
+    "bytes": 241911,
+    "sha256": "cda95e468a215895a98210d9185a197ebf76973c834d553c4e17aece3ea1d7c9",
+    "restore_relative_path": "resume_20261117/before/file_checksums.json",
+    "documentation": "恢复材料补充说明_20261117.md",
+    "main_archive_sha256_unchanged": true
+  }
 }
