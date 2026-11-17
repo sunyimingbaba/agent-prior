@@ -1,0 +1,172 @@
+{
+  "stage": "UCM数量诊断下的随机采样与三奖励继续短训对照",
+  "created_utc": "2026-11-17T08:13:48.533178+00:00",
+  "remote_root": "/private/AGSE_E3_1_rebuild_20261112/rfpo_sampling_reward_comparison_20261117",
+  "runtime_python": "/private/AGSE_E1_20261110/legacy/env/bin/python",
+  "parent_protocol_root": "/private/AGSE_E3_1_rebuild_20261112/protocol_prompt_state_validation_20261116",
+  "matched_root": "/private/AGSE_E3_1_rebuild_20261112/image_only_matched_readout_20261116",
+  "policy": {
+    "name": "balanced32",
+    "lora_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85",
+    "checkpoint": "/private/AGSE_E3_1_rebuild_20261112/balanced_quantity_32_a100_20261115/training/final/checkpoint",
+    "checkpoint_manifest": "inputs/balanced_checkpoint_reference.json"
+  },
+  "base_query": "Describe the visible scene.",
+  "training_images": [
+    "102.tif",
+    "120.tif",
+    "121.tif",
+    "124.tif",
+    "147.tif",
+    "933.tif",
+    "157.tif",
+    "1937.tif"
+  ],
+  "rollout": {
+    "max_rounds": 3,
+    "max_new_tokens_per_round": 256,
+    "min_new_tokens": 1,
+    "temperature": 1.0,
+    "top_k": 0,
+    "top_p": 1.0,
+    "repetition_penalty": 1.0,
+    "tool_threshold": 0.0,
+    "tool": "actual scene_classify, registered tool calls only, role-separated feedback",
+    "state": "same last valid decoding-step final-layer final-position hidden tensor is cached and passed to frozen scorer; no terminal forward-state replacement",
+    "quality": "nonempty completed answer, no generated result tags, no mixed/unknown tool calls, no addCriterion, no token-limit or round-limit; failures retained",
+    "format_reward": "0.2 exactly when new rollout quality passes, otherwise 0.0; stricter than historical regex-only bonus",
+    "sampling_distribution": "untruncated categorical softmax; first-token EOS suppression from min_new_tokens=1 is identically applied in policy logprob",
+    "tool_boundary_stop": "complete scene_classify closing tag only; answers end on native configured EOS"
+  },
+  "prompt_priority": [
+    "contract_only",
+    "neutral_placeholder",
+    "legacy"
+  ],
+  "pilot": {
+    "images": 8,
+    "candidates_per_image": 8,
+    "temperature": 1.0,
+    "seeds": "2026111700 + 100*image_index + sample_index",
+    "max_prompt_variants": 3,
+    "selection": "first by fixed priority with strict completed+consumed feedback>=90%, consumed tool>=95%, generated result tags<=2%; train8 protocol only, utilities not used",
+    "signal": "all3 reward group variances and tie patterns reported; no reward selection by validation",
+    "if_no_prompt_passes": "preserve fullpilot, no training; report protocol failure and matched reward diagnostics"
+  },
+  "readout": {
+    "arm": "calibrated_own",
+    "checkpoint": {
+      "path": "training/calibrated_own/checkpoints/epoch=05-step=191.ckpt",
+      "sha256": "d03f71e6f56bd1f8f5c368513c05fd76d1f7d539e6ed6f42887526eed0dd3bd5",
+      "bytes": 143994372,
+      "global_step": 192,
+      "epoch": 6,
+      "native_saved_epoch": 6,
+      "optimizer_max_step": 192
+    },
+    "all_parameters_frozen": true,
+    "proxy_library": "all1680 train images, CLIP encode_image with zero16x1024 prompts once, train-row aligned; noAgentprior for library",
+    "context": "same frozen backbone/translation for all3rewards; original ranking formula reconstructed on this checkpoint, historicalversion0 not recovered"
+  },
+  "reward_arms": {
+    "proxy_rank": "0.2*strict_completed_consumed_tool + 1/(1+strictly_higher_target_image_scores_in_trainlibrary)",
+    "quantity_pair": "0.2*strict_completed_consumed_tool + A_correct_count_cosine - A_original_wrong_count_cosine",
+    "quantity_hard": "0.2*strict_completed_consumed_tool + A_correct_count_cosine - max_A_all_other_cached_counts_same_object"
+  },
+  "training": {
+    "attempts_per_arm": 32,
+    "group_size": 8,
+    "image_order": [
+      "102.tif",
+      "120.tif",
+      "121.tif",
+      "124.tif",
+      "147.tif",
+      "933.tif",
+      "157.tif",
+      "1937.tif",
+      "102.tif",
+      "120.tif",
+      "121.tif",
+      "124.tif",
+      "147.tif",
+      "933.tif",
+      "157.tif",
+      "1937.tif",
+      "102.tif",
+      "120.tif",
+      "121.tif",
+      "124.tif",
+      "147.tif",
+      "933.tif",
+      "157.tif",
+      "1937.tif",
+      "102.tif",
+      "120.tif",
+      "121.tif",
+      "124.tif",
+      "147.tif",
+      "933.tif",
+      "157.tif",
+      "1937.tif"
+    ],
+    "sample_seed": "2026111800 + 100*zero_based_attempt + sample_index; same across reward arms",
+    "lr": 5e-06,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.01,
+    "gradient_clip_norm": 1.0,
+    "base_dtype": "BF16",
+    "LoRA_dtype": "FP32",
+    "dropout": 0.0,
+    "optimizer": "AdamW fresh per arm, same balanced32 initialization",
+    "loss": "negative group-mean standardized reward advantage times summed effective assistant token log probability; recompute per round, backward serially",
+    "zero_variance_policy": "std<=1e-8: retain group, skip optimizer entirely, count attempt and zero informative update; no synthetic reward jitter; differences in effective updates explicitly limit reward-only causal comparison",
+    "checkpoint": "fixed final32attempts, intermediate16; no val selection",
+    "actual_same_updates_required_for_strict_reward_attribution": true
+  },
+  "probability_gate": {
+    "max_token_gap": 0.25,
+    "mean_absolute_gap": 0.05,
+    "temporary_optimizer_witness_restored": true,
+    "failure": "save bounded witness and stop before substantive updates"
+  },
+  "evaluation": {
+    "policies": [
+      "baseline_continuation0",
+      "proxy_rank",
+      "quantity_pair",
+      "quantity_hard"
+    ],
+    "greedy_images_per_policy": 273,
+    "sampled_images_per_policy": 55,
+    "samples_per_image": 2,
+    "primary": "B all-count hard accuracy macro1to4 on52 count1to4 cases among55train images outside8policytraining images",
+    "secondary": [
+      "B/A pair and hard accuracy/margins all85 labelled quantity images",
+      "full val210/1050retrieval under3saved protocols",
+      "stochastic protocol and within-image reward/utility rank patterns"
+    ],
+    "baseline_greedy_reuse": "only if chosen contract_only and exact warm state+feature replay; re-score on same frozenreadout; no fresh test scoring",
+    "seed": "2026111900 + 10*fixed_cohort_index + sample_index"
+  },
+  "analysis": {
+    "bootstrap": 10000,
+    "seed": 2026111720,
+    "quantity_unit": "paired image, stratify truecounts1to4; compare all reward arms and baseline",
+    "retrieval_unit": "pairedvalimage cluster5captions, fixed gallery",
+    "scope": "one continuation seed, eight policytraining images, val-selected frozenreadout; original three-dataset RFPO comparison remains a separate experiment"
+  },
+  "adoption": {
+    "primary": "quantity_hard minus proxy_rank B hard macro CI lower>0, hard minus pair also reported",
+    "retrieval_guard": "val mR hard minus baseline CI lower>-0.02",
+    "protocol_guard": "all finalpolicies stochastic strict>=90% and generated result<=2%",
+    "training_guard": "same32actual updates across3arms for strict matched-update claim; otherwise report opportunity-budget mechanisms only",
+    "if_not_met": "retain checkpoints and report completed negative/uncertain comparison; no automatic extended training"
+  },
+  "report_node": "pilot+probability contract+three frozen-scoring continuationarms+unified heldout evaluation+independent reconstruction+dual backups+GitHub",
+  "new_test_scores": 0
+}
