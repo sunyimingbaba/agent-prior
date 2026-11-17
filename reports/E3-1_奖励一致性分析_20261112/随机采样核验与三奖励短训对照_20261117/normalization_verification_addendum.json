@@ -1,0 +1,22 @@
+{
+  "reason": "CPU float32 mean/std reduction differs slightly from saved CUDA float32 reduction; directCPU standardization comparison amplifies tiny absolute std error for rank rewards. Training remains unchanged.",
+  "observed_completed_proxy_arm": {
+    "max_CPU_GPU_mean_gap": 1.4901161193847656e-08,
+    "max_CPU_GPU_std_gap": 7.450580596923828e-09,
+    "max_CPUFP64_mean_error": 1.30385160446167e-08,
+    "max_CPUFP64_std_error": 6.047420850686296e-09,
+    "max_advantage_error_rebuilt_from_originalCUDA_stats": 0.0
+  },
+  "corrected_verification": [
+    "Independently recompute actual8reward vectors on originalCUDA device for all32groups, require bit-exact mean/std/advantages",
+    "CPUFloat64 independently reconstruct mean/std and compare using8*float32epsilon*maxabsinput bound for8candidate reductions",
+    "CPU rebuildpointwise advantages from originalboundCUDA statistics, then rebuild losses/hashchain/checkpointoptimizer steps"
+  ],
+  "preserved": [
+    "code/verify_training_cpu.py",
+    "code/run_post_queue.py",
+    "post_code_hashes.json"
+  ],
+  "training_parameters_rewards_rawdata_changed": false,
+  "post_queue_replacement": "replace only idle CPU verifier waiting daemon before anypost stage has run"
+}

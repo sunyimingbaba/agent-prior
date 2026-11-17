@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "arms": {
+    "proxy_rank": {
+      "samples": 256,
+      "attempts": 32,
+      "optimizer_updates": 31,
+      "zero_variance_skips": 1,
+      "checkpoints": {
+        "intermediate_16": {
+          "manifest_files": 16,
+          "adapter_tensors": 584,
+          "optimizer_steps": 15,
+          "policy_hash": "5e6402fc7be3b5f4133c19b3f53104eed49fc5fd020ba07e8f86f86d458ef311"
+        },
+        "final": {
+          "manifest_files": 16,
+          "adapter_tensors": 584,
+          "optimizer_steps": 31,
+          "policy_hash": "38cb9e23344900a936a22bb013b3575ef58b0795ae72fbae406712435e23b7b2"
+        }
+      }
+    }
+  },
+  "probability_rounds_rebuilt": 494,
+  "scope": "one completed arm, others still in progress",
+  "common_start_bound": true,
+  "all_group_rewards_advantages_losses_rebuilt": true,
+  "normalization_validation": "Independent CUDA recomputation bit-exact to original32 groups; CPUFloat64 mean/std bounded by8*float32epsilon*inputscale, pointwise advantages rebuilt from recorded CUDA statistics",
+  "checkpoint_optimizer_steps_match_actual_updates": true
+}
