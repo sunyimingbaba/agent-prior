@@ -1,0 +1,181 @@
+{
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_reasoning": "ultra",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "audit_skill": "experiment-audit",
+  "review_type": "static_execution_equivalence_and_real_generation_artifact_review",
+  "scope": "local read-only evidence inspection; outputs written only to requested audit trace",
+  "overall_verdict": "PASS_within_generation_scope",
+  "utility_status": "PENDING",
+  "checklist": [
+    {
+      "id": "A",
+      "status": "PASS",
+      "detail": "数量、图库、队列和读出选择沿用既有冻结资源。本地核对 cohort、quantity_cases、quantity_gallery、parent_selection_lock、frozen_path_assets 五份文件，内容与父诊断归档逐字节相同。新提示与工具回包均可追溯，模型文本未作为视觉事实参考。",
+      "evidence": [
+        "code/verify_cohort_binding.py:9-28"
+      ]
+    },
+    {
+      "id": "B",
+      "status": "PASS",
+      "detail": "按每图一次重新计数，三种训练提示依次取得62/63、62/63、59/63个严格完成且消费回包的样本，三种提示的模型生成结果标签均为0。按预定优先级使用 contract_only，锁在恢复前已存在。验证210图均请求了历史分类器回包，206图严格完成，2图格式失败、2图达到长度上限。",
+      "evidence": [
+        "code/generate_resume_20261117.py:46-53",
+        "完成记录_20261117/原始运行记录/generation_result_v2.json:6-38"
+      ]
+    },
+    {
+      "id": "C",
+      "status": "PASS（生成）",
+      "detail": "复核暂停归档及其1527项清单，完成快照沿用其中1526项的完整字节。日志保留原651行并追加21行，与最终672行 JSON 逐项相同。新增长尾恰为 val_0189 至 val_0209，增量清单81项逐项吻合。3次复播的生成ID、每步完整张量与每种候选张量逐位相同。",
+      "evidence": [
+        "code/run_resume_chain_20261117.py:14-30",
+        "code/generate_resume_20261117.py:54-66",
+        "完成记录_20261117/原始运行记录/resume_20261117/warm_replay.json:3-32"
+      ]
+    },
+    {
+      "id": "D",
+      "status": "PASS",
+      "detail": "比较生成函数 AST，唯一差异是进度文件名。两个版本均调用同一哈希的 protocol_rollout_v2、state_contract_v2、prompt_design。原有锁、提示筛选结果、两个最初锚点及其张量的哈希均保留。从672条实际生成记录重建45591个解码步、36311个正文输入位置和2016个候选张量。计算末答第0步、正文token j所对应的第j+1步及缺失时的末态回退，与所有实际张量吻合。",
+      "evidence": [
+        "code/generate_resume_20261117.py:18-45,67-78",
+        "code/protocol_rollout_v2.py:17-39",
+        "code/state_contract_v2.py:14-42"
+      ]
+    },
+    {
+      "id": "E",
+      "status": "WARN（结论范围）",
+      "detail": "E1和E2的来源问题均已用实物闭合。六个状态库逐行对齐冻结队列及图库，每个数值哈希对齐选定记录，共1638行。210条验证提示均与训练锁定条件的首轮实际提示和角色相符。当前结果支持单个冻结策略、通用查询、按需回放已验证真实分类器结果的协议诊断。检索效用、数量效用、区间和四个读出对照待完整输出审阅。",
+      "evidence": [
+        "code/verify_cohort_binding.py:9-29",
+        "本机逐图绑定核验.json:3-13"
+      ]
+    },
+    {
+      "id": "F",
+      "status": "PASS",
+      "detail": "当前评估依据实际角色、请求、回包、终止状态和冻结张量，属于可直接查证的协议评估。数据集图文配对与人工数量标签的效用评估另行进行。冻结初末LoRA哈希一致，完整记录均绑定此前的策略哈希，真实分类器输出来自父轨迹的按需回放。",
+      "evidence": [
+        "完成记录_20261117/原始运行记录/generation_result_v2.json:39-54",
+        "完成记录_20261117/原始运行记录/resume_20261117/preflight.json:17-27"
+      ]
+    }
+  ],
+  "independent_reconstruction": {
+    "paused_files": 1527,
+    "unchanged": 1526,
+    "changed": [
+      "generation_v2/records.jsonl"
+    ],
+    "delta_files": 81,
+    "warm_replay_steps": [
+      [
+        "train_0081",
+        52
+      ],
+      [
+        "train_0099",
+        29
+      ],
+      [
+        "val_0188",
+        91
+      ]
+    ],
+    "cohort_files": 5,
+    "counts": {
+      "steps": 45591,
+      "body_positions": 36311,
+      "candidates": 2016,
+      "bank_rows": 1638
+    },
+    "groups": {
+      "pilot_initial/contract_only": {
+        "records": 63,
+        "protocol": 62,
+        "tags": 0,
+        "tools": 63,
+        "pool": 62
+      },
+      "pilot_initial/neutral_placeholder": {
+        "records": 63,
+        "protocol": 62,
+        "tags": 0,
+        "tools": 63,
+        "pool": 62
+      },
+      "pilot_initial/rotated_actual3": {
+        "records": 63,
+        "protocol": 59,
+        "tags": 0,
+        "tools": 63,
+        "pool": 59
+      },
+      "baseline": {
+        "records": 273,
+        "protocol": 273,
+        "tags": 0,
+        "tools": 273,
+        "pool": 273
+      },
+      "selected_validation": {
+        "records": 210,
+        "protocol": 206,
+        "tags": 0,
+        "tools": 210,
+        "pool": 206
+      }
+    },
+    "stops": {
+      "pilot_initial/contract_only": {
+        "answer": 62,
+        "token_limit": 1
+      },
+      "pilot_initial/neutral_placeholder": {
+        "answer": 62,
+        "token_limit": 1
+      },
+      "pilot_initial/rotated_actual3": {
+        "answer": 59,
+        "format_failure": 4
+      },
+      "baseline": {
+        "answer": 273
+      },
+      "selected_validation": {
+        "answer": 206,
+        "format_failure": 2,
+        "token_limit": 2
+      }
+    }
+  },
+  "E1": "closed on generation/cohort identity, validation prompts and all six numerical state banks",
+  "E2": "closed on local completed snapshot versus frozen parent and on newly sealed resume manifest",
+  "remaining": "Review 270 actual utility conditions, associated retrieval and quantity bootstrap contrasts and final archives when delivered.",
+  "checked_at_utc": "2026-11-17T07:02:32.149069+00:00",
+  "audited_input_sha256": {
+    "code/generate_stage_v2.py": "8bdb8418358b9dba5f30c7b5c076f8425c0f32531bf02b6ee88c0c5df981eb92",
+    "code/generate_resume_20261117.py": "704303c3239652ca8255c46ce478288bafecf81bfe9ca35cb2041174c563c2c3",
+    "code/run_resume_chain_20261117.py": "2ba696e6662fbec5253ca2c4ac882a805ed76758a449f0c2f60cec4fe31351da",
+    "code/verify_cohort_binding.py": "18f23bafd11ae92eed74103c0574928f6c2b973af9f751e15a7617f12938f9b4",
+    "resume_code_hashes_20261117.json": "2bb87c4d575d32e9da1b6cf2476f0c0d2fc27372013c8fe64fd62e0f100d9af2",
+    "resume_plan_20261117.json": "e8a0f799a15dde779cbb87a0d6b8654fecec27f64fbf1717d249669e05c06e11",
+    "generation_code_hashes_v2.json": "86029aa6e9dc9ea6a375508dda517a651750db2e9475cca305916ab58922e2ab",
+    "暂停归档本机恢复核验_20261117.json": "a8fd56b95bc762679dafcfed6e0b0d97535342817573899f32d527af80c469b1",
+    "原始运行记录/file_checksums.json": "cda95e468a215895a98210d9185a197ebf76973c834d553c4e17aece3ea1d7c9",
+    "原始运行记录/generation_v2/records.jsonl": "07bc59e6ed7bf74cec2278c4ff932ed4e5e1592c9ba77aa0a4f701a487ad1a59",
+    "原始运行记录/prompt_selection_lock_v2.json": "bde9f54879e79f1b677c5541e3173d5dc80dfedf8b7cb3cda4f842e67d2dde8c",
+    "完成记录_20261117/原始运行记录/generation_completion_delta_manifest_20261117.json": "9aa6e47519309cd550cf89e0e911a30a1cb7abd027f12e94447647f61eb6fad3",
+    "完成记录_20261117/原始运行记录/generation_v2/records.json": "f21a5284a55d430a00bf30ad8845ed50e2543aec2dcf622b246c211e1763ae4f",
+    "完成记录_20261117/原始运行记录/generation_v2/records.jsonl": "1069567a215d010701cc25c388ae61d558a54d7fffd8d0abd6d9ab09a1853d25",
+    "完成记录_20261117/原始运行记录/generation_result_v2.json": "fe6aa86c946d4d9a98495ae6319bf947275501f5e79c0be4597d75c9269eb13e",
+    "完成记录_20261117/原始运行记录/resume_20261117/preflight.json": "2720b56deb4196df00b58601d8a0e28274c1397a5e470fe1965c361d0fbd6460",
+    "完成记录_20261117/原始运行记录/resume_20261117/warm_replay.json": "0a1f6ad9e8441d4090c9bed6ce9942086446cc91c14e0332014fe06da9b062ce",
+    "本机生成核验.json": "1844e0270711c6e3eb4641e88519435554d6b5824718047f2eaa327b1cf56768",
+    "本机逐图绑定核验.json": "a0d96141181d04f219f4b213100869589a608ec0d847bfbe0c5c4bb066083779"
+  }
+}

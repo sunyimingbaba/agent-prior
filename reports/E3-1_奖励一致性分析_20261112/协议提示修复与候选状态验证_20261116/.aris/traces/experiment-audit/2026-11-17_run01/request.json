@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-11-17T07:00:32.115327+00:00",
+  "agent_id": "/root/protocol_supervision_integrity_review",
+  "review_skill": "experiment-audit",
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_reasoning": "ultra",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "read_only": true,
+  "request": "review resume continuity and actual generation artifacts, then full evaluation, normalization, provenance and report claims; A-F checklist from skill",
+  "files": {
+    "code/generate_resume_20261117.py": "704303c3239652ca8255c46ce478288bafecf81bfe9ca35cb2041174c563c2c3",
+    "code/run_resume_chain_20261117.py": "2ba696e6662fbec5253ca2c4ac882a805ed76758a449f0c2f60cec4fe31351da",
+    "resume_plan_20261117.json": "e8a0f799a15dde779cbb87a0d6b8654fecec27f64fbf1717d249669e05c06e11",
+    "resume_code_hashes_20261117.json": "2bb87c4d575d32e9da1b6cf2476f0c0d2fc27372013c8fe64fd62e0f100d9af2",
+    "暂停归档本机恢复核验_20261117.json": "a8fd56b95bc762679dafcfed6e0b0d97535342817573899f32d527af80c469b1",
+    "本机生成核验.json": "1844e0270711c6e3eb4641e88519435554d6b5824718047f2eaa327b1cf56768",
+    "本机逐图绑定核验.json": "a0d96141181d04f219f4b213100869589a608ec0d847bfbe0c5c4bb066083779",
+    "code/verify_cohort_binding.py": "18f23bafd11ae92eed74103c0574928f6c2b973af9f751e15a7617f12938f9b4",
+    "code/verify_resume_20261117.py": "a30bf73072f03eedb1e3762185a4588ede829d200cc61cb6aaa6702a8598de37",
+    "code/evaluate_states.py": "830d56e418847ad050b11e4137cf0d92a963809a4a02de1eded3a3ad4c03648d",
+    "code/analyze_states.py": "7304190daa2a6be07eb1db385bb8131eb0e19d8a3a2e51e56994021daa52207d",
+    "code/verify_evaluation.py": "bccbaa6db0d2d54730a214f33703ff7afc60075b80bff9ad25d12aa22c5e3a07",
+    "code/build_report_20261117.py": "adfd10c6aa8da35e6d9b136c047af494f41fe9c147c46068429a7cc9655ac695"
+  }
+}
