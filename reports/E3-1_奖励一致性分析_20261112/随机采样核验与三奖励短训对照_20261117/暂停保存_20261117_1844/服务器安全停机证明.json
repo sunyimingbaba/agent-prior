@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "experiment_processes": [],
+  "gpu": "NVIDIA A100-SXM4-80GB, 4 MiB, 0 %",
+  "pause_marker_present": true,
+  "checkpoint_verification": {
+    "ok": true,
+    "arm": "quantity_pair",
+    "attempts_completed": 12,
+    "actual_optimizer_updates": 12,
+    "checkpoint_files_rehashed": 16,
+    "LoRA_tensors": 584,
+    "all_Adam_state_steps": 12,
+    "policy_hash": "66290dd16700ed48ea1e61dc36386ea680d6908d9bb47fbc47596d83946e1620",
+    "RNG_state_files_bound": true
+  },
+  "archive_sha256": "55c948700478641c7dce604c7efc536ab56650671cb0b1a5e9c05d93f21a3901",
+  "archive_bytes": 3795468221
+}

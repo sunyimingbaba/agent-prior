@@ -1,0 +1,52 @@
+{
+  "status": "paused_by_user",
+  "utc": "2026-11-17T10:47:54.187616+00:00",
+  "proxy_rank": {
+    "ok": true,
+    "arm": "proxy_rank",
+    "attempts": 32,
+    "optimizer_updates": 31,
+    "zero_variance_skips": 1,
+    "samples": 256,
+    "training_images": 8,
+    "initial_policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85",
+    "final_policy_hash": "38cb9e23344900a936a22bb013b3575ef58b0795ae72fbae406712435e23b7b2",
+    "checkpoint": "training_v2/proxy_rank/final/checkpoint",
+    "fixed_checkpoint_selection": "final32attempts",
+    "strict_completed_samples": 246,
+    "readout_frozen": {
+      "ok": true,
+      "state_hash": "1cf6bdcde3ffe874683c8bb07ca6661eaaed3a7310df389c95a299777929c0f5",
+      "checkpoint_sha256": "d03f71e6f56bd1f8f5c368513c05fd76d1f7d539e6ed6f42887526eed0dd3bd5"
+    },
+    "elapsed_seconds": 4102.190972687211,
+    "peak_allocated_bytes": 70490317824,
+    "peak_reserved_bytes": 74161586176
+  },
+  "quantity_pair": {
+    "ok": true,
+    "arm": "quantity_pair",
+    "attempts_completed": 12,
+    "actual_optimizer_updates": 12,
+    "checkpoint_files_rehashed": 16,
+    "LoRA_tensors": 584,
+    "all_Adam_state_steps": 12,
+    "policy_hash": "66290dd16700ed48ea1e61dc36386ea680d6908d9bb47fbc47596d83946e1620",
+    "RNG_state_files_bound": true,
+    "checkpoint": "training_v2/quantity_pair/paused_12/checkpoint",
+    "next_attempt": 13,
+    "next_image": "147.tif",
+    "next_sample_seed0": 2026113000
+  },
+  "quantity_hard": {
+    "attempts_completed": 0,
+    "optimizer_updates": 0
+  },
+  "formal_candidate_records": 352,
+  "pilot_records": 128,
+  "zero_update_failure_records": 8,
+  "permanent_optimizer_updates_this_comparison": 43,
+  "evaluation_records": 0,
+  "model_readout_optimizer_updates": 0,
+  "resume_rule": "restore exact paused LoRA+AdamW+CPU/CUDA/Python/NumPy RNG, continueattempt13/32; preserve43existingpermanentupdates and allpriorrecords; training must wait for explicituserresume"
+}
