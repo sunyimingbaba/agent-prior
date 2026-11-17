@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-11-17T06:50:05.217454+00:00",
+  "scope": "finish the sealed protocol/state diagnostic (E4 plus protocol correctness support for E3)",
+  "resume_from_records": 651,
+  "planned_records": 672,
+  "remaining_validation_images": 21,
+  "selected_prompt": "contract_only",
+  "prompt_lock_utc": "2026-11-16T10:47:33.074321+00:00",
+  "selection_repeated": false,
+  "original_policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85",
+  "Agent_optimizer_updates": 0,
+  "readout_optimizer_updates": 0,
+  "supplemental_replay_anchors": 3,
+  "anchor_rule": "two existing legacy train cases and last completed selected-validation case: exact emitted IDs, full step matrices and all3 candidates",
+  "pre_pause_manifest_files": 1527,
+  "pause_archive_sha256": "349d5b7c71eef73bdb60ec4697d3a374126a80b4a09159a6e667d1b92bf1e0e4",
+  "preservation": "original source/logs/anchors/selection lock/progress unchanged;651-line journal prefix copied and preserved while21 records append",
+  "evaluation_conditions": 270,
+  "test_examples_scored": 0,
+  "next_report_node": "complete state comparisons, dual reconstruction and backups; explain protocol vs retrieval gains separately"
+}
