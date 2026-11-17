@@ -1,0 +1,233 @@
+{
+  "compression": "gzip level1; byte-level manifest binds all uncompressed contents",
+  "created_utc": "2026-11-17T07:38:48.857867+00:00",
+  "remote_root": "/private/AGSE_E3_1_rebuild_20261112/protocol_prompt_state_validation_20261116",
+  "archive_name": "protocol_state_evidence_20261117.tar.gz",
+  "remote_archive": "/private/AGSE_E3_1_rebuild_20261112/protocol_state_evidence_20261117.tar.gz",
+  "archive_bytes": 647957009,
+  "archive_sha256": "87eb5ad3efb18e5bdc096fb48bc38ef15f7a2f8b345b932b20d03843592444ee",
+  "archive_files": 2795,
+  "manifest_files": 2794,
+  "Agent_optimizer_updates": 0,
+  "readout_optimizer_updates": 0,
+  "readout_conditions": 270,
+  "source_rows": 79650,
+  "GPU_encodings": 70830,
+  "reused_validation_encodings": 8820,
+  "gpu": "NVIDIA A100-SXM4-80GB, 4 MiB, 0 %",
+  "parent_dual_backup_reference": {
+    "created_utc": "2026-11-16T07:43:10.434025+00:00",
+    "remote_root": "/private/AGSE_E3_1_rebuild_20261112/image_only_matched_readout_20261116",
+    "manifest_files": 4582,
+    "evidence": {
+      "archive_name": "matched_readout_evidence_20261116.tar.gz",
+      "remote_archive": "/private/AGSE_E3_1_rebuild_20261112/matched_readout_evidence_20261116.tar.gz",
+      "archive_bytes": 132530682,
+      "archive_sha256": "a6f0014bad643aa553ad6d6c88e76b344fc598bca5f803bef400de7c47fa5f68",
+      "archive_files": 4575
+    },
+    "checkpoints": {
+      "archive_name": "matched_readout_checkpoints_20261116.tar.gz",
+      "remote_archive": "/private/AGSE_E3_1_rebuild_20261112/matched_readout_checkpoints_20261116.tar.gz",
+      "archive_sha256": "d3e3414a1b2d2a1eb4a1ebdd69fe074f2588a97c1be2ff4c926eadc8e0019073",
+      "archive_bytes": 842319584,
+      "archive_files": 8,
+      "files": {
+        "training/calibrated_own/checkpoints/epoch=05-step=191.ckpt": {
+          "bytes": 143994372,
+          "sha256": "d03f71e6f56bd1f8f5c368513c05fd76d1f7d539e6ed6f42887526eed0dd3bd5"
+        },
+        "training/calibrated_own/checkpoints/last.ckpt": {
+          "bytes": 143994372,
+          "sha256": "2db383309355a8eb8ba61de46c13deeb5bcf0018287f183e161f8d2632078fdb"
+        },
+        "training/calibrated_shared/checkpoints/epoch=07-step=255.ckpt": {
+          "bytes": 143994372,
+          "sha256": "0d4249d49b71ae41454c8dac389c5436d52147ea292256cb9ba4764b6aecd989"
+        },
+        "training/calibrated_shared/checkpoints/last.ckpt": {
+          "bytes": 143994372,
+          "sha256": "494d2a745a4c870fa3424333d6c3b9e3a51244d6877bb8f5bed0331819308492"
+        },
+        "training/learned_visual_only/checkpoints/epoch=07-step=255.ckpt": {
+          "bytes": 143984528,
+          "sha256": "fa5069aa95ab89fde592fcc3b8007136188e6db023dfb3265c4ec277a4e9c90a"
+        },
+        "training/learned_visual_only/checkpoints/last.ckpt": {
+          "bytes": 143984528,
+          "sha256": "d9c86feb1b3c61ac5466e7ea400cce82c0ea43570f069b94dc70f9bbaad75e52"
+        },
+        "training/native/checkpoints/epoch=04-step=159.ckpt": {
+          "bytes": 143994372,
+          "sha256": "a3721cc40104ef2512e3132fbe8de272cd1fa6c8a1d31d0309244aeda92690f4"
+        },
+        "training/native/checkpoints/last.ckpt": {
+          "bytes": 143994372,
+          "sha256": "b4debca2d5d2b76cb654f03cf2afe656a0a2a78dc64cb09d2a9aa73612a80388"
+        }
+      }
+    },
+    "gpu_after_run": "NVIDIA A100-SXM4-80GB, 4 MiB, 0 %",
+    "Agent_optimizer_updates": 0,
+    "readout_optimizer_updates": 1280,
+    "cache_states": 2100,
+    "new_cache_states": 1890,
+    "test_image_encodings": 1260,
+    "quantity_scores": 340,
+    "local_archive_and_file_verification": "passed",
+    "local_manifest_files_verified": 4582,
+    "existing_files_confirmed_unchanged": 4567,
+    "new_files_restored": 16,
+    "local_verified_utc": "2026-11-16T07:44:47.038649+00:00",
+    "server_final_backup_verification": {
+      "ok": true,
+      "remote_manifest_files_verified": 4582,
+      "remote_delivery_files_verified": 197,
+      "archives_verified": [
+        "evidence",
+        "checkpoints"
+      ],
+      "manifest_sha256": "0c217df7d58e96d204cf3e74917f54666bcf0bad9f14db1411ede3188e9279f6",
+      "delivery_index_sha256": "ee0a470b8e696f0f4e79f3fcc55375330e934ef5f2eb4865b026adc9f1d9ed24",
+      "gpu": "NVIDIA A100-SXM4-80GB, 4 MiB, 0 %",
+      "active_phase_jobs": [],
+      "verified_utc": "2026-11-16T07:44:49.447734+00:00"
+    },
+    "local_evidence_path": "/Users/botlv/CUP-code/reports/E3-1_奖励一致性分析_20261112/统一图像先验缓存与匹配训练_20261116/matched_readout_evidence_20261116.tar.gz",
+    "local_checkpoint_archive_path": "/Users/botlv/CUP-code/reports/E3-1_奖励一致性分析_20261112/统一图像先验缓存与匹配训练_20261116/matched_readout_checkpoints_20261116.tar.gz",
+    "local_delivery_files_verified": 197,
+    "local_results_independently_rebuilt": {
+      "ok": true,
+      "four_initializations_identical": true,
+      "completed_training_batches_verified": 10000,
+      "fixed_sample_indices_verified": 10000,
+      "gradient_witnesses_verified": 400,
+      "readout_optimizer_updates": 1280,
+      "validation_metric_values_rebuilt": 308,
+      "quantity_metric_values_rebuilt": 2040,
+      "test_images": 210,
+      "test_image_encodings_verified": 1260,
+      "test_caption_queries": 1050,
+      "recall_and_mR_values_verified": 84,
+      "paired_cluster_intervals_verified": 10,
+      "float64_scaled_score_max_error": 2.598989867053092e-05,
+      "all_val_selected_checkpoints_rebuilt": true
+    },
+    "local_cache_independently_verified": {
+      "ok": true,
+      "states_verified": 2100,
+      "files_verified": 4200,
+      "split_counts": {
+        "train": 1680,
+        "val": 210,
+        "test": 210
+      },
+      "uniform_queries_checked": 2100,
+      "quality_counts": {
+        "True": 2087,
+        "False": 13
+      },
+      "generation_rounds_checked": 4200,
+      "parent_exact_state_replays": {
+        "train": 63,
+        "val": 210
+      },
+      "Agent_optimizer_updates": 0
+    },
+    "github_evidence_parts": {
+      "archive_name": "matched_readout_evidence_20261116.tar.gz",
+      "archive_bytes": 132530682,
+      "archive_sha256": "a6f0014bad643aa553ad6d6c88e76b344fc598bca5f803bef400de7c47fa5f68",
+      "parts": [
+        {
+          "name": "matched_readout_evidence_20261116.tar.gz.part000",
+          "bytes": 98566144,
+          "sha256": "572554d4105e8a3663d4915fd7664705c970ff32892289e99b95996e9876ecff"
+        },
+        {
+          "name": "matched_readout_evidence_20261116.tar.gz.part001",
+          "bytes": 33964538,
+          "sha256": "e0e0b9fe6afac5e1be30cabed3826f57ae8fd57ee52c8f7733ba935a0808a5c4"
+        }
+      ]
+    },
+    "github_evidence_parts_join_verified": true,
+    "original_assets_preserved": true,
+    "closed_stage": "2100 caches + four matched 10-epoch readout arms + val-selected test + controls + independent verification",
+    "finalized_utc": "2026-11-16T07:46:19.759325+00:00"
+  },
+  "local_archive_and_file_verification": "passed",
+  "local_manifest_files_verified": 2794,
+  "existing_files_confirmed_unchanged": 2753,
+  "new_files_restored": 42,
+  "local_verified_utc": "2026-11-17T07:40:48.130126+00:00",
+  "local_delivery_files_verified": 253,
+  "local_record_directory": "/Users/botlv/CUP-code/reports/E3-1_奖励一致性分析_20261112/协议提示修复与候选状态验证_20261116/完成记录_20261117/原始运行记录",
+  "local_archive_path": "/Users/botlv/CUP-code/reports/E3-1_奖励一致性分析_20261112/协议提示修复与候选状态验证_20261116/protocol_state_evidence_20261117.tar.gz",
+  "local_archive_part_reconstruction": "passed",
+  "git_parts": {
+    "archive_name": "protocol_state_evidence_20261117.tar.gz",
+    "archive_bytes": 647957009,
+    "archive_sha256": "87eb5ad3efb18e5bdc096fb48bc38ef15f7a2f8b345b932b20d03843592444ee",
+    "parts": [
+      {
+        "name": "protocol_state_evidence_20261117.tar.gz.part000",
+        "bytes": 98566144,
+        "sha256": "34f669bc13cf4f7ce6388b3532cc0de98cbf7244b004e4bb0623c40e0aa617c4"
+      },
+      {
+        "name": "protocol_state_evidence_20261117.tar.gz.part001",
+        "bytes": 98566144,
+        "sha256": "ca0329a02b4e72b4bd96b4c84f5e530b322814225db27513740dae3211db61ce"
+      },
+      {
+        "name": "protocol_state_evidence_20261117.tar.gz.part002",
+        "bytes": 98566144,
+        "sha256": "97e9f4f568adc4bfd9248fa0f9a2d30c4415339cc77498e30665d2dfced029e2"
+      },
+      {
+        "name": "protocol_state_evidence_20261117.tar.gz.part003",
+        "bytes": 98566144,
+        "sha256": "513dfcda91cfb9993c58a0d34a137f373676531663d27d1dff7c4a04a49fb8cb"
+      },
+      {
+        "name": "protocol_state_evidence_20261117.tar.gz.part004",
+        "bytes": 98566144,
+        "sha256": "b76c0a77ef2797ef430ebd7fb1efa3e38d99c2c248e6f02b497df3687b9a1c13"
+      },
+      {
+        "name": "protocol_state_evidence_20261117.tar.gz.part005",
+        "bytes": 98566144,
+        "sha256": "a0be58def31b1579764003b73898023e768b2656a59ef72d0928b5386626ed1d"
+      },
+      {
+        "name": "protocol_state_evidence_20261117.tar.gz.part006",
+        "bytes": 56560145,
+        "sha256": "c716530cc765ead4b0887fa37e06860a17a3c77168b9025643322065e89fae01"
+      }
+    ]
+  },
+  "server_final_backup_verification": {
+    "ok": true,
+    "verified_utc": "2026-11-17T07:40:50.000316+00:00",
+    "remote_root": "/private/AGSE_E3_1_rebuild_20261112/protocol_prompt_state_validation_20261116",
+    "remote_manifest_files_verified": 2794,
+    "remote_delivery_files_verified": 253,
+    "manifest_sha256": "04200d7f627a634f7e294a862086398078d393abefd0fd565de402e77e701b3e",
+    "delivery_index_sha256": "8ba5f2214858c695dad5acf685195863dbf10b1adea462289e025c17aac49bef",
+    "archive_bytes": 647957009,
+    "archive_sha256": "87eb5ad3efb18e5bdc096fb48bc38ef15f7a2f8b345b932b20d03843592444ee",
+    "gpu": "NVIDIA A100-SXM4-80GB, 4 MiB, 0 %",
+    "active_phase_jobs": [],
+    "parent_model_backup_proof_sha256": "65440d6e2cf204985fa226741d24f45d9ae1fe27b708e353011721b300cbb157",
+    "new_Agent_optimizer_updates": 0,
+    "new_readout_optimizer_updates": 0
+  },
+  "original_model_archives_verified_both_endpoints": true,
+  "original_model_backup_proofs": {
+    "local_sha256": "c0c14191e1117a4483c110b20ed7cc26ba955ba61ef9c3eb052f09a48169e517",
+    "server_sha256": "65440d6e2cf204985fa226741d24f45d9ae1fe27b708e353011721b300cbb157"
+  },
+  "no_active_phase_jobs": true,
+  "final_local_verification_utc": "2026-11-17T07:43:16.179076+00:00"
+}

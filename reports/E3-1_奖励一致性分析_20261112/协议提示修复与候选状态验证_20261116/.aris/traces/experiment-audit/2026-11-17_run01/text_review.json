@@ -1,0 +1,50 @@
+{
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "verdict": "PASS",
+  "generated_at": "2026-11-17T07:35:17.109672+00:00",
+  "scope": "delivered text/tables and decision evidence JSON; final-backup sidecar reviewed separately",
+  "artifact_hashes": {
+    "协议提示修复与候选状态验证结论_20261117_v2.md": "53772f7b0beb1c153ab5dcfbcc34dcb87a10e69792f042ea3f59aef1a6800e60",
+    "RFPO后续决策说明_20261117_v2.md": "192eaf33e99572fb56b1b71ac5e712cddd024cafa547c88633b22d02b1c02c7a",
+    "后续RFPO实验依据与待验证项_20261117_v2.json": "038e9d599b79e113382535a3c2acc6389ab52923d596f40a0ae4acfe5c665e44",
+    "code/build_report_v3_20261117.py": "fbc9ea28c6505524f2a4b46e04956cb4c6e4f49a08152335ca1a7ac015fc6106",
+    "report_code_hashes_20261117_v3.json": "a88620be581641d8b07091c15e864895547a89fa59b2acecb649f4281933e077"
+  },
+  "evidence_hashes": {
+    "完成记录_20261117/原始运行记录/analysis.json": "cb0a87719c065b03abc3d1a4129709b81a9759beb06d792fe1bfd59c6de7b4e5",
+    "完成记录_20261117/原始运行记录/prompt_selection_lock_v2.json": "bde9f54879e79f1b677c5541e3173d5dc80dfedf8b7cb3cda4f842e67d2dde8c",
+    "完成记录_20261117/原始运行记录/generation_result_v2.json": "fe6aa86c946d4d9a98495ae6319bf947275501f5e79c0be4597d75c9269eb13e",
+    "本机生成核验.json": "1844e0270711c6e3eb4641e88519435554d6b5824718047f2eaa327b1cf56768",
+    "本机逐图绑定核验.json": "a0d96141181d04f219f4b213100869589a608ec0d847bfbe0c5c4bb066083779",
+    "本机评估核验.json": "8dce7be6830884d7dc458eb0cdaf2b837209ebee6561cdbb48312836dc46b418",
+    "本机恢复连续性核验_20261117.json": "c5638ced7fdd8b2918aa0cc8aa12fb9b7fd3c8600052c947d3c59ea404966086"
+  },
+  "main_tables_cell_counts": [
+    12,
+    36,
+    30,
+    30,
+    30
+  ],
+  "decision_table_cell_count": 16,
+  "cells_including_row_identity": 154,
+  "numeric_interval_and_status_cells": 123,
+  "row_identity_cells": 31,
+  "cell_count_convention": "Data rows only; each interval is one cell and both endpoints are checked; headers/units checked separately.",
+  "next_plan_evidence": "Full selected_val counts and complete calibrated_own prompt/state contrast, including 21 weights, signed difference and both CI endpoints, agree with raw analysis.",
+  "semantic_checks": [
+    "Frozen readout, single policy and greedy selection scope explicit",
+    "206/210 valid, two format failures plus two token limits; four retained last-state fallbacks",
+    "Image correspondence and same-image candidate discrimination distinguished",
+    "Prefix-determined pure prefill distinguished from trajectory-termination eligibility and fallback",
+    "Keep last state and test stochastic reward dispersion presented as future controlled work",
+    "Gate requires both >=95% and <=2%; mR and B are percentages; hard-correct count1-4 macro and gate range explicit",
+    "Training-side use of new RFPO states marked pending; generation, cache and frozen readout cross-checked."
+  ],
+  "unchanged_original_result_review_hashes": {
+    "result_review.md": "2f4aeb742574c4f52f2c6b4e2ec5745c92087c5d5e40e327e7aedda57705b34f",
+    "result_review.json": "608996f655db5b217988394379dd13fb1141406eb8f845cea0babdc43043a825"
+  },
+  "deferred": "Final archive sidecar, delivery index and dual storage proofs to be verified after packaging."
+}

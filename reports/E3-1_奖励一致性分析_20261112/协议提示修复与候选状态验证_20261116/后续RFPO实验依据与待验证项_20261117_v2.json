@@ -1,0 +1,61 @@
+{
+  "objective": "依据本轮E4补充诊断设计后续E3奖励对照",
+  "prompt": "contract_only",
+  "Agent_updates_this_stage": 0,
+  "readout_updates_this_stage": 0,
+  "evidence": {
+    "selected_validation_protocol": {
+      "images": 210,
+      "strict_completed_with_consumed_tool": 206,
+      "generated_result_tags": 0,
+      "body_pool_available": 206,
+      "prefill_available": 206
+    },
+    "calibrated_own_selected_pool_correct_minus_permutation": {
+      "arm": "calibrated_own",
+      "protocol": "repository_duplicate_token_positive",
+      "contrast": "selected_answer_pool/correct-minus-permutation_mean",
+      "weights": {
+        "selected_answer_pool/correct": 1.0,
+        "selected_answer_pool/permutation_00": -0.05,
+        "selected_answer_pool/permutation_01": -0.05,
+        "selected_answer_pool/permutation_02": -0.05,
+        "selected_answer_pool/permutation_03": -0.05,
+        "selected_answer_pool/permutation_04": -0.05,
+        "selected_answer_pool/permutation_05": -0.05,
+        "selected_answer_pool/permutation_06": -0.05,
+        "selected_answer_pool/permutation_07": -0.05,
+        "selected_answer_pool/permutation_08": -0.05,
+        "selected_answer_pool/permutation_09": -0.05,
+        "selected_answer_pool/permutation_10": -0.05,
+        "selected_answer_pool/permutation_11": -0.05,
+        "selected_answer_pool/permutation_12": -0.05,
+        "selected_answer_pool/permutation_13": -0.05,
+        "selected_answer_pool/permutation_14": -0.05,
+        "selected_answer_pool/permutation_15": -0.05,
+        "selected_answer_pool/permutation_16": -0.05,
+        "selected_answer_pool/permutation_17": -0.05,
+        "selected_answer_pool/permutation_18": -0.05,
+        "selected_answer_pool/permutation_19": -0.05
+      },
+      "delta_mR": 0.012095238095238103,
+      "interval95": [
+        -0.00602400793650793,
+        0.030888888888888896
+      ]
+    }
+  },
+  "decision": "顺序约定下的正文均值与置换均值之差的区间覆盖0。后续RFPO奖励对照建议暂保留原末状态，先核对随机采样协议及同图候选奖励区分度；候选状态的专门适配另列E4验证。",
+  "actions": [
+    "use fixed-model contrasts to assess candidate state evidence",
+    "check protocol stability and within-image reward variance under RFPO stochastic sampling",
+    "conditionally verify state/readout distribution compatibility",
+    "blind-check image/tool/answer semantics",
+    "seal same-initialization same-budget old/cross-modal/hard-negative reward comparison separately"
+  ],
+  "development": [
+    "train",
+    "val"
+  ],
+  "test_policy": "retain existing test artifacts; no new test scoring in this stage"
+}

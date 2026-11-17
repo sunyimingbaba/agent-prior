@@ -1,0 +1,330 @@
+{
+  "audit_skill": "experiment-audit",
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_reasoning": "ultra",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "date": "2026-11-17",
+  "overall_verdict": "WARN",
+  "verdict": "WARN",
+  "integrity_status": "warn",
+  "reason_code": "verified_artifacts_bounded_scientific_scope",
+  "summary": "指定结果均存在并已独立重建。所有范围提醒来自冻结读出、开发验证集和生成/置换实验单位。",
+  "checks": {
+    "gt_provenance": {
+      "id": "A",
+      "status": "PASS",
+      "details": "检索采用原始验证图像与描述的归属及其词元组。210个图像、1050条描述、391个唯一截断词元序列。数量任务85图有既有人工确认记录，A/B两种写法共170组正负标签；全部条件统一使用这些标签。正文为模型生成文本，其语义事实准确率另需人工标注。",
+      "evidence": [
+        "code/evaluate_states.py:24-55",
+        "code/verify_cohort_binding.py:9-28",
+        "inputs/quantity_cases.json:3-26",
+        "本机逐图绑定核验.json:2-13"
+      ]
+    },
+    "score_normalization": {
+      "id": "B",
+      "status": "PASS",
+      "details": "检索分数由冻结模型的 logit_scale 与图文特征内积计算，数量分数为图像与数量文本特征的内积。独立用 float64 从张量重建，最大绝对误差分别为3.244×10⁻⁵和2.955×10⁻⁷。指标用固定查询数和分层人数作分母，保持原始分数、名次和分差。并列协议按精确分数并列组的组合概率计算。",
+      "evidence": [
+        "code/evaluate_states.py:57-83",
+        "code/tie_metrics.py:4-14",
+        "code/analyze_states.py:12-18,37-68",
+        "本机评估核验.json:11-18"
+      ]
+    },
+    "result_existence": {
+      "id": "C",
+      "status": "PASS",
+      "details": "完整恢复实物、服务端与本机多项复核均已存在。2752项预备清单及647569654字节归档的 SHA-256 相符。270个条件全部有来源表、检索张量、数量张量和标签记录，重算5670个检索值、6480个数量汇总及238个区间。21次新增生成和3次精确复播另有独立连续性记录。",
+      "evidence": [
+        "预备完整记录哈希_20261117.json:1",
+        "完整记录预备备份校验_20261117.json:3-16",
+        "本机恢复连续性核验_20261117.json:2-11",
+        "本机评估核验.json:2-18",
+        "完成记录_20261117/原始运行记录/resume_job_result_20261117.json:2-11"
+      ]
+    },
+    "dead_code": {
+      "id": "D",
+      "status": "PASS",
+      "details": "恢复生成、冻结评估、后处理和逐图身份核验的执行日志有成功退出码。生成和后处理均能追溯到实物。地面复核重建45591步及2016候选张量；本次另从得分矩阵、数量得分及来源行重建各指标、逐图差值和确定种子的配对区间。42个历史复用检索矩阵与父归档逐位相同。两种负对照各3个条件的图像与数量特征逐位相同。",
+      "evidence": [
+        "完成记录_20261117/原始运行记录/resume_20261117/execution.jsonl:1-4",
+        "完成记录_20261117/原始运行记录/post_execution.jsonl:1-5",
+        "code/verify_resume_20261117.py:14-29",
+        "本机生成核验.json:2-15",
+        "本机评估核验.json:2-18"
+      ]
+    },
+    "scope": {
+      "id": "E",
+      "status": "WARN",
+      "details": "单个贪心策略、同一通用查询、父阶段在此验证集选定的冻结读出、有限20个映射。数量验证只有22个已核对图像，1–4层人数13/2/3/4。先前读出沿用历史末态输入进行适配；本轮两种新状态没有各自新训练的读出。区间是固定模型及图库下的名义逐项区间。逐图置换检验和同图候选奖励排序的实验单位不同。新RFPO训练、同图随机采样排序、新测试集打分及生成正文事实准确率均待专门证据。",
+      "evidence": [
+        "training_plan_v2.json:9-27",
+        "完成记录_20261117/原始运行记录/inputs/parent_selection_lock.json:2-28",
+        "code/generate_stage_v2.py:27-39",
+        "code/protocol_rollout_v2.py:17-38",
+        "code/analyze_states.py:52-68",
+        "完成记录_20261117/原始运行记录/evaluation_result.json:2-12"
+      ]
+    },
+    "eval_type": {
+      "id": "F",
+      "status": "PASS",
+      "classification": [
+        "real_gt",
+        "human_eval",
+        "observed_protocol_and_tensor_diagnostics"
+      ],
+      "details": "检索按数据集登记的图文配对评估，数量按既有人工确认计数评估。格式完成、回包角色和状态位置属于可直接查证的事件，门控和有效秩属于描述性统计。外部程序按模型合法请求回放该图的真实分类器历史结果。",
+      "evidence": [
+        "code/protocol_rollout_v2.py:24-39",
+        "code/verify_generation.py:38-60",
+        "code/verify_descriptive.py:12-27",
+        "inputs/quantity_cases.json:3-26"
+      ]
+    }
+  },
+  "claims": [
+    {
+      "id": "protocol",
+      "impact": "supported_within_scope",
+      "text": "固定顺序、无示例的 contract_only 在63张训练图取得62次严格完成，在210张验证图取得206次，210张均请求工具且无自生成结果标签。验证的两条格式失败及两条长度上限保留为失败。"
+    },
+    {
+      "id": "correspondence",
+      "impact": "inconclusive_primary_contrast",
+      "text": "在校准自身、重复词元正例主协议下，顺序约定正文均值正确配对减20置换均值为+1.20952个百分点，名义95%区间[−0.60238,+3.08889]。相应正确配对相对共享状态为−0.58730个百分点，区间[−3.44444,+2.20635]。此读出下，正文均值额外逐图益处仍待确认。"
+    },
+    {
+      "id": "frozen_readout",
+      "impact": "supported_for_observed_pairings",
+      "text": "正确配对的主mR为末态78.03175%、预填充67.61905%、正文均值62.60317%。正文均值相对末态的变化为−15.42857个百分点，区间[−19.44444,−11.34921]。这些值衡量同一冻结读出的现有兼容性；专门适配后的读出表现仍待验证。"
+    },
+    {
+      "id": "secondary",
+      "impact": "qualified",
+      "text": "港口示例的原生读出预填充相对置换在主协议为+1.65952个百分点，区间[+0.64048,+2.72381]。顺序约定预填充在校准自身、严格并列平均协议中为+1.052个百分点，区间[+0.0933,+2.0029]；重复词元主协议该项区间含0。条件和协议需随数字报告。"
+    },
+    {
+      "id": "rfpo",
+      "impact": "not_tested",
+      "text": "逐图正确、共享及置换条件比较跨图对应。单次贪心生成没有同一图像上多组被采样正文及各自奖励。若图像、工具和答案轮前缀均相同，纯预填充在下一词元采样前就已确定。导出的候选在轨迹结束后根据协议有效性选择该预填充或末态，验证集4例使用回退；其混合候选含有事后信息。同图奖励的区分度、语义事实关联及RFPO优化收益需另外验证。"
+    }
+  ],
+  "raw_recomputations": {
+    "conditions": 270,
+    "source_rows": 79650,
+    "reused": 42,
+    "negative_invariant_conditions": 6,
+    "metric_values": 5670,
+    "quantity_summary_values": 6480,
+    "quantity_worded_cases": 45900,
+    "retrieval_intervals": 102,
+    "quantity_intervals": 136,
+    "per_image_mR_max_error": 3.3306690738754696e-16,
+    "paired_inference_max_error": 5.551115123125783e-17,
+    "score_max_error": 3.243562048282911e-05,
+    "quantity_score_max_error": 2.95491836554973e-07
+  },
+  "backup_checks": {
+    "manifest_files": 2752,
+    "preliminary_archive_bytes": 647569654,
+    "matched_server_local_checks": 4,
+    "archive_sha256": "bb787f18ab8d856c69bb8dd2403c46d2e3774e80d1434dfd9f1fd5c6452e66b7"
+  },
+  "past_generation_reconstruction": {
+    "paused_files": 1527,
+    "unchanged": 1526,
+    "changed": [
+      "generation_v2/records.jsonl"
+    ],
+    "delta_files": 81,
+    "warm_replay_steps": [
+      [
+        "train_0081",
+        52
+      ],
+      [
+        "train_0099",
+        29
+      ],
+      [
+        "val_0188",
+        91
+      ]
+    ],
+    "cohort_files": 5,
+    "counts": {
+      "steps": 45591,
+      "body_positions": 36311,
+      "candidates": 2016,
+      "bank_rows": 1638
+    },
+    "groups": {
+      "pilot_initial/contract_only": {
+        "records": 63,
+        "protocol": 62,
+        "tags": 0,
+        "tools": 63,
+        "pool": 62
+      },
+      "pilot_initial/neutral_placeholder": {
+        "records": 63,
+        "protocol": 62,
+        "tags": 0,
+        "tools": 63,
+        "pool": 62
+      },
+      "pilot_initial/rotated_actual3": {
+        "records": 63,
+        "protocol": 59,
+        "tags": 0,
+        "tools": 63,
+        "pool": 59
+      },
+      "baseline": {
+        "records": 273,
+        "protocol": 273,
+        "tags": 0,
+        "tools": 273,
+        "pool": 273
+      },
+      "selected_validation": {
+        "records": 210,
+        "protocol": 206,
+        "tags": 0,
+        "tools": 210,
+        "pool": 206
+      }
+    },
+    "stops": {
+      "pilot_initial/contract_only": {
+        "answer": 62,
+        "token_limit": 1
+      },
+      "pilot_initial/neutral_placeholder": {
+        "answer": 62,
+        "token_limit": 1
+      },
+      "pilot_initial/rotated_actual3": {
+        "answer": 59,
+        "format_failure": 4
+      },
+      "baseline": {
+        "answer": 273
+      },
+      "selected_validation": {
+        "answer": 206,
+        "format_failure": 2,
+        "token_limit": 2
+      }
+    }
+  },
+  "deliverable_scope": "本次审阅完整生成和数值结果，及报告生成器的证据范围。新生成的文字、图表排版和最终交付归档应以其各自成品核验为准。",
+  "trace_path": ".aris/traces/experiment-audit/2026-11-17_run01/",
+  "artifacts_mutated_by_reviewer": "only experiment audit reports and review trace",
+  "generated_at": "2026-11-17T07:25:02.873032+00:00",
+  "audited_input_hashes": {
+    "code/build_report_20261117.py": "sha256:adfd10c6aa8da35e6d9b136c047af494f41fe9c147c46068429a7cc9655ac695",
+    "code/verify_resume_20261117.py": "sha256:a30bf73072f03eedb1e3762185a4588ede829d200cc61cb6aaa6702a8598de37",
+    "code/evaluate_states.py": "sha256:830d56e418847ad050b11e4137cf0d92a963809a4a02de1eded3a3ad4c03648d",
+    "code/analyze_states.py": "sha256:7304190daa2a6be07eb1db385bb8131eb0e19d8a3a2e51e56994021daa52207d",
+    "code/verify_evaluation.py": "sha256:bccbaa6db0d2d54730a214f33703ff7afc60075b80bff9ad25d12aa22c5e3a07",
+    "completion_delivery_code_hashes_20261117.json": "sha256:ccb2e6d2622da4598e5b0c4cc4e9c113177a705ebd235e354385a57dbc79568f",
+    "预备完整记录哈希_20261117.json": "sha256:d031e7e16cd79a8d15fdd8b6755503135a4389d3b9baef5535bf1cbddbbf0544",
+    "完整记录预备备份校验_20261117.json": "sha256:a621cf278de4417312d35f36943df508dd8c4b6c6ff13008b8f251fe417445e1",
+    "本机生成核验.json": "sha256:1844e0270711c6e3eb4641e88519435554d6b5824718047f2eaa327b1cf56768",
+    "本机逐图绑定核验.json": "sha256:a0d96141181d04f219f4b213100869589a608ec0d847bfbe0c5c4bb066083779",
+    "本机评估核验.json": "sha256:8dce7be6830884d7dc458eb0cdaf2b837209ebee6561cdbb48312836dc46b418",
+    "本机描述统计核验.json": "sha256:57dea53dadb7a779fb4e76ab2c941f0b2d3e88fda30f948f49bf773a0d62d661",
+    "本机恢复连续性核验_20261117.json": "sha256:c5638ced7fdd8b2918aa0cc8aa12fb9b7fd3c8600052c947d3c59ea404966086",
+    "完成记录_20261117/原始运行记录/analysis.json": "sha256:cb0a87719c065b03abc3d1a4129709b81a9759beb06d792fe1bfd59c6de7b4e5",
+    "完成记录_20261117/原始运行记录/evaluation_plan.json": "sha256:e76200a7bec02261d9eeab891ba5112d856fb4a0f779717ee7bae34a8ca4cb4a",
+    "完成记录_20261117/原始运行记录/evaluation/gallery.json": "sha256:4c0a84ffc27d769eab21e1777a541689513e6997734978130c36c1aa3542d786",
+    "完成记录_20261117/原始运行记录/evaluation_result.json": "sha256:d51e9416d9e7da555b3adcf224d69c3c64cf9b7751a1b38751c14083a7539e29",
+    "完成记录_20261117/原始运行记录/generation_result_v2.json": "sha256:fe6aa86c946d4d9a98495ae6319bf947275501f5e79c0be4597d75c9269eb13e",
+    "完成记录_20261117/原始运行记录/server_evaluation_verification.json": "sha256:beb1b4c34d9035e30fe79ff56ab587fe71ba4f4048d36dafe004c5ff39fa94c5",
+    "完成记录_20261117/原始运行记录/server_generation_verification.json": "sha256:1844e0270711c6e3eb4641e88519435554d6b5824718047f2eaa327b1cf56768",
+    "完成记录_20261117/原始运行记录/server_cohort_binding_verification.json": "sha256:a0d96141181d04f219f4b213100869589a608ec0d847bfbe0c5c4bb066083779",
+    "完成记录_20261117/原始运行记录/server_descriptive_verification.json": "sha256:57dea53dadb7a779fb4e76ab2c941f0b2d3e88fda30f948f49bf773a0d62d661",
+    "完成记录_20261117/原始运行记录/final_source_audit.json": "sha256:6d7f7ef1ae40391c67c0e2efc0dea57f922503c5c4fc2f5deaf9c05ad53ec61a",
+    "完成记录_20261117/原始运行记录/resume_job_result_20261117.json": "sha256:77d80a9175ad571f89457cd231b5488a99d60cab332493b009b595691ae1f074",
+    "完成记录_20261117/原始运行记录/inputs/quantity_cases.json": "sha256:0403328b37b7153f27ff1d2faa059d59141d017db8aa9f0c49938280ad75598a",
+    "完成记录_20261117/原始运行记录/inputs/quantity_gallery.json": "sha256:2c9385ff1fb1ccc54d04127220f34b91ea23c471281bc72540b5371478f98793",
+    "完成记录_20261117/原始运行记录/inputs/parent_selection_lock.json": "sha256:81dd3f822e9b7ef637607ab1acd690ac57e7fa6ff7fa7d64995c747c63ba60b7",
+    "完成记录_20261117/原始运行记录/prompt_selection_lock_v2.json": "sha256:bde9f54879e79f1b677c5541e3173d5dc80dfedf8b7cb3cda4f842e67d2dde8c",
+    "完成记录_20261117/原始运行记录/post_execution.jsonl": "sha256:7205c46139f96786d8f86d08bf9361ba1da5e9eb48f173e915712c21989c8df9",
+    "完成记录_20261117/原始运行记录/resume_20261117/execution.jsonl": "sha256:5205ec74c4599b2573c7d154a61471b5bc54dc6aa32cf82e116d08148e9b929f",
+    "report_code_hashes_20261117_v2.json": "sha256:a8d875f01a1ad1736327faa4fecfcc423eddfb42336186ef0c0a283ab69ca4b0",
+    "code/build_report_v2_20261117.py": "sha256:745c9b413a05d54bf118929b40075ecc16f9f66bbf2768c9d5439989da093802",
+    "RFPO后续决策说明_20261117.md": "sha256:d31c048cda1b52a9d7886dc721c39c6fb768a454226e76083031d3600b33ce8d",
+    "协议提示修复与候选状态验证结论_20261117_v2.md": "sha256:53772f7b0beb1c153ab5dcfbcc34dcb87a10e69792f042ea3f59aef1a6800e60",
+    "RFPO后续决策说明_20261117_v2.md": "sha256:192eaf33e99572fb56b1b71ac5e712cddd024cafa547c88633b22d02b1c02c7a",
+    "后续RFPO实验依据与待验证项_20261117_v2.json": "sha256:038e9d599b79e113382535a3c2acc6389ab52923d596f40a0ae4acfe5c665e44",
+    "code/build_report_v3_20261117.py": "sha256:fbc9ea28c6505524f2a4b46e04956cb4c6e4f49a08152335ca1a7ac015fc6106",
+    "report_code_hashes_20261117_v3.json": "sha256:a88620be581641d8b07091c15e864895547a89fa59b2acecb649f4281933e077"
+  },
+  "report_source_review_v2": {
+    "builder_sha256": "745c9b413a05d54bf118929b40075ecc16f9f66bbf2768c9d5439989da093802",
+    "manifest_sha256": "a8d875f01a1ad1736327faa4fecfcc423eddfb42336186ef0c0a283ab69ca4b0",
+    "review": "源码正确区分纯预填充的前缀确定性与轨迹结束后的资格选择。4例末态回退与生成实物相符。暂留末态和另行测同图奖励属于下一轮建议。",
+    "original_result_trace_preserved": true
+  },
+  "final_text_review": {
+    "review_independence": "same-family",
+    "acceptance_status": "provisional",
+    "verdict": "PASS",
+    "generated_at": "2026-11-17T07:35:17.109672+00:00",
+    "scope": "delivered text/tables and decision evidence JSON; final-backup sidecar reviewed separately",
+    "artifact_hashes": {
+      "协议提示修复与候选状态验证结论_20261117_v2.md": "53772f7b0beb1c153ab5dcfbcc34dcb87a10e69792f042ea3f59aef1a6800e60",
+      "RFPO后续决策说明_20261117_v2.md": "192eaf33e99572fb56b1b71ac5e712cddd024cafa547c88633b22d02b1c02c7a",
+      "后续RFPO实验依据与待验证项_20261117_v2.json": "038e9d599b79e113382535a3c2acc6389ab52923d596f40a0ae4acfe5c665e44",
+      "code/build_report_v3_20261117.py": "fbc9ea28c6505524f2a4b46e04956cb4c6e4f49a08152335ca1a7ac015fc6106",
+      "report_code_hashes_20261117_v3.json": "a88620be581641d8b07091c15e864895547a89fa59b2acecb649f4281933e077"
+    },
+    "evidence_hashes": {
+      "完成记录_20261117/原始运行记录/analysis.json": "cb0a87719c065b03abc3d1a4129709b81a9759beb06d792fe1bfd59c6de7b4e5",
+      "完成记录_20261117/原始运行记录/prompt_selection_lock_v2.json": "bde9f54879e79f1b677c5541e3173d5dc80dfedf8b7cb3cda4f842e67d2dde8c",
+      "完成记录_20261117/原始运行记录/generation_result_v2.json": "fe6aa86c946d4d9a98495ae6319bf947275501f5e79c0be4597d75c9269eb13e",
+      "本机生成核验.json": "1844e0270711c6e3eb4641e88519435554d6b5824718047f2eaa327b1cf56768",
+      "本机逐图绑定核验.json": "a0d96141181d04f219f4b213100869589a608ec0d847bfbe0c5c4bb066083779",
+      "本机评估核验.json": "8dce7be6830884d7dc458eb0cdaf2b837209ebee6561cdbb48312836dc46b418",
+      "本机恢复连续性核验_20261117.json": "c5638ced7fdd8b2918aa0cc8aa12fb9b7fd3c8600052c947d3c59ea404966086"
+    },
+    "main_tables_cell_counts": [
+      12,
+      36,
+      30,
+      30,
+      30
+    ],
+    "decision_table_cell_count": 16,
+    "cells_including_row_identity": 154,
+    "numeric_interval_and_status_cells": 123,
+    "row_identity_cells": 31,
+    "cell_count_convention": "Data rows only; each interval is one cell and both endpoints are checked; headers/units checked separately.",
+    "next_plan_evidence": "Full selected_val counts and complete calibrated_own prompt/state contrast, including 21 weights, signed difference and both CI endpoints, agree with raw analysis.",
+    "semantic_checks": [
+      "Frozen readout, single policy and greedy selection scope explicit",
+      "206/210 valid, two format failures plus two token limits; four retained last-state fallbacks",
+      "Image correspondence and same-image candidate discrimination distinguished",
+      "Prefix-determined pure prefill distinguished from trajectory-termination eligibility and fallback",
+      "Keep last state and test stochastic reward dispersion presented as future controlled work",
+      "Gate requires both >=95% and <=2%; mR and B are percentages; hard-correct count1-4 macro and gate range explicit",
+      "Training-side use of new RFPO states marked pending; generation, cache and frozen readout cross-checked."
+    ],
+    "unchanged_original_result_review_hashes": {
+      "result_review.md": "2f4aeb742574c4f52f2c6b4e2ec5745c92087c5d5e40e327e7aedda57705b34f",
+      "result_review.json": "608996f655db5b217988394379dd13fb1141406eb8f845cea0babdc43043a825"
+    },
+    "deferred": "Final archive sidecar, delivery index and dual storage proofs to be verified after packaging.",
+    "trace_files": {
+      "text_review.md": "f1c17e379a6d8f70b953f6716b89f12622acf7813a6fd42e410ef0a1fc5e9a3f",
+      "text_review.json": "6e62e9c1fdfd5ee5d1a1109b4b2136c99b9629808b55b9fecbc7c510d2c42264"
+    }
+  }
+}

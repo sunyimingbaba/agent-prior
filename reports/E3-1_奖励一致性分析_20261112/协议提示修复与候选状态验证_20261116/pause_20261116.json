@@ -1,0 +1,67 @@
+{
+  "status": "paused_by_user",
+  "paused_utc": "2026-11-16T11:18:35.491588+00:00",
+  "stopped_owned_jobs": [
+    {
+      "pid": 8199,
+      "entry": "run_generation_v2.py",
+      "args": "/private/AGSE_E1_20261110/legacy/env/bin/python -u /private/AGSE_E3_1_rebuild_20261112/protocol_prompt_state_validation_20261116/code/run_generation_v2.py"
+    },
+    {
+      "pid": 8376,
+      "entry": "run_evaluation.py",
+      "args": "/private/AGSE_E1_20261110/legacy/env/bin/python -u /private/AGSE_E3_1_rebuild_20261112/protocol_prompt_state_validation_20261116/code/run_evaluation.py"
+    },
+    {
+      "pid": 8450,
+      "entry": "run_post.py",
+      "args": "/private/AGSE_E1_20261110/legacy/env/bin/python -u /private/AGSE_E3_1_rebuild_20261112/protocol_prompt_state_validation_20261116/code/run_post.py"
+    }
+  ],
+  "active_phase_jobs": [],
+  "completed_records": 651,
+  "planned_records": 672,
+  "selected_val_completed": 189,
+  "selected_val_strict_with_consumed_tool": 185,
+  "selected_val_generated_result_tags": 0,
+  "invalid_ledger_lines_preserved": [],
+  "generation_complete": false,
+  "evaluation_complete": false,
+  "Agent_optimizer_updates": 0,
+  "readout_optimizer_updates": 0,
+  "gpu_after_stop": "NVIDIA A100-SXM4-80GB, 4 MiB, 0 %",
+  "selection_lock": {
+    "chosen_prompt": "contract_only",
+    "selected_train_group": "pilot_initial/contract_only",
+    "protocol_gate_passed": true,
+    "train_only_outcomes": {
+      "contract_only": {
+        "images": 63,
+        "strict_completed_with_consumed_tool": 62,
+        "model_generated_result": 0,
+        "passed": true,
+        "record_group": "pilot_initial/contract_only"
+      },
+      "neutral_placeholder": {
+        "images": 63,
+        "strict_completed_with_consumed_tool": 62,
+        "model_generated_result": 0,
+        "passed": true,
+        "record_group": "pilot_initial/neutral_placeholder"
+      },
+      "rotated_actual3": {
+        "images": 63,
+        "strict_completed_with_consumed_tool": 59,
+        "model_generated_result": 0,
+        "passed": false,
+        "record_group": "pilot_initial/rotated_actual3"
+      }
+    },
+    "selection_rule": "first passing prompt by fixed priority, only train63 protocol outcomes used; no utility/val based selection",
+    "policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85",
+    "Agent_optimizer_updates": 0,
+    "created_utc": "2026-11-16T10:47:33.074321+00:00",
+    "val_metrics_available_at_selection": false
+  },
+  "resume_requirement": "preserve V2 bytes; validate all completed records then use a versioned resume entry; do not overwrite original logs/anchors/lock"
+}

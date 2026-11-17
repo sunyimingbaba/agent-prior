@@ -1,0 +1,735 @@
+{
+  "selection": "first generation-order record per observed group/stop/strict status; utility unobserved",
+  "witnesses": [
+    {
+      "record": {
+        "group": "pilot_initial/contract_only",
+        "prompt": "contract_only",
+        "key": "train_0081",
+        "image": "102.tif",
+        "split": "train",
+        "row": 81,
+        "tensor_file": "generation_v2/pilot_initial/contract_only/train_0081.pt",
+        "tensor_sha256": "dfa32d88ad1a5922fcbcac0d78aaadb7310db51a63afa25376e779d114b0e271",
+        "trace_file": "generation_v2/pilot_initial/contract_only/train_0081.json",
+        "trace_sha256": "007b893f9b2e2e0e7e7c2749c0dd081ae3ea19601d1d92c8ce126f0fe2f37dcf",
+        "candidate_numeric_sha256": {
+          "last": "abfe2b39dc7cd6970de07e693ddc2efa952b9c510f877c63de988bb2c6f8140b",
+          "answer_prefill": "d43427acd369b614ee4af7b954a5e30ec954e034772593ad821b2425daa4a971",
+          "answer_pool": "04398867ed98c4dd6d57804d015a9617c677c3e568831fbf8caacd887e9d62dd"
+        },
+        "quality_usable": true,
+        "strict_protocol_usable": true,
+        "stop_reason": "answer",
+        "generated_result_tag": false,
+        "tools_used": 1,
+        "feedback_consumed": true,
+        "coverage": {
+          "answer_prefill_available": true,
+          "answer_pool_available": true,
+          "answer_prefill_fallback": null,
+          "answer_pool_fallback": null,
+          "pool_valid_input_tokens": 83
+        },
+        "policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85"
+      },
+      "prompt_roles": [
+        [
+          "system",
+          "user"
+        ],
+        [
+          "system",
+          "user",
+          "assistant",
+          "user"
+        ]
+      ],
+      "generated_texts": [
+        "<tool_call>scene_classify</tool_call>",
+        "<answer>The visible scene shows an airplane in the air, with a runway and a freeway in the background. The airplane is the main focus of the image, and it appears to be in the process of taking off or landing. The runway is clearly visible, and the freeway is also present, suggesting that the image was taken at an airport near a highway. The scene is likely to be a busy airport with a lot of traffic.</answer>"
+      ],
+      "feedback_events": [
+        {
+          "text": "airplane (0.55), runway (0.07), freeway (0.05)",
+          "confidence": 0.5456549525260925,
+          "accepted": true,
+          "source_image": "102.tif",
+          "source_original_trace_sha256": "3a6e22b2c1f531b0edd7a0cb810f55e57e908b4a8165dea670dff097bd244292",
+          "name": "scene_classify",
+          "after_round": 1,
+          "origin": "model_requested_recorded_real_feedback"
+        }
+      ],
+      "software_forced_tool": false,
+      "candidate_coverage": {
+        "answer_prefill_available": true,
+        "answer_pool_available": true,
+        "answer_prefill_fallback": null,
+        "answer_pool_fallback": null,
+        "pool_valid_input_tokens": 83
+      }
+    },
+    {
+      "record": {
+        "group": "pilot_initial/contract_only",
+        "prompt": "contract_only",
+        "key": "train_0778",
+        "image": "961.tif",
+        "split": "train",
+        "row": 778,
+        "tensor_file": "generation_v2/pilot_initial/contract_only/train_0778.pt",
+        "tensor_sha256": "1aa647b8fb427eac7fef86bac16b5041ad88807071b0804231ebb0c1c570c567",
+        "trace_file": "generation_v2/pilot_initial/contract_only/train_0778.json",
+        "trace_sha256": "2b786b4cd816ea285096910ba1615a618a541cf787437162b72be655e43a9547",
+        "candidate_numeric_sha256": {
+          "last": "8d33c908b57007054f3943e7b9576babb5f1629bb8fc0e1373e23d6621fc2eeb",
+          "answer_prefill": "8d33c908b57007054f3943e7b9576babb5f1629bb8fc0e1373e23d6621fc2eeb",
+          "answer_pool": "8d33c908b57007054f3943e7b9576babb5f1629bb8fc0e1373e23d6621fc2eeb"
+        },
+        "quality_usable": false,
+        "strict_protocol_usable": false,
+        "stop_reason": "token_limit",
+        "generated_result_tag": false,
+        "tools_used": 1,
+        "feedback_consumed": true,
+        "coverage": {
+          "answer_prefill_available": false,
+          "answer_pool_available": false,
+          "answer_prefill_fallback": "no_completed_strict_answer_after_consumed_tool",
+          "answer_pool_fallback": "multiple_or_unbalanced_answer_blocks",
+          "pool_valid_input_tokens": 0
+        },
+        "policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85"
+      },
+      "prompt_roles": [
+        [
+          "system",
+          "user"
+        ],
+        [
+          "system",
+          "user",
+          "assistant",
+          "user"
+        ]
+      ],
+      "generated_texts": [
+        "<tool_call>scene_classify</tool_call>",
+        "<answer>The visible scene is a golf course, as indicated by the presence of sand traps and a well-maintained green area. The image shows a typical golf course layout with a fairway and sand traps, which are characteristic features of a golf course. There are no visible signs of a baseball diamond or tennis court in the image. The scene is characterized by a green grassy area with a few sand traps, which are used to challenge the golfers and add to the difficulty of the game. The image also shows a path or walkway that runs through the course, which is used by the golfers to move between holes. The overall scene is peaceful and serene, with the green grass and the sand traps creating a beautiful contrast. The image does not show any signs of a baseball diamond or a tennis court, which are typically found in a different type of sports facility. The image is a clear representation of a golf course, and the presence of the sand traps and the green area are the main features that define the scene. The image does not show any signs of a baseball diamond or a tennis court, which are typically found in a different type of sports facility. The image is a clear representation of a golf course, and the presence of the sand traps and the"
+      ],
+      "feedback_events": [
+        {
+          "text": "golf course (0.59), baseball diamond (0.05), tennis court (0.04)",
+          "confidence": 0.5884431004524231,
+          "accepted": true,
+          "source_image": "961.tif",
+          "source_original_trace_sha256": "244145ad6a99a0731036f03dd12f6720386912fc7f2701db3886433624ced9c9",
+          "name": "scene_classify",
+          "after_round": 1,
+          "origin": "model_requested_recorded_real_feedback"
+        }
+      ],
+      "software_forced_tool": false,
+      "candidate_coverage": {
+        "answer_prefill_available": false,
+        "answer_pool_available": false,
+        "answer_prefill_fallback": "no_completed_strict_answer_after_consumed_tool",
+        "answer_pool_fallback": "multiple_or_unbalanced_answer_blocks",
+        "pool_valid_input_tokens": 0
+      }
+    },
+    {
+      "record": {
+        "group": "pilot_initial/neutral_placeholder",
+        "prompt": "neutral_placeholder",
+        "key": "train_0081",
+        "image": "102.tif",
+        "split": "train",
+        "row": 81,
+        "tensor_file": "generation_v2/pilot_initial/neutral_placeholder/train_0081.pt",
+        "tensor_sha256": "e92a3e4d50891e613404a1e8a764407690a1a6d090f7170c9e864402b35a6eaf",
+        "trace_file": "generation_v2/pilot_initial/neutral_placeholder/train_0081.json",
+        "trace_sha256": "5c2433410cd0ccc5baafc7ba1eec6f9b3e3f012453b4b87393dd0a424b92593f",
+        "candidate_numeric_sha256": {
+          "last": "8594eeb9e43de0973e2f5c994ec4c6de9d5fc00956c3394d14238c98873cca95",
+          "answer_prefill": "b2f8c400f2901c71af9c51468a13c457f3b75fc499b939ab752fa26bce8ac2c1",
+          "answer_pool": "8b29ee0588f632748b071a6da54f9a911edf492ee8367bdf4e941fc490b86159"
+        },
+        "quality_usable": true,
+        "strict_protocol_usable": true,
+        "stop_reason": "answer",
+        "generated_result_tag": false,
+        "tools_used": 1,
+        "feedback_consumed": true,
+        "coverage": {
+          "answer_prefill_available": true,
+          "answer_pool_available": true,
+          "answer_prefill_fallback": null,
+          "answer_pool_fallback": null,
+          "pool_valid_input_tokens": 50
+        },
+        "policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85"
+      },
+      "prompt_roles": [
+        [
+          "system",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user"
+        ],
+        [
+          "system",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user"
+        ]
+      ],
+      "generated_texts": [
+        "<tool_call>scene_classify</tool_call>",
+        "<answer>The visible scene in the image shows an airplane flying over a runway. The airplane is the most prominent feature, with a runway visible below it. There is also a hint of a freeway in the background, but it is not the main focus of the image.</answer>"
+      ],
+      "feedback_events": [
+        {
+          "text": "airplane (0.55), runway (0.07), freeway (0.05)",
+          "confidence": 0.5456549525260925,
+          "accepted": true,
+          "source_image": "102.tif",
+          "source_original_trace_sha256": "3a6e22b2c1f531b0edd7a0cb810f55e57e908b4a8165dea670dff097bd244292",
+          "name": "scene_classify",
+          "after_round": 1,
+          "origin": "model_requested_recorded_real_feedback"
+        }
+      ],
+      "software_forced_tool": false,
+      "candidate_coverage": {
+        "answer_prefill_available": true,
+        "answer_pool_available": true,
+        "answer_prefill_fallback": null,
+        "answer_pool_fallback": null,
+        "pool_valid_input_tokens": 50
+      }
+    },
+    {
+      "record": {
+        "group": "pilot_initial/neutral_placeholder",
+        "prompt": "neutral_placeholder",
+        "key": "train_1565",
+        "image": "1946.tif",
+        "split": "train",
+        "row": 1565,
+        "tensor_file": "generation_v2/pilot_initial/neutral_placeholder/train_1565.pt",
+        "tensor_sha256": "d7ad2728456c7c65ac46af055065224fdaa97f14214f0f7ed4fe08ac8cf8434c",
+        "trace_file": "generation_v2/pilot_initial/neutral_placeholder/train_1565.json",
+        "trace_sha256": "7ed4d23a7442fedcfa6a95d9c284eb59d086c27f43f2dab1aa2772c85fa996c2",
+        "candidate_numeric_sha256": {
+          "last": "a9f25e920982463e95628ed62dfd81e1c8d7f9bd9e6ade7504974eb2e1a5a65d",
+          "answer_prefill": "a9f25e920982463e95628ed62dfd81e1c8d7f9bd9e6ade7504974eb2e1a5a65d",
+          "answer_pool": "a9f25e920982463e95628ed62dfd81e1c8d7f9bd9e6ade7504974eb2e1a5a65d"
+        },
+        "quality_usable": false,
+        "strict_protocol_usable": false,
+        "stop_reason": "token_limit",
+        "generated_result_tag": false,
+        "tools_used": 1,
+        "feedback_consumed": true,
+        "coverage": {
+          "answer_prefill_available": false,
+          "answer_pool_available": false,
+          "answer_prefill_fallback": "no_completed_strict_answer_after_consumed_tool",
+          "answer_pool_fallback": "multiple_or_unbalanced_answer_blocks",
+          "pool_valid_input_tokens": 0
+        },
+        "policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85"
+      },
+      "prompt_roles": [
+        [
+          "system",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user"
+        ],
+        [
+          "system",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user"
+        ]
+      ],
+      "generated_texts": [
+        "<tool_call>scene_classify</tool_call>",
+        "<answer>The visible scene in the image includes storage tanks, which are the most prominent feature. There are also buildings and a small airplane in the background, but they are not the main focus of the image. The storage tanks appear to be part of an industrial or commercial facility, possibly a water treatment plant or a similar facility. The image is taken from an aerial perspective, providing a clear view of the tanks and the surrounding area. The scene is likely located in an urban or semi-urban environment, given the presence of buildings and the infrastructure around the tanks. The image does not provide any information about the time of day or weather conditions. The storage tanks are the main focus of the image, and they appear to be in good condition, with no visible signs of damage or wear. The surrounding area is relatively flat, with some vegetation and paved surfaces. The image does not provide any information about the purpose of the storage tanks or the facility they are part of. The image is likely taken for the purpose of monitoring the storage tanks or for planning and design purposes. The image does not provide any information about the location of the facility or the storage tanks. The image is likely taken from a satellite or aerial platform, and the resolution of the image is high enough to provide a"
+      ],
+      "feedback_events": [
+        {
+          "text": "storage tanks (0.49), airplane (0.04), buildings (0.04)",
+          "confidence": 0.49358513951301575,
+          "accepted": true,
+          "source_image": "1946.tif",
+          "source_original_trace_sha256": "aa6447c4ffa817eaba2928b811f89abe908ffd5343a4aefdbe17856229113264",
+          "name": "scene_classify",
+          "after_round": 1,
+          "origin": "model_requested_recorded_real_feedback"
+        }
+      ],
+      "software_forced_tool": false,
+      "candidate_coverage": {
+        "answer_prefill_available": false,
+        "answer_pool_available": false,
+        "answer_prefill_fallback": "no_completed_strict_answer_after_consumed_tool",
+        "answer_pool_fallback": "multiple_or_unbalanced_answer_blocks",
+        "pool_valid_input_tokens": 0
+      }
+    },
+    {
+      "record": {
+        "group": "pilot_initial/rotated_actual3",
+        "prompt": "rotated_actual3",
+        "key": "train_0081",
+        "image": "102.tif",
+        "split": "train",
+        "row": 81,
+        "tensor_file": "generation_v2/pilot_initial/rotated_actual3/train_0081.pt",
+        "tensor_sha256": "e9f2b049dd6927e77597b165217dda9b7ae8582a98302b75c8be38f2ff14f5f6",
+        "trace_file": "generation_v2/pilot_initial/rotated_actual3/train_0081.json",
+        "trace_sha256": "6e8ef0caa936adf40f1e10db8249dbfe1bf863c05989295fbea4c61db02ffdb8",
+        "candidate_numeric_sha256": {
+          "last": "3ecd8b213fde16d9c542506ab5a6132c374deb10604329af5a4f98d54c186b6c",
+          "answer_prefill": "2eaec49149c7a10d5708507216266da24559f8b6503043b89c6964bde06f5971",
+          "answer_pool": "1e6752336801e8531749c0bd7f0105bc720823f8e5e5514f736ad103b3ee3270"
+        },
+        "quality_usable": true,
+        "strict_protocol_usable": true,
+        "stop_reason": "answer",
+        "generated_result_tag": false,
+        "tools_used": 1,
+        "feedback_consumed": true,
+        "coverage": {
+          "answer_prefill_available": true,
+          "answer_pool_available": true,
+          "answer_prefill_fallback": null,
+          "answer_pool_fallback": null,
+          "pool_valid_input_tokens": 4
+        },
+        "policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85"
+      },
+      "prompt_roles": [
+        [
+          "system",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user"
+        ],
+        [
+          "system",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user"
+        ]
+      ],
+      "generated_texts": [
+        "<tool_call>scene_classify</tool_call>",
+        "<answer>The scene classifier reports airplane.</answer>"
+      ],
+      "feedback_events": [
+        {
+          "text": "airplane (0.55), runway (0.07), freeway (0.05)",
+          "confidence": 0.5456549525260925,
+          "accepted": true,
+          "source_image": "102.tif",
+          "source_original_trace_sha256": "3a6e22b2c1f531b0edd7a0cb810f55e57e908b4a8165dea670dff097bd244292",
+          "name": "scene_classify",
+          "after_round": 1,
+          "origin": "model_requested_recorded_real_feedback"
+        }
+      ],
+      "software_forced_tool": false,
+      "candidate_coverage": {
+        "answer_prefill_available": true,
+        "answer_pool_available": true,
+        "answer_prefill_fallback": null,
+        "answer_pool_fallback": null,
+        "pool_valid_input_tokens": 4
+      }
+    },
+    {
+      "record": {
+        "group": "pilot_initial/rotated_actual3",
+        "prompt": "rotated_actual3",
+        "key": "train_0126",
+        "image": "147.tif",
+        "split": "train",
+        "row": 126,
+        "tensor_file": "generation_v2/pilot_initial/rotated_actual3/train_0126.pt",
+        "tensor_sha256": "8000c7f3c5873b047d6ad80cfb7d945328c7e502c29939e5c39d3a3e1d138c17",
+        "trace_file": "generation_v2/pilot_initial/rotated_actual3/train_0126.json",
+        "trace_sha256": "5835d9a7033adbf221d29e1a750b74cbc0761ee15159c34267da41282fa7c4d0",
+        "candidate_numeric_sha256": {
+          "last": "bd3f36ef5d3beb475be69cc99e157290b54a5fcbd80440962f78295673933180",
+          "answer_prefill": "bd3f36ef5d3beb475be69cc99e157290b54a5fcbd80440962f78295673933180",
+          "answer_pool": "bd3f36ef5d3beb475be69cc99e157290b54a5fcbd80440962f78295673933180"
+        },
+        "quality_usable": false,
+        "strict_protocol_usable": false,
+        "stop_reason": "format_failure",
+        "generated_result_tag": false,
+        "tools_used": 1,
+        "feedback_consumed": true,
+        "coverage": {
+          "answer_prefill_available": false,
+          "answer_pool_available": false,
+          "answer_prefill_fallback": "no_completed_strict_answer_after_consumed_tool",
+          "answer_pool_fallback": "multiple_or_unbalanced_answer_blocks",
+          "pool_valid_input_tokens": 0
+        },
+        "policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85"
+      },
+      "prompt_roles": [
+        [
+          "system",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user"
+        ],
+        [
+          "system",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user"
+        ]
+      ],
+      "generated_texts": [
+        "<tool_call>scene_classify</tool_call>",
+        "<answer>The scene classifier reports airplane as the top category with a probability of 0.54. This suggests that the image prominently features airplanes, likely parked or in a queue, possibly on a runway or in a storage area. The other categories, runway and storage tanks, have lower probabilities, indicating they are less prominent in the image."
+      ],
+      "feedback_events": [
+        {
+          "text": "airplane (0.54), runway (0.11), storage tanks (0.06)",
+          "confidence": 0.5351036190986633,
+          "accepted": true,
+          "source_image": "147.tif",
+          "source_original_trace_sha256": "545ffe5694555d01f43d96e34b743f584ac63c2c8fba4bcb51c72de5c65c9997",
+          "name": "scene_classify",
+          "after_round": 1,
+          "origin": "model_requested_recorded_real_feedback"
+        }
+      ],
+      "software_forced_tool": false,
+      "candidate_coverage": {
+        "answer_prefill_available": false,
+        "answer_pool_available": false,
+        "answer_prefill_fallback": "no_completed_strict_answer_after_consumed_tool",
+        "answer_pool_fallback": "multiple_or_unbalanced_answer_blocks",
+        "pool_valid_input_tokens": 0
+      }
+    },
+    {
+      "record": {
+        "group": "baseline",
+        "prompt": "legacy",
+        "key": "val_0000",
+        "image": "91.tif",
+        "split": "val",
+        "row": 0,
+        "tensor_file": "generation_v2/baseline/val_0000.pt",
+        "tensor_sha256": "8d986e85b162195a39ecabcaadaf3fe44be76d6dfd6ee4dae92497cbf422686f",
+        "trace_file": "generation_v2/baseline/val_0000.json",
+        "trace_sha256": "af6caa1ee681d8f2c9c7f15a1cd69db94fe854bcafee8309e7c7ed1829b3fe7c",
+        "candidate_numeric_sha256": {
+          "last": "3f1fe81577502c393378a49c6344bd316203e263961dad0061c9be1f35137be0",
+          "answer_prefill": "bb60008bcdb8c84a3a96e989b72f9546b936a399402fd64be08a371720250b09",
+          "answer_pool": "73b3c341b56d6ec5ae30662a32fb210020f0c6169e5896ce429164dc740103e6"
+        },
+        "quality_usable": true,
+        "strict_protocol_usable": true,
+        "stop_reason": "answer",
+        "generated_result_tag": false,
+        "tools_used": 1,
+        "feedback_consumed": true,
+        "coverage": {
+          "answer_prefill_available": true,
+          "answer_pool_available": true,
+          "answer_prefill_fallback": null,
+          "answer_pool_fallback": null,
+          "pool_valid_input_tokens": 15
+        },
+        "policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85"
+      },
+      "prompt_roles": [
+        [
+          "system",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user"
+        ],
+        [
+          "system",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user",
+          "assistant",
+          "user"
+        ]
+      ],
+      "generated_texts": [
+        "<tool_call>scene_classify</tool_call>",
+        "<answer>图中显示的是一个农业场景，可能是一片农田或种植园。</answer>"
+      ],
+      "feedback_events": [
+        {
+          "text": "agricultural (0.48), forest (0.06), chaparral (0.06)",
+          "confidence": 0.47567281126976013,
+          "accepted": true,
+          "source_image": "91.tif",
+          "source_original_trace_sha256": "2403b6d4c460e034e551b1104387c90aafc2635be0aa4ad8771242a5d9a65f33",
+          "name": "scene_classify",
+          "after_round": 1,
+          "origin": "model_requested_recorded_real_feedback"
+        }
+      ],
+      "software_forced_tool": false,
+      "candidate_coverage": {
+        "answer_prefill_available": true,
+        "answer_pool_available": true,
+        "answer_prefill_fallback": null,
+        "answer_pool_fallback": null,
+        "pool_valid_input_tokens": 15
+      }
+    },
+    {
+      "record": {
+        "group": "selected_validation",
+        "prompt": "contract_only",
+        "key": "val_0000",
+        "image": "91.tif",
+        "split": "val",
+        "row": 0,
+        "tensor_file": "generation_v2/selected_validation/val_0000.pt",
+        "tensor_sha256": "aa698cad11554cf71278b2a933e9a81187ec4cfbf0908c723134754f2285f966",
+        "trace_file": "generation_v2/selected_validation/val_0000.json",
+        "trace_sha256": "129618fb3fe884523ae3746aac28c1ddb65210ca5e5356b058acbb0bab3c4f66",
+        "candidate_numeric_sha256": {
+          "last": "d1eac2a8ebb3bdc722747128b7d8f09827da234a0946eea3014643113fb2350d",
+          "answer_prefill": "254bcbbd8568a3986efad4cb917142f3cfa02987e7ec204946ca4c36d97e2a82",
+          "answer_pool": "d3a125429437a697135acc2cbf1b190d6de037d6613ca6841622fc441ab1979b"
+        },
+        "quality_usable": true,
+        "strict_protocol_usable": true,
+        "stop_reason": "answer",
+        "generated_result_tag": false,
+        "tools_used": 1,
+        "feedback_consumed": true,
+        "coverage": {
+          "answer_prefill_available": true,
+          "answer_pool_available": true,
+          "answer_prefill_fallback": null,
+          "answer_pool_fallback": null,
+          "pool_valid_input_tokens": 98
+        },
+        "policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85"
+      },
+      "prompt_roles": [
+        [
+          "system",
+          "user"
+        ],
+        [
+          "system",
+          "user",
+          "assistant",
+          "user"
+        ]
+      ],
+      "generated_texts": [
+        "<tool_call>scene_classify</tool_call>",
+        "<answer>The visible scene appears to be an agricultural field, as indicated by the presence of parallel lines that suggest rows of crops. The texture and pattern are consistent with farmland, and there are no signs of forest or chaparral vegetation. The image shows a large expanse of land with a uniform pattern, which is typical of cultivated fields. The lines are likely irrigation channels or crop rows, which are common in agricultural landscapes. The overall appearance suggests a well-maintained and organized agricultural area. </answer>"
+      ],
+      "feedback_events": [
+        {
+          "text": "agricultural (0.48), forest (0.06), chaparral (0.06)",
+          "confidence": 0.47567281126976013,
+          "accepted": true,
+          "source_image": "91.tif",
+          "source_original_trace_sha256": "2403b6d4c460e034e551b1104387c90aafc2635be0aa4ad8771242a5d9a65f33",
+          "name": "scene_classify",
+          "after_round": 1,
+          "origin": "model_requested_recorded_real_feedback"
+        }
+      ],
+      "software_forced_tool": false,
+      "candidate_coverage": {
+        "answer_prefill_available": true,
+        "answer_pool_available": true,
+        "answer_prefill_fallback": null,
+        "answer_pool_fallback": null,
+        "pool_valid_input_tokens": 98
+      }
+    },
+    {
+      "record": {
+        "group": "selected_validation",
+        "prompt": "contract_only",
+        "key": "val_0025",
+        "image": "287.tif",
+        "split": "val",
+        "row": 25,
+        "tensor_file": "generation_v2/selected_validation/val_0025.pt",
+        "tensor_sha256": "be7cb4deee7e9b8851fd3e11b9aa3ce1f93202fc06aec98b1dfe3ae57e3359b4",
+        "trace_file": "generation_v2/selected_validation/val_0025.json",
+        "trace_sha256": "325801f3ea1d2d891e218239813ab6869cc199f65b1c7645c029ac4a898efea7",
+        "candidate_numeric_sha256": {
+          "last": "212cf4f1305aba330be90860c98233edc6368312aab74555f3cd486162e5b505",
+          "answer_prefill": "212cf4f1305aba330be90860c98233edc6368312aab74555f3cd486162e5b505",
+          "answer_pool": "212cf4f1305aba330be90860c98233edc6368312aab74555f3cd486162e5b505"
+        },
+        "quality_usable": false,
+        "strict_protocol_usable": false,
+        "stop_reason": "format_failure",
+        "generated_result_tag": false,
+        "tools_used": 1,
+        "feedback_consumed": true,
+        "coverage": {
+          "answer_prefill_available": false,
+          "answer_pool_available": false,
+          "answer_prefill_fallback": "no_completed_strict_answer_after_consumed_tool",
+          "answer_pool_fallback": "multiple_or_unbalanced_answer_blocks",
+          "pool_valid_input_tokens": 0
+        },
+        "policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85"
+      },
+      "prompt_roles": [
+        [
+          "system",
+          "user"
+        ],
+        [
+          "system",
+          "user",
+          "assistant",
+          "user"
+        ]
+      ],
+      "generated_texts": [
+        "<tool_call>scene_classify</tool_call>",
+        "<answer>The image shows a baseball diamond, which is the most prominent feature. There are also storage tanks visible in the background, and a tennis court can be seen to the side. The scene appears to be a sports facility, possibly a baseball field with additional storage and recreational areas."
+      ],
+      "feedback_events": [
+        {
+          "text": "baseball diamond (0.58), storage tanks (0.05), tennis court (0.04)",
+          "confidence": 0.5807387232780457,
+          "accepted": true,
+          "source_image": "287.tif",
+          "source_original_trace_sha256": "cb82c3f5433bf049f10d982d446e30b378ba78f5c0d7300709f05e132d22eac2",
+          "name": "scene_classify",
+          "after_round": 1,
+          "origin": "model_requested_recorded_real_feedback"
+        }
+      ],
+      "software_forced_tool": false,
+      "candidate_coverage": {
+        "answer_prefill_available": false,
+        "answer_pool_available": false,
+        "answer_prefill_fallback": "no_completed_strict_answer_after_consumed_tool",
+        "answer_pool_fallback": "multiple_or_unbalanced_answer_blocks",
+        "pool_valid_input_tokens": 0
+      }
+    },
+    {
+      "record": {
+        "group": "selected_validation",
+        "prompt": "contract_only",
+        "key": "val_0102",
+        "image": "1081.tif",
+        "split": "val",
+        "row": 102,
+        "tensor_file": "generation_v2/selected_validation/val_0102.pt",
+        "tensor_sha256": "dda44615f20be395f1ee7f480f52ceafdec665970a640176511a69c9ede722b7",
+        "trace_file": "generation_v2/selected_validation/val_0102.json",
+        "trace_sha256": "3e95cb9f8438cee43fe7720b738a562bb53785062776cf265f44b42f5edf0502",
+        "candidate_numeric_sha256": {
+          "last": "8580ca88859dcae8a68bac36c389db9e1070332918528410890d33727f0fe2b3",
+          "answer_prefill": "8580ca88859dcae8a68bac36c389db9e1070332918528410890d33727f0fe2b3",
+          "answer_pool": "8580ca88859dcae8a68bac36c389db9e1070332918528410890d33727f0fe2b3"
+        },
+        "quality_usable": false,
+        "strict_protocol_usable": false,
+        "stop_reason": "token_limit",
+        "generated_result_tag": false,
+        "tools_used": 1,
+        "feedback_consumed": true,
+        "coverage": {
+          "answer_prefill_available": false,
+          "answer_pool_available": false,
+          "answer_prefill_fallback": "no_completed_strict_answer_after_consumed_tool",
+          "answer_pool_fallback": "multiple_or_unbalanced_answer_blocks",
+          "pool_valid_input_tokens": 0
+        },
+        "policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85"
+      },
+      "prompt_roles": [
+        [
+          "system",
+          "user"
+        ],
+        [
+          "system",
+          "user",
+          "assistant",
+          "user"
+        ]
+      ],
+      "generated_texts": [
+        "<tool_call>scene_classify</tool_call>",
+        "<answer>The image shows a harbor scene with numerous boats docked in a row. The boats are white and appear to be of various sizes, suggesting a marina or a docked fleet. The water is calm, and the boats are neatly arranged, indicating an organized and maintained harbor. There are no visible signs of agricultural activity or a beach in the image. The scene is likely taken from an aerial perspective, providing a clear view of the boats and the water. The top-3 scene categories are harbor, beach, and agricultural, with harbor being the most probable classification. The harbor is the most prominent feature in the image, with the boats being the main elements. The calm water and the orderly arrangement of the boats further support the harbor classification. There is no indication of agricultural activity or a beach in the image. The image is likely taken from an aerial perspective, providing a clear view of the boats and the water. The top-3 scene categories are harbor, beach, and agricultural, with harbor being the most probable classification. The harbor is the most prominent feature in the image, with the boats being the main elements. The calm water and the orderly arrangement of the boats further support the harbor classification. There is no indication of agricultural activity or a beach in the image"
+      ],
+      "feedback_events": [
+        {
+          "text": "harbor (0.49), beach (0.07), agricultural (0.04)",
+          "confidence": 0.4876106083393097,
+          "accepted": true,
+          "source_image": "1081.tif",
+          "source_original_trace_sha256": "0d8c6dd9f2842d60df3c5f5fbe2e3e3a3b0f6c785f3146bace8d338fd7ecb250",
+          "name": "scene_classify",
+          "after_round": 1,
+          "origin": "model_requested_recorded_real_feedback"
+        }
+      ],
+      "software_forced_tool": false,
+      "candidate_coverage": {
+        "answer_prefill_available": false,
+        "answer_pool_available": false,
+        "answer_prefill_fallback": "no_completed_strict_answer_after_consumed_tool",
+        "answer_pool_fallback": "multiple_or_unbalanced_answer_blocks",
+        "pool_valid_input_tokens": 0
+      }
+    }
+  ]
+}

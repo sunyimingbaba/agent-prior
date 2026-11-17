@@ -1,0 +1,33 @@
+{
+  "chosen_prompt": "contract_only",
+  "selected_train_group": "pilot_initial/contract_only",
+  "protocol_gate_passed": true,
+  "train_only_outcomes": {
+    "contract_only": {
+      "images": 63,
+      "strict_completed_with_consumed_tool": 62,
+      "model_generated_result": 0,
+      "passed": true,
+      "record_group": "pilot_initial/contract_only"
+    },
+    "neutral_placeholder": {
+      "images": 63,
+      "strict_completed_with_consumed_tool": 62,
+      "model_generated_result": 0,
+      "passed": true,
+      "record_group": "pilot_initial/neutral_placeholder"
+    },
+    "rotated_actual3": {
+      "images": 63,
+      "strict_completed_with_consumed_tool": 59,
+      "model_generated_result": 0,
+      "passed": false,
+      "record_group": "pilot_initial/rotated_actual3"
+    }
+  },
+  "selection_rule": "first passing prompt by fixed priority, only train63 protocol outcomes used; no utility/val based selection",
+  "policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85",
+  "Agent_optimizer_updates": 0,
+  "created_utc": "2026-11-16T10:47:33.074321+00:00",
+  "val_metrics_available_at_selection": false
+}

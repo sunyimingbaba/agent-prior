@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "generation_verification": {
+    "ok": true,
+    "main_generation_records": 672,
+    "candidate_state_tensors_rebuilt": 2016,
+    "actual_decode_steps_verified": 45591,
+    "body_input_positions_verified": 36311,
+    "state_bank_rows_verified": 1638,
+    "baseline_last_states_and_tokens_exact": 273,
+    "warm_anchor_matrices_verified": 2,
+    "v1_records_preserved_and_replayed": 14,
+    "dangling_tool_tags_in_claimed_strict_answers": 0,
+    "prompt_selection_train_only_rebuilt": true,
+    "Agent_optimizer_updates": 0,
+    "readout_optimizer_updates": 0,
+    "protocol_gate_passed": true
+  },
+  "evaluation_verification": {
+    "ok": true,
+    "readout_conditions_verified": 270,
+    "prior_source_rows_verified": 79650,
+    "validation_matrices_reused_exact": 42,
+    "new_image_encodings": 70830,
+    "retrieval_values_rebuilt": 5670,
+    "quantity_summary_values_rebuilt": 6480,
+    "quantity_cases_verified": 22950,
+    "retrieval_intervals_rebuilt": 102,
+    "quantity_intervals_rebuilt": 136,
+    "full_split_derangements_verified": 40,
+    "float64_score_max_error": 3.243562048282911e-05,
+    "float64_quantity_score_max_error": 2.9549183699906223e-07,
+    "float64_projection_max_error": 3.7028418224949178e-06,
+    "float64_gate_max_error": 1.0333023272579567e-06,
+    "all_readout_parameters_frozen": true,
+    "readout_optimizer_updates": 0
+  },
+  "descriptive_verification": {
+    "ok": true,
+    "descriptive_scalar_values_rebuilt": 253,
+    "state_bank_strata": 12,
+    "all_permutation_spreads_rebuilt": true,
+    "all_protocol_group_summaries_rebuilt": true
+  },
+  "source_audit": {
+    "ok": true,
+    "original_python_files_unchanged": 77,
+    "Qwen_base_files_unchanged": 15,
+    "old_LoRA_checkpoint_files_unchanged": 32,
+    "original_CLIP_AGSE_and_scene_head_unchanged": true,
+    "all_three_arrow_files_unchanged": true,
+    "previous_calibration_evidence_files_unchanged": 1458,
+    "previous_matched_training_evidence_files_unchanged": 4582,
+    "previous_diagnostic_evidence_files_unchanged": 3864
+  }
+}
