@@ -1,0 +1,38 @@
+{
+  "purpose": "Repair training likelihood computation to native generation forward geometry; preserve failed originalstage and all0update evidence.",
+  "observed_failure": {
+    "sample": 3,
+    "round0": 1,
+    "tokens": 87,
+    "fullsequence_max_logprob_gap": 0.3643019199371338,
+    "fullsequence_mean_abs_gap": 0.0271054245531559,
+    "cached_stepwise_max_gap": 0.0,
+    "cached_stepwise_mean_abs_gap": 0.0,
+    "cached_finite_backward": true,
+    "Agent_optimizer_updates": 0
+  },
+  "implementation": "Autograd through actual prefill thenone-token DynamicCache, native multimodal positions/attention, logits_to_keep1; evalmode for dropout0; FP32LoRA unchanged; gradientcheckpoint inactive along this native cached path.",
+  "expanded_gate": "first2selectedpilot +all8failedtraining candidates,20rounds; temporaryAdam witness restored exactly; originalmax0.25/mean0.05 and hidden cosine>=.999",
+  "original_sources_preserved": [
+    "code/policy_logprob.py",
+    "code/train_reward_arm.py",
+    "training/proxy_rank",
+    "continuation_job_result.json",
+    "probability_gate"
+  ],
+  "new_training_root": "training_v2",
+  "new_result_record": "continuation_job_result_v2.json",
+  "no_change": [
+    "initialbalanced32 parameters",
+    "8trainingimages",
+    "prompt lock",
+    "3rewardformulas",
+    "all optimizerhyperparameters",
+    "32attempts/arm×8candidates commonseed",
+    "zero variance skiprule",
+    "fixedfinal selection",
+    "evaluation and adoption thresholds",
+    "no newtest scoring"
+  ],
+  "budget_note": "Original failed group has8 diagnostic samples and0permanentupdates. Revised arms each restart exactly from sharedinitial; these8 priorfailure samples remain separately accounted."
+}
