@@ -1,0 +1,376 @@
+{
+  "schema": "cup.pause_resume_static_readiness.v1",
+  "ok": true,
+  "created_utc": "2026-11-17T11:07:48.572653+00:00",
+  "data_static_ready": true,
+  "resume_entry_still_requires_new_version": true,
+  "resume_authorization": "wait_for_explicit_user_resume",
+  "scope": {
+    "local_read_only_evidence_check": true,
+    "isolated_cpu_rng_load_check": true,
+    "cuda_rng_check": "saved tensor shape/dtype only",
+    "ssh_executed": false,
+    "training_executed": false,
+    "continuation_executed": false,
+    "full_archive_rehashed_in_this_check": false,
+    "archive_hash_basis": "cross-check existing server/local/full-restore/shutdown proofs"
+  },
+  "archive": {
+    "sha256": "55c948700478641c7dce604c7efc536ab56650671cb0b1a5e9c05d93f21a3901",
+    "bytes": 3795468221,
+    "registered_files": 1302,
+    "tar_members_including_root_manifest": 1303,
+    "root_manifest_sha256": "6748fba975d5f9ebe8b682f47e34cdccff617d5ce3f19f913a673b7564b0e70b",
+    "prior_complete_restore_all_file_sizes_and_hashes_match": true,
+    "all_four_proofs_agree": true
+  },
+  "pause": {
+    "status": "paused_by_user",
+    "arm": "quantity_pair",
+    "attempts_completed": 12,
+    "actual_optimizer_updates": 12,
+    "checkpoint": "training_v2/quantity_pair/paused_12/checkpoint",
+    "checkpoint_files": 16,
+    "LoRA_tensors": 584,
+    "all_Adam_state_steps_from_saved_verification": 12,
+    "policy_hash": "66290dd16700ed48ea1e61dc36386ea680d6908d9bb47fbc47596d83946e1620",
+    "initial_policy_hash": "76156912e519f8d0165decfe0423de34300d93840c36a15255b260e1ae6fad85",
+    "plan_sha256": "1c48fae539a4ea13b4b462f00444b049648a7736c83e177e37be921f93edb2b4",
+    "prompt_lock_sha256": "83f63c69d2e3a9bd9c98ff4e9b56b0e42411160f86ebef94912824cd1bda8b7d",
+    "next_zero_based_attempt": 12,
+    "next_attempt": 13,
+    "next_image": "147.tif",
+    "next_sample_seeds": [
+      2026113000,
+      2026113001,
+      2026113002,
+      2026113003,
+      2026113004,
+      2026113005,
+      2026113006,
+      2026113007
+    ],
+    "existing_total_permanent_optimizer_updates": 43,
+    "formal_candidate_records": 352,
+    "evaluation_records": 0,
+    "pause_marker_present": true,
+    "continuation_status": {
+      "status": "paused",
+      "entry": [
+        "train_reward_arm_v2.py",
+        "quantity_pair"
+      ],
+      "exit_code": 75
+    },
+    "post_status": {
+      "status": "prior_stage_stopped",
+      "source_status": {
+        "status": "paused",
+        "entry": [
+          "train_reward_arm_v2.py",
+          "quantity_pair"
+        ],
+        "exit_code": 75
+      }
+    }
+  },
+  "checkpoint_file_bindings": {
+    "optimizer.pt": {
+      "bytes": 761923050,
+      "sha256": "690fcf4874b8515828a1dfb817ae75f4a2716c753286e49b66c1946a629f0c56",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "video_preprocessor_config.json": {
+      "bytes": 913,
+      "sha256": "15bb7c2f2bc95fe9cc3749a4b287872b4886a15e9fcf550a4122a46ae26150bd",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "vocab.json": {
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "adapter_model.safetensors": {
+      "bytes": 380800528,
+      "sha256": "55e24356f8f624d7da9acc8510720228173553b3e0f52a7cac3201bef3a26a20",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "tokenizer_config.json": {
+      "bytes": 4730,
+      "sha256": "e04be4dd17e9f661bc487ba848a37f66a8f1adf2eef412f5d4ecb40cab4d39e7",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "torch_rng.pt": {
+      "bytes": 6500,
+      "sha256": "e67a4f9adbe5849c421ec10030de95333efbbe198023b8ffc2a109ee692b637b",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "chat_template.jinja": {
+      "bytes": 1017,
+      "sha256": "a0bc6f6fc7a29a80017a433e8f03a1cc1236e838a944a2d034295a60c4f2fddb",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "adapter_config.json": {
+      "bytes": 753,
+      "sha256": "ebe75534c7fdf57f9f9553217cd15325e0ad28a522af71b8efaf2503652543c7",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "special_tokens_map.json": {
+      "bytes": 613,
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "added_tokens.json": {
+      "bytes": 605,
+      "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "training_state.json": {
+      "bytes": 439,
+      "sha256": "5efbffcfddb656d994504873c2ea321adb69987fd00a263883120bf5bb9cc302",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "python_numpy_rng.json": {
+      "bytes": 22363,
+      "sha256": "4b942950945a8c8e348ffaa7042f514fef01ba069bca3545d0b5181ec74d765b",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "README.md": {
+      "bytes": 5076,
+      "sha256": "16003f82ca4b3d5d0be79ab070eb2a93022c7ea2fce5a2b32032d40e4db89033",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "tokenizer.json": {
+      "bytes": 11421896,
+      "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "preprocessor_config.json": {
+      "bytes": 829,
+      "sha256": "dfc7263fe735989c65c290d394198c4724d5afc58bf15c815d5e2e25b00b51b1",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    },
+    "merges.txt": {
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "root_manifest_and_restore_proof_match": true,
+      "current_file_size_match": true
+    }
+  },
+  "adapter_header_check": {
+    "header_only": true,
+    "header_bytes": 85512,
+    "tensor_count": 584,
+    "all_tensor_names_are_lora": true,
+    "tensor_dtypes": [
+      "F32"
+    ],
+    "all_fp32": true,
+    "model_weight_payload_loaded": false
+  },
+  "rng_validation": {
+    "isolated_local_cpu_process": true,
+    "process_exit_code": 0,
+    "python": "3.12.7 (v3.12.7:0b05ead877f, Sep 30 2024, 23:18:00) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "executable": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "torch_version": "2.11.0",
+    "numpy_version": "2.4.4",
+    "torch_load_weights_only": true,
+    "map_location": "cpu",
+    "cpu_rng": {
+      "dtype": "torch.uint8",
+      "shape": [
+        5056
+      ],
+      "bytes": 5056,
+      "set_get_roundtrip_equal": true
+    },
+    "cuda_rng": {
+      "saved_device_count": 1,
+      "tensors": [
+        {
+          "index": 0,
+          "dtype": "torch.uint8",
+          "device_when_read": "cpu",
+          "shape": [
+            16
+          ],
+          "bytes": 16,
+          "contiguous": true,
+          "format_valid": true
+        }
+      ],
+      "check": "stored CPU tensor structure only",
+      "cuda_api_called": false
+    },
+    "python_rng": {
+      "state_version": 3,
+      "internal_state_length": 625,
+      "json_lists_converted_to_nested_tuples": true,
+      "set_get_roundtrip_equal": true
+    },
+    "numpy_rng": {
+      "kind": "MT19937",
+      "keys_count": 624,
+      "keys_dtype": "uint32",
+      "position": 624,
+      "has_gauss": 0,
+      "set_get_roundtrip_equal": true
+    },
+    "training_or_continuation_executed": false,
+    "validation_apis": [
+      "torch.load(weights_only=True,map_location=cpu)",
+      "torch.set_rng_state/get_rng_state",
+      "random.setstate/getstate",
+      "numpy.random.set_state/get_state"
+    ]
+  },
+  "saved_server_packages": {
+    "torch": "2.4.1+cu124",
+    "torchvision": "0.19.1+cu124",
+    "transformers": "4.57.2",
+    "peft": "0.10.0",
+    "numpy": "1.26.4",
+    "pyarrow": "14.0.0",
+    "pytorch-lightning": "1.4.0",
+    "torchmetrics": "0.7.2",
+    "timm": "0.5.4",
+    "safetensors": "0.8.0",
+    "Pillow": "10.4.0"
+  },
+  "saved_adapter_config_and_runtime_difference": {
+    "saved_base_model_name_or_path": "/workspace/cup-debug/models/Qwen2.5-VL-7B-Instruct",
+    "runtime_base_model_path": "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct",
+    "saved_inference_mode": true,
+    "runtime_trainable_argument": true,
+    "saved_lora_dropout": 0.05,
+    "runtime_dropout": 0.0,
+    "effect_for_resume": "New resume entry must use the archived actual loader and exact FP32 adapter restoration, then verify trainable parameters/dropout/policy hash before restoring optimizer and RNG."
+  },
+  "required_future_resume_steps": [
+    "Wait for explicit user instruction to resume; retain PAUSE_REQUESTED until the new resume flow archives and handles it.",
+    "Retain old code/source_snapshot/runtime_source_snapshot/hash manifests/logs/job statuses and pause snapshots; create versioned resume entry, queue, hash manifest, logs and result files.",
+    "Use original recorded server environment and verify /private mount and external base/readout assets against saved references.",
+    "Construct original BF16 base and trainable FP32 LoRA with actual runtime dropout=0; use restore_adapter_exact and match the paused policy hash.",
+    "Load saved AdamW state with original parameters, moment buffers and step12; restore CPU/CUDA/Python/NumPy RNG after model/scorer/optimizer construction.",
+    "Resume quantity_pair attempt13 at ai12/image147.tif/seeds2026113000 through2026113007; preserve existing 43 updates and all prior records; schedule only remaining training/evaluation work."
+  ],
+  "independent_metadata_cross_review": "cached_probability_audit agent independently confirmed archive metadata, counters, next group/seeds and adapter-config/runtime difference by reading small JSON and archived source files.",
+  "input_evidence": {
+    "服务器归档校验.json": {
+      "bytes": 676,
+      "sha256": "f617f8767bf17262975da8f93ef5340e50794f46467a3631975bdecc72dbcfa4"
+    },
+    "本地整包校验.json": {
+      "bytes": 285,
+      "sha256": "5fae35f9fd3a89ff355bfdfb93a24a7768ed2293ecfef49a991616d467e5e08d"
+    },
+    "完整恢复校验.json": {
+      "bytes": 472981,
+      "sha256": "ab96970eeeb7adbe8f6c25e21dc396df65de6c08935c2a1e0a36b57a9090a849"
+    },
+    "服务器安全停机证明.json": {
+      "bytes": 604,
+      "sha256": "fe4847b2ba1014408670874022500056cdf3f410fe70569c89b3eb7b216665e5"
+    },
+    "原始运行记录/pause_summary_20261117.json": {
+      "bytes": 1963,
+      "sha256": "39bb26b304e6931c2996fe0f0d929a03f0a3fcce79d37fb79129f8f75737d380"
+    },
+    "原始运行记录/pause_checkpoint_verification.json": {
+      "bytes": 310,
+      "sha256": "ca0442561a83024771f165aac95fa084c4c4581e781ace445e055012e64e8c07"
+    },
+    "原始运行记录/file_checksums.json": {
+      "bytes": 209344,
+      "sha256": "6748fba975d5f9ebe8b682f47e34cdccff617d5ce3f19f913a673b7564b0e70b"
+    },
+    "原始运行记录/plan.json": {
+      "bytes": 7531,
+      "sha256": "1c48fae539a4ea13b4b462f00444b049648a7736c83e177e37be921f93edb2b4"
+    },
+    "原始运行记录/cache_plan.json": {
+      "bytes": 3215,
+      "sha256": "1ada544633bff58fc9402eea83d9c3dd6e87e505db41ed9dd2caeb4765e63fd0"
+    },
+    "原始运行记录/prompt_selection_lock.json": {
+      "bytes": 10640,
+      "sha256": "83f63c69d2e3a9bd9c98ff4e9b56b0e42411160f86ebef94912824cd1bda8b7d"
+    },
+    "原始运行记录/runtime_environment_v2.json": {
+      "bytes": 673,
+      "sha256": "887f44e5c6ce5828f9460ea2b97940b3fc06b23f4f95b8f25db0a183e4713441"
+    },
+    "原始运行记录/runtime_source_snapshot/manifest.json": {
+      "bytes": 2144,
+      "sha256": "184dfc817e638dd0276174fb32db1f5f56b9388657344d5207a8c4a32fcce3be"
+    },
+    "原始运行记录/continuation_job_result_v2.json": {
+      "bytes": 112,
+      "sha256": "eca68f4c33e5316328032e54b4732a7e5ccf28e8904bce08f6a963d9d212c0f1"
+    },
+    "原始运行记录/post_job_result.json": {
+      "bytes": 184,
+      "sha256": "869daab565c5ea0b1e8fb43615735efcf6cdf7a948c1f03a83909334f9a58c96"
+    },
+    "原始运行记录/PAUSE_REQUESTED": {
+      "bytes": 231,
+      "sha256": "04ab984fd7fcb876de6df4354ef2232c5b15f205000f870e07b8c4ffc6379c39"
+    },
+    "原始运行记录/training_v2/quantity_pair/paused_12_checkpoint_manifest.json": {
+      "bytes": 2422,
+      "sha256": "85a04c82b207e037b29c9fb6eeb25e6d22da05648959c44f6bc05bb07dee548f"
+    },
+    "原始运行记录/code/milestone_common.py": {
+      "bytes": 5051,
+      "sha256": "853feffbe3b2095103aa6638b75f91feab874daa435f9e0e8132e0eed5f80664"
+    },
+    "原始运行记录/code/checkpoint_io.py": {
+      "bytes": 761,
+      "sha256": "30ff45b41141734fee744b02165cc0dbd60bf292100569399c7d751e250b8073"
+    },
+    "原始运行记录/code/train_reward_arm_v2.py": {
+      "bytes": 8534,
+      "sha256": "b480308b3036993e2d94ea6d430012abb607bc9da72258665ffcc5ce2913ad8f"
+    },
+    "原始运行记录/code/run_continuation_v2.py": {
+      "bytes": 2155,
+      "sha256": "8fec6184d02051fff7870a6d34471a8856c349e4525160e556afc35a13528cc5"
+    },
+    "原始运行记录/code/run_post_queue_v2.py": {
+      "bytes": 1878,
+      "sha256": "a288587141cfd54c71f7e97be6584d60dc65ee62a4a5b23d6b90db9f2e4f0fb4"
+    },
+    "原始运行记录/training_v2/quantity_pair/paused_12/checkpoint/training_state.json": {
+      "bytes": 439,
+      "sha256": "5efbffcfddb656d994504873c2ea321adb69987fd00a263883120bf5bb9cc302"
+    },
+    "原始运行记录/training_v2/quantity_pair/paused_12/checkpoint/torch_rng.pt": {
+      "bytes": 6500,
+      "sha256": "e67a4f9adbe5849c421ec10030de95333efbbe198023b8ffc2a109ee692b637b"
+    },
+    "原始运行记录/training_v2/quantity_pair/paused_12/checkpoint/python_numpy_rng.json": {
+      "bytes": 22363,
+      "sha256": "4b942950945a8c8e348ffaa7042f514fef01ba069bca3545d0b5181ec74d765b"
+    },
+    "原始运行记录/training_v2/quantity_pair/paused_12/checkpoint/adapter_config.json": {
+      "bytes": 753,
+      "sha256": "ebe75534c7fdf57f9f9553217cd15325e0ad28a522af71b8efaf2503652543c7"
+    }
+  }
+}
