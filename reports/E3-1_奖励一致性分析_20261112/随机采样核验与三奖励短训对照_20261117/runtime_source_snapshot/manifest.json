@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "captured_utc": "2026-11-17T09:39:09.911151+00:00",
+  "packages": {
+    "torch": "2.4.1+cu124",
+    "transformers": "4.57.2",
+    "peft": "0.10.0"
+  },
+  "files": {
+    "runtime_source_snapshot/transformers_cache_utils.py": {
+      "source_module": "transformers.cache_utils",
+      "installed_path": "/private/AGSE_E1_20261110/legacy/env/lib/python3.12/site-packages/transformers/cache_utils.py",
+      "bytes": 67772,
+      "sha256": "f4e11caf14c75bdefa5e3003b93ef0e8b97fb6103375705ad944b0b344d7da8a"
+    },
+    "runtime_source_snapshot/transformers_generation_utils.py": {
+      "source_module": "transformers.generation.utils",
+      "installed_path": "/private/AGSE_E1_20261110/legacy/env/lib/python3.12/site-packages/transformers/generation/utils.py",
+      "bytes": 210102,
+      "sha256": "a20024b1e82ed5361a524d238d2197be5407abc91297dd9888c57e8284d63fef"
+    },
+    "runtime_source_snapshot/transformers_models_qwen2_5_vl_modeling_qwen2_5_vl.py": {
+      "source_module": "transformers.models.qwen2_5_vl.modeling_qwen2_5_vl",
+      "installed_path": "/private/AGSE_E1_20261110/legacy/env/lib/python3.12/site-packages/transformers/models/qwen2_5_vl/modeling_qwen2_5_vl.py",
+      "bytes": 82355,
+      "sha256": "f5051523300145f66de080765c06bd8080350c15692c096d2c38e73fe9d03099"
+    },
+    "runtime_source_snapshot/peft_peft_model.py": {
+      "source_module": "peft.peft_model",
+      "installed_path": "/private/AGSE_E1_20261110/legacy/env/lib/python3.12/site-packages/peft/peft_model.py",
+      "bytes": 89505,
+      "sha256": "916b7ca6f380cc5b2fe03f2e321d41f239a40343c4025483a5fe61ba5f0ac4c4"
+    },
+    "runtime_source_snapshot/peft_tuners_lora_layer.py": {
+      "source_module": "peft.tuners.lora.layer",
+      "installed_path": "/private/AGSE_E1_20261110/legacy/env/lib/python3.12/site-packages/peft/tuners/lora/layer.py",
+      "bytes": 47596,
+      "sha256": "b0ad749f3dac50ef1830aaceb9ee3cf84cbbaa394d3d1a466a81059c208a70da"
+    }
+  },
+  "purpose": "read-only source witness for native generation prep, DynamicCache autograd, and LoRA; captured during continuation without installing or editing packages"
+}

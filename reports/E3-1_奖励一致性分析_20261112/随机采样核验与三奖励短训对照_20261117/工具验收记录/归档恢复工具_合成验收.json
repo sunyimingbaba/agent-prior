@@ -1,0 +1,324 @@
+{
+  "synthetic_tool_test": true,
+  "experiment_evidence": false,
+  "description": "Synthetic restore utility acceptance; all payloads were created locally for this test.",
+  "script": "/Users/botlv/CUP-code/reports/E3-1_奖励一致性分析_20261112/随机采样核验与三奖励短训对照_20261117/code/restore_complete_evidence.py",
+  "cases_passed": 35,
+  "cases": [
+    {
+      "case": "valid",
+      "expected_success": true,
+      "passed": true,
+      "outcome": {
+        "ok": true,
+        "archive_sha256": "aed9f90da1a1a42c23d4a5e697f5f02bb553f03c98983c09b972741f72097457"
+      }
+    },
+    {
+      "case": "valid_parts",
+      "expected_success": true,
+      "passed": true,
+      "outcome": {
+        "ok": true,
+        "archive_sha256": "aed9f90da1a1a42c23d4a5e697f5f02bb553f03c98983c09b972741f72097457"
+      }
+    },
+    {
+      "case": "duplicate",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Duplicate archive member: 'a.txt'"
+      }
+    },
+    {
+      "case": "traversal",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Non-canonical or traversing member path: '../escape'"
+      }
+    },
+    {
+      "case": "nested_traversal",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Non-canonical or traversing member path: 'd/../../escape'"
+      }
+    },
+    {
+      "case": "absolute",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Absolute or drive-qualified member path: '/private/tmp/cup-restore-escape'"
+      }
+    },
+    {
+      "case": "drive_path",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Absolute or drive-qualified member path: 'C:escape'"
+      }
+    },
+    {
+      "case": "dot_component",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Non-canonical or traversing member path: './a.txt'"
+      }
+    },
+    {
+      "case": "symlink",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Non-regular or sparse member: 'link'"
+      }
+    },
+    {
+      "case": "hardlink",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Non-regular or sparse member: 'link'"
+      }
+    },
+    {
+      "case": "directory",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Non-regular or sparse member: 'dir'"
+      }
+    },
+    {
+      "case": "missing_registered_file",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Member set mismatch: missing=['a.txt']; unregistered=[]"
+      }
+    },
+    {
+      "case": "unregistered_file",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Member set mismatch: missing=[]; unregistered=['extra.txt']"
+      }
+    },
+    {
+      "case": "bad_hash",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Member SHA256 mismatch: 'a.txt'"
+      }
+    },
+    {
+      "case": "bad_size",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Member byte count mismatch: 'a.txt'"
+      }
+    },
+    {
+      "case": "missing_root_manifest",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Missing root file_checksums.json"
+      }
+    },
+    {
+      "case": "root_manifest_duplicate_json_key",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Duplicate JSON key: 'a.txt'"
+      }
+    },
+    {
+      "case": "root_manifest_self_reference",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Root checksum manifest contains its own hash"
+      }
+    },
+    {
+      "case": "file_directory_collision",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "[Errno 20] Not a directory: 'a'"
+      }
+    },
+    {
+      "case": "hidden_duplicate_after_tar_end",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Duplicate archive member: 'a.txt'"
+      }
+    },
+    {
+      "case": "hidden_duplicate_concatenated_gzip",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Duplicate archive member: 'a.txt'"
+      }
+    },
+    {
+      "case": "bad_gzip_crc",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "CRC check failed 0x4b8e009b != 0x4b8e009a"
+      }
+    },
+    {
+      "case": "truncated_gzip",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Compressed file ended before the end-of-stream marker was reached"
+      }
+    },
+    {
+      "case": "manifest_limit",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Root checksum manifest exceeds JSON limit"
+      }
+    },
+    {
+      "case": "wrong_expected_archive_sha256",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Combined archive SHA256 mismatch"
+      }
+    },
+    {
+      "case": "parts_bad_hash",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Part SHA256 mismatch: /private/tmp/cup-restore-final-tool-tests-5kgnpm24/valid.tar.gz.part000"
+      }
+    },
+    {
+      "case": "parts_duplicate_name",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Duplicate part name: 'valid.tar.gz.part000'"
+      }
+    },
+    {
+      "case": "parts_traversal",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Non-canonical or traversing member path: '../outside'"
+      }
+    },
+    {
+      "case": "parts_missing_file",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "[Errno 2] No such file or directory: '/private/tmp/cup-restore-final-tool-tests-5kgnpm24/missing.part'"
+      }
+    },
+    {
+      "case": "parts_total_size_mismatch",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Sum of indexed part sizes disagrees with archive_bytes"
+      }
+    },
+    {
+      "case": "parts_total_hash_mismatch",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Combined archive SHA256 mismatch"
+      }
+    },
+    {
+      "case": "producer_compatibility",
+      "expected_success": true,
+      "passed": true,
+      "outcome": {
+        "ok": true,
+        "archive_sha256": "4caac4f96c472a2d5b673efe7b7ca21365825ddeabba1abedc568bcb6b68d0f5"
+      }
+    },
+    {
+      "case": "producer_parts_compatibility",
+      "expected_success": true,
+      "passed": true,
+      "outcome": {
+        "ok": true,
+        "archive_sha256": "4caac4f96c472a2d5b673efe7b7ca21365825ddeabba1abedc568bcb6b68d0f5"
+      }
+    },
+    {
+      "case": "existing_destination",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Destination already exists: /private/tmp/cup-restore-final-tool-tests-5kgnpm24/existing_destination"
+      }
+    },
+    {
+      "case": "existing_proof",
+      "expected_success": false,
+      "passed": true,
+      "outcome": {
+        "ok": false,
+        "error": "Proof already exists: /private/tmp/cup-restore-final-tool-tests-5kgnpm24/existing_proof.json"
+      }
+    }
+  ]
+}
