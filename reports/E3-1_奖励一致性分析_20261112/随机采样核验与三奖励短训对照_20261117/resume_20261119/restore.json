@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "arm": "quantity_pair",
+  "prior_groups": 12,
+  "updates": 12,
+  "prefix_samples": 96,
+  "adapter_verification": {
+    "adapter_tensors": 584,
+    "saved_float32_adapter_restored_exactly": true
+  },
+  "policy_hash": "66290dd16700ed48ea1e61dc36386ea680d6908d9bb47fbc47596d83946e1620",
+  "optimizer_states_exact": 584,
+  "rng_restored": [
+    "torch_cpu",
+    "torch_cuda_all",
+    "python",
+    "numpy"
+  ],
+  "next_group": 13,
+  "next_image": "147.tif",
+  "next_seed": 2026113000,
+  "samples_prefix_sha256": "aa6116f85747a4e658101e5ea19ff6d8cee117a48d4212868b37503ade0d36b3",
+  "updates_prefix_sha256": "051b8e13894fce8ec7adb421ffdd321a3f997dc6044fb1d37f9675e36a9d3b9c"
+}
