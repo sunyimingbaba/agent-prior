@@ -1,0 +1,166 @@
+verified policy baseline_continuation0
+verified policy proxy_rank
+verified policy quantity_pair
+verified policy quantity_hard
+verified training proxy_rank
+verified training quantity_pair
+verified training quantity_hard
+{
+  "source_root": "/Users/botlv/CUP-code/reports/E3-1_奖励一致性分析_20261112/随机采样核验与三奖励短训对照_20261117/统一评估_20261119/原始运行记录",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "local_torch": "2.11.0",
+  "local_numpy": "2.4.4",
+  "human_label_ledger": {
+    "path": "/Users/botlv/CUP-code/reports/E1_UCM试验_20261110/第九步_去重与补充/100组工作清单.csv",
+    "sha256": "7f59cc910cd1f3ebaf3200030e1e803931556c5f0429d90dd9e8ed09c150e2df",
+    "matched": 85
+  },
+  "dataset_identity": {
+    "cohort_RGBs_verified": 273,
+    "quantity_labels": 85,
+    "gallery_images": 210,
+    "gallery_captions": 1050,
+    "counts": {
+      "1": 18,
+      "2": 38,
+      "3": 17,
+      "4": 9,
+      "7": 1,
+      "6": 2
+    }
+  },
+  "raw_final_evaluation": {
+    "records_hashed": 1532,
+    "traces_reclassified": 1532,
+    "quantity_tensor_records_recomputed": 780,
+    "paired_identity_order_exact": true,
+    "protocol_rates": {
+      "baseline_continuation0": {
+        "greedy": {
+          "n": 273,
+          "strict": 260,
+          "generated_results": 0
+        },
+        "sampled": {
+          "n": 110,
+          "strict": 98,
+          "generated_results": 0
+        }
+      },
+      "proxy_rank": {
+        "greedy": {
+          "n": 273,
+          "strict": 273,
+          "generated_results": 0
+        },
+        "sampled": {
+          "n": 110,
+          "strict": 110,
+          "generated_results": 0
+        }
+      },
+      "quantity_pair": {
+        "greedy": {
+          "n": 273,
+          "strict": 273,
+          "generated_results": 0
+        },
+        "sampled": {
+          "n": 110,
+          "strict": 110,
+          "generated_results": 0
+        }
+      },
+      "quantity_hard": {
+        "greedy": {
+          "n": 273,
+          "strict": 273,
+          "generated_results": 0
+        },
+        "sampled": {
+          "n": 110,
+          "strict": 110,
+          "generated_results": 0
+        }
+      }
+    }
+  },
+  "primary_strata": {
+    "1": 3,
+    "2": 34,
+    "3": 12,
+    "4": 3
+  },
+  "intervals_verified": {
+    "quantity": 72,
+    "retrieval": 18,
+    "resamples": 10000
+  },
+  "training": {
+    "proxy_rank": {
+      "attempts": 32,
+      "updates": 31,
+      "skip_attempts": [
+        12
+      ],
+      "hash_verified": "38cb9e23344900a936a22bb013b3575ef58b0795ae72fbae406712435e23b7b2"
+    },
+    "quantity_pair": {
+      "attempts": 32,
+      "updates": 32,
+      "skip_attempts": [],
+      "hash_verified": "f624cf9916541afe9a5d6f553bfce938e7a58af3a95d84e18509cb52d3538bb6"
+    },
+    "quantity_hard": {
+      "attempts": 32,
+      "updates": 32,
+      "skip_attempts": [],
+      "hash_verified": "0a1b1ba4f293db10a964f8edb110877616e3ddf654ce7891e4a75f4216bd8e61"
+    }
+  },
+  "resume_prefix_exact": true,
+  "primary": {
+    "policy": "quantity_hard",
+    "reference": "proxy_rank",
+    "mode": "greedy",
+    "metric": "B_hard_correct",
+    "unit": "paired heldout training image, true-count stratified",
+    "delta_macro1to4": -0.020833333333333332,
+    "interval95": [
+      -0.0625,
+      0.0
+    ]
+  },
+  "retrieval_guard": {
+    "policy": "quantity_hard",
+    "reference": "baseline_continuation0",
+    "protocol": "repository_duplicate_token_positive",
+    "delta_mR": 0.008730158730158734,
+    "interval95": [
+      -0.0036507936507936493,
+      0.022380952380952376
+    ],
+    "unit": "pairedvalimage cluster5captions with fixed gallery"
+  },
+  "adoption_checks": {
+    "primary_lower_gt0": false,
+    "retrieval_lower_gt_minus0.02": true,
+    "sampled_protocol_all_policies": false,
+    "same32actual_updates": false
+  },
+  "adoption_passed": false,
+  "single_changed_primary_image": [
+    {
+      "image": "2075.tif",
+      "actual_count": 3,
+      "hard": [
+        0.0
+      ],
+      "proxy": [
+        1.0
+      ]
+    }
+  ],
+  "post_result_hashes_verified": true
+}

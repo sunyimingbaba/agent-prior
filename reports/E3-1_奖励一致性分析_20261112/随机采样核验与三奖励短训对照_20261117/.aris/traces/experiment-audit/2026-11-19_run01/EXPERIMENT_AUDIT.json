@@ -1,0 +1,211 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "reason_code": "bounded_scope_and_adoption_criteria_not_met",
+  "summary": "The final records and statistics pass independent deterministic checks; the declared adoption criteria fail in 3 of 4 conditions. Interpretation remains scoped to this one-seed UCM frozen-readout diagnostic.",
+  "trace_path": "/Users/botlv/CUP-code/reports/E3-1_奖励一致性分析_20261112/随机采样核验与三奖励短训对照_20261117/.aris/traces/experiment-audit/2026-11-19_run01",
+  "agent_id": "/root/final_comparison_audit",
+  "verdict_id": "/root/final_comparison_audit/2026-11-19_run01",
+  "executor_model": "Codex [exact version not supplied]",
+  "executor_family": "openai",
+  "reviewer_model": "inherited Codex [exact version not supplied]",
+  "reviewer_family": "openai",
+  "reviewer_reasoning": "[待确认]",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "deterministic_checks_status": "passed",
+  "generated_at": "2026-11-19T12:04:08.790434+00:00",
+  "date": "2026-11-19",
+  "auditor": "fresh Codex reviewer",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "checks": {
+    "gt_provenance": {
+      "status": "pass",
+      "details": "85 human-confirmed labels match historical ledger; 273 image identities and 1050 original validation captions verified against original Arrow.",
+      "evidence": [
+        "code/reward_model_v2.py:64",
+        "code/evaluate_policy_v2.py:41",
+        "inputs/quantity_cases.json:1",
+        "fresh_reviewer_deterministic_checks.json"
+      ]
+    },
+    "score_normalization": {
+      "status": "pass",
+      "details": "Raw cosine margins, recall rates, fixed averages. Group reward standardization belongs to training; actual update skips preserved.",
+      "evidence": [
+        "code/reward_model_v2.py:60",
+        "code/train_reward_arm_v2.py:38"
+      ]
+    },
+    "result_existence": {
+      "status": "pass",
+      "details": "1532 final evaluation and 768 training sample hashes, 3 final adapter hashes and optimizer counts verified. All 5 post-result linked hashes verified.",
+      "evidence": [
+        "post_job_result_v3.json:1",
+        "fresh_reviewer_deterministic_checks.json"
+      ]
+    },
+    "dead_code": {
+      "status": "pass",
+      "details": "Final reward scoring, all 3 retrieval protocols, 72 quantity and 18 retrieval confidence intervals and adoption logic are called and saved; local independent reconstruction passed.",
+      "evidence": [
+        "code/evaluate_policy_v2.py:34",
+        "code/evaluate_policy_v2.py:54",
+        "code/analyze_comparison_v4.py:65",
+        "code/analyze_comparison_v4.py:68"
+      ]
+    },
+    "scope": {
+      "status": "warn",
+      "details": "One UCM continuation seed, 8 policy training images, 52 primary cases with strata 3/34/12/3, validation-selected frozen readout; actual updates 31/32/32.",
+      "evidence": [
+        "plan.json:147",
+        "plan.json:161",
+        "readout_reference_plan.json:1",
+        "analysis.json:10835"
+      ]
+    },
+    "eval_type": {
+      "status": "pass",
+      "classification": {
+        "quantity": "real_gt (human-annotated subset with fixed count templates)",
+        "retrieval": "real_gt",
+        "proxy_rank_reward": "self_supervised_proxy",
+        "format_protocol": "self_supervised_proxy"
+      }
+    }
+  },
+  "adoption": {
+    "passed": false,
+    "checks": {
+      "primary_lower_gt0": false,
+      "retrieval_lower_gt_minus0.02": true,
+      "sampled_protocol_all_policies": false,
+      "same32actual_updates": false
+    }
+  },
+  "primary": {
+    "policy": "quantity_hard",
+    "reference": "proxy_rank",
+    "mode": "greedy",
+    "metric": "B_hard_correct",
+    "unit": "paired heldout training image, true-count stratified",
+    "delta_macro1to4": -0.020833333333333332,
+    "interval95": [
+      -0.0625,
+      0.0
+    ]
+  },
+  "retrieval_guard": {
+    "policy": "quantity_hard",
+    "reference": "baseline_continuation0",
+    "protocol": "repository_duplicate_token_positive",
+    "delta_mR": 0.008730158730158734,
+    "interval95": [
+      -0.0036507936507936493,
+      0.022380952380952376
+    ],
+    "unit": "pairedvalimage cluster5captions with fixed gallery"
+  },
+  "actual_updates": {
+    "proxy_rank": 31,
+    "quantity_pair": 32,
+    "quantity_hard": 32
+  },
+  "claims": [
+    {
+      "id": "C1_completed_execution",
+      "impact": "supported"
+    },
+    {
+      "id": "C2_primary_quantity_advantage",
+      "impact": "unsupported"
+    },
+    {
+      "id": "C3_retrieval_guard",
+      "impact": "supported_with_validation_scope"
+    },
+    {
+      "id": "C4_matched_actual_updates",
+      "impact": "unsupported"
+    },
+    {
+      "id": "C5_multidataset_multiseed_generalization",
+      "impact": "unsupported"
+    }
+  ],
+  "audited_input_hashes": {
+    "plan.json": "sha256:1c48fae539a4ea13b4b462f00444b049648a7736c83e177e37be921f93edb2b4",
+    "analysis_protocol_lock.json": "sha256:701cd6918bc1a17972d782b5dab6fece39f7ae84751fc2e6a4b43ac293d4aad5",
+    "analysis.json": "sha256:51a93c376b0c0f7ec190503ba583d162a90a89d1394a365605319ff6d8a50b82",
+    "post_job_result_v3.json": "sha256:273efb2c8c3063e3b01e47bacd5f50f7f24dc655be311c348aaeddbe163875ad",
+    "continuation_job_result_v3.json": "sha256:befb443cffa057c321c2d97e3f90b6b6215821d9c5071e4f10c126ac2ae1ec0a",
+    "code/verify_val_protocol.py": "sha256:0ff2f81d81feee0022e78052b5af634e0c62f1f4e727b0065fbe1f4d9fb74bfb",
+    "code/verify_metrics_cpu.py": "sha256:a6e8c81b34103038c0d4b58b4b284a271dc60ebaf2e3f5b23eed0a50d837350f",
+    "code/prepare_stage_v2.py": "sha256:4e87d15c43250df2d29d942bce4efd14b50c548bcbd3f21ab3aeee1fda1b3166",
+    "code/analyze_comparison_v4.py": "sha256:aab1a5bd38119a86d7c96281f8943cd82f420342e3409a5b0413e4457a39831e",
+    "code/prompt_design.py": "sha256:4b4fe096469f27329d8a88194720588f1f7ebbbd85ba3baa66d8d439a7f32082",
+    "code/run_resume_queue_v3.py": "sha256:4d181f09abdfe7be78eed3d8a905cfae29fa69f5690afd1101e3b92bf0b84bb3",
+    "code/restore_complete_evidence.py": "sha256:80da12300f17bb961c34776272007675bb41be6542d03094d42f9fd4beacff2a",
+    "code/verify_training_cpu.py": "sha256:fdb1856b4fe1f48ae5076a432bf2fa62c0b8e54590fc75269e0f403ef32ccf75",
+    "code/verify_raw_cpu_v2.py": "sha256:470f35a7ff8bc566c5d69bd5b156ef0bc0b5803eea011bdea6a01ac80fb59109",
+    "code/run_post_queue.py": "sha256:a24d0552193d9c472b8b8a69a9877bf5c3b9db2f91afda9d319e38ec0a06d6f4",
+    "code/train_reward_arm_resume_v3.py": "sha256:b0e0d26d3bb06270d91a2a87e464ace4e50e124057963c54b0ccd4963a80ba63",
+    "code/run_continuation_v2.py": "sha256:8fec6184d02051fff7870a6d34471a8856c349e4525160e556afc35a13528cc5",
+    "code/diagnose_probability_failure_v2.py": "sha256:c443bc6c5fca38d6648987a9c9a33cbd5e5acca11c308aa650f9bdac5328f289",
+    "code/checkpoint_io.py": "sha256:30ff45b41141734fee744b02165cc0dbd60bf292100569399c7d751e250b8073",
+    "code/run_continuation.py": "sha256:aeef1d1b06821448fb7288702387947dfb275d0e66cadd5eedf0088ac4c25068",
+    "code/reward_model_v2.py": "sha256:3645e18feeb5073b556d85c96b4c071c6e75b833481aba80a8d3d85f2bb5e3f8",
+    "code/diagnose_probability_failure.py": "sha256:0680891c2555fc30b80ae62a0ac5038a64445ccf533ec52fb70c201676cf15ec",
+    "code/probability_gate.py": "sha256:099ecd491f0c04a7d11c44dd6c9181c8f725ecb5926a425217bab27e9e04e900",
+    "code/analyze_comparison.py": "sha256:c3c9f2075837ca444634351e82823637f158a80684c909b1c4b668f88a1d28f9",
+    "code/run_pilot_v2.py": "sha256:859996513169e58cbecf0b971c42c947690591203603f9dc0f3368bb2a4c02e5",
+    "code/verify_assets_final.py": "sha256:b017679693671bb29b86735c1111da6b4510402b04e314e6918a749d4ec56040",
+    "code/restore_training_group.py": "sha256:13b2611160eff8eab811fba1ff7e8b05f204750db47ab59acb5dd96d5247e0f6",
+    "code/tie_metrics.py": "sha256:7ef15ac84a362a70833d115e1490723ce2f6ecc1587c7133f60e2a5a6b2f8bdf",
+    "code/evaluate_policy.py": "sha256:2d94b6b31929e9a521e2ba41091a238e3298e2f70705ada3be6c83ff9ec24ce0",
+    "code/verify_normalization_cuda.py": "sha256:b02284df11d4a23c4439ddf613ada7ec993269132f3b758b0d7c54500dfebd90",
+    "code/prepare_stage.py": "sha256:5cc1718f0eccc44a81273e223eba9f3222e083f5fe9350efd26812957d54467c",
+    "code/evidence_parts.py": "sha256:7f9ea10242e5dafa1057ff4df828a7188956c079a8cc9d7569ce83363ee9cc4e",
+    "code/live_rollout_legacy.py": "sha256:23de6bfb86dfd73f3527284a7bbe830474664a787122d5dd2ec9cfe759a2f18a",
+    "code/package_complete_evidence.py": "sha256:1def0bb4b0b25ffbb385af3e1d93e4471d67893382398c7e6f56ee08d421a2d3",
+    "code/stochastic_rollout.py": "sha256:ffe51b6cb355cd31e08e82a409a3bc5e68b757419078737b452ad925ebca2d34",
+    "code/policy_logprob_cached.py": "sha256:fa1f12781326667894f7362e1b6a5550da215bc675fe392062d49fb642a95d7a",
+    "code/run_initial_stage_v2.py": "sha256:0e0ad1e9142f12da6152cb622e0cfc5c20a5893156a95c704a52b39cb5c18aab",
+    "code/state_contract_v2.py": "sha256:8b06addabf36250781d4ec859535dfdea851cc15ad23638aabedfc2860592b00",
+    "code/matched_common_v3.py": "sha256:2da0d66171d0da3212bc08db2181d20415b22a6a29d5e9ebd23bfc723c50a1f6",
+    "code/policy_logprob.py": "sha256:407ac1e4fedb62417db2c63bb5281c8871ef07df8ee2162d61a53b0e6670c200",
+    "code/reward_model.py": "sha256:0bff535976e80deb1dc19ab7891837d0d32f57e4be8cf4602dfbfc13161dc523",
+    "code/train_reward_arm_v2.py": "sha256:b480308b3036993e2d94ea6d430012abb607bc9da72258665ffcc5ce2913ad8f",
+    "code/evaluate_policy_v2.py": "sha256:d65615a7050738d1b119911e963c241c6c6aa1ef6c6958b24705f3dc1f2884ea",
+    "code/baseline_replay.py": "sha256:401a27c38a6c7aeff87c5e6d7a2d8cf0944279dd70f887a98fc3428f5a801001",
+    "code/verify_training_cpu_v2.py": "sha256:3c36d4f1ac00e17d333046a9e228a7f6c2a0c0c716e5880a2af53a0eefe81993",
+    "code/run_initial_stage.py": "sha256:b0ae852a8d751e064e656c184f6b73708bba073b528ecc447c1ffba5cd861c8c",
+    "code/analyze_comparison_v2.py": "sha256:98b50fc51191b62d6afcba0620eceff41900ce66c567ee50c30ed354d660b78d",
+    "code/baseline_replay_v2.py": "sha256:c93bfb38390ab698e8a30d7d3a6a011a4d8c55ce49ad17e81dcf0635e8f03953",
+    "code/probability_gate_v2.py": "sha256:98e32e87a0f476f5ccf328809c397a76dc1113422016a191de06affbd0275f4c",
+    "code/analyze_comparison_v3.py": "sha256:a1be55df1c932a8684ef04c3898a5f71c90aeeb593f91fd359ad41eca56c5ccd",
+    "code/build_final_delivery_v2.py": "sha256:0b1b3e0441f04c40a6ec129ac00ddcf2df5c2466e50d1416b168da5b8677bfa6",
+    "code/run_pilot.py": "sha256:52d9e9881f08ff55b61051fb782cdcfcd8ef4f0a52029b5064c103dff1967510",
+    "code/capture_runtime_source.py": "sha256:bcd78ee235d29bb082e32ab8bdfc81bc8cbb266c3fea5c4b9c4c9e0ef52825da",
+    "code/checkpoint_metadata.py": "sha256:fd27f9e3fd07ad4595757643cc75ce8081a51a8b92b07e557e985b26dfd1604c",
+    "code/stage_io.py": "sha256:c42284e8f27ec10ca4f85926a8a51f39e59e7cb8ea4738481efb40b9a4e822e1",
+    "code/train_reward_arm.py": "sha256:e97cbe0bcf99f8725e6e447cc0a286653bf139cfd756c61d1e39e501b95b71ce",
+    "code/run_post_queue_v2.py": "sha256:a288587141cfd54c71f7e97be6584d60dc65ee62a4a5b23d6b90db9f2e4f0fb4",
+    "code/milestone_common.py": "sha256:853feffbe3b2095103aa6638b75f91feab874daa435f9e0e8132e0eed5f80664",
+    "code/verify_assets_final_v2.py": "sha256:fb995f1ec306c4513260b59714af6652934197bba493d0fb29981109cdce0f37",
+    "inputs/quantity_cases.json": "sha256:0403328b37b7153f27ff1d2faa059d59141d017db8aa9f0c49938280ad75598a",
+    "inputs/cohort.json": "sha256:257b0507d7b1611375c682d69cec8a0e44eaad6fb117fed6c3a5f29d321a1107",
+    "inputs/quantity_gallery.json": "sha256:2c9385ff1fb1ccc54d04127220f34b91ea23c471281bc72540b5371478f98793",
+    "evaluation/gallery.json": "sha256:4c0a84ffc27d769eab21e1777a541689513e6997734978130c36c1aa3542d786"
+  },
+  "deterministic_check_script_sha256": "ca13fcf9fe3a3be8565b0f580b8202e34c98cae5e250df21b20c664ac869143f",
+  "deterministic_check_result_sha256": "922b966854caefc43a231a43ac5b1368fbfcd8a8f5c87ef4e75d95f248a7909b",
+  "report_sha256": "a440d56a2665bb5b3e5749a2723a84908557f429db8432642b76d88bf814b94d",
+  "limitations": [
+    "No fresh GPU generation/training/network-forward reconstruction was executed.",
+    "Shared skill reference files were not found at standard installed paths.",
+    "Human label counts were checked against historical confirmation records; no new human recount was commissioned."
+  ]
+}

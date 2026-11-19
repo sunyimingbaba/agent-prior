@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/botlv/CUP-code/reports/E3-1_奖励一致性分析_20261112/随机采样核验与三奖励短训对照_20261117/.aris/traces/experiment-audit/2026-11-19_run01/fresh_reviewer_checks.py", line 25, in <module>
+    for n,c in C.items():assert int(L[n]['用户确认数量'])==c['actual_count'] and L[n]['目标']==c['object'] and L[n]['正确描述']==c['pairs']['A']['positive']
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
