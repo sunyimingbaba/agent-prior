@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-11-20T09:18:05.824431+00:00",
+  "command": "python code/manifest.py --verify",
+  "file_count": 370,
+  "bytes": 7308776016,
+  "manifest_sha256": "9a6a8b8be6b5d549b88dd01ed7c517263ef7b2cb9ad146c6c244e8e0204ecc02",
+  "local": {
+    "path": "/Users/botlv/CUP-code/reports/E3-2_UCM格式奖励双种子与中间检查点_20261120",
+    "verified": true
+  },
+  "private_server": {
+    "path": "/private/AGSE_E3_1_rebuild_20261112/format_deterministic_20261120",
+    "verified": true
+  },
+  "audit_inputs_verified": {
+    "in_bundle": 284,
+    "other_or_upstream": 32
+  },
+  "raw_training_files": {
+    "formal_adapters": 12,
+    "formal_final_optimizer_checkpoints": 4,
+    "numerical_control_adapters": 6,
+    "numerical_control_optimizer_checkpoints": 2
+  },
+  "github": "Source, all evaluated traces and scores, four restorable final adapters and evidence; raw training binaries stay on the two complete storage copies."
+}

@@ -1,0 +1,21 @@
+{
+  "integrity_reviewer": "/root/format_reward_integrity",
+  "read_only_statistical_review": "/root/format_reward_integrity/static_stat_check",
+  "result": "WARN",
+  "deterministic_checks": "PASS",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "reviewer_message": "正式审计两份已写入 review/EXPERIMENT_AUDIT.md 与 .json，绑定最终主报告 ee0c7b0c...。总体 WARN，确定性核验 PASS，same-family/provisional；未发现需纠正的主要主张。316个输入/上游证据哈希；全部4组初始参数也与base状态一致。",
+  "statistical_review_message": "330组并列概率枚举与公式最大差1.11e-16；E1的156条输入与归档逐条对应；首token EOS范围、图级/图对级配对bootstrap均通过。",
+  "sha256": {
+    "实验交付.md": "ee0c7b0c96a296b46c601f139dd559d027ad61f7b527e9ddaa339eb55988b6f4",
+    "review/EXPERIMENT_AUDIT.md": "2fa55d07a86b59bb44c7f7a08a624a7e74f5886cef11aac39aff53bfb10ce25a",
+    "review/EXPERIMENT_AUDIT.json": "f0922328418fbd9bac2a9965179a42442b18c68d9b7784753614743b98f92b4d",
+    "results/prefix_replay.json": "622fa7d0eac17a5c6959035c30c99d2b4efb8494a4de3c8b202c95d95d5d0bfb",
+    "results/training_checks.json": "816cb80049902ae70e622f186c168ed29c877ddd57a130207236de39c2d6dbdc",
+    "results/deployment_checks.json": "afbc2b504eed8ef2217eb0d013923682a626ef6a690db1c15f284ba1bd13585c",
+    "results/weight_restoration.json": "d6ef8f4c0b4d9096655b59f461d801297631dca50d22fc9bc3fbb431417ec480",
+    "results/local_recompute.json": "1737af6cd69f8c85a82d14c7413b43479f54e321d8f10d1dd70d4f9ff82e3d14",
+    "results/decision.json": "929d16c5811714d0fadbb2e68ae93f2ca2a63bd8fcdfdfc82e4ae49d4e37462d"
+  }
+}
