@@ -1,0 +1,306 @@
+[
+  {
+    "image": "1852.tif",
+    "row": 1491,
+    "split": "train",
+    "block": 18,
+    "rgb_sha256": "98e91fbb73a011e5afa8651f89af86698a3cae68a74fad2fefbb9f10a5117673",
+    "pair": "driveway_house",
+    "side": "left",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "A house is surrounded by verdant lawn in the sparse residential area .",
+    "A": [
+      "The driveway reaches the main house from above in the image.",
+      "The driveway reaches the main house from below in the image."
+    ],
+    "B": [
+      "The long driveway extends from the house toward the top of the frame.",
+      "The long driveway extends from the house toward the bottom of the frame."
+    ]
+  },
+  {
+    "image": "1845.tif",
+    "row": 1484,
+    "split": "train",
+    "block": 18,
+    "rgb_sha256": "af7ec2fb52a2d410dc9c4fd2a0f41124de8967c5b29ceab4573c64a3c09c819f",
+    "pair": "pool_house",
+    "side": "left",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "Two houses are surrounded by verdant lawn in the sparse residential area .",
+    "A": [
+      "The rectangular swimming pool is above the main house.",
+      "The rectangular swimming pool is below the main house."
+    ],
+    "B": [
+      "The main house lies below its rectangular pool.",
+      "The main house lies above its rectangular pool."
+    ]
+  },
+  {
+    "image": "1907.tif",
+    "row": 1526,
+    "split": "train",
+    "block": 19,
+    "rgb_sha256": "3ff3867fc7698f0bdca5c21979af6e5663a6238f12fce92fb7139c995ed585ef",
+    "pair": "tank_vertical",
+    "side": "left",
+    "scene_query": "Scene: a storage facility.",
+    "orig_query": "A white storage tank is on the lawn .",
+    "A": [
+      "The round tank stands to the left of the adjacent vertical road.",
+      "The round tank stands to the right of the adjacent vertical road."
+    ],
+    "B": [
+      "The vertical road runs along the tank's right side.",
+      "The vertical road runs along the tank's left side."
+    ]
+  },
+  {
+    "image": "1919.tif",
+    "row": 1538,
+    "split": "train",
+    "block": 19,
+    "rgb_sha256": "057d758c4ed1b5938a4da79ecdcd9312f5cab12f9abb0d1fcbbfa5eb2451369f",
+    "pair": "tank_vertical",
+    "side": "right",
+    "scene_query": "Scene: a storage facility.",
+    "orig_query": "A storage tank is in the lawn .",
+    "A": [
+      "The round tank stands to the right of the adjacent vertical road.",
+      "The round tank stands to the left of the adjacent vertical road."
+    ],
+    "B": [
+      "The vertical road runs along the tank's left side.",
+      "The vertical road runs along the tank's right side."
+    ]
+  },
+  {
+    "image": "232.tif",
+    "row": 192,
+    "split": "train",
+    "block": 2,
+    "rgb_sha256": "1906481b23301d18711bef59caf7618b29cc76887b15eb194ba4b797b226a9e7",
+    "pair": "diamond_plate",
+    "side": "right",
+    "scene_query": "Scene: a baseball facility.",
+    "orig_query": "This is a baseball diamond with stands surround it .",
+    "A": [
+      "Home plate lies above the pitcher's mound in the image.",
+      "Home plate lies below the pitcher's mound in the image."
+    ],
+    "B": [
+      "The mound is lower in the picture than home plate.",
+      "The mound is higher in the picture than home plate."
+    ]
+  },
+  {
+    "image": "255.tif",
+    "row": 215,
+    "split": "train",
+    "block": 2,
+    "rgb_sha256": "6e58fbfeaca1b4d8ff3af5e9f46e9d1471f1829d02008a233e41ba6a151cd990",
+    "pair": "diamond_field",
+    "side": "right",
+    "scene_query": "Scene: a baseball facility.",
+    "orig_query": "This is a baseball diamond .",
+    "A": [
+      "The dirt infield lies to the left of the grassy outfield.",
+      "The dirt infield lies to the right of the grassy outfield."
+    ],
+    "B": [
+      "Most of the outfield grass is right of the dirt diamond.",
+      "Most of the outfield grass is left of the dirt diamond."
+    ]
+  },
+  {
+    "image": "1853.tif",
+    "row": 1492,
+    "split": "train",
+    "block": 18,
+    "rgb_sha256": "cd99b9973455be1bae2f42c85d40e9bf01a2b5132aa0e9175ca3987a8da62344",
+    "pair": "driveway_house",
+    "side": "right",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "A house with grey roofs is surrounded by trees and lawn in the sparse residential area .",
+    "A": [
+      "The driveway reaches the main house from below in the image.",
+      "The driveway reaches the main house from above in the image."
+    ],
+    "B": [
+      "The long driveway extends from the house toward the bottom of the frame.",
+      "The long driveway extends from the house toward the top of the frame."
+    ]
+  },
+  {
+    "image": "221.tif",
+    "row": 181,
+    "split": "train",
+    "block": 2,
+    "rgb_sha256": "0c919329e428e27e35ae544b5b5b7db86f619cf26917a043cbcc51d86d0b774f",
+    "pair": "diamond_field",
+    "side": "left",
+    "scene_query": "Scene: a baseball facility.",
+    "orig_query": "This is a baseball diamond .",
+    "A": [
+      "The dirt infield lies to the right of the grassy outfield.",
+      "The dirt infield lies to the left of the grassy outfield."
+    ],
+    "B": [
+      "Most of the outfield grass is left of the dirt diamond.",
+      "Most of the outfield grass is right of the dirt diamond."
+    ]
+  },
+  {
+    "image": "204.tif",
+    "row": 164,
+    "split": "train",
+    "block": 2,
+    "rgb_sha256": "da84c537b4a472f8f7ac6251c309ec9ace8e6e4cbeb8b46e34afb5ba87a61c40",
+    "pair": "diamond_plate",
+    "side": "left",
+    "scene_query": "Scene: a baseball facility.",
+    "orig_query": "This is a baseball diamond .",
+    "A": [
+      "Home plate lies below the pitcher's mound in the image.",
+      "Home plate lies above the pitcher's mound in the image."
+    ],
+    "B": [
+      "The mound is higher in the picture than home plate.",
+      "The mound is lower in the picture than home plate."
+    ]
+  },
+  {
+    "image": "325.tif",
+    "row": 265,
+    "split": "train",
+    "block": 3,
+    "rgb_sha256": "679270e9218b0f207cf81fb688627ab8ffb0edcd7a006fd98365dffb5d0e1115",
+    "pair": "beach_side",
+    "side": "right",
+    "scene_query": "Scene: a beach.",
+    "orig_query": "This is a beach with green sea and white sands .",
+    "A": [
+      "The sea lies to the right of the sandy shore.",
+      "The sea lies to the left of the sandy shore."
+    ],
+    "B": [
+      "The sand is on the left side of the water.",
+      "The sand is on the right side of the water."
+    ]
+  },
+  {
+    "image": "2022.tif",
+    "row": 1621,
+    "split": "train",
+    "block": 20,
+    "rgb_sha256": "1d80274046e8d4ae975146701bd127e6eb6838274568fd9bcc12400e444eae7a",
+    "pair": "court_parking",
+    "side": "right",
+    "scene_query": "Scene: a tennis facility.",
+    "orig_query": "Some tennis courts on the green ground arranged neatly with some plants surrounded .",
+    "A": [
+      "The parking area lies below the tennis courts.",
+      "The parking area lies above the tennis courts."
+    ],
+    "B": [
+      "The tennis courts are above the nearby parked cars.",
+      "The tennis courts are below the nearby parked cars."
+    ]
+  },
+  {
+    "image": "1854.tif",
+    "row": 1493,
+    "split": "train",
+    "block": 18,
+    "rgb_sha256": "6a08513d60df8140a513b52c6b3fb4b87615e44a3aa1e464f75b93e606105bf7",
+    "pair": "pool_house",
+    "side": "right",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "A house with grey roofs is surrounded by trees and lawn in the sparse residential area .",
+    "A": [
+      "The rectangular swimming pool is below the main house.",
+      "The rectangular swimming pool is above the main house."
+    ],
+    "B": [
+      "The main house lies above its rectangular pool.",
+      "The main house lies below its rectangular pool."
+    ]
+  },
+  {
+    "image": "1933.tif",
+    "row": 1552,
+    "split": "train",
+    "block": 19,
+    "rgb_sha256": "86bc967adea2e333e7151e1fb4c52c2d0887cb9dda7444f80e9c8eeb81e8a7f0",
+    "pair": "tank_horizontal",
+    "side": "left",
+    "scene_query": "Scene: a storage facility.",
+    "orig_query": "Some storage tanks are scattered distributed on the ground .",
+    "A": [
+      "The roadway lies above the tank site in the image.",
+      "The roadway lies below the tank site in the image."
+    ],
+    "B": [
+      "The tank site is on the lower side of the roadway.",
+      "The tank site is on the upper side of the roadway."
+    ]
+  },
+  {
+    "image": "2007.tif",
+    "row": 1606,
+    "split": "train",
+    "block": 20,
+    "rgb_sha256": "375c321c5d54781a2df60f0da1a1bdc22b11a921da787a7e83fc5243baa013e6",
+    "pair": "court_parking",
+    "side": "left",
+    "scene_query": "Scene: a tennis facility.",
+    "orig_query": "Some tennis courts arranged neatly with some plants surrounded .",
+    "A": [
+      "The parking area lies above the tennis courts.",
+      "The parking area lies below the tennis courts."
+    ],
+    "B": [
+      "The tennis courts are below the nearby parked cars.",
+      "The tennis courts are above the nearby parked cars."
+    ]
+  },
+  {
+    "image": "304.tif",
+    "row": 244,
+    "split": "train",
+    "block": 3,
+    "rgb_sha256": "c29caec0b50c9036064be4f1ed9e58bdabfb425b008221d67d30b51eeb065a72",
+    "pair": "beach_side",
+    "side": "left",
+    "scene_query": "Scene: a beach.",
+    "orig_query": "This is a beach with blue sea and white sands .",
+    "A": [
+      "The sea lies to the left of the sandy shore.",
+      "The sea lies to the right of the sandy shore."
+    ],
+    "B": [
+      "The sand is on the right side of the water.",
+      "The sand is on the left side of the water."
+    ]
+  },
+  {
+    "image": "1969.tif",
+    "row": 1588,
+    "split": "train",
+    "block": 19,
+    "rgb_sha256": "34a5d683ecd555269c13d1c366c7e8404a7ffe0342a6cf71333a4546eadec4e1",
+    "pair": "tank_horizontal",
+    "side": "right",
+    "scene_query": "Scene: a storage facility.",
+    "orig_query": "A storage tank is on the lawn .",
+    "A": [
+      "The roadway lies below the tank site in the image.",
+      "The roadway lies above the tank site in the image."
+    ],
+    "B": [
+      "The tank site is on the upper side of the roadway.",
+      "The tank site is on the lower side of the roadway."
+    ]
+  }
+]

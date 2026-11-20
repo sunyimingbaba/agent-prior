@@ -1,0 +1,29 @@
+{
+  "arms": [
+    "a_single",
+    "a_separate",
+    "a_joint",
+    "b_single",
+    "b_separate",
+    "b_joint"
+  ],
+  "schedules": {
+    "a": 284000,
+    "b": 784000
+  },
+  "steps": [
+    8,
+    16
+  ],
+  "n_source": 16,
+  "group_size": 8,
+  "common": "Start each arm from the same previously deployed UCM LoRA. Same 16 train photos and order, 8 sampled trajectories per photo, historical scene-only cue and native tool loop. Deterministic PyTorch, optimizer AdamW lr 5e-6, trajectory log-probability sum including emitted EOS, grad clip 1. No format reward.",
+  "single": "8 independent upright trajectories. Half caption midrank and half same-scene direction midrank, standardized within eight. Replicates the established single-view objective on this training subset.",
+  "separate": "Four upright and four 180-degree rotated candidates. Both use the same orientation-invariant original train caption and negative pool; the correct direction caption reverses on rotation. For both terms compute per-view midranks, then per-view sample standardized advantages.",
+  "joint": "Same exposures, random seeds, rank scales, gradient weight and normalization as separate. In each of four independently sampled candidate pairs replace the directional input on both views by min(correct signed upright margin, correct signed rotated margin). Pair by fixed sample slot before scoring. Both views must have a positive margin for their minimum to be positive.",
+  "seed_pairing": "slot 0-3 upright, slot 4-7 rotated in paired arms, all eight upright in single. Paired arms must have identical pre-update paths and scores up to the first effective reward difference.",
+  "primary": "Step 16 joint vs separate full native six-recall mR and number of both-correct orientation questions among 32 (16 val photos x two wordings; sources paired), and comparison to the historical starting weights. No checkpoint selection.",
+  "promotion": "For each seed final joint must reach historical native mR and both-view count, surpass separate on both-view count and not lose mR versus separate. Report each endpoint even on failure.",
+  "secondary": "Whole validation generic query, E1 quantity A/B, attribute and real relation pair transfer, upright/rotated pair accuracy and weakest signed margin, greedy EOS/tool use. Middle checkpoint = step 8. Training-set deployment on the exact A wording and unused B wording, and training candidate diagnostics, are descriptive. No formal test or downstream retraining.",
+  "inference": "Fixed native greedy decoding. Same frozen readout. Fixed-gallery source-paired percentile bootstrap with 20000 resamples, source clustering over wordings and views; equal weight across two seeds."
+}
