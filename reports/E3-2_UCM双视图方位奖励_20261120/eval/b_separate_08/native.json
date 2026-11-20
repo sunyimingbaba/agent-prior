@@ -1,0 +1,7314 @@
+{
+  "weights": "b515e1cc1511f03d659ad1d53adb0398b5d7c7f4970b9ec3ae76e35e0318949e",
+  "active": "94052085507bbc68f8aa5520099213faceb3a58a8fea89852389ccfb551a438e",
+  "part": "native",
+  "bundle": "86800194ec0d6b6f03e03d65e3a809220a0a7ce0f25f4a3ea9b6ba6b1b5405e5",
+  "records": [
+    {
+      "image": "91.tif",
+      "row": 0,
+      "view": "upright",
+      "query": "There is a piece of farmland .",
+      "seed": 394000,
+      "rendered_sha": "cdf515cb84e9166a83425987722c9f87a3cc6653f271f7801134ad405813590f",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "agricultural (0.48), forest (0.06), chaparral (0.06)",
+          "confidence": 0.47567281126976013
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "8dbfb8c51cefa2f9873514f877378befb475ff6033e21b5e3837d842c330475d"
+    },
+    {
+      "image": "92.tif",
+      "row": 1,
+      "view": "upright",
+      "query": "There is a piece of farmland .",
+      "seed": 394010,
+      "rendered_sha": "51685db2ed83a4a29b3333bd0beb8b24335df37ae8658b713cbee8daa39829f7",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "agricultural (0.47), runway (0.06), forest (0.05)",
+          "confidence": 0.4701044261455536
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "1a9aee0ccfc3201dc7c33373eb49202ea5ef2be996c7ae22c87c5672ed51fc08"
+    },
+    {
+      "image": "93.tif",
+      "row": 2,
+      "view": "upright",
+      "query": "There is a piece of farmland .",
+      "seed": 394020,
+      "rendered_sha": "f8c4f39cea48ab712cf3af2624b2c5a65f6dbebab14c3b28f327917805c90cb8",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "agricultural (0.22), beach (0.11), runway (0.10)",
+          "confidence": 0.2201695591211319
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "bbe61dfe14472eea4ee8bbc2ee9ac63ad089d78c43239ac80e18d031ddb7e6d4"
+    },
+    {
+      "image": "94.tif",
+      "row": 3,
+      "view": "upright",
+      "query": "There is a piece of farmland .",
+      "seed": 394030,
+      "rendered_sha": "9ce891093ce5f510e423283ac2175899c04d14802fd54e0263ba76d1ebe3fc5f",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "agricultural (0.28), chaparral (0.10), beach (0.09)",
+          "confidence": 0.2755027115345001
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "00745a5f1b76e33b6b3cfa100093910af0eb08e5a19a69b00b3f30d54d6702bb"
+    },
+    {
+      "image": "95.tif",
+      "row": 4,
+      "view": "upright",
+      "query": "There is a piece of farmland .",
+      "seed": 394040,
+      "rendered_sha": "acc3e0ac35cbcd3eb7c33617a8c87b5f68a66779360717db2b9b8c22a2bdffbb",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "agricultural (0.27), beach (0.12), chaparral (0.09)",
+          "confidence": 0.27426284551620483
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "5f9cc3087a8b0676d5492b13ae78cd6d76dac2e5c37e59706259a856974d400b"
+    },
+    {
+      "image": "96.tif",
+      "row": 5,
+      "view": "upright",
+      "query": "There is a piece of farmland .",
+      "seed": 394050,
+      "rendered_sha": "4dacfea4d3e96df17e843d64944524e307f8ad9f6571c470d856b697e0dbe583",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "agricultural (0.49), chaparral (0.06), runway (0.06)",
+          "confidence": 0.49083104729652405
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "e5547ad29023f6423fbabbef3c9d03ec8ca2e74e99b06649011c569ad7e716f0"
+    },
+    {
+      "image": "97.tif",
+      "row": 6,
+      "view": "upright",
+      "query": "There is a piece of farmland .",
+      "seed": 394060,
+      "rendered_sha": "ab369438c87b267e4689ec2f63da3ab52c09fdcae34a9c068b90c9024c4a8fa2",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "agricultural (0.27), beach (0.12), runway (0.10)",
+          "confidence": 0.2724435031414032
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "aae58063b8d7023b2a08adb89e4592fc0ec77ff541b0bcc6dee4f5a3c4d18088"
+    },
+    {
+      "image": "98.tif",
+      "row": 7,
+      "view": "upright",
+      "query": "There is a piece of farmland .",
+      "seed": 394070,
+      "rendered_sha": "279ed3f890524d2afb88093a2fac60acd84770e54036b1323c11229d86ac5a73",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "agricultural (0.21), chaparral (0.11), beach (0.10)",
+          "confidence": 0.2095911204814911
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "22715bab3f3268bd3d879d977371c0d912fc35134073c8fac2f81f3a2e4211e6"
+    },
+    {
+      "image": "99.tif",
+      "row": 8,
+      "view": "upright",
+      "query": "There is a piece of farmland .",
+      "seed": 394080,
+      "rendered_sha": "46d98525ac0287a6e28f00b944eacd4d35ececdf3ed60e872433d21bd132256e",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "agricultural (0.44), beach (0.11), chaparral (0.07)",
+          "confidence": 0.4445198178291321
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "6c14bd8e9498c80c4ae4a672bbd16d5ccca6e4cc5e6ea5cf6858ad5818696d6e"
+    },
+    {
+      "image": "100.tif",
+      "row": 9,
+      "view": "upright",
+      "query": "There is a piece of farmland .",
+      "seed": 394090,
+      "rendered_sha": "c6f48d3b0f144a845249c8899cb6ddfce4765fe866929e8a491f4c14411f6ecb",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "agricultural (0.24), beach (0.12), forest (0.10)",
+          "confidence": 0.24393326044082642
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f96f29926715586cae5cacad8389316e5825b681ecd65273c5773c3f2a9ecafb"
+    },
+    {
+      "image": "181.tif",
+      "row": 10,
+      "view": "upright",
+      "query": "There is an airplanes stopped at the airport .",
+      "seed": 394100,
+      "rendered_sha": "b518b2390eed414d7fc4ea480e40f213979b63618ee5cfb9db97c5b55b383f94",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "airplane (0.38), runway (0.11), harbor (0.06)",
+          "confidence": 0.375704288482666
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "32f6f4ae90c8351576a85166d96c1b5d3f6934d80e03edb95ba5cdb2b0c9e321"
+    },
+    {
+      "image": "182.tif",
+      "row": 11,
+      "view": "upright",
+      "query": "There are two airplanes stopped at the airport .",
+      "seed": 394110,
+      "rendered_sha": "7953862a96ac745f1944d7cf28b91537232e9228b14fc70647bebe5cd828e258",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "airplane (0.51), runway (0.09), harbor (0.06)",
+          "confidence": 0.5146912932395935
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "cca6d5664ec72874f0e5d2dc0cdb87ef2de19776f6388394bf3a7c6eb95ea244"
+    },
+    {
+      "image": "183.tif",
+      "row": 12,
+      "view": "upright",
+      "query": "There are two airplanes stopped at the airport .",
+      "seed": 394120,
+      "rendered_sha": "93371c3e5cbcd5b9a0bef60fd78f40aa6f8a16fa6223294af3a5961f14f5a83c",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "airplane (0.56), runway (0.07), harbor (0.05)",
+          "confidence": 0.5632407665252686
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "7c98f79d88a2a3bb376d5e00372acb11254e7914532dc5939a4c63bfae1e404b"
+    },
+    {
+      "image": "184.tif",
+      "row": 13,
+      "view": "upright",
+      "query": "There is a white airplane on the runway .",
+      "seed": 394130,
+      "rendered_sha": "6fb50ab4ba3ad3c01f6d1d092683061dc4c0ebef3bbb3701be7e4a602df5daaf",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "airplane (0.49), runway (0.12), freeway (0.03)",
+          "confidence": 0.4893558919429779
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "32edafb53d04e139bfc33f73ff0db4235796f98975460ae010c1e2540e91c7a4"
+    },
+    {
+      "image": "185.tif",
+      "row": 14,
+      "view": "upright",
+      "query": "There are four airplanes stopped at the airport .",
+      "seed": 394140,
+      "rendered_sha": "d7b31a6c7e402f572143df7a0c39402493166ec2448de15bd9a94183974db5d2",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "airplane (0.47), runway (0.07), harbor (0.07)",
+          "confidence": 0.4747570753097534
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "67b33029b3bce9d48aceb122e937cd8e17e04daaffe53628e588e8762a841489"
+    },
+    {
+      "image": "186.tif",
+      "row": 15,
+      "view": "upright",
+      "query": "There are three airplanes stopped at the airport .",
+      "seed": 394150,
+      "rendered_sha": "12abacadbcaa59b4061ee9a7c750180133f7d46e58ce053c3944fd0bbba19d44",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "airplane (0.47), harbor (0.06), runway (0.06)",
+          "confidence": 0.465477854013443
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "6747b91ac904f82f56ab1a117742097914fce0e36d629d2e56c00e408a678b19"
+    },
+    {
+      "image": "187.tif",
+      "row": 16,
+      "view": "upright",
+      "query": "There is an airplane stopped at the airport .",
+      "seed": 394160,
+      "rendered_sha": "8b486d382f79b159161f73df0d6303c60f3191192787bead1a56908dc30d6ac9",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "airplane (0.38), runway (0.08), storage tanks (0.06)",
+          "confidence": 0.3818724751472473
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "e92d9dbae6ddbf8922e7f3cc9ddffbea2870814061a28dc7123eb8611519210c"
+    },
+    {
+      "image": "188.tif",
+      "row": 17,
+      "view": "upright",
+      "query": "There are three airplanes at the airport .",
+      "seed": 394170,
+      "rendered_sha": "e98408a9300fa91eda9b74480cd9770d4b17c84155eb872c276a22428f382828",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "airplane (0.37), harbor (0.08), parking lot (0.08)",
+          "confidence": 0.36952078342437744
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "4abe4037aa28ce033d9cac8c442759deb1df08d143de1effc467f62f45b23f14"
+    },
+    {
+      "image": "190.tif",
+      "row": 18,
+      "view": "upright",
+      "query": "There are two airplanes at the airport .",
+      "seed": 394180,
+      "rendered_sha": "f392eae7958a5dbc11d750f4fb696f4a40e7bad4c67f391404001c7cc5698de1",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "airplane (0.34), runway (0.14), storage tanks (0.06)",
+          "confidence": 0.34083065390586853
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "537804a9e836d2b2bc44e7d2b3168269ff510cd9793e59d80cb60d0b127a6645"
+    },
+    {
+      "image": "281.tif",
+      "row": 19,
+      "view": "upright",
+      "query": "This is a old baseball diamond .",
+      "seed": 394190,
+      "rendered_sha": "b0f7c8275cd621206f8e2338609ec64f666a81c958ae6dcbd75baf9a3b8cd709",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.55), golf course (0.05), sparse residential (0.05)",
+          "confidence": 0.5548871755599976
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "19fe4e17d4630e6debf5e7802ea6a71b93f5c7363a48401aedb1105be8be93e5"
+    },
+    {
+      "image": "282.tif",
+      "row": 20,
+      "view": "upright",
+      "query": "This is a old baseball diamond .",
+      "seed": 394200,
+      "rendered_sha": "ee760ec51616856cb9e889ee794569b068785bb5d07331ebd170df39672fd6a1",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.62), golf course (0.05), sparse residential (0.05)",
+          "confidence": 0.6238757371902466
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "0963babf06b15341ed87ee0ecb8805266de1ff11ce2bb8dc443ac677f9571f96"
+    },
+    {
+      "image": "283.tif",
+      "row": 21,
+      "view": "upright",
+      "query": "This is a old baseball diamond .",
+      "seed": 394210,
+      "rendered_sha": "9c06b2f4827ce0cdffad72be3a1fd87a6c943bac87882e8626b76c636d742df2",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.68), golf course (0.04), sparse residential (0.04)",
+          "confidence": 0.6794718503952026
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "56ae5d63ab6f67184354b7762d4d70d18cacf42ad9ea9e56c79fd91af894f673"
+    },
+    {
+      "image": "284.tif",
+      "row": 22,
+      "view": "upright",
+      "query": "This is a old baseball diamond .",
+      "seed": 394220,
+      "rendered_sha": "c19456370ecf4f5fd4a161a911ba03afd0baaa6d529e90af4eb5e537b61746a2",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.47), golf course (0.06), storage tanks (0.05)",
+          "confidence": 0.46737805008888245
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "b8215a49b916802337acb2b6b2db484b5bd74ecc9b9adb275e6f0060eb9be99a"
+    },
+    {
+      "image": "285.tif",
+      "row": 23,
+      "view": "upright",
+      "query": "This is a big baseball diamond .",
+      "seed": 394230,
+      "rendered_sha": "e0a12c9a318015ae5204e335fd34f906a6b526adf2a7dfcd35024f7aef71f769",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.60), golf course (0.06), storage tanks (0.04)",
+          "confidence": 0.5957111120223999
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "13346b37490e559f99f9f1c979478dd418a635eeff44271da193ac89d56f6fd7"
+    },
+    {
+      "image": "286.tif",
+      "row": 24,
+      "view": "upright",
+      "query": "This is a big baseball diamond .",
+      "seed": 394240,
+      "rendered_sha": "0083a81747dea30961875424265e4e5027c2899da2583d9d82b3c0eb283cb1e4",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.43), golf course (0.10), tennis court (0.05)",
+          "confidence": 0.4349648058414459
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "0de366e7369d6bb84494bfe8657e9995eb4c9d72468743a3966b7f34486ec9ba"
+    },
+    {
+      "image": "287.tif",
+      "row": 25,
+      "view": "upright",
+      "query": "This is a big baseball diamond .",
+      "seed": 394250,
+      "rendered_sha": "dff2c10461de61d43e80fc180929694f6fd0d1f329deeb841d9d1738002aed67",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.58), storage tanks (0.05), tennis court (0.04)",
+          "confidence": 0.5807387232780457
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "5f367ffc6e6dd28111c97e7bf2729b508ff72b27c5cb804285848f37a676162c"
+    },
+    {
+      "image": "288.tif",
+      "row": 26,
+      "view": "upright",
+      "query": "This is a big baseball diamond .",
+      "seed": 394260,
+      "rendered_sha": "fb296139aca7bf6a53eee9c7f692563d096641ee5523d606fabbbc92d404fb31",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.63), golf course (0.04), storage tanks (0.03)",
+          "confidence": 0.6265051960945129
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "6ea191b5fc31a7d2487feabcbd95e74e79c4dc62b335fd27ec24bec00b968fe6"
+    },
+    {
+      "image": "289.tif",
+      "row": 27,
+      "view": "upright",
+      "query": "This is a baseball diamond .",
+      "seed": 394270,
+      "rendered_sha": "d3139c7d367b3e32f71928dd97a060ed4b7fb4eadd2e15e70ce30f7163692e24",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.48), golf course (0.07), storage tanks (0.05)",
+          "confidence": 0.4767891764640808
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "3fd898a79252b695929c3b0aa0020ff2b06fc28864c42948d65e753bbe76f4ff"
+    },
+    {
+      "image": "290.tif",
+      "row": 28,
+      "view": "upright",
+      "query": "This is a baseball diamond .",
+      "seed": 394280,
+      "rendered_sha": "280e4185f5b6e56eb847bb7631ba247a9d695fd30fe678cf607a38342aac431b",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.55), golf course (0.05), storage tanks (0.04)",
+          "confidence": 0.5469712018966675
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "7393a1749633665e54b489241ba99b9870ec8503de479a0ef7a05e8714338a0f"
+    },
+    {
+      "image": "381.tif",
+      "row": 29,
+      "view": "upright",
+      "query": "This is a beach with blue-green sea and white sand .",
+      "seed": 394290,
+      "rendered_sha": "20fcd907f67077dc527215ace34b01a5687d5d3da48c1a4a8f088ad8d2f99a09",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.55), chaparral (0.05), agricultural (0.05)",
+          "confidence": 0.5509037375450134
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "0f5d1198b6aaebe618d8ab58b79cbcb6bfe1ff6d460755dd3e9d20965ebfc7b3"
+    },
+    {
+      "image": "382.tif",
+      "row": 30,
+      "view": "upright",
+      "query": "This is a beach with blue-green sea and white sand .",
+      "seed": 394300,
+      "rendered_sha": "7c70087b7b836fbd8690e1995cfea5b4055c7e2f552d7e1b92b61184cbc69099",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.55), chaparral (0.05), agricultural (0.04)",
+          "confidence": 0.5541389584541321
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "8fc45e402e4ad1210b960acf8ea774cd28fb15a992993b671ddd67203ebd81fb"
+    },
+    {
+      "image": "383.tif",
+      "row": 31,
+      "view": "upright",
+      "query": "This is a beach with blue-green sea and white sand .",
+      "seed": 394310,
+      "rendered_sha": "13429b4f62af92aa45dc7a982115660eddab7f7eb5ca61887973ae7f82424589",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.47), chaparral (0.07), agricultural (0.05)",
+          "confidence": 0.4736255705356598
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "b9b81d555892a2c3b9a33ac86895449e6a45f395428394cafa5b96b417a96c56"
+    },
+    {
+      "image": "384.tif",
+      "row": 32,
+      "view": "upright",
+      "query": "This is a beach with blue-green sea and white sand .",
+      "seed": 394320,
+      "rendered_sha": "ad5d1b708c770c73f0b7c8b01aed05a8cedc6d6760274fb3477c931b1be80376",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.57), chaparral (0.05), agricultural (0.04)",
+          "confidence": 0.5693103671073914
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "140aba34d3c4436f7d4250ef726780148e0f5be4e829d2c9086daabe2a7d6034"
+    },
+    {
+      "image": "385.tif",
+      "row": 33,
+      "view": "upright",
+      "query": "This is a beach with blue-green sea and white sand .",
+      "seed": 394330,
+      "rendered_sha": "19a2abc8732c128a86884d4dcc6bd146de9aff4aa7dcbf070a00053db9b17ae8",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.52), chaparral (0.06), agricultural (0.05)",
+          "confidence": 0.5172509551048279
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "fdbbc203b0d382f4b5de8488270a524cbf7e2b726558b1783591a639c0f25aa0"
+    },
+    {
+      "image": "386.tif",
+      "row": 34,
+      "view": "upright",
+      "query": "This is a beach with blue-green sea and white sands .",
+      "seed": 394340,
+      "rendered_sha": "b7c5d2ef37c9848c4ce67681662ecb6887d36ebf4cd7a374300d591b19c167b6",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.41), harbor (0.06), chaparral (0.05)",
+          "confidence": 0.40841957926750183
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "9af5ea613f47e0095fdea83eb407fc6ac07f96a43ab5487f75b61612e1f98f58"
+    },
+    {
+      "image": "387.tif",
+      "row": 35,
+      "view": "upright",
+      "query": "This is a beach with blue-green sea and white sands .",
+      "seed": 394350,
+      "rendered_sha": "a96b3346bd5a3610f1672db272adc82f0762cb1a61f5e75f7a02fed95173d790",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.48), chaparral (0.06), agricultural (0.06)",
+          "confidence": 0.47997140884399414
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "037c9913e0be35e42bc1bb52807872de4936bb8c5d8d73953e41869a7bf1fd0b"
+    },
+    {
+      "image": "388.tif",
+      "row": 36,
+      "view": "upright",
+      "query": "This is a beach with blue-green sea and white sands .",
+      "seed": 394360,
+      "rendered_sha": "08843009b993465e7b3c61d0a00c8d9ee67f3136b4844653c9f0f9ae6cbc7e1c",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.45), chaparral (0.06), agricultural (0.06)",
+          "confidence": 0.45028433203697205
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "10e57e36af91b9b23288678308546415a82cd26ee22aa32676a77744e50b49c1"
+    },
+    {
+      "image": "389.tif",
+      "row": 37,
+      "view": "upright",
+      "query": "This is a beach with blue-green sea and white sands .",
+      "seed": 394370,
+      "rendered_sha": "daa1e7e87ee9145cf303052388af34df3cf209f6c262523be0d1c2ef7afabd88",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.44), harbor (0.06), chaparral (0.06)",
+          "confidence": 0.44111090898513794
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "3931b6f288524e944899902fa17b81e47e8533715a67a6fac21e0d50434b88ac"
+    },
+    {
+      "image": "390.tif",
+      "row": 38,
+      "view": "upright",
+      "query": "This is a beach with blue-green sea and white sands .",
+      "seed": 394380,
+      "rendered_sha": "c30d8a04addf468edb290e7a5a68e7fbefcf0d21396a36dbd8658bf787cc49f9",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.40), chaparral (0.06), agricultural (0.06)",
+          "confidence": 0.4025285243988037
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "45cf81930e34d937ae523b47f104fa2c13b22065f33c6371afb0e8b9b6baf94e"
+    },
+    {
+      "image": "481.tif",
+      "row": 39,
+      "view": "upright",
+      "query": "There is a triangular building with grey roofs .",
+      "seed": 394390,
+      "rendered_sha": "88cfee501fbd3f9918804fb3dae6bf3eaf3adc9dc747fd92d460ed503124b240",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            91920,
+            151645
+          ],
+          "text": ":\".$"
+        }
+      ],
+      "events": [
+        {
+          "answer": "buildings (0.21), dense residential (0.12), intersection (0.07)",
+          "confidence": 0.2119055837392807
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "5392f297ac040a9335ba2c2b13302643e527e2fc0a12e254b0a8cb956864d27c"
+    },
+    {
+      "image": "482.tif",
+      "row": 40,
+      "view": "upright",
+      "query": "There are some buildings with white and grey roofs .",
+      "seed": 394400,
+      "rendered_sha": "d3e97bb1b39678a83edb20f37619b5814a4412abaca7b633398971086ab7f59e",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "buildings (0.37), parking lot (0.07), storage tanks (0.06)",
+          "confidence": 0.3671097457408905
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "20e82124154e2e5e7eb4ba75cd8102ba4881054aae7fb86509df0fd25766190f"
+    },
+    {
+      "image": "483.tif",
+      "row": 41,
+      "view": "upright",
+      "query": "There are some buildings with white and grey roofs .",
+      "seed": 394410,
+      "rendered_sha": "eb1b5073132583f1f23d4a33164e9a1e776deb89d8a006ab70243ac0b8cfd410",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "buildings (0.31), parking lot (0.12), dense residential (0.06)",
+          "confidence": 0.3139267563819885
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "e352f57abc74827cb428b042499bd9b8e87ffe33cd044a808f89bc11e0a3da37"
+    },
+    {
+      "image": "484.tif",
+      "row": 42,
+      "view": "upright",
+      "query": "There are some buildings with white and grey roofs .",
+      "seed": 394420,
+      "rendered_sha": "ac9bf9eb0df54364bd8b3531e6b5fba3b35a8c3ae83798d18acede24ad28ee11",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "buildings (0.11), runway (0.09), storage tanks (0.09)",
+          "confidence": 0.1072172224521637
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "5f23625f6789a53aa015705334e6c65365f8d0159fecf4cc215d011e67cf0ec5"
+    },
+    {
+      "image": "485.tif",
+      "row": 43,
+      "view": "upright",
+      "query": "There are some building with grey roofs .",
+      "seed": 394430,
+      "rendered_sha": "9a5727f2c912e2df7151350d0089d2103f44d602138b59237541c457148f1f8c",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "buildings (0.20), intersection (0.10), storage tanks (0.09)",
+          "confidence": 0.19604329764842987
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "3eea406088ac33d44e01c446d7eee04e116aa01ccce2e8a3a1130e891f33310b"
+    },
+    {
+      "image": "486.tif",
+      "row": 44,
+      "view": "upright",
+      "query": "There are some buildings with brown and black roofs .",
+      "seed": 394440,
+      "rendered_sha": "c334c57a546de4ef16f6ae6ab022ffb84dd14ae6c74bb48995cde59bb0cf9918",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "buildings (0.23), sparse residential (0.10), tennis court (0.06)",
+          "confidence": 0.23364466428756714
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "2c402ce0be0e0ffa08a86a835d53ffce49acddc9d04de5aa051dfe3e939d4ad9"
+    },
+    {
+      "image": "487.tif",
+      "row": 45,
+      "view": "upright",
+      "query": "There are some buildings with grey roofs .",
+      "seed": 394450,
+      "rendered_sha": "9df4072548efb2be4ac6e6cf9d27d726e3382514d028b089e2ac0de058608c6f",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "buildings (0.34), storage tanks (0.11), parking lot (0.06)",
+          "confidence": 0.34349894523620605
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "eb6115675f71718c4968716d86e8d8b036b4e72a846d7f5b14ead369d3d9d526"
+    },
+    {
+      "image": "488.tif",
+      "row": 46,
+      "view": "upright",
+      "query": "There are some buildings with grey roofs .",
+      "seed": 394460,
+      "rendered_sha": "806a1e2ac5506265796c749de7b9cef601713fb2b5bc0443e257ead79dd8ba29",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f0fbcfab7dbc24e228dd5c8ed3ed00ff0e2b0aeed4b5e8d28df85ca1d221589f"
+    },
+    {
+      "image": "489.tif",
+      "row": 47,
+      "view": "upright",
+      "query": "There are some buildings with different colors of roofs .",
+      "seed": 394470,
+      "rendered_sha": "cf22738865b4efc2412014b5d3d43e3c1263953649b3eff0f5fc4613f9ebfc8c",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "buildings (0.21), mobile home park (0.13), dense residential (0.07)",
+          "confidence": 0.21278943121433258
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f581dc13de6e0ee53d29e980d509b09c0819e942926f7aa66605a59aa3c2e642"
+    },
+    {
+      "image": "490.tif",
+      "row": 48,
+      "view": "upright",
+      "query": "There are some buildings with different colors of roofs .",
+      "seed": 394480,
+      "rendered_sha": "311fb766378ab7b96bb47618852b2d5b9a4b733cc7bcd3525707fa289f2834eb",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "buildings (0.27), parking lot (0.07), mobile home park (0.06)",
+          "confidence": 0.2673119902610779
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "a1ffc0500a77f85daa8dc1caf6b40a3f092810e555a9df378df4020c202305cf"
+    },
+    {
+      "image": "581.tif",
+      "row": 49,
+      "view": "upright",
+      "query": "This is a chaparral .",
+      "seed": 394490,
+      "rendered_sha": "5111204f9544ffa80fe870f7975d798a10064f8100e3e2a0434dba3b721d9aab",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "chaparral (0.47), forest (0.08), agricultural (0.05)",
+          "confidence": 0.4749689996242523
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "12a311a1c6af36f22c994f5a8ae07f20ac8066f0e736359f52eddca40a4ac1b3"
+    },
+    {
+      "image": "582.tif",
+      "row": 50,
+      "view": "upright",
+      "query": "This is a chaparral .",
+      "seed": 394500,
+      "rendered_sha": "5c0d85e41c7ba507f606b3d39eb62a3b49c0261718f2790f6f914fdf57fbdb58",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "chaparral (0.55), forest (0.06), agricultural (0.05)",
+          "confidence": 0.545674741268158
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "9e8e448a9dd771e7343c30e01fe148889001d2d8accc98ac774fa8e1cc4bee69"
+    },
+    {
+      "image": "583.tif",
+      "row": 51,
+      "view": "upright",
+      "query": "This is a chaparral .",
+      "seed": 394510,
+      "rendered_sha": "6aa0d7713cd760d7f07b444533bd74a36e218272315fe0808e14fd51f456747f",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "chaparral (0.54), agricultural (0.05), forest (0.05)",
+          "confidence": 0.5437380075454712
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "32d4245aa26af974fe8868cbe026af1104163a19d209c65f3107008f15e78026"
+    },
+    {
+      "image": "584.tif",
+      "row": 52,
+      "view": "upright",
+      "query": "This is a chaparral .",
+      "seed": 394520,
+      "rendered_sha": "efa046631f73d2ee8467e4767b965e61c786769decad5f205c50ccb4c9c055fe",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "chaparral (0.42), beach (0.07), agricultural (0.06)",
+          "confidence": 0.42116662859916687
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "a3aceec7fde8cd3a99bd9c6b8bec93374863b19fa28ad93750489a3d9905a241"
+    },
+    {
+      "image": "585.tif",
+      "row": 53,
+      "view": "upright",
+      "query": "This is a chaparral .",
+      "seed": 394530,
+      "rendered_sha": "58e6db3bb12fd10e3dd166e1cf94e0f8720a44749714f6685fb0383f5d7725e7",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "chaparral (0.55), forest (0.06), agricultural (0.06)",
+          "confidence": 0.5451185703277588
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "6f23062484e03bbc900f84858ed838f165d3a7601d2a76e8626fb9d386b5560d"
+    },
+    {
+      "image": "586.tif",
+      "row": 54,
+      "view": "upright",
+      "query": "This is a chaparral .",
+      "seed": 394540,
+      "rendered_sha": "c905ded005663ca1c89826d6bfe559d85678988fda124eb4b8984f6576495b4b",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "chaparral (0.54), forest (0.07), agricultural (0.05)",
+          "confidence": 0.5388273000717163
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "66e951ea600c40dc35d142ec8b7f1c0766b9a67475db9a5d4d346eac5a39bbb8"
+    },
+    {
+      "image": "587.tif",
+      "row": 55,
+      "view": "upright",
+      "query": "This is a chaparral .",
+      "seed": 394550,
+      "rendered_sha": "bbdc2b5c20867a3daba8e04dcc71383ea6321749d872b2e897efe631e69d5abc",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "chaparral (0.56), forest (0.08), agricultural (0.05)",
+          "confidence": 0.5647416114807129
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "2733228bdd0c9cf9dfb53956e5581f02f8aeb49a56370483d0e1cea0e326ebb1"
+    },
+    {
+      "image": "588.tif",
+      "row": 56,
+      "view": "upright",
+      "query": "This is a chaparral .",
+      "seed": 394560,
+      "rendered_sha": "cee6ba293789d0c64e61bb3d94b7ecc5ae65e752a7444bdfcc71ae12ffb57925",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "chaparral (0.51), forest (0.07), agricultural (0.06)",
+          "confidence": 0.5098554491996765
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "97d3f968c9c1fc724edc3c40b93ac7300226c46c4f1e1b7d55ccb4e18354872e"
+    },
+    {
+      "image": "589.tif",
+      "row": 57,
+      "view": "upright",
+      "query": "This is a chaparral .",
+      "seed": 394570,
+      "rendered_sha": "b3d515f64687b8e501d055146e1fa7212ebd6721cbfb7280d35e26d00b0e2f40",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "chaparral (0.61), agricultural (0.05), beach (0.05)",
+          "confidence": 0.6105163097381592
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "c7c64347f20d7a7ac10b74068a940bcd5ad1582348b389ca4717cf3002f30402"
+    },
+    {
+      "image": "590.tif",
+      "row": 58,
+      "view": "upright",
+      "query": "This is a chaparral .",
+      "seed": 394580,
+      "rendered_sha": "19bb958060e7f3a7f47dc6d10b918fde99c5b69270e29e881e6d4c02900a57a8",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "chaparral (0.55), forest (0.06), agricultural (0.06)",
+          "confidence": 0.5515733957290649
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "8d2a51abf0ec65d9caf9ef7a73d014270c86f56b4c3626cb394a717d6d82771b"
+    },
+    {
+      "image": "614.tif",
+      "row": 59,
+      "view": "upright",
+      "query": "This is a dense residential area with houses and roads .",
+      "seed": 394590,
+      "rendered_sha": "15ea97e9cdc49eef6d4b6d051372128dfd9d5e5e1026502f8c382b4a910843f7",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "dense residential (0.27), medium residential (0.17), mobile home park (0.13)",
+          "confidence": 0.26546818017959595
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "aaadc58de72685c27739dd6c824ddc578c3a8ff658fa6dd25403f706b9e8b990"
+    },
+    {
+      "image": "615.tif",
+      "row": 60,
+      "view": "upright",
+      "query": "This is a dense residential area .",
+      "seed": 394600,
+      "rendered_sha": "f0304a822db100e96ebe815e53d2ee7281ca013c04f205c04254424e32548c07",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "dense residential (0.22), medium residential (0.19), mobile home park (0.15)",
+          "confidence": 0.21858179569244385
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "c52ce10739cb0a86e7f73766e56bcd5f15464ff4be164af5861012e15dd87573"
+    },
+    {
+      "image": "616.tif",
+      "row": 61,
+      "view": "upright",
+      "query": "This is a dense residential area .",
+      "seed": 394610,
+      "rendered_sha": "f7c1bd5e73cc438a0c1137f9a06dcb15992f2a5ca7e88502043b360258330bfd",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "dense residential (0.23), medium residential (0.19), mobile home park (0.15)",
+          "confidence": 0.22542257606983185
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "7fd8f8237e27915b64abcbdd12a7241b5d6b4ef013191172796e96f45ed7115e"
+    },
+    {
+      "image": "681.tif",
+      "row": 62,
+      "view": "upright",
+      "query": "This is a dense residential area with houses and plants .",
+      "seed": 394620,
+      "rendered_sha": "f79ca7bc4352ff528b4ff82c27b81f9585d9a8bfc95c2131759f1e59079e0db1",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "dense residential (0.26), tennis court (0.12), mobile home park (0.11)",
+          "confidence": 0.2569649815559387
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "7deb0cc596f0982eda1e2a383046c748006aef554fa4b26092ae2309b0d1256c"
+    },
+    {
+      "image": "682.tif",
+      "row": 63,
+      "view": "upright",
+      "query": "This is a dense residential area with houses and plants .",
+      "seed": 394630,
+      "rendered_sha": "936f0db639fd6ad4e92f7abd7b21dc3f703c79f549a6d41fa7e328a19a3bef08",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "dense residential (0.28), mobile home park (0.15), medium residential (0.11)",
+          "confidence": 0.2845829129219055
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "00b0c14e507a2b37dc52019c97281ff9e4c8c55b19ee984bb730069b2d586f9c"
+    },
+    {
+      "image": "683.tif",
+      "row": 64,
+      "view": "upright",
+      "query": "This is a dense residential area with houses and plants .",
+      "seed": 394640,
+      "rendered_sha": "108908afa967c528cddddb28110d00b64f3e56ae4cdca73949ef4f1137e16844",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "dense residential (0.23), medium residential (0.20), mobile home park (0.12)",
+          "confidence": 0.23094001412391663
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f1adab42f69a9ab6b8a5bfe7f38319f3695ab2cdace9e251546fc02a03ca7ba0"
+    },
+    {
+      "image": "684.tif",
+      "row": 65,
+      "view": "upright",
+      "query": "This is a dense residential area with houses and plants .",
+      "seed": 394650,
+      "rendered_sha": "3c704210d7c1581d79720f0aa4222c38225d025f41031da0d5e27cd7803176d0",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "medium residential (0.22), dense residential (0.19), mobile home park (0.10)",
+          "confidence": 0.2159784436225891
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "a995d5ac87c70606d45ea0c5ece3a1a60010ea7fcdbb370c2b4b0481f5c5dd2b"
+    },
+    {
+      "image": "685.tif",
+      "row": 66,
+      "view": "upright",
+      "query": "This is a dense residential area with houses and plants .",
+      "seed": 394660,
+      "rendered_sha": "4d1d15f35813015113e6097a28ade03246b556db4fa8271cc3183a51c4ec3f64",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "dense residential (0.13), buildings (0.11), tennis court (0.10)",
+          "confidence": 0.12903647124767303
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "2aa0c51cfd036befbc616ca1c89b99edaa3a5397e07475b4fa794526a6aede0d"
+    },
+    {
+      "image": "686.tif",
+      "row": 67,
+      "view": "upright",
+      "query": "This is a dense residential area with houses and plants .",
+      "seed": 394670,
+      "rendered_sha": "bd4c17d3149167661a7979854b0cbd7a1ba29d25ec5c1cb53e63223497cbaaf2",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "buildings (0.15), dense residential (0.14), tennis court (0.10)",
+          "confidence": 0.15151533484458923
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f45fc7a2685e4d61f73db13bb2cae195dc45eb18bf0ec3b245ee80cafe290ef4"
+    },
+    {
+      "image": "687.tif",
+      "row": 68,
+      "view": "upright",
+      "query": "This is a dense residential area with some houses .",
+      "seed": 394680,
+      "rendered_sha": "605a8ac6b28b832c549068ec4b10ff37fe3810885abef3bf8aa7292c9bac1e61",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "dense residential (0.21), mobile home park (0.17), medium residential (0.10)",
+          "confidence": 0.21351340413093567
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "94ebdde1146058a7e6cf6a6692c55f2a6e1c82fd6fce0d4c5912a22ccc31da65"
+    },
+    {
+      "image": "688.tif",
+      "row": 69,
+      "view": "upright",
+      "query": "This is a dense residential area with some houses .",
+      "seed": 394690,
+      "rendered_sha": "9faeee998f23b3bdfae189ce0da373a0005eff887cc9ea04804b1d4217677347",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "dense residential (0.20), medium residential (0.13), mobile home park (0.11)",
+          "confidence": 0.19680050015449524
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "ae599786d4ff523d15dfb8ac7461ff61da9e6300f9381af5160f5014438af9af"
+    },
+    {
+      "image": "689.tif",
+      "row": 70,
+      "view": "upright",
+      "query": "This is a dense residential area with some houses .",
+      "seed": 394700,
+      "rendered_sha": "4fcdb0664d819b2bbfb7dc6e6ba810a11bcd0245572e8313134bdfedbde3b8f5",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "dense residential (0.25), medium residential (0.23), mobile home park (0.13)",
+          "confidence": 0.24751949310302734
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "1e8ffd6dc74d4fadaa033e6728eb5659af30d2ad885bc565ef072cd51ead42aa"
+    },
+    {
+      "image": "690.tif",
+      "row": 71,
+      "view": "upright",
+      "query": "This is a dense residential area with some houses .",
+      "seed": 394710,
+      "rendered_sha": "09b95d235f4fa9ff21f7fcbc7890d59f7640d12707186d826666b6ea19497632",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "medium residential (0.27), dense residential (0.23), mobile home park (0.13)",
+          "confidence": 0.2707176208496094
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "7c9f7c60550200326370253673b2bbcaf4f39752450371b68f4e1440eff41281"
+    },
+    {
+      "image": "781.tif",
+      "row": 72,
+      "view": "upright",
+      "query": "This is a dense forest with lots of plants .",
+      "seed": 394720,
+      "rendered_sha": "61a9eb8f5a68b4b1fe5621a3e5913cb3f45c24d90a541cbb707dc7c9be8af008",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "forest (0.51), agricultural (0.08), river (0.06)",
+          "confidence": 0.5113372206687927
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "1d885205844cf3fd8ff482b4984fb7952e56de13f1fbde44e352303e945bd8c5"
+    },
+    {
+      "image": "782.tif",
+      "row": 73,
+      "view": "upright",
+      "query": "This is a dense forest with lots of plants .",
+      "seed": 394730,
+      "rendered_sha": "6fc2f365cd18f5fd32eee647ab2724832258cbad1e56e7470cbf1e390d4860dd",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "forest (0.48), agricultural (0.07), river (0.07)",
+          "confidence": 0.48176538944244385
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "1159842e7646c294430684029312802908756d50f2fae68c10880c4986658f64"
+    },
+    {
+      "image": "783.tif",
+      "row": 74,
+      "view": "upright",
+      "query": "This is a dense forest with lots of plants .",
+      "seed": 394740,
+      "rendered_sha": "3b6fa30b6c3e2e8ef169cd52917808fa6e2f4fa69059fb625b213cb8a86aff4b",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "forest (0.49), agricultural (0.08), chaparral (0.06)",
+          "confidence": 0.4914718270301819
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "33d4da07e278c0954f177fbad584a6428664d8ffbcc46d43bfae2474c17e82f4"
+    },
+    {
+      "image": "784.tif",
+      "row": 75,
+      "view": "upright",
+      "query": "This is a dense forest with lots of plants .",
+      "seed": 394750,
+      "rendered_sha": "1a52f5e638d448e17a700309a6bc7785526a4a6fd27aa4595d6c77f14d3e8664",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "forest (0.44), agricultural (0.09), river (0.08)",
+          "confidence": 0.4373888075351715
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "d508087682962a2c6d5f494c4c931c934f2067ec59259c1ab42700c91da99f4e"
+    },
+    {
+      "image": "785.tif",
+      "row": 76,
+      "view": "upright",
+      "query": "This is a dense forest with lots of plants .",
+      "seed": 394760,
+      "rendered_sha": "d70152e6fc556d2d1aa3ac79c0f982f05c561884143a796884c77618b878d5cf",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f353859573f75cf22cde90f3cad1e8a4e297e99a7a083b2082fdf42c7b3d489d"
+    },
+    {
+      "image": "786.tif",
+      "row": 77,
+      "view": "upright",
+      "query": "This is a dense forest with lots of dark green trees .",
+      "seed": 394770,
+      "rendered_sha": "1a55907e48346ce44e7a472d92cf7b7012bf81ffb45f7f67a4ab27e20eb5ccd4",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "forest (0.48), agricultural (0.10), chaparral (0.06)",
+          "confidence": 0.48334014415740967
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "2f7dab1d6640a99b8ba48cd3a8b130358de29c695f7b15bf48f5e118f8ef9d36"
+    },
+    {
+      "image": "787.tif",
+      "row": 78,
+      "view": "upright",
+      "query": "This is a dense forest with green and dark green plants .",
+      "seed": 394780,
+      "rendered_sha": "1afeedad92ab3a4b57baa25acb2d2d7b62fb9337d955ea52d5f4b7313d84423b",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "forest (0.51), river (0.08), agricultural (0.07)",
+          "confidence": 0.5107077360153198
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "4d6a7750fb38b323336fc3eeb679916200ce3b8c99c02d381f8feb70d1bc12c9"
+    },
+    {
+      "image": "788.tif",
+      "row": 79,
+      "view": "upright",
+      "query": "This is a dense forest with green and dark green plants .",
+      "seed": 394790,
+      "rendered_sha": "409612a3631bd1d41ae91a82414f1b99d08df4b8c8f14b1898fcb4167927d3ce",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "forest (0.54), agricultural (0.08), river (0.06)",
+          "confidence": 0.5381442904472351
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "4442ca1c70589e3b8de1346be2ccbf64d6fea8948d0b232c25f3d4fd748feca0"
+    },
+    {
+      "image": "789.tif",
+      "row": 80,
+      "view": "upright",
+      "query": "This is a dense forest with green and dark green plants .",
+      "seed": 394800,
+      "rendered_sha": "713f19c3dd331c89dd59af2027e9f6f8f579fdf56d32d22c381342ae9bde6a7a",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "forest (0.54), agricultural (0.08), river (0.06)",
+          "confidence": 0.540314793586731
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "d2da419ea5717af5e7f31f964bbaab8f25b8be556773f62f70b36f9a853d20b3"
+    },
+    {
+      "image": "790.tif",
+      "row": 81,
+      "view": "upright",
+      "query": "This is a dense forest with green and dark green plants .",
+      "seed": 394810,
+      "rendered_sha": "6d48c210e43a2feaad84fa49a9c2440b60f84a2441059258ea55a871dbe5bff4",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "forest (0.55), agricultural (0.08), river (0.06)",
+          "confidence": 0.5511897802352905
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "7521a854f586a9e6c8964de6c4441f7a6ebbe7d30512088e8cd6f56cdd9d0a6a"
+    },
+    {
+      "image": "881.tif",
+      "row": 82,
+      "view": "upright",
+      "query": "There are two curved freeways closed together .",
+      "seed": 394820,
+      "rendered_sha": "69e0275686c01d78538b44b6c678299efc00190699e744e509a3d6b12b8f6b11",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "2604726deb896a647d9aaf9d2e2b25165e4bc0417b4b8c985950be1c74c50056"
+    },
+    {
+      "image": "882.tif",
+      "row": 83,
+      "view": "upright",
+      "query": "There are two curved freeways closed together .",
+      "seed": 394830,
+      "rendered_sha": "c7626d53bc843e23efe3afc9bedd31fe689cab97b8facd62574f506bdbcfe442",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "freeway (0.21), overpass (0.16), runway (0.09)",
+          "confidence": 0.21304437518119812
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "b2fa305bf507400502465b2aeaab403ce2bdb32b0986f04cca3ffb214e3f03f5"
+    },
+    {
+      "image": "883.tif",
+      "row": 84,
+      "view": "upright",
+      "query": "Two straight freeways parrallel forward .",
+      "seed": 394840,
+      "rendered_sha": "e8c20ae45a2a5c694a506649140dd09e6d76993b5c62a79fd8f4ae4dbda7ce4c",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "overpass (0.28), freeway (0.26), intersection (0.08)",
+          "confidence": 0.27949854731559753
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "d6fbec0251a5ee6aa4b46ad34b8f7466c4f43355452bb6a89cce77f58f8db4f2"
+    },
+    {
+      "image": "884.tif",
+      "row": 85,
+      "view": "upright",
+      "query": "Two straight freeways parrallel forward .",
+      "seed": 394850,
+      "rendered_sha": "cfdce2805e53503efd38dfe210c2727aec5fc3a3f5624c1a9d83c6961362f576",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "overpass (0.29), freeway (0.18), intersection (0.10)",
+          "confidence": 0.294975221157074
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "11d8c0444f66a64f7f96a419ccf648ddd2e77f7fa8c595326b0e1ed390fa08e7"
+    },
+    {
+      "image": "885.tif",
+      "row": 86,
+      "view": "upright",
+      "query": "Two straight freeways parrallel forward .",
+      "seed": 394860,
+      "rendered_sha": "e28e2ca1d8621aded93421bdc0bb537078772898191af4bd68e3b0506f6c4a2c",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "freeway (0.28), overpass (0.23), intersection (0.06)",
+          "confidence": 0.2773834466934204
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f5415c910920f05d1392d9d1b5218b0f4581ecbc7b5fa12f92b36f8c7b87726f"
+    },
+    {
+      "image": "886.tif",
+      "row": 87,
+      "view": "upright",
+      "query": "Two straight freeways parrallel forward .",
+      "seed": 394870,
+      "rendered_sha": "fc1a7f99d8f5f74bdfd8d48250fa9ac6e2105470bc9a70ed4694cef36be57e8f",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "overpass (0.25), freeway (0.23), intersection (0.08)",
+          "confidence": 0.2509731650352478
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "995e5f3c8cb594e259c1b3c63a278871b52ad5461b6e0b557e7aafec8e3f4c9a"
+    },
+    {
+      "image": "887.tif",
+      "row": 88,
+      "view": "upright",
+      "query": "There are two wide straight freeways parrallel forward .",
+      "seed": 394880,
+      "rendered_sha": "cd76310d4e41e40b95cc0683b1b22347b3c46e34980ae588957adc9af739ae23",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "291ad52ff2987dcc1007fa99249d6ccfab6ae9e0cd6273b347d42063d6fee40d"
+    },
+    {
+      "image": "888.tif",
+      "row": 89,
+      "view": "upright",
+      "query": "There are two wide straight freeways parrallel forward .",
+      "seed": 394890,
+      "rendered_sha": "ae2f8cf3c15105b89271a7fc462d9e0aec97167169bbc1df5920bfd7b74f9b6c",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "17791aef4b869ef0dcb23521badcd2ed907748b3fb7311c9b956ecd2edbe428f"
+    },
+    {
+      "image": "889.tif",
+      "row": 90,
+      "view": "upright",
+      "query": "There are two wide straight freeways parrallel forward .",
+      "seed": 394900,
+      "rendered_sha": "dd66bb1adee424f48d0791d61bcb5ab450dd0c946393268098f1f6f40145288e",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f5aedd009872e2c64803eccf48eb92d440f28e3b42e0e22c3827fc3196f0b983"
+    },
+    {
+      "image": "890.tif",
+      "row": 91,
+      "view": "upright",
+      "query": "There are two white straight freeways parrallel forward .",
+      "seed": 394910,
+      "rendered_sha": "e0c4856d911d48a0cf4e4df9ad89aff163a8b3e4c8f61290b9bd45c4e2f8f985",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "freeway (0.23), overpass (0.15), runway (0.10)",
+          "confidence": 0.23094533383846283
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "998aba68901caf9acda53dcfdbfbda2afcaf5db9c247f2b43046d669fd2e1b80"
+    },
+    {
+      "image": "981.tif",
+      "row": 92,
+      "view": "upright",
+      "query": "This is a part of a golf course with green turfs and some trees .",
+      "seed": 394920,
+      "rendered_sha": "3392fd7d82684ea6bb5d17015f93ffce658c455aa9fbea1c5a85b3b6977ca93e",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "golf course (0.52), baseball diamond (0.08), tennis court (0.05)",
+          "confidence": 0.5176994800567627
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "2ebdbe0f608a7b76f4ad5c7454e15710565ec7133cf51c477a7efff0e54f77d1"
+    },
+    {
+      "image": "982.tif",
+      "row": 93,
+      "view": "upright",
+      "query": "This is a part of a golf course with green turfs and some bunkers and trees .",
+      "seed": 394930,
+      "rendered_sha": "c29d4906bb91b1c05b95e354fcc4a66f7c3b84f1b864713f15bb8b113ece8aa3",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "golf course (0.58), tennis court (0.06), baseball diamond (0.05)",
+          "confidence": 0.5835176706314087
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "dcba49e06d91ed9e00b4f4d4131dbee22895b87c90cb37db24cc7a6bcdb20446"
+    },
+    {
+      "image": "983.tif",
+      "row": 94,
+      "view": "upright",
+      "query": "This is a part of a golf course with green turfs and some bunkers and a trail go through the turfs .",
+      "seed": 394940,
+      "rendered_sha": "4f74de5b7ec0ee1b2923732e1dd3535687777e1047152e5709074d073f4e127a",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "golf course (0.57), tennis court (0.06), baseball diamond (0.05)",
+          "confidence": 0.5687617063522339
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "d893079260d2d0c4bed9510ab301b1e71d69d8488798a79c365697bc83188443"
+    },
+    {
+      "image": "984.tif",
+      "row": 95,
+      "view": "upright",
+      "query": "This is a part of a golf course with green turfs and some bunkers and a trail go through the turfs .",
+      "seed": 394950,
+      "rendered_sha": "7b7a56edfce15bf10004f3bf12453c9f9b0b292a9a44a410ea4d9fef1986661f",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "golf course (0.56), tennis court (0.06), baseball diamond (0.05)",
+          "confidence": 0.5632721185684204
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "955d03c3876afa398acabf17de5397687bc9838948503331bbeea4b19285e1c7"
+    },
+    {
+      "image": "985.tif",
+      "row": 96,
+      "view": "upright",
+      "query": "This is a part of a golf course with green turfs and some trees .",
+      "seed": 394960,
+      "rendered_sha": "bd99c3b2fd7923f3bb1851decc5f2ed450be611c7d70671561c70cac0681d475",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "golf course (0.53), baseball diamond (0.05), tennis court (0.05)",
+          "confidence": 0.5300999879837036
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "35c6044228f28cd1cc9c7d9bdef71d151c3984b215bbefc6a335334e7ede20a8"
+    },
+    {
+      "image": "986.tif",
+      "row": 97,
+      "view": "upright",
+      "query": "This is a part of a golf course with green turfs and some bunkers and trees .",
+      "seed": 394970,
+      "rendered_sha": "19bceba07a41f66598bc789452b2e8cbbe90aded745dedf97bfce79c730cf736",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "golf course (0.55), tennis court (0.06), baseball diamond (0.05)",
+          "confidence": 0.552090585231781
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "58a6bcd70a41846c983fcd4263105deb395f1a1b5c8fabdafb60a914b351d322"
+    },
+    {
+      "image": "987.tif",
+      "row": 98,
+      "view": "upright",
+      "query": "This is a part of a golf course with green turfs and some bunkers and trees .",
+      "seed": 394980,
+      "rendered_sha": "07f90d53ac995b37c34de73347b32af79e31f772407dce773b0c824ea5009985",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "golf course (0.53), tennis court (0.06), baseball diamond (0.04)",
+          "confidence": 0.5346583127975464
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "a405a4ccc5b9bed8fb0809f753b86b0441994304567e74193d37a64c608f530f"
+    },
+    {
+      "image": "988.tif",
+      "row": 99,
+      "view": "upright",
+      "query": "This is a part of a golf course with green turfs and some bunkers .",
+      "seed": 394990,
+      "rendered_sha": "ff555b789cd1a847577d75f90d723db08019da39eb30d560307828bbd6f57dad",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "golf course (0.46), tennis court (0.07), baseball diamond (0.05)",
+          "confidence": 0.46108266711235046
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "2f65d66a3e0ed7cb5ec5e5793a366600a026d48d90517a7dd8c17f401694f85b"
+    },
+    {
+      "image": "989.tif",
+      "row": 100,
+      "view": "upright",
+      "query": "This is a part of a golf course with green turfs and some bunkers .",
+      "seed": 395000,
+      "rendered_sha": "310f70bd148b8ad30f5bc28b5205e812c8b0f61bc638505c24c3dc47a3f2d6c1",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "golf course (0.45), tennis court (0.07), baseball diamond (0.05)",
+          "confidence": 0.4478228986263275
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "3d5ac92eb2dabf9e204b3fc51dca351cf63f1b4ecb43cccac786bad149569831"
+    },
+    {
+      "image": "990.tif",
+      "row": 101,
+      "view": "upright",
+      "query": "This is a part of a golf course with green turfs and some bunkers .",
+      "seed": 395010,
+      "rendered_sha": "091c9ae36d64e29ac6e3ed4832be38bb443f463e14e9a4ca865a39d5de90fcb0",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "golf course (0.54), baseball diamond (0.06), tennis court (0.05)",
+          "confidence": 0.5371707677841187
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "755c3269dbec7502f204e656e193544a17d3cf7dfcd69ac7ea61af0a0e01b1dc"
+    },
+    {
+      "image": "1081.tif",
+      "row": 102,
+      "view": "upright",
+      "query": "Lots of boats docked at the harbor and the water is deep blue .",
+      "seed": 395020,
+      "rendered_sha": "4c0ab8434628598fae91f545880d9866a417018fe103c6ba6281e0dd1fb8caa9",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "harbor (0.49), beach (0.07), agricultural (0.04)",
+          "confidence": 0.4876106083393097
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "4a28475ed340baa8d58cf395201e6a81a53c543db4665244ae31023066c6f2b0"
+    },
+    {
+      "image": "1082.tif",
+      "row": 103,
+      "view": "upright",
+      "query": "Lots of boats docked at the harbor and the water is deep blue .",
+      "seed": 395030,
+      "rendered_sha": "b5b5b51be474afdd01bd879e6d54eb57dbabf4978537ff351c3f74eaaa639a06",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "harbor (0.51), beach (0.08), runway (0.04)",
+          "confidence": 0.5067154765129089
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "a6c9734ed58a1a305bbc647bc00c649d25a52215c73cc1066e08c11f19c823c1"
+    },
+    {
+      "image": "1083.tif",
+      "row": 104,
+      "view": "upright",
+      "query": "Lots of boats docked at the harbor and the water is deep blue .",
+      "seed": 395040,
+      "rendered_sha": "c854fc7473e574d5d05f54f74b9a57c425335b9a86f808a21c7174b788a233e0",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "harbor (0.58), beach (0.04), airplane (0.04)",
+          "confidence": 0.5753437280654907
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "beddb6f1ae73b3653ffe44689b5ea6a30954de440f666e74593eabfe11b1a923"
+    },
+    {
+      "image": "1084.tif",
+      "row": 105,
+      "view": "upright",
+      "query": "Lots of boats docked at the harbor and the water is deep blue .",
+      "seed": 395050,
+      "rendered_sha": "03c385dd773885986f6c076606550b6080e86283bdd56ed75f371551d3807ac1",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "harbor (0.51), beach (0.06), agricultural (0.04)",
+          "confidence": 0.5070884823799133
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "2e9d2c2db3fad89aaa9768071cde5a69d0dda780f0372eae31c0aa705c74f221"
+    },
+    {
+      "image": "1086.tif",
+      "row": 106,
+      "view": "upright",
+      "query": "Lots of boats with different size docked at the harbor .",
+      "seed": 395060,
+      "rendered_sha": "8a5af0e2c9ddc6265f07daca4a24d15b6e2087d7e151d550874847c4168a434d",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "harbor (0.47), beach (0.04), runway (0.04)",
+          "confidence": 0.4667188823223114
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "ec9d913e5c457e75f00f5715e8a78a84c8b83fa5b1ab3104219119fffbec358d"
+    },
+    {
+      "image": "1087.tif",
+      "row": 107,
+      "view": "upright",
+      "query": "Lots of boats with different size docked at the harbor .",
+      "seed": 395070,
+      "rendered_sha": "bbc91363aa56d84d6308f34a5c21f36e011b014d90bc1542889055e1485f1454",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "harbor (0.52), airplane (0.04), tennis court (0.04)",
+          "confidence": 0.5247662663459778
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "b3c2dc8cabd1376ba5ca7782bb6e7a91ab88e4d8c182d67f7a055c4513b95cee"
+    },
+    {
+      "image": "1088.tif",
+      "row": 108,
+      "view": "upright",
+      "query": "Lots of boats docked at the harbor and the water is deep blue .",
+      "seed": 395080,
+      "rendered_sha": "eb2a978774ea7e2fbddd801a95f33af51ff30af767f2c29f54243232e7a99a73",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "harbor (0.58), beach (0.04), runway (0.03)",
+          "confidence": 0.5802885890007019
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "1c5fb357d7bcf0e15d798db75c327455a74d3e9d50df1e4b2b6d8934ab9b8cd0"
+    },
+    {
+      "image": "1089.tif",
+      "row": 109,
+      "view": "upright",
+      "query": "Lots of boats docked at the harbor and the water is deep blue .",
+      "seed": 395090,
+      "rendered_sha": "1eb522ead6522448d2aca788a4f380e378a8d7a26e47f59bb744ad74eaa68580",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "harbor (0.50), beach (0.05), runway (0.04)",
+          "confidence": 0.5015181303024292
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "09ba901f8f1a1eea4b75bb669956957c15f44ad93cdaf1614bf2e16a5cc5ab4f"
+    },
+    {
+      "image": "1090.tif",
+      "row": 110,
+      "view": "upright",
+      "query": "Lots of boats docked at the harbor and the water is deep blue .",
+      "seed": 395100,
+      "rendered_sha": "a0eae165f6ffe0a416dc09101579cdfec4e65d4d85f1c24735b079b65945842d",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "harbor (0.56), beach (0.04), runway (0.04)",
+          "confidence": 0.5643507838249207
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "a96e5788dba214371c62ddc64dd4e33f4ef685b5e2bcfa7e4d2ba0ba64268a92"
+    },
+    {
+      "image": "1181.tif",
+      "row": 111,
+      "view": "upright",
+      "query": "An intersection with some cars on the road .",
+      "seed": 395110,
+      "rendered_sha": "e2b4a706949b5dc5436710ca0e7e9b2b6bb0528fed6c7af87c3154ebeb3662af",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f316f7d31e212bb38fd7f1b40d88ef75a58e99bc20c5454eb15a21f4787474f2"
+    },
+    {
+      "image": "1182.tif",
+      "row": 112,
+      "view": "upright",
+      "query": "An intersection with some cars on the road .",
+      "seed": 395120,
+      "rendered_sha": "8aaf1c23c64324a09508360a5e536f756fab3e7c28979e2e23c03129bdd0b254",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "intersection (0.52), medium residential (0.07), overpass (0.06)",
+          "confidence": 0.5170170068740845
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "729a851b3b738fed351e162de29a13676e5304097813a09a7016eda59418ac08"
+    },
+    {
+      "image": "1183.tif",
+      "row": 113,
+      "view": "upright",
+      "query": "An intersection with some cars on the road .",
+      "seed": 395130,
+      "rendered_sha": "77cc652a241ef896b8660cf9cc027f1f7f750188e5f39b178d9e6cccfbd95a65",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "intersection (0.59), overpass (0.11), freeway (0.05)",
+          "confidence": 0.5861873030662537
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "7a128befe6c37b1817777146d32914d995296bdca750697583c3800346b9f688"
+    },
+    {
+      "image": "1184.tif",
+      "row": 114,
+      "view": "upright",
+      "query": "An intersection with some cars on the road .",
+      "seed": 395140,
+      "rendered_sha": "961b13d5bbaa08f10335c2a5138e08afc0927810cd9b52a5fd118f983e15891a",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "38d331d6f97bc36ffcca465422c41ed2be5ddda19ced4436694327a914839158"
+    },
+    {
+      "image": "1185.tif",
+      "row": 115,
+      "view": "upright",
+      "query": "An intersection with no cars or pedestrians .",
+      "seed": 395150,
+      "rendered_sha": "ceda7069c6fbd191a89b145427ea2e494f81f8a905f4e266a681c56c81a62770",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "intersection (0.23), overpass (0.10), runway (0.08)",
+          "confidence": 0.22767265141010284
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "3d8ab5cf64435e142cb0b7efb2e75ec962e56d2da69ee96bfc7efc2a28186cc1"
+    },
+    {
+      "image": "1186.tif",
+      "row": 116,
+      "view": "upright",
+      "query": "An intersection with many cars on the road .",
+      "seed": 395160,
+      "rendered_sha": "c4890e7c8dd7c4f7951a252359cd98f21aeb8bb7e26e591d7e3ba60fadb400d5",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "a57ff5202b92c86870fb21308223ac33722314a6b24c5e468967cdb9c03a2012"
+    },
+    {
+      "image": "1187.tif",
+      "row": 117,
+      "view": "upright",
+      "query": "An intersection with a few cars on the road .",
+      "seed": 395170,
+      "rendered_sha": "8fc6c68419b39f44e82ab6edca75a5df8764958d4ee2731b912428f2dcc6aa14",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "intersection (0.39), overpass (0.08), freeway (0.07)",
+          "confidence": 0.39485639333724976
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "a2410076e3981f0054c750646d67a97af5f6b83d24dbf3b47f423808d7d8a8a2"
+    },
+    {
+      "image": "1188.tif",
+      "row": 118,
+      "view": "upright",
+      "query": "An intersection with a few cars on the road .",
+      "seed": 395180,
+      "rendered_sha": "cef340b807a688bc90bb503dd8212020b599a4f826f2fc8be4bd1e73f16e2fe3",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "intersection (0.50), overpass (0.09), freeway (0.07)",
+          "confidence": 0.49523913860321045
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "7e414abbfeffbfed4c27186dab13c32399598f8f7d240fa8753956938e7d749d"
+    },
+    {
+      "image": "1189.tif",
+      "row": 119,
+      "view": "upright",
+      "query": "An intersection with no cars or pedestrians .",
+      "seed": 395190,
+      "rendered_sha": "6ba4fba41623ad5a91db50f770610625176c1fd8c85e65b9f549827694aa37f8",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "intersection (0.27), medium residential (0.21), mobile home park (0.11)",
+          "confidence": 0.27334609627723694
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "98e168d0405e86a61ca2cffd359e753a66271ef61f847eead9d7e0d4fafac146"
+    },
+    {
+      "image": "1281.tif",
+      "row": 120,
+      "view": "upright",
+      "query": "It is a medium residential area .",
+      "seed": 395200,
+      "rendered_sha": "d543696782d651a93ee50284b5ee29a702be06b1e397027062de132919e468c6",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "a705b7e4c447ea2b23818d31b55ad94c1a9d964d8666bc805214e7f30cb84561"
+    },
+    {
+      "image": "1282.tif",
+      "row": 121,
+      "view": "upright",
+      "query": "It is a medium residential area .",
+      "seed": 395210,
+      "rendered_sha": "ba86390d1bb8f17d8656eb75dea3289db5708e34edcf092a0513984f7cdd412e",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "92917349479a4ffbd99440e334899ba75d36f5d5ff10b7f86fbd05b90be16eed"
+    },
+    {
+      "image": "1283.tif",
+      "row": 122,
+      "view": "upright",
+      "query": "It is a medium residential area .",
+      "seed": 395220,
+      "rendered_sha": "b0e121b14f74a10dbd17a4e3b439bb2194a085fc4723aa61564c50b5e397edc3",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "medium residential (0.23), dense residential (0.19), sparse residential (0.10)",
+          "confidence": 0.2256586104631424
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "e2c5555894fdc7660fc894c3da4482b0fc25a65401497320848d7598239ddf35"
+    },
+    {
+      "image": "1284.tif",
+      "row": 123,
+      "view": "upright",
+      "query": "It is a medium residential area with houses arranged neatly .",
+      "seed": 395230,
+      "rendered_sha": "3b01740f670e0a8d13ae08a88ed221d71c1930478158e68b800d1eb827415d97",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "7bdb49d06fbfb94811f3357e2a2c222cfa6f4f62563bd6c547fec7aa3a244ba1"
+    },
+    {
+      "image": "1285.tif",
+      "row": 124,
+      "view": "upright",
+      "query": "It is a medium residential area with houses and plants .",
+      "seed": 395240,
+      "rendered_sha": "81da1c40b63e00e2964e55046695dd71bcc1280499c1341a3f5d049c191fedab",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "medium residential (0.24), dense residential (0.21), mobile home park (0.10)",
+          "confidence": 0.24023157358169556
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "68db82a2afb56f1d712780dfc4b23f302c4e581423537ad3d33315ac0152deff"
+    },
+    {
+      "image": "1286.tif",
+      "row": 125,
+      "view": "upright",
+      "query": "It is a medium residential area with houses and plants .",
+      "seed": 395250,
+      "rendered_sha": "4fd20a4994e6aa87e24c068c3fe5f38b430f7462384f857a10464152c00db69b",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "dense residential (0.22), medium residential (0.20), mobile home park (0.12)",
+          "confidence": 0.2208908200263977
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "b5fff1b622650451e8f964482342c8faea434b5feefb357ca1958d9d0fb56537"
+    },
+    {
+      "image": "1287.tif",
+      "row": 126,
+      "view": "upright",
+      "query": "It is a medium residential area .",
+      "seed": 395260,
+      "rendered_sha": "e8fcbc1828e902d80a2d00f33f2b1ec58768aa0768c0b0c26408053bb120e75d",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "dense residential (0.21), medium residential (0.13), sparse residential (0.12)",
+          "confidence": 0.20544913411140442
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "89bcd5ae9b49985455668f6dc4c20f2fe3f0577a8f1b5bdf225c6dae95e70d3e"
+    },
+    {
+      "image": "1288.tif",
+      "row": 127,
+      "view": "upright",
+      "query": "It is a medium residential area .",
+      "seed": 395270,
+      "rendered_sha": "a7491be1f02e541b8afbf9e01b8bc83cef193c7f680f8b7ed483f5dfc9504170",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "93f56b410ffbe450c70351df826ae76a716aa4cfbe94dedb603802946fe34196"
+    },
+    {
+      "image": "1289.tif",
+      "row": 128,
+      "view": "upright",
+      "query": "It is a medium residential area .",
+      "seed": 395280,
+      "rendered_sha": "bd279b0dd08345f1b33fe633659933166ea069eef36569d68cebb706c33a35ab",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "19260be2e1217d0bf85f86220b6bc29bbf4c4782488120d87a6e01b414b22d12"
+    },
+    {
+      "image": "1290.tif",
+      "row": 129,
+      "view": "upright",
+      "query": "It is a medium residential area .",
+      "seed": 395290,
+      "rendered_sha": "e6da4b01dc083153ab3fdb2e1465ec29c57bc50e39003c97f2b0461b92302ef5",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "b8ac0a4b7a656ea59095c37e66b4888e6bcca467664691397c3f49f1b3477db6"
+    },
+    {
+      "image": "1381.tif",
+      "row": 130,
+      "view": "upright",
+      "query": "Many mobile homes arranged in lines with some cars parked at the roadside in the mobile home park .",
+      "seed": 395300,
+      "rendered_sha": "43cfaf61ca9d0046cc06f5861d0b71a5c51af07a6d735c9a10d2fd331bf50150",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "mobile home park (0.25), medium residential (0.15), dense residential (0.11)",
+          "confidence": 0.25471121072769165
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "8a1c5477f584ace9da54e2815c6007e311ec187ba4e44dd2b2df482bb2dad933"
+    },
+    {
+      "image": "1382.tif",
+      "row": 131,
+      "view": "upright",
+      "query": "Many mobile homes arranged in lines with some cars parked at the roadside in the mobile home park .",
+      "seed": 395310,
+      "rendered_sha": "5a99c40be5e451645b1652fa8a797e094d2e7ec77041636ef36ccc345e35b273",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "mobile home park (0.31), medium residential (0.11), dense residential (0.08)",
+          "confidence": 0.3051135241985321
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "e826dbf8da435325fe8266ae190f43cb2261ad30b3b0bdaef906afcacaa2fa0f"
+    },
+    {
+      "image": "1383.tif",
+      "row": 132,
+      "view": "upright",
+      "query": "Many mobile homes arranged neatly in the mobile home park .",
+      "seed": 395320,
+      "rendered_sha": "84a3b503b60650bc69d8c67a3c5adbf903cb1910e414a97d55a75e813f5c78d6",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "medium residential (0.22), mobile home park (0.16), dense residential (0.15)",
+          "confidence": 0.21869802474975586
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "1a451027472753774baecdd4ed0a2264e94944d8e6ab234041805ce73b1948b9"
+    },
+    {
+      "image": "1384.tif",
+      "row": 133,
+      "view": "upright",
+      "query": "Many mobile homes arranged neatly in the mobile home park .",
+      "seed": 395330,
+      "rendered_sha": "5195e8e270acadda9a8d4ec93383450337e3c823cf1b56224aaf33ed7bf9ce70",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "0ce01ed03da6052602891d7d48495fe7a6e12fbeabc3e5270208208691fadb52"
+    },
+    {
+      "image": "1385.tif",
+      "row": 134,
+      "view": "upright",
+      "query": "Many mobile homes arranged neatly in the mobile home park .",
+      "seed": 395340,
+      "rendered_sha": "ef6cd2c0b330153fa71d67157ad0f3cea4157a439a3562788505da8bf236fec3",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "medium residential (0.27), dense residential (0.18), mobile home park (0.17)",
+          "confidence": 0.26920175552368164
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "969b0632a0a93e3e8bb9cffcdb82adab8854bbb3a6290514311e6dd81af05803"
+    },
+    {
+      "image": "1386.tif",
+      "row": 135,
+      "view": "upright",
+      "query": "Many mobile homes arranged in lines in the mobile home park .",
+      "seed": 395350,
+      "rendered_sha": "0fb84b4b878064ad92661f32bb2d3d6564f97d4a0b1b925569c6b25a1f59be32",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "0d5d95172b7a9c1f4602ee989222f22fcefd2ca7fbbf2debd593c85ed017f985"
+    },
+    {
+      "image": "1387.tif",
+      "row": 136,
+      "view": "upright",
+      "query": "Many mobile homes arranged in lines in the mobile home park .",
+      "seed": 395360,
+      "rendered_sha": "e429a1e83e858e49e6c0a146248f5b8c282d0d41cea35aafb81460b2dfe50de9",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "medium residential (0.24), dense residential (0.19), mobile home park (0.15)",
+          "confidence": 0.23888050019741058
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "0238ea87bd45f4f3df312f62c98b1afa06a78332a93ea3553e4cd211d96632e1"
+    },
+    {
+      "image": "1388.tif",
+      "row": 137,
+      "view": "upright",
+      "query": "Many mobile homes arranged in lines in the mobile home park .",
+      "seed": 395370,
+      "rendered_sha": "b319e64055277a25986e0c8dd2a979a621d372b983c5fa57967a87b7af8c0fe3",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "87b8866c8667484b15368bbf567a828fd14be5137ea59cccd3b8a0f4695d07ac"
+    },
+    {
+      "image": "1389.tif",
+      "row": 138,
+      "view": "upright",
+      "query": "Many mobile homes are arranged haphazardly in the mobile home park .",
+      "seed": 395380,
+      "rendered_sha": "c4d839dc2c593d3a83276234336ac936c24436fd5d049b8fa5f46b4e9e71d418",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "482431f3eff34419b6febaf792f1360922ce2d4c61115c3675206c646b92f3f5"
+    },
+    {
+      "image": "1390.tif",
+      "row": 139,
+      "view": "upright",
+      "query": "Many mobile homes are arranged haphazardly in the mobile home park .",
+      "seed": 395390,
+      "rendered_sha": "e9d19732964b6226410c77e6e44bbfdb30723282f97680afddebde1bdd51c110",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "33790284592eb040b41947a8cc0723da7c0087b167bbaf9696d1f1896ee2c9ae"
+    },
+    {
+      "image": "1481.tif",
+      "row": 140,
+      "view": "upright",
+      "query": "A road go across another two roads vertically .",
+      "seed": 395400,
+      "rendered_sha": "6120fcbe5f4f248dbfea51283d77655c1be6061bb527c92b27a4911424b50749",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "8ce4a7914a916a76cce710c0cb2d368a34948200956e7ebce1eed20baee82fc9"
+    },
+    {
+      "image": "1482.tif",
+      "row": 141,
+      "view": "upright",
+      "query": "A road go across another one diagonally .",
+      "seed": 395410,
+      "rendered_sha": "cb4c69e0bd6533b0f35ccb07bdcccc4821a21ece92f2325e2510afacd5d9c6b1",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "overpass (0.36), freeway (0.16), intersection (0.08)",
+          "confidence": 0.3644205927848816
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "21265cca5324d95721809f7e4e8f2312d5bcad542519dc5d37b4b85d78af002a"
+    },
+    {
+      "image": "1483.tif",
+      "row": 142,
+      "view": "upright",
+      "query": "A road go across another one diagonally .",
+      "seed": 395420,
+      "rendered_sha": "07d1bb340754f34e741ebd94cf7d305715c37463c23fd5941c30b3128dd8ace4",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "edb147b769abd3ec93cbac2fd49c9e370fd2e3f9e278a800c904a02e051e44ba"
+    },
+    {
+      "image": "1484.tif",
+      "row": 143,
+      "view": "upright",
+      "query": "A road go across another roads diagonally .",
+      "seed": 395430,
+      "rendered_sha": "45e1f425b19900dc77d5a2d0d10da8eb8148c6935ecc813dcad34c63ba16fd9f",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "3f5636b24bfb2c87dd0e5db3675cae4d11a9ab54f6948e6d454970f538206a12"
+    },
+    {
+      "image": "1485.tif",
+      "row": 144,
+      "view": "upright",
+      "query": "A road go across another one diagonally .",
+      "seed": 395440,
+      "rendered_sha": "70859beca18b65e054efc6d4f40a924d8e791ddc47c399e5c18eda9fe45f444c",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "649cc0ec71f26f320b7d3ad19b77d674f23413ad5dec24575ad8016816e0fcdb"
+    },
+    {
+      "image": "1486.tif",
+      "row": 145,
+      "view": "upright",
+      "query": "A road go across another one diagonally .",
+      "seed": 395450,
+      "rendered_sha": "933b78d69d4210bac186d48875eafddc3e0c8f55a11f8ea427c7b1d8ea8b126a",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "c0826940cc275181e8162dfe49bf6ef9d956d9a9f25b7b19e3af5793716559fd"
+    },
+    {
+      "image": "1487.tif",
+      "row": 146,
+      "view": "upright",
+      "query": "A road go across another one diagonally .",
+      "seed": 395460,
+      "rendered_sha": "9aec42f2bf2dcb8e025e1f1384eefe33d5f68762c752e830a1430a087b15ed4d",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "ca6c5bb33ca19e0bf91cde9eca935626cba2cf04d3eb56bf8c3b0570ee467845"
+    },
+    {
+      "image": "1488.tif",
+      "row": 147,
+      "view": "upright",
+      "query": "An overpass go across the roads diagonally .",
+      "seed": 395470,
+      "rendered_sha": "6a22bcdfb5842685ecfce1b0e4300fb6789261a2c8ff97950ddb105c1feea2df",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "abcaa7b96cd03d4210a3a43d060996dad15568fc497f36a7ac0e3aa17740ca3e"
+    },
+    {
+      "image": "1489.tif",
+      "row": 148,
+      "view": "upright",
+      "query": "A narrow road go across another one diagonally .",
+      "seed": 395480,
+      "rendered_sha": "32ad470b9033349857ddc3d2f80291c3de046aeac753dab4e2025fabcfbc1c57",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "overpass (0.27), freeway (0.09), runway (0.08)",
+          "confidence": 0.272418737411499
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "4f3f87eafbf3fcad34324a19dcb36547c7dc7bc39136adc9053ba33030f6d3f8"
+    },
+    {
+      "image": "1490.tif",
+      "row": 149,
+      "view": "upright",
+      "query": "A narrow road go across another one diagonally .",
+      "seed": 395490,
+      "rendered_sha": "d739171807ed869aac66da5fce8f1f210c7e64f545bc6236c4b7fcc040b8ff84",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "overpass (0.23), freeway (0.11), river (0.07)",
+          "confidence": 0.22913342714309692
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "64e1e1c1e02b8d8aaceaf544c3f33dbff51e6ad21cb5789d30c572bcef4d0b1d"
+    },
+    {
+      "image": "1581.tif",
+      "row": 150,
+      "view": "upright",
+      "query": "Lots of cars are very closed to each other in the parking lot .",
+      "seed": 395500,
+      "rendered_sha": "219abcde7f134f745590117fb673a687d3e129277019aa90c309a92085df5085",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "05c473bc49d712adb3a7d98974a5c39c76d45cca898cc2296b558ae2209ad06b"
+    },
+    {
+      "image": "1582.tif",
+      "row": 151,
+      "view": "upright",
+      "query": "Lots of cars are very closed to each other in the parking lot .",
+      "seed": 395510,
+      "rendered_sha": "b785954af95ca1fead50e3c210bb2e48f1b6f7ea1b6dfbf75d00776c59b64ad2",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "parking lot (0.47), airplane (0.06), harbor (0.06)",
+          "confidence": 0.47165539860725403
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f0e3d4735ef8264eb5ed8c4fe6ff667d98a4a7f7b1ffb3cc9a2cc0107834765a"
+    },
+    {
+      "image": "1583.tif",
+      "row": 152,
+      "view": "upright",
+      "query": "Lots of cars are very closed to each other in the parking lot .",
+      "seed": 395520,
+      "rendered_sha": "b81e7a0d48a8b7c96d29246642e718dc0f79fce88a0885bedb6cca8ee3624b72",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "parking lot (0.37), dense residential (0.07), mobile home park (0.07)",
+          "confidence": 0.3707256317138672
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "6cf30a2de5c96963f69aa784fca60086848dca5c5c7f5e23a32d6350a8a2a4c1"
+    },
+    {
+      "image": "1584.tif",
+      "row": 153,
+      "view": "upright",
+      "query": "Lots of cars are very closed to each other in the parking lot .",
+      "seed": 395530,
+      "rendered_sha": "1196644fdd1434ee0bea92150336cbb477eea369fccef16de3ff1bc17b951782",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "parking lot (0.43), harbor (0.07), airplane (0.05)",
+          "confidence": 0.43359267711639404
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "49a8b9f6cb142615645fb66055a56e44b5e2c930d8cf7800dcbd91fd79ebd774"
+    },
+    {
+      "image": "1585.tif",
+      "row": 154,
+      "view": "upright",
+      "query": "Lots of cars are very closed to each other in the parking lot .",
+      "seed": 395540,
+      "rendered_sha": "5f04a29f7dfd91c93436e8d64267b37172bbb2c2f88850cd569b40df169e186e",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "5a31b70b8e26b3d3ea83cb48b11e25d31d80632b8816249e0b6329e076c95d4c"
+    },
+    {
+      "image": "1586.tif",
+      "row": 155,
+      "view": "upright",
+      "query": "Lots of cars are very closed to each other in the parking lot .",
+      "seed": 395550,
+      "rendered_sha": "13e50cfa0c6a2d59c470da17ab4f5ebf8a8ec02497126cb7205a3636b70f7651",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "parking lot (0.24), agricultural (0.07), harbor (0.06)",
+          "confidence": 0.24460794031620026
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "fbeba9bf77f0e3ac2c5a96038d841dacec6752996e983b32dde9b86b7c33b998"
+    },
+    {
+      "image": "1587.tif",
+      "row": 156,
+      "view": "upright",
+      "query": "Lots of cars are very closed to each other in the parking lot .",
+      "seed": 395560,
+      "rendered_sha": "2ce79c95d78840c9f2d33ac0f3394b5569f6274d774138b8af75117e7442737c",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "parking lot (0.22), freeway (0.08), harbor (0.07)",
+          "confidence": 0.22445401549339294
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "0bed4da7d81ffb5cf1f6e76e78d1e75a78c6618eb62c8ac0b31eba51fa623f50"
+    },
+    {
+      "image": "1588.tif",
+      "row": 157,
+      "view": "upright",
+      "query": "Lots of cars parked neatly in the parking lot .",
+      "seed": 395570,
+      "rendered_sha": "9fd7b8c3a31dc8076a02f006178bce8c1861539aff0660c87051d1da64d64ea2",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "parking lot (0.40), harbor (0.05), airplane (0.05)",
+          "confidence": 0.39729762077331543
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "4300b4c3638de12e7f8e52383907c0e30d84822fab5caf8ba70dde9fb87ab076"
+    },
+    {
+      "image": "1589.tif",
+      "row": 158,
+      "view": "upright",
+      "query": "Lots of cars are densely arranged in the parking lot .",
+      "seed": 395580,
+      "rendered_sha": "d16d9fe01f6566ccc9217f6db38dd1e3448021c9470bfea08a930c1b026eb64c",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "parking lot (0.43), harbor (0.06), airplane (0.05)",
+          "confidence": 0.4251779615879059
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "a9b2a385582e9b43ed286fdf1acc526114283316e06f9ba70cda80baf14e703f"
+    },
+    {
+      "image": "1590.tif",
+      "row": 159,
+      "view": "upright",
+      "query": "Lots of cars are densely arranged in the parking lot .",
+      "seed": 395590,
+      "rendered_sha": "77c25044c6b5cf7cf705581cba1858cf9aa323da02b022aa489afe729055cb86",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "parking lot (0.35), harbor (0.08), dense residential (0.05)",
+          "confidence": 0.3522767424583435
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "6fb2366deed072f62b2fdc9ebc9b6886e6b2e78f9fa56be2a506ecdc49eb83ec"
+    },
+    {
+      "image": "1681.tif",
+      "row": 160,
+      "view": "upright",
+      "query": "It is a river with some plants on one bank and roads on the other side .",
+      "seed": 395600,
+      "rendered_sha": "0d0d7eeb69499f80a85fa7fa626f3cd9592ad218db3baec28c2fa5fd02fd7e77",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "river (0.19), chaparral (0.08), freeway (0.08)",
+          "confidence": 0.18934713304042816
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "8d3392c00c7e7e06677c3ad6f07f69cee2f4d11ace643f4231913b17ee58594f"
+    },
+    {
+      "image": "1682.tif",
+      "row": 161,
+      "view": "upright",
+      "query": "It is a river with some plants on one bank and roads on the other side .",
+      "seed": 395610,
+      "rendered_sha": "989b6211b8e9bbec7f1a13eef7d6a78bab8edf2526237c34d9d679108684add6",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "river (0.19), freeway (0.09), chaparral (0.09)",
+          "confidence": 0.18526315689086914
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "d2e7aed331d33d072a82ee459b1e5d45b57da02d9b773d1214ffee1b4834adea"
+    },
+    {
+      "image": "1683.tif",
+      "row": 162,
+      "view": "upright",
+      "query": "It is a river with some plants on one bank and sands on the other side .",
+      "seed": 395620,
+      "rendered_sha": "832a13e1c3899e9aa47e16b6cfa119b0e166add97ce559482e7d44ff4060d1b4",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "river (0.27), chaparral (0.09), beach (0.08)",
+          "confidence": 0.27336618304252625
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "b02f49d1c286f4d90255c07c91b9e805f882c065fe6585b4fad11f2df609ee25"
+    },
+    {
+      "image": "1684.tif",
+      "row": 163,
+      "view": "upright",
+      "query": "It is a river with some plants on both banks of the river .",
+      "seed": 395630,
+      "rendered_sha": "699d4bc48cb0dbc0ee19b9c0d7baf219486d1316a34fea22ffb32d981b8976aa",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "river (0.29), forest (0.10), agricultural (0.06)",
+          "confidence": 0.29416072368621826
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "2894a15b512a0dd362ddf05b104afa600e91f2daf760aaa4c1df90aa301c7666"
+    },
+    {
+      "image": "1685.tif",
+      "row": 164,
+      "view": "upright",
+      "query": "It is a very wide river with dense forest on both banks of the river .",
+      "seed": 395640,
+      "rendered_sha": "cf7421d33df73276fcd79474f2b0d8ecd7ff19440a68666b104e463023bd17ba",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "river (0.37), forest (0.11), agricultural (0.05)",
+          "confidence": 0.3673684298992157
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "3f477eb3d102b38b5514dae201699a41150365560c84c098513379d69e005871"
+    },
+    {
+      "image": "1686.tif",
+      "row": 165,
+      "view": "upright",
+      "query": "It is a very wide river with dense forest on both banks of the river .",
+      "seed": 395650,
+      "rendered_sha": "c73c48e4abe2425df196895ca1733e38c4cf84df464de7f60419238eafc7db62",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "river (0.41), forest (0.10), agricultural (0.05)",
+          "confidence": 0.40941721200942993
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "820360179fd040c0f6bb1500c0e76adf702655d47b352d19c8e49dd4812b6c0e"
+    },
+    {
+      "image": "1687.tif",
+      "row": 166,
+      "view": "upright",
+      "query": "It is a river with dense forest on both banks of the river .",
+      "seed": 395660,
+      "rendered_sha": "2fb374db6abe3f4e84fe3ce97d4cbcd28c6bf328fa2d51fed5b29348d004de86",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "3e8a0d4965e9cbd337e20d8d192ea3aa5b7bc7f37d61dad94ea10f59c4da4619"
+    },
+    {
+      "image": "1688.tif",
+      "row": 167,
+      "view": "upright",
+      "query": "It is a river with dense forest on both banks of the river .",
+      "seed": 395670,
+      "rendered_sha": "e6c905ae878ed9ba22685c64eb66bf29ecaeaa26c77333c0771eee4f15b8f854",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "river (0.32), forest (0.11), beach (0.07)",
+          "confidence": 0.31659629940986633
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "132f788f47bf05f88da1c04c320cb4b53ea797e64ed4b7cf2a2403c0e53321c3"
+    },
+    {
+      "image": "1689.tif",
+      "row": 168,
+      "view": "upright",
+      "query": "It is a river with dense forest on both banks of the river .",
+      "seed": 395680,
+      "rendered_sha": "f74ae4d34775b7fa073d25f554166786389d9c43bf846437bdcbab73ff3c123a",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "river (0.33), forest (0.16), beach (0.07)",
+          "confidence": 0.3325670063495636
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "ad2a0da189eb6a9924e3bd673b4159c742d79d9131b01dda64c450e7851b0e24"
+    },
+    {
+      "image": "1690.tif",
+      "row": 169,
+      "view": "upright",
+      "query": "It is a river with dense forest on both banks of the river .",
+      "seed": 395690,
+      "rendered_sha": "c3b3acff3b69897e09540579494b0f5cae94662575ddfa26af1aae726aa467c3",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "river (0.27), forest (0.15), beach (0.07)",
+          "confidence": 0.2736436724662781
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "9948251e508f472b2c793d7ef8fe8d697f5546729b02aa2931e8fd83c74a2d39"
+    },
+    {
+      "image": "1781.tif",
+      "row": 170,
+      "view": "upright",
+      "query": "It is a straight runway with some mark lines on it .",
+      "seed": 395700,
+      "rendered_sha": "99eceb29dbe92ca1691925f73637fee535b1358882de9b47ba53ce4f3f23566a",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "runway (0.41), airplane (0.11), chaparral (0.05)",
+          "confidence": 0.41226455569267273
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "d2d2d51d93df9c861378c164d590e7dca2c9f56f2cfc1ce35ee2fbb0f7702527"
+    },
+    {
+      "image": "1782.tif",
+      "row": 171,
+      "view": "upright",
+      "query": "It is a straight runway with some mark lines on it .",
+      "seed": 395710,
+      "rendered_sha": "007647697dba4656d183ee3c4e821652104c387da5f4603014987ec35a107148",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "runway (0.32), airplane (0.09), freeway (0.05)",
+          "confidence": 0.31995275616645813
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "efd5843d8d411f5724a2d9a4d56c5fc7cc74acbfd69b398f3528a7158aa8b035"
+    },
+    {
+      "image": "1783.tif",
+      "row": 172,
+      "view": "upright",
+      "query": "It is a straight runway with some mark lines on it .",
+      "seed": 395720,
+      "rendered_sha": "bf6007266bdae30d830dbbf7ec06dc05ae04d9846aea4250cca7e00b784cea7a",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "5339cec9e0654470f6081e73ed33e7209461fadbe8b8608dcc67f7d62d922efe"
+    },
+    {
+      "image": "1784.tif",
+      "row": 173,
+      "view": "upright",
+      "query": "It is a straight runway with some mark lines on it .",
+      "seed": 395730,
+      "rendered_sha": "c1ae5b65a8d982bf59c5bc4edcb26bff30e8f065073bd09636b957253bfd9d21",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "d9cc5a87af0ff710fff4f230357d2d1788a78a6c3968106e185e907110fc8328"
+    },
+    {
+      "image": "1785.tif",
+      "row": 174,
+      "view": "upright",
+      "query": "It is a straight runway with some mark lines and a number and a letter R on it .",
+      "seed": 395740,
+      "rendered_sha": "4cd121be618ae61bd3669e9450b39d695880b609a583677283f9f90d1360b943",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "runway (0.38), airplane (0.13), chaparral (0.05)",
+          "confidence": 0.3823123574256897
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "6bfa9380c4e42ad1738692568c27cdf2feab9d5bdc1d4bcc0a43e84b9ae50e7a"
+    },
+    {
+      "image": "1786.tif",
+      "row": 175,
+      "view": "upright",
+      "query": "It is a straight runway with some mark lines on it .",
+      "seed": 395750,
+      "rendered_sha": "870e42feb1d9d211998f45872c9a3f99041eab98049ff791f1198944c1298197",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "66bd522f4a902b2606dd3953f92e137aefda92500e7d7fd361c00a07e73967a2"
+    },
+    {
+      "image": "1787.tif",
+      "row": 176,
+      "view": "upright",
+      "query": "It is a straight runway with some mark lines on it .",
+      "seed": 395760,
+      "rendered_sha": "c4ae0d9fd1e00fff0f887abe66140d9a9b2edbedd58541ce583c2f24c7ba709c",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "8aef00fe6754355830039bf7079adc4d4072ec96a0a6a2d0da1989261952a651"
+    },
+    {
+      "image": "1788.tif",
+      "row": 177,
+      "view": "upright",
+      "query": "It is a straight runway with some mark lines on it .",
+      "seed": 395770,
+      "rendered_sha": "fb916bb1cb9c2749e0805ec50bbbcf7002f29eb1e45b7372541cd3adcf71fd18",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "d1066331441019947c63a3fe2012eb9d9a98aeacb8fab52d6897c30208563389"
+    },
+    {
+      "image": "1789.tif",
+      "row": 178,
+      "view": "upright",
+      "query": "It is a straight runway with some mark lines on it .",
+      "seed": 395780,
+      "rendered_sha": "e474096ac836a2530e9abf514ed30553e9338c03167a9a11b2434c0d15c9035e",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "8ec45454b44d1fbdd9edb1559c713c6c28993d36e5eee3c6d0f9f3f97e12cf94"
+    },
+    {
+      "image": "1790.tif",
+      "row": 179,
+      "view": "upright",
+      "query": "It is a straight runway with some mark lines on it .",
+      "seed": 395790,
+      "rendered_sha": "b71087dd54c18ee2dd5dd3dcea2bb47b97e43872ba5a94ea60f0bb75673d92ec",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "runway (0.37), freeway (0.09), chaparral (0.07)",
+          "confidence": 0.36842745542526245
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "bd514a004c0ae3d729902149c4114f907bd862fec12cf2cf69cb65d45d128306"
+    },
+    {
+      "image": "1881.tif",
+      "row": 180,
+      "view": "upright",
+      "query": "A villa with grey roofs is surrounded by lush plants in the sparse residential area .",
+      "seed": 395800,
+      "rendered_sha": "38d9d4108d99273dea1b61072580d6eac479712ca77bc3d4ad0edd682b4b1c96",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.41), tennis court (0.06), buildings (0.06)",
+          "confidence": 0.40950003266334534
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "4118cc2b17b5dbbe3aafd8d376bb83b18fba879ef5610a2397b2476a6f6224af"
+    },
+    {
+      "image": "1882.tif",
+      "row": 181,
+      "view": "upright",
+      "query": "A house with orange roofs is surrounded by trees and cropland in the sparse residential area .",
+      "seed": 395810,
+      "rendered_sha": "f75d3844eea5d64a20e238ff874d9b2cd4ac28f25277e32a2e09386688c7e0d7",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.39), buildings (0.09), storage tanks (0.07)",
+          "confidence": 0.3879287838935852
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "6cde3b1c6d3312fa4d70012771ca292569b8d85456e624d94a1602eb4862e81a"
+    },
+    {
+      "image": "1883.tif",
+      "row": 182,
+      "view": "upright",
+      "query": "A house with orange roofs is surrounded by trees and cropland in the sparse residential area .",
+      "seed": 395820,
+      "rendered_sha": "0f2593362668fc3c60b9aef30cc6fab2a4ea76ee34ab05e16f8e9a912deb9eff",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.22), storage tanks (0.09), medium residential (0.07)",
+          "confidence": 0.22305989265441895
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "6c80313cb5c360dbb3df4b747577ada7f43b50c5911966ad1a8469fcb1809cfd"
+    },
+    {
+      "image": "1884.tif",
+      "row": 183,
+      "view": "upright",
+      "query": "A house with orange roofs is surrounded by trees and cropland in the sparse residential area .",
+      "seed": 395830,
+      "rendered_sha": "159e50a7abe33f05f81007d07d96fd540410ea3c44952e3a79e4d4c802db79de",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.34), buildings (0.08), medium residential (0.06)",
+          "confidence": 0.3398053050041199
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "698997a2b6604487ad21b4a4959ea5995b0e9b2ae0d5ef7cc0559465a468f03f"
+    },
+    {
+      "image": "1885.tif",
+      "row": 184,
+      "view": "upright",
+      "query": "A house with orange roofs is surrounded by trees and cropland in the sparse residential area .",
+      "seed": 395840,
+      "rendered_sha": "232400c2f4418a3da80b4cad9a41b96b9d1ab4f16e989662828f4118c0bc44ab",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.17), storage tanks (0.12), buildings (0.10)",
+          "confidence": 0.17075024545192719
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "5df5158878745f2b178db938caf0524b803171bd705515cb6924194b0c222018"
+    },
+    {
+      "image": "1886.tif",
+      "row": 185,
+      "view": "upright",
+      "query": "A house is surrounded by sands and bushes in the sparse residential area .",
+      "seed": 395850,
+      "rendered_sha": "4169ea58bbbb9de3dc5c03eb6baa3ec9721ef5472ce92270e116539d3fd0e96e",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "4b766780696c0af6abec0badc078db9107003721a137e34d7f8a0cc255963fdb"
+    },
+    {
+      "image": "1887.tif",
+      "row": 186,
+      "view": "upright",
+      "query": "A house is surrounded by sands and bushes in the sparse residential area .",
+      "seed": 395860,
+      "rendered_sha": "8ea6dec451cc7e97b33effe26d3d21c1775e9fb60f62199795d6d53132f497b9",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.29), medium residential (0.12), chaparral (0.07)",
+          "confidence": 0.28845635056495667
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "acf7b572a47da7fb633338b327d5c9747d34300f213168d25bed1d2bf1be2da7"
+    },
+    {
+      "image": "1888.tif",
+      "row": 187,
+      "view": "upright",
+      "query": "A house is surrounded by sands and bushes in the sparse residential area .",
+      "seed": 395870,
+      "rendered_sha": "fc69c1140e8367306f7c81f289076a1fcd4024406e4ef987df5ffdd91861a056",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.25), medium residential (0.14), chaparral (0.09)",
+          "confidence": 0.24594974517822266
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "9d802e7f161da839eb8b115ab67d5e74ee3a7f55c3ba37bf62be4d7797cf1977"
+    },
+    {
+      "image": "1889.tif",
+      "row": 188,
+      "view": "upright",
+      "query": "A house is surrounded by sands and bushes in the sparse residential area .",
+      "seed": 395880,
+      "rendered_sha": "2d111166ca3b3d24df654b00756d7ee05f80513e8eb521e0e59eadd83146ea40",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.24), medium residential (0.13), chaparral (0.08)",
+          "confidence": 0.24464811384677887
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "5d1b18eedb42f196dd2cf856a995dc5089aa2215ef34dd02822c12b7dc0ebc05"
+    },
+    {
+      "image": "1890.tif",
+      "row": 189,
+      "view": "upright",
+      "query": "A house with is surrounded by bushes and snds in the sparse residential area .",
+      "seed": 395890,
+      "rendered_sha": "c59bd23a322573d35eb96ed58a5df4ebacfe6073a87b0e2f22dec6ee5d8d831f",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.32), medium residential (0.11), chaparral (0.08)",
+          "confidence": 0.32141658663749695
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "cba2bf36193fd1de7d17950eb1764b7c26c157b3e872a28a35eb62b92a4dd924"
+    },
+    {
+      "image": "1981.tif",
+      "row": 190,
+      "view": "upright",
+      "query": "Two small storage tanks are on the ground .",
+      "seed": 395900,
+      "rendered_sha": "a5e2fdc526237727754fb5a24583bcdde57bb72ac82245a181d2785961cc0964",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "c2ad658d04812817860f5cd35e9a56958256b602323b2736f85c8129d304414a"
+    },
+    {
+      "image": "1982.tif",
+      "row": 191,
+      "view": "upright",
+      "query": "A small white storage tank is on the ground with a road beside .",
+      "seed": 395910,
+      "rendered_sha": "f3a88490ad657d82f34ce1b1325f73169b20ed4bd3bb6ebb4146fe8072d4a0ea",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f064dbe7d24410295bdad55629be5a4f5494f58f70c7100a97e1e8a866886116"
+    },
+    {
+      "image": "1983.tif",
+      "row": 192,
+      "view": "upright",
+      "query": "A storage tank with some houses and plants beside .",
+      "seed": 395920,
+      "rendered_sha": "7ca60533f6615e71e0bc77df4d50f12823fe76a88f63cf7abbf818ca001cbf54",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "intersection (0.24), medium residential (0.09), storage tanks (0.08)",
+          "confidence": 0.23901355266571045
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "42e2cb17312d5019d0d9eb8109ab34f28a1a0b2d65b1ecfe638af5d71f6df05e"
+    },
+    {
+      "image": "1984.tif",
+      "row": 193,
+      "view": "upright",
+      "query": "A storage tank with a highway beside .",
+      "seed": 395930,
+      "rendered_sha": "a09138bdf655d0b7cecd78b9f69358389d7027f15156b7ee357470acfe0f885d",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "2afb3c12860b01b451d8ea8f689ce58002ad67939daf53231ab4c86dd3b93b25"
+    },
+    {
+      "image": "1985.tif",
+      "row": 194,
+      "view": "upright",
+      "query": "A storage tank with a highway beside .",
+      "seed": 395940,
+      "rendered_sha": "b0e5e2eeb61aace5bb00aa9fe039c060cb269fad4b5a070dee2a7b9a48854d7e",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "storage tanks (0.33), intersection (0.06), chaparral (0.06)",
+          "confidence": 0.33298391103744507
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "4251bade38f96fdcfc4b8e37e53af3b1185ffc6dffb2abd430972ee88b3cb4dd"
+    },
+    {
+      "image": "1986.tif",
+      "row": 195,
+      "view": "upright",
+      "query": "A big storage tank is on the ground .",
+      "seed": 395950,
+      "rendered_sha": "57baa042d594b4bd13d4cf198a0e38e9301a338b3aedf65b0eb58a30ad58954f",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "storage tanks (0.36), buildings (0.07), baseball diamond (0.07)",
+          "confidence": 0.3618347942829132
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "e35f0bc4cfb437d87ab2d3ab37fc1f3687c523c25cc1c3e63fcf32df09bcffc8"
+    },
+    {
+      "image": "1987.tif",
+      "row": 196,
+      "view": "upright",
+      "query": "A big storage tank is on the ground .",
+      "seed": 395960,
+      "rendered_sha": "6c3c581b1bef5f3c1964c8eb39a4e2c2ef9be66d43ff6928d00ea8fbdfc2edbf",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "storage tanks (0.19), airplane (0.08), runway (0.07)",
+          "confidence": 0.18640834093093872
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "d32856f0b7435f4e75f4447f0dacc63a2d2b9d3887dbfb6501320cf24c349035"
+    },
+    {
+      "image": "1988.tif",
+      "row": 197,
+      "view": "upright",
+      "query": "A big storage tank is on the ground .",
+      "seed": 395970,
+      "rendered_sha": "9f5beb7b3d0cab5840e7d4b38082c2e902ea06d7895a45cb895e1c9c5ca5737c",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "storage tanks (0.40), baseball diamond (0.05), buildings (0.05)",
+          "confidence": 0.4001440107822418
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "59bd6796b6bd794054de68dd7678291f938092505d9c95a46d00ae3593b353d0"
+    },
+    {
+      "image": "1989.tif",
+      "row": 198,
+      "view": "upright",
+      "query": "A small storage tank is on the ground .",
+      "seed": 395980,
+      "rendered_sha": "c54e3d84a7de0da858d5189da73072131594e66a29478e2a405414c84b6f4d9e",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "storage tanks (0.28), buildings (0.07), airplane (0.06)",
+          "confidence": 0.2835657000541687
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "afdf71c29e9f5978cde6bcdb97ce025db91e3d4adba4b33aa7a98a93ba9420e1"
+    },
+    {
+      "image": "1990.tif",
+      "row": 199,
+      "view": "upright",
+      "query": "A small storage tank is on the ground .",
+      "seed": 395990,
+      "rendered_sha": "b34c696b0d5812a1cf9af56e2484ad8a6b97a9f25ef899e7ad5d085feb0c37ae",
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "8e7a90e342f9e178928e150233c00b45f9e9e00878500658140623e0edf5efc2"
+    },
+    {
+      "image": "2081.tif",
+      "row": 200,
+      "view": "upright",
+      "query": "Three tennis courts arranged neatly with some plants surrounded .",
+      "seed": 396000,
+      "rendered_sha": "af64ba0f6087c7202332ff955286905030101da1d51b496ca180dbd2259966cf",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "tennis court (0.41), baseball diamond (0.12), golf course (0.05)",
+          "confidence": 0.4112975001335144
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "b2377cca91c36aa8128430d7f7fb93e0093c32a93ec7e29304191c97a0906eca"
+    },
+    {
+      "image": "2082.tif",
+      "row": 201,
+      "view": "upright",
+      "query": "Four tennis courts arranged neatly with some plants and lawn surrounded .",
+      "seed": 396010,
+      "rendered_sha": "d481871c12741539545b5fd893200c69b2692849f3590cb697d00ae7907d40ea",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "tennis court (0.37), baseball diamond (0.11), golf course (0.08)",
+          "confidence": 0.3682086765766144
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "d46838936cab69babe3c0c2e59d2cfa46d0c5185adf8721390ad63fbbb7edf1b"
+    },
+    {
+      "image": "2083.tif",
+      "row": 202,
+      "view": "upright",
+      "query": "A tennis court next to a basketball court with some plants and buildings beside .",
+      "seed": 396020,
+      "rendered_sha": "f0051cdc7cea1a5a1877026e4c29c829df1b9833ec424086cb1f4bcb40177307",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "tennis court (0.27), dense residential (0.14), medium residential (0.10)",
+          "confidence": 0.26562756299972534
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "6b7ea19b8204d08ea742815a6ed81ae713bd026b5931f12e0b1302a00a881635"
+    },
+    {
+      "image": "2084.tif",
+      "row": 203,
+      "view": "upright",
+      "query": "Two tennis courts arranged neatly with some plants surrounded .",
+      "seed": 396030,
+      "rendered_sha": "776617cbc4d697df95d6ca378658016f1f1a140def31657341ab28135337f5dc",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "tennis court (0.40), dense residential (0.12), medium residential (0.08)",
+          "confidence": 0.39975234866142273
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "bee53c6c8a732443eb55515dd0111c3022aa62a85a59153ae13cd55bb1f3ee04"
+    },
+    {
+      "image": "2085.tif",
+      "row": 204,
+      "view": "upright",
+      "query": "Two tennis courts arranged neatly with some plants surrounded .",
+      "seed": 396040,
+      "rendered_sha": "d265d03cc64bc8d5cbead2f7f5d74712349852c6d8e8af456e9ea59f5f8455df",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "tennis court (0.36), baseball diamond (0.08), buildings (0.07)",
+          "confidence": 0.35826730728149414
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "6e6cee066efa3bd426ab3328fc30fefd65a6bfed460a97de7c31c02effff3495"
+    },
+    {
+      "image": "2086.tif",
+      "row": 205,
+      "view": "upright",
+      "query": "Four tennis courts arranged neatly on the lawn .",
+      "seed": 396050,
+      "rendered_sha": "02041655ac9143f2b80237648cfeaf9592f7bd2f2c8dbb6f807944c6f3d114c0",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "tennis court (0.38), baseball diamond (0.12), golf course (0.07)",
+          "confidence": 0.375813752412796
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "82798c445a23a64efa81fa49531212f7aadca7d026b02d2b84df5d84b620dd4c"
+    },
+    {
+      "image": "2087.tif",
+      "row": 206,
+      "view": "upright",
+      "query": "Two tennis courts arranged neatly with some plants surrounded .",
+      "seed": 396060,
+      "rendered_sha": "85c082167abcda4a49e7078affbf0fda809b1ab9d6b86af7b452b5ac5e731442",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "tennis court (0.25), sparse residential (0.11), baseball diamond (0.11)",
+          "confidence": 0.2538624107837677
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "1414ada4db3a2996b46d23a7e328b0d0283a32c3229cba63e2aa80be0ab8f0ed"
+    },
+    {
+      "image": "2088.tif",
+      "row": 207,
+      "view": "upright",
+      "query": "Four tennis courts arranged neatly with some plants surrounded .",
+      "seed": 396070,
+      "rendered_sha": "502d55e5a9c185d51f9081452035b1f2560e0db09677b604adaa7c800226a25a",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "tennis court (0.35), baseball diamond (0.10), parking lot (0.05)",
+          "confidence": 0.34619852900505066
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "813c9ee4c2d1bae11e20edc3440d59dbe5102f6cccd7d9592b568c27d71ebffa"
+    },
+    {
+      "image": "2089.tif",
+      "row": 208,
+      "view": "upright",
+      "query": "Four tennis courts arranged neatly on the lawn with some trees beside .",
+      "seed": 396080,
+      "rendered_sha": "c68d76912e4fd57a56a5fb0b862fc066604b7e7121529bd9e913cf4fb5243f3d",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "tennis court (0.34), baseball diamond (0.10), golf course (0.06)",
+          "confidence": 0.3351016342639923
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "3ac7fbaa7e2fc4a77be3fa3ab225013a81bdcedcf050663d105f52b85dd0a2c6"
+    },
+    {
+      "image": "2090.tif",
+      "row": 209,
+      "view": "upright",
+      "query": "Two tennis courts arranged neatly on the lawn with some trees beside .",
+      "seed": 396090,
+      "rendered_sha": "10baae5be9f44e23c69e5fda521c95f23c3c13bd99341a086cd721c7a2eedaa1",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "tennis court (0.29), baseball diamond (0.10), golf course (0.09)",
+          "confidence": 0.2932640314102173
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f8af80516c73c17b6feb1860f61a3cc3bbc5c550b25ba6154b674044100af11b"
+    }
+  ]
+}

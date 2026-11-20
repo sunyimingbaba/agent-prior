@@ -1,0 +1,1092 @@
+{
+  "weights": "5dc3acd62cc9d09d0f109226c35c9375b2b516340666045e024933d60e1719cd",
+  "active": "84d835f37ea97ba099808cf0b0c656be09224c2d586d095621caad568d30b6cc",
+  "part": "trainpanel",
+  "bundle": "1dd44ac2436eb6c9dad0180d5287099f6179378516e159498863605e324a12a2",
+  "records": [
+    {
+      "image": "1852.tif",
+      "row": 1491,
+      "view": "upright",
+      "query": "Scene: a residential area.",
+      "seed": 408910,
+      "rendered_sha": "98e91fbb73a011e5afa8651f89af86698a3cae68a74fad2fefbb9f10a5117673",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.43), medium residential (0.06), tennis court (0.04)",
+          "confidence": 0.43327945470809937
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "ff0a6e3c67620a898667110820d217aaf953d3504241527e0024f3a773fdb50b"
+    },
+    {
+      "image": "1852.tif",
+      "row": 1491,
+      "view": "rotated",
+      "query": "Scene: a residential area.",
+      "seed": 408910,
+      "rendered_sha": "59e3693ddfd2bb92c41849049445b539d246a4c5ba4797c0fb418f411dd38ee8",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "c4c7ed936204c0cf612e9de2b7697c51b9c2de5c05b115b0914d9f78d94a7aac"
+    },
+    {
+      "image": "1845.tif",
+      "row": 1484,
+      "view": "upright",
+      "query": "Scene: a residential area.",
+      "seed": 408840,
+      "rendered_sha": "af7ec2fb52a2d410dc9c4fd2a0f41124de8967c5b29ceab4573c64a3c09c819f",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.33), medium residential (0.11), dense residential (0.08)",
+          "confidence": 0.3289244472980499
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "1d70f14d7cf71e57c2ca04e4de9077b052c2aaf27cbd49829dc3f95052943c7b"
+    },
+    {
+      "image": "1845.tif",
+      "row": 1484,
+      "view": "rotated",
+      "query": "Scene: a residential area.",
+      "seed": 408840,
+      "rendered_sha": "930d343ebdb97f2177c9020dc430ce408f5817bb3d6fc7287455d2a7ced90ba2",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.36), medium residential (0.10), dense residential (0.07)",
+          "confidence": 0.3642423748970032
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "0718f7808f53b2dc533dbf35dc5b7a103a6ceebd0f01d6e430a74dd0d06e7ef7"
+    },
+    {
+      "image": "1907.tif",
+      "row": 1526,
+      "view": "upright",
+      "query": "Scene: a storage facility.",
+      "seed": 409260,
+      "rendered_sha": "3ff3867fc7698f0bdca5c21979af6e5663a6238f12fce92fb7139c995ed585ef",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "4a4ceef46b11f5faa60c1673452a1c8cac924ee3ffb6f286f050aab8be5bacb2"
+    },
+    {
+      "image": "1907.tif",
+      "row": 1526,
+      "view": "rotated",
+      "query": "Scene: a storage facility.",
+      "seed": 409260,
+      "rendered_sha": "befa126bf1bea083d9c2491902dafa28cec79ca8330945af932192a3f1e5e37a",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "storage tanks (0.37), buildings (0.09), baseball diamond (0.06)",
+          "confidence": 0.36755940318107605
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "309cfb4b04ba524469d8de3548a9448e0e456ccc1f28d31d1f0add1f5c73fff4"
+    },
+    {
+      "image": "1919.tif",
+      "row": 1538,
+      "view": "upright",
+      "query": "Scene: a storage facility.",
+      "seed": 409380,
+      "rendered_sha": "057d758c4ed1b5938a4da79ecdcd9312f5cab12f9abb0d1fcbbfa5eb2451369f",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "409ecdc6e1c5bf5d0c1bcbf4295d847cbc44aa66bf7b68867ec2c954f9a985b6"
+    },
+    {
+      "image": "1919.tif",
+      "row": 1538,
+      "view": "rotated",
+      "query": "Scene: a storage facility.",
+      "seed": 409380,
+      "rendered_sha": "e091e2b47ba208600f9951d7d6ec2c9b4ddfca34e4c24af8f64dd47b76a98485",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "69265b7fab88a2cc4b0c3dffceef32c39e3407b70d2f361ce91a5f67fa522216"
+    },
+    {
+      "image": "232.tif",
+      "row": 192,
+      "view": "upright",
+      "query": "Scene: a baseball facility.",
+      "seed": 395920,
+      "rendered_sha": "1906481b23301d18711bef59caf7618b29cc76887b15eb194ba4b797b226a9e7",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.34), golf course (0.06), buildings (0.05)",
+          "confidence": 0.3356582224369049
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "28dc46275cd05b6748678d479b098375769b5640d4d5df63896966f1c25bfdec"
+    },
+    {
+      "image": "232.tif",
+      "row": 192,
+      "view": "rotated",
+      "query": "Scene: a baseball facility.",
+      "seed": 395920,
+      "rendered_sha": "1027b20d6b79e29b361c99105a3cd3e3cfcc2d23331326e05aef8be651a31a55",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.32), golf course (0.06), parking lot (0.05)",
+          "confidence": 0.32107576727867126
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "90fcfdb0f6e87288dde1b4d3322ccbd574b9938ab154f228b5a679ef1e338215"
+    },
+    {
+      "image": "255.tif",
+      "row": 215,
+      "view": "upright",
+      "query": "Scene: a baseball facility.",
+      "seed": 396150,
+      "rendered_sha": "6e58fbfeaca1b4d8ff3af5e9f46e9d1471f1829d02008a233e41ba6a151cd990",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.50), tennis court (0.08), storage tanks (0.05)",
+          "confidence": 0.5039563179016113
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "5af24d397ed537658c9d01063f4673c19cbb36d91c898f9c3e1d1106f8f2c580"
+    },
+    {
+      "image": "255.tif",
+      "row": 215,
+      "view": "rotated",
+      "query": "Scene: a baseball facility.",
+      "seed": 396150,
+      "rendered_sha": "3ec5b1299c9e0a03aa6c59983e05317e5529ec85a16244c2c86dd1006bb44830",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.52), tennis court (0.07), storage tanks (0.04)",
+          "confidence": 0.523907482624054
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "c6d11fcfceb102f22064ed1eab004faf24fb0753f8e635dc4add1fc117b83353"
+    },
+    {
+      "image": "1853.tif",
+      "row": 1492,
+      "view": "upright",
+      "query": "Scene: a residential area.",
+      "seed": 408920,
+      "rendered_sha": "cd99b9973455be1bae2f42c85d40e9bf01a2b5132aa0e9175ca3987a8da62344",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.44), medium residential (0.06), golf course (0.05)",
+          "confidence": 0.4431104063987732
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f9511cd868106703d2a5c3959ddfebdf555655bc12c4487f5b930f6347eda660"
+    },
+    {
+      "image": "1853.tif",
+      "row": 1492,
+      "view": "rotated",
+      "query": "Scene: a residential area.",
+      "seed": 408920,
+      "rendered_sha": "0957a63895b54bc806f8a0f9ba2ee369da99c8564c213907fbe0e277acbd7d71",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.43), medium residential (0.07), golf course (0.06)",
+          "confidence": 0.427277535200119
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "49cf5c51d9af2e1b971dbd30ca2e301de6651245a8dfddfc773e2c9593e3472a"
+    },
+    {
+      "image": "221.tif",
+      "row": 181,
+      "view": "upright",
+      "query": "Scene: a baseball facility.",
+      "seed": 395810,
+      "rendered_sha": "0c919329e428e27e35ae544b5b5b7db86f619cf26917a043cbcc51d86d0b774f",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.61), golf course (0.05), tennis court (0.04)",
+          "confidence": 0.6054713726043701
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "bc293e4f64bd433cb60825acbc4b59c19bec50e9416b0e5b77aa8018f6984874"
+    },
+    {
+      "image": "221.tif",
+      "row": 181,
+      "view": "rotated",
+      "query": "Scene: a baseball facility.",
+      "seed": 395810,
+      "rendered_sha": "b8c4c65a90ba8643aa2eee92f06b01a36fffc63fff902cbceb8ea546f28a3c44",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.66), golf course (0.04), tennis court (0.04)",
+          "confidence": 0.6632862687110901
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "751a004100fbc28d503436f7d322f60738edc471779e7043acc218cbc632bb8e"
+    },
+    {
+      "image": "204.tif",
+      "row": 164,
+      "view": "upright",
+      "query": "Scene: a baseball facility.",
+      "seed": 395640,
+      "rendered_sha": "da84c537b4a472f8f7ac6251c309ec9ace8e6e4cbeb8b46e34afb5ba87a61c40",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.42), golf course (0.06), agricultural (0.05)",
+          "confidence": 0.41643860936164856
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "1b4fdbd12ef944227ac6c0a0baf00aced52c92ca204f2a8f46f32b9f1bb513fd"
+    },
+    {
+      "image": "204.tif",
+      "row": 164,
+      "view": "rotated",
+      "query": "Scene: a baseball facility.",
+      "seed": 395640,
+      "rendered_sha": "8687d6dac9b25155fac11b0c450f2c098469503b61e6238f0d24c9160a0869a6",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "baseball diamond (0.47), golf course (0.05), agricultural (0.04)",
+          "confidence": 0.467864990234375
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "123498fae9fae2a5e4fa40e6bc2a2a970bc34cce2043f65971d2d0af2a23c020"
+    },
+    {
+      "image": "325.tif",
+      "row": 265,
+      "view": "upright",
+      "query": "Scene: a beach.",
+      "seed": 396650,
+      "rendered_sha": "679270e9218b0f207cf81fb688627ab8ffb0edcd7a006fd98365dffb5d0e1115",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.43), harbor (0.06), agricultural (0.05)",
+          "confidence": 0.4293142557144165
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "56bca48b3994e909cd8d218f25449d816b03a3c5e57168d301b07263080b2f8d"
+    },
+    {
+      "image": "325.tif",
+      "row": 265,
+      "view": "rotated",
+      "query": "Scene: a beach.",
+      "seed": 396650,
+      "rendered_sha": "5dff56a43bd962ff1fa8afa05ef5b6f7f5f105e880fd3c6524894c5928d66709",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.44), harbor (0.06), chaparral (0.04)",
+          "confidence": 0.4417486786842346
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "9279f2b6fe983f3fafbb393bd1ad0e5d647ff097b8c4890de3e1bd0d2d8a05ad"
+    },
+    {
+      "image": "2022.tif",
+      "row": 1621,
+      "view": "upright",
+      "query": "Scene: a tennis facility.",
+      "seed": 410210,
+      "rendered_sha": "1d80274046e8d4ae975146701bd127e6eb6838274568fd9bcc12400e444eae7a",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "tennis court (0.55), buildings (0.04), baseball diamond (0.04)",
+          "confidence": 0.5528786182403564
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "c951b33c92ce20e6b4ef4b51b642dddcc37d8a8e532badb3726d2df9b15a37a7"
+    },
+    {
+      "image": "2022.tif",
+      "row": 1621,
+      "view": "rotated",
+      "query": "Scene: a tennis facility.",
+      "seed": 410210,
+      "rendered_sha": "6b0a66a914210f5a459d34b1caf93c8d22527035be84740ed4323ff9f6dcdcb7",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "tennis court (0.51), buildings (0.05), golf course (0.05)",
+          "confidence": 0.5061200261116028
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "3f2084975db64d462a5d12b84a685943e64fdb0c79b63d55cb22947fa378a855"
+    },
+    {
+      "image": "1854.tif",
+      "row": 1493,
+      "view": "upright",
+      "query": "Scene: a residential area.",
+      "seed": 408930,
+      "rendered_sha": "6a08513d60df8140a513b52c6b3fb4b87615e44a3aa1e464f75b93e606105bf7",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.42), medium residential (0.10), dense residential (0.06)",
+          "confidence": 0.4228401780128479
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "79915e9f5d4f361cd8b5841533c5f12d817656d17b11999465f58ae25c028bd1"
+    },
+    {
+      "image": "1854.tif",
+      "row": 1493,
+      "view": "rotated",
+      "query": "Scene: a residential area.",
+      "seed": 408930,
+      "rendered_sha": "d3c559d98e239b5c698759c4529ff9ec3deb2f5df0f273819813143c9d166efa",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.40), medium residential (0.11), dense residential (0.05)",
+          "confidence": 0.4039067029953003
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "717150cccb280634afe751f3b3f3805cf55ae2502bc2eef5f048f1d6895d079c"
+    },
+    {
+      "image": "1933.tif",
+      "row": 1552,
+      "view": "upright",
+      "query": "Scene: a storage facility.",
+      "seed": 409520,
+      "rendered_sha": "86bc967adea2e333e7151e1fb4c52c2d0887cb9dda7444f80e9c8eeb81e8a7f0",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "storage tanks (0.62), parking lot (0.04), airplane (0.03)",
+          "confidence": 0.6205237507820129
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "2880b7d41ab8b6b9099cd4057b9d16a63e24cc059065028db4816e15b9dbb842"
+    },
+    {
+      "image": "1933.tif",
+      "row": 1552,
+      "view": "rotated",
+      "query": "Scene: a storage facility.",
+      "seed": 409520,
+      "rendered_sha": "e1456e312fdbe11b33873bf64debed594d49d47e28b8ed79ba30483a681f3475",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "storage tanks (0.58), parking lot (0.04), airplane (0.03)",
+          "confidence": 0.5792020559310913
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "ab8e06a24de234166392968386fd6c356a9898fd40970abf93a6bd2c5437ce97"
+    },
+    {
+      "image": "2007.tif",
+      "row": 1606,
+      "view": "upright",
+      "query": "Scene: a tennis facility.",
+      "seed": 410060,
+      "rendered_sha": "375c321c5d54781a2df60f0da1a1bdc22b11a921da787a7e83fc5243baa013e6",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "tennis court (0.59), baseball diamond (0.05), golf course (0.04)",
+          "confidence": 0.5928758978843689
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "ed7089a132ed5b72c7f940fee22ebf071b9e976a8e45e6b8a89ac1644cf18be9"
+    },
+    {
+      "image": "2007.tif",
+      "row": 1606,
+      "view": "rotated",
+      "query": "Scene: a tennis facility.",
+      "seed": 410060,
+      "rendered_sha": "9faf8697098f33fc7dd62d2f358e7daf40f8f1fdba1e56bac5647f2c15cae629",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "tennis court (0.57), baseball diamond (0.04), buildings (0.04)",
+          "confidence": 0.5729432106018066
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "4d4e50097fd14e952a9f8fddf9b897eec987544da05e471d4e15c01569121bf7"
+    },
+    {
+      "image": "304.tif",
+      "row": 244,
+      "view": "upright",
+      "query": "Scene: a beach.",
+      "seed": 396440,
+      "rendered_sha": "c29caec0b50c9036064be4f1ed9e58bdabfb425b008221d67d30b51eeb065a72",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.50), agricultural (0.05), chaparral (0.05)",
+          "confidence": 0.4956185817718506
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f4e3a3ba7cd03ffd7bbb12dbb8d991d8640318ba13e9f666556e47052c48c688"
+    },
+    {
+      "image": "304.tif",
+      "row": 244,
+      "view": "rotated",
+      "query": "Scene: a beach.",
+      "seed": 396440,
+      "rendered_sha": "fd7d31698498c8a6ccd6340000a49be937cd37fd5340d8ddec731fff9506face",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.49), agricultural (0.06), forest (0.05)",
+          "confidence": 0.4928971230983734
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "6b71f880ff47cc0b2ad613d3bbf3b184f31d78491f3e210e3294a207766149b6"
+    },
+    {
+      "image": "1969.tif",
+      "row": 1588,
+      "view": "upright",
+      "query": "Scene: a storage facility.",
+      "seed": 409880,
+      "rendered_sha": "34a5d683ecd555269c13d1c366c7e8404a7ffe0342a6cf71333a4546eadec4e1",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "cbbcd3fcdd38d736a73e7382bfd06038bf6f3dacfb6ebed38dcdf5c76430d105"
+    },
+    {
+      "image": "1969.tif",
+      "row": 1588,
+      "view": "rotated",
+      "query": "Scene: a storage facility.",
+      "seed": 409880,
+      "rendered_sha": "72c0c4389392dab3bd8ac3965cc96f7e58aa326b9ab137bcba800b5f89c950ba",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "6058bb6daa397275bfff66884c1b990106a0acfebba64ae75e9b57f26b026932"
+    }
+  ]
+}

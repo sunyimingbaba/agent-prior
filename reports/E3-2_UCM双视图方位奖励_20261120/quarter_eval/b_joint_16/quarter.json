@@ -1,0 +1,1006 @@
+{
+  "weights": "126e14fff440151f498fb2e8248aa14d0fac42a7425cb5ac6de9e05d8136d20c",
+  "active": "4cd922e90a5dcf588a82840a142a80e5073ffd698e9444c3412616330e8a0214",
+  "part": "quarter",
+  "bundle": "a04d66bd87873fb1044b9d02c25e3b6d1b17feb04e2acc45c26b0a711f23d400",
+  "records": [
+    {
+      "image": "183.tif",
+      "row": 12,
+      "view": "cw90",
+      "query": "An aerial view of a airport apron.",
+      "seed": 394120,
+      "rendered_sha": "7db6349a7a788da5cf18deaacff095d0f64e495207fa0564dac51d378d33c52b",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "82f9d222f923230927e9d209062680c8ea17dbfc6bfbd0db7a705b1f8dab78a8"
+    },
+    {
+      "image": "183.tif",
+      "row": 12,
+      "view": "ccw90",
+      "query": "An aerial view of a airport apron.",
+      "seed": 394120,
+      "rendered_sha": "e2eb37295967fd4ea3aa3dab8fe4d183fd5a2e8e308e1187ec1c99d7a4ccdaa9",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "52cf6481461766aeeed31e4670e08799042a7257364f59ccad11769b53c8382a"
+    },
+    {
+      "image": "383.tif",
+      "row": 31,
+      "view": "cw90",
+      "query": "An aerial view of a beach.",
+      "seed": 394310,
+      "rendered_sha": "2d3033b11587a6fd98b95d6a27f17a0fce14eb1b3642e49843db1699d30f1b9d",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.42), chaparral (0.07), agricultural (0.06)",
+          "confidence": 0.42333728075027466
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "86abf04c65f899ab6ba65ee5980d1a9993e9a1f115fbd00f1dc92e6fb2c9ed50"
+    },
+    {
+      "image": "383.tif",
+      "row": 31,
+      "view": "ccw90",
+      "query": "An aerial view of a beach.",
+      "seed": 394310,
+      "rendered_sha": "ea83962028b48aeaddb9652330781b4491a596bf32b358a0c012a7fc03837724",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.42), chaparral (0.07), agricultural (0.06)",
+          "confidence": 0.416568398475647
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "71ab15c5e9943bd81d4fa0e0d4bdc892eada8d5f06f584bf6a60fa0aa53dad43"
+    },
+    {
+      "image": "389.tif",
+      "row": 37,
+      "view": "cw90",
+      "query": "An aerial view of a beach.",
+      "seed": 394370,
+      "rendered_sha": "267c4b51b27847e73a7280962de9ffb24310c4ac4c6df16b4b6d5acfaae12645",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.48), harbor (0.06), chaparral (0.06)",
+          "confidence": 0.4806855022907257
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "2a477b20dad94e2c3d0849383cb5a13cd0f00129701d009be19428ee6eb6c069"
+    },
+    {
+      "image": "389.tif",
+      "row": 37,
+      "view": "ccw90",
+      "query": "An aerial view of a beach.",
+      "seed": 394370,
+      "rendered_sha": "d30c054c6cdd7977cd84fda755d7e90dd7ed7a90a4821b8c02d6e27389355ed2",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "beach (0.48), harbor (0.06), chaparral (0.05)",
+          "confidence": 0.4764830470085144
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "5a20b63b97d04de06e4cf719d631a94e37345fce3a3505220b10771469bf7439"
+    },
+    {
+      "image": "484.tif",
+      "row": 42,
+      "view": "cw90",
+      "query": "An aerial view of a industrial area.",
+      "seed": 394420,
+      "rendered_sha": "b357257635ac4d964644b50db055d7621d8cb9e3c42168e7d13a0afed63db790",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "buildings (0.12), storage tanks (0.09), parking lot (0.08)",
+          "confidence": 0.11556441336870193
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "44e4a3f544a1ee357f8c4c6cc2c0c94d4b3f0a4f983c32669a0f27535b3cbc0d"
+    },
+    {
+      "image": "484.tif",
+      "row": 42,
+      "view": "ccw90",
+      "query": "An aerial view of a industrial area.",
+      "seed": 394420,
+      "rendered_sha": "e3e1d11f8436410e45f427a186b1f1f64b9d6594779739254b0f0c929c98f551",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "buildings (0.10), storage tanks (0.09), parking lot (0.08)",
+          "confidence": 0.10278530418872833
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "c47923f8ed0fa4d92d21db8ac75c0b4eb33d258835472b881fa4154e853b2417"
+    },
+    {
+      "image": "489.tif",
+      "row": 47,
+      "view": "cw90",
+      "query": "An aerial view of a industrial area.",
+      "seed": 394470,
+      "rendered_sha": "d70d38202af77386bca80ba63165d1b1aee541a86adb4c3a9dba1905cea9805c",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "buildings (0.17), mobile home park (0.16), dense residential (0.07)",
+          "confidence": 0.17279481887817383
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "8c531e1e0946569d64734d2d2a29e924b34a5f3ecdd65263f59e7f37a0a2f9c3"
+    },
+    {
+      "image": "489.tif",
+      "row": 47,
+      "view": "ccw90",
+      "query": "An aerial view of a industrial area.",
+      "seed": 394470,
+      "rendered_sha": "a0eaa198d613beb28cf9b2d21946bf968ef68ef639215ee727ba3a3fd4e94c9e",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "buildings (0.22), mobile home park (0.11), storage tanks (0.07)",
+          "confidence": 0.22177864611148834
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "ec23b5fa1750a0f06e631b06c8c0c1481833b45d891a0f089d4fababdb0b70d8"
+    },
+    {
+      "image": "681.tif",
+      "row": 62,
+      "view": "cw90",
+      "query": "An aerial view of a residential area.",
+      "seed": 394620,
+      "rendered_sha": "334fde0b2a8ed3f3818ad39a7b39bb909da1f47ccdb2ea87472fd13a7bf65a8b",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "120c457b710a6d73ad0745362d0d67ed3e788b37e38a6bf2dcd15d8055788dd8"
+    },
+    {
+      "image": "681.tif",
+      "row": 62,
+      "view": "ccw90",
+      "query": "An aerial view of a residential area.",
+      "seed": 394620,
+      "rendered_sha": "36cdc7fed8e416c421851c91f47ddcdedde25ab5409112812f94ddc4281824fd",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "257ebc90a2bc5d1be06868eb84726fad50dc339d1ed686bb8c3d19ab1c20868e"
+    },
+    {
+      "image": "883.tif",
+      "row": 84,
+      "view": "cw90",
+      "query": "An aerial view of a freeway.",
+      "seed": 394840,
+      "rendered_sha": "0f072b74641d16802471dade6350a756128f8535a23c71109dc67fb0347a0bce",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "3e40071b952393cd0bc97e354f20bca8c2621cd3989b74b3da7f56656238971a"
+    },
+    {
+      "image": "883.tif",
+      "row": 84,
+      "view": "ccw90",
+      "query": "An aerial view of a freeway.",
+      "seed": 394840,
+      "rendered_sha": "733aaf7279be251337e03ccb5d30150f16ff0ed44bdaa9fdf45c2f6553999137",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "c53926804d0f4ae27f0888cea3d80ac75e9ae6b4151c14665f947535b2791f3c"
+    },
+    {
+      "image": "889.tif",
+      "row": 90,
+      "view": "cw90",
+      "query": "An aerial view of a freeway.",
+      "seed": 394900,
+      "rendered_sha": "b4f2f0880bbf641d7a38c0a886b69afd8769bf6babf78ceaf694171c50e99baa",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "54e289b58cd8c70b762588087f268cd35ad1986f6bbb08b65000caef122bb403"
+    },
+    {
+      "image": "889.tif",
+      "row": 90,
+      "view": "ccw90",
+      "query": "An aerial view of a freeway.",
+      "seed": 394900,
+      "rendered_sha": "c29267346f8e686abc4962f69126c71d545f6492e605e874eba51553cd6368fe",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "5f3a9f3f942b48d06757889dc2877e41e4d79e7438198a793061986fce358c62"
+    },
+    {
+      "image": "981.tif",
+      "row": 92,
+      "view": "cw90",
+      "query": "An aerial view of a golf course.",
+      "seed": 394920,
+      "rendered_sha": "50d818795b82db8ff42e9efac0a1a7dcf3193e0e67d971c8c78548023634e3ce",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "golf course (0.51), baseball diamond (0.06), tennis court (0.06)",
+          "confidence": 0.5057329535484314
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "4a40acca3ee1bc3620ae716073c83ed7030fbb4d7090bb20694dabab9c611f1f"
+    },
+    {
+      "image": "981.tif",
+      "row": 92,
+      "view": "ccw90",
+      "query": "An aerial view of a golf course.",
+      "seed": 394920,
+      "rendered_sha": "5b81b2fef762fb1bb22fa625fcc8f40f0646747c5b30757b843b5947225889de",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "golf course (0.50), baseball diamond (0.06), tennis court (0.05)",
+          "confidence": 0.4979154169559479
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "3c4a28e668a1643e8abb1a13425b731d3d178ccfb711b23593adafe7938c8308"
+    },
+    {
+      "image": "986.tif",
+      "row": 97,
+      "view": "cw90",
+      "query": "An aerial view of a golf course.",
+      "seed": 394970,
+      "rendered_sha": "6dd80575e4d8030328bdee61645322dc072fe917e84aa8cf54a7fb4a20dafaee",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "golf course (0.53), tennis court (0.07), baseball diamond (0.05)",
+          "confidence": 0.5303924679756165
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "f7d1f148634dc90aef0edd317e871c29a7c3103f7399f4fa8005fdbbf2bdc5c4"
+    },
+    {
+      "image": "986.tif",
+      "row": 97,
+      "view": "ccw90",
+      "query": "An aerial view of a golf course.",
+      "seed": 394970,
+      "rendered_sha": "3a93b923be6cd2cb1c0e25e743c5f2f7e2c7eac51ecfd92254f2ea4b054c83e3",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "golf course (0.58), tennis court (0.06), baseball diamond (0.05)",
+          "confidence": 0.5825148224830627
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "0a7b15424635cd23539911e425a1f18fb00ecb0a1fd1f5fb68437b07320e5ec5"
+    },
+    {
+      "image": "1184.tif",
+      "row": 114,
+      "view": "cw90",
+      "query": "An aerial view of a road intersection.",
+      "seed": 395140,
+      "rendered_sha": "fa5403cfea89b0dfe04c8a97828210ff845051c830bb4ad19bac433c51e6b78c",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "intersection (0.54), overpass (0.09), freeway (0.05)",
+          "confidence": 0.5395155549049377
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "be6cdbba2a5436c0a365aedac579fbfffd55df1f2c18475e2a028a6e08480ea5"
+    },
+    {
+      "image": "1184.tif",
+      "row": 114,
+      "view": "ccw90",
+      "query": "An aerial view of a road intersection.",
+      "seed": 395140,
+      "rendered_sha": "70ced432d5d2ca966324fda836705fb13250fce690184e3f58e58dce8f645349",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "intersection (0.49), overpass (0.10), medium residential (0.06)",
+          "confidence": 0.4890913963317871
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "e528d61495f603704f3a0c64dc68f08b554dd87bbc95d2a1c3c0b767a23706c6"
+    },
+    {
+      "image": "1188.tif",
+      "row": 118,
+      "view": "cw90",
+      "query": "An aerial view of a road intersection.",
+      "seed": 395180,
+      "rendered_sha": "6defb643fc3f5d2c7eb3f78e5136af27de9ebbb37b62f2ba295257a9f428d5ae",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "2ee2c86ba4f8553108729b701204b21fee8616d25d44a690ad92f32ddeb6d1c1"
+    },
+    {
+      "image": "1188.tif",
+      "row": 118,
+      "view": "ccw90",
+      "query": "An aerial view of a road intersection.",
+      "seed": 395180,
+      "rendered_sha": "d18dc5dcb08e095bab25525b04f6017312e6423eeb0a2bca535278f4e38e49e4",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "5d1589c655fce0fe06ee3e3409a5359b86018a4addc23806b52074c5f5302552"
+    },
+    {
+      "image": "1281.tif",
+      "row": 120,
+      "view": "cw90",
+      "query": "An aerial view of a residential area.",
+      "seed": 395200,
+      "rendered_sha": "3788dd26f61eedbed230014fb931ada7483f64e10b81e3e20df3fd7f6be16669",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "sparse residential (0.18), medium residential (0.17), dense residential (0.10)",
+          "confidence": 0.18266122043132782
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "8747e37579174e670bb29944b97c6d755f25ae2929bb3b1b2651ff97c9d6ebff"
+    },
+    {
+      "image": "1281.tif",
+      "row": 120,
+      "view": "ccw90",
+      "query": "An aerial view of a residential area.",
+      "seed": 395200,
+      "rendered_sha": "e33fc9f3060e8ef8411d21e0c874ff66bcfb78f924423bb82f328804b48da636",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "medium residential (0.19), sparse residential (0.17), dense residential (0.12)",
+          "confidence": 0.18689922988414764
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "fed33a62c18a62299cdf17e914ac3706a91c043e6fd1570f9c996505e6014d97"
+    },
+    {
+      "image": "1289.tif",
+      "row": 128,
+      "view": "cw90",
+      "query": "An aerial view of a residential area.",
+      "seed": 395280,
+      "rendered_sha": "3ccb925e0d90ec6a325243c661df983b67552dbc82e76c1cfd9856133ef7c51d",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "20882ec7069b1ab5bf8e4e12a2595e84b02222200854bf5618d9ee50dd27c2c0"
+    },
+    {
+      "image": "1289.tif",
+      "row": 128,
+      "view": "ccw90",
+      "query": "An aerial view of a residential area.",
+      "seed": 395280,
+      "rendered_sha": "787ea10193df6a5885a7ef0eb3c3d087cbf4f5081db9d0264bfd44ed3c9de354",
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "format": 0.0,
+      "immediate_eos": true,
+      "hidden_sha": "c04d81d321497072de9b84e17b1cc345da067816bfbfc26d55b426817e9a53e5"
+    },
+    {
+      "image": "1390.tif",
+      "row": 139,
+      "view": "cw90",
+      "query": "An aerial view of a mobile home park.",
+      "seed": 395390,
+      "rendered_sha": "7c954a4b49c309019f085d62048ec149f9d18beaf153b44e61279f5f18c5b57d",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "medium residential (0.20), mobile home park (0.16), dense residential (0.10)",
+          "confidence": 0.2046845257282257
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "b514ec8ec03bfe9844573edee40138da734d8677af234084d079db4aa221500d"
+    },
+    {
+      "image": "1390.tif",
+      "row": 139,
+      "view": "ccw90",
+      "query": "An aerial view of a mobile home park.",
+      "seed": 395390,
+      "rendered_sha": "715f2e29f8bf29c9337828a14f80d1910c441ba20d93cfe8f673336ab32927e4",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "medium residential (0.20), mobile home park (0.16), dense residential (0.12)",
+          "confidence": 0.2035602331161499
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "ac83f8d5a3074fa72ff55a2f5e029f4916879202f3a5ac5e7cbc93342e3b7be2"
+    },
+    {
+      "image": "1784.tif",
+      "row": 173,
+      "view": "cw90",
+      "query": "An aerial view of a runway.",
+      "seed": 395730,
+      "rendered_sha": "ddc8f0f84047eca93226cf68c0c53b6ec8ecf0aa0279888dad1619875f6cfd4c",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "runway (0.34), airplane (0.11), intersection (0.05)",
+          "confidence": 0.34483981132507324
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "49c0f27e1020114b0b6ecc43bbee318ccd53f0ee231472ad331449d760741716"
+    },
+    {
+      "image": "1784.tif",
+      "row": 173,
+      "view": "ccw90",
+      "query": "An aerial view of a runway.",
+      "seed": 395730,
+      "rendered_sha": "4ad9bb067a3a19b760844baa933b98039c7f0765ddae59f8f216b26ee58fa393",
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "answer": "runway (0.37), airplane (0.15), intersection (0.04)",
+          "confidence": 0.3716186285018921
+        }
+      ],
+      "format": 0.0,
+      "immediate_eos": false,
+      "hidden_sha": "cd5ff9ba4df45a1bde437c13d47575eacb7002a0bfb9993317fd4f9b7a00cc66"
+    }
+  ]
+}

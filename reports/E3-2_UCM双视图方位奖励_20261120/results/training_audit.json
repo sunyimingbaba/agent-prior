@@ -1,0 +1,96 @@
+{
+  "arms": {
+    "a_single": {
+      "generated_tokens": 1080,
+      "sampled": 128,
+      "positive_single_view": 70,
+      "nonzero": 15,
+      "tensors": 584,
+      "max_adv_error": 2.384185791015625e-07,
+      "max_logp_error": 0.0,
+      "paired_both": null,
+      "groups_any_possible": null,
+      "groups_positive_pair": null,
+      "groups_different_advantages": null
+    },
+    "a_separate": {
+      "generated_tokens": 1030,
+      "sampled": 128,
+      "positive_single_view": 55,
+      "nonzero": 15,
+      "tensors": 584,
+      "max_adv_error": 0.0,
+      "max_logp_error": 0.0,
+      "paired_both": 1,
+      "groups_any_possible": 1,
+      "groups_positive_pair": 1,
+      "groups_different_advantages": 16
+    },
+    "a_joint": {
+      "generated_tokens": 1084,
+      "sampled": 128,
+      "positive_single_view": 59,
+      "nonzero": 16,
+      "tensors": 584,
+      "max_adv_error": 5.960464477539063e-08,
+      "max_logp_error": 0.0,
+      "paired_both": 4,
+      "groups_any_possible": 3,
+      "groups_positive_pair": 3,
+      "groups_different_advantages": 16
+    },
+    "b_single": {
+      "generated_tokens": 1524,
+      "sampled": 128,
+      "positive_single_view": 61,
+      "nonzero": 16,
+      "tensors": 584,
+      "max_adv_error": 1.1920928955078125e-07,
+      "max_logp_error": 0.0,
+      "paired_both": null,
+      "groups_any_possible": null,
+      "groups_positive_pair": null,
+      "groups_different_advantages": null
+    },
+    "b_separate": {
+      "generated_tokens": 1496,
+      "sampled": 128,
+      "positive_single_view": 59,
+      "nonzero": 16,
+      "tensors": 584,
+      "max_adv_error": 0.0,
+      "max_logp_error": 0.0,
+      "paired_both": 4,
+      "groups_any_possible": 4,
+      "groups_positive_pair": 4,
+      "groups_different_advantages": 16
+    },
+    "b_joint": {
+      "generated_tokens": 1321,
+      "sampled": 128,
+      "positive_single_view": 63,
+      "nonzero": 16,
+      "tensors": 584,
+      "max_adv_error": 1.1920928955078125e-07,
+      "max_logp_error": 0.0,
+      "paired_both": 4,
+      "groups_any_possible": 3,
+      "groups_positive_pair": 3,
+      "groups_different_advantages": 15
+    }
+  },
+  "matched_prefix": {
+    "a": {
+      "first_distinct_advantage": 1,
+      "first_distinct_weights": 1,
+      "identical_sample_groups_through_first_effect": 1,
+      "single_first_four_upright_match": true
+    },
+    "b": {
+      "first_distinct_advantage": 1,
+      "first_distinct_weights": 1,
+      "identical_sample_groups_through_first_effect": 1,
+      "single_first_four_upright_match": true
+    }
+  }
+}
