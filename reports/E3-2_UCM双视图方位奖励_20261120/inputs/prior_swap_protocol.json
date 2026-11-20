@@ -1,0 +1,7 @@
+{
+  "role": "Exploratory mechanism diagnostic, separate from the primary comparison. Added after the first intermediate state had been evaluated. No weight selection.",
+  "states": ["base_00", "a_single_16", "a_separate_16", "a_joint_16", "b_single_16", "b_separate_16", "b_joint_16"],
+  "inputs": "Use all 16 existing validation sources, two C/D wordings and the 0/180 scene-cue hidden vectors already produced by greedy inference.",
+  "design": "Cross the two pixel views with the two saved same-source Agent hidden vectors. Verify own-view embeddings against deployment, store all four vectors. No empty or artificial hidden vector. Score original-correct minus original-reverse text for all four cells with the deployed frozen readout.",
+  "quantities": "Write s_ij for raw original-oriented positive-minus-negative margin at pixels i, hidden j (0 original, 1 rotated). Natural mean signed margin=(s00-s11)/2. Pixel contribution=(s00+s01-s10-s11)/4. Hidden contribution=(s00+s10-s01-s11)/4. This describes a frozen-readout intervention for this pair of views. Also count strict both-correct with swapped priors, or with one same-source prior fixed on both pixels."
+}
