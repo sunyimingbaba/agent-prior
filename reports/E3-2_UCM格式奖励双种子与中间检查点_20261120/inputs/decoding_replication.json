@@ -1,0 +1,13 @@
+{
+  "scope": "Secondary replication on seed A, additional to originally specified seed B. Locked before either seed had any checkpoint-24 intervention result and before seed B training began. Run full native retrieval and two-view detail at step 24 for A on and off, blocking both EOS tokens only for the first generated token of the first round. Retain both seeds regardless of direction. Also compare format reward on/off averaged across matched seeds under the intervention. Formal promotion remains based exclusively on unmodified decoding.",
+  "seed": "a",
+  "arms": [
+    "a_off",
+    "a_on"
+  ],
+  "step": 24,
+  "parts": [
+    "native",
+    "detail"
+  ]
+}
