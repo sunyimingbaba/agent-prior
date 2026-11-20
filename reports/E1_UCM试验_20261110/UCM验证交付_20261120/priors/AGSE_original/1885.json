@@ -1,0 +1,39 @@
+{
+  "image": "1885.tif",
+  "rgb_sha256": "232400c2f4418a3da80b4cad9a41b96b9d1ab4f16e989662828f4118c0bc44ab",
+  "method": "AGSE_original",
+  "query": "A house with orange roofs is surrounded by trees and cropland in the sparse residential area .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "sparse residential (0.17), storage tanks (0.12), buildings (0.10)",
+      "confidence": 0.17075024545192719
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "5b2206ec58142486438570290a9bcb26edbe3e47f52f0054a4fa44de46fd38de",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "fa3ed6fc6d0b55b3afad13379c6a219c68d71aed2fdc82e4ad2e50a394783f24"
+}

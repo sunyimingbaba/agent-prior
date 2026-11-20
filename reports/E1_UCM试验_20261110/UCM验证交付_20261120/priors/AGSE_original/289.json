@@ -1,0 +1,39 @@
+{
+  "image": "289.tif",
+  "rgb_sha256": "d3139c7d367b3e32f71928dd97a060ed4b7fb4eadd2e15e70ce30f7163692e24",
+  "method": "AGSE_original",
+  "query": "This is a baseball diamond .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "baseball diamond (0.48), golf course (0.07), storage tanks (0.05)",
+      "confidence": 0.4767891764640808
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "1e32a968e33bf15fc0cdc3d710c52fd96a8d1cb75b85f7357a411355c4d2ca58",
+  "archive_cos": 1.0000008344650269,
+  "sha256": "d218db47d052215cc8ef6648fd9663a053dcec3542ee1b69eb704dd5ad79e6c9"
+}

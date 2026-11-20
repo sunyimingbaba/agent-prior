@@ -1,0 +1,63 @@
+{
+  "image": "2081.tif",
+  "rgb_sha256": "af64ba0f6087c7202332ff955286905030101da1d51b496ca180dbd2259966cf",
+  "method": "AGSE_scene",
+  "query": "Scene: a tennis facility.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        90557,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        54021,
+        100146,
+        46944,
+        31139,
+        108992,
+        100725,
+        3837,
+        101137,
+        51154,
+        108704,
+        101047,
+        53481,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "��\n addCriterion\n<answer>图中显示的是一个网球场设施，符合查询文本中的描述。</answer>"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "tennis court (0.41), baseball diamond (0.12), golf course (0.05)",
+      "confidence": 0.4112975001335144
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "5b69a60aa1f1f24f01bc33cbf15f0ad41775868785d7cebf76643bed26963496"
+}

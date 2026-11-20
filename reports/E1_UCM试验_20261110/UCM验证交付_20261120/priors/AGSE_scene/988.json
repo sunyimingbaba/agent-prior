@@ -1,0 +1,37 @@
+{
+  "image": "988.tif",
+  "rgb_sha256": "ff555b789cd1a847577d75f90d723db08019da39eb30d560307828bbd6f57dad",
+  "method": "AGSE_scene",
+  "query": "Scene: a golf course.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "golf course (0.46), tennis court (0.07), baseball diamond (0.05)",
+      "confidence": 0.46108266711235046
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "5a28e29f601c42a497d63571c14d67fb8df46c713c51bf17014dd8ab61aae968"
+}

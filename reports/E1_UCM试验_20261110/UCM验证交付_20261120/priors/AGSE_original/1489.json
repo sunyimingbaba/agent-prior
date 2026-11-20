@@ -1,0 +1,39 @@
+{
+  "image": "1489.tif",
+  "rgb_sha256": "32ad470b9033349857ddc3d2f80291c3de046aeac753dab4e2025fabcfbc1c57",
+  "method": "AGSE_original",
+  "query": "A narrow road go across another one diagonally .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "overpass (0.27), freeway (0.09), runway (0.08)",
+      "confidence": 0.272418737411499
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "fbf0484c0b879319cea063c0fd94fde4f0dc1509ebba1e25bbb6f614c47cad68",
+  "archive_cos": 1.0000009536743164,
+  "sha256": "29ac6cb3b557661fd3d52c8b247c27e0d47b5c9f9a7008cbbfea362447cdeac4"
+}

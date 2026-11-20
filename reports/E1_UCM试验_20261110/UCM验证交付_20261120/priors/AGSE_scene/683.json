@@ -1,0 +1,38 @@
+{
+  "image": "683.tif",
+  "rgb_sha256": "108908afa967c528cddddb28110d00b64f3e56ae4cdca73949ef4f1137e16844",
+  "method": "AGSE_scene",
+  "query": "Scene: a residential neighborhood.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "dense residential (0.23), medium residential (0.20), mobile home park (0.12)",
+      "confidence": 0.23094001412391663
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "ea55bbddc2ddcb34c1ec9689da6595d415651afdc154657c4c99466ed80999dd"
+}

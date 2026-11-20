@@ -1,0 +1,37 @@
+{
+  "image": "1084.tif",
+  "rgb_sha256": "03c385dd773885986f6c076606550b6080e86283bdd56ed75f371551d3807ac1",
+  "method": "AGSE_scene",
+  "query": "Scene: a harbor with boats.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "harbor (0.51), beach (0.06), agricultural (0.04)",
+      "confidence": 0.5070884823799133
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "8e05e3934c41ffe7a0af609ef72fa5f4c90fb11799d5b27d0909c29dc0da61bc"
+}

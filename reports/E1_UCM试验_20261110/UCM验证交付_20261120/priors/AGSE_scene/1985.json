@@ -1,0 +1,65 @@
+{
+  "image": "1985.tif",
+  "rgb_sha256": "b0e5e2eeb61aace5bb00aa9fe039c060cb269fad4b5a070dee2a7b9a48854d7e",
+  "method": "AGSE_scene",
+  "query": "Scene: a storage facility.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        104133,
+        99871,
+        105240,
+        100725,
+        3837,
+        101137,
+        51154,
+        108704,
+        101047,
+        2073,
+        64,
+        5819,
+        12481,
+        55807,
+        522,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中有一个储罐设施，符合查询文本中的“a storage facility”。</answer>"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "storage tanks (0.33), intersection (0.06), chaparral (0.06)",
+      "confidence": 0.33298391103744507
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "47f94fef29d669d8910c114acb84696cb0e12ccf4b528f3333a1e37ada366610"
+}

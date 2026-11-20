@@ -1,0 +1,41 @@
+{
+  "image": "1983.tif",
+  "rgb_sha256": "7ca60533f6615e71e0bc77df4d50f12823fe76a88f63cf7abbf818ca001cbf54",
+  "method": "AGSE_original",
+  "query": "A storage tank with some houses and plants beside .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "intersection (0.24), medium residential (0.09), storage tanks (0.08)",
+      "confidence": 0.23901355266571045
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "e3daf7e838fdea114fb3304e3355e8a6754a182a82d7f5c6c29b255e9df3383b",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "3a3f5c64285b02c4622ddad475ef2d005462df1c2811f042626caa9a1a9668f9"
+}

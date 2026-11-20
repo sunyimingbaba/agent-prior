@@ -1,0 +1,39 @@
+{
+  "image": "184.tif",
+  "rgb_sha256": "6fb50ab4ba3ad3c01f6d1d092683061dc4c0ebef3bbb3701be7e4a602df5daaf",
+  "method": "AGSE_original",
+  "query": "There is a white airplane on the runway .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "airplane (0.49), runway (0.12), freeway (0.03)",
+      "confidence": 0.4893558919429779
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "35b60ab39a633fcab3a9f3af6a2edcff6733e47baca5f40e86a717b9f2791a32",
+  "archive_cos": 1.000001072883606,
+  "sha256": "3c9fb925a0672e17af1d4a9dc0a22d242c1e415d6affd6ccd4997209eb691455"
+}

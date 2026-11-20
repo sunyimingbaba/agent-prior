@@ -1,0 +1,39 @@
+{
+  "image": "286.tif",
+  "rgb_sha256": "0083a81747dea30961875424265e4e5027c2899da2583d9d82b3c0eb283cb1e4",
+  "method": "AGSE_original",
+  "query": "This is a big baseball diamond .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "baseball diamond (0.43), golf course (0.10), tennis court (0.05)",
+      "confidence": 0.4349648058414459
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "249bd9fc5d4264fa83711f6873cee80cff8534af57fc56d113b899cf220346a5",
+  "archive_cos": 1.0000008344650269,
+  "sha256": "282a0ed1962a9c1214def4e86ca33e7e7a795a2953079f3faabd326665f5cc14"
+}

@@ -1,0 +1,39 @@
+{
+  "image": "1683.tif",
+  "rgb_sha256": "832a13e1c3899e9aa47e16b6cfa119b0e166add97ce559482e7d44ff4060d1b4",
+  "method": "AGSE_original",
+  "query": "It is a river with some plants on one bank and sands on the other side .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "river (0.27), chaparral (0.09), beach (0.08)",
+      "confidence": 0.27336618304252625
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "19031490a3995c67cd26cd4a9584035ef603cc9ffad99592e6ee5d4f72ab417c",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "6b288b1f87e51be7ca4eb7da6c3d8498b90cf840f41bfc68a78493e5127480e6"
+}

@@ -1,0 +1,39 @@
+{
+  "image": "482.tif",
+  "rgb_sha256": "d3e97bb1b39678a83edb20f37619b5814a4412abaca7b633398971086ab7f59e",
+  "method": "AGSE_original",
+  "query": "There are some buildings with white and grey roofs .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "buildings (0.37), parking lot (0.07), storage tanks (0.06)",
+      "confidence": 0.3671097457408905
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "7c5543797d4b81ecb882b2d86ee802b3a027897bb8c6bad7e7f435edfe1d3d58",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "80dcf46438485f68641246f366c85a274fdc5a152a7cd30c034c5d43e95e9c56"
+}

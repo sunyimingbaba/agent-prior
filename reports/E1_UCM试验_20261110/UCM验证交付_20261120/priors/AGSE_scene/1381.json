@@ -1,0 +1,38 @@
+{
+  "image": "1381.tif",
+  "rgb_sha256": "43cfaf61ca9d0046cc06f5861d0b71a5c51af07a6d735c9a10d2fd331bf50150",
+  "method": "AGSE_scene",
+  "query": "Scene: a mobile home park.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "mobile home park (0.25), medium residential (0.15), dense residential (0.11)",
+      "confidence": 0.25471121072769165
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "1e1855d815cc9f644194dc71d375c881bfc28e34f98085c8f2b095dde9c7e9e2"
+}

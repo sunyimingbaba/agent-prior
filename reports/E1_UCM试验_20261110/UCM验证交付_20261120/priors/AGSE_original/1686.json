@@ -1,0 +1,39 @@
+{
+  "image": "1686.tif",
+  "rgb_sha256": "c73c48e4abe2425df196895ca1733e38c4cf84df464de7f60419238eafc7db62",
+  "method": "AGSE_original",
+  "query": "It is a very wide river with dense forest on both banks of the river .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "river (0.41), forest (0.10), agricultural (0.05)",
+      "confidence": 0.40941721200942993
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "8bb400bdef0c6d69714192c1c054ba7d33ab1305f122aaf3b0689cb4ce56c4a8",
+  "archive_cos": 1.0000005960464478,
+  "sha256": "a820a3e44122c1e2563cb817fcb7728156f0904423fd9e804534528cc1076c82"
+}

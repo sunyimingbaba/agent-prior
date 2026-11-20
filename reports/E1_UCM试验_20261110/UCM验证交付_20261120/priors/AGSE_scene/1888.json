@@ -1,0 +1,64 @@
+{
+  "image": "1888.tif",
+  "rgb_sha256": "fc69c1140e8367306f7c81f289076a1fcd4024406e4ef987df5ffdd91861a056",
+  "method": "AGSE_scene",
+  "query": "Scene: a residential area.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        90557,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        101047,
+        102122,
+        20412,
+        101474,
+        100900,
+        104547,
+        23836,
+        3837,
+        57218,
+        51154,
+        108704,
+        16530,
+        100372,
+        106188,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "��\n addCriterion\n<answer>图中的场景是稀疏住宅区，与查询文本不完全匹配。</answer>"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "sparse residential (0.25), medium residential (0.14), chaparral (0.09)",
+      "confidence": 0.24594974517822266
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "fe9ca059a12b6bb6cd04cf8866a7d63ac46e47a7e029ed4a0ea79e3eb9fe0c5a"
+}

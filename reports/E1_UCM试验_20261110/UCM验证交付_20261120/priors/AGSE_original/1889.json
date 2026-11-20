@@ -1,0 +1,39 @@
+{
+  "image": "1889.tif",
+  "rgb_sha256": "2d111166ca3b3d24df654b00756d7ee05f80513e8eb521e0e59eadd83146ea40",
+  "method": "AGSE_original",
+  "query": "A house is surrounded by sands and bushes in the sparse residential area .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "sparse residential (0.24), medium residential (0.13), chaparral (0.08)",
+      "confidence": 0.24464811384677887
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "b4ec4f86e35d5e80920e01067f2b05f3bb12e0c460933dea6d339cd75c7155ce",
+  "archive_cos": 1.0000005960464478,
+  "sha256": "6fce28e032562d5cb062cf07893a28941a2b7a0597f6f6f88230db24a7f499ee"
+}

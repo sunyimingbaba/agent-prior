@@ -1,0 +1,37 @@
+{
+  "image": "1881.tif",
+  "rgb_sha256": "38d9d4108d99273dea1b61072580d6eac479712ca77bc3d4ad0edd682b4b1c96",
+  "method": "AGSE_scene",
+  "query": "Scene: a residential area.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "sparse residential (0.41), tennis court (0.06), buildings (0.06)",
+      "confidence": 0.40950003266334534
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "8ac828618943e1cd054a9dcef6cce81b0ef02b70ea21d482e75796edb830e1dc"
+}

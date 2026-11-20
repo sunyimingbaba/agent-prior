@@ -1,0 +1,39 @@
+{
+  "image": "187.tif",
+  "rgb_sha256": "8b486d382f79b159161f73df0d6303c60f3191192787bead1a56908dc30d6ac9",
+  "method": "AGSE_original",
+  "query": "There is an airplane stopped at the airport .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "airplane (0.38), runway (0.08), storage tanks (0.06)",
+      "confidence": 0.3818724751472473
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "52498821c6233cf1817fb72a376c7cd67388fcce4f64a6b3cd50515340c32792",
+  "archive_cos": 1.0000009536743164,
+  "sha256": "658ee13dd01f1b7deb636c5a118dda1818e19cd36d1790e6457e1c3619608f3e"
+}

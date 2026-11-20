@@ -1,0 +1,37 @@
+{
+  "image": "1088.tif",
+  "rgb_sha256": "eb2a978774ea7e2fbddd801a95f33af51ff30af767f2c29f54243232e7a99a73",
+  "method": "AGSE_scene",
+  "query": "Scene: a harbor with boats.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "harbor (0.58), beach (0.04), runway (0.03)",
+      "confidence": 0.5802885890007019
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "4474129ec998400af0907e39f6bd537522f685eef64e802ac8ec812328fa1fe9"
+}

@@ -1,0 +1,39 @@
+{
+  "image": "2085.tif",
+  "rgb_sha256": "d265d03cc64bc8d5cbead2f7f5d74712349852c6d8e8af456e9ea59f5f8455df",
+  "method": "AGSE_original",
+  "query": "Two tennis courts arranged neatly with some plants surrounded .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "tennis court (0.36), baseball diamond (0.08), buildings (0.07)",
+      "confidence": 0.35826730728149414
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "46406f8f489b5a79cf916ba0e72c01f551edffbdb96d947ef974feaf3622f867",
+  "archive_cos": 1.0000009536743164,
+  "sha256": "714e9f9d513b71b101bfe54a4ee8308c85047bcf49c2560080882ae00cd23e41"
+}

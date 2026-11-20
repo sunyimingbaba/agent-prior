@@ -1,0 +1,39 @@
+{
+  "image": "182.tif",
+  "rgb_sha256": "7953862a96ac745f1944d7cf28b91537232e9228b14fc70647bebe5cd828e258",
+  "method": "AGSE_original",
+  "query": "There are two airplanes stopped at the airport .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "airplane (0.51), runway (0.09), harbor (0.06)",
+      "confidence": 0.5146912932395935
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "13eb26aec117b4347fab1929073c951316a69cbf97cf19fddc55d0f6b6b8369b",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "7d44353b923ca8bd459dcf7d2ddf49b1b9cadacfec5e0a861b0e97cdd5ddae45"
+}

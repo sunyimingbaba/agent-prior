@@ -1,0 +1,38 @@
+{
+  "image": "382.tif",
+  "rgb_sha256": "7c70087b7b836fbd8690e1995cfea5b4055c7e2f552d7e1b92b61184cbc69099",
+  "method": "AGSE_scene",
+  "query": "Scene: a sandy beach.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "beach (0.55), chaparral (0.05), agricultural (0.04)",
+      "confidence": 0.5541389584541321
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "fd18bd88edf84624b9bace4b69edf049eb31d2e8babdf725d09c37c446a51339"
+}

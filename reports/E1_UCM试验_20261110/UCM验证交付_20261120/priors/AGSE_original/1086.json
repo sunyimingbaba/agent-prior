@@ -1,0 +1,39 @@
+{
+  "image": "1086.tif",
+  "rgb_sha256": "8a5af0e2c9ddc6265f07daca4a24d15b6e2087d7e151d550874847c4168a434d",
+  "method": "AGSE_original",
+  "query": "Lots of boats with different size docked at the harbor .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "harbor (0.47), beach (0.04), runway (0.04)",
+      "confidence": 0.4667188823223114
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "3ad63dbd30dda7f2544c33c2240fe0ed88e6f60f269bf2d14546c76436a7a6bd",
+  "archive_cos": 1.0000009536743164,
+  "sha256": "d188d1ebd5b56233de7c31b576a5b5c934732efe1a70db424ffddc3c1e326310"
+}

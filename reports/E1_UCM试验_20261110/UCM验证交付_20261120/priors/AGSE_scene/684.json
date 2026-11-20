@@ -1,0 +1,62 @@
+{
+  "image": "684.tif",
+  "rgb_sha256": "3c704210d7c1581d79720f0aa4222c38225d025f41031da0d5e27cd7803176d0",
+  "method": "AGSE_scene",
+  "query": "Scene: a residential neighborhood.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        54021,
+        100146,
+        46944,
+        104547,
+        23836,
+        3837,
+        101137,
+        51154,
+        108704,
+        101047,
+        53481,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中显示的是一个住宅区，符合查询文本中的描述。</answer>"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "medium residential (0.22), dense residential (0.19), mobile home park (0.10)",
+      "confidence": 0.2159784436225891
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "86c890be45cb29efe150ec3498628a6546db6ff857090e36d6475b79f2f8734a"
+}

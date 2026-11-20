@@ -1,0 +1,39 @@
+{
+  "image": "1583.tif",
+  "rgb_sha256": "b81e7a0d48a8b7c96d29246642e718dc0f79fce88a0885bedb6cca8ee3624b72",
+  "method": "AGSE_original",
+  "query": "Lots of cars are very closed to each other in the parking lot .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "parking lot (0.37), dense residential (0.07), mobile home park (0.07)",
+      "confidence": 0.3707256317138672
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "16e375bd2bad007073c7d68f9b570c6a061f183555a2d1783c02a4175cc0f753",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "efa966bbc38d322c2a365abec10c3f902c330cc8900163d82306de4eadac1c8c"
+}

@@ -1,0 +1,39 @@
+{
+  "image": "1589.tif",
+  "rgb_sha256": "d16d9fe01f6566ccc9217f6db38dd1e3448021c9470bfea08a930c1b026eb64c",
+  "method": "AGSE_original",
+  "query": "Lots of cars are densely arranged in the parking lot .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "parking lot (0.43), harbor (0.06), airplane (0.05)",
+      "confidence": 0.4251779615879059
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "b8d4b0e174eb32a0832064c8b79bcd8bf725f7ed1ec83037572d91ca2a1e239a",
+  "archive_cos": 1.0000009536743164,
+  "sha256": "45fb8042d28da51217ad19cc31895b5f49ad1de7b98b1c06143ddb27902732c5"
+}

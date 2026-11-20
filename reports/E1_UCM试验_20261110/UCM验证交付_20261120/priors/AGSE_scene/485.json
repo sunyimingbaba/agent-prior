@@ -1,0 +1,42 @@
+{
+  "image": "485.tif",
+  "rgb_sha256": "9a5727f2c912e2df7151350d0089d2103f44d602138b59237541c457148f1f8c",
+  "method": "AGSE_scene",
+  "query": "Scene: buildings.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "scene_classify"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "buildings (0.20), intersection (0.10), storage tanks (0.09)",
+      "confidence": 0.19604329764842987
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "cecf2b82884ba149085dd5c4d967b78ad69079fc022b589c06efc5a7b9d6bc32"
+}

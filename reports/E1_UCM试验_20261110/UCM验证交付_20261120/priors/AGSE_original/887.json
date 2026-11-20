@@ -1,0 +1,39 @@
+{
+  "image": "887.tif",
+  "rgb_sha256": "cd76310d4e41e40b95cc0683b1b22347b3c46e34980ae588957adc9af739ae23",
+  "method": "AGSE_original",
+  "query": "There are two wide straight freeways parrallel forward .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "freeway (0.27), overpass (0.24), intersection (0.12)",
+      "confidence": 0.2666619122028351
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "7137a7cb92247fe7946f57ba01345c66e904432040fe4547aea1097bc7b8d8eb",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "0b175ec75aa921004295974f4fda6c394d2e75d800b23e87d210e91636f8b97d"
+}

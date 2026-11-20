@@ -1,0 +1,62 @@
+{
+  "image": "1189.tif",
+  "rgb_sha256": "6ba4fba41623ad5a91db50f770610625176c1fd8c85e65b9f549827694aa37f8",
+  "method": "AGSE_scene",
+  "query": "Scene: a road intersection.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        54021,
+        104059,
+        101178,
+        106809,
+        39426,
+        3837,
+        101137,
+        51154,
+        108704,
+        101047,
+        53481,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中显示了一个道路交叉口，符合查询文本中的描述。</answer>"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "intersection (0.27), medium residential (0.21), mobile home park (0.11)",
+      "confidence": 0.27334609627723694
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "440c2c2c28f3d80ae1524373e8a31fd116b3864d8f47a01c135ee536bc447afe"
+}

@@ -1,0 +1,42 @@
+{
+  "image": "1986.tif",
+  "rgb_sha256": "57baa042d594b4bd13d4cf198a0e38e9301a338b3aedf65b0eb58a30ad58954f",
+  "method": "AGSE_scene",
+  "query": "Scene: a storage facility.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "scene_classify"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "storage tanks (0.36), buildings (0.07), baseball diamond (0.07)",
+      "confidence": 0.3618347942829132
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "bc85f7bb3165ff423ece14bc5c56b8b4be15d71d4b54409e11c7e14f81bfe415"
+}

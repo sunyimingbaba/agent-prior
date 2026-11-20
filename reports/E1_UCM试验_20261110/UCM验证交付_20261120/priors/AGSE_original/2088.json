@@ -1,0 +1,39 @@
+{
+  "image": "2088.tif",
+  "rgb_sha256": "502d55e5a9c185d51f9081452035b1f2560e0db09677b604adaa7c800226a25a",
+  "method": "AGSE_original",
+  "query": "Four tennis courts arranged neatly with some plants surrounded .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "tennis court (0.35), baseball diamond (0.10), parking lot (0.05)",
+      "confidence": 0.34619852900505066
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "7545574be50a9a84437c27b1a1117d87356e1333ddf7111a46c6ecea3d975c50",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "781611f7f765a5d3efcfce6f7a293b319c6f90b30cd59a855242325cada7e702"
+}

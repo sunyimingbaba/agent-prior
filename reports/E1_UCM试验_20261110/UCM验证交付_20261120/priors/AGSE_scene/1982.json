@@ -1,0 +1,39 @@
+{
+  "image": "1982.tif",
+  "rgb_sha256": "f3a88490ad657d82f34ce1b1325f73169b20ed4bd3bb6ebb4146fe8072d4a0ea",
+  "method": "AGSE_scene",
+  "query": "Scene: a storage facility.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "storage tanks (0.26), beach (0.07), runway (0.06)",
+      "confidence": 0.2624585032463074
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "433be548830610507de6469a9ea343a2b5dc5941f70badc355ea7ca3e4ee0033"
+}

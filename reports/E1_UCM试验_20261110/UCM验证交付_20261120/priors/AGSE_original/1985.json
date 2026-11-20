@@ -1,0 +1,41 @@
+{
+  "image": "1985.tif",
+  "rgb_sha256": "b0e5e2eeb61aace5bb00aa9fe039c060cb269fad4b5a070dee2a7b9a48854d7e",
+  "method": "AGSE_original",
+  "query": "A storage tank with a highway beside .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "storage tanks (0.33), intersection (0.06), chaparral (0.06)",
+      "confidence": 0.33298391103744507
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "6156df0ba9b2f14ee50b27d29545f0cf96c2c509d693cd5ba1c546068f868833",
+  "archive_cos": 1.0000008344650269,
+  "sha256": "740e216702f850d37920664ae0ce5c999282b34ad3d5aa2e00398a1a5779ac69"
+}

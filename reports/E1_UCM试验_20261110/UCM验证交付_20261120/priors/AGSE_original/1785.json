@@ -1,0 +1,39 @@
+{
+  "image": "1785.tif",
+  "rgb_sha256": "4cd121be618ae61bd3669e9450b39d695880b609a583677283f9f90d1360b943",
+  "method": "AGSE_original",
+  "query": "It is a straight runway with some mark lines and a number and a letter R on it .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "runway (0.38), airplane (0.13), chaparral (0.05)",
+      "confidence": 0.3823123574256897
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "a3146f47b07266ac8aa137d311a1df41d6f8ac586171a7cc77a6276265d1fb7f",
+  "archive_cos": 1.0000009536743164,
+  "sha256": "68b73d6903db2afe28b2fd0708c69dd5a14c1a8fd4377dd8b913b6c01e30997d"
+}

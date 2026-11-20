@@ -1,0 +1,39 @@
+{
+  "image": "1982.tif",
+  "rgb_sha256": "f3a88490ad657d82f34ce1b1325f73169b20ed4bd3bb6ebb4146fe8072d4a0ea",
+  "method": "AGSE_original",
+  "query": "A small white storage tank is on the ground with a road beside .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "storage tanks (0.26), beach (0.07), runway (0.06)",
+      "confidence": 0.2624585032463074
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "ae0c9b08fd8eb7f99d5b0ca46bff0f291256a3376e97cda080b967c7faf73f39",
+  "archive_cos": 1.0000011920928955,
+  "sha256": "fa2b523da90037115c8d6a2cca2b34ddf138687b02a6ecafb81fab324146ad78"
+}

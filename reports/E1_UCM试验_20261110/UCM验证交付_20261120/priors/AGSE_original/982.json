@@ -1,0 +1,39 @@
+{
+  "image": "982.tif",
+  "rgb_sha256": "c29d4906bb91b1c05b95e354fcc4a66f7c3b84f1b864713f15bb8b113ece8aa3",
+  "method": "AGSE_original",
+  "query": "This is a part of a golf course with green turfs and some bunkers and trees .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "golf course (0.58), tennis court (0.06), baseball diamond (0.05)",
+      "confidence": 0.5835176706314087
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "0a71615ebdf16959b92ad68b3e0004a650e8db6e4c8ba5b2d4fd476c61dc2826",
+  "archive_cos": 1.0000004768371582,
+  "sha256": "5cf3087b7f1292237398106be392c0ca87be3e15c74fb7f71fd613a8e4475cba"
+}

@@ -1,0 +1,38 @@
+{
+  "image": "289.tif",
+  "rgb_sha256": "d3139c7d367b3e32f71928dd97a060ed4b7fb4eadd2e15e70ce30f7163692e24",
+  "method": "AGSE_scene",
+  "query": "Scene: a baseball facility.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "baseball diamond (0.48), golf course (0.07), storage tanks (0.05)",
+      "confidence": 0.4767891764640808
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "bef814f4ee77150dd2dd42632f90985a1f1536a001ffa1be197cbcca1df3fb59"
+}

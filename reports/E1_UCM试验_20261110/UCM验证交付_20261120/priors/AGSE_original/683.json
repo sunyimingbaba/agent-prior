@@ -1,0 +1,39 @@
+{
+  "image": "683.tif",
+  "rgb_sha256": "108908afa967c528cddddb28110d00b64f3e56ae4cdca73949ef4f1137e16844",
+  "method": "AGSE_original",
+  "query": "This is a dense residential area with houses and plants .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "dense residential (0.23), medium residential (0.20), mobile home park (0.12)",
+      "confidence": 0.23094001412391663
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "e046180bac20a3822504b0adfe70321c82f8c83d12f599a7367f7034cb509c7f",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "42dc3055c0e32aba40b09c1273e5344f08fc82b0a4e717e4543980363e3ba9b4"
+}

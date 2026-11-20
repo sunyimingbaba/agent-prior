@@ -1,0 +1,146 @@
+936 model-items, 2808 cosines verified
+[{'method': 'AGSE', 'dimension': 'all', 'n': 94, 'correct': 0, 'wrong': 0, 'neither': 94, 'both': 0, 'strict_correct': 0, 'strict_wrong': 0, 'strict_neither': 94, 'ambiguous': 0}, {'method': 'AGSE_original', 'dimension': 'all', 'n': 94, 'correct': 0, 'wrong': 0, 'neither': 94, 'both': 0, 'strict_correct': 0, 'strict_wrong': 0, 'strict_neither': 94, 'ambiguous': 0}, {'method': 'AGSE_scene', 'dimension': 'all', 'n': 94, 'correct': 0, 'wrong': 0, 'neither': 94, 'both': 0, 'strict_correct': 0, 'strict_wrong': 0, 'strict_neither': 94, 'ambiguous': 0}, {'method': 'ASPF', 'dimension': 'all', 'n': 94, 'correct': 5, 'wrong': 3, 'neither': 86, 'both': 0, 'strict_correct': 5, 'strict_wrong': 1, 'strict_neither': 88, 'ambiguous': 17}]
+{
+  "issues": [],
+  "status": "PASS",
+  "methods": {
+    "CLIP": {
+      "n": 156,
+      "images": 104,
+      "texts": 138,
+      "cosines": 468,
+      "max_error": 3.3306690738754696e-16,
+      "image_max_norm_deviation": 1.0066028854893716e-07,
+      "text_max_norm_deviation": 1.1128760435408225e-07,
+      "previous_n": 64,
+      "previous_max_margin_error": 6.843029959346936e-08,
+      "previous_decision_flips": 0
+    },
+    "CUP_CCB": {
+      "n": 156,
+      "images": 104,
+      "texts": 138,
+      "cosines": 468,
+      "max_error": 2.7755575615628914e-16,
+      "image_max_norm_deviation": 1.3128490106151247e-07,
+      "text_max_norm_deviation": 8.282261676484381e-08,
+      "previous_n": 64,
+      "previous_max_margin_error": 1.6256531026881405e-07,
+      "previous_decision_flips": 0
+    },
+    "ASPF": {
+      "n": 156,
+      "images": 104,
+      "texts": 138,
+      "cosines": 468,
+      "max_error": 2.7755575615628914e-16,
+      "image_max_norm_deviation": 9.609628270901283e-08,
+      "text_max_norm_deviation": 6.96756526918918e-08,
+      "previous_n": 64,
+      "previous_max_margin_error": 8.692423433820373e-08,
+      "previous_decision_flips": 0
+    },
+    "AGSE": {
+      "n": 156,
+      "images": 104,
+      "texts": 138,
+      "cosines": 468,
+      "max_error": 2.7755575615628914e-16,
+      "image_max_norm_deviation": 8.460866984805193e-08,
+      "text_max_norm_deviation": 7.030768300886336e-08,
+      "previous_n": 64,
+      "previous_max_margin_error": 6.097562316176308e-08,
+      "previous_decision_flips": 0
+    },
+    "AGSE_archived": {
+      "n": 156,
+      "images": 104,
+      "texts": 138,
+      "cosines": 468,
+      "max_error": 3.3306690738754696e-16,
+      "image_max_norm_deviation": 9.401645262308023e-08,
+      "text_max_norm_deviation": 7.030768300886336e-08,
+      "previous_n": 64,
+      "previous_max_margin_error": 2.6284079579497188e-08,
+      "previous_decision_flips": 0
+    },
+    "AGSE_scene": {
+      "n": 156,
+      "images": 104,
+      "texts": 138,
+      "cosines": 468,
+      "max_error": 3.3306690738754696e-16,
+      "image_max_norm_deviation": 7.808617419335917e-08,
+      "text_max_norm_deviation": 7.030768300886336e-08,
+      "previous_n": 0,
+      "previous_max_margin_error": null,
+      "previous_decision_flips": 0
+    }
+  },
+  "case_membership": {
+    "all": 156,
+    "images": 104,
+    "main": 94,
+    "main_images": 89,
+    "raw_cohorts": {
+      "('previous', 'quantity')": 44,
+      "('previous', 'attribute')": 10,
+      "('previous', 'relation')": 10,
+      "('extension', 'attribute')": 38,
+      "('extension', 'relation')": 34,
+      "('quantity_reversed', 'quantity')": 20
+    },
+    "extension_images": 67,
+    "extension_prior_overlap": []
+  },
+  "script_reproduction": {
+    "逐条三句得分.csv": {
+      "rows": 936,
+      "matches": true
+    },
+    "逐图生成.csv": {
+      "rows": 312,
+      "matches": true
+    },
+    "数值复算.csv": {
+      "rows": 6,
+      "matches": true
+    },
+    "分项结果.csv": {
+      "rows": 96,
+      "matches": true
+    },
+    "相对CUP配对差.csv": {
+      "rows": 96,
+      "matches": true
+    },
+    "反向图对.csv": {
+      "rows": 1038,
+      "matches": true
+    },
+    "生成汇总.csv": {
+      "rows": 3,
+      "matches": true
+    },
+    "生成文字逐项核验.csv": {
+      "rows": 376,
+      "matches": true
+    },
+    "生成文字判断.csv": {
+      "rows": 16,
+      "matches": true
+    },
+    "历史先验逐图回放.csv": {
+      "rows": 104,
+      "matches": true
+    },
+    "四种输入生成核对.csv": {
+      "rows": 4,
+      "matches": true
+    },
+    "重叠敏感性.csv": {
+      "rows": 12,
+      "matches": true
+    }
+  }
+}

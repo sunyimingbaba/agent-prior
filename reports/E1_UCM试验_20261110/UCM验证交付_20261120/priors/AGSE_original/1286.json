@@ -1,0 +1,39 @@
+{
+  "image": "1286.tif",
+  "rgb_sha256": "4fd20a4994e6aa87e24c068c3fe5f38b430f7462384f857a10464152c00db69b",
+  "method": "AGSE_original",
+  "query": "It is a medium residential area with houses and plants .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "dense residential (0.22), medium residential (0.20), mobile home park (0.12)",
+      "confidence": 0.2208908200263977
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "122637b8d5d17aaf5fc13dc15fbc8f16dc5e4a94e2f185f4ef4bbea57d414d25",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "38232b600bbf1b9b6b802ee6e5bebd3af96e4a989d9b15f58db8f4a64296273f"
+}

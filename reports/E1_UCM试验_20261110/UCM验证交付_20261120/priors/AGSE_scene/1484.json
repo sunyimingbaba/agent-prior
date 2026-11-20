@@ -1,0 +1,67 @@
+{
+  "image": "1484.tif",
+  "rgb_sha256": "45e1f425b19900dc77d5a2d0d10da8eb8148c6935ecc813dcad34c63ba16fd9f",
+  "method": "AGSE_scene",
+  "query": "Scene: a road overpass.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        54021,
+        104059,
+        44636,
+        99630,
+        100391,
+        3837,
+        101137,
+        51154,
+        101047,
+        2073,
+        64,
+        5636,
+        916,
+        6385,
+        854,
+        53481,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中显示了一个高架桥，符合查询中的“a road overpass”描述。</answer>"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "overpass (0.42), freeway (0.14), intersection (0.09)",
+      "confidence": 0.42381012439727783
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "6f5f76226d2106cafb377f96ba5cf0809ff41e39f6b21127de0cc92e0aae0b3c"
+}

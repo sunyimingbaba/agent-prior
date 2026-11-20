@@ -1,0 +1,39 @@
+{
+  "image": "1481.tif",
+  "rgb_sha256": "6120fcbe5f4f248dbfea51283d77655c1be6061bb527c92b27a4911424b50749",
+  "method": "AGSE_original",
+  "query": "A road go across another two roads vertically .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "overpass (0.34), freeway (0.19), intersection (0.11)",
+      "confidence": 0.33966392278671265
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "07c4fdd14e5a371c4db01cf24202b3fa47bb554c5af9fb89cb0e5314aad38e9d",
+  "archive_cos": 1.0000005960464478,
+  "sha256": "839654df1b5bffdebbb914d8675720b0317d01a3f73c1a2f6f535196d51eb6d3"
+}

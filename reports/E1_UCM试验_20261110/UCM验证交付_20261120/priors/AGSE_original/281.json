@@ -1,0 +1,39 @@
+{
+  "image": "281.tif",
+  "rgb_sha256": "b0f7c8275cd621206f8e2338609ec64f666a81c958ae6dcbd75baf9a3b8cd709",
+  "method": "AGSE_original",
+  "query": "This is a old baseball diamond .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "baseball diamond (0.55), golf course (0.05), sparse residential (0.05)",
+      "confidence": 0.5548871755599976
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "bddd29860609f9774cbd538734c2fb3eb11e208f7af80be4df89bb7a8ba134be",
+  "archive_cos": 1.0000008344650269,
+  "sha256": "93bedbdcc0607db97057d85a1aba9cc8b5a2b19537fa71d718a91674d15f7299"
+}

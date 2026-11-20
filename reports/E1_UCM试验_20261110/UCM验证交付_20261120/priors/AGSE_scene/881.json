@@ -1,0 +1,38 @@
+{
+  "image": "881.tif",
+  "rgb_sha256": "69e0275686c01d78538b44b6c678299efc00190699e744e509a3d6b12b8f6b11",
+  "method": "AGSE_scene",
+  "query": "Scene: a freeway.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "freeway (0.34), overpass (0.18), intersection (0.06)",
+      "confidence": 0.3404201865196228
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "1e8be02eea3eeb964bb9c67ebcb6d18bedcb01b581bd4d7fa468b5dcdb610179"
+}

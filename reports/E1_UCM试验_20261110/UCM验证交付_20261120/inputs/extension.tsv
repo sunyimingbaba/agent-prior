@@ -1,0 +1,33 @@
+dimension	template	a	b	positive_a	positive_b	source_note
+attribute	field_rows	93	94	The crop rows run mainly horizontally across the image.	The crop rows run mainly vertically across the image.	pixels
+attribute	field_color	100	97	The field has bright green crop rows.	The field has dark gray-brown crop rows.	pixels
+attribute	building_shape	481	485	The roof outline around the central opening is triangular.	The roof outline around the central opening is hexagonal.	captions: triangular / hexagonal
+attribute	residential_roofs	682	684	The houses have reddish roofs.	The houses have dark gray roofs.	captions: orange / black
+attribute	building_roofs	483	486	The rooftops are mostly pale in color.	The rooftops are mostly dark in color.	captions: white and grey / brown and black
+attribute	parking_ground	1582	1584	The cars are parked on grass.	The cars are parked on pavement.	pixels
+attribute	parking_occupancy	1587	1588	The parking rows are densely filled with cars.	The parking rows have many empty spaces.	captions: densely arranged / many empty spaces
+attribute	river_shape	1686	1690	The river channel runs nearly straight through the image.	The river channel forms a pronounced bend in the image.	pixels
+attribute	runway_marking	1785	1787	The visible runway markings include a large painted letter.	The visible runway markings consist of lines without a large painted letter.	pixels
+attribute	house_roof	1881	1885	The main house has a gray roof.	The main house has an orange roof.	captions: grey / orange
+attribute	shadow_direction	1982	1987	The tank casts its shadow toward the top of the image.	The tank casts its shadow toward the right of the image.	pixels
+attribute	freeway_orientation	887	886	The freeway runs mainly horizontally in the image.	The freeway runs mainly vertically in the image.	pixels
+attribute	boat_rows	1083	1089	The long rows of moored boats run horizontally across the image.	The long rows of moored boats run vertically across the image.	pixels
+attribute	bank_surface	1681	1683	The bank opposite the vegetation has a paved roadway.	The bank opposite the vegetation has a sandy surface.	captions: roads / sands
+attribute	roof_brightness	1886	1887	The main house has a bright white roof.	The main house has a brown roof.	pixels
+attribute	crosswalk_style	1183	1189	The intersection has clearly striped pedestrian crossings.	The intersection lacks striped pedestrian crossings.	pixels
+relation	water_shore	382	387	The water lies mostly to the left of the sandy shore.	The water lies mostly to the right of the sandy shore.	pixels
+relation	road_over	1483	1488	The more horizontal roadway passes over the more vertical roadway.	The more horizontal roadway passes under the more vertical roadway.	pixels
+relation	river_banks	1682	1688	Dense vegetation borders only one bank of the river.	Dense vegetation borders both banks of the river.	captions: forest on one bank and roads on the other / dense forest on both banks
+relation	house_surround	1883	1888	The house is surrounded by cultivated plots.	The house is surrounded by dry scrubland.	captions: trees and cropland / sands and bushes
+relation	road_tennis	2084	2087	The road by the tennis courts runs along their upper edge in the image.	The road by the tennis courts runs along their left edge in the image.	pixels
+relation	parking_rows	1586	1589	The rows of cars are arranged side by side from left to right.	The rows of cars are stacked one above another from top to bottom.	pixels
+relation	housing_street	615	683	The rows of houses face each other across a mostly horizontal street.	The rows of houses face each other across a mostly vertical street.	pixels
+relation	freeway_slant	881	885	From left to right, the freeway slopes downward in the image.	From left to right, the freeway slopes upward in the image.	pixels
+relation	boat_axis	1084	1088	The boats along the long dock rows point mainly toward the top or bottom of the image.	The boats along the long dock rows point mainly toward the left or right of the image.	pixels
+relation	pool_house	1882	1890	The swimming pool lies to the upper left of the main roof.	The swimming pool lies to the upper right of the main roof.	pixels
+relation	overpass_slant	1489	1490	From left to right, the upper roadway crosses the lower roadway on an upward diagonal.	From left to right, the upper roadway crosses the lower roadway on a downward diagonal.	pixels
+relation	shrub_water	1683	1681	The vegetated bank lies mainly to the right of the river in the image.	The vegetated bank lies mainly to the left of the river in the image.	pixels
+relation	roof_field	1884	1885	The cultivated rows lie mainly below the house.	The cultivated rows lie mainly above the house.	pixels
+relation	roof_drive	1886	1889	The access road reaches the house from below in the image.	The access road reaches the house from the left in the image.	pixels
+relation	shadow_tank	1984	1985	The long tower shadow lies to the left of the round tank.	The long tower shadow lies to the right of the round tank.	pixels
+relation	parking_side	1381	1384	The long straight road separating rows of mobile homes runs mostly horizontally.	The long straight road separating rows of mobile homes runs mostly vertically.	pixels

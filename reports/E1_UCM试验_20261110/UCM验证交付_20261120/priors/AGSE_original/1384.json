@@ -1,0 +1,41 @@
+{
+  "image": "1384.tif",
+  "rgb_sha256": "5195e8e270acadda9a8d4ec93383450337e3c823cf1b56224aaf33ed7bf9ce70",
+  "method": "AGSE_original",
+  "query": "Many mobile homes arranged neatly in the mobile home park .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "medium residential (0.25), dense residential (0.18), mobile home park (0.14)",
+      "confidence": 0.24820175766944885
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "a13dd84047ebc608698cc3cc8661d3ef67490d06bf3b4bde177292910cf9eb39",
+  "archive_cos": 1.0000005960464478,
+  "sha256": "0b1ed4df7c4d53dc4d23c8d9b3f4c6bdcbb51749ae88d42386d42f8a3788c750"
+}

@@ -1,0 +1,42 @@
+{
+  "image": "1681.tif",
+  "rgb_sha256": "0d0d7eeb69499f80a85fa7fa626f3cd9592ad218db3baec28c2fa5fd02fd7e77",
+  "method": "AGSE_scene",
+  "query": "Scene: a river.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "scene_classify"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "river (0.19), chaparral (0.08), freeway (0.08)",
+      "confidence": 0.18934713304042816
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "af35bf48a5143e5eb9a44a56669eb513d41b55982789af754e7a68301ea61dc1"
+}

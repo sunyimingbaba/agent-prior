@@ -1,0 +1,42 @@
+{
+  "image": "1983.tif",
+  "rgb_sha256": "7ca60533f6615e71e0bc77df4d50f12823fe76a88f63cf7abbf818ca001cbf54",
+  "method": "AGSE_scene",
+  "query": "Scene: a storage facility.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "scene_classify"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "intersection (0.24), medium residential (0.09), storage tanks (0.08)",
+      "confidence": 0.23901355266571045
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "95107e715cbdcbfe30a9871a366ab4a5b9fcc1a65b2dfe56525ba5ecabc4d12d"
+}

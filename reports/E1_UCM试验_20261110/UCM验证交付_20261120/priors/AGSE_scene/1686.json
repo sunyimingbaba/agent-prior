@@ -1,0 +1,37 @@
+{
+  "image": "1686.tif",
+  "rgb_sha256": "c73c48e4abe2425df196895ca1733e38c4cf84df464de7f60419238eafc7db62",
+  "method": "AGSE_scene",
+  "query": "Scene: a river.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "river (0.41), forest (0.10), agricultural (0.05)",
+      "confidence": 0.40941721200942993
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "98c8457b1c0200590608248b6d04a29e880a88f40ba2a2b63ea2e6d83c05710e"
+}

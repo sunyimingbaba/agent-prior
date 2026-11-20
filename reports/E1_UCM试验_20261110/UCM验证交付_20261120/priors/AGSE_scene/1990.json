@@ -1,0 +1,37 @@
+{
+  "image": "1990.tif",
+  "rgb_sha256": "b34c696b0d5812a1cf9af56e2484ad8a6b97a9f25ef899e7ad5d085feb0c37ae",
+  "method": "AGSE_scene",
+  "query": "Scene: a storage facility.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "storage tanks (0.33), airplane (0.06), chaparral (0.06)",
+      "confidence": 0.3274112939834595
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "a46c05225d9a9c6b427261124028c094be1b8e881a08a2ca36ca8aa1f7a30cb0"
+}

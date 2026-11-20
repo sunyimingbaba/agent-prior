@@ -1,0 +1,40 @@
+{
+  "image": "481.tif",
+  "rgb_sha256": "88cfee501fbd3f9918804fb3dae6bf3eaf3adc9dc747fd92d460ed503124b240",
+  "method": "AGSE_original",
+  "query": "There is a triangular building with grey roofs .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        91920,
+        151645
+      ],
+      "decoded": ":\".$"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "buildings (0.21), dense residential (0.12), intersection (0.07)",
+      "confidence": 0.2119055837392807
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "718ca825efbe68db32ef4f87aa136e0363f32d1deee4baabf6e68f01ff04a9d2",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "9c97a8b04106fe8939747cd7b59b2359752eb627048bc76de567042e387cefc0"
+}

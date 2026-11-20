@@ -1,0 +1,59 @@
+{
+  "image": "1785.tif",
+  "rgb_sha256": "4cd121be618ae61bd3669e9450b39d695880b609a583677283f9f90d1360b943",
+  "method": "AGSE_scene",
+  "query": "Scene: a runway.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        90557,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        99639,
+        38989,
+        115280,
+        3837,
+        101137,
+        51154,
+        108704,
+        53481,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "��\n addCriterion\n<answer>图中是一条跑道，符合查询文本描述。</answer>"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "runway (0.38), airplane (0.13), chaparral (0.05)",
+      "confidence": 0.3823123574256897
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "9df002cf45fdbd44a92466f013d64d911e628c3e76d33a32df141ffbaffe1157"
+}

@@ -1,0 +1,38 @@
+{
+  "image": "1884.tif",
+  "rgb_sha256": "159e50a7abe33f05f81007d07d96fd540410ea3c44952e3a79e4d4c802db79de",
+  "method": "AGSE_scene",
+  "query": "Scene: a residential area.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "sparse residential (0.34), buildings (0.08), medium residential (0.06)",
+      "confidence": 0.3398053050041199
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "0d55cf419609cc6fd614de7ce30cfa3e0c0a90d22038d9aa15ac1fa08b62968f"
+}

@@ -1,0 +1,34 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:02<00:11,  2.84s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:05<00:08,  2.74s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:08<00:05,  2.71s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:10<00:02,  2.66s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:11<00:00,  1.95s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:11<00:00,  2.29s/it]
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+The tokenizer you are loading from '/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e.  This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+ASPF 20
+ASPF 40
+ASPF 60
+ASPF 80
+ASPF 100
+DONE ASPF
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:07,  1.76s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:03<00:05,  1.70s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:05<00:03,  1.70s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:06<00:01,  1.68s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.24s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.45s/it]
+已加载 LoRA 适配器: /private/AGSE_E1_20261110/legacy/assets/ucm_main_lora
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+The tokenizer you are loading from '/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e.  This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+this is name:/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt
+AGSE 20
+AGSE 40
+AGSE 60
+AGSE 80
+AGSE 100
+DONE AGSE
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:02<00:10,  2.56s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:04<00:06,  2.15s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:06<00:04,  2.03s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:08<00:01,  1.96s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:08<00:00,  1.44s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:08<00:00,  1.73s/it]
+已加载 LoRA 适配器: /private/AGSE_E1_20261110/legacy/assets/ucm_main_lora
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+The tokenizer you are loading from '/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e.  This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+this is name:/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt
+AGSE_scene 20
+AGSE_scene 40
+AGSE_scene 60
+AGSE_scene 80
+AGSE_scene 100
+DONE AGSE_scene

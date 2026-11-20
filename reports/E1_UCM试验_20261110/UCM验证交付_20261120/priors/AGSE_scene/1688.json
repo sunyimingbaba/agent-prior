@@ -1,0 +1,38 @@
+{
+  "image": "1688.tif",
+  "rgb_sha256": "e6c905ae878ed9ba22685c64eb66bf29ecaeaa26c77333c0771eee4f15b8f854",
+  "method": "AGSE_scene",
+  "query": "Scene: a river.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "river (0.32), forest (0.11), beach (0.07)",
+      "confidence": 0.31659629940986633
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "e664f6331067e760c66327b06f0060187eeb2a207cd981b3d1193683187546e3"
+}

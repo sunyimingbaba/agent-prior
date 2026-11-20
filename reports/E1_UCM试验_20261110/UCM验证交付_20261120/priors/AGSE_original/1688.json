@@ -1,0 +1,39 @@
+{
+  "image": "1688.tif",
+  "rgb_sha256": "e6c905ae878ed9ba22685c64eb66bf29ecaeaa26c77333c0771eee4f15b8f854",
+  "method": "AGSE_original",
+  "query": "It is a river with dense forest on both banks of the river .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "river (0.32), forest (0.11), beach (0.07)",
+      "confidence": 0.31659629940986633
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "81799e3f6b3225c064436e576766bc38a72c47a6182ec345d4dc28c75e596525",
+  "archive_cos": 1.0000005960464478,
+  "sha256": "004323ee45bb35e1edbb6a37c84e91f534ae0b9176dc7a80bac68c5ffabbf376"
+}

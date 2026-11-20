@@ -1,0 +1,39 @@
+{
+  "image": "1183.tif",
+  "rgb_sha256": "77cc652a241ef896b8660cf9cc027f1f7f750188e5f39b178d9e6cccfbd95a65",
+  "method": "AGSE_original",
+  "query": "An intersection with some cars on the road .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "intersection (0.59), overpass (0.11), freeway (0.05)",
+      "confidence": 0.5861873030662537
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "58ed9c1f9c82c07f8c6ba71a2dadb0187376ca5ca0aaf016e8eb9576a2df3d07",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "a6924071938e2828eec7842d96969338e787d3aaaa6a31a467aa1a92e2cf8dec"
+}

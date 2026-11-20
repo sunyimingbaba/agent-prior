@@ -1,0 +1,38 @@
+{
+  "image": "1584.tif",
+  "rgb_sha256": "1196644fdd1434ee0bea92150336cbb477eea369fccef16de3ff1bc17b951782",
+  "method": "AGSE_scene",
+  "query": "Scene: a parking lot.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "parking lot (0.43), harbor (0.07), airplane (0.05)",
+      "confidence": 0.43359267711639404
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "6db267bb6b034bdb4869987f0dd5b6742094d63634f5af349305a09c30e4f852"
+}

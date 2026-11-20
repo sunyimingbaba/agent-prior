@@ -1,0 +1,41 @@
+{
+  "image": "485.tif",
+  "rgb_sha256": "9a5727f2c912e2df7151350d0089d2103f44d602138b59237541c457148f1f8c",
+  "method": "AGSE_original",
+  "query": "There are some building with grey roofs .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "buildings (0.20), intersection (0.10), storage tanks (0.09)",
+      "confidence": 0.19604329764842987
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "5ac501f047d5fbd1d91be0702f45871b6b2b2415eff525b62d5dbe3851da8625",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "59e8c260999716f0750f8c4f47bb80d405f18e8bf48b8f626fa1f87150315c28"
+}

@@ -1,0 +1,60 @@
+{
+  "image": "1883.tif",
+  "rgb_sha256": "0f2593362668fc3c60b9aef30cc6fab2a4ea76ee34ab05e16f8e9a912deb9eff",
+  "method": "AGSE_scene",
+  "query": "Scene: a residential area.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        54021,
+        100146,
+        46944,
+        100159,
+        23836,
+        3837,
+        104610,
+        104547,
+        23836,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中显示的是一个工业区，而不是住宅区。</answer>"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "sparse residential (0.22), storage tanks (0.09), medium residential (0.07)",
+      "confidence": 0.22305989265441895
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "3a58bca4c752b6a3f9c0525637c7c7b52c59651fc3d2fda64c795f2b994421f0"
+}

@@ -1,0 +1,42 @@
+{
+  "image": "190.tif",
+  "rgb_sha256": "f392eae7958a5dbc11d750f4fb696f4a40e7bad4c67f391404001c7cc5698de1",
+  "method": "AGSE_scene",
+  "query": "Scene: an airport.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "scene_classify"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "airplane (0.34), runway (0.14), storage tanks (0.06)",
+      "confidence": 0.34083065390586853
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "2dded2dc2534e6e9d457b6f4c06e756e739c43b1507c1f65ef7e0aab045df052"
+}

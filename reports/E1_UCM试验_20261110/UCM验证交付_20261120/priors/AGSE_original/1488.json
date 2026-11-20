@@ -1,0 +1,39 @@
+{
+  "image": "1488.tif",
+  "rgb_sha256": "6a22bcdfb5842685ecfce1b0e4300fb6789261a2c8ff97950ddb105c1feea2df",
+  "method": "AGSE_original",
+  "query": "An overpass go across the roads diagonally .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "overpass (0.35), freeway (0.23), intersection (0.10)",
+      "confidence": 0.3488009572029114
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "9050838141392b0cec00cdcfe1950012e41b9e65eb1700cf806b67b9fc890c8e",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "1a6751c6001558dc32d8c263eb1461ac559b5b9d6f840f9fa96eadc7dfcf1f35"
+}

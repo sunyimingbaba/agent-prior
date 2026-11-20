@@ -1,0 +1,38 @@
+{
+  "image": "2089.tif",
+  "rgb_sha256": "c68d76912e4fd57a56a5fb0b862fc066604b7e7121529bd9e913cf4fb5243f3d",
+  "method": "AGSE_scene",
+  "query": "Scene: a tennis facility.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "tennis court (0.34), baseball diamond (0.10), golf course (0.06)",
+      "confidence": 0.3351016342639923
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "62247bbecc29b3b49b0d4cfed8aa5e9c385161cd7bc58b4b14a370d64cdd6392"
+}

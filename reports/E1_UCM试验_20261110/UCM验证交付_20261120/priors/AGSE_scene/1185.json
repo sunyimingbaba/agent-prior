@@ -1,0 +1,59 @@
+{
+  "image": "1185.tif",
+  "rgb_sha256": "ceda7069c6fbd191a89b145427ea2e494f81f8a905f4e266a681c56c81a62770",
+  "method": "AGSE_scene",
+  "query": "Scene: a road intersection.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        101909,
+        106809,
+        108005,
+        3837,
+        101137,
+        51154,
+        108704,
+        53481,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中是一个交叉路口，符合查询文本描述。</answer>"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "intersection (0.23), overpass (0.10), runway (0.08)",
+      "confidence": 0.22767265141010284
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "31dcff84ad9759b9f95411f9b1e532b98725c1f557cd54b353d3342237306bb1"
+}

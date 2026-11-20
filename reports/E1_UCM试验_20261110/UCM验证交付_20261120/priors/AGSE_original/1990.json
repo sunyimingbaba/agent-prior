@@ -1,0 +1,41 @@
+{
+  "image": "1990.tif",
+  "rgb_sha256": "b34c696b0d5812a1cf9af56e2484ad8a6b97a9f25ef899e7ad5d085feb0c37ae",
+  "method": "AGSE_original",
+  "query": "A small storage tank is on the ground .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "storage tanks (0.33), airplane (0.06), chaparral (0.06)",
+      "confidence": 0.3274112939834595
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "bbbee7d8aa18dfb71870d042ce95f18e27fc9b0a083fa2760defe510a249d70c",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "1bce80f059e537095808ee6ab3bb04ca7c8cbe17e946dbbe4dc16c366946922d"
+}

@@ -1,0 +1,39 @@
+{
+  "image": "1681.tif",
+  "rgb_sha256": "0d0d7eeb69499f80a85fa7fa626f3cd9592ad218db3baec28c2fa5fd02fd7e77",
+  "method": "AGSE_original",
+  "query": "It is a river with some plants on one bank and roads on the other side .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "river (0.19), chaparral (0.08), freeway (0.08)",
+      "confidence": 0.18934713304042816
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "90b53fafa583d472120cd2cc6046c14c8ed7a5484a81ca765d4e87581fa4c6d7",
+  "archive_cos": 1.0000009536743164,
+  "sha256": "04cf943ebf5632ad36d2ed2158c6026404c6f7c71174c9f0870283b51db3b7ce"
+}

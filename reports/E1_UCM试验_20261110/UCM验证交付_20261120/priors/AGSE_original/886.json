@@ -1,0 +1,39 @@
+{
+  "image": "886.tif",
+  "rgb_sha256": "fc1a7f99d8f5f74bdfd8d48250fa9ac6e2105470bc9a70ed4694cef36be57e8f",
+  "method": "AGSE_original",
+  "query": "Two straight freeways parrallel forward .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "overpass (0.25), freeway (0.23), intersection (0.08)",
+      "confidence": 0.2509731650352478
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "df17c1f77ff73b03e2ace60e4c2378c427d397622a0edc8fe74d2538de303fd9",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "d63687e2bbce3bee273c7098b52c2f27e5435e374b360cdf5466b63b4cb05c2c"
+}

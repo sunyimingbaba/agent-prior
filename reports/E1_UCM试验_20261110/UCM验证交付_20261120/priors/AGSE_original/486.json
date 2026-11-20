@@ -1,0 +1,39 @@
+{
+  "image": "486.tif",
+  "rgb_sha256": "c334c57a546de4ef16f6ae6ab022ffb84dd14ae6c74bb48995cde59bb0cf9918",
+  "method": "AGSE_original",
+  "query": "There are some buildings with brown and black roofs .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "buildings (0.23), sparse residential (0.10), tennis court (0.06)",
+      "confidence": 0.23364466428756714
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "7ccc1947d5262700b08f4f8d90e156e474ee3b93e650bd5961b7778461b95ed6",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "8724c198ccb7af0ba37234e84b26cd346b6dd29625be10ad8d6a306cb768a5b3"
+}

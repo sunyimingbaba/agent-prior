@@ -1,0 +1,41 @@
+{
+  "image": "93.tif",
+  "rgb_sha256": "f8c4f39cea48ab712cf3af2624b2c5a65f6dbebab14c3b28f327917805c90cb8",
+  "method": "AGSE_original",
+  "query": "There is a piece of farmland .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "agricultural (0.22), beach (0.11), runway (0.10)",
+      "confidence": 0.2201695591211319
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "f6ccffb21a74da43cf836fcf35e87ea04022fc9c435d69de2a92c9b35b458f95",
+  "archive_cos": 1.0000009536743164,
+  "sha256": "cb7c2172cfefcba1e50f3cb97e6eb0b10d8547667e058759cc9053a7584e220e"
+}

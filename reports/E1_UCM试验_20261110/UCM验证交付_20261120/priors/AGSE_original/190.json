@@ -1,0 +1,39 @@
+{
+  "image": "190.tif",
+  "rgb_sha256": "f392eae7958a5dbc11d750f4fb696f4a40e7bad4c67f391404001c7cc5698de1",
+  "method": "AGSE_original",
+  "query": "There are two airplanes at the airport .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "airplane (0.34), runway (0.14), storage tanks (0.06)",
+      "confidence": 0.34083065390586853
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "4da4df2b3a088c5090d3cafd750c34f7e1028eafb32a6d0bd288dabaa90777d2",
+  "archive_cos": 1.0000009536743164,
+  "sha256": "52159e1dfa3cee0e50bfca9d3c8f85d5602277a65679afd84b45399d68ede81a"
+}

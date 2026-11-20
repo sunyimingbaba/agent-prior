@@ -1,0 +1,39 @@
+{
+  "image": "1787.tif",
+  "rgb_sha256": "c4ae0d9fd1e00fff0f887abe66140d9a9b2edbedd58541ce583c2f24c7ba709c",
+  "method": "AGSE_original",
+  "query": "It is a straight runway with some mark lines on it .",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "runway (0.35), airplane (0.12), chaparral (0.08)",
+      "confidence": 0.35258734226226807
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": true,
+  "archive_sha256": "9b9a2c57d50c421b6c9808b1bbb74d44b67772977d752cc4cab170b63ccc2a79",
+  "archive_cos": 1.0000007152557373,
+  "sha256": "86997556d03c3de2f286d75de581e1ecdf2e589d147eafa630cf0a5b77c463d4"
+}

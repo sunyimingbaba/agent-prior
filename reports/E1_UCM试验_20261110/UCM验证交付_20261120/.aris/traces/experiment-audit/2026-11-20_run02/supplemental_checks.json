@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "text_key_native_trace_exact": 376,
+  "votes": 113,
+  "main": 94,
+  "main_unique_images": 89,
+  "human_quantity_count_match": 22,
+  "first_caption_correct_numeral_images": [
+    "1981.tif",
+    "2081.tif",
+    "2082.tif",
+    "2086.tif",
+    "2088.tif",
+    "190.tif"
+  ],
+  "generation": {
+    "ASPF": {
+      "images": 104,
+      "with_tools": 0,
+      "first_eos": 0,
+      "length_64": 85,
+      "final_strings": null
+    },
+    "AGSE": {
+      "images": 104,
+      "with_tools": 0,
+      "first_eos": 104,
+      "length_64": 0,
+      "final_strings": null
+    },
+    "AGSE_scene": {
+      "images": 104,
+      "with_tools": 89,
+      "first_eos": 14,
+      "length_64": 0,
+      "final_strings": null
+    },
+    "AGSE_original": {
+      "images": 104,
+      "with_tools": 95,
+      "first_eos": 9,
+      "length_64": 0,
+      "final_strings": {
+        "": 9,
+        " addCriterion": 81,
+        "\n addCriterion": 13,
+        ":\".$": 1
+      }
+    }
+  },
+  "overlap_pair_count_given_90_train_val_images_per_scene": 8970,
+  "text_results": {
+    "AGSE": {
+      "neither": 94
+    },
+    "AGSE_scene": {
+      "neither": 94
+    },
+    "AGSE_original": {
+      "neither": 94
+    },
+    "ASPF": {
+      "neither": 86,
+      "correct": 5,
+      "wrong": 3
+    }
+  }
+}

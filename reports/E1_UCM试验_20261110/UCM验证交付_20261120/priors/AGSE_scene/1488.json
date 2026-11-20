@@ -1,0 +1,38 @@
+{
+  "image": "1488.tif",
+  "rgb_sha256": "6a22bcdfb5842685ecfce1b0e4300fb6789261a2c8ff97950ddb105c1feea2df",
+  "method": "AGSE_scene",
+  "query": "Scene: a road overpass.",
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "events": [
+    {
+      "text": "overpass (0.35), freeway (0.23), intersection (0.10)",
+      "confidence": 0.3488009572029114
+    }
+  ],
+  "first_eos": false,
+  "old_bit_exact": null,
+  "sha256": "06e87d73aa99e3b214162d7955096fa4afc996485a556c0becea3b3c0a52023b"
+}
