@@ -1,0 +1,34 @@
+{
+  "requested_at": "2026-11-20T08:08:45.423871+00:00",
+  "skill": "experiment-audit",
+  "reviewer": "/root/format_reward_integrity",
+  "reviewer_model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "scope": [
+    "code",
+    "inputs",
+    "results",
+    "eval",
+    "policy_*",
+    "numerical_control",
+    "environment.json",
+    "实验交付.md"
+  ],
+  "checklist": [
+    "ground truth provenance",
+    "normalization",
+    "result and claim agreement",
+    "execution",
+    "scope",
+    "evaluation class",
+    "matched training trajectories and parameter hashes",
+    "token masking intervention",
+    "E1 group alignment"
+  ],
+  "review_writes": [
+    "review/EXPERIMENT_AUDIT.md",
+    "review/EXPERIMENT_AUDIT.json"
+  ]
+}

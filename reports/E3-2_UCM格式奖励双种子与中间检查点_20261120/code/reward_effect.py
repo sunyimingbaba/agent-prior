@@ -24,12 +24,14 @@ def main():
             pairs=[(i,j) for i in range(8) for j in range(8) if fmt_yes[i] and not fmt_yes[j]]
             changes=[(sign(rewards[i]-rewards[j]),sign(aug[i]-aug[j])) for i,j in pairs]
             change=normalize(aug)-normalize(rewards)
+            used=np.array([trace['used']>0 for trace in z['traces']])
             row=dict(arm=arm,step=z['step'],image=z['image'],rewarded=int(fmt_yes.sum()),mixed=int(bool(pairs)),
-                     changed_top=int(top!=new),mixed_pairs=len(pairs),
+                     changed_top=int(top!=new),mixed_pairs=len(pairs),tool_trajectories=int(used.sum()),mixed_tool_groups=int(used.any() and not used.all()),
+                     tool_without_format=int((used & ~fmt_yes).sum()),formatted_without_tool=int((~used & fmt_yes).sum()),
                      overtook=sum(a<0 and b>0 for a,b in changes),orders_changed=sum(a!=b for a,b in changes),
                      max_advantage_change=float(np.max(abs(change))),mean_advantage_gain_rewarded=float(change[fmt_yes].mean()) if fmt_yes.any() else None)
             groups.append(row);rows.append(row)
-        result[arm]={k:sum(r[k] for r in rows) for k in ('rewarded','mixed','changed_top','mixed_pairs','overtook','orders_changed')}
+        result[arm]={k:sum(r[k] for r in rows) for k in ('rewarded','mixed','changed_top','mixed_pairs','overtook','orders_changed','tool_trajectories','mixed_tool_groups','tool_without_format','formatted_without_tool')}
         result[arm]['max_advantage_change']=max(r['max_advantage_change'] for r in rows)
     out=ROOT/'results';csvwrite(out/'format_counterfactual_groups.csv',groups)
     summaries={}

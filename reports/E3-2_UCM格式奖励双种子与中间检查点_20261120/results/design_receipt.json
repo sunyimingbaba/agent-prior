@@ -1,0 +1,13 @@
+{
+  "source_commit": "0d6f0b7560af2a37345e72dbb97d6d6d4d370b97",
+  "files_sha256": {
+    "inputs/protocol.json": "e781933b4d1db8eda3bf47d6dcfa64f46a58b00c1e7cf0875054d918467153e5",
+    "inputs/lock.json": "48221eae8b74d021abf28dad7c4810e81ef42b2bb7292339674376992faba90b",
+    "inputs/e1_extension.json": "bd2e84966031061be7656f9ee8ef995746aa1eb477029a28cade9b67177d0bbe",
+    "inputs/decoding_replication.json": "d89a09462eb241314cff715d387b29de90f56bde732f946eea4b9801f9f59fcc",
+    "code/train.py": "12d7336dce6f2ba7e163c6f518c89c55e73a77a1fa8598c8d49bebd597d81bb8",
+    "code/evaluate.py": "f3b695451a28483f2d839d41ac369e3666be5dc917ab14fe5a38da9a065b1a9d",
+    "code/analyze.py": "36aef0006d8a62f5e785f5b55d1f12775770b02a8fa9285319fcefc135608c00"
+  },
+  "timing": "Formal training input lock checked in every trainer; repository snapshot recorded after seed A off training started, before seed B training and before any EOS-mask intervention. Supplementary E1 and seed-A intervention are labelled separately."
+}

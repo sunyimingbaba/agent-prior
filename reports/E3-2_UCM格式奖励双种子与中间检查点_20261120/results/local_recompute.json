@@ -1,0 +1,101 @@
+{
+  "outputs": {
+    "retrieval_by_source.csv": {
+      "local_sha256": "15b916614902739eec2e10f289315dd76a63adb13e972d046dd3e92d245fc09a",
+      "server_sha256": "15b916614902739eec2e10f289315dd76a63adb13e972d046dd3e92d245fc09a",
+      "byte_equal": true
+    },
+    "detail_by_source.csv": {
+      "local_sha256": "6c1afeaceaabea3c1f6761e362b72755f41707e1845a6f1fc9a4c68965c562f1",
+      "server_sha256": "6c1afeaceaabea3c1f6761e362b72755f41707e1845a6f1fc9a4c68965c562f1",
+      "byte_equal": true
+    },
+    "e1_by_source.csv": {
+      "local_sha256": "424442f4b321268b9ebc755e4b9c7ae438db958388297992d7a2af2da65894c8",
+      "server_sha256": "424442f4b321268b9ebc755e4b9c7ae438db958388297992d7a2af2da65894c8",
+      "byte_equal": true
+    },
+    "behavior_by_source.csv": {
+      "local_sha256": "b7d9e5675e66b87a7a2b575ccd0ca3c98953cdd775d92005c585c5e363f23f93",
+      "server_sha256": "b7d9e5675e66b87a7a2b575ccd0ca3c98953cdd775d92005c585c5e363f23f93",
+      "byte_equal": true
+    },
+    "states.json": {
+      "local_sha256": "f9933e85208311e588cf72df2fbf0bf80b8ba4e41a59aef90fe12e0cffa9f3c8",
+      "server_sha256": "f9933e85208311e588cf72df2fbf0bf80b8ba4e41a59aef90fe12e0cffa9f3c8",
+      "byte_equal": true
+    },
+    "decision.json": {
+      "local_sha256": "929d16c5811714d0fadbb2e68ae93f2ca2a63bd8fcdfdfc82e4ae49d4e37462d",
+      "server_sha256": "929d16c5811714d0fadbb2e68ae93f2ca2a63bd8fcdfdfc82e4ae49d4e37462d",
+      "byte_equal": true
+    },
+    "e1_replay.json": {
+      "local_sha256": "013530430ec6ef9315c95d38f999d54ae52f456bcdf6db4dfdb14dbf59f34292",
+      "server_sha256": "013530430ec6ef9315c95d38f999d54ae52f456bcdf6db4dfdb14dbf59f34292",
+      "byte_equal": true
+    },
+    "paired_contrasts.json": {
+      "local_sha256": "be5be3c60d7dacf651c32317b7aa211ec4cb579ce1ce0ba966115cd040fd6d0b",
+      "server_sha256": "be5be3c60d7dacf651c32317b7aa211ec4cb579ce1ce0ba966115cd040fd6d0b",
+      "byte_equal": true
+    },
+    "e1_paired_contrasts.csv": {
+      "local_sha256": "f9c9d8793285611127f9b37a131e357ad18848da2437ba6073a7c0a3474c9b64",
+      "server_sha256": "f9c9d8793285611127f9b37a131e357ad18848da2437ba6073a7c0a3474c9b64",
+      "byte_equal": true
+    },
+    "alternative_scoring.json": {
+      "local_sha256": "66eda18a45c4f1e8cbd51f49d33a88d9d2ae77e5318480854e96bd069cc2562d",
+      "server_sha256": "59e87e85478aa7a64369456fcb5953a07e5b0ad09495d4b5c712f7a0a7d65bbd",
+      "byte_equal": false,
+      "local": {
+        "checked_query_recall_values": 37800,
+        "max_recall_difference": 0.0,
+        "maximum_gram_rounding_difference": 1.0547118733938987e-15,
+        "total_states": 17,
+        "e1_interval_rows": 80
+      },
+      "server": {
+        "checked_query_recall_values": 37800,
+        "max_recall_difference": 0.0,
+        "maximum_gram_rounding_difference": 6.661338147750939e-16,
+        "total_states": 17,
+        "e1_interval_rows": 80
+      }
+    },
+    "deployment_checks.json": {
+      "local_sha256": "afbc2b504eed8ef2217eb0d013923682a626ef6a690db1c15f284ba1bd13585c",
+      "server_sha256": "afbc2b504eed8ef2217eb0d013923682a626ef6a690db1c15f284ba1bd13585c",
+      "byte_equal": true
+    },
+    "format_counterfactual_groups.csv": {
+      "local_sha256": "949159b6961dafd4a1a6dca0682f9b1c48a099b4016e8e2cfff3be25d4721a19",
+      "server_sha256": "949159b6961dafd4a1a6dca0682f9b1c48a099b4016e8e2cfff3be25d4721a19",
+      "byte_equal": true
+    },
+    "format_credit.json": {
+      "local_sha256": "4ecbfbab6bcb50e44149a984bef1a762225753696f22e853c2943dcbb3089e47",
+      "server_sha256": "4ecbfbab6bcb50e44149a984bef1a762225753696f22e853c2943dcbb3089e47",
+      "byte_equal": true
+    },
+    "检查点汇总.csv": {
+      "local_sha256": "67c4a01ea105a7bb17064d0652250dc1ba49eea15b47deb9c40e33981014253b",
+      "server_sha256": "67c4a01ea105a7bb17064d0652250dc1ba49eea15b47deb9c40e33981014253b",
+      "byte_equal": true
+    },
+    "E1分项汇总.csv": {
+      "local_sha256": "ea4c6fefb2a2d695de1b4218effc4d77ef773fde4906829849c8d570695a9aae",
+      "server_sha256": "ea4c6fefb2a2d695de1b4218effc4d77ef773fde4906829849c8d570695a9aae",
+      "byte_equal": true
+    },
+    "屏蔽首步结束符.csv": {
+      "local_sha256": "d4994ed025715ce656d656640df26ab3d654127720e9aa1c93d9d450dbb502c9",
+      "server_sha256": "d4994ed025715ce656d656640df26ab3d654127720e9aa1c93d9d450dbb502c9",
+      "byte_equal": true
+    }
+  },
+  "checks": 16,
+  "byte_equal": 15,
+  "stored_alternative_scoring": "Server copy; local auxiliary rounding diagnostic retained in this receipt."
+}

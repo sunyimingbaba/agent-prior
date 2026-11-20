@@ -1,0 +1,515 @@
+{
+  "training_same_candidate_scores": {
+    "a_off": {
+      "rewarded": 3,
+      "mixed": 2,
+      "changed_top": 0,
+      "mixed_pairs": 19,
+      "overtook": 1,
+      "orders_changed": 2,
+      "tool_trajectories": 85,
+      "mixed_tool_groups": 24,
+      "tool_without_format": 82,
+      "formatted_without_tool": 0,
+      "max_advantage_change": 0.687641291750734
+    },
+    "a_on": {
+      "rewarded": 4,
+      "mixed": 3,
+      "changed_top": 0,
+      "mixed_pairs": 26,
+      "overtook": 0,
+      "orders_changed": 8,
+      "tool_trajectories": 80,
+      "mixed_tool_groups": 24,
+      "tool_without_format": 76,
+      "formatted_without_tool": 0,
+      "max_advantage_change": 0.8605339954724645
+    },
+    "b_off": {
+      "rewarded": 12,
+      "mixed": 10,
+      "changed_top": 1,
+      "mixed_pairs": 80,
+      "overtook": 11,
+      "orders_changed": 20,
+      "tool_trajectories": 59,
+      "mixed_tool_groups": 23,
+      "tool_without_format": 47,
+      "formatted_without_tool": 0,
+      "max_advantage_change": 2.503922491271909
+    },
+    "b_on": {
+      "rewarded": 16,
+      "mixed": 13,
+      "changed_top": 4,
+      "mixed_pairs": 106,
+      "overtook": 7,
+      "orders_changed": 24,
+      "tool_trajectories": 70,
+      "mixed_tool_groups": 24,
+      "tool_without_format": 54,
+      "formatted_without_tool": 0,
+      "max_advantage_change": 2.474873684152918
+    }
+  },
+  "output_text": {
+    "base_00": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 19,
+        "real_tool": 190,
+        "count": 210,
+        "distinct_output_text": 5,
+        "most_common_text_count": 163
+      },
+      "generic": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 196,
+        "real_tool": 14,
+        "count": 210,
+        "distinct_output_text": 3,
+        "most_common_text_count": 196
+      },
+      "detail": {
+        "complete_answer": 1,
+        "answer_contains_letter_or_digit": 1,
+        "first_eos": 2,
+        "real_tool": 28,
+        "count": 32,
+        "distinct_output_text": 5,
+        "most_common_text_count": 14
+      }
+    },
+    "a_off_06": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 176,
+        "real_tool": 34,
+        "count": 210,
+        "distinct_output_text": 4,
+        "most_common_text_count": 176
+      },
+      "generic": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 210,
+        "real_tool": 0,
+        "count": 210,
+        "distinct_output_text": 1,
+        "most_common_text_count": 210
+      },
+      "detail": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 30,
+        "real_tool": 2,
+        "count": 32,
+        "distinct_output_text": 2,
+        "most_common_text_count": 30
+      }
+    },
+    "a_off_12": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 174,
+        "real_tool": 36,
+        "count": 210,
+        "distinct_output_text": 4,
+        "most_common_text_count": 174
+      },
+      "generic": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 210,
+        "real_tool": 0,
+        "count": 210,
+        "distinct_output_text": 1,
+        "most_common_text_count": 210
+      },
+      "detail": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 30,
+        "real_tool": 2,
+        "count": 32,
+        "distinct_output_text": 2,
+        "most_common_text_count": 30
+      }
+    },
+    "a_off_24": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 106,
+        "real_tool": 104,
+        "count": 210,
+        "distinct_output_text": 5,
+        "most_common_text_count": 106
+      },
+      "generic": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 210,
+        "real_tool": 0,
+        "count": 210,
+        "distinct_output_text": 1,
+        "most_common_text_count": 210
+      },
+      "detail": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 23,
+        "real_tool": 9,
+        "count": 32,
+        "distinct_output_text": 3,
+        "most_common_text_count": 23
+      }
+    },
+    "a_on_06": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 135,
+        "real_tool": 75,
+        "count": 210,
+        "distinct_output_text": 3,
+        "most_common_text_count": 135
+      },
+      "generic": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 210,
+        "real_tool": 0,
+        "count": 210,
+        "distinct_output_text": 1,
+        "most_common_text_count": 210
+      },
+      "detail": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 28,
+        "real_tool": 4,
+        "count": 32,
+        "distinct_output_text": 3,
+        "most_common_text_count": 28
+      }
+    },
+    "a_on_12": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 201,
+        "real_tool": 9,
+        "count": 210,
+        "distinct_output_text": 3,
+        "most_common_text_count": 201
+      },
+      "generic": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 210,
+        "real_tool": 0,
+        "count": 210,
+        "distinct_output_text": 1,
+        "most_common_text_count": 210
+      },
+      "detail": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 32,
+        "real_tool": 0,
+        "count": 32,
+        "distinct_output_text": 1,
+        "most_common_text_count": 32
+      }
+    },
+    "a_on_24": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 106,
+        "real_tool": 104,
+        "count": 210,
+        "distinct_output_text": 5,
+        "most_common_text_count": 106
+      },
+      "generic": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 210,
+        "real_tool": 0,
+        "count": 210,
+        "distinct_output_text": 1,
+        "most_common_text_count": 210
+      },
+      "detail": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 24,
+        "real_tool": 8,
+        "count": 32,
+        "distinct_output_text": 3,
+        "most_common_text_count": 24
+      }
+    },
+    "b_off_06": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 0,
+        "real_tool": 0,
+        "count": 210,
+        "distinct_output_text": 4,
+        "most_common_text_count": 157
+      },
+      "generic": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 0,
+        "real_tool": 3,
+        "count": 210,
+        "distinct_output_text": 4,
+        "most_common_text_count": 206
+      },
+      "detail": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 0,
+        "real_tool": 0,
+        "count": 32,
+        "distinct_output_text": 2,
+        "most_common_text_count": 27
+      }
+    },
+    "b_off_12": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 0,
+        "real_tool": 2,
+        "count": 210,
+        "distinct_output_text": 4,
+        "most_common_text_count": 128
+      },
+      "generic": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 1,
+        "real_tool": 27,
+        "count": 210,
+        "distinct_output_text": 5,
+        "most_common_text_count": 170
+      },
+      "detail": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 0,
+        "real_tool": 0,
+        "count": 32,
+        "distinct_output_text": 2,
+        "most_common_text_count": 16
+      }
+    },
+    "b_off_24": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 0,
+        "real_tool": 198,
+        "count": 210,
+        "distinct_output_text": 5,
+        "most_common_text_count": 162
+      },
+      "generic": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 84,
+        "real_tool": 126,
+        "count": 210,
+        "distinct_output_text": 3,
+        "most_common_text_count": 84
+      },
+      "detail": {
+        "complete_answer": 1,
+        "answer_contains_letter_or_digit": 1,
+        "first_eos": 0,
+        "real_tool": 29,
+        "count": 32,
+        "distinct_output_text": 4,
+        "most_common_text_count": 15
+      }
+    },
+    "b_on_06": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 0,
+        "real_tool": 0,
+        "count": 210,
+        "distinct_output_text": 4,
+        "most_common_text_count": 160
+      },
+      "generic": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 1,
+        "real_tool": 10,
+        "count": 210,
+        "distinct_output_text": 4,
+        "most_common_text_count": 199
+      },
+      "detail": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 0,
+        "real_tool": 0,
+        "count": 32,
+        "distinct_output_text": 2,
+        "most_common_text_count": 29
+      }
+    },
+    "b_on_12": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 2,
+        "real_tool": 158,
+        "count": 210,
+        "distinct_output_text": 7,
+        "most_common_text_count": 132
+      },
+      "generic": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 120,
+        "real_tool": 90,
+        "count": 210,
+        "distinct_output_text": 3,
+        "most_common_text_count": 120
+      },
+      "detail": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 0,
+        "real_tool": 11,
+        "count": 32,
+        "distinct_output_text": 4,
+        "most_common_text_count": 20
+      }
+    },
+    "b_on_24": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 188,
+        "real_tool": 22,
+        "count": 210,
+        "distinct_output_text": 3,
+        "most_common_text_count": 188
+      },
+      "generic": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 210,
+        "real_tool": 0,
+        "count": 210,
+        "distinct_output_text": 1,
+        "most_common_text_count": 210
+      },
+      "detail": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 32,
+        "real_tool": 0,
+        "count": 32,
+        "distinct_output_text": 1,
+        "most_common_text_count": 32
+      }
+    },
+    "a_off_24_force": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 0,
+        "real_tool": 210,
+        "count": 210,
+        "distinct_output_text": 4,
+        "most_common_text_count": 160
+      },
+      "detail": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 0,
+        "real_tool": 32,
+        "count": 32,
+        "distinct_output_text": 2,
+        "most_common_text_count": 21
+      }
+    },
+    "a_on_24_force": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 0,
+        "real_tool": 210,
+        "count": 210,
+        "distinct_output_text": 5,
+        "most_common_text_count": 155
+      },
+      "detail": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 0,
+        "real_tool": 32,
+        "count": 32,
+        "distinct_output_text": 2,
+        "most_common_text_count": 20
+      }
+    },
+    "b_off_24_force": {
+      "native": {
+        "complete_answer": 0,
+        "answer_contains_letter_or_digit": 0,
+        "first_eos": 0,
+        "real_tool": 198,
+        "count": 210,
+        "distinct_output_text": 5,
+        "most_common_text_count": 162
+      },
+      "detail": {
+        "complete_answer": 1,
+        "answer_contains_letter_or_digit": 1,
+        "first_eos": 0,
+        "real_tool": 29,
+        "count": 32,
+        "distinct_output_text": 4,
+        "most_common_text_count": 15
+      }
+    },
+    "b_on_24_force": {
+      "native": {
+        "complete_answer": 3,
+        "answer_contains_letter_or_digit": 3,
+        "first_eos": 0,
+        "real_tool": 210,
+        "count": 210,
+        "distinct_output_text": 6,
+        "most_common_text_count": 146
+      },
+      "detail": {
+        "complete_answer": 2,
+        "answer_contains_letter_or_digit": 2,
+        "first_eos": 0,
+        "real_tool": 32,
+        "count": 32,
+        "distinct_output_text": 3,
+        "most_common_text_count": 22
+      }
+    }
+  }
+}

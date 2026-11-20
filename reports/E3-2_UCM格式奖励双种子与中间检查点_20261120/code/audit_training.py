@@ -48,7 +48,7 @@ def main():
             mixed=len(set(fmt))>1;hits=sum(s>0 for s in fmt)
             count.update(dict(formatted=hits,nonempty_formatted=has_content,mixed_format_groups=int(mixed),eos=immediate,nonzero=int(z['unclipped_grad_norm']>0)))
             maxerr=max(maxerr,z['max_logp_error'])
-            groups.append(dict(arm=arm,step=i+1,image=z['image'],format_candidates=hits,nonempty=has_content,format_changes_advantage=int(mixed),first_eos=immediate,gradient=z['unclipped_grad_norm'],replay_max_error=z['max_logp_error']))
+            groups.append(dict(arm=arm,step=i+1,image=z['image'],format_candidates=hits,nonempty=has_content,within_group_format_varies=int(mixed),first_eos=immediate,gradient=z['unclipped_grad_norm'],replay_max_error=z['max_logp_error']))
         cp={}
         for step in (6,12,24):
             folder=p/f'step_{step:02d}';f=folder/'adapter/adapter_model.safetensors';ref=read(folder/'update.json')

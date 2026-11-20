@@ -1,0 +1,100 @@
+{
+  "prior_stage": {
+    "base_00": {
+      "native": {
+        "n": 210,
+        "hidden": 210,
+        "tokens": 210,
+        "readout_exact": 210,
+        "max_readout_difference": 0.0
+      },
+      "generic": {
+        "n": 210,
+        "hidden": 210,
+        "tokens": 210,
+        "readout_exact": 210,
+        "max_readout_difference": 0.0
+      },
+      "detail": {
+        "n": 32,
+        "hidden": 32,
+        "tokens": 32,
+        "readout_exact": 32,
+        "max_readout_difference": 0.0
+      }
+    },
+    "a_off_24": {
+      "native": {
+        "n": 210,
+        "hidden": 0,
+        "tokens": 116,
+        "readout_exact": 0,
+        "max_readout_difference": 0.1582457423210144
+      },
+      "generic": {
+        "n": 210,
+        "hidden": 0,
+        "tokens": 210,
+        "readout_exact": 0,
+        "max_readout_difference": 0.012915372848510742
+      },
+      "detail": {
+        "n": 32,
+        "hidden": 0,
+        "tokens": 23,
+        "readout_exact": 0,
+        "max_readout_difference": 0.1183442547917366
+      }
+    }
+  },
+  "force": {
+    "a_off": {
+      "native": {
+        "triggered": 106,
+        "unaffected": 104,
+        "unchanged_exact": 104
+      },
+      "detail": {
+        "triggered": 23,
+        "unaffected": 9,
+        "unchanged_exact": 9
+      }
+    },
+    "a_on": {
+      "native": {
+        "triggered": 106,
+        "unaffected": 104,
+        "unchanged_exact": 104
+      },
+      "detail": {
+        "triggered": 24,
+        "unaffected": 8,
+        "unchanged_exact": 8
+      }
+    },
+    "b_off": {
+      "native": {
+        "triggered": 0,
+        "unaffected": 210,
+        "unchanged_exact": 210
+      },
+      "detail": {
+        "triggered": 0,
+        "unaffected": 32,
+        "unchanged_exact": 32
+      }
+    },
+    "b_on": {
+      "native": {
+        "triggered": 188,
+        "unaffected": 22,
+        "unchanged_exact": 22
+      },
+      "detail": {
+        "triggered": 32,
+        "unaffected": 0,
+        "unchanged_exact": 0
+      }
+    }
+  }
+}
