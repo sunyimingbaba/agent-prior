@@ -1,0 +1,18 @@
+{
+  "verified_at": "2026-11-20T05:30:53.131613+00:00",
+  "command": "python code/manifest.py --verify",
+  "local": {
+    "path": "/Users/botlv/CUP-code/reports/E3-2_UCM同起点三奖励短训_20261120",
+    "file_count": 3819,
+    "total_bytes": 2604164740,
+    "manifest_sha256": "c6b916892901efb2db6f200b8fc421ee27ef43980345bc5aead6a695ee4908ab"
+  },
+  "server": {
+    "path": "/private/AGSE_E3_1_rebuild_20261112/matched_policy_20261120",
+    "file_count": 3819,
+    "total_bytes": 2604164740,
+    "manifest_sha256": "c6b916892901efb2db6f200b8fc421ee27ef43980345bc5aead6a695ee4908ab"
+  },
+  "audit_inputs_matching_manifest": 3814,
+  "includes": "final weights, AdamW states, generated priors, raw training traces, scores, review and code"
+}
