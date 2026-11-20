@@ -1,0 +1,206 @@
+{
+  "image": "1685.tif",
+  "records": [
+    {
+      "word": "A",
+      "order": 0,
+      "view": 0,
+      "options": [
+        "The dense continuous strip of green trees is to the right of the broad area of dark river water.",
+        "The dense continuous strip of green trees is to the left of the broad area of dark river water."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The dense continuous strip of green trees is to the right of the broad area of dark river water.\nB. The dense continuous strip of green trees is to the left of the broad area of dark river water.",
+      "logit_a": 26.375,
+      "logit_b": 27.5,
+      "logprob_a": -1.4065520763397217,
+      "logprob_b": -0.2815520167350769,
+      "top": 33,
+      "valid_mass": 0.9995982050895691
+    },
+    {
+      "word": "A",
+      "order": 0,
+      "view": 1,
+      "options": [
+        "The dense continuous strip of green trees is to the right of the broad area of dark river water.",
+        "The dense continuous strip of green trees is to the left of the broad area of dark river water."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The dense continuous strip of green trees is to the right of the broad area of dark river water.\nB. The dense continuous strip of green trees is to the left of the broad area of dark river water.",
+      "logit_a": 24.0,
+      "logit_b": 28.125,
+      "logprob_a": -4.141234874725342,
+      "logprob_b": -0.01623469777405262,
+      "top": 33,
+      "valid_mass": 0.9997995495796204
+    },
+    {
+      "word": "A",
+      "order": 0,
+      "view": 2,
+      "options": [
+        "The dense continuous strip of green trees is to the right of the broad area of dark river water.",
+        "The dense continuous strip of green trees is to the left of the broad area of dark river water."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The dense continuous strip of green trees is to the right of the broad area of dark river water.\nB. The dense continuous strip of green trees is to the left of the broad area of dark river water.",
+      "logit_a": 24.0,
+      "logit_b": 26.25,
+      "logprob_a": -2.3514671325683594,
+      "logprob_b": -0.10146722197532654,
+      "top": 33,
+      "valid_mass": 0.9987401366233826
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 0,
+      "options": [
+        "The dense continuous strip of green trees is to the left of the broad area of dark river water.",
+        "The dense continuous strip of green trees is to the right of the broad area of dark river water."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The dense continuous strip of green trees is to the left of the broad area of dark river water.\nB. The dense continuous strip of green trees is to the right of the broad area of dark river water.",
+      "logit_a": 28.25,
+      "logit_b": 27.75,
+      "logprob_a": -0.474441260099411,
+      "logprob_b": -0.9744412899017334,
+      "top": 32,
+      "valid_mass": 0.9996357560157776
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 1,
+      "options": [
+        "The dense continuous strip of green trees is to the left of the broad area of dark river water.",
+        "The dense continuous strip of green trees is to the right of the broad area of dark river water."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The dense continuous strip of green trees is to the left of the broad area of dark river water.\nB. The dense continuous strip of green trees is to the right of the broad area of dark river water.",
+      "logit_a": 30.625,
+      "logit_b": 27.25,
+      "logprob_a": -0.03374696895480156,
+      "logprob_b": -3.4087469577789307,
+      "top": 32,
+      "valid_mass": 0.9998987317085266
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 2,
+      "options": [
+        "The dense continuous strip of green trees is to the left of the broad area of dark river water.",
+        "The dense continuous strip of green trees is to the right of the broad area of dark river water."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The dense continuous strip of green trees is to the left of the broad area of dark river water.\nB. The dense continuous strip of green trees is to the right of the broad area of dark river water.",
+      "logit_a": 24.75,
+      "logit_b": 25.875,
+      "logprob_a": -1.4079010486602783,
+      "logprob_b": -0.2829011082649231,
+      "top": 33,
+      "valid_mass": 0.9982506036758423
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 0,
+      "options": [
+        "The broad area of dark river water is to the left of the dense continuous strip of green trees.",
+        "The broad area of dark river water is to the right of the dense continuous strip of green trees."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The broad area of dark river water is to the left of the dense continuous strip of green trees.\nB. The broad area of dark river water is to the right of the dense continuous strip of green trees.",
+      "logit_a": 26.125,
+      "logit_b": 26.75,
+      "logprob_a": -1.055169701576233,
+      "logprob_b": -0.4301696717739105,
+      "top": 33,
+      "valid_mass": 0.9985320568084717
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 1,
+      "options": [
+        "The broad area of dark river water is to the left of the dense continuous strip of green trees.",
+        "The broad area of dark river water is to the right of the dense continuous strip of green trees."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The broad area of dark river water is to the left of the dense continuous strip of green trees.\nB. The broad area of dark river water is to the right of the dense continuous strip of green trees.",
+      "logit_a": 25.875,
+      "logit_b": 26.75,
+      "logprob_a": -1.2240166664123535,
+      "logprob_b": -0.34901660680770874,
+      "top": 33,
+      "valid_mass": 0.9994281530380249
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 2,
+      "options": [
+        "The broad area of dark river water is to the left of the dense continuous strip of green trees.",
+        "The broad area of dark river water is to the right of the dense continuous strip of green trees."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The broad area of dark river water is to the left of the dense continuous strip of green trees.\nB. The broad area of dark river water is to the right of the dense continuous strip of green trees.",
+      "logit_a": 25.0,
+      "logit_b": 26.0,
+      "logprob_a": -1.3146785497665405,
+      "logprob_b": -0.3146785497665405,
+      "top": 33,
+      "valid_mass": 0.9985841512680054
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 0,
+      "options": [
+        "The broad area of dark river water is to the right of the dense continuous strip of green trees.",
+        "The broad area of dark river water is to the left of the dense continuous strip of green trees."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The broad area of dark river water is to the right of the dense continuous strip of green trees.\nB. The broad area of dark river water is to the left of the dense continuous strip of green trees.",
+      "logit_a": 26.75,
+      "logit_b": 27.0,
+      "logprob_a": -0.8268063068389893,
+      "logprob_b": -0.5768063068389893,
+      "top": 33,
+      "valid_mass": 0.9991335272789001
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 1,
+      "options": [
+        "The broad area of dark river water is to the right of the dense continuous strip of green trees.",
+        "The broad area of dark river water is to the left of the dense continuous strip of green trees."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The broad area of dark river water is to the right of the dense continuous strip of green trees.\nB. The broad area of dark river water is to the left of the dense continuous strip of green trees.",
+      "logit_a": 27.0,
+      "logit_b": 27.25,
+      "logprob_a": -0.8265283107757568,
+      "logprob_b": -0.5765283107757568,
+      "top": 33,
+      "valid_mass": 0.9994112849235535
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 2,
+      "options": [
+        "The broad area of dark river water is to the right of the dense continuous strip of green trees.",
+        "The broad area of dark river water is to the left of the dense continuous strip of green trees."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The broad area of dark river water is to the right of the dense continuous strip of green trees.\nB. The broad area of dark river water is to the left of the dense continuous strip of green trees.",
+      "logit_a": 24.625,
+      "logit_b": 26.125,
+      "logprob_a": -1.702641248703003,
+      "logprob_b": -0.20264118909835815,
+      "top": 33,
+      "valid_mass": 0.9987727999687195
+    }
+  ],
+  "active": "2f7e0f3af73b835f2111152bfd76a47f3b811737f24fa51d24c6b6234e005ab6",
+  "choice_ids": [
+    32,
+    33
+  ],
+  "rgb": "cf7421d33df73276fcd79474f2b0d8ecd7ff19440a68666b104e463023bd17ba",
+  "source": "6857b2234b9db734fa9d229c1cf9c0497bde1fd8f147a2ba1fde36475ee8b7aa",
+  "design": "9873c990cf5cb3b9f769be371efe4138fd98f9bd794339f3ae5834ab16700dc7",
+  "lock": "37384d42cc6bbdea95be7ba4ec59571cf7e76a3af1227ba91434ac7f9c08f017"
+}

@@ -1,0 +1,206 @@
+{
+  "image": "985.tif",
+  "records": [
+    {
+      "word": "A",
+      "order": 0,
+      "view": 0,
+      "options": [
+        "The small white spot on the green is above the cluster of trees casting long shadows beside the green.",
+        "The small white spot on the green is below the cluster of trees casting long shadows beside the green."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The small white spot on the green is above the cluster of trees casting long shadows beside the green.\nB. The small white spot on the green is below the cluster of trees casting long shadows beside the green.",
+      "logit_a": 26.0,
+      "logit_b": 26.125,
+      "logprob_a": -0.7581003308296204,
+      "logprob_b": -0.6331003308296204,
+      "top": 33,
+      "valid_mass": 0.9994988441467285
+    },
+    {
+      "word": "A",
+      "order": 0,
+      "view": 1,
+      "options": [
+        "The small white spot on the green is above the cluster of trees casting long shadows beside the green.",
+        "The small white spot on the green is below the cluster of trees casting long shadows beside the green."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The small white spot on the green is above the cluster of trees casting long shadows beside the green.\nB. The small white spot on the green is below the cluster of trees casting long shadows beside the green.",
+      "logit_a": 25.375,
+      "logit_b": 26.125,
+      "logprob_a": -1.1373512744903564,
+      "logprob_b": -0.38735127449035645,
+      "top": 33,
+      "valid_mass": 0.9995198249816895
+    },
+    {
+      "word": "A",
+      "order": 0,
+      "view": 2,
+      "options": [
+        "The small white spot on the green is above the cluster of trees casting long shadows beside the green.",
+        "The small white spot on the green is below the cluster of trees casting long shadows beside the green."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The small white spot on the green is above the cluster of trees casting long shadows beside the green.\nB. The small white spot on the green is below the cluster of trees casting long shadows beside the green.",
+      "logit_a": 25.25,
+      "logit_b": 26.375,
+      "logprob_a": -1.4072914123535156,
+      "logprob_b": -0.2822914719581604,
+      "top": 33,
+      "valid_mass": 0.9988593459129333
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 0,
+      "options": [
+        "The small white spot on the green is below the cluster of trees casting long shadows beside the green.",
+        "The small white spot on the green is above the cluster of trees casting long shadows beside the green."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The small white spot on the green is below the cluster of trees casting long shadows beside the green.\nB. The small white spot on the green is above the cluster of trees casting long shadows beside the green.",
+      "logit_a": 26.125,
+      "logit_b": 26.0,
+      "logprob_a": -0.6332710981369019,
+      "logprob_b": -0.7582710981369019,
+      "top": 32,
+      "valid_mass": 0.9993281364440918
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 1,
+      "options": [
+        "The small white spot on the green is below the cluster of trees casting long shadows beside the green.",
+        "The small white spot on the green is above the cluster of trees casting long shadows beside the green."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The small white spot on the green is below the cluster of trees casting long shadows beside the green.\nB. The small white spot on the green is above the cluster of trees casting long shadows beside the green.",
+      "logit_a": 27.875,
+      "logit_b": 26.5,
+      "logprob_a": -0.22582416236400604,
+      "logprob_b": -1.6008241176605225,
+      "top": 32,
+      "valid_mass": 0.9995886087417603
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 2,
+      "options": [
+        "The small white spot on the green is below the cluster of trees casting long shadows beside the green.",
+        "The small white spot on the green is above the cluster of trees casting long shadows beside the green."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The small white spot on the green is below the cluster of trees casting long shadows beside the green.\nB. The small white spot on the green is above the cluster of trees casting long shadows beside the green.",
+      "logit_a": 25.25,
+      "logit_b": 26.125,
+      "logprob_a": -1.2249805927276611,
+      "logprob_b": -0.3499806523323059,
+      "top": 33,
+      "valid_mass": 0.9984651207923889
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 0,
+      "options": [
+        "The cluster of trees casting long shadows beside the green is below the small white spot on the green.",
+        "The cluster of trees casting long shadows beside the green is above the small white spot on the green."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The cluster of trees casting long shadows beside the green is below the small white spot on the green.\nB. The cluster of trees casting long shadows beside the green is above the small white spot on the green.",
+      "logit_a": 26.125,
+      "logit_b": 26.375,
+      "logprob_a": -0.8264120817184448,
+      "logprob_b": -0.5764120817184448,
+      "top": 33,
+      "valid_mass": 0.9995274543762207
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 1,
+      "options": [
+        "The cluster of trees casting long shadows beside the green is below the small white spot on the green.",
+        "The cluster of trees casting long shadows beside the green is above the small white spot on the green."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The cluster of trees casting long shadows beside the green is below the small white spot on the green.\nB. The cluster of trees casting long shadows beside the green is above the small white spot on the green.",
+      "logit_a": 25.0,
+      "logit_b": 25.875,
+      "logprob_a": -1.223931908607483,
+      "logprob_b": -0.3489319384098053,
+      "top": 33,
+      "valid_mass": 0.9995127320289612
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 2,
+      "options": [
+        "The cluster of trees casting long shadows beside the green is below the small white spot on the green.",
+        "The cluster of trees casting long shadows beside the green is above the small white spot on the green."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The cluster of trees casting long shadows beside the green is below the small white spot on the green.\nB. The cluster of trees casting long shadows beside the green is above the small white spot on the green.",
+      "logit_a": 25.25,
+      "logit_b": 26.0,
+      "logprob_a": -1.1394627094268799,
+      "logprob_b": -0.38946273922920227,
+      "top": 33,
+      "valid_mass": 0.9974116086959839
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 0,
+      "options": [
+        "The cluster of trees casting long shadows beside the green is above the small white spot on the green.",
+        "The cluster of trees casting long shadows beside the green is below the small white spot on the green."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The cluster of trees casting long shadows beside the green is above the small white spot on the green.\nB. The cluster of trees casting long shadows beside the green is below the small white spot on the green.",
+      "logit_a": 24.625,
+      "logit_b": 26.375,
+      "logprob_a": -1.9106364250183105,
+      "logprob_b": -0.16063645482063293,
+      "top": 33,
+      "valid_mass": 0.9995877742767334
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 1,
+      "options": [
+        "The cluster of trees casting long shadows beside the green is above the small white spot on the green.",
+        "The cluster of trees casting long shadows beside the green is below the small white spot on the green."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The cluster of trees casting long shadows beside the green is above the small white spot on the green.\nB. The cluster of trees casting long shadows beside the green is below the small white spot on the green.",
+      "logit_a": 25.75,
+      "logit_b": 26.125,
+      "logprob_a": -0.8986122608184814,
+      "logprob_b": -0.5236122608184814,
+      "top": 33,
+      "valid_mass": 0.9995111227035522
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 2,
+      "options": [
+        "The cluster of trees casting long shadows beside the green is above the small white spot on the green.",
+        "The cluster of trees casting long shadows beside the green is below the small white spot on the green."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The cluster of trees casting long shadows beside the green is above the small white spot on the green.\nB. The cluster of trees casting long shadows beside the green is below the small white spot on the green.",
+      "logit_a": 24.25,
+      "logit_b": 25.875,
+      "logprob_a": -1.8065091371536255,
+      "logprob_b": -0.18150915205478668,
+      "top": 33,
+      "valid_mass": 0.9982370138168335
+    }
+  ],
+  "active": "2f7e0f3af73b835f2111152bfd76a47f3b811737f24fa51d24c6b6234e005ab6",
+  "choice_ids": [
+    32,
+    33
+  ],
+  "rgb": "bd99c3b2fd7923f3bb1851decc5f2ed450be611c7d70671561c70cac0681d475",
+  "source": "6857b2234b9db734fa9d229c1cf9c0497bde1fd8f147a2ba1fde36475ee8b7aa",
+  "design": "9873c990cf5cb3b9f769be371efe4138fd98f9bd794339f3ae5834ab16700dc7",
+  "lock": "37384d42cc6bbdea95be7ba4ec59571cf7e76a3af1227ba91434ac7f9c08f017"
+}

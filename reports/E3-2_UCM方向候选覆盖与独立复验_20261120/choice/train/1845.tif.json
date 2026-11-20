@@ -1,0 +1,206 @@
+{
+  "image": "1845.tif",
+  "records": [
+    {
+      "word": "A",
+      "order": 0,
+      "view": 0,
+      "options": [
+        "The rectangular swimming pool is above the main house.",
+        "The rectangular swimming pool is below the main house."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The rectangular swimming pool is above the main house.\nB. The rectangular swimming pool is below the main house.",
+      "logit_a": 25.5,
+      "logit_b": 26.125,
+      "logprob_a": -1.054329752922058,
+      "logprob_b": -0.4293297827243805,
+      "top": 33,
+      "valid_mass": 0.9993710517883301
+    },
+    {
+      "word": "A",
+      "order": 0,
+      "view": 1,
+      "options": [
+        "The rectangular swimming pool is above the main house.",
+        "The rectangular swimming pool is below the main house."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The rectangular swimming pool is above the main house.\nB. The rectangular swimming pool is below the main house.",
+      "logit_a": 24.875,
+      "logit_b": 26.25,
+      "logprob_a": -1.6009563207626343,
+      "logprob_b": -0.22595636546611786,
+      "top": 33,
+      "valid_mass": 0.9994564652442932
+    },
+    {
+      "word": "A",
+      "order": 0,
+      "view": 2,
+      "options": [
+        "The rectangular swimming pool is above the main house.",
+        "The rectangular swimming pool is below the main house."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The rectangular swimming pool is above the main house.\nB. The rectangular swimming pool is below the main house.",
+      "logit_a": 24.125,
+      "logit_b": 25.75,
+      "logprob_a": -1.8062351942062378,
+      "logprob_b": -0.181235209107399,
+      "top": 33,
+      "valid_mass": 0.998510479927063
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 0,
+      "options": [
+        "The rectangular swimming pool is below the main house.",
+        "The rectangular swimming pool is above the main house."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The rectangular swimming pool is below the main house.\nB. The rectangular swimming pool is above the main house.",
+      "logit_a": 27.625,
+      "logit_b": 26.5,
+      "logprob_a": -0.2816556394100189,
+      "logprob_b": -1.4066556692123413,
+      "top": 32,
+      "valid_mass": 0.9994946122169495
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 1,
+      "options": [
+        "The rectangular swimming pool is below the main house.",
+        "The rectangular swimming pool is above the main house."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The rectangular swimming pool is below the main house.\nB. The rectangular swimming pool is above the main house.",
+      "logit_a": 29.0,
+      "logit_b": 26.625,
+      "logprob_a": -0.08919147402048111,
+      "logprob_b": -2.464191436767578,
+      "top": 32,
+      "valid_mass": 0.9997479915618896
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 2,
+      "options": [
+        "The rectangular swimming pool is below the main house.",
+        "The rectangular swimming pool is above the main house."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The rectangular swimming pool is below the main house.\nB. The rectangular swimming pool is above the main house.",
+      "logit_a": 25.375,
+      "logit_b": 26.0,
+      "logprob_a": -1.055992603302002,
+      "logprob_b": -0.43099257349967957,
+      "top": 33,
+      "valid_mass": 0.9977107048034668
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 0,
+      "options": [
+        "The main house lies below its rectangular pool.",
+        "The main house lies above its rectangular pool."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The main house lies below its rectangular pool.\nB. The main house lies above its rectangular pool.",
+      "logit_a": 24.25,
+      "logit_b": 26.25,
+      "logprob_a": -2.127393960952759,
+      "logprob_b": -0.12739403545856476,
+      "top": 33,
+      "valid_mass": 0.9995340704917908
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 1,
+      "options": [
+        "The main house lies below its rectangular pool.",
+        "The main house lies above its rectangular pool."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The main house lies below its rectangular pool.\nB. The main house lies above its rectangular pool.",
+      "logit_a": 24.5,
+      "logit_b": 26.375,
+      "logprob_a": -2.0180327892303467,
+      "logprob_b": -0.14303284883499146,
+      "top": 33,
+      "valid_mass": 0.9996423125267029
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 2,
+      "options": [
+        "The main house lies below its rectangular pool.",
+        "The main house lies above its rectangular pool."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The main house lies below its rectangular pool.\nB. The main house lies above its rectangular pool.",
+      "logit_a": 24.25,
+      "logit_b": 26.125,
+      "logprob_a": -2.0184009075164795,
+      "logprob_b": -0.14340092241764069,
+      "top": 33,
+      "valid_mass": 0.9992744326591492
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 0,
+      "options": [
+        "The main house lies above its rectangular pool.",
+        "The main house lies below its rectangular pool."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The main house lies above its rectangular pool.\nB. The main house lies below its rectangular pool.",
+      "logit_a": 24.875,
+      "logit_b": 26.0,
+      "logprob_a": -1.4066213369369507,
+      "logprob_b": -0.28162136673927307,
+      "top": 33,
+      "valid_mass": 0.9995288848876953
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 1,
+      "options": [
+        "The main house lies above its rectangular pool.",
+        "The main house lies below its rectangular pool."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The main house lies above its rectangular pool.\nB. The main house lies below its rectangular pool.",
+      "logit_a": 25.375,
+      "logit_b": 25.875,
+      "logprob_a": -0.9745616912841797,
+      "logprob_b": -0.4745617210865021,
+      "top": 33,
+      "valid_mass": 0.9995153546333313
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 2,
+      "options": [
+        "The main house lies above its rectangular pool.",
+        "The main house lies below its rectangular pool."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The main house lies above its rectangular pool.\nB. The main house lies below its rectangular pool.",
+      "logit_a": 24.375,
+      "logit_b": 26.0,
+      "logprob_a": -1.805526852607727,
+      "logprob_b": -0.18052688241004944,
+      "top": 33,
+      "valid_mass": 0.9992181062698364
+    }
+  ],
+  "active": "2f7e0f3af73b835f2111152bfd76a47f3b811737f24fa51d24c6b6234e005ab6",
+  "choice_ids": [
+    32,
+    33
+  ],
+  "rgb": "af7ec2fb52a2d410dc9c4fd2a0f41124de8967c5b29ceab4573c64a3c09c819f",
+  "source": "6857b2234b9db734fa9d229c1cf9c0497bde1fd8f147a2ba1fde36475ee8b7aa",
+  "design": "9873c990cf5cb3b9f769be371efe4138fd98f9bd794339f3ae5834ab16700dc7",
+  "lock": "f03a5fe3305047951ea1c665a881b4bb7a5a8c97faea0779f8691df80e9721c8"
+}

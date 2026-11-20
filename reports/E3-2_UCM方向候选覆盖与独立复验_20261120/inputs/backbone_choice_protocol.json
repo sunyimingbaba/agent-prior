@@ -1,0 +1,5 @@
+{
+  "role": "Supplementary sensitivity study registered before reading the Agent choice results. No impact on primary endpoints.",
+  "change": "Replay the identical saved letter-choice prompts, real/rotated/gray RGBs, order and readout with the original Qwen2.5-VL-7B-Instruct backbone. Load the same historical Agent and disable just the LoRA adapter with PEFT within this replay. Recheck 12 adapter-on logits for the first held-out source before disabling.",
+  "scope": "This contrasts enabled versus disabled historical adapter during the explicit two-option task. It does not estimate an effect of a particular RFPO reward or substitute for single-image CUP retrieval."
+}

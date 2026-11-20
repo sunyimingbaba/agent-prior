@@ -1,0 +1,206 @@
+{
+  "image": "188.tif",
+  "records": [
+    {
+      "word": "A",
+      "order": 0,
+      "view": 0,
+      "options": [
+        "The small white ground vehicle is to the left of the cluster of parked airliners.",
+        "The small white ground vehicle is to the right of the cluster of parked airliners."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The small white ground vehicle is to the left of the cluster of parked airliners.\nB. The small white ground vehicle is to the right of the cluster of parked airliners.",
+      "logit_a": 29.75,
+      "logit_b": 25.625,
+      "logprob_a": -0.01612338423728943,
+      "logprob_b": -4.141123294830322,
+      "top": 32,
+      "valid_mass": 0.999910831451416
+    },
+    {
+      "word": "A",
+      "order": 0,
+      "view": 1,
+      "options": [
+        "The small white ground vehicle is to the left of the cluster of parked airliners.",
+        "The small white ground vehicle is to the right of the cluster of parked airliners."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The small white ground vehicle is to the left of the cluster of parked airliners.\nB. The small white ground vehicle is to the right of the cluster of parked airliners.",
+      "logit_a": 22.25,
+      "logit_b": 27.625,
+      "logprob_a": -5.379764080047607,
+      "logprob_b": -0.004764039069414139,
+      "top": 33,
+      "valid_mass": 0.999856173992157
+    },
+    {
+      "word": "A",
+      "order": 0,
+      "view": 2,
+      "options": [
+        "The small white ground vehicle is to the left of the cluster of parked airliners.",
+        "The small white ground vehicle is to the right of the cluster of parked airliners."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The small white ground vehicle is to the left of the cluster of parked airliners.\nB. The small white ground vehicle is to the right of the cluster of parked airliners.",
+      "logit_a": 24.625,
+      "logit_b": 25.875,
+      "logprob_a": -1.5039918422698975,
+      "logprob_b": -0.25399187207221985,
+      "top": 33,
+      "valid_mass": 0.9979393482208252
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 0,
+      "options": [
+        "The small white ground vehicle is to the right of the cluster of parked airliners.",
+        "The small white ground vehicle is to the left of the cluster of parked airliners."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The small white ground vehicle is to the right of the cluster of parked airliners.\nB. The small white ground vehicle is to the left of the cluster of parked airliners.",
+      "logit_a": 22.375,
+      "logit_b": 28.0,
+      "logprob_a": -5.628708362579346,
+      "logprob_b": -0.0037085108924657106,
+      "top": 33,
+      "valid_mass": 0.9998915791511536
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 1,
+      "options": [
+        "The small white ground vehicle is to the right of the cluster of parked airliners.",
+        "The small white ground vehicle is to the left of the cluster of parked airliners."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The small white ground vehicle is to the right of the cluster of parked airliners.\nB. The small white ground vehicle is to the left of the cluster of parked airliners.",
+      "logit_a": 30.25,
+      "logit_b": 25.25,
+      "logprob_a": -0.006784380413591862,
+      "logprob_b": -5.006784439086914,
+      "top": 32,
+      "valid_mass": 0.9999309778213501
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 2,
+      "options": [
+        "The small white ground vehicle is to the right of the cluster of parked airliners.",
+        "The small white ground vehicle is to the left of the cluster of parked airliners."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The small white ground vehicle is to the right of the cluster of parked airliners.\nB. The small white ground vehicle is to the left of the cluster of parked airliners.",
+      "logit_a": 24.5,
+      "logit_b": 26.125,
+      "logprob_a": -1.8065590858459473,
+      "logprob_b": -0.18155907094478607,
+      "top": 33,
+      "valid_mass": 0.998187243938446
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 0,
+      "options": [
+        "The cluster of parked airliners is to the right of the small white ground vehicle.",
+        "The cluster of parked airliners is to the left of the small white ground vehicle."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The cluster of parked airliners is to the right of the small white ground vehicle.\nB. The cluster of parked airliners is to the left of the small white ground vehicle.",
+      "logit_a": 26.125,
+      "logit_b": 26.125,
+      "logprob_a": -0.6936168670654297,
+      "logprob_b": -0.6936168670654297,
+      "top": 32,
+      "valid_mass": 0.9995304942131042
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 1,
+      "options": [
+        "The cluster of parked airliners is to the right of the small white ground vehicle.",
+        "The cluster of parked airliners is to the left of the small white ground vehicle."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The cluster of parked airliners is to the right of the small white ground vehicle.\nB. The cluster of parked airliners is to the left of the small white ground vehicle.",
+      "logit_a": 24.25,
+      "logit_b": 26.125,
+      "logprob_a": -2.0182769298553467,
+      "logprob_b": -0.1432768702507019,
+      "top": 33,
+      "valid_mass": 0.9993983507156372
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 2,
+      "options": [
+        "The cluster of parked airliners is to the right of the small white ground vehicle.",
+        "The cluster of parked airliners is to the left of the small white ground vehicle."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The cluster of parked airliners is to the right of the small white ground vehicle.\nB. The cluster of parked airliners is to the left of the small white ground vehicle.",
+      "logit_a": 24.125,
+      "logit_b": 25.75,
+      "logprob_a": -1.8095252513885498,
+      "logprob_b": -0.1845252364873886,
+      "top": 33,
+      "valid_mass": 0.9952307939529419
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 0,
+      "options": [
+        "The cluster of parked airliners is to the left of the small white ground vehicle.",
+        "The cluster of parked airliners is to the right of the small white ground vehicle."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The cluster of parked airliners is to the left of the small white ground vehicle.\nB. The cluster of parked airliners is to the right of the small white ground vehicle.",
+      "logit_a": 23.375,
+      "logit_b": 26.0,
+      "logprob_a": -2.695359706878662,
+      "logprob_b": -0.07035975903272629,
+      "top": 33,
+      "valid_mass": 0.9995765686035156
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 1,
+      "options": [
+        "The cluster of parked airliners is to the left of the small white ground vehicle.",
+        "The cluster of parked airliners is to the right of the small white ground vehicle."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The cluster of parked airliners is to the left of the small white ground vehicle.\nB. The cluster of parked airliners is to the right of the small white ground vehicle.",
+      "logit_a": 27.5,
+      "logit_b": 26.875,
+      "logprob_a": -0.4292430281639099,
+      "logprob_b": -1.0542430877685547,
+      "top": 32,
+      "valid_mass": 0.9994577765464783
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 2,
+      "options": [
+        "The cluster of parked airliners is to the left of the small white ground vehicle.",
+        "The cluster of parked airliners is to the right of the small white ground vehicle."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The cluster of parked airliners is to the left of the small white ground vehicle.\nB. The cluster of parked airliners is to the right of the small white ground vehicle.",
+      "logit_a": 24.125,
+      "logit_b": 25.375,
+      "logprob_a": -1.5085519552230835,
+      "logprob_b": -0.2585519850254059,
+      "top": 33,
+      "valid_mass": 0.9933989644050598
+    }
+  ],
+  "active": "2f7e0f3af73b835f2111152bfd76a47f3b811737f24fa51d24c6b6234e005ab6",
+  "choice_ids": [
+    32,
+    33
+  ],
+  "rgb": "e98408a9300fa91eda9b74480cd9770d4b17c84155eb872c276a22428f382828",
+  "source": "6857b2234b9db734fa9d229c1cf9c0497bde1fd8f147a2ba1fde36475ee8b7aa",
+  "design": "9873c990cf5cb3b9f769be371efe4138fd98f9bd794339f3ae5834ab16700dc7",
+  "lock": "37384d42cc6bbdea95be7ba4ec59571cf7e76a3af1227ba91434ac7f9c08f017"
+}

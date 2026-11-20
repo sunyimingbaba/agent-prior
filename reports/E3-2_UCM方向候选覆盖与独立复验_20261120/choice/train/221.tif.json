@@ -1,0 +1,206 @@
+{
+  "image": "221.tif",
+  "records": [
+    {
+      "word": "A",
+      "order": 0,
+      "view": 0,
+      "options": [
+        "The dirt infield lies to the right of the grassy outfield.",
+        "The dirt infield lies to the left of the grassy outfield."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The dirt infield lies to the right of the grassy outfield.\nB. The dirt infield lies to the left of the grassy outfield.",
+      "logit_a": 27.375,
+      "logit_b": 26.5,
+      "logprob_a": -0.3490030765533447,
+      "logprob_b": -1.2240030765533447,
+      "top": 32,
+      "valid_mass": 0.9994416832923889
+    },
+    {
+      "word": "A",
+      "order": 0,
+      "view": 1,
+      "options": [
+        "The dirt infield lies to the right of the grassy outfield.",
+        "The dirt infield lies to the left of the grassy outfield."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The dirt infield lies to the right of the grassy outfield.\nB. The dirt infield lies to the left of the grassy outfield.",
+      "logit_a": 25.125,
+      "logit_b": 26.75,
+      "logprob_a": -1.8053921461105347,
+      "logprob_b": -0.18039213120937347,
+      "top": 33,
+      "valid_mass": 0.9993526935577393
+    },
+    {
+      "word": "A",
+      "order": 0,
+      "view": 2,
+      "options": [
+        "The dirt infield lies to the right of the grassy outfield.",
+        "The dirt infield lies to the left of the grassy outfield."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The dirt infield lies to the right of the grassy outfield.\nB. The dirt infield lies to the left of the grassy outfield.",
+      "logit_a": 25.0,
+      "logit_b": 26.25,
+      "logprob_a": -1.5030730962753296,
+      "logprob_b": -0.253073126077652,
+      "top": 33,
+      "valid_mass": 0.9988566637039185
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 0,
+      "options": [
+        "The dirt infield lies to the left of the grassy outfield.",
+        "The dirt infield lies to the right of the grassy outfield."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The dirt infield lies to the left of the grassy outfield.\nB. The dirt infield lies to the right of the grassy outfield.",
+      "logit_a": 26.625,
+      "logit_b": 26.375,
+      "logprob_a": -0.5766547322273254,
+      "logprob_b": -0.8266547322273254,
+      "top": 32,
+      "valid_mass": 0.9992849826812744
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 1,
+      "options": [
+        "The dirt infield lies to the left of the grassy outfield.",
+        "The dirt infield lies to the right of the grassy outfield."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The dirt infield lies to the left of the grassy outfield.\nB. The dirt infield lies to the right of the grassy outfield.",
+      "logit_a": 29.0,
+      "logit_b": 27.0,
+      "logprob_a": -0.1272979974746704,
+      "logprob_b": -2.127297878265381,
+      "top": 32,
+      "valid_mass": 0.9996300935745239
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 2,
+      "options": [
+        "The dirt infield lies to the left of the grassy outfield.",
+        "The dirt infield lies to the right of the grassy outfield."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The dirt infield lies to the left of the grassy outfield.\nB. The dirt infield lies to the right of the grassy outfield.",
+      "logit_a": 26.375,
+      "logit_b": 26.25,
+      "logprob_a": -0.6338316202163696,
+      "logprob_b": -0.7588316202163696,
+      "top": 32,
+      "valid_mass": 0.998768150806427
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 0,
+      "options": [
+        "Most of the outfield grass is left of the dirt diamond.",
+        "Most of the outfield grass is right of the dirt diamond."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. Most of the outfield grass is left of the dirt diamond.\nB. Most of the outfield grass is right of the dirt diamond.",
+      "logit_a": 25.625,
+      "logit_b": 26.25,
+      "logprob_a": -1.0541752576828003,
+      "logprob_b": -0.4291752874851227,
+      "top": 33,
+      "valid_mass": 0.9995254874229431
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 1,
+      "options": [
+        "Most of the outfield grass is left of the dirt diamond.",
+        "Most of the outfield grass is right of the dirt diamond."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. Most of the outfield grass is left of the dirt diamond.\nB. Most of the outfield grass is right of the dirt diamond.",
+      "logit_a": 24.125,
+      "logit_b": 26.25,
+      "logprob_a": -2.2382419109344482,
+      "logprob_b": -0.11324183642864227,
+      "top": 33,
+      "valid_mass": 0.9995805621147156
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 2,
+      "options": [
+        "Most of the outfield grass is left of the dirt diamond.",
+        "Most of the outfield grass is right of the dirt diamond."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. Most of the outfield grass is left of the dirt diamond.\nB. Most of the outfield grass is right of the dirt diamond.",
+      "logit_a": 24.125,
+      "logit_b": 26.0,
+      "logprob_a": -2.018549680709839,
+      "logprob_b": -0.14354963600635529,
+      "top": 33,
+      "valid_mass": 0.9991258382797241
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 0,
+      "options": [
+        "Most of the outfield grass is right of the dirt diamond.",
+        "Most of the outfield grass is left of the dirt diamond."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. Most of the outfield grass is right of the dirt diamond.\nB. Most of the outfield grass is left of the dirt diamond.",
+      "logit_a": 25.5,
+      "logit_b": 26.625,
+      "logprob_a": -1.4065635204315186,
+      "logprob_b": -0.28156355023384094,
+      "top": 33,
+      "valid_mass": 0.9995867609977722
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 1,
+      "options": [
+        "Most of the outfield grass is right of the dirt diamond.",
+        "Most of the outfield grass is left of the dirt diamond."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. Most of the outfield grass is right of the dirt diamond.\nB. Most of the outfield grass is left of the dirt diamond.",
+      "logit_a": 26.25,
+      "logit_b": 26.125,
+      "logprob_a": -0.6330328583717346,
+      "logprob_b": -0.7580328583717346,
+      "top": 32,
+      "valid_mass": 0.9995663166046143
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 2,
+      "options": [
+        "Most of the outfield grass is right of the dirt diamond.",
+        "Most of the outfield grass is left of the dirt diamond."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. Most of the outfield grass is right of the dirt diamond.\nB. Most of the outfield grass is left of the dirt diamond.",
+      "logit_a": 24.375,
+      "logit_b": 26.25,
+      "logprob_a": -2.018500328063965,
+      "logprob_b": -0.14350026845932007,
+      "top": 33,
+      "valid_mass": 0.9991750717163086
+    }
+  ],
+  "active": "2f7e0f3af73b835f2111152bfd76a47f3b811737f24fa51d24c6b6234e005ab6",
+  "choice_ids": [
+    32,
+    33
+  ],
+  "rgb": "0c919329e428e27e35ae544b5b5b7db86f619cf26917a043cbcc51d86d0b774f",
+  "source": "6857b2234b9db734fa9d229c1cf9c0497bde1fd8f147a2ba1fde36475ee8b7aa",
+  "design": "9873c990cf5cb3b9f769be371efe4138fd98f9bd794339f3ae5834ab16700dc7",
+  "lock": "f03a5fe3305047951ea1c665a881b4bb7a5a8c97faea0779f8691df80e9721c8"
+}

@@ -1,0 +1,206 @@
+{
+  "image": "1969.tif",
+  "records": [
+    {
+      "word": "A",
+      "order": 0,
+      "view": 0,
+      "options": [
+        "The roadway lies below the tank site in the image.",
+        "The roadway lies above the tank site in the image."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The roadway lies below the tank site in the image.\nB. The roadway lies above the tank site in the image.",
+      "logit_a": 28.25,
+      "logit_b": 27.25,
+      "logprob_a": -0.3135501444339752,
+      "logprob_b": -1.3135501146316528,
+      "top": 32,
+      "valid_mass": 0.9997115731239319
+    },
+    {
+      "word": "A",
+      "order": 0,
+      "view": 1,
+      "options": [
+        "The roadway lies below the tank site in the image.",
+        "The roadway lies above the tank site in the image."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The roadway lies below the tank site in the image.\nB. The roadway lies above the tank site in the image.",
+      "logit_a": 26.0,
+      "logit_b": 26.0,
+      "logprob_a": -0.6936252117156982,
+      "logprob_b": -0.6936252117156982,
+      "top": 32,
+      "valid_mass": 0.9995221495628357
+    },
+    {
+      "word": "A",
+      "order": 0,
+      "view": 2,
+      "options": [
+        "The roadway lies below the tank site in the image.",
+        "The roadway lies above the tank site in the image."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The roadway lies below the tank site in the image.\nB. The roadway lies above the tank site in the image.",
+      "logit_a": 24.625,
+      "logit_b": 25.625,
+      "logprob_a": -1.3144227266311646,
+      "logprob_b": -0.31442275643348694,
+      "top": 33,
+      "valid_mass": 0.9988396763801575
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 0,
+      "options": [
+        "The roadway lies above the tank site in the image.",
+        "The roadway lies below the tank site in the image."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The roadway lies above the tank site in the image.\nB. The roadway lies below the tank site in the image.",
+      "logit_a": 23.875,
+      "logit_b": 26.625,
+      "logprob_a": -2.812328338623047,
+      "logprob_b": -0.06232822686433792,
+      "top": 33,
+      "valid_mass": 0.9996394515037537
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 1,
+      "options": [
+        "The roadway lies above the tank site in the image.",
+        "The roadway lies below the tank site in the image."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The roadway lies above the tank site in the image.\nB. The roadway lies below the tank site in the image.",
+      "logit_a": 24.375,
+      "logit_b": 26.0,
+      "logprob_a": -1.805153250694275,
+      "logprob_b": -0.18015322089195251,
+      "top": 33,
+      "valid_mass": 0.9995914697647095
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 2,
+      "options": [
+        "The roadway lies above the tank site in the image.",
+        "The roadway lies below the tank site in the image."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The roadway lies above the tank site in the image.\nB. The roadway lies below the tank site in the image.",
+      "logit_a": 24.75,
+      "logit_b": 25.875,
+      "logprob_a": -1.4072550535202026,
+      "logprob_b": -0.28225505352020264,
+      "top": 33,
+      "valid_mass": 0.9988957643508911
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 0,
+      "options": [
+        "The tank site is on the upper side of the roadway.",
+        "The tank site is on the lower side of the roadway."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The tank site is on the upper side of the roadway.\nB. The tank site is on the lower side of the roadway.",
+      "logit_a": 26.25,
+      "logit_b": 25.875,
+      "logprob_a": -0.5236775875091553,
+      "logprob_b": -0.8986775875091553,
+      "top": 32,
+      "valid_mass": 0.9994457960128784
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 1,
+      "options": [
+        "The tank site is on the upper side of the roadway.",
+        "The tank site is on the lower side of the roadway."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The tank site is on the upper side of the roadway.\nB. The tank site is on the lower side of the roadway.",
+      "logit_a": 25.5,
+      "logit_b": 25.875,
+      "logprob_a": -0.8986911773681641,
+      "logprob_b": -0.5236911773681641,
+      "top": 33,
+      "valid_mass": 0.9994322061538696
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 2,
+      "options": [
+        "The tank site is on the upper side of the roadway.",
+        "The tank site is on the lower side of the roadway."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The tank site is on the upper side of the roadway.\nB. The tank site is on the lower side of the roadway.",
+      "logit_a": 25.125,
+      "logit_b": 25.75,
+      "logprob_a": -1.0550814867019653,
+      "logprob_b": -0.43008145689964294,
+      "top": 33,
+      "valid_mass": 0.9986201524734497
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 0,
+      "options": [
+        "The tank site is on the lower side of the roadway.",
+        "The tank site is on the upper side of the roadway."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The tank site is on the lower side of the roadway.\nB. The tank site is on the upper side of the roadway.",
+      "logit_a": 24.75,
+      "logit_b": 26.0,
+      "logprob_a": -1.5027132034301758,
+      "logprob_b": -0.2527132034301758,
+      "top": 33,
+      "valid_mass": 0.9992161989212036
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 1,
+      "options": [
+        "The tank site is on the lower side of the roadway.",
+        "The tank site is on the upper side of the roadway."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The tank site is on the lower side of the roadway.\nB. The tank site is on the upper side of the roadway.",
+      "logit_a": 26.125,
+      "logit_b": 25.875,
+      "logprob_a": -0.576492428779602,
+      "logprob_b": -0.826492428779602,
+      "top": 32,
+      "valid_mass": 0.9994471669197083
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 2,
+      "options": [
+        "The tank site is on the lower side of the roadway.",
+        "The tank site is on the upper side of the roadway."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The tank site is on the lower side of the roadway.\nB. The tank site is on the upper side of the roadway.",
+      "logit_a": 25.25,
+      "logit_b": 25.75,
+      "logprob_a": -0.9755801558494568,
+      "logprob_b": -0.4755801558494568,
+      "top": 33,
+      "valid_mass": 0.9984979629516602
+    }
+  ],
+  "active": "2f7e0f3af73b835f2111152bfd76a47f3b811737f24fa51d24c6b6234e005ab6",
+  "choice_ids": [
+    32,
+    33
+  ],
+  "rgb": "34a5d683ecd555269c13d1c366c7e8404a7ffe0342a6cf71333a4546eadec4e1",
+  "source": "6857b2234b9db734fa9d229c1cf9c0497bde1fd8f147a2ba1fde36475ee8b7aa",
+  "design": "9873c990cf5cb3b9f769be371efe4138fd98f9bd794339f3ae5834ab16700dc7",
+  "lock": "f03a5fe3305047951ea1c665a881b4bb7a5a8c97faea0779f8691df80e9721c8"
+}

@@ -1,0 +1,61 @@
+{
+  "groups": {
+    "train": {
+      "paired_transitions": {
+        "both_heads_correct": 0,
+        "only_cup": 0,
+        "only_agent": 18,
+        "neither": 14
+      },
+      "difference_ci": {
+        "mean": 0.5625,
+        "lo": 0.375,
+        "hi": 0.75,
+        "n": 16
+      },
+      "cup_same_state": {
+        "n": 32,
+        "both": 0,
+        "pairacc": 0.5,
+        "centered": 0.53125,
+        "p": 0.5
+      },
+      "agent_same_state": {
+        "n": 32,
+        "both": 18,
+        "pairacc": 0.78125,
+        "centered": 0.9375,
+        "p": 0.0002593994140625
+      }
+    },
+    "fresh": {
+      "paired_transitions": {
+        "both_heads_correct": 0,
+        "only_cup": 1,
+        "only_agent": 17,
+        "neither": 10
+      },
+      "difference_ci": {
+        "mean": 0.5714285714285714,
+        "lo": 0.32142857142857145,
+        "hi": 0.7857142857142857,
+        "n": 14
+      },
+      "cup_same_state": {
+        "n": 28,
+        "both": 1,
+        "pairacc": 0.5,
+        "centered": 0.5357142857142857,
+        "p": 0.5
+      },
+      "agent_same_state": {
+        "n": 28,
+        "both": 17,
+        "pairacc": 0.7857142857142857,
+        "centered": 0.9285714285714286,
+        "p": 0.00091552734375
+      }
+    }
+  },
+  "shared_states": 240
+}

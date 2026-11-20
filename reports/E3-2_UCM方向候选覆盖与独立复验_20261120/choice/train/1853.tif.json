@@ -1,0 +1,206 @@
+{
+  "image": "1853.tif",
+  "records": [
+    {
+      "word": "A",
+      "order": 0,
+      "view": 0,
+      "options": [
+        "The driveway reaches the main house from below in the image.",
+        "The driveway reaches the main house from above in the image."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The driveway reaches the main house from below in the image.\nB. The driveway reaches the main house from above in the image.",
+      "logit_a": 26.125,
+      "logit_b": 26.5,
+      "logprob_a": -0.8988785147666931,
+      "logprob_b": -0.5238785147666931,
+      "top": 33,
+      "valid_mass": 0.9992450475692749
+    },
+    {
+      "word": "A",
+      "order": 0,
+      "view": 1,
+      "options": [
+        "The driveway reaches the main house from below in the image.",
+        "The driveway reaches the main house from above in the image."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The driveway reaches the main house from below in the image.\nB. The driveway reaches the main house from above in the image.",
+      "logit_a": 26.25,
+      "logit_b": 26.375,
+      "logprob_a": -0.7586444616317749,
+      "logprob_b": -0.6336444616317749,
+      "top": 33,
+      "valid_mass": 0.9989551305770874
+    },
+    {
+      "word": "A",
+      "order": 0,
+      "view": 2,
+      "options": [
+        "The driveway reaches the main house from below in the image.",
+        "The driveway reaches the main house from above in the image."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The driveway reaches the main house from below in the image.\nB. The driveway reaches the main house from above in the image.",
+      "logit_a": 25.5,
+      "logit_b": 25.5,
+      "logprob_a": -0.6966642141342163,
+      "logprob_b": -0.6966642141342163,
+      "top": 32,
+      "valid_mass": 0.9964891672134399
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 0,
+      "options": [
+        "The driveway reaches the main house from above in the image.",
+        "The driveway reaches the main house from below in the image."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The driveway reaches the main house from above in the image.\nB. The driveway reaches the main house from below in the image.",
+      "logit_a": 26.25,
+      "logit_b": 26.625,
+      "logprob_a": -0.8988471627235413,
+      "logprob_b": -0.5238471627235413,
+      "top": 33,
+      "valid_mass": 0.9992763996124268
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 1,
+      "options": [
+        "The driveway reaches the main house from above in the image.",
+        "The driveway reaches the main house from below in the image."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The driveway reaches the main house from above in the image.\nB. The driveway reaches the main house from below in the image.",
+      "logit_a": 27.0,
+      "logit_b": 26.375,
+      "logprob_a": -0.4293716251850128,
+      "logprob_b": -1.0543715953826904,
+      "top": 32,
+      "valid_mass": 0.9993293285369873
+    },
+    {
+      "word": "A",
+      "order": 1,
+      "view": 2,
+      "options": [
+        "The driveway reaches the main house from above in the image.",
+        "The driveway reaches the main house from below in the image."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The driveway reaches the main house from above in the image.\nB. The driveway reaches the main house from below in the image.",
+      "logit_a": 23.75,
+      "logit_b": 25.125,
+      "logprob_a": -1.6034889221191406,
+      "logprob_b": -0.22848889231681824,
+      "top": 33,
+      "valid_mass": 0.9969285130500793
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 0,
+      "options": [
+        "The long driveway extends from the house toward the bottom of the frame.",
+        "The long driveway extends from the house toward the top of the frame."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The long driveway extends from the house toward the bottom of the frame.\nB. The long driveway extends from the house toward the top of the frame.",
+      "logit_a": 26.75,
+      "logit_b": 26.5,
+      "logprob_a": -0.5762367844581604,
+      "logprob_b": -0.8262367844581604,
+      "top": 32,
+      "valid_mass": 0.9997026920318604
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 1,
+      "options": [
+        "The long driveway extends from the house toward the bottom of the frame.",
+        "The long driveway extends from the house toward the top of the frame."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The long driveway extends from the house toward the bottom of the frame.\nB. The long driveway extends from the house toward the top of the frame.",
+      "logit_a": 24.75,
+      "logit_b": 25.875,
+      "logprob_a": -1.4065840244293213,
+      "logprob_b": -0.2815840542316437,
+      "top": 33,
+      "valid_mass": 0.9995661973953247
+    },
+    {
+      "word": "B",
+      "order": 0,
+      "view": 2,
+      "options": [
+        "The long driveway extends from the house toward the bottom of the frame.",
+        "The long driveway extends from the house toward the top of the frame."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The long driveway extends from the house toward the bottom of the frame.\nB. The long driveway extends from the house toward the top of the frame.",
+      "logit_a": 25.625,
+      "logit_b": 26.25,
+      "logprob_a": -1.05474054813385,
+      "logprob_b": -0.4297405779361725,
+      "top": 33,
+      "valid_mass": 0.9989606142044067
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 0,
+      "options": [
+        "The long driveway extends from the house toward the top of the frame.",
+        "The long driveway extends from the house toward the bottom of the frame."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The long driveway extends from the house toward the top of the frame.\nB. The long driveway extends from the house toward the bottom of the frame.",
+      "logit_a": 27.375,
+      "logit_b": 26.625,
+      "logprob_a": -0.38714003562927246,
+      "logprob_b": -1.1371400356292725,
+      "top": 32,
+      "valid_mass": 0.9997309446334839
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 1,
+      "options": [
+        "The long driveway extends from the house toward the top of the frame.",
+        "The long driveway extends from the house toward the bottom of the frame."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The long driveway extends from the house toward the top of the frame.\nB. The long driveway extends from the house toward the bottom of the frame.",
+      "logit_a": 27.125,
+      "logit_b": 26.5,
+      "logprob_a": -0.4289725422859192,
+      "logprob_b": -1.0539724826812744,
+      "top": 32,
+      "valid_mass": 0.9997282028198242
+    },
+    {
+      "word": "B",
+      "order": 1,
+      "view": 2,
+      "options": [
+        "The long driveway extends from the house toward the top of the frame.",
+        "The long driveway extends from the house toward the bottom of the frame."
+      ],
+      "query": "Which statement correctly describes the picture? Answer only A or B.\nA. The long driveway extends from the house toward the top of the frame.\nB. The long driveway extends from the house toward the bottom of the frame.",
+      "logit_a": 25.375,
+      "logit_b": 26.25,
+      "logprob_a": -1.2243813276290894,
+      "logprob_b": -0.34938132762908936,
+      "top": 33,
+      "valid_mass": 0.9990637302398682
+    }
+  ],
+  "active": "2f7e0f3af73b835f2111152bfd76a47f3b811737f24fa51d24c6b6234e005ab6",
+  "choice_ids": [
+    32,
+    33
+  ],
+  "rgb": "cd99b9973455be1bae2f42c85d40e9bf01a2b5132aa0e9175ca3987a8da62344",
+  "source": "6857b2234b9db734fa9d229c1cf9c0497bde1fd8f147a2ba1fde36475ee8b7aa",
+  "design": "9873c990cf5cb3b9f769be371efe4138fd98f9bd794339f3ae5834ab16700dc7",
+  "lock": "f03a5fe3305047951ea1c665a881b4bb7a5a8c97faea0779f8691df80e9721c8"
+}
