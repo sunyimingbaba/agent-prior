@@ -14,7 +14,7 @@ def isclose(a,b):
 
 def main(folder):
     out=ROOT/'results'
-    names=['states.json','decision.json','e1_replay.json','paired_contrasts.json','alternative_scoring.json',
+    names=['candidate_coverage.json','candidate_coverage_by_source.csv','deployment_checks.json','states.json','decision.json','e1_replay.json','paired_contrasts.json','alternative_scoring.json',
            'training_audit.json','checkpoint_index.json','scene_sensitivity.json','quarter_stats.json','prior_swap.json','credit_summary.json',
            'retrieval_by_source.csv','detail_by_source.csv','e1_by_source.csv','behavior_by_source.csv','same_candidate_credit.csv',
            'e1_paired_contrasts.csv','direction_transitions.csv','quarter_by_source.csv','prior_swap_by_source.csv','检查点汇总.csv','E1分项汇总.csv']

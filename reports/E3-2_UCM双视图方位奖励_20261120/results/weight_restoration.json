@@ -1,0 +1,47 @@
+{
+  "base_sha256": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "checkpoints": {
+    "a_single": {
+      "archive": "adapters/a_single",
+      "restored_sha256": "6675bc9efa8040f5eb363133b6d877cd3202e5d43b19bd7ab9c747169a84c093",
+      "bytes": 190443344,
+      "trained_parameters": "37875d9fba48b09e565ffd9d6f78b48b09dba67fa48cea0b23fef8b78c54cb12",
+      "parts": 6
+    },
+    "a_separate": {
+      "archive": "adapters/a_separate",
+      "restored_sha256": "ee6b6c78e64e2979dd4774738b777f20270cff9033d5c8bda0f57483bcc4fe42",
+      "bytes": 190443344,
+      "trained_parameters": "ec8d6740d8afc37644f2e0f7d2cb4ff2e91ff07dd0f622c6069ceea2d7a0fa47",
+      "parts": 6
+    },
+    "a_joint": {
+      "archive": "adapters/a_joint",
+      "restored_sha256": "06017362a3420c58345aa3c90675c85974106176113ad04a3654977710749f36",
+      "bytes": 190443344,
+      "trained_parameters": "88c21ec591a775ddaa6ca7e042c2a868d3135fb9a13bbb34c69edfca450b7dac",
+      "parts": 6
+    },
+    "b_single": {
+      "archive": "adapters/b_single",
+      "restored_sha256": "8175c58f32981ff4d78bfdd7b04c802355874bc1ad35546f98b9df6ebd227de7",
+      "bytes": 190443344,
+      "trained_parameters": "99e3282a07a95e7e3346a58ea5774733dd5a7d7d1bdb962f2e0c6e92398301c8",
+      "parts": 6
+    },
+    "b_separate": {
+      "archive": "adapters/b_separate",
+      "restored_sha256": "5323e39f30f51725ab4f86d066237dd33d9b9932b0d003c3d9d67620e0df61c9",
+      "bytes": 190443344,
+      "trained_parameters": "59e9918676c851319d01035736c35ce9995b9588f24b83e2633383a05ea2d8bb",
+      "parts": 6
+    },
+    "b_joint": {
+      "archive": "adapters/b_joint",
+      "restored_sha256": "126e14fff440151f498fb2e8248aa14d0fac42a7425cb5ac6de9e05d8136d20c",
+      "bytes": 190443344,
+      "trained_parameters": "4cd922e90a5dcf588a82840a142a80e5073ffd698e9444c3412616330e8a0214",
+      "parts": 6
+    }
+  }
+}

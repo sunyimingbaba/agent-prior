@@ -45,7 +45,7 @@ def check(previous):
             counts[state]=nstate
         sizes[folder]=counts
     assert sum(sizes['eval'].values())==6292 and sum(sizes['quarter_eval'].values())==224
-    dump(ROOT/'results/deployment_checks.json',dict(previous_stage=previous.name,identical_start=historical,verified_records=sizes,
+    dump(ROOT/'results/deployment_checks.json',dict(previous_start_proof=sha(previous/'eval/base_00/complete.json'),identical_start=historical,verified_records=sizes,
                                                      pixel_source_sha=sha(ROOT/'results/source_pixels.json')))
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('previous',type=Path);check(p.parse_args().previous)

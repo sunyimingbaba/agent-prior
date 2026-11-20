@@ -38,3 +38,5 @@ def main():
     dump(out/'credit_summary.json',aggregated)
 if __name__=='__main__':
     main()
+    from candidate_coverage import main as summarize_candidates
+    summarize_candidates()
