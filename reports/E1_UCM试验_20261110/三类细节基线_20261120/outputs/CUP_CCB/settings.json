@@ -1,0 +1,17 @@
+{
+  "method": "CUP_CCB",
+  "scoring_device": "cuda_fp32",
+  "cases_sha256": "3a4332bf73df485143771457cc75852c954615c20b29823b58d3517d4afc00e1",
+  "scored_images_sha256": "38bd531dc3929873e71a96089b7ad386e1008da671a15a4d09289d9e8afd050e",
+  "torch": "2.4.1+cu124",
+  "checkpoint": "/private/AGSE_E1_20261110/e1_three_dimensions_20261120/models/ucm_ccb_clustering_prior.ckpt",
+  "checkpoint_sha256": "688126e8587d7d91e0b93ed131a0095c2923904775e0cf9efb6f3a4e044ec607",
+  "epoch": 50,
+  "global_step": 1600,
+  "agent_prior": false,
+  "images": 133,
+  "pairs": 242,
+  "unique_texts": 84,
+  "images_with_tool_use": 0,
+  "feature_sha256": "69a7cadca2b8fdec79df8a361cab9c81dfab4885cb4fc8bf40561ad9342ce387"
+}

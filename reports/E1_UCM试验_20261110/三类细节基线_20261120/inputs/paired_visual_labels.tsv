@@ -1,0 +1,22 @@
+dimension	template	split	image_a	image_b	text_a	text_b
+attribute	baseball_infield	train	250	205	The central part of the baseball infield is green grass.	The central part of the baseball infield is bare dirt.
+attribute	baseball_infield	val	288	282	The central part of the baseball infield is green grass.	The central part of the baseball infield is bare dirt.
+attribute	parking_surface	train	1574	1539	The cars are parked on a grassy surface.	The cars are parked on a paved surface.
+attribute	parking_surface	val	1581	1583	The cars are parked on a grassy surface.	The cars are parked on a paved surface.
+attribute	overpass_shape	train	1433	1421	The upper roadway curves as it crosses the lower road.	The upper roadway runs straight as it crosses the lower road.
+attribute	overpass_shape	val	1486	1484	The upper roadway curves as it crosses the lower road.	The upper roadway runs straight as it crosses the lower road.
+attribute	court_surround	train	2001	2039	The area immediately surrounding the marked tennis playing surface is red.	The area immediately surrounding the marked tennis playing surface is green.
+attribute	court_surround	val	2086	2085	The area immediately surrounding the marked tennis playing surface is red.	The area immediately surrounding the marked tennis playing surface is green.
+attribute	golf_bunker_shape	train	925	903	The pale sand bunkers have deeply lobed outlines.	The pale sand bunkers have simple rounded outlines.
+attribute	harbor_water_color	train	1045	1043	The water between the docks looks blue-green.	The water between the docks looks gray-brown.
+attribute	central_roof_brightness	val	487	482	The large roof at the center of the image is light in color.	The large roof at the center of the image is dark in color.
+relation	sea_relative_to_sand	train	349	323	The sea lies mainly to the left of the sandy shore in the image.	The sea lies mainly to the right of the sandy shore in the image.
+relation	sea_relative_to_sand	val	381	386	The sea lies mainly to the left of the sandy shore in the image.	The sea lies mainly to the right of the sandy shore in the image.
+relation	infield_relative_to_outfield	train	250	208	The dirt infield lies to the left of most of the grassy outfield in the image.	The dirt infield lies to the right of most of the grassy outfield in the image.
+relation	infield_relative_to_outfield	val	289	281	The dirt infield lies to the left of most of the grassy outfield in the image.	The dirt infield lies to the right of most of the grassy outfield in the image.
+relation	road_crossing_order	train	1421	1426	At the crossing, the more horizontal road passes over the more vertical road.	At the crossing, the more horizontal road passes under the more vertical road.
+relation	road_crossing_order	val	1481	1484	At the crossing, the more horizontal road passes over the more vertical road.	At the crossing, the more horizontal road passes under the more vertical road.
+relation	bunkers_relative_to_path	train	921	925	The large sand bunker lies to the left of the nearby winding path in the image.	The large sand bunker lies to the right of the nearby winding path in the image.
+relation	bunkers_relative_to_path	val	983	990	The sand bunkers lie to the left of the nearby path in the image.	The sand bunkers lie to the right of the nearby path in the image.
+relation	tanks_relative_to_road	train	1936	1939	The round tanks lie above the horizontal road in the image.	The round tanks lie below the horizontal road in the image.
+relation	parking_relative_to_courts	val	2081	2083	The parking lot lies above the courts in the image.	The parking lot lies below the courts in the image.

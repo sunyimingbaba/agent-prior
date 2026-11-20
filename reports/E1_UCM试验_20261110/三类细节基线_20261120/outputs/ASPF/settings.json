@@ -1,0 +1,17 @@
+{
+  "method": "ASPF",
+  "scoring_device": "cuda_fp32",
+  "cases_sha256": "3a4332bf73df485143771457cc75852c954615c20b29823b58d3517d4afc00e1",
+  "scored_images_sha256": "38bd531dc3929873e71a96089b7ad386e1008da671a15a4d09289d9e8afd050e",
+  "torch": "2.4.1+cu124",
+  "checkpoint": "/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/checkpoints/last.ckpt",
+  "checkpoint_sha256": "e36801d50807519273408e4caf18604ad2f43db2c7b520cee98675631eac9a59",
+  "epoch": 50,
+  "global_step": 1600,
+  "agent_prior": true,
+  "images": 133,
+  "pairs": 242,
+  "unique_texts": 84,
+  "images_with_tool_use": 0,
+  "feature_sha256": "ed02f285c0cd9b7bee13842ed17e72a4a862fd0c6396c7442026e4e36bbaf8e6"
+}

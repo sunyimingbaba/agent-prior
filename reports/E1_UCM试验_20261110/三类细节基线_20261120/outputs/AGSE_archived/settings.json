@@ -1,0 +1,18 @@
+{
+  "method": "AGSE_archived",
+  "scoring_device": "cuda_fp32",
+  "cases_sha256": "3a4332bf73df485143771457cc75852c954615c20b29823b58d3517d4afc00e1",
+  "scored_images_sha256": "38bd531dc3929873e71a96089b7ad386e1008da671a15a4d09289d9e8afd050e",
+  "torch": "2.4.1+cu124",
+  "checkpoint": "/private/AGSE_E1_20261110/legacy/assets/ucm_main_domain_tool.ckpt",
+  "checkpoint_sha256": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc",
+  "epoch": 50,
+  "global_step": 1600,
+  "agent_prior": true,
+  "images": 133,
+  "pairs": 242,
+  "unique_texts": 84,
+  "images_with_tool_use": null,
+  "prior_source": "archived original first-caption cache",
+  "feature_sha256": "8bbfeaf1db894292e52031e08fad3c7e54c52c588ade92d3fdbda0da30dc531f"
+}
