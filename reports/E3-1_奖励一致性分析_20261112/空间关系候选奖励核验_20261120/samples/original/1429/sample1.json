@@ -1,0 +1,65 @@
+{
+  "image": "1429.tif",
+  "row": 1148,
+  "rgb_sha256": "eadb37dfb4649aeef09733a28215f6be29f781bce003c506c52a3cfcb2461a43",
+  "mode": "original",
+  "k": 1,
+  "query": "An overpass cross the roads vertically .",
+  "seed": 20307052,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        99992,
+        99579,
+        101209,
+        99960,
+        101178,
+        9370,
+        79095,
+        38109,
+        100391,
+        3837,
+        57218,
+        51154,
+        108704,
+        118338,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中有一座横跨道路的立交桥，与查询文本相符。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "overpass (0.33), freeway (0.16), intersection (0.09)",
+      "confidence": 0.3347081243991852
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "30858bc575fd3c2f87261309caa3f0fafed2ed96236021cae93c0dc83dd48dce",
+  "vector_sha256": "6e57a9d17d0ce49cb433b13f163efb161efa34333dfbcb9e79c8bb1a15acff1b"
+}

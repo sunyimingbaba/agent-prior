@@ -1,0 +1,43 @@
+{
+  "image": "1845.tif",
+  "row": 1484,
+  "rgb_sha256": "af7ec2fb52a2d410dc9c4fd2a0f41124de8967c5b29ceab4573c64a3c09c819f",
+  "mode": "original",
+  "k": -1,
+  "query": "Two houses are surrounded by verdant lawn in the sparse residential area .",
+  "seed": 20320490,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "sparse residential (0.33), medium residential (0.11), dense residential (0.08)",
+      "confidence": 0.3289244472980499
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": {
+    "archive_sha": "afa936afe099d49a59c19e113edd0d3b0fec43036055078d47679c74ef84789e",
+    "bit_equal": true
+  },
+  "sha256": "6a7c51d89c3f14e63e15fd700f7f001e67c4351a57cc25165200202cdfe3c349",
+  "vector_sha256": "05f419d4ac4435fc8cc849f7ae3ecfab8f0b4b8b21464de72ad2e73e24fe823c"
+}

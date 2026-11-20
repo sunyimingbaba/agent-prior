@@ -1,0 +1,70 @@
+{
+  "image": "1853.tif",
+  "row": 1492,
+  "rgb_sha256": "cd99b9973455be1bae2f42c85d40e9bf01a2b5132aa0e9175ca3987a8da62344",
+  "mode": "scene",
+  "k": 5,
+  "query": "Scene: a residential area.",
+  "seed": 20320806,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        90557,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        16357,
+        2168,
+        5610,
+        33444,
+        20057,
+        323,
+        11051,
+        20057,
+        5671,
+        11,
+        892,
+        9071,
+        279,
+        3239,
+        1467,
+        18860,
+        264,
+        20057,
+        3082,
+        3918,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "��\n addCriterion\n<answer>The image contains sparse residential and medium residential areas, which matches the query text indicating a residential area.</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "sparse residential (0.44), medium residential (0.06), golf course (0.05)",
+      "confidence": 0.4431104063987732
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "4b093a283fa4260f89f97c36e8bcc0bb249d70c1de4344bff3e8219d614d1a0d",
+  "vector_sha256": "fc1ac501c2052e21c16fa8973bf9ae084ef93b4c54ae1f33e6787e88a5fd5246"
+}

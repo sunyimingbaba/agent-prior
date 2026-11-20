@@ -1,0 +1,43 @@
+{
+  "image": "1933.tif",
+  "row": 1552,
+  "rgb_sha256": "86bc967adea2e333e7151e1fb4c52c2d0887cb9dda7444f80e9c8eeb81e8a7f0",
+  "mode": "original",
+  "k": 4,
+  "query": "Some storage tanks are scattered distributed on the ground .",
+  "seed": 20323215,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        90557,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "��\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.62), parking lot (0.04), airplane (0.03)",
+      "confidence": 0.6205237507820129
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "429f9ddef65a70ff6100b565a0789ebab70a2d344b227fe8cd3ecc08a9480bbd",
+  "vector_sha256": "4dc2c4c343e42a5a65bf1f48947044789ee389704d0173e19bba2d341d4e7ad1"
+}

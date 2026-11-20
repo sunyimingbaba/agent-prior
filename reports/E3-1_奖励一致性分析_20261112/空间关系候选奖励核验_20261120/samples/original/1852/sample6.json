@@ -1,0 +1,39 @@
+{
+  "image": "1852.tif",
+  "row": 1491,
+  "rgb_sha256": "98e91fbb73a011e5afa8651f89af86698a3cae68a74fad2fefbb9f10a5117673",
+  "mode": "original",
+  "k": 6,
+  "query": "A house is surrounded by verdant lawn in the sparse residential area .",
+  "seed": 20320777,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151657,
+        151645
+      ],
+      "decoded": "<tool_call>"
+    }
+  ],
+  "events": [
+    {
+      "text": "sparse residential (0.43), medium residential (0.06), tennis court (0.04)",
+      "confidence": 0.43327945470809937
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "cf8030e079b1bcbc352411072d1df810a28549c046bfac2bd0fccb41ebfe2889",
+  "vector_sha256": "2ba44176fb3aa64727fa5788f02906a3e812d620ab29fb9fcfae872f4a3390d1"
+}

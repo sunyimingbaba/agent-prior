@@ -1,0 +1,40 @@
+{
+  "image": "1417.tif",
+  "row": 1136,
+  "rgb_sha256": "d1d7ae39be6b3df8ca2063ee39a47290f9ef2b1b01e4e290be92161a8654292e",
+  "mode": "original",
+  "k": 0,
+  "query": "An overpass with a road go across another two roads diagonally .",
+  "seed": 20306571,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "freeway (0.28), overpass (0.27), intersection (0.08)",
+      "confidence": 0.27536994218826294
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "ce641c6213b92f56feaa6f983af0eb3ddcdcd8b3f0dacde325c75d1bf1eddc9c",
+  "vector_sha256": "981c76652f9d1d743e15712a93cab4b4a0f1e31cf43ef4e08cd93a82b2302186"
+}

@@ -1,0 +1,54 @@
+{
+  "image": "1257.tif",
+  "row": 1016,
+  "rgb_sha256": "f031a4683e6f650ac3269a4c23ac581d35ea0aafdb33777e4fb5a57bd4450894",
+  "mode": "scene",
+  "k": 4,
+  "query": "Scene: a residential neighborhood.",
+  "seed": 20301765,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        25,
+        2619,
+        374,
+        902,
+        1633,
+        330,
+        5270,
+        1189,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion: There is no object \"ship.\""
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        25,
+        151645
+      ],
+      "decoded": "\n addCriterion:"
+    }
+  ],
+  "events": [
+    {
+      "text": "medium residential (0.21), mobile home park (0.17), dense residential (0.09)",
+      "confidence": 0.21055364608764648
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "7812a201c6745f0fe39131ff9fa0be377deb5e0df4f9807480ea09da713a1c82",
+  "vector_sha256": "a99fae192b946bf6121a1e0e71e71bdba3145c2dab7791b841d871405281ccb6"
+}

@@ -1,0 +1,38 @@
+{
+  "image": "1066.tif",
+  "row": 863,
+  "rgb_sha256": "da1ebae28c757144a5151625f1e328e30ec6883df80f12833c5635b9d6f9e765",
+  "mode": "scene",
+  "k": 0,
+  "query": "Scene: a harbor.",
+  "seed": 20295641,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "harbor (0.60), beach (0.04), mobile home park (0.03)",
+      "confidence": 0.6048657894134521
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "333a25b0ba04df602db304d89ea178e16e6f262cd3efbe8627b35a5af9ca9288",
+  "vector_sha256": "03a095d253f72db958281acf9f483f5c69c07f8a0c2d8c0a0b0b48dc76ea764c"
+}

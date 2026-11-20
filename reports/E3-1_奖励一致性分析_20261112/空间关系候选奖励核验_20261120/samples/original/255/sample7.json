@@ -1,0 +1,42 @@
+{
+  "image": "255.tif",
+  "row": 215,
+  "rgb_sha256": "6e58fbfeaca1b4d8ff3af5e9f46e9d1471f1829d02008a233e41ba6a151cd990",
+  "mode": "original",
+  "k": 7,
+  "query": "This is a baseball diamond .",
+  "seed": 20269738,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "baseball diamond (0.50), tennis court (0.08), storage tanks (0.05)",
+      "confidence": 0.5039563179016113
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "e8b719f62c881f68f05f65be1fbc29d6ec659454bee81dc7b2e4f46e4bcbf3ee",
+  "vector_sha256": "18fbca86efdc6f517a7de7e2653d669f27c89eca0565c8f81244cd59e34e915d"
+}

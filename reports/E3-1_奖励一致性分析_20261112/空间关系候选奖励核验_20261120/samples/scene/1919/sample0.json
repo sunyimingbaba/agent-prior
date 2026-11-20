@@ -1,0 +1,42 @@
+{
+  "image": "1919.tif",
+  "row": 1538,
+  "rgb_sha256": "057d758c4ed1b5938a4da79ecdcd9312f5cab12f9abb0d1fcbbfa5eb2451369f",
+  "mode": "scene",
+  "k": 0,
+  "query": "Scene: a storage facility.",
+  "seed": 20322641,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.47), buildings (0.07), mobile home park (0.07)",
+      "confidence": 0.46614253520965576
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "4ce2fed7fd4a90c8e99a1982562487aaaf99f3b2528a33dfecf96658fd73208e",
+  "vector_sha256": "4dfb52052383ee1c7aaab8bf241270f8adb35068a1bc8c42dc1d64f1b34e1d10"
+}

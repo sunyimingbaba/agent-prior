@@ -1,0 +1,42 @@
+{
+  "image": "1813.tif",
+  "row": 1452,
+  "rgb_sha256": "fa13ad0e5e7f977a2422e1c08dbe408a62cd0d7efae249b611516af3db38cb9e",
+  "mode": "scene",
+  "k": 5,
+  "query": "Scene: a residential area.",
+  "seed": 20319206,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        90557,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "��\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "sparse residential (0.13), chaparral (0.11), mobile home park (0.09)",
+      "confidence": 0.12837892770767212
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "58ca9a20c44cbd925609d6224376ec009785279c58b224b5e495706f3d20bf55",
+  "vector_sha256": "91424e967caf57ad573680d5563e40e458f575ebae6c960d8cd0e3b9295995e6"
+}

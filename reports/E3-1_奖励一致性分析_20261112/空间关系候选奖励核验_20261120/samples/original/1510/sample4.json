@@ -1,0 +1,41 @@
+{
+  "image": "1510.tif",
+  "row": 1209,
+  "rgb_sha256": "d7f6df6bfe05a068169ff40d49bf93677c193430e2689d26192a4a0273ee7916",
+  "mode": "original",
+  "k": 4,
+  "query": "Lots of cars parked neatly in the parking lot .",
+  "seed": 20309495,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "parking lot (0.46), buildings (0.06), harbor (0.04)",
+      "confidence": 0.4602159261703491
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "620a737f071039407e5d3fe73dc17a0ac96ab4f06f37fbea70b41aa08d229427",
+  "vector_sha256": "22668aafe3993cd6a8baa7ce41bc8a78578c8f62a88a063fa58765bf3f07bcff"
+}

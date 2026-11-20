@@ -1,0 +1,66 @@
+{
+  "image": "1057.tif",
+  "row": 854,
+  "rgb_sha256": "8fcafa44725aadb02aa92a365847551b98fc6743877feb30e0d1d4fdc44e3d93",
+  "mode": "scene",
+  "k": 0,
+  "query": "Scene: a harbor.",
+  "seed": 20295281,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        29,
+        12982,
+        9368,
+        320,
+        16,
+        13,
+        15,
+        15,
+        701,
+        2635,
+        320,
+        15,
+        13,
+        24,
+        24,
+        701,
+        8284,
+        320,
+        15,
+        13,
+        24,
+        24,
+        12533,
+        18724,
+        29,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion>harbor (1.00), port (0.99), ship (0.99)</ addCriterion>"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "harbor (0.68), beach (0.03), parking lot (0.03)",
+      "confidence": 0.6803925037384033
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "d10b1e7332edea3fdbeae73285aa297c61f11a0219da13c44b5465e8cd995b53",
+  "vector_sha256": "e5470e04c5244346f5da5ca23fbf1d6566ba1fa21be103bdb24cfde1e7bccad1"
+}

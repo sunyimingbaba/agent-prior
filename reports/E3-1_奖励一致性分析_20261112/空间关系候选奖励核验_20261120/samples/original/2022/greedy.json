@@ -1,0 +1,43 @@
+{
+  "image": "2022.tif",
+  "row": 1621,
+  "rgb_sha256": "1d80274046e8d4ae975146701bd127e6eb6838274568fd9bcc12400e444eae7a",
+  "mode": "original",
+  "k": -1,
+  "query": "Some tennis courts on the green ground arranged neatly with some plants surrounded .",
+  "seed": 20325970,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "tennis court (0.55), buildings (0.04), baseball diamond (0.04)",
+      "confidence": 0.5528786182403564
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": {
+    "archive_sha": "3027972a8a615eaf90d58edba97c4366c61d22781499eaab6c22cff2092fa15d",
+    "bit_equal": true
+  },
+  "sha256": "41343a1829130b4ae4446df4680e0ead837de18a1e3e5379738bf2bac4c0e8d4",
+  "vector_sha256": "28c89ce9f6aa1b61a4f0ffa55868d7fd2a7f7b067255425c8941c7410b677728"
+}

@@ -1,0 +1,43 @@
+{
+  "image": "232.tif",
+  "row": 192,
+  "rgb_sha256": "1906481b23301d18711bef59caf7618b29cc76887b15eb194ba4b797b226a9e7",
+  "mode": "original",
+  "k": -1,
+  "query": "This is a baseball diamond with stands surround it .",
+  "seed": 20268810,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "baseball diamond (0.34), golf course (0.06), buildings (0.05)",
+      "confidence": 0.3356582224369049
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": {
+    "archive_sha": "30cc0007e3f65dd182d8cb10fea2910c1334685c040ea3092ba34f365a1e8b57",
+    "bit_equal": true
+  },
+  "sha256": "64bf0058f3fe2c47aea7c9f3a08ff8f63413554dc8f2c2a1ccf58c33bf315a54",
+  "vector_sha256": "7d2ae2866b6c9d2907fe1d4e9ccb52c35d299a17b6b1acfe5ddb8894c5b631af"
+}

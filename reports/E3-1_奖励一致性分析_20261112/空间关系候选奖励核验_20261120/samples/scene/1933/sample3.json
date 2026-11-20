@@ -1,0 +1,71 @@
+{
+  "image": "1933.tif",
+  "row": 1552,
+  "rgb_sha256": "86bc967adea2e333e7151e1fb4c52c2d0887cb9dda7444f80e9c8eeb81e8a7f0",
+  "mode": "scene",
+  "k": 3,
+  "query": "Scene: a storage facility.",
+  "seed": 20323204,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        445,
+        12982,
+        9368,
+        497,
+        330,
+        15,
+        13,
+        21,
+        16,
+        1138,
+        18724,
+        445,
+        403,
+        497,
+        330,
+        15,
+        13,
+        17,
+        19,
+        1138,
+        18724,
+        445,
+        5270,
+        497,
+        330,
+        15,
+        13,
+        15,
+        23,
+        899,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion(\"harbor\", \"0.61\")\n addCriterion(\"port\", \"0.24\")\n addCriterion(\"ship\", \"0.08\")"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.62), parking lot (0.04), airplane (0.03)",
+      "confidence": 0.6205237507820129
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "415ed6f13d60a1eaf08d621c500801935a0a2bc3f2756dc3c84bcf1a8d45f25b",
+  "vector_sha256": "f53e3c7ac1353d284f36e89442504060ead59a8b91f535a5ee42101db431e9be"
+}

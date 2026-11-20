@@ -1,0 +1,62 @@
+{
+  "image": "221.tif",
+  "row": 181,
+  "rgb_sha256": "0c919329e428e27e35ae544b5b5b7db86f619cf26917a043cbcc51d86d0b774f",
+  "mode": "original",
+  "k": 2,
+  "query": "This is a baseball diamond .",
+  "seed": 20268373,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        101909,
+        102321,
+        108992,
+        9909,
+        3152,
+        3959,
+        22205,
+        48272,
+        101137,
+        51154,
+        108704,
+        101047,
+        53481,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": " addCriterion\n<answer>图中是一个棒球场（baseball diamond），符合查询文本中的描述。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "baseball diamond (0.61), golf course (0.05), tennis court (0.04)",
+      "confidence": 0.6054713726043701
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "9850792a6931626ae2946f7a41f20f3aa861eb4b763a24167ec2b50e8c03d3bb",
+  "vector_sha256": "082bb53a31ab9c29f4fa5ed0d0f76e59a01b9fe0f8ca382f9c7f7681511ef75a"
+}

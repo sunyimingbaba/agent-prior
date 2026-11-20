@@ -1,0 +1,40 @@
+{
+  "image": "1854.tif",
+  "row": 1493,
+  "rgb_sha256": "6a08513d60df8140a513b52c6b3fb4b87615e44a3aa1e464f75b93e606105bf7",
+  "mode": "scene",
+  "k": 0,
+  "query": "Scene: a residential area.",
+  "seed": 20320841,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "sparse residential (0.42), medium residential (0.10), dense residential (0.06)",
+      "confidence": 0.4228401780128479
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "238b8116864ff93909b106618403cbea80c392eed6632e1f763572a50e47893d",
+  "vector_sha256": "7c82709091ff6d98522f9d9e1e2885d55c265cdc82607f0dc0b0e8bd46eb26bc"
+}

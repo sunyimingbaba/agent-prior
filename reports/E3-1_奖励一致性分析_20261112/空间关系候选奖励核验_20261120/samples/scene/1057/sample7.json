@@ -1,0 +1,69 @@
+{
+  "image": "1057.tif",
+  "row": 854,
+  "rgb_sha256": "8fcafa44725aadb02aa92a365847551b98fc6743877feb30e0d1d4fdc44e3d93",
+  "mode": "scene",
+  "k": 7,
+  "query": "Scene: a harbor.",
+  "seed": 20295288,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        330,
+        12982,
+        9368,
+        29209,
+        15,
+        13,
+        22,
+        15,
+        8,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion \"harbor\"(0.70)"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        330,
+        12982,
+        9368,
+        698,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        102122,
+        20412,
+        12982,
+        9368,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion \"harbor\"\n<answer>图中场景是harbor。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "harbor (0.68), beach (0.03), parking lot (0.03)",
+      "confidence": 0.6803925037384033
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "f1eb6c34b0bfa7c987e2cc63539e3a99a5449ad2ebb69bea74735f08df09e842",
+  "vector_sha256": "8af80a5920104c9f5bc3c5925b3718faef8b2a9133e48549b1f28a8cbd3e3c0f"
+}

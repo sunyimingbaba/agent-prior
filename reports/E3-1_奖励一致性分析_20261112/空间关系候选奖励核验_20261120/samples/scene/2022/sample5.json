@@ -1,0 +1,45 @@
+{
+  "image": "2022.tif",
+  "row": 1621,
+  "rgb_sha256": "1d80274046e8d4ae975146701bd127e6eb6838274568fd9bcc12400e444eae7a",
+  "mode": "scene",
+  "k": 5,
+  "query": "Scene: a tennis facility.",
+  "seed": 20325966,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "scene_classify"
+    }
+  ],
+  "events": [
+    {
+      "text": "tennis court (0.55), buildings (0.04), baseball diamond (0.04)",
+      "confidence": 0.5528786182403564
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "8016fa6f0a930ee414a59863981287c9c9d71c5813db1893a255ea6007a997a3",
+  "vector_sha256": "8b1168d16844a1af52171d9a74a81c46856456fbb50a5e9e508312ce28d896f0"
+}

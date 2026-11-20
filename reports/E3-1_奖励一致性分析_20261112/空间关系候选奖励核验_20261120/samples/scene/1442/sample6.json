@@ -1,0 +1,65 @@
+{
+  "image": "1442.tif",
+  "row": 1161,
+  "rgb_sha256": "52e71ae44af2ab36431e8c765896caddd0edcdc2c45b5ce5eb6ddfe1594c1959",
+  "mode": "scene",
+  "k": 6,
+  "query": "Scene: a road overpass.",
+  "seed": 20307567,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        105656,
+        18947,
+        101178,
+        100391,
+        3837,
+        57218,
+        51154,
+        118338,
+        37132,
+        9217,
+        397,
+        151644,
+        151644,
+        198,
+        151644,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中有个道路桥，与查询相符。</answer>\n\n"
+    }
+  ],
+  "events": [
+    {
+      "text": "overpass (0.32), freeway (0.13), intersection (0.09)",
+      "confidence": 0.32035306096076965
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "5a351c848df3b98012b24f485c581e79c4ea4551adece5ac043b23291caa989b",
+  "vector_sha256": "dbdd35539105e07d50fc710d64c615aba05291c731bb53b76304808b61f11ecb"
+}

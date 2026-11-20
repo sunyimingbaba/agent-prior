@@ -1,0 +1,69 @@
+{
+  "image": "1510.tif",
+  "row": 1209,
+  "rgb_sha256": "d7f6df6bfe05a068169ff40d49bf93677c193430e2689d26192a4a0273ee7916",
+  "mode": "original",
+  "k": 2,
+  "query": "Lots of cars parked neatly in the parking lot .",
+  "seed": 20309493,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        25,
+        18137,
+        223,
+        98,
+        98650,
+        107553,
+        104544,
+        100902,
+        46944,
+        107862,
+        104197,
+        102136,
+        101489,
+        110607,
+        57452,
+        102184,
+        3837,
+        106485,
+        101514,
+        103978,
+        115145,
+        49828,
+        101918,
+        109489,
+        8997,
+        522,
+        18724,
+        397,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion: 遥感图像看起来像是一个停车场的大比例尺俯视照片，可以看到大量的车辆停放得十分整齐。\n</ addCriterion>\n"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "parking lot (0.46), buildings (0.06), harbor (0.04)",
+      "confidence": 0.4602159261703491
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "6fa1900d45f69dccb7ca63c9afc40f9e49d530c7f03bd34c9756c614bb3c17d7",
+  "vector_sha256": "493c92bbff7f1e915544f4382aed016752bb30bacacdc1c0c72fdab8a8d576cf"
+}

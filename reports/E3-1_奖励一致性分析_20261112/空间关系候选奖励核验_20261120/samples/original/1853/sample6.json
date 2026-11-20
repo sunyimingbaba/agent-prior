@@ -1,0 +1,41 @@
+{
+  "image": "1853.tif",
+  "row": 1492,
+  "rgb_sha256": "cd99b9973455be1bae2f42c85d40e9bf01a2b5132aa0e9175ca3987a8da62344",
+  "mode": "original",
+  "k": 6,
+  "query": "A house with grey roofs is surrounded by trees and lawn in the sparse residential area .",
+  "seed": 20320817,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "sparse residential (0.44), medium residential (0.06), golf course (0.05)",
+      "confidence": 0.4431104063987732
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "d11c44dd99f2f0031e601d774cb280050b3a1a9df88fbb633557fe229f4cf974",
+  "vector_sha256": "72ceb1d7accc1d0ffffd9ce60ee0b63543191e1be1185e6f015c361c14fb05d3"
+}

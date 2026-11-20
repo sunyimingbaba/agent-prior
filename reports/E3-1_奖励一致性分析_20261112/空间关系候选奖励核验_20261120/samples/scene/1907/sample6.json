@@ -1,0 +1,41 @@
+{
+  "image": "1907.tif",
+  "row": 1526,
+  "rgb_sha256": "3ff3867fc7698f0bdca5c21979af6e5663a6238f12fce92fb7139c995ed585ef",
+  "mode": "scene",
+  "k": 6,
+  "query": "Scene: a storage facility.",
+  "seed": 20322167,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.40), buildings (0.08), baseball diamond (0.07)",
+      "confidence": 0.40010175108909607
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "962fd45c30a3edb77df53748b54e59fe6277f1f9ab50f07efdb94e255c401116",
+  "vector_sha256": "f19b16dcf5934ae0b3dce163b344ea04872addcbce01fd5ff22cfac33e4c0ee6"
+}

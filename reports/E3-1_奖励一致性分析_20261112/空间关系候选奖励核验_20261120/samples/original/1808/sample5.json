@@ -1,0 +1,48 @@
+{
+  "image": "1808.tif",
+  "row": 1447,
+  "rgb_sha256": "49669467fe53cf668821d39220e27936c6243493a978caf79de6a1f064017add",
+  "mode": "original",
+  "k": 5,
+  "query": "A villa with grey roofs is surrounded by trees and lawn in the sparse residential area .",
+  "seed": 20319016,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        90557,
+        198,
+        18724,
+        445,
+        106176,
+        51154,
+        104949,
+        104538,
+        37051,
+        151645
+      ],
+      "decoded": "��\n addCriterion(\"别墅查询模型预测\"):"
+    }
+  ],
+  "events": [
+    {
+      "text": "sparse residential (0.33), buildings (0.09), river (0.07)",
+      "confidence": 0.3282563388347626
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "e09366e714cbdcee8e9640b9e1b0bee8f38c57c9a8561a761003ca87cab3779f",
+  "vector_sha256": "54fa04fada01e2124148608e1b8ecccd733f1bcb65af4810e04d5934a9dbd5da"
+}

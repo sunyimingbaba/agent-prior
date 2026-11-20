@@ -1,0 +1,92 @@
+{
+  "image": "255.tif",
+  "row": 215,
+  "rgb_sha256": "6e58fbfeaca1b4d8ff3af5e9f46e9d1471f1829d02008a233e41ba6a151cd990",
+  "mode": "original",
+  "k": 2,
+  "query": "This is a baseball diamond .",
+  "seed": 20269733,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        83134,
+        12874,
+        25,
+        3168,
+        57672,
+        1718,
+        40758,
+        37776,
+        30880,
+        1479,
+        7710,
+        3168,
+        13765,
+        364,
+        22483,
+        4790,
+        1437,
+        1210,
+        753,
+        31464,
+        3034,
+        4183,
+        52559,
+        25,
+        384,
+        18,
+        16,
+        16,
+        22,
+        17,
+        20,
+        66,
+        1737,
+        15,
+        580,
+        12,
+        19,
+        24,
+        65,
+        23,
+        1455,
+        7628,
+        16,
+        7409,
+        21,
+        67,
+        18,
+        66,
+        450,
+        346,
+        15,
+        2940,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n !*** ERROR: THE FOLLOWING MESSAGE WAS RETURNED BY THE CODE 'scene_classify': !DOC ID NOT FOUND: e311725c-d0ac-49b8-bdc1-a6d3cdece0df"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "baseball diamond (0.50), tennis court (0.08), storage tanks (0.05)",
+      "confidence": 0.5039563179016113
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "b54a8d90677d8448787ec5455393d3f2becdadb250269120afcd380cea7fb737",
+  "vector_sha256": "157da254a83b6b581bed95638b89c660f4a3508c5ca35e32179044346beae505"
+}

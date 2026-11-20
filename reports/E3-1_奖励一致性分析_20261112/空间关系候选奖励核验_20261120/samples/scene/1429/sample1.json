@@ -1,0 +1,40 @@
+{
+  "image": "1429.tif",
+  "row": 1148,
+  "rgb_sha256": "eadb37dfb4649aeef09733a28215f6be29f781bce003c506c52a3cfcb2461a43",
+  "mode": "scene",
+  "k": 1,
+  "query": "Scene: a road overpass.",
+  "seed": 20307042,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "overpass (0.33), freeway (0.16), intersection (0.09)",
+      "confidence": 0.3347081243991852
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "1c225d54b5bd2064929cb876735a70a92012d716d3a4699e066a1ac120215933",
+  "vector_sha256": "0e7517acabdb0d17f092852d74a5b8eeb0ce2e2eb25fecf03e4a3ed6bef90550"
+}

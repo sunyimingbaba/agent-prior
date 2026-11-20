@@ -1,0 +1,51 @@
+{
+  "image": "232.tif",
+  "row": 192,
+  "rgb_sha256": "1906481b23301d18711bef59caf7618b29cc76887b15eb194ba4b797b226a9e7",
+  "mode": "scene",
+  "k": 0,
+  "query": "Scene: a baseball facility.",
+  "seed": 20268801,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        7235,
+        428,
+        3152,
+        3959,
+        497,
+        2168,
+        74655,
+        2903,
+        8,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion(text=\"baseball\", image=image_url)"
+    },
+    {
+      "ids": [
+        151644,
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "baseball diamond (0.34), golf course (0.06), buildings (0.05)",
+      "confidence": 0.3356582224369049
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "442d2c2db4aa19528ecc6027280bf6c532908ece9393698a6539c10daa947f83",
+  "vector_sha256": "f28cfe49e026ecf73906776a1a8ca5b3d70b26ac37521bbcbbd45f8fb2b9f4e9"
+}

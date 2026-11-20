@@ -1,0 +1,41 @@
+{
+  "image": "325.tif",
+  "row": 265,
+  "rgb_sha256": "679270e9218b0f207cf81fb688627ab8ffb0edcd7a006fd98365dffb5d0e1115",
+  "mode": "scene",
+  "k": 4,
+  "query": "Scene: a beach.",
+  "seed": 20271725,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "beach (0.43), harbor (0.06), agricultural (0.05)",
+      "confidence": 0.4293142557144165
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "c4620ff35e4243a32255ac80d4933ee4312762e40577340dd92badf1b3ded45d",
+  "vector_sha256": "b3ff6428e7557949ff17fcd5ea35ab5c241cdde01373c0106e1aecfc3d380d3b"
+}

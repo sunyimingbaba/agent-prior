@@ -1,0 +1,40 @@
+{
+  "image": "1066.tif",
+  "row": 863,
+  "rgb_sha256": "da1ebae28c757144a5151625f1e328e30ec6883df80f12833c5635b9d6f9e765",
+  "mode": "original",
+  "k": 4,
+  "query": "Lots of boats docked at the harbor and the boats are closed to each other .",
+  "seed": 20295655,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "harbor (0.60), beach (0.04), mobile home park (0.03)",
+      "confidence": 0.6048657894134521
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "d7ba9d4869fa4cdb11385632d8f8780b0b1094e83093eae390f05c2be59cdb7a",
+  "vector_sha256": "31fad0108f9f527ffa807e0f7e7c83f81890be2175de8270a4bdd6f1ebc024be"
+}

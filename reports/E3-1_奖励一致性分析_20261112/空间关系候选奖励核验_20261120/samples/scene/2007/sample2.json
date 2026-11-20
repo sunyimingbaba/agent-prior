@@ -1,0 +1,64 @@
+{
+  "image": "2007.tif",
+  "row": 1606,
+  "rgb_sha256": "375c321c5d54781a2df60f0da1a1bdc22b11a921da787a7e83fc5243baa013e6",
+  "mode": "scene",
+  "k": 2,
+  "query": "Scene: a tennis facility.",
+  "seed": 20325363,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        90557,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        101047,
+        102122,
+        102068,
+        101909,
+        113966,
+        100725,
+        3837,
+        29524,
+        51154,
+        108704,
+        113110,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "��\n addCriterion\n<answer>图中的场景确实是一个网球设施，如查询文本所述。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "tennis court (0.59), baseball diamond (0.05), golf course (0.04)",
+      "confidence": 0.5928758978843689
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "c0f343a7185e0e1516d54d50d0417063162b8d59b08d6e0465cfe7223a57ac2c",
+  "vector_sha256": "cf4a290eae6a918fd8ed2483e4c84720c2e1f318d9db0f45907382d0e20f2085"
+}

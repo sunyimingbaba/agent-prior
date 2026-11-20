@@ -1,0 +1,53 @@
+{
+  "image": "221.tif",
+  "row": 181,
+  "rgb_sha256": "0c919329e428e27e35ae544b5b5b7db86f619cf26917a043cbcc51d86d0b774f",
+  "mode": "original",
+  "k": 1,
+  "query": "This is a baseball diamond .",
+  "seed": 20268372,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        25,
+        366,
+        5657,
+        17069,
+        29,
+        3152,
+        3959,
+        2070,
+        522,
+        5657,
+        17069,
+        29,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion: <target_feature>baseball field</target_feature>"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "baseball diamond (0.61), golf course (0.05), tennis court (0.04)",
+      "confidence": 0.6054713726043701
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "3fc13d308804aa18f218fa51c556e637e6b868db4c97a88e93d79d7afa167839",
+  "vector_sha256": "bbb2c00ef2c8bb910384144a3b9ff9b3579f0f465765df12a72d66b18012edee"
+}

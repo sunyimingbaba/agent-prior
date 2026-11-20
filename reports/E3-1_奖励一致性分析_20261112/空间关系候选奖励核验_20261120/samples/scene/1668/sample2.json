@@ -1,0 +1,40 @@
+{
+  "image": "1668.tif",
+  "row": 1347,
+  "rgb_sha256": "f342df971f3f29ec2f12f5d57ffc48da74ff45096b7579dc2956dcf35a89dfe2",
+  "mode": "scene",
+  "k": 2,
+  "query": "Scene: a river.",
+  "seed": 20315003,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "river (0.25), overpass (0.12), freeway (0.09)",
+      "confidence": 0.2539561092853546
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "889a386a16945e7b0bee00bbb3c14516ab3c42464e2aa177f60b9988570213ac",
+  "vector_sha256": "d959db9c19c22a454f1759c607ea89eaec0d880b25ea272e3f3e7bee34bf7bd8"
+}

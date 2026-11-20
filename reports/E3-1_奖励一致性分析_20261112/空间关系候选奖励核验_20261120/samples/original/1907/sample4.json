@@ -1,0 +1,42 @@
+{
+  "image": "1907.tif",
+  "row": 1526,
+  "rgb_sha256": "3ff3867fc7698f0bdca5c21979af6e5663a6238f12fce92fb7139c995ed585ef",
+  "mode": "original",
+  "k": 4,
+  "query": "A white storage tank is on the lawn .",
+  "seed": 20322175,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.40), buildings (0.08), baseball diamond (0.07)",
+      "confidence": 0.40010175108909607
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "7970e3c16b272f0b47ce251bb793e2df36bdd697ae5f9690ee7186864ae03681",
+  "vector_sha256": "00279d8d254377fccbf1a831325cfcea285deb646cc346c3b216f3c927fb1336"
+}

@@ -1,0 +1,64 @@
+{
+  "image": "1919.tif",
+  "row": 1538,
+  "rgb_sha256": "057d758c4ed1b5938a4da79ecdcd9312f5cab12f9abb0d1fcbbfa5eb2451369f",
+  "mode": "scene",
+  "k": -1,
+  "query": "Scene: a storage facility.",
+  "seed": 20322640,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        54021,
+        100146,
+        46944,
+        108695,
+        100725,
+        3837,
+        101137,
+        51154,
+        108704,
+        53481,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中显示的是一个储存设施，符合查询文本描述。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.47), buildings (0.07), mobile home park (0.07)",
+      "confidence": 0.46614253520965576
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "a9e5ce9ac51bb8c2de53e07e2d8f22e9cb35154952100be935480e6034ab3aac",
+  "vector_sha256": "31c5a83fef84660e3334982af479b6218349b4d2ec27f9e7c01892f5f1f031a0"
+}

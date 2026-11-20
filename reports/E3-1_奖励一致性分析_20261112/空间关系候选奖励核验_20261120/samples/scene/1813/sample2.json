@@ -1,0 +1,61 @@
+{
+  "image": "1813.tif",
+  "row": 1452,
+  "rgb_sha256": "fa13ad0e5e7f977a2422e1c08dbe408a62cd0d7efae249b611516af3db38cb9e",
+  "mode": "scene",
+  "k": 2,
+  "query": "Scene: a residential area.",
+  "seed": 20319203,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        510,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        80443,
+        54021,
+        100146,
+        104547,
+        23836,
+        3837,
+        99519,
+        105226,
+        108731,
+        100361,
+        522,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion:\n<answer>图中没有显示的是住宅区，因为它是沙漠地区</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "sparse residential (0.13), chaparral (0.11), mobile home park (0.09)",
+      "confidence": 0.12837892770767212
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "4c1ba2adb13f70a06652d6b6ab0010ee2c2c4ac71f15b301f043597f75d9ee11",
+  "vector_sha256": "5f4ddfa4695e1c42eab580f6c2ffa30f790d7471056216777961c9e15c3e140d"
+}

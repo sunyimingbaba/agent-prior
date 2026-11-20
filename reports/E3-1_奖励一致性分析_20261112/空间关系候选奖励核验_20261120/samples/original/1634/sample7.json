@@ -1,0 +1,40 @@
+{
+  "image": "1634.tif",
+  "row": 1313,
+  "rgb_sha256": "5df4f253ffa1ed5b928c1f598ff54a4c9af0e79600483ab02296fe63785e5f41",
+  "mode": "original",
+  "k": 7,
+  "query": "It is a river with plants wilted on both banks of the river .",
+  "seed": 20313658,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "river (0.38), forest (0.08), beach (0.06)",
+      "confidence": 0.37510091066360474
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "8c6ec3f3c6c2fd7508b51ac8fa57a8b937ad3a363b29b2248ef31d402808e57d",
+  "vector_sha256": "f7db04ebdaf125cde1d1630ff2343302ec70933040dc0732846ae02856893615"
+}

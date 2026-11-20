@@ -1,0 +1,43 @@
+{
+  "image": "1429.tif",
+  "row": 1148,
+  "rgb_sha256": "eadb37dfb4649aeef09733a28215f6be29f781bce003c506c52a3cfcb2461a43",
+  "mode": "original",
+  "k": -1,
+  "query": "An overpass cross the roads vertically .",
+  "seed": 20307050,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "overpass (0.33), freeway (0.16), intersection (0.09)",
+      "confidence": 0.3347081243991852
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": {
+    "archive_sha": "dae938795ea796b9468657dac1b25e41607f0c7cd138bc7a6b0f2cc767d68886",
+    "bit_equal": true
+  },
+  "sha256": "b06b5e3e69a401d9d1edc7cc3be4641b2e2fca6d102208c60a05c548d4d7a50c",
+  "vector_sha256": "8d4619645b040901b9afacadfe3007cf6fa6b04a3bb29b61286d0198faa48e0e"
+}

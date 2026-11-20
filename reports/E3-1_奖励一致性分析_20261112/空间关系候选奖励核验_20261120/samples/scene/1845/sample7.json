@@ -1,0 +1,38 @@
+{
+  "image": "1845.tif",
+  "row": 1484,
+  "rgb_sha256": "af7ec2fb52a2d410dc9c4fd2a0f41124de8967c5b29ceab4573c64a3c09c819f",
+  "mode": "scene",
+  "k": 7,
+  "query": "Scene: a residential area.",
+  "seed": 20320488,
+  "rounds": [
+    {
+      "ids": [
+        151644,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        330,
+        1966,
+        10019,
+        1,
+        330,
+        104547,
+        23836,
+        1,
+        151645
+      ],
+      "decoded": "scene_classify\n addCriterion \"subScene\" \"住宅区\""
+    }
+  ],
+  "events": [],
+  "used": 0,
+  "filtered": 0,
+  "history": null,
+  "sha256": "f8254628595a0345ba053d6c1be0043a0c514e92310cd6c2aa0b76afa24da279",
+  "vector_sha256": "33c72c942760a4c9c6dffd8ff57fb98fc8407dc521af155d5e7c8f1a689f4fbb"
+}

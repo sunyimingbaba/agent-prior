@@ -1,0 +1,50 @@
+{
+  "image": "2007.tif",
+  "row": 1606,
+  "rgb_sha256": "375c321c5d54781a2df60f0da1a1bdc22b11a921da787a7e83fc5243baa013e6",
+  "mode": "scene",
+  "k": 6,
+  "query": "Scene: a tennis facility.",
+  "seed": 20325367,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        90557,
+        198,
+        90557,
+        151645
+      ],
+      "decoded": " addCriterion\n\n addCriterion\n\n��\n��"
+    }
+  ],
+  "events": [
+    {
+      "text": "tennis court (0.59), baseball diamond (0.05), golf course (0.04)",
+      "confidence": 0.5928758978843689
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "5d23afc0b01b662bbeda6d9471df2815f5706072b0df9e8efc8c59c70a1ae552",
+  "vector_sha256": "5006c7a00c6a553934eed30221b80ab1a3cb1dbaeec5c13f324b7c4113fa0512"
+}

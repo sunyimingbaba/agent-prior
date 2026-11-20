@@ -1,0 +1,40 @@
+{
+  "image": "1278.tif",
+  "row": 1037,
+  "rgb_sha256": "8120f250691d1adb1e0bf565024206e541e7d4a73ec1fedd3c2c6aa7ad15f845",
+  "mode": "original",
+  "k": 7,
+  "query": "It is a medium residential area .",
+  "seed": 20302618,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "medium residential (0.18), dense residential (0.16), mobile home park (0.11)",
+      "confidence": 0.18387509882450104
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "ab07ed78da2c20523fa5c5e6207ac192382da578294feafae4a4b37d97df10bb",
+  "vector_sha256": "60a55169e0bb6ee948d42ebda16730fbad096a6011601f2a30b963e7025bc594"
+}

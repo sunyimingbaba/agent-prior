@@ -1,0 +1,65 @@
+{
+  "image": "1257.tif",
+  "row": 1016,
+  "rgb_sha256": "f031a4683e6f650ac3269a4c23ac581d35ea0aafdb33777e4fb5a57bd4450894",
+  "mode": "scene",
+  "k": -1,
+  "query": "Scene: a residential neighborhood.",
+  "seed": 20301760,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        54021,
+        100146,
+        46944,
+        104547,
+        23836,
+        3837,
+        101137,
+        51154,
+        108704,
+        101047,
+        53481,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中显示的是一个住宅区，符合查询文本中的描述。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "medium residential (0.21), mobile home park (0.17), dense residential (0.09)",
+      "confidence": 0.21055364608764648
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "190cf4430a43c97b3b2cfaf81508393418e27d6c543f33c1e630faf5ea034f75",
+  "vector_sha256": "cceb9aff32f7ef5a7a24ef85689bca345c5baf7f675993e4801a45fd971acc8f"
+}

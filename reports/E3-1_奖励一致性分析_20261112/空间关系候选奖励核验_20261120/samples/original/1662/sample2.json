@@ -1,0 +1,41 @@
+{
+  "image": "1662.tif",
+  "row": 1341,
+  "rgb_sha256": "759e5e53abec1a380d9ddbf4e4207ec9c89b41022649bf32342904668042ce17",
+  "mode": "original",
+  "k": 2,
+  "query": "It is a river with black water and a road on one bank of the river .",
+  "seed": 20314773,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "river (0.41), sparse residential (0.06), medium residential (0.05)",
+      "confidence": 0.408578485250473
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "2d962feebe7a504adae08bb069d0cdca9036dcaae67a279002b880ea68f4ac98",
+  "vector_sha256": "c620a8bcc28ba4a67c8495687fa94f7c2998da645db77a267274234853014f1d"
+}

@@ -1,0 +1,79 @@
+{
+  "image": "232.tif",
+  "row": 192,
+  "rgb_sha256": "1906481b23301d18711bef59caf7618b29cc76887b15eb194ba4b797b226a9e7",
+  "mode": "scene",
+  "k": 1,
+  "query": "Scene: a baseball facility.",
+  "seed": 20268802,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        445,
+        1318,
+        1631,
+        497,
+        330,
+        64,
+        19507,
+        12481,
+        1138,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion(\"textquery\", \"a baseball facility\")\n"
+    },
+    {
+      "ids": [
+        151657,
+        198,
+        18724,
+        445,
+        1318,
+        1631,
+        497,
+        330,
+        64,
+        19507,
+        12481,
+        5130,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        101909,
+        102321,
+        108992,
+        100725,
+        3837,
+        57218,
+        51154,
+        108704,
+        118338,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "<tool_call>\n addCriterion(\"textquery\", \"a baseball facility\")\n\n<answer>图中是一个棒球场设施，与查询文本相符。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "baseball diamond (0.34), golf course (0.06), buildings (0.05)",
+      "confidence": 0.3356582224369049
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "77c3c1eb1c983d43ad9c96717403d9fa65e9158c46cd5c4fdfd80dd221876218",
+  "vector_sha256": "0544e2c01ed511e04bfaf0f0178ab2c301edbe809a653f0892b9fdad4d95b94e"
+}

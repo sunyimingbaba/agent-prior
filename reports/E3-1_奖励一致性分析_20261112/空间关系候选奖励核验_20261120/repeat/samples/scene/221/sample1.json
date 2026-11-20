@@ -1,0 +1,90 @@
+{
+  "image": "221.tif",
+  "row": 181,
+  "rgb_sha256": "0c919329e428e27e35ae544b5b5b7db86f619cf26917a043cbcc51d86d0b774f",
+  "mode": "scene",
+  "k": 1,
+  "query": "Scene: a baseball facility.",
+  "seed": 20268362,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        198,
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": " addCriterion\n<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        97028,
+        151645
+      ],
+      "decoded": "\n addCriterion\n\n addCriterion\n\n addCriterion\n addCriterion\n addCriterion\n\n addCriterion\n\n addCriterion\n addCriterion\n addCriterion\n addCriterion\n addCriterion\n\n 自动生成"
+    }
+  ],
+  "events": [
+    {
+      "text": "baseball diamond (0.61), golf course (0.05), tennis court (0.04)",
+      "confidence": 0.6054713726043701
+    },
+    {
+      "text": "baseball diamond (0.61), golf course (0.05), tennis court (0.04)",
+      "confidence": 0.6054713726043701
+    }
+  ],
+  "used": 2,
+  "filtered": 0,
+  "history": null,
+  "sha256": "56adab27479f6bb843e69c403f3167d8400b407d30849fdd594b12ba21a1d2f5",
+  "vector_sha256": "71bf207829ee038cbe0bdc9ae0c027562d7cf903ef5833f57e9e6914050c712d"
+}

@@ -1,0 +1,62 @@
+{
+  "image": "1662.tif",
+  "row": 1341,
+  "rgb_sha256": "759e5e53abec1a380d9ddbf4e4207ec9c89b41022649bf32342904668042ce17",
+  "mode": "scene",
+  "k": -1,
+  "query": "Scene: a river.",
+  "seed": 20314760,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        99992,
+        38989,
+        103274,
+        3837,
+        101137,
+        51154,
+        108704,
+        53481,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中有一条河流，符合查询文本描述。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "river (0.41), sparse residential (0.06), medium residential (0.05)",
+      "confidence": 0.408578485250473
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "b35472270d3574a15290b4465d2ef916cd92e7f4c5b2c025d119c4f404b42263",
+  "vector_sha256": "df4eb195da5b63c1938f2a4fa7f274de631c22553c4daa271990ca25256be8cb"
+}

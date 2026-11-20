@@ -1,0 +1,84 @@
+{
+  "image": "1933.tif",
+  "row": 1552,
+  "rgb_sha256": "86bc967adea2e333e7151e1fb4c52c2d0887cb9dda7444f80e9c8eeb81e8a7f0",
+  "mode": "scene",
+  "k": 4,
+  "query": "Scene: a storage facility.",
+  "seed": 20323205,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        330,
+        10019,
+        54882,
+        369,
+        279,
+        3897,
+        2168,
+        2213,
+        1189,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion \"Scene Classification for the provided image content.\""
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        330,
+        10019,
+        23850,
+        48216,
+        504,
+        279,
+        3403,
+        6358,
+        3059,
+        2217,
+        27,
+        9217,
+        16357,
+        2168,
+        4933,
+        264,
+        5819,
+        12896,
+        12481,
+        11,
+        892,
+        5285,
+        82,
+        448,
+        279,
+        3239,
+        1467,
+        3918,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion \"Scene classification probabilities from the above analysis results.\"\n\n<answer>The image shows a storage tank facility, which aligns with the query text.</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.62), parking lot (0.04), airplane (0.03)",
+      "confidence": 0.6205237507820129
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "38b957d58384cd3f7ee694a6e6b8cbc727b6b865d89cdfaf908c196288791adc",
+  "vector_sha256": "0ad247b9f4637205896c5271a5cd2f936ff2da673ddfd7793ae0edbbd83c12d7"
+}

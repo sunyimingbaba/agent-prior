@@ -1,0 +1,76 @@
+{
+  "image": "1668.tif",
+  "row": 1347,
+  "rgb_sha256": "f342df971f3f29ec2f12f5d57ffc48da74ff45096b7579dc2956dcf35a89dfe2",
+  "mode": "scene",
+  "k": 3,
+  "query": "Scene: a river.",
+  "seed": 20315004,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        101047,
+        103274,
+        102122,
+        101137,
+        51154,
+        108704,
+        104272,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion\n<answer>图中的河流场景符合查询文本的要求。</answer>"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        99992,
+        38989,
+        99469,
+        3837,
+        57218,
+        51154,
+        43815,
+        101266,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中有一条河，与查询内容一致。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "river (0.25), overpass (0.12), freeway (0.09)",
+      "confidence": 0.2539561092853546
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "14a04bcee8f5c8dca66b7ca0600f00fa2044d52811ee7d8137a3fc52cde654c1",
+  "vector_sha256": "5a1b9d6fbe2dcdbed2a832b6b54f5ee69e641d7499b194dc6ec67466c0471ad5"
+}

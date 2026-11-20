@@ -1,0 +1,44 @@
+{
+  "image": "1919.tif",
+  "row": 1538,
+  "rgb_sha256": "057d758c4ed1b5938a4da79ecdcd9312f5cab12f9abb0d1fcbbfa5eb2451369f",
+  "mode": "original",
+  "k": 1,
+  "query": "A storage tank is in the lawn .",
+  "seed": 20322652,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        78933,
+        198,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "_Parms\n\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.47), buildings (0.07), mobile home park (0.07)",
+      "confidence": 0.46614253520965576
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "c9503d01c73d80761a4b993b287480a1b4a4f66ab8f99c09c4721c0b9f36c948",
+  "vector_sha256": "5bf0b3bbbbb694bede8af393f8f23d26524d4ce6ed5b64a76db86e85bbe7b587"
+}

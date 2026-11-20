@@ -1,0 +1,63 @@
+{
+  "image": "204.tif",
+  "row": 164,
+  "rgb_sha256": "da84c537b4a472f8f7ac6251c309ec9ace8e6e4cbeb8b46e34afb5ba87a61c40",
+  "mode": "scene",
+  "k": 4,
+  "query": "Scene: a baseball facility.",
+  "seed": 20267685,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        41742,
+        198,
+        151644,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        101909,
+        102321,
+        108992,
+        100725,
+        3837,
+        57218,
+        51154,
+        101266,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "enderror\n addCriterion\n<answer>图中是一个棒球场设施，与查询一致。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "baseball diamond (0.42), golf course (0.06), agricultural (0.05)",
+      "confidence": 0.41643860936164856
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "e281aefb2847ecd96f858111036fae2a360a6ffd09c8da7afdcc10a3073ae1f9",
+  "vector_sha256": "2c6a88a84974f77beb9cb0d296adabde70769b2729d59e678691d1bd887aaceb"
+}

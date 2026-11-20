@@ -1,0 +1,41 @@
+{
+  "image": "1612.tif",
+  "row": 1291,
+  "rgb_sha256": "ef2c192514fc6a965db9c113fb05e2140764dcbd358618032e03fac009034ff4",
+  "mode": "scene",
+  "k": -1,
+  "query": "Scene: a river.",
+  "seed": 20312760,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "river (0.31), forest (0.23), agricultural (0.05)",
+      "confidence": 0.3102421462535858
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "ab4a13416e8f3b2d3a79f1263fed2eac240ee0342df8701792b16033b48e2241",
+  "vector_sha256": "65bfcfbdd7df50c3f839f473ab3c25901c0064d86cad501d3fb8cdcf678db1fb"
+}

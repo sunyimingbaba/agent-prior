@@ -1,0 +1,40 @@
+{
+  "image": "325.tif",
+  "row": 265,
+  "rgb_sha256": "679270e9218b0f207cf81fb688627ab8ffb0edcd7a006fd98365dffb5d0e1115",
+  "mode": "original",
+  "k": 4,
+  "query": "This is a beach with green sea and white sands .",
+  "seed": 20271735,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "beach (0.43), harbor (0.06), agricultural (0.05)",
+      "confidence": 0.4293142557144165
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "adc78a898ee50e29cb9fb9c28a4fc6ec72bb31707af46fcd6c354c5cda9a80e7",
+  "vector_sha256": "b5b96dc88fd97886f6d62c4db8a143792b7891124fc1f4ecd25d5724102c2087"
+}

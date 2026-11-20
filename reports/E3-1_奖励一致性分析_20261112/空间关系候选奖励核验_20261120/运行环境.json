@@ -1,0 +1,139 @@
+{
+  "gpu": "NVIDIA A100-SXM4-80GB, 535.104.05",
+  "mount": "fs2[/private/user/lvjiacheng01] /private gpfs",
+  "packages": {
+    "torch": "2.4.1+cu124",
+    "transformers": "4.57.2",
+    "peft": "0.10.0",
+    "pyarrow": "14.0.0"
+  },
+  "files": {
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/rollout.py": {
+      "bytes": 15901,
+      "sha256": "76db78e4730e22be5f75c4d8f74b4371ddb4ad81d11e1d2eb810a1b3d35c2365"
+    },
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/tools.py": {
+      "bytes": 4940,
+      "sha256": "ee163557b1d5ccc4b0b9b3deaafc0b5ff6b7850107af94e045966bdac807f7d8"
+    },
+    "/private/AGSE_E1_20261110/legacy/CUP/prompt_clip/model.py": {
+      "bytes": 19063,
+      "sha256": "b741d181da1cbcfd5a721f7b59c596728c240089c9f82b9e49cc37d6a4e11097"
+    },
+    "/private/AGSE_E1_20261110/legacy/CUP/vilt/modules/vilt_module.py": {
+      "bytes": 37037,
+      "sha256": "d1874861d081d0c9ea3d83c10ef43811c46b9b3ed20c747cd87b9272370396a4"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/chat_template.json": {
+      "bytes": 1050,
+      "sha256": "ad60d90252ed0b0705ba14e2d0ad0fec0beac1ea955642b54059b36052d8bc96"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/config.json": {
+      "bytes": 1339,
+      "sha256": "1a1306a1b2a9b144837681fbe4b2fe7cd85f105234d767a3af75ba5beae7c190"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/generation_config.json": {
+      "bytes": 216,
+      "sha256": "0a3aea82869fe29f20dc95ccf3e2bcff380eca1f5ad6447a4a4b37110b08e43e"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/merges.txt": {
+      "bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/model-00001-of-00005.safetensors": {
+      "bytes": 3900233256,
+      "sha256": "e97b877e47fde53a6c6e77aafb36e58e91ee9d95c4a3eeac6f1b5c0e6a1c986e"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/model-00002-of-00005.safetensors": {
+      "bytes": 3864726320,
+      "sha256": "a9a300a43b4724eee2abe7c18ceb26768d0ab011eb0cad19d9bfd2476a24d024"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/model-00003-of-00005.safetensors": {
+      "bytes": 3864726424,
+      "sha256": "111223d173e00bbee81cba1216fad28668df3476706b7fd26f4d5b50f8b3a507"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/model-00004-of-00005.safetensors": {
+      "bytes": 3864733680,
+      "sha256": "ef47f634fa57d46ee134edcc09f34085a47da1e16c12a2abe0d67118be6d72ed"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/model-00005-of-00005.safetensors": {
+      "bytes": 1089994880,
+      "sha256": "0c859795ad3a627a9b95bcb762e059d5b768a4a36fdd4affeff269d93fdecc67"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/model.safetensors.index.json": {
+      "bytes": 57619,
+      "sha256": "73b333b0b16e5286ddba615d2caebcd495cf7e616f52eb217a81781393d79de9"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/preprocessor_config.json": {
+      "bytes": 350,
+      "sha256": "f2058c716eef96ccaed1cc1e2d0c08306b62586d535b28d9d08e691b2fab7ca0"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/tokenizer.json": {
+      "bytes": 7031645,
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/tokenizer_config.json": {
+      "bytes": 5702,
+      "sha256": "4abd3520120e266da84c0864fee064d1fb10806f02225911a47253dd38dc5f56"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/vocab.json": {
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt": {
+      "bytes": 932768134,
+      "sha256": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/ucm_main_domain_tool.ckpt": {
+      "bytes": 1854653004,
+      "sha256": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/ucm_main_lora/adapter_config.json": {
+      "bytes": 753,
+      "sha256": "a2fcf8f53e2c9559eecb8881d0230b393579cea060cdcae29fdc4d61cb336c7c"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/ucm_main_lora/adapter_model.safetensors": {
+      "bytes": 190443344,
+      "sha256": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/ucm_scene_cls.pt": {
+      "bytes": 66556,
+      "sha256": "275f041920aa5747e9d90d6e14c79fb341882948bcf17cf02ae159d35cc9540b"
+    },
+    "/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/checkpoints/last.ckpt": {
+      "bytes": 1854653836,
+      "sha256": "e36801d50807519273408e4caf18604ad2f43db2c7b520cee98675631eac9a59"
+    },
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/grpo/scorer.py": {
+      "bytes": 6006,
+      "sha256": "e1ddb20c3eeef1f8722e2b6c2df22ed7d957495772d66486b692664323201355"
+    },
+    "/private/AGSE_E1_20261110/legacy/CUP/agent/grpo/reward.py": {
+      "bytes": 1711,
+      "sha256": "c6cad8a097ad4ac7749aa58f569d27c58065157133b2d169fa1838caf4a9c052"
+    },
+    "/private/AGSE_E1_20261110/legacy/assets/ucm/ucm_caption_karpathy_label_train.arrow": {
+      "bytes": 333134594,
+      "sha256": "4dd3c7eed39d309ffba1e77066a7fffae7912768c0a01f18fb578f3e6e5f967f"
+    }
+  },
+  "original_qwen_generation_config": {
+    "bos_token_id": 151643,
+    "pad_token_id": 151643,
+    "do_sample": true,
+    "eos_token_id": [
+      151645,
+      151643
+    ],
+    "repetition_penalty": 1.05,
+    "temperature": 1e-06,
+    "transformers_version": "4.37.0"
+  },
+  "explicit_rollout_parameters": {
+    "sample_temperature": 1.0,
+    "greedy_temperature": 0.0,
+    "max_new_tokens": 64,
+    "max_rounds": 3
+  },
+  "previous_receipt_sha256": "17902adec6874211159662fb7961be7918987e315eb84ab32c7ad5a0daeaff3e"
+}

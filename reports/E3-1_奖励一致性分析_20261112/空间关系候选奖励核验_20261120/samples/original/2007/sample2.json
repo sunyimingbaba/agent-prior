@@ -1,0 +1,40 @@
+{
+  "image": "2007.tif",
+  "row": 1606,
+  "rgb_sha256": "375c321c5d54781a2df60f0da1a1bdc22b11a921da787a7e83fc5243baa013e6",
+  "mode": "original",
+  "k": 2,
+  "query": "Some tennis courts arranged neatly with some plants surrounded .",
+  "seed": 20325373,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "tennis court (0.59), baseball diamond (0.05), golf course (0.04)",
+      "confidence": 0.5928758978843689
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "1bd38f5ce2e24e95220b7e6095e304e217139e18fe306560bcde001f08e2433d",
+  "vector_sha256": "73a7ffdc810fcd0dd158b298b06faecf54cc9c48a44ca0355152940f08e64fd8"
+}

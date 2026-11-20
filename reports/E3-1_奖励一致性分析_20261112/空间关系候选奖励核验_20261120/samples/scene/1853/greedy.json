@@ -1,0 +1,65 @@
+{
+  "image": "1853.tif",
+  "row": 1492,
+  "rgb_sha256": "cd99b9973455be1bae2f42c85d40e9bf01a2b5132aa0e9175ca3987a8da62344",
+  "mode": "scene",
+  "k": -1,
+  "query": "Scene: a residential area.",
+  "seed": 20320800,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        54021,
+        100146,
+        46944,
+        104547,
+        23836,
+        3837,
+        101137,
+        51154,
+        108704,
+        101047,
+        53481,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中显示的是一个住宅区，符合查询文本中的描述。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "sparse residential (0.44), medium residential (0.06), golf course (0.05)",
+      "confidence": 0.4431104063987732
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "2142d76fee6fca7f37782691af63192d507555979bd1333da91599965c4986d1",
+  "vector_sha256": "384302d8e3eaff499236b59be27d7d9f081a4beca4bc54e4d327e92d766adf3d"
+}

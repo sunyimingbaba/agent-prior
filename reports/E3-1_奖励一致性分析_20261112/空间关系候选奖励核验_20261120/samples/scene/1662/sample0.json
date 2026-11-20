@@ -1,0 +1,118 @@
+{
+  "image": "1662.tif",
+  "row": 1341,
+  "rgb_sha256": "759e5e53abec1a380d9ddbf4e4207ec9c89b41022649bf32342904668042ce17",
+  "mode": "scene",
+  "k": 0,
+  "query": "Scene: a river.",
+  "seed": 20314761,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        99639,
+        38989,
+        99469,
+        3837,
+        101137,
+        51154,
+        108704,
+        104272,
+        37132,
+        9217,
+        397,
+        151644,
+        198,
+        90557,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        99992,
+        34718,
+        103274,
+        3837,
+        101137,
+        51154,
+        108704,
+        104272,
+        37132,
+        9217,
+        397,
+        151644,
+        198,
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        1382,
+        29,
+        12982,
+        9368,
+        320,
+        15,
+        13,
+        17,
+        19,
+        701,
+        2635,
+        320,
+        15,
+        13
+      ],
+      "decoded": "\n addCriterion\n<answer>图中是一条河，符合查询文本的要求。</answer>\n\n��\n addCriterion\n<answer>图中有一片河流，符合查询文本的要求。</answer>\n\n\n addCriterion\n<result>harbor (0.24), port (0."
+    }
+  ],
+  "events": [
+    {
+      "text": "river (0.41), sparse residential (0.06), medium residential (0.05)",
+      "confidence": 0.408578485250473
+    },
+    {
+      "text": "river (0.41), sparse residential (0.06), medium residential (0.05)",
+      "confidence": 0.408578485250473
+    }
+  ],
+  "used": 2,
+  "filtered": 0,
+  "history": null,
+  "sha256": "29c752ea1ae8afdf21fc9d9d9b4913c76571919a9399574b14057ff07deb720a",
+  "vector_sha256": "d012b53d5230dbe4398205fbaea49586395230b1675af91042e73d3602663432"
+}

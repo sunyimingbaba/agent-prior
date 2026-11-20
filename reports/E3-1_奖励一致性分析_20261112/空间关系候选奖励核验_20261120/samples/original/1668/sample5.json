@@ -1,0 +1,40 @@
+{
+  "image": "1668.tif",
+  "row": 1347,
+  "rgb_sha256": "f342df971f3f29ec2f12f5d57ffc48da74ff45096b7579dc2956dcf35a89dfe2",
+  "mode": "original",
+  "k": 5,
+  "query": "It is a river with roads on both banks of the river .",
+  "seed": 20315016,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "river (0.25), overpass (0.12), freeway (0.09)",
+      "confidence": 0.2539561092853546
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "34cb0c49ec261e010e370faae3688dc889696accd073789f47c1e2805369afbe",
+  "vector_sha256": "6cc6f1f58f3005d5431e5570d6a8c77eab0f8411785eafa7849c77ab68e9d152"
+}

@@ -1,0 +1,50 @@
+{
+  "image": "1933.tif",
+  "row": 1552,
+  "rgb_sha256": "86bc967adea2e333e7151e1fb4c52c2d0887cb9dda7444f80e9c8eeb81e8a7f0",
+  "mode": "scene",
+  "k": 1,
+  "query": "Scene: a storage facility.",
+  "seed": 20323202,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        492,
+        22483,
+        516,
+        364,
+        5793,
+        1400,
+        580,
+        1403,
+        863,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion('scene', 'Storage_Facility')"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.62), parking lot (0.04), airplane (0.03)",
+      "confidence": 0.6205237507820129
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "b4c45c6f9db0ac4b94965556f49015777996f4488b8471d39dcf61e58f3512b9",
+  "vector_sha256": "aa2266992895a7e3452018cb3b04c2063ab963a811f6ffb3c57596b6d215a2a4"
+}

@@ -1,0 +1,78 @@
+{
+  "image": "325.tif",
+  "row": 265,
+  "rgb_sha256": "679270e9218b0f207cf81fb688627ab8ffb0edcd7a006fd98365dffb5d0e1115",
+  "mode": "scene",
+  "k": 6,
+  "query": "Scene: a beach.",
+  "seed": 20271727,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        54021,
+        9370,
+        99639,
+        44290,
+        110944,
+        3837,
+        101137,
+        51154,
+        101047,
+        102122,
+        53481,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中显示的是一处沙滩，符合查询中的场景描述。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "beach (0.43), harbor (0.06), agricultural (0.05)",
+      "confidence": 0.4293142557144165
+    },
+    {
+      "text": "beach (0.43), harbor (0.06), agricultural (0.05)",
+      "confidence": 0.4293142557144165
+    }
+  ],
+  "used": 2,
+  "filtered": 0,
+  "history": null,
+  "sha256": "a7a776c4e72d35a9267ee01e26b02c29bd5f3691337186029abe9ea44a46d436",
+  "vector_sha256": "885007a70be9e88a34729a7b22d9055dd399a68be26d7226c80958806c3195ff"
+}

@@ -1,0 +1,54 @@
+{
+  "image": "1662.tif",
+  "row": 1341,
+  "rgb_sha256": "759e5e53abec1a380d9ddbf4e4207ec9c89b41022649bf32342904668042ce17",
+  "mode": "scene",
+  "k": 1,
+  "query": "Scene: a river.",
+  "seed": 20314762,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        90557,
+        198,
+        18724,
+        330,
+        98223,
+        20057,
+        1,
+        58143,
+        330,
+        26086,
+        20057,
+        1,
+        220,
+        57218,
+        32876,
+        151645
+      ],
+      "decoded": "��\n addCriterion \"sparse residential\" 和 \"medium residential\" 与查"
+    }
+  ],
+  "events": [
+    {
+      "text": "river (0.41), sparse residential (0.06), medium residential (0.05)",
+      "confidence": 0.408578485250473
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "cb219d94d0027ce15c164fe6a6fa6d2e6357de459a8a06d54a3aac690ca91115",
+  "vector_sha256": "42edcd55d8675d3cd488f53edeefa2ae7cc2399942f26feebe78510aa03a9622"
+}

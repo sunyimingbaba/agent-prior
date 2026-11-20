@@ -1,0 +1,40 @@
+{
+  "image": "1662.tif",
+  "row": 1341,
+  "rgb_sha256": "759e5e53abec1a380d9ddbf4e4207ec9c89b41022649bf32342904668042ce17",
+  "mode": "scene",
+  "k": 3,
+  "query": "Scene: a river.",
+  "seed": 20314764,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "river (0.41), sparse residential (0.06), medium residential (0.05)",
+      "confidence": 0.408578485250473
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "85cd611b56534b58622ad8a9e2b48942196cba17d6a2a3e596492a088516fe5b",
+  "vector_sha256": "9982e86de1f9c0410df8b0dec112150b4ca0eedf6aacd7c2b42854fbc36b2bc6"
+}

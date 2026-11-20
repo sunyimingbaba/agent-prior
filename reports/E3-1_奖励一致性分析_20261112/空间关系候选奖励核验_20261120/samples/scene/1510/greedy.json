@@ -1,0 +1,40 @@
+{
+  "image": "1510.tif",
+  "row": 1209,
+  "rgb_sha256": "d7f6df6bfe05a068169ff40d49bf93677c193430e2689d26192a4a0273ee7916",
+  "mode": "scene",
+  "k": -1,
+  "query": "Scene: a parking lot.",
+  "seed": 20309480,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "parking lot (0.46), buildings (0.06), harbor (0.04)",
+      "confidence": 0.4602159261703491
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "32a68ab954920827384cc35eaa38cf8bb345749e2803ee353a03f70cb8df04e6",
+  "vector_sha256": "2a459daf458bfee3a2b1c778e941e8fe7d1a64d0be02dff0c56614b97b9c82e3"
+}

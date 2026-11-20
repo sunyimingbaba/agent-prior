@@ -1,0 +1,45 @@
+{
+  "image": "1969.tif",
+  "row": 1588,
+  "rgb_sha256": "34a5d683ecd555269c13d1c366c7e8404a7ffe0342a6cf71333a4546eadec4e1",
+  "mode": "scene",
+  "k": -1,
+  "query": "Scene: a storage facility.",
+  "seed": 20324640,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "scene_classify"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.34), buildings (0.09), river (0.05)",
+      "confidence": 0.33711889386177063
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "d0ae7b62d9fa56f1c256a9c53fe1557df8b58f2eaca404951f0cd3e2906f5763",
+  "vector_sha256": "d757897b3a196939af1c74a0040ae8f6a8179fc32b6af24aa7917ae20ca0c8ef"
+}

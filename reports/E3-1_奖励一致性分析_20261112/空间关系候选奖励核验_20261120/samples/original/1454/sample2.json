@@ -1,0 +1,50 @@
+{
+  "image": "1454.tif",
+  "row": 1173,
+  "rgb_sha256": "a8a5bcc77f6424b3c484fd53f20b76aee10994d02638dc34a93eb1b9a25ebcfe",
+  "mode": "original",
+  "k": 2,
+  "query": "An overpass with a road go across another roads vertically .",
+  "seed": 20308053,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        5122,
+        1975,
+        6385,
+        320,
+        15,
+        13,
+        24,
+        19,
+        8,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion：overpass (0.94)"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "overpass (0.35), freeway (0.19), intersection (0.13)",
+      "confidence": 0.35370954871177673
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "3b085abd698d1c5a4f40bbe4aace165cc3197182f511bb02e00c758fb1aef0d0",
+  "vector_sha256": "89cab994cf7210a76622be14490702460cb7033ff13bc423158b7abddbd4fe68"
+}

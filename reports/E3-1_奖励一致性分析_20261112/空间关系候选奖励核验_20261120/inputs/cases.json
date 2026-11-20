@@ -1,0 +1,686 @@
+[
+  {
+    "image": "221.tif",
+    "row": 181,
+    "split": "train",
+    "block": 2,
+    "rgb_sha256": "0c919329e428e27e35ae544b5b5b7db86f619cf26917a043cbcc51d86d0b774f",
+    "pair": "diamond_field",
+    "side": "left",
+    "scene_query": "Scene: a baseball facility.",
+    "orig_query": "This is a baseball diamond .",
+    "A": [
+      "The dirt infield lies to the right of the grassy outfield.",
+      "The dirt infield lies to the left of the grassy outfield."
+    ],
+    "B": [
+      "Most of the outfield grass is left of the dirt diamond.",
+      "Most of the outfield grass is right of the dirt diamond."
+    ]
+  },
+  {
+    "image": "255.tif",
+    "row": 215,
+    "split": "train",
+    "block": 2,
+    "rgb_sha256": "6e58fbfeaca1b4d8ff3af5e9f46e9d1471f1829d02008a233e41ba6a151cd990",
+    "pair": "diamond_field",
+    "side": "right",
+    "scene_query": "Scene: a baseball facility.",
+    "orig_query": "This is a baseball diamond .",
+    "A": [
+      "The dirt infield lies to the left of the grassy outfield.",
+      "The dirt infield lies to the right of the grassy outfield."
+    ],
+    "B": [
+      "Most of the outfield grass is right of the dirt diamond.",
+      "Most of the outfield grass is left of the dirt diamond."
+    ]
+  },
+  {
+    "image": "204.tif",
+    "row": 164,
+    "split": "train",
+    "block": 2,
+    "rgb_sha256": "da84c537b4a472f8f7ac6251c309ec9ace8e6e4cbeb8b46e34afb5ba87a61c40",
+    "pair": "diamond_plate",
+    "side": "left",
+    "scene_query": "Scene: a baseball facility.",
+    "orig_query": "This is a baseball diamond .",
+    "A": [
+      "Home plate lies below the pitcher's mound in the image.",
+      "Home plate lies above the pitcher's mound in the image."
+    ],
+    "B": [
+      "The mound is higher in the picture than home plate.",
+      "The mound is lower in the picture than home plate."
+    ]
+  },
+  {
+    "image": "232.tif",
+    "row": 192,
+    "split": "train",
+    "block": 2,
+    "rgb_sha256": "1906481b23301d18711bef59caf7618b29cc76887b15eb194ba4b797b226a9e7",
+    "pair": "diamond_plate",
+    "side": "right",
+    "scene_query": "Scene: a baseball facility.",
+    "orig_query": "This is a baseball diamond with stands surround it .",
+    "A": [
+      "Home plate lies above the pitcher's mound in the image.",
+      "Home plate lies below the pitcher's mound in the image."
+    ],
+    "B": [
+      "The mound is lower in the picture than home plate.",
+      "The mound is higher in the picture than home plate."
+    ]
+  },
+  {
+    "image": "304.tif",
+    "row": 244,
+    "split": "train",
+    "block": 3,
+    "rgb_sha256": "c29caec0b50c9036064be4f1ed9e58bdabfb425b008221d67d30b51eeb065a72",
+    "pair": "beach_side",
+    "side": "left",
+    "scene_query": "Scene: a beach.",
+    "orig_query": "This is a beach with blue sea and white sands .",
+    "A": [
+      "The sea lies to the left of the sandy shore.",
+      "The sea lies to the right of the sandy shore."
+    ],
+    "B": [
+      "The sand is on the right side of the water.",
+      "The sand is on the left side of the water."
+    ]
+  },
+  {
+    "image": "325.tif",
+    "row": 265,
+    "split": "train",
+    "block": 3,
+    "rgb_sha256": "679270e9218b0f207cf81fb688627ab8ffb0edcd7a006fd98365dffb5d0e1115",
+    "pair": "beach_side",
+    "side": "right",
+    "scene_query": "Scene: a beach.",
+    "orig_query": "This is a beach with green sea and white sands .",
+    "A": [
+      "The sea lies to the right of the sandy shore.",
+      "The sea lies to the left of the sandy shore."
+    ],
+    "B": [
+      "The sand is on the left side of the water.",
+      "The sand is on the right side of the water."
+    ]
+  },
+  {
+    "image": "1057.tif",
+    "row": 854,
+    "split": "train",
+    "block": 10,
+    "rgb_sha256": "8fcafa44725aadb02aa92a365847551b98fc6743877feb30e0d1d4fdc44e3d93",
+    "pair": "harbor_channel",
+    "side": "left",
+    "scene_query": "Scene: a harbor.",
+    "orig_query": "Lots of boats docked at the harbor and the boats are closed to each other .",
+    "A": [
+      "The channel between the two facing rows of boats runs horizontally.",
+      "The channel between the two facing rows of boats runs vertically."
+    ],
+    "B": [
+      "The open water separating the facing boat rows extends from left to right.",
+      "The open water separating the facing boat rows extends from top to bottom."
+    ]
+  },
+  {
+    "image": "1066.tif",
+    "row": 863,
+    "split": "train",
+    "block": 10,
+    "rgb_sha256": "da1ebae28c757144a5151625f1e328e30ec6883df80f12833c5635b9d6f9e765",
+    "pair": "harbor_channel",
+    "side": "right",
+    "scene_query": "Scene: a harbor.",
+    "orig_query": "Lots of boats docked at the harbor and the boats are closed to each other .",
+    "A": [
+      "The channel between the two facing rows of boats runs vertically.",
+      "The channel between the two facing rows of boats runs horizontally."
+    ],
+    "B": [
+      "The open water separating the facing boat rows extends from top to bottom.",
+      "The open water separating the facing boat rows extends from left to right."
+    ]
+  },
+  {
+    "image": "1155.tif",
+    "row": 933,
+    "split": "train",
+    "block": 11,
+    "rgb_sha256": "9fa85cba983ac8d63a8e3027500727e788738ae705e17f53deb93f918e7df766",
+    "pair": "junction_corners",
+    "side": "left",
+    "scene_query": "Scene: a road intersection.",
+    "orig_query": "An intersection with only a few cars on the road .",
+    "A": [
+      "Houses stand at the corners of the intersection.",
+      "There are no houses at the corners of the intersection."
+    ],
+    "B": [
+      "The junction is flanked by buildings at its corners.",
+      "The corners of the junction are clear of buildings."
+    ]
+  },
+  {
+    "image": "1147.tif",
+    "row": 925,
+    "split": "train",
+    "block": 11,
+    "rgb_sha256": "1d15eebd95bda22a9a52860c695ba6f04baf78c1f642f7a613533618b7387fc6",
+    "pair": "junction_corners",
+    "side": "right",
+    "scene_query": "Scene: a road intersection.",
+    "orig_query": "An intersection with a few cars on the road .",
+    "A": [
+      "There are no houses at the corners of the intersection.",
+      "Houses stand at the corners of the intersection."
+    ],
+    "B": [
+      "The corners of the junction are clear of buildings.",
+      "The junction is flanked by buildings at its corners."
+    ]
+  },
+  {
+    "image": "1278.tif",
+    "row": 1037,
+    "split": "train",
+    "block": 12,
+    "rgb_sha256": "8120f250691d1adb1e0bf565024206e541e7d4a73ec1fedd3c2c6aa7ad15f845",
+    "pair": "housing_street",
+    "side": "left",
+    "scene_query": "Scene: a residential neighborhood.",
+    "orig_query": "It is a medium residential area .",
+    "A": [
+      "A horizontal street separates two rows of houses.",
+      "A vertical street separates two rows of houses."
+    ],
+    "B": [
+      "The road between the facing houses runs left to right.",
+      "The road between the facing houses runs top to bottom."
+    ]
+  },
+  {
+    "image": "1257.tif",
+    "row": 1016,
+    "split": "train",
+    "block": 12,
+    "rgb_sha256": "f031a4683e6f650ac3269a4c23ac581d35ea0aafdb33777e4fb5a57bd4450894",
+    "pair": "housing_street",
+    "side": "right",
+    "scene_query": "Scene: a residential neighborhood.",
+    "orig_query": "It is a medium residential area with houses arranged neatly .",
+    "A": [
+      "A vertical street separates two rows of houses.",
+      "A horizontal street separates two rows of houses."
+    ],
+    "B": [
+      "The road between the facing houses runs top to bottom.",
+      "The road between the facing houses runs left to right."
+    ]
+  },
+  {
+    "image": "1442.tif",
+    "row": 1161,
+    "split": "train",
+    "block": 14,
+    "rgb_sha256": "52e71ae44af2ab36431e8c765896caddd0edcdc2c45b5ce5eb6ddfe1594c1959",
+    "pair": "overpass_order",
+    "side": "left",
+    "scene_query": "Scene: a road overpass.",
+    "orig_query": "An overpass with a road go across another one diagonally .",
+    "A": [
+      "The more horizontal roadway passes above the more vertical roadway.",
+      "The more horizontal roadway passes below the more vertical roadway."
+    ],
+    "B": [
+      "The more vertical road goes under the crossing road.",
+      "The more vertical road goes over the crossing road."
+    ]
+  },
+  {
+    "image": "1417.tif",
+    "row": 1136,
+    "split": "train",
+    "block": 14,
+    "rgb_sha256": "d1d7ae39be6b3df8ca2063ee39a47290f9ef2b1b01e4e290be92161a8654292e",
+    "pair": "overpass_order",
+    "side": "right",
+    "scene_query": "Scene: a road overpass.",
+    "orig_query": "An overpass with a road go across another two roads diagonally .",
+    "A": [
+      "The more horizontal roadway passes below the more vertical roadway.",
+      "The more horizontal roadway passes above the more vertical roadway."
+    ],
+    "B": [
+      "The more vertical road goes over the crossing road.",
+      "The more vertical road goes under the crossing road."
+    ]
+  },
+  {
+    "image": "1454.tif",
+    "row": 1173,
+    "split": "train",
+    "block": 14,
+    "rgb_sha256": "a8a5bcc77f6424b3c484fd53f20b76aee10994d02638dc34a93eb1b9a25ebcfe",
+    "pair": "diagonal_bridge",
+    "side": "left",
+    "scene_query": "Scene: a road overpass.",
+    "orig_query": "An overpass with a road go across another roads vertically .",
+    "A": [
+      "At the crossing the road from upper left to lower right is on top.",
+      "At the crossing the road from upper left to lower right is underneath."
+    ],
+    "B": [
+      "The roadway sloping down to the right passes over the other road.",
+      "The roadway sloping down to the right passes under the other road."
+    ]
+  },
+  {
+    "image": "1429.tif",
+    "row": 1148,
+    "split": "train",
+    "block": 14,
+    "rgb_sha256": "eadb37dfb4649aeef09733a28215f6be29f781bce003c506c52a3cfcb2461a43",
+    "pair": "diagonal_bridge",
+    "side": "right",
+    "scene_query": "Scene: a road overpass.",
+    "orig_query": "An overpass cross the roads vertically .",
+    "A": [
+      "At the crossing the road from upper left to lower right is underneath.",
+      "At the crossing the road from upper left to lower right is on top."
+    ],
+    "B": [
+      "The roadway sloping down to the right passes under the other road.",
+      "The roadway sloping down to the right passes over the other road."
+    ]
+  },
+  {
+    "image": "1510.tif",
+    "row": 1209,
+    "split": "train",
+    "block": 15,
+    "rgb_sha256": "d7f6df6bfe05a068169ff40d49bf93677c193430e2689d26192a4a0273ee7916",
+    "pair": "parking_rows",
+    "side": "left",
+    "scene_query": "Scene: a parking lot.",
+    "orig_query": "Lots of cars parked neatly in the parking lot .",
+    "A": [
+      "The long rows of parked vehicles stand side by side from left to right.",
+      "The long rows of parked vehicles are stacked from top to bottom."
+    ],
+    "B": [
+      "The neighboring parking rows lie to the left and right of each other.",
+      "The neighboring parking rows lie above and below each other."
+    ]
+  },
+  {
+    "image": "1537.tif",
+    "row": 1236,
+    "split": "train",
+    "block": 15,
+    "rgb_sha256": "1b5c6285c627b6af0b1ab5b25b0f58f2877ceab13d17919128a6d435776a3c02",
+    "pair": "parking_rows",
+    "side": "right",
+    "scene_query": "Scene: a parking lot.",
+    "orig_query": "Lots of cars parked in the parking lot .",
+    "A": [
+      "The long rows of parked vehicles are stacked from top to bottom.",
+      "The long rows of parked vehicles stand side by side from left to right."
+    ],
+    "B": [
+      "The neighboring parking rows lie above and below each other.",
+      "The neighboring parking rows lie to the left and right of each other."
+    ]
+  },
+  {
+    "image": "1662.tif",
+    "row": 1341,
+    "split": "train",
+    "block": 16,
+    "rgb_sha256": "759e5e53abec1a380d9ddbf4e4207ec9c89b41022649bf32342904668042ce17",
+    "pair": "river_road",
+    "side": "left",
+    "scene_query": "Scene: a river.",
+    "orig_query": "It is a river with black water and a road on one bank of the river .",
+    "A": [
+      "The road following the river is on its upper-left bank.",
+      "The road following the river is on its lower-right bank."
+    ],
+    "B": [
+      "The river runs below and to the right of the bank-side road.",
+      "The river runs above and to the left of the bank-side road."
+    ]
+  },
+  {
+    "image": "1668.tif",
+    "row": 1347,
+    "split": "train",
+    "block": 16,
+    "rgb_sha256": "f342df971f3f29ec2f12f5d57ffc48da74ff45096b7579dc2956dcf35a89dfe2",
+    "pair": "river_road",
+    "side": "right",
+    "scene_query": "Scene: a river.",
+    "orig_query": "It is a river with roads on both banks of the river .",
+    "A": [
+      "The road following the river is on its lower-right bank.",
+      "The road following the river is on its upper-left bank."
+    ],
+    "B": [
+      "The river runs above and to the left of the bank-side road.",
+      "The river runs below and to the right of the bank-side road."
+    ]
+  },
+  {
+    "image": "1845.tif",
+    "row": 1484,
+    "split": "train",
+    "block": 18,
+    "rgb_sha256": "af7ec2fb52a2d410dc9c4fd2a0f41124de8967c5b29ceab4573c64a3c09c819f",
+    "pair": "pool_house",
+    "side": "left",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "Two houses are surrounded by verdant lawn in the sparse residential area .",
+    "A": [
+      "The rectangular swimming pool is above the main house.",
+      "The rectangular swimming pool is below the main house."
+    ],
+    "B": [
+      "The main house lies below its rectangular pool.",
+      "The main house lies above its rectangular pool."
+    ]
+  },
+  {
+    "image": "1854.tif",
+    "row": 1493,
+    "split": "train",
+    "block": 18,
+    "rgb_sha256": "6a08513d60df8140a513b52c6b3fb4b87615e44a3aa1e464f75b93e606105bf7",
+    "pair": "pool_house",
+    "side": "right",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "A house with grey roofs is surrounded by trees and lawn in the sparse residential area .",
+    "A": [
+      "The rectangular swimming pool is below the main house.",
+      "The rectangular swimming pool is above the main house."
+    ],
+    "B": [
+      "The main house lies above its rectangular pool.",
+      "The main house lies below its rectangular pool."
+    ]
+  },
+  {
+    "image": "1852.tif",
+    "row": 1491,
+    "split": "train",
+    "block": 18,
+    "rgb_sha256": "98e91fbb73a011e5afa8651f89af86698a3cae68a74fad2fefbb9f10a5117673",
+    "pair": "driveway_house",
+    "side": "left",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "A house is surrounded by verdant lawn in the sparse residential area .",
+    "A": [
+      "The driveway reaches the main house from above in the image.",
+      "The driveway reaches the main house from below in the image."
+    ],
+    "B": [
+      "The long driveway extends from the house toward the top of the frame.",
+      "The long driveway extends from the house toward the bottom of the frame."
+    ]
+  },
+  {
+    "image": "1853.tif",
+    "row": 1492,
+    "split": "train",
+    "block": 18,
+    "rgb_sha256": "cd99b9973455be1bae2f42c85d40e9bf01a2b5132aa0e9175ca3987a8da62344",
+    "pair": "driveway_house",
+    "side": "right",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "A house with grey roofs is surrounded by trees and lawn in the sparse residential area .",
+    "A": [
+      "The driveway reaches the main house from below in the image.",
+      "The driveway reaches the main house from above in the image."
+    ],
+    "B": [
+      "The long driveway extends from the house toward the bottom of the frame.",
+      "The long driveway extends from the house toward the top of the frame."
+    ]
+  },
+  {
+    "image": "1933.tif",
+    "row": 1552,
+    "split": "train",
+    "block": 19,
+    "rgb_sha256": "86bc967adea2e333e7151e1fb4c52c2d0887cb9dda7444f80e9c8eeb81e8a7f0",
+    "pair": "tank_horizontal",
+    "side": "left",
+    "scene_query": "Scene: a storage facility.",
+    "orig_query": "Some storage tanks are scattered distributed on the ground .",
+    "A": [
+      "The roadway lies above the tank site in the image.",
+      "The roadway lies below the tank site in the image."
+    ],
+    "B": [
+      "The tank site is on the lower side of the roadway.",
+      "The tank site is on the upper side of the roadway."
+    ]
+  },
+  {
+    "image": "1969.tif",
+    "row": 1588,
+    "split": "train",
+    "block": 19,
+    "rgb_sha256": "34a5d683ecd555269c13d1c366c7e8404a7ffe0342a6cf71333a4546eadec4e1",
+    "pair": "tank_horizontal",
+    "side": "right",
+    "scene_query": "Scene: a storage facility.",
+    "orig_query": "A storage tank is on the lawn .",
+    "A": [
+      "The roadway lies below the tank site in the image.",
+      "The roadway lies above the tank site in the image."
+    ],
+    "B": [
+      "The tank site is on the upper side of the roadway.",
+      "The tank site is on the lower side of the roadway."
+    ]
+  },
+  {
+    "image": "1907.tif",
+    "row": 1526,
+    "split": "train",
+    "block": 19,
+    "rgb_sha256": "3ff3867fc7698f0bdca5c21979af6e5663a6238f12fce92fb7139c995ed585ef",
+    "pair": "tank_vertical",
+    "side": "left",
+    "scene_query": "Scene: a storage facility.",
+    "orig_query": "A white storage tank is on the lawn .",
+    "A": [
+      "The round tank stands to the left of the adjacent vertical road.",
+      "The round tank stands to the right of the adjacent vertical road."
+    ],
+    "B": [
+      "The vertical road runs along the tank's right side.",
+      "The vertical road runs along the tank's left side."
+    ]
+  },
+  {
+    "image": "1919.tif",
+    "row": 1538,
+    "split": "train",
+    "block": 19,
+    "rgb_sha256": "057d758c4ed1b5938a4da79ecdcd9312f5cab12f9abb0d1fcbbfa5eb2451369f",
+    "pair": "tank_vertical",
+    "side": "right",
+    "scene_query": "Scene: a storage facility.",
+    "orig_query": "A storage tank is in the lawn .",
+    "A": [
+      "The round tank stands to the right of the adjacent vertical road.",
+      "The round tank stands to the left of the adjacent vertical road."
+    ],
+    "B": [
+      "The vertical road runs along the tank's left side.",
+      "The vertical road runs along the tank's right side."
+    ]
+  },
+  {
+    "image": "2007.tif",
+    "row": 1606,
+    "split": "train",
+    "block": 20,
+    "rgb_sha256": "375c321c5d54781a2df60f0da1a1bdc22b11a921da787a7e83fc5243baa013e6",
+    "pair": "court_parking",
+    "side": "left",
+    "scene_query": "Scene: a tennis facility.",
+    "orig_query": "Some tennis courts arranged neatly with some plants surrounded .",
+    "A": [
+      "The parking area lies above the tennis courts.",
+      "The parking area lies below the tennis courts."
+    ],
+    "B": [
+      "The tennis courts are below the nearby parked cars.",
+      "The tennis courts are above the nearby parked cars."
+    ]
+  },
+  {
+    "image": "2022.tif",
+    "row": 1621,
+    "split": "train",
+    "block": 20,
+    "rgb_sha256": "1d80274046e8d4ae975146701bd127e6eb6838274568fd9bcc12400e444eae7a",
+    "pair": "court_parking",
+    "side": "right",
+    "scene_query": "Scene: a tennis facility.",
+    "orig_query": "Some tennis courts on the green ground arranged neatly with some plants surrounded .",
+    "A": [
+      "The parking area lies below the tennis courts.",
+      "The parking area lies above the tennis courts."
+    ],
+    "B": [
+      "The tennis courts are above the nearby parked cars.",
+      "The tennis courts are below the nearby parked cars."
+    ]
+  },
+  {
+    "image": "2068.tif",
+    "row": 1667,
+    "split": "train",
+    "block": 20,
+    "rgb_sha256": "9ae463842952a5c9b1e82e6f4e0c68b1325faba2f8a25b6b13e32126e52d024d",
+    "pair": "court_pool",
+    "side": "left",
+    "scene_query": "Scene: a tennis facility.",
+    "orig_query": "A small tennis court with some plants and swimming pools beside .",
+    "A": [
+      "The blue swimming pool lies above the tennis court.",
+      "The blue swimming pool lies below the tennis court."
+    ],
+    "B": [
+      "The court is below the blue pool in the image.",
+      "The court is above the blue pool in the image."
+    ]
+  },
+  {
+    "image": "2071.tif",
+    "row": 1670,
+    "split": "train",
+    "block": 20,
+    "rgb_sha256": "3864d191ca565de64d9c1f633088ed5a7714df9618479304d805ad71e4d6b15b",
+    "pair": "court_pool",
+    "side": "right",
+    "scene_query": "Scene: a tennis facility.",
+    "orig_query": "Two tennis courts arranged neatly with some plants and buildings surrounded .",
+    "A": [
+      "The blue swimming pool lies below the tennis court.",
+      "The blue swimming pool lies above the tennis court."
+    ],
+    "B": [
+      "The court is above the blue pool in the image.",
+      "The court is below the blue pool in the image."
+    ]
+  },
+  {
+    "image": "1808.tif",
+    "row": 1447,
+    "split": "train",
+    "block": 18,
+    "rgb_sha256": "49669467fe53cf668821d39220e27936c6243493a978caf79de6a1f064017add",
+    "pair": "house_surround",
+    "side": "left",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "A villa with grey roofs is surrounded by trees and lawn in the sparse residential area .",
+    "A": [
+      "The house is surrounded by dense trees.",
+      "The house is surrounded by open dry ground."
+    ],
+    "B": [
+      "Thick tree cover encloses the house.",
+      "Dry open terrain encloses the house."
+    ]
+  },
+  {
+    "image": "1813.tif",
+    "row": 1452,
+    "split": "train",
+    "block": 18,
+    "rgb_sha256": "fa13ad0e5e7f977a2422e1c08dbe408a62cd0d7efae249b611516af3db38cb9e",
+    "pair": "house_surround",
+    "side": "right",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "A house is surrounded by sands and bushes in the sparse residential area .",
+    "A": [
+      "The house is surrounded by open dry ground.",
+      "The house is surrounded by dense trees."
+    ],
+    "B": [
+      "Dry open terrain encloses the house.",
+      "Thick tree cover encloses the house."
+    ]
+  },
+  {
+    "image": "1612.tif",
+    "row": 1291,
+    "split": "train",
+    "block": 16,
+    "rgb_sha256": "ef2c192514fc6a965db9c113fb05e2140764dcbd358618032e03fac009034ff4",
+    "pair": "river_banks",
+    "side": "left",
+    "scene_query": "Scene: a river.",
+    "orig_query": "It is a river with dense forest on both banks of the river .",
+    "A": [
+      "The river is bordered by dense green tree cover.",
+      "The river is bordered by bare dry ground."
+    ],
+    "B": [
+      "Green woodland lines the two banks of the channel.",
+      "Dry exposed ground lines the two banks of the channel."
+    ]
+  },
+  {
+    "image": "1634.tif",
+    "row": 1313,
+    "split": "train",
+    "block": 16,
+    "rgb_sha256": "5df4f253ffa1ed5b928c1f598ff54a4c9af0e79600483ab02296fe63785e5f41",
+    "pair": "river_banks",
+    "side": "right",
+    "scene_query": "Scene: a river.",
+    "orig_query": "It is a river with plants wilted on both banks of the river .",
+    "A": [
+      "The river is bordered by bare dry ground.",
+      "The river is bordered by dense green tree cover."
+    ],
+    "B": [
+      "Dry exposed ground lines the two banks of the channel.",
+      "Green woodland lines the two banks of the channel."
+    ]
+  }
+]

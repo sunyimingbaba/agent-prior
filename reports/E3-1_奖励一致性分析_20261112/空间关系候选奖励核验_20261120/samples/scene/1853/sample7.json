@@ -1,0 +1,40 @@
+{
+  "image": "1853.tif",
+  "row": 1492,
+  "rgb_sha256": "cd99b9973455be1bae2f42c85d40e9bf01a2b5132aa0e9175ca3987a8da62344",
+  "mode": "scene",
+  "k": 7,
+  "query": "Scene: a residential area.",
+  "seed": 20320808,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "sparse residential (0.44), medium residential (0.06), golf course (0.05)",
+      "confidence": 0.4431104063987732
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "e1158d58445c8182342b6ef7f9bcc7b180d38d2c56a6969d11a7f8c92119326b",
+  "vector_sha256": "7efdbd5f3b2a0db80a01b0d2da55c0655805ba4938000703ade436f3e6f01e6c"
+}

@@ -1,0 +1,43 @@
+{
+  "image": "1612.tif",
+  "row": 1291,
+  "rgb_sha256": "ef2c192514fc6a965db9c113fb05e2140764dcbd358618032e03fac009034ff4",
+  "mode": "original",
+  "k": -1,
+  "query": "It is a river with dense forest on both banks of the river .",
+  "seed": 20312770,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "river (0.31), forest (0.23), agricultural (0.05)",
+      "confidence": 0.3102421462535858
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": {
+    "archive_sha": "f841c4ad47181f53a37c94889da5c55168922375458179d6a4c74044c0d67f9e",
+    "bit_equal": true
+  },
+  "sha256": "42cb83a9deb5fca4a890c87ddc80ee46450263105e37654e818bc7d4660f7fec",
+  "vector_sha256": "ba5ac1140f75878f5fe5c224268df32e40581f2268d39284c4a4682bc9ca473e"
+}
