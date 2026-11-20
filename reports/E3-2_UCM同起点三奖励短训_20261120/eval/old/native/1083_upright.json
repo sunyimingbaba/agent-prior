@@ -1,0 +1,105 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1083.tif",
+  "row": 104,
+  "rgb_sha256": "c854fc7473e574d5d05f54f74b9a57c425335b9a86f808a21c7174b788a233e0",
+  "view": "upright",
+  "rendered_sha256": "c854fc7473e574d5d05f54f74b9a57c425335b9a86f808a21c7174b788a233e0",
+  "query": "Lots of boats docked at the harbor and the water is deep blue .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395040,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644
+          ],
+          "text": " addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "harbor (0.58), beach (0.04), airplane (0.04)",
+          "confidence": 0.5753437280654907
+        }
+      ],
+      "used": 1,
+      "hidden": "0e2499b13e03d5ccb5918be48454929b9f5cbf449de20ba6a4697ee7bbf402a8"
+    }
+  ],
+  "sha256": "5f99101182ca5af1d90467e4ed70c9eebc66de93e2803db9f5fa77c060abac6e"
+}

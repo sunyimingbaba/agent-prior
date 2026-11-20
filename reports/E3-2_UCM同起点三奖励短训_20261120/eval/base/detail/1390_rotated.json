@@ -1,0 +1,138 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1390.tif",
+  "row": 139,
+  "rgb_sha256": "e9d19732964b6226410c77e6e44bbfdb30723282f97680afddebde1bdd51c110",
+  "view": "rotated",
+  "rendered_sha256": "28370a5d09de989b5f0e706fe735ecb18dbd50e2d79768c91e75d7d14c36d6eb",
+  "query": "An aerial view of a mobile home park.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395390,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "0b5c58d8860e0d1a51e30b936485741dfb9bcc63ca103b95f8d879f6bf0e7b18"
+    },
+    {
+      "k": 0,
+      "seed": 395391,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "0b5c58d8860e0d1a51e30b936485741dfb9bcc63ca103b95f8d879f6bf0e7b18"
+    },
+    {
+      "k": 1,
+      "seed": 395392,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "<tool_call>scene_classify\n addCriterion"
+        },
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.15), mobile home park (0.13), intersection (0.11)",
+          "confidence": 0.15466247498989105
+        }
+      ],
+      "used": 1,
+      "hidden": "4ab767c1af12fb82111bf1039fcb6c967455fa8bc9ab9d0ab14a62fef042cd05"
+    },
+    {
+      "k": 2,
+      "seed": 395393,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151644,
+            198,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion\n\n addCriterion"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "52237c5a00ad180ae5429f4fce42e5d83828d6036f014be94f17f2ae78b71d22"
+    },
+    {
+      "k": 3,
+      "seed": 395394,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "0b5c58d8860e0d1a51e30b936485741dfb9bcc63ca103b95f8d879f6bf0e7b18"
+    }
+  ],
+  "sha256": "a9eeb5c3e50f64dc28fd6113b23b7eed403711139b522d84ed5547a7efd28ae2"
+}

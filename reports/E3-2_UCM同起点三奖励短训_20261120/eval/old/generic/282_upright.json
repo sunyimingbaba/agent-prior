@@ -1,0 +1,69 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "282.tif",
+  "row": 20,
+  "rgb_sha256": "ee760ec51616856cb9e889ee794569b068785bb5d07331ebd170df39672fd6a1",
+  "view": "upright",
+  "rendered_sha256": "ee760ec51616856cb9e889ee794569b068785bb5d07331ebd170df39672fd6a1",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394200,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            9217,
+            198,
+            785,
+            2168,
+            7952,
+            311,
+            387,
+            458,
+            40784,
+            10300,
+            315,
+            264,
+            19507,
+            22205,
+            11,
+            892,
+            5285,
+            82,
+            448,
+            279,
+            3239,
+            1467,
+            13,
+            151645
+          ],
+          "text": " addCriterion\nanswer\nThe image appears to be an aerial photograph of a baseball diamond, which aligns with the query text."
+        }
+      ],
+      "events": [
+        {
+          "text": "baseball diamond (0.62), golf course (0.05), sparse residential (0.05)",
+          "confidence": 0.6238757371902466
+        }
+      ],
+      "used": 1,
+      "hidden": "fefe80b5302d6ebe7f34aea329ec6c2a2193576e43c21da9005a0d983c8757c4"
+    }
+  ],
+  "sha256": "6d52dace8d4841dd5299853f970566577c11dc294d184c2deb38a82a5aac0f38"
+}

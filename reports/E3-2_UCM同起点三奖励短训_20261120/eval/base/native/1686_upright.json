@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1686.tif",
+  "row": 165,
+  "rgb_sha256": "c73c48e4abe2425df196895ca1733e38c4cf84df464de7f60419238eafc7db62",
+  "view": "upright",
+  "rendered_sha256": "c73c48e4abe2425df196895ca1733e38c4cf84df464de7f60419238eafc7db62",
+  "query": "It is a very wide river with dense forest on both banks of the river .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395650,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "river (0.41), forest (0.10), agricultural (0.05)",
+          "confidence": 0.40941721200942993
+        }
+      ],
+      "used": 1,
+      "hidden": "04d8e458bf77f40cf623be8d717d60a2804ea39d43a4283ecb79c9eb65f2d20c"
+    }
+  ],
+  "sha256": "6eab1622bed96715f78a919d7efc8b159e8339ae251f92cff3bd7a90aba17c46"
+}

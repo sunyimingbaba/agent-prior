@@ -1,0 +1,47 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "100.tif",
+  "row": 9,
+  "rgb_sha256": "c6f48d3b0f144a845249c8899cb6ddfce4765fe866929e8a491f4c14411f6ecb",
+  "view": "upright",
+  "rendered_sha256": "c6f48d3b0f144a845249c8899cb6ddfce4765fe866929e8a491f4c14411f6ecb",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394090,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            151645
+          ],
+          "text": "\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "agricultural (0.24), beach (0.12), forest (0.10)",
+          "confidence": 0.24393326044082642
+        }
+      ],
+      "used": 1,
+      "hidden": "fd78c27801e4fc1b5f08bd04b5aee9e801ddb474660fee5a83bbfc946344ef20"
+    }
+  ],
+  "sha256": "e6d4c1c83e19758bb67cf13a09d3e9da9754cc467ac6af683178c7f824a3c97a"
+}

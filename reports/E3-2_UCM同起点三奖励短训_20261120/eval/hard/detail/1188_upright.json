@@ -1,0 +1,106 @@
+{
+  "model": "b995fa858f120a74aab5fc95a54dfcb8ec408f20c441a00bd84918da34550606",
+  "image": "1188.tif",
+  "row": 118,
+  "rgb_sha256": "cef340b807a688bc90bb503dd8212020b599a4f826f2fc8be4bd1e73f16e2fe3",
+  "view": "upright",
+  "rendered_sha256": "cef340b807a688bc90bb503dd8212020b599a4f826f2fc8be4bd1e73f16e2fe3",
+  "query": "An aerial view of a road intersection.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395180,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "17ea667e0be10f1bb623633b57b8d62bf069d0332dffd41873fd8efeb2c60a62"
+    },
+    {
+      "k": 0,
+      "seed": 395181,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.50), overpass (0.09), freeway (0.07)",
+          "confidence": 0.49523913860321045
+        }
+      ],
+      "used": 1,
+      "hidden": "079cd07f7fa033379e189df689e7ae507bfc560928cf14cc43e4a96560873427"
+    },
+    {
+      "k": 1,
+      "seed": 395182,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "17ea667e0be10f1bb623633b57b8d62bf069d0332dffd41873fd8efeb2c60a62"
+    },
+    {
+      "k": 2,
+      "seed": 395183,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "17ea667e0be10f1bb623633b57b8d62bf069d0332dffd41873fd8efeb2c60a62"
+    },
+    {
+      "k": 3,
+      "seed": 395184,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "17ea667e0be10f1bb623633b57b8d62bf069d0332dffd41873fd8efeb2c60a62"
+    }
+  ],
+  "sha256": "350183f89efc0be19a60c1c0dabe8f54aa059826df74ef46b9df1b362621659c"
+}

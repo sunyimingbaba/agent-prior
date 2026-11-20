@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1181.tif",
+  "row": 111,
+  "rgb_sha256": "e2b4a706949b5dc5436710ca0e7e9b2b6bb0528fed6c7af87c3154ebeb3662af",
+  "view": "upright",
+  "rendered_sha256": "e2b4a706949b5dc5436710ca0e7e9b2b6bb0528fed6c7af87c3154ebeb3662af",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395110,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.36), medium residential (0.16), dense residential (0.09)",
+          "confidence": 0.36015263199806213
+        }
+      ],
+      "used": 1,
+      "hidden": "c79f13480f088d8a3a21db2d2dcf77fb2565ddc7c0b95ac3d907c4e079d60e7e"
+    }
+  ],
+  "sha256": "0768c55bdd9dff936897a1585c218eb2e7751b101c9d1c03cfec7a448c43b1c9"
+}

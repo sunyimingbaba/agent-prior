@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1389.tif",
+  "row": 138,
+  "rgb_sha256": "c4d839dc2c593d3a83276234336ac936c24436fd5d049b8fa5f46b4e9e71d418",
+  "view": "upright",
+  "rendered_sha256": "c4d839dc2c593d3a83276234336ac936c24436fd5d049b8fa5f46b4e9e71d418",
+  "query": "Many mobile homes are arranged haphazardly in the mobile home park .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395380,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.23), dense residential (0.18), mobile home park (0.16)",
+          "confidence": 0.2266545444726944
+        }
+      ],
+      "used": 1,
+      "hidden": "e9fea36f7070a44148852664c60a0021f08f12433be187fe7d33017cf9aaca13"
+    }
+  ],
+  "sha256": "651ba568a099de875235f72196fae9918b0ad489d9d86e74e3c7e2d3fff1a921"
+}

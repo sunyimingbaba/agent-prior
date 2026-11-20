@@ -1,0 +1,44 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1185.tif",
+  "row": 115,
+  "rgb_sha256": "ceda7069c6fbd191a89b145427ea2e494f81f8a905f4e266a681c56c81a62770",
+  "view": "upright",
+  "rendered_sha256": "ceda7069c6fbd191a89b145427ea2e494f81f8a905f4e266a681c56c81a62770",
+  "query": "An intersection with no cars or pedestrians .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395150,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.23), overpass (0.10), runway (0.08)",
+          "confidence": 0.22767265141010284
+        }
+      ],
+      "used": 1,
+      "hidden": "17e49d2bee01b756c1540fa90f7793d7ed6809e8e6d8923848a612df8e1904f6"
+    }
+  ],
+  "sha256": "14ae93bf6ebd612acef3273dbffc8a1191e61b4f7fbf2456d9711110ee38b148"
+}

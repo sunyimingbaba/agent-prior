@@ -1,0 +1,177 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1289.tif",
+  "row": 128,
+  "rgb_sha256": "bd279b0dd08345f1b33fe633659933166ea069eef36569d68cebb706c33a35ab",
+  "view": "upright",
+  "rendered_sha256": "bd279b0dd08345f1b33fe633659933166ea069eef36569d68cebb706c33a35ab",
+  "query": "An aerial view of a residential area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395280,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.16), mobile home park (0.16), dense residential (0.13)",
+          "confidence": 0.16407716274261475
+        }
+      ],
+      "used": 1,
+      "hidden": "0a13280f247ea0eac782d2ec52d3c08d6d80218164e9ee57163d8bc0af0816d3"
+    },
+    {
+      "k": 0,
+      "seed": 395281,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.16), mobile home park (0.16), dense residential (0.13)",
+          "confidence": 0.16407716274261475
+        }
+      ],
+      "used": 1,
+      "hidden": "8bb3ec20e932c6eba47b61760ee4708a94177a3d5d787850c50e0d48315a14c4"
+    },
+    {
+      "k": 1,
+      "seed": 395282,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "b72484d81ee122bc93936c4fef2e6c52c2b295dcfe08e5b3f11ae17244475d2e"
+    },
+    {
+      "k": 2,
+      "seed": 395283,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            1467,
+            428,
+            2082,
+            40784,
+            1651,
+            315,
+            279,
+            2168,
+            7952,
+            311,
+            387,
+            9027,
+            264,
+            20057,
+            3082,
+            11,
+            438,
+            1052,
+            525,
+            5248,
+            14967,
+            323,
+            42914,
+            9434,
+            1189,
+            151645
+          ],
+          "text": "<tool_call>scene_classify\n addCriterion text=\"An aerial view of the image appears to be showing a residential area, as there are multiple houses and pathways visible.\""
+        },
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.16), mobile home park (0.16), dense residential (0.13)",
+          "confidence": 0.16407716274261475
+        }
+      ],
+      "used": 1,
+      "hidden": "3f5442162edaa44703471406f7aa07e55a8a062ba35a2248a0b7723db1f90031"
+    },
+    {
+      "k": 3,
+      "seed": 395284,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "f28a7b19cfbd721c4a6b438b1c4a0519b6ca58c6d32d369969f57fbbba623959"
+    }
+  ],
+  "sha256": "822c746eb5b9ac3a70378dce68af18b5f386b3e7ce6cb7831fa19185e389edac"
+}

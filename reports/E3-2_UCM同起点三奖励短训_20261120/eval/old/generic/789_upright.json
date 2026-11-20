@@ -1,0 +1,67 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "789.tif",
+  "row": 80,
+  "rgb_sha256": "713f19c3dd331c89dd59af2027e9f6f8f579fdf56d32d22c381342ae9bde6a7a",
+  "view": "upright",
+  "rendered_sha256": "713f19c3dd331c89dd59af2027e9f6f8f579fdf56d32d22c381342ae9bde6a7a",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394800,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            34718,
+            102258,
+            3837,
+            101137,
+            51154,
+            108704,
+            2073,
+            2082,
+            40784,
+            10300,
+            1987,
+            522,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中是一片森林，符合查询文本“An aerial photograph.”</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "forest (0.54), agricultural (0.08), river (0.06)",
+          "confidence": 0.540314793586731
+        }
+      ],
+      "used": 1,
+      "hidden": "a30e334f7d74aa70b15d967e8d177f1b5e142e3d3c0f49f1aa136e3b9116cd95"
+    }
+  ],
+  "sha256": "1db7d6493d22c9349212b6b64478deac88c79d85967fe9e4806b33a4d4dceab6"
+}

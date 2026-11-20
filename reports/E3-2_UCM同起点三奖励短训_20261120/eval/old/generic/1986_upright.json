@@ -1,0 +1,105 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1986.tif",
+  "row": 195,
+  "rgb_sha256": "57baa042d594b4bd13d4cf198a0e38e9301a338b3aedf65b0eb58a30ad58954f",
+  "view": "upright",
+  "rendered_sha256": "57baa042d594b4bd13d4cf198a0e38e9301a338b3aedf65b0eb58a30ad58954f",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395950,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            9217,
+            198,
+            785,
+            2168,
+            7952,
+            311,
+            387,
+            458,
+            40784,
+            10300,
+            11,
+            438,
+            432,
+            4933,
+            264,
+            1909,
+            14875,
+            1651,
+            315,
+            264,
+            5944,
+            429,
+            52191,
+            264,
+            57338,
+            476,
+            3893,
+            2539,
+            292,
+            57338,
+            11,
+            892,
+            374,
+            3545,
+            3884,
+            304,
+            40784,
+            40445,
+            13,
+            4354,
+            11,
+            279,
+            3151,
+            3565,
+            323,
+            2266,
+            525,
+            537,
+            3322,
+            311,
+            7683,
+            419,
+            30288,
+            3132,
+            2041,
+            803,
+            1995,
+            911,
+            279,
+            3728
+          ],
+          "text": " addCriterion\nanswer\nThe image appears to be an aerial photograph, as it shows a top-down view of a structure that resembles a dome or geodesic dome, which is often seen in aerial imagery. However, the specific details and context are not enough to confirm this definitively without more information about the location"
+        }
+      ],
+      "events": [
+        {
+          "text": "storage tanks (0.36), buildings (0.07), baseball diamond (0.07)",
+          "confidence": 0.3618347942829132
+        }
+      ],
+      "used": 1,
+      "hidden": "600956453e1680a9c21845790c7bd372bf71b903b3926091b14877603d34ee6f"
+    }
+  ],
+  "sha256": "0b952bae5988e4280afa514ec6de5d113f20978d47e0df3f07113da88791b667"
+}

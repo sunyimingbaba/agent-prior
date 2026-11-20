@@ -1,0 +1,60 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1888.tif",
+  "row": 187,
+  "rgb_sha256": "fc69c1140e8367306f7c81f289076a1fcd4024406e4ef987df5ffdd91861a056",
+  "view": "upright",
+  "rendered_sha256": "fc69c1140e8367306f7c81f289076a1fcd4024406e4ef987df5ffdd91861a056",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395870,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            99440,
+            100172,
+            102184,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中是一张航拍照片。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "sparse residential (0.25), medium residential (0.14), chaparral (0.09)",
+          "confidence": 0.24594974517822266
+        }
+      ],
+      "used": 1,
+      "hidden": "b09b6736351e0c7274d277c9a6a27df0ec594a622cc3cee6c3d2565a683072f8"
+    }
+  ],
+  "sha256": "550f9b5ecdc203a6ecd3d803bfd36e388e7271c12d77486472f3d2ce21b96551"
+}

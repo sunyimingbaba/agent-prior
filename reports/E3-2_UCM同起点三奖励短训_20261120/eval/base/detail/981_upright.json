@@ -1,0 +1,147 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "981.tif",
+  "row": 92,
+  "rgb_sha256": "3392fd7d82684ea6bb5d17015f93ffce658c455aa9fbea1c5a85b3b6977ca93e",
+  "view": "upright",
+  "rendered_sha256": "3392fd7d82684ea6bb5d17015f93ffce658c455aa9fbea1c5a85b3b6977ca93e",
+  "query": "An aerial view of a golf course.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394920,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "golf course (0.52), baseball diamond (0.08), tennis court (0.05)",
+          "confidence": 0.5176994800567627
+        }
+      ],
+      "used": 1,
+      "hidden": "68715ebd6e4612f55e62c2dd15d6997bdf848b88477a3b5d6615b8147afde125"
+    },
+    {
+      "k": 0,
+      "seed": 394921,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "ec055fc744c66e5abf2e40ce8502725627110d5f8302c98617d14f46bfa94f42"
+    },
+    {
+      "k": 1,
+      "seed": 394922,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "d4c8c10b23e320740d2b4ab6495572e05444d987f5cbefb8d3548e328a96762e"
+    },
+    {
+      "k": 2,
+      "seed": 394923,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "golf course (0.52), baseball diamond (0.08), tennis court (0.05)",
+          "confidence": 0.5176994800567627
+        }
+      ],
+      "used": 1,
+      "hidden": "938b128cd6125db75ec440687e4cea6784a8e14900fda4a10e0dd78f8313274a"
+    },
+    {
+      "k": 3,
+      "seed": 394924,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            85884,
+            151645
+          ],
+          "text": "PropertyParams"
+        }
+      ],
+      "events": [
+        {
+          "text": "golf course (0.52), baseball diamond (0.08), tennis court (0.05)",
+          "confidence": 0.5176994800567627
+        }
+      ],
+      "used": 1,
+      "hidden": "f53b01558cdea0194cef4d163b2904d62b7ef5b6b576c302386d6c39018d2b20"
+    }
+  ],
+  "sha256": "28eb9e39d55423316e711396eda902f0037b703d642285f6e4da7445b0e61a73"
+}

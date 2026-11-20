@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1087.tif",
+  "row": 107,
+  "rgb_sha256": "bbc91363aa56d84d6308f34a5c21f36e011b014d90bc1542889055e1485f1454",
+  "view": "upright",
+  "rendered_sha256": "bbc91363aa56d84d6308f34a5c21f36e011b014d90bc1542889055e1485f1454",
+  "query": "Lots of boats with different size docked at the harbor .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395070,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "harbor (0.52), airplane (0.04), tennis court (0.04)",
+          "confidence": 0.5247662663459778
+        }
+      ],
+      "used": 1,
+      "hidden": "8818d92fdf8dea30c6c1b9be1b090b9b62fe886cd2f5d45a1f584218e8fe72dc"
+    }
+  ],
+  "sha256": "90600714c4d371decb28e86ae986fb0d0fe4e75bbcf1ff8de70d9cb59956b5b3"
+}

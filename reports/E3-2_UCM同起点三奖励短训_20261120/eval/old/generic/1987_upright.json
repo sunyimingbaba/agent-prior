@@ -1,0 +1,65 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1987.tif",
+  "row": 196,
+  "rgb_sha256": "6c3c581b1bef5f3c1964c8eb39a4e2c2ef9be66d43ff6928d00ea8fbdfc2edbf",
+  "view": "upright",
+  "rendered_sha256": "6c3c581b1bef5f3c1964c8eb39a4e2c2ef9be66d43ff6928d00ea8fbdfc2edbf",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395960,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            99440,
+            100172,
+            102184,
+            3837,
+            101137,
+            51154,
+            108704,
+            53481,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中是一张航拍照片，符合查询文本描述。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "storage tanks (0.19), airplane (0.08), runway (0.07)",
+          "confidence": 0.18640834093093872
+        }
+      ],
+      "used": 1,
+      "hidden": "176213b01e02bd48e2f70ec4119bf4f1e3074bbccaa716e8734c434f1a425d29"
+    }
+  ],
+  "sha256": "f8c6c0639b848d5306d20794ceb8e16512bb6e071d3496d8fd56fd8d0ef7e4e3"
+}

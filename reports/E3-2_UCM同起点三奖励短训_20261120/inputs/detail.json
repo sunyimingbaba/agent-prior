@@ -1,0 +1,322 @@
+[
+  {
+    "row": 12,
+    "image": "183.tif",
+    "orig_query": "There are two airplanes stopped at the airport .",
+    "rgb_sha256": "93371c3e5cbcd5b9a0bef60fd78f40aa6f8a16fa6223294af3a5961f14f5a83c",
+    "fresh": true,
+    "block": 1,
+    "scene_query": "An aerial view of a airport apron.",
+    "subject": "the large light hangar roof",
+    "reference": "the two fully visible airplanes",
+    "direction": "below",
+    "C": [
+      "The large light hangar roof is below the two fully visible airplanes.",
+      "The large light hangar roof is above the two fully visible airplanes."
+    ],
+    "D": [
+      "The two fully visible airplanes are above the large light hangar roof.",
+      "The two fully visible airplanes are below the large light hangar roof."
+    ]
+  },
+  {
+    "row": 31,
+    "image": "383.tif",
+    "orig_query": "This is a beach with blue-green sea and white sand .",
+    "rgb_sha256": "13429b4f62af92aa45dc7a982115660eddab7f7eb5ca61887973ae7f82424589",
+    "fresh": true,
+    "block": 3,
+    "scene_query": "An aerial view of a beach.",
+    "subject": "the sandy beach",
+    "reference": "the sea",
+    "direction": "above",
+    "C": [
+      "The sandy beach is above the sea.",
+      "The sandy beach is below the sea."
+    ],
+    "D": [
+      "The sea is below the sandy beach.",
+      "The sea is above the sandy beach."
+    ]
+  },
+  {
+    "row": 37,
+    "image": "389.tif",
+    "orig_query": "This is a beach with blue-green sea and white sands .",
+    "rgb_sha256": "daa1e7e87ee9145cf303052388af34df3cf209f6c262523be0d1c2ef7afabd88",
+    "fresh": true,
+    "block": 3,
+    "scene_query": "An aerial view of a beach.",
+    "subject": "the sea",
+    "reference": "the sandy beach",
+    "direction": "right",
+    "C": [
+      "The sea is to the right of the sandy beach.",
+      "The sea is to the left of the sandy beach."
+    ],
+    "D": [
+      "The sandy beach is to the left of the sea.",
+      "The sandy beach is to the right of the sea."
+    ]
+  },
+  {
+    "row": 42,
+    "image": "484.tif",
+    "orig_query": "There are some buildings with white and grey roofs .",
+    "rgb_sha256": "ac9bf9eb0df54364bd8b3531e6b5fba3b35a8c3ae83798d18acede24ad28ee11",
+    "fresh": true,
+    "block": 4,
+    "scene_query": "An aerial view of a industrial area.",
+    "subject": "the largest gray roof",
+    "reference": "the large white roof directly adjoining that gray roof",
+    "direction": "right",
+    "C": [
+      "The largest gray roof is to the right of the large white roof directly adjoining that gray roof.",
+      "The largest gray roof is to the left of the large white roof directly adjoining that gray roof."
+    ],
+    "D": [
+      "The large white roof directly adjoining that gray roof is to the left of the largest gray roof.",
+      "The large white roof directly adjoining that gray roof is to the right of the largest gray roof."
+    ]
+  },
+  {
+    "row": 47,
+    "image": "489.tif",
+    "orig_query": "There are some buildings with different colors of roofs .",
+    "rgb_sha256": "cf22738865b4efc2412014b5d3d43e3c1263953649b3eff0f5fc4613f9ebfc8c",
+    "fresh": true,
+    "block": 4,
+    "scene_query": "An aerial view of a industrial area.",
+    "subject": "the broad pale cream roof section made of several parallel panels",
+    "reference": "the adjoining strip of rust-colored roof panels",
+    "direction": "below",
+    "C": [
+      "The broad pale cream roof section made of several parallel panels is below the adjoining strip of rust-colored roof panels.",
+      "The broad pale cream roof section made of several parallel panels is above the adjoining strip of rust-colored roof panels."
+    ],
+    "D": [
+      "The adjoining strip of rust-colored roof panels is above the broad pale cream roof section made of several parallel panels.",
+      "The adjoining strip of rust-colored roof panels is below the broad pale cream roof section made of several parallel panels."
+    ]
+  },
+  {
+    "row": 62,
+    "image": "681.tif",
+    "orig_query": "This is a dense residential area with houses and plants .",
+    "rgb_sha256": "f79ca7bc4352ff528b4ff82c27b81f9585d9a8bfc95c2131759f1e59079e0db1",
+    "fresh": true,
+    "block": 6,
+    "scene_query": "An aerial view of a residential area.",
+    "subject": "the red-roofed houses",
+    "reference": "the street beside the partly visible elongated blue swimming pool",
+    "direction": "right",
+    "C": [
+      "The red-roofed houses are to the right of the street beside the partly visible elongated blue swimming pool.",
+      "The red-roofed houses are to the left of the street beside the partly visible elongated blue swimming pool."
+    ],
+    "D": [
+      "The street beside the partly visible elongated blue swimming pool is to the left of the red-roofed houses.",
+      "The street beside the partly visible elongated blue swimming pool is to the right of the red-roofed houses."
+    ]
+  },
+  {
+    "row": 84,
+    "image": "883.tif",
+    "orig_query": "Two straight freeways parrallel forward .",
+    "rgb_sha256": "e8c20ae45a2a5c694a506649140dd09e6d76993b5c62a79fd8f4ae4dbda7ce4c",
+    "fresh": true,
+    "block": 8,
+    "scene_query": "An aerial view of a freeway.",
+    "subject": "the two red cars",
+    "reference": "the dark divider between the carriageways",
+    "direction": "above",
+    "C": [
+      "The two red cars are above the dark divider between the carriageways.",
+      "The two red cars are below the dark divider between the carriageways."
+    ],
+    "D": [
+      "The dark divider between the carriageways is below the two red cars.",
+      "The dark divider between the carriageways is above the two red cars."
+    ]
+  },
+  {
+    "row": 90,
+    "image": "889.tif",
+    "orig_query": "There are two wide straight freeways parrallel forward .",
+    "rgb_sha256": "dd66bb1adee424f48d0791d61bcb5ab450dd0c946393268098f1f6f40145288e",
+    "fresh": true,
+    "block": 8,
+    "scene_query": "An aerial view of a freeway.",
+    "subject": "the long truck",
+    "reference": "the two passenger cars",
+    "direction": "below",
+    "C": [
+      "The long truck is below the two passenger cars.",
+      "The long truck is above the two passenger cars."
+    ],
+    "D": [
+      "The two passenger cars are above the long truck.",
+      "The two passenger cars are below the long truck."
+    ]
+  },
+  {
+    "row": 92,
+    "image": "981.tif",
+    "orig_query": "This is a part of a golf course with green turfs and some trees .",
+    "rgb_sha256": "3392fd7d82684ea6bb5d17015f93ffce658c455aa9fbea1c5a85b3b6977ca93e",
+    "fresh": true,
+    "block": 9,
+    "scene_query": "An aerial view of a golf course.",
+    "subject": "the largest group of trees",
+    "reference": "the striped green",
+    "direction": "right",
+    "C": [
+      "The largest group of trees is to the right of the striped green.",
+      "The largest group of trees is to the left of the striped green."
+    ],
+    "D": [
+      "The striped green is to the left of the largest group of trees.",
+      "The striped green is to the right of the largest group of trees."
+    ]
+  },
+  {
+    "row": 97,
+    "image": "986.tif",
+    "orig_query": "This is a part of a golf course with green turfs and some bunkers and trees .",
+    "rgb_sha256": "19bceba07a41f66598bc789452b2e8cbbe90aded745dedf97bfce79c730cf736",
+    "fresh": true,
+    "block": 9,
+    "scene_query": "An aerial view of a golf course.",
+    "subject": "the larger sand bunker",
+    "reference": "the smaller sand bunker",
+    "direction": "above",
+    "C": [
+      "The larger sand bunker is above the smaller sand bunker.",
+      "The larger sand bunker is below the smaller sand bunker."
+    ],
+    "D": [
+      "The smaller sand bunker is below the larger sand bunker.",
+      "The smaller sand bunker is above the larger sand bunker."
+    ]
+  },
+  {
+    "row": 114,
+    "image": "1184.tif",
+    "orig_query": "An intersection with some cars on the road .",
+    "rgb_sha256": "961b13d5bbaa08f10335c2a5138e08afc0927810cd9b52a5fd118f983e15891a",
+    "fresh": true,
+    "block": 11,
+    "scene_query": "An aerial view of a road intersection.",
+    "subject": "the tan-roofed building",
+    "reference": "the center of the intersection",
+    "direction": "left",
+    "C": [
+      "The tan-roofed building is to the left of the center of the intersection.",
+      "The tan-roofed building is to the right of the center of the intersection."
+    ],
+    "D": [
+      "The center of the intersection is to the right of the tan-roofed building.",
+      "The center of the intersection is to the left of the tan-roofed building."
+    ]
+  },
+  {
+    "row": 118,
+    "image": "1188.tif",
+    "orig_query": "An intersection with a few cars on the road .",
+    "rgb_sha256": "cef340b807a688bc90bb503dd8212020b599a4f826f2fc8be4bd1e73f16e2fe3",
+    "fresh": true,
+    "block": 11,
+    "scene_query": "An aerial view of a road intersection.",
+    "subject": "the fully visible white box truck",
+    "reference": "the center of the intersection",
+    "direction": "above",
+    "C": [
+      "The fully visible white box truck is above the center of the intersection.",
+      "The fully visible white box truck is below the center of the intersection."
+    ],
+    "D": [
+      "The center of the intersection is below the fully visible white box truck.",
+      "The center of the intersection is above the fully visible white box truck."
+    ]
+  },
+  {
+    "row": 120,
+    "image": "1281.tif",
+    "orig_query": "It is a medium residential area .",
+    "rgb_sha256": "d543696782d651a93ee50284b5ee29a702be06b1e397027062de132919e468c6",
+    "fresh": true,
+    "block": 12,
+    "scene_query": "An aerial view of a residential area.",
+    "subject": "the small red car",
+    "reference": "the gray-roofed house served by the driveway containing the red car",
+    "direction": "above",
+    "C": [
+      "The small red car is above the gray-roofed house served by the driveway containing the red car.",
+      "The small red car is below the gray-roofed house served by the driveway containing the red car."
+    ],
+    "D": [
+      "The gray-roofed house served by the driveway containing the red car is below the small red car.",
+      "The gray-roofed house served by the driveway containing the red car is above the small red car."
+    ]
+  },
+  {
+    "row": 128,
+    "image": "1289.tif",
+    "orig_query": "It is a medium residential area .",
+    "rgb_sha256": "bd279b0dd08345f1b33fe633659933166ea069eef36569d68cebb706c33a35ab",
+    "fresh": true,
+    "block": 12,
+    "scene_query": "An aerial view of a residential area.",
+    "subject": "the rounded blue pool beside the tan-roofed house",
+    "reference": "the straight street that runs through the neighborhood",
+    "direction": "right",
+    "C": [
+      "The rounded blue pool beside the tan-roofed house is to the right of the straight street that runs through the neighborhood.",
+      "The rounded blue pool beside the tan-roofed house is to the left of the straight street that runs through the neighborhood."
+    ],
+    "D": [
+      "The straight street that runs through the neighborhood is to the left of the rounded blue pool beside the tan-roofed house.",
+      "The straight street that runs through the neighborhood is to the right of the rounded blue pool beside the tan-roofed house."
+    ]
+  },
+  {
+    "row": 139,
+    "image": "1390.tif",
+    "orig_query": "Many mobile homes are arranged haphazardly in the mobile home park .",
+    "rgb_sha256": "e9d19732964b6226410c77e6e44bbfdb30723282f97680afddebde1bdd51c110",
+    "fresh": true,
+    "block": 13,
+    "scene_query": "An aerial view of a mobile home park.",
+    "subject": "the rectangular mobile home with the blue-roofed side extension",
+    "reference": "the curved street segment closest to that blue-roofed extension",
+    "direction": "right",
+    "C": [
+      "The rectangular mobile home with the blue-roofed side extension is to the right of the curved street segment closest to that blue-roofed extension.",
+      "The rectangular mobile home with the blue-roofed side extension is to the left of the curved street segment closest to that blue-roofed extension."
+    ],
+    "D": [
+      "The curved street segment closest to that blue-roofed extension is to the left of the rectangular mobile home with the blue-roofed side extension.",
+      "The curved street segment closest to that blue-roofed extension is to the right of the rectangular mobile home with the blue-roofed side extension."
+    ]
+  },
+  {
+    "row": 173,
+    "image": "1784.tif",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "rgb_sha256": "c1ae5b65a8d982bf59c5bc4edcb26bff30e8f065073bd09636b957253bfd9d21",
+    "fresh": true,
+    "block": 17,
+    "scene_query": "An aerial view of a runway.",
+    "subject": "the curving taxiway entrance",
+    "reference": "the dark rubber marks along the runway center",
+    "direction": "above",
+    "C": [
+      "The curving taxiway entrance is above the dark rubber marks along the runway center.",
+      "The curving taxiway entrance is below the dark rubber marks along the runway center."
+    ],
+    "D": [
+      "The dark rubber marks along the runway center are below the curving taxiway entrance.",
+      "The dark rubber marks along the runway center are above the curving taxiway entrance."
+    ]
+  }
+]

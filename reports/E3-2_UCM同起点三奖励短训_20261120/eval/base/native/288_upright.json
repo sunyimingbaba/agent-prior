@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "288.tif",
+  "row": 26,
+  "rgb_sha256": "fb296139aca7bf6a53eee9c7f692563d096641ee5523d606fabbbc92d404fb31",
+  "view": "upright",
+  "rendered_sha256": "fb296139aca7bf6a53eee9c7f692563d096641ee5523d606fabbbc92d404fb31",
+  "query": "This is a big baseball diamond .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394260,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "baseball diamond (0.63), golf course (0.04), storage tanks (0.03)",
+          "confidence": 0.6265051960945129
+        }
+      ],
+      "used": 1,
+      "hidden": "462f4eb84b04d6adae8fc26a434d410e24f1c159114b06bb45b60bc702bc726f"
+    }
+  ],
+  "sha256": "4edc74c12465be879be86236ba088aaf082fe99ca61a495c952b0adca9e9f607"
+}

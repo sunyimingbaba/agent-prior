@@ -1,0 +1,176 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "484.tif",
+  "row": 42,
+  "rgb_sha256": "ac9bf9eb0df54364bd8b3531e6b5fba3b35a8c3ae83798d18acede24ad28ee11",
+  "view": "upright",
+  "rendered_sha256": "ac9bf9eb0df54364bd8b3531e6b5fba3b35a8c3ae83798d18acede24ad28ee11",
+  "query": "An aerial view of a industrial area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394420,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            54021,
+            100146,
+            46944,
+            100159,
+            23836,
+            9370,
+            99440,
+            100172,
+            28029,
+            3837,
+            101137,
+            51154,
+            108704,
+            53481,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中显示的是一个工业区的航拍图，符合查询文本描述。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.11), runway (0.09), storage tanks (0.09)",
+          "confidence": 0.1072172224521637
+        }
+      ],
+      "used": 1,
+      "hidden": "6b12663a1629e10a328f68953a0d600cb00c48555eb1c023e4a4806698737e57"
+    },
+    {
+      "k": 0,
+      "seed": 394421,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion\n\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.11), runway (0.09), storage tanks (0.09)",
+          "confidence": 0.1072172224521637
+        }
+      ],
+      "used": 1,
+      "hidden": "7c2b7e44e76fff273dbbe8f3808e1f8a28850e245d1f48d483a7c6ddb9a2fe2d"
+    },
+    {
+      "k": 1,
+      "seed": 394422,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "b37a1d62546f5f4b2bf1a6d8e5f4615f7f496bb9e98e8b8cd91ce8edfa467f6f"
+    },
+    {
+      "k": 2,
+      "seed": 394423,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "9c400c60ca9ade4c59daf0149088cbf25ee5debfbbec442c76310ca99ec3d599"
+    },
+    {
+      "k": 3,
+      "seed": 394424,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            151645
+          ],
+          "text": "\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.11), runway (0.09), storage tanks (0.09)",
+          "confidence": 0.1072172224521637
+        }
+      ],
+      "used": 1,
+      "hidden": "3ae96736b6c89318f62e4c6f1927bc8954ab6bd444252035669ecb65700fcf03"
+    }
+  ],
+  "sha256": "c62f5649a34fded21fa85bfe3f66bddf13a00962f2c13d73d450a2307df486ea"
+}

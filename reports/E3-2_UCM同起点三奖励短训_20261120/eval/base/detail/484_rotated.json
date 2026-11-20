@@ -1,0 +1,148 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "484.tif",
+  "row": 42,
+  "rgb_sha256": "ac9bf9eb0df54364bd8b3531e6b5fba3b35a8c3ae83798d18acede24ad28ee11",
+  "view": "rotated",
+  "rendered_sha256": "cabc6aff2504a9112866e0145440384f1ae2f63976b81cdcecb7cff98f7578b1",
+  "query": "An aerial view of a industrial area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394420,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.11), storage tanks (0.09), runway (0.07)",
+          "confidence": 0.10914026200771332
+        }
+      ],
+      "used": 1,
+      "hidden": "00a7fab31699f5df4b74345dcabac65e54d2e0bbeb6856bdbb6f55d82c14bcac"
+    },
+    {
+      "k": 0,
+      "seed": 394421,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.11), storage tanks (0.09), runway (0.07)",
+          "confidence": 0.10914026200771332
+        }
+      ],
+      "used": 1,
+      "hidden": "00a7fab31699f5df4b74345dcabac65e54d2e0bbeb6856bdbb6f55d82c14bcac"
+    },
+    {
+      "k": 1,
+      "seed": 394422,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "144e5ec36548ad17773a2f39707ff539def59aa9627a88643de1c9b0e8cf7e40"
+    },
+    {
+      "k": 2,
+      "seed": 394423,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "a357879c7b4b49e6406e3572cf294a1ba741cebc4158cb1226514c367eacb094"
+    },
+    {
+      "k": 3,
+      "seed": 394424,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.11), storage tanks (0.09), runway (0.07)",
+          "confidence": 0.10914026200771332
+        }
+      ],
+      "used": 1,
+      "hidden": "00a7fab31699f5df4b74345dcabac65e54d2e0bbeb6856bdbb6f55d82c14bcac"
+    }
+  ],
+  "sha256": "6bea2dc9a5343faac78dc579f2a6ae7769a95c27a108de776eb1424913318cb5"
+}

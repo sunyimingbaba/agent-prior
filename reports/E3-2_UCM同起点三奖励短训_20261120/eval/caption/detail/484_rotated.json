@@ -1,0 +1,110 @@
+{
+  "model": "c8f296696ca6d0a80729635cbc0f5b70dfb82763338e1087e96cfb932ee5b192",
+  "image": "484.tif",
+  "row": 42,
+  "rgb_sha256": "ac9bf9eb0df54364bd8b3531e6b5fba3b35a8c3ae83798d18acede24ad28ee11",
+  "view": "rotated",
+  "rendered_sha256": "cabc6aff2504a9112866e0145440384f1ae2f63976b81cdcecb7cff98f7578b1",
+  "query": "An aerial view of a industrial area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394420,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "af171d6fe0525022f3ab43ae1161a88715737c22d0c83a181cee9157d72f6344"
+    },
+    {
+      "k": 0,
+      "seed": 394421,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.11), storage tanks (0.09), runway (0.07)",
+          "confidence": 0.10914026200771332
+        }
+      ],
+      "used": 1,
+      "hidden": "eabe3be4808af1e93a385e5bef5036d51f885d238f6b29bf82f481598da39287"
+    },
+    {
+      "k": 1,
+      "seed": 394422,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "9ded49f8f134c01262272a84a9be1ee345e38f2d93b7b28b7d4fe75820f72a8e"
+    },
+    {
+      "k": 2,
+      "seed": 394423,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "af171d6fe0525022f3ab43ae1161a88715737c22d0c83a181cee9157d72f6344"
+    },
+    {
+      "k": 3,
+      "seed": 394424,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "af171d6fe0525022f3ab43ae1161a88715737c22d0c83a181cee9157d72f6344"
+    }
+  ],
+  "sha256": "763f7be22c3b62ea924fe11d3e3e62ce98edf7b691126cc3063da49b7236744c"
+}

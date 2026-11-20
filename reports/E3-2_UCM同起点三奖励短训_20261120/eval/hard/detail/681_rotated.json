@@ -1,0 +1,125 @@
+{
+  "model": "b995fa858f120a74aab5fc95a54dfcb8ec408f20c441a00bd84918da34550606",
+  "image": "681.tif",
+  "row": 62,
+  "rgb_sha256": "f79ca7bc4352ff528b4ff82c27b81f9585d9a8bfc95c2131759f1e59079e0db1",
+  "view": "rotated",
+  "rendered_sha256": "913f7baad4f9219697662cd3127f207ded111d7a048e3ed7c53879a130795c02",
+  "query": "An aerial view of a residential area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394620,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "4cf9393a0180d7566cc6ca10ffada34521c6542152d0e1dbacdd2a12eced6ae9"
+    },
+    {
+      "k": 0,
+      "seed": 394621,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "dense residential (0.27), tennis court (0.11), mobile home park (0.09)",
+          "confidence": 0.26944443583488464
+        }
+      ],
+      "used": 1,
+      "hidden": "824bdb736872a835aac100da6cc24f8ad3c9c4e3bf9c2bbc0b42f65aec15eb85"
+    },
+    {
+      "k": 1,
+      "seed": 394622,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "4cf9393a0180d7566cc6ca10ffada34521c6542152d0e1dbacdd2a12eced6ae9"
+    },
+    {
+      "k": 2,
+      "seed": 394623,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "4cf9393a0180d7566cc6ca10ffada34521c6542152d0e1dbacdd2a12eced6ae9"
+    },
+    {
+      "k": 3,
+      "seed": 394624,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "dense residential (0.27), tennis court (0.11), mobile home park (0.09)",
+          "confidence": 0.26944443583488464
+        }
+      ],
+      "used": 1,
+      "hidden": "824bdb736872a835aac100da6cc24f8ad3c9c4e3bf9c2bbc0b42f65aec15eb85"
+    }
+  ],
+  "sha256": "cc64940965cc978e2858d3a57ad680529a40750e1f3e9cc845e1007249b87d5a"
+}

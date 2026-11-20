@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "384.tif",
+  "row": 32,
+  "rgb_sha256": "ad5d1b708c770c73f0b7c8b01aed05a8cedc6d6760274fb3477c931b1be80376",
+  "view": "upright",
+  "rendered_sha256": "ad5d1b708c770c73f0b7c8b01aed05a8cedc6d6760274fb3477c931b1be80376",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394320,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "beach (0.57), chaparral (0.05), agricultural (0.04)",
+          "confidence": 0.5693103671073914
+        }
+      ],
+      "used": 1,
+      "hidden": "f239a8fbe3e490af248857eb315b3c613789f23edf807d2b73489b4f381474f5"
+    }
+  ],
+  "sha256": "5bad1c0109c4743b1b0ad9d6d6ee3bfb7d9e83f93523a3c8da5af6e94ca7f7bc"
+}

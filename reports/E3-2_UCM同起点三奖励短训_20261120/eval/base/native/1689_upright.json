@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1689.tif",
+  "row": 168,
+  "rgb_sha256": "f74ae4d34775b7fa073d25f554166786389d9c43bf846437bdcbab73ff3c123a",
+  "view": "upright",
+  "rendered_sha256": "f74ae4d34775b7fa073d25f554166786389d9c43bf846437bdcbab73ff3c123a",
+  "query": "It is a river with dense forest on both banks of the river .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395680,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "river (0.33), forest (0.16), beach (0.07)",
+          "confidence": 0.3325670063495636
+        }
+      ],
+      "used": 1,
+      "hidden": "38c1da87ca7da416d42e520db89562c0ebc77fb4ecff67a7ccbaf77769d78b98"
+    }
+  ],
+  "sha256": "7a3c3302922b596494ef7d130cbba03f803a84021be6ae57ec305e4132ce477c"
+}

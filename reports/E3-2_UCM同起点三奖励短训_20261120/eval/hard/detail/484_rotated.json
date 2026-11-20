@@ -1,0 +1,102 @@
+{
+  "model": "b995fa858f120a74aab5fc95a54dfcb8ec408f20c441a00bd84918da34550606",
+  "image": "484.tif",
+  "row": 42,
+  "rgb_sha256": "ac9bf9eb0df54364bd8b3531e6b5fba3b35a8c3ae83798d18acede24ad28ee11",
+  "view": "rotated",
+  "rendered_sha256": "cabc6aff2504a9112866e0145440384f1ae2f63976b81cdcecb7cff98f7578b1",
+  "query": "An aerial view of a industrial area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394420,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "9dc1456c9b5d0967e41633c5cfebfaeb9b57cbdb55c90e80fa9ed66c1fb2948c"
+    },
+    {
+      "k": 0,
+      "seed": 394421,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.11), storage tanks (0.09), runway (0.07)",
+          "confidence": 0.10914026200771332
+        }
+      ],
+      "used": 1,
+      "hidden": "a51f77dfbd544f2b93128da34ec286e9e7d2bd308efe13b106da109361cb4c50"
+    },
+    {
+      "k": 1,
+      "seed": 394422,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "9dc1456c9b5d0967e41633c5cfebfaeb9b57cbdb55c90e80fa9ed66c1fb2948c"
+    },
+    {
+      "k": 2,
+      "seed": 394423,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "9dc1456c9b5d0967e41633c5cfebfaeb9b57cbdb55c90e80fa9ed66c1fb2948c"
+    },
+    {
+      "k": 3,
+      "seed": 394424,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "9dc1456c9b5d0967e41633c5cfebfaeb9b57cbdb55c90e80fa9ed66c1fb2948c"
+    }
+  ],
+  "sha256": "635e33f92c6531f12709460783c922f3ccd93063ec7626e3ea9ce164b5c1863d"
+}

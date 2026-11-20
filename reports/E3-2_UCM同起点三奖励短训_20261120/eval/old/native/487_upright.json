@@ -1,0 +1,65 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "487.tif",
+  "row": 45,
+  "rgb_sha256": "9df4072548efb2be4ac6e6cf9d27d726e3382514d028b089e2ac0de058608c6f",
+  "view": "upright",
+  "rendered_sha256": "9df4072548efb2be4ac6e6cf9d27d726e3382514d028b089e2ac0de058608c6f",
+  "query": "There are some buildings with grey roofs .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394450,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            105656,
+            108900,
+            3837,
+            110615,
+            100827,
+            109288,
+            3837,
+            101137,
+            51154,
+            108704,
+            53481,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中有建筑物，屋顶呈灰色，符合查询文本描述。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.34), storage tanks (0.11), parking lot (0.06)",
+          "confidence": 0.34349894523620605
+        }
+      ],
+      "used": 1,
+      "hidden": "33ca82dd247fecd70b58dc51d8a1dec2d6dc969efa6b92c0211bbb99630fa6d8"
+    }
+  ],
+  "sha256": "5010ed53697b0b60d3832f12d65a2d9b8ddf6e763efbd90d5fd4b3ed6d778c36"
+}

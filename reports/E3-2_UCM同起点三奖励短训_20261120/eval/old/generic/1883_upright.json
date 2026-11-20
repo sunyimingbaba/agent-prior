@@ -1,0 +1,47 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1883.tif",
+  "row": 182,
+  "rgb_sha256": "0f2593362668fc3c60b9aef30cc6fab2a4ea76ee34ab05e16f8e9a912deb9eff",
+  "view": "upright",
+  "rendered_sha256": "0f2593362668fc3c60b9aef30cc6fab2a4ea76ee34ab05e16f8e9a912deb9eff",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395820,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            151645
+          ],
+          "text": "\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "sparse residential (0.22), storage tanks (0.09), medium residential (0.07)",
+          "confidence": 0.22305989265441895
+        }
+      ],
+      "used": 1,
+      "hidden": "f8d5c9c49fcd39a5348e2c0731f9faebc177496d203cbe02a6d1d3ac8043e71a"
+    }
+  ],
+  "sha256": "88f670285b115d5b34b307ebea6972681e91ab466c19845e30869a3604474ab8"
+}

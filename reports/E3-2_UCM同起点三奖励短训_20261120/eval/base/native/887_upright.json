@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "887.tif",
+  "row": 88,
+  "rgb_sha256": "cd76310d4e41e40b95cc0683b1b22347b3c46e34980ae588957adc9af739ae23",
+  "view": "upright",
+  "rendered_sha256": "cd76310d4e41e40b95cc0683b1b22347b3c46e34980ae588957adc9af739ae23",
+  "query": "There are two wide straight freeways parrallel forward .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394880,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "freeway (0.27), overpass (0.24), intersection (0.12)",
+          "confidence": 0.2666619122028351
+        }
+      ],
+      "used": 1,
+      "hidden": "9674ec6747878adb4c68b19140014ab9ecad0424eafb6914c763746beb5f21ce"
+    }
+  ],
+  "sha256": "cd7664c9d80ab9edb6334db90f292426279492bedb3cc14f96bd0ab0f569ebd9"
+}

@@ -1,0 +1,198 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "889.tif",
+  "row": 90,
+  "rgb_sha256": "dd66bb1adee424f48d0791d61bcb5ab450dd0c946393268098f1f6f40145288e",
+  "view": "rotated",
+  "rendered_sha256": "193fc3d2c1a167ff5de41c5b2d880fd863bc4b49a3e1e3c1b49f9b8f1dfd0515",
+  "query": "An aerial view of a freeway.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394900,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644
+          ],
+          "text": " addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "freeway (0.33), overpass (0.25), intersection (0.07)",
+          "confidence": 0.33483004570007324
+        }
+      ],
+      "used": 1,
+      "hidden": "65e3161de4cbe02bcafc9ac3c7efb6109174874e4e74f38a51dfb4b5175861a1"
+    },
+    {
+      "k": 0,
+      "seed": 394901,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "de86a54cea47c3d594eb2a0396bccea122f4c998c71fd0ad4a5ec54516916ff0"
+    },
+    {
+      "k": 1,
+      "seed": 394902,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": " addCriterion\n\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "freeway (0.33), overpass (0.25), intersection (0.07)",
+          "confidence": 0.33483004570007324
+        }
+      ],
+      "used": 1,
+      "hidden": "ffbbd0815c7d13cede8708f39b8a9dc689cf73caad0dea64d6d7cc358c6ae9f1"
+    },
+    {
+      "k": 2,
+      "seed": 394903,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "de86a54cea47c3d594eb2a0396bccea122f4c998c71fd0ad4a5ec54516916ff0"
+    },
+    {
+      "k": 3,
+      "seed": 394904,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "de86a54cea47c3d594eb2a0396bccea122f4c998c71fd0ad4a5ec54516916ff0"
+    }
+  ],
+  "sha256": "8f322ea2191e6544c2099d366d09170a45f7a0c9bd9696f287e1058f0c5131a0"
+}

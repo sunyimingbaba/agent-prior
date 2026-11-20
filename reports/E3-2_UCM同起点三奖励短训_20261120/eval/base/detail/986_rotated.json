@@ -1,0 +1,152 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "986.tif",
+  "row": 97,
+  "rgb_sha256": "19bceba07a41f66598bc789452b2e8cbbe90aded745dedf97bfce79c730cf736",
+  "view": "rotated",
+  "rendered_sha256": "a9d3438c319d061770a99e94cbb5332d8bbf44805b9fb8948911e2bc27574ae4",
+  "query": "An aerial view of a golf course.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394970,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "golf course (0.53), tennis court (0.07), baseball diamond (0.06)",
+          "confidence": 0.5336475372314453
+        }
+      ],
+      "used": 1,
+      "hidden": "0ff1cdc8a3ea3fba5ec530a9544d83d485a0b2dc45925931fa9851044fcb197c"
+    },
+    {
+      "k": 0,
+      "seed": 394971,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            151645
+          ],
+          "text": "\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "golf course (0.53), tennis court (0.07), baseball diamond (0.06)",
+          "confidence": 0.5336475372314453
+        }
+      ],
+      "used": 1,
+      "hidden": "d38aaf03494d84c6ad32d1f01192b56f4a3eca0bb2d0a5adcc684ff2f3619727"
+    },
+    {
+      "k": 1,
+      "seed": 394972,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "8312553b28b0a4a2b8644fb63cbebb67b19e36d33ab058dff13413be6fe8f790"
+    },
+    {
+      "k": 2,
+      "seed": 394973,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "8312553b28b0a4a2b8644fb63cbebb67b19e36d33ab058dff13413be6fe8f790"
+    },
+    {
+      "k": 3,
+      "seed": 394974,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            34718,
+            111064,
+            108992,
+            3837,
+            105872,
+            57218,
+            51154,
+            108704,
+            118338,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion\n<answer>图中是一片高尔夫球场，正好与查询文本相符。</answer>"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "6424c33f14d6c7fa2b5c0328ead6c05309c85726d9ecb75fa2d74b65349667b1"
+    }
+  ],
+  "sha256": "b9e9dca1973ade0696785a8fd0a786e986eb9993bc25a95ed1bc1599d73ee010"
+}

@@ -1,0 +1,64 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "98.tif",
+  "row": 7,
+  "rgb_sha256": "279ed3f890524d2afb88093a2fac60acd84770e54036b1323c11229d86ac5a73",
+  "view": "upright",
+  "rendered_sha256": "279ed3f890524d2afb88093a2fac60acd84770e54036b1323c11229d86ac5a73",
+  "query": "There is a piece of farmland .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394070,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            54021,
+            100146,
+            100174,
+            102763,
+            3837,
+            101137,
+            51154,
+            108704,
+            53481,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中显示的是农业用地，符合查询文本描述。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "agricultural (0.21), chaparral (0.11), beach (0.10)",
+          "confidence": 0.2095911204814911
+        }
+      ],
+      "used": 1,
+      "hidden": "e1c5f525423e3ce8c0de83ecef16f12a44fe0839321bb64a520193a3e88eae9e"
+    }
+  ],
+  "sha256": "76d1c73010597d9a2f95a89803fd464ada839967efe674cd4404f474f71aa245"
+}

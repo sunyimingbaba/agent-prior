@@ -1,0 +1,71 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "487.tif",
+  "row": 45,
+  "rgb_sha256": "9df4072548efb2be4ac6e6cf9d27d726e3382514d028b089e2ac0de058608c6f",
+  "view": "upright",
+  "rendered_sha256": "9df4072548efb2be4ac6e6cf9d27d726e3382514d028b089e2ac0de058608c6f",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394450,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            99440,
+            100172,
+            102184,
+            3837,
+            54021,
+            34187,
+            108900,
+            5373,
+            99871,
+            105240,
+            33108,
+            107862,
+            49567,
+            102268,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中是一张航拍照片，显示了建筑物、储罐和停车场等元素。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.34), storage tanks (0.11), parking lot (0.06)",
+          "confidence": 0.34349894523620605
+        }
+      ],
+      "used": 1,
+      "hidden": "d6129174d3a71b87246ba8b19e614461ecb6638c977316b27a2177b4c1c8f369"
+    }
+  ],
+  "sha256": "d15f3ba6b633a3ea0212ecb2ab04560f83862bdb864034e9547eb32f4a88f34d"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "382.tif",
+  "row": 30,
+  "rgb_sha256": "7c70087b7b836fbd8690e1995cfea5b4055c7e2f552d7e1b92b61184cbc69099",
+  "view": "upright",
+  "rendered_sha256": "7c70087b7b836fbd8690e1995cfea5b4055c7e2f552d7e1b92b61184cbc69099",
+  "query": "This is a beach with blue-green sea and white sand .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394300,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "beach (0.55), chaparral (0.05), agricultural (0.04)",
+          "confidence": 0.5541389584541321
+        }
+      ],
+      "used": 1,
+      "hidden": "87e364563c442a29cd4b660dabc865994f8f5fda430f94fd7884dfc44c63d30d"
+    }
+  ],
+  "sha256": "b50209573425dfd0e27fc6e3e57aca47177ca3da6b1c37ea443e301c5a6b2946"
+}

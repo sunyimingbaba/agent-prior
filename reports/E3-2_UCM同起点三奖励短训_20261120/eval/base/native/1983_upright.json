@@ -1,0 +1,46 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1983.tif",
+  "row": 192,
+  "rgb_sha256": "7ca60533f6615e71e0bc77df4d50f12823fe76a88f63cf7abbf818ca001cbf54",
+  "view": "upright",
+  "rendered_sha256": "7ca60533f6615e71e0bc77df4d50f12823fe76a88f63cf7abbf818ca001cbf54",
+  "query": "A storage tank with some houses and plants beside .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395920,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.24), medium residential (0.09), storage tanks (0.08)",
+          "confidence": 0.23901355266571045
+        }
+      ],
+      "used": 1,
+      "hidden": "6a22b84675a85105dd77b1f1e70a6716a00de4cb9f0ad71175ef9dde9393a965"
+    }
+  ],
+  "sha256": "b5f583f4abd44ab418a189b9f9692bf629802f21c14e49f225db7899243b2a82"
+}

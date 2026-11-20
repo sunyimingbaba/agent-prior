@@ -1,0 +1,133 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "889.tif",
+  "row": 90,
+  "rgb_sha256": "dd66bb1adee424f48d0791d61bcb5ab450dd0c946393268098f1f6f40145288e",
+  "view": "upright",
+  "rendered_sha256": "dd66bb1adee424f48d0791d61bcb5ab450dd0c946393268098f1f6f40145288e",
+  "query": "An aerial view of a freeway.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394900,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "freeway (0.31), overpass (0.25), intersection (0.06)",
+          "confidence": 0.3137725591659546
+        }
+      ],
+      "used": 1,
+      "hidden": "c3734c8f3169f2b39fcc55ea2f28be3a14f547753c888fc81cc09c05bdf72531"
+    },
+    {
+      "k": 0,
+      "seed": 394901,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "a860cf941ca1bf280e6622b4c284a18dfe765a97c3ebfd76004ba2ec66a8d4e1"
+    },
+    {
+      "k": 1,
+      "seed": 394902,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "freeway (0.31), overpass (0.25), intersection (0.06)",
+          "confidence": 0.3137725591659546
+        }
+      ],
+      "used": 1,
+      "hidden": "c3734c8f3169f2b39fcc55ea2f28be3a14f547753c888fc81cc09c05bdf72531"
+    },
+    {
+      "k": 2,
+      "seed": 394903,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "a860cf941ca1bf280e6622b4c284a18dfe765a97c3ebfd76004ba2ec66a8d4e1"
+    },
+    {
+      "k": 3,
+      "seed": 394904,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "a860cf941ca1bf280e6622b4c284a18dfe765a97c3ebfd76004ba2ec66a8d4e1"
+    }
+  ],
+  "sha256": "749cca19006fa8c63d615322fd871e02a0ce34657910708a030f878ee06b442f"
+}

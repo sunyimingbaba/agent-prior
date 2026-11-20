@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1286.tif",
+  "row": 125,
+  "rgb_sha256": "4fd20a4994e6aa87e24c068c3fe5f38b430f7462384f857a10464152c00db69b",
+  "view": "upright",
+  "rendered_sha256": "4fd20a4994e6aa87e24c068c3fe5f38b430f7462384f857a10464152c00db69b",
+  "query": "It is a medium residential area with houses and plants .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395250,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "dense residential (0.22), medium residential (0.20), mobile home park (0.12)",
+          "confidence": 0.2208908200263977
+        }
+      ],
+      "used": 1,
+      "hidden": "600e14fd152785f6da4d725ed21389ed9d8b84a29356ac641342a6d18e67ce34"
+    }
+  ],
+  "sha256": "946f207cfbd1a8c26b0a7084133a8fab73f6d881ee7a6cd28fef612df6b5d6cb"
+}

@@ -1,0 +1,163 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1184.tif",
+  "row": 114,
+  "rgb_sha256": "961b13d5bbaa08f10335c2a5138e08afc0927810cd9b52a5fd118f983e15891a",
+  "view": "rotated",
+  "rendered_sha256": "30f5aa7c1e868daca9104842e2ca663a74974e5f70a156bae99b206c83cc8b6e",
+  "query": "An aerial view of a road intersection.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395140,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.54), overpass (0.09), medium residential (0.05)",
+          "confidence": 0.5366255044937134
+        }
+      ],
+      "used": 1,
+      "hidden": "c4aa4cefbda0aef9f7a7c69c55472926e3783a3efc34d0ab6680357012ff8910"
+    },
+    {
+      "k": 0,
+      "seed": 395141,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.54), overpass (0.09), medium residential (0.05)",
+          "confidence": 0.5366255044937134
+        }
+      ],
+      "used": 1,
+      "hidden": "417d652e9faa1c0b7c7db93670fe8d79600d851f50d36b6c69e4fa85f372bf98"
+    },
+    {
+      "k": 1,
+      "seed": 395142,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.54), overpass (0.09), medium residential (0.05)",
+          "confidence": 0.5366255044937134
+        }
+      ],
+      "used": 1,
+      "hidden": "417d652e9faa1c0b7c7db93670fe8d79600d851f50d36b6c69e4fa85f372bf98"
+    },
+    {
+      "k": 2,
+      "seed": 395143,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "9639c0815e28b336fb84c223a06248aa984a30a09a52ec30d82717e177648546"
+    },
+    {
+      "k": 3,
+      "seed": 395144,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.54), overpass (0.09), medium residential (0.05)",
+          "confidence": 0.5366255044937134
+        }
+      ],
+      "used": 1,
+      "hidden": "c4aa4cefbda0aef9f7a7c69c55472926e3783a3efc34d0ab6680357012ff8910"
+    }
+  ],
+  "sha256": "5118b2cc4ccb70e8d5810518fa625a142151ad96acdefe2c948106d80f994f3a"
+}

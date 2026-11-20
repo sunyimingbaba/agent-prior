@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "786.tif",
+  "row": 77,
+  "rgb_sha256": "1a55907e48346ce44e7a472d92cf7b7012bf81ffb45f7f67a4ab27e20eb5ccd4",
+  "view": "upright",
+  "rendered_sha256": "1a55907e48346ce44e7a472d92cf7b7012bf81ffb45f7f67a4ab27e20eb5ccd4",
+  "query": "This is a dense forest with lots of dark green trees .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394770,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "forest (0.48), agricultural (0.10), chaparral (0.06)",
+          "confidence": 0.48334014415740967
+        }
+      ],
+      "used": 1,
+      "hidden": "d26f012a6cbfaa9c97f305e15f53fb506cd3b686fcf669afcc71f51383e3c9d8"
+    }
+  ],
+  "sha256": "ba15fd2cb4f57e6ee126c3899f3604b69e09d1d138e98877a94a715fa150519e"
+}

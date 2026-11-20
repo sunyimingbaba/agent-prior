@@ -1,0 +1,218 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1184.tif",
+  "row": 114,
+  "rgb_sha256": "961b13d5bbaa08f10335c2a5138e08afc0927810cd9b52a5fd118f983e15891a",
+  "view": "upright",
+  "rendered_sha256": "961b13d5bbaa08f10335c2a5138e08afc0927810cd9b52a5fd118f983e15891a",
+  "query": "An aerial view of a road intersection.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395140,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "7f6bee1ce942f86b83b110302b1f4d0f09c465489b9dd0ff0e461aec938f29df"
+    },
+    {
+      "k": 0,
+      "seed": 395141,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            510,
+            99735,
+            100183,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion:\n交通灯"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "31a2662c69d014b4b539b3120b18fe4e6d06917042ad9c4b9dd67466ff90eed6"
+    },
+    {
+      "k": 1,
+      "seed": 395142,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724
+          ],
+          "text": " addCriterion\n\n addCriterion\n\n addCriterion\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.53), overpass (0.09), medium residential (0.05)",
+          "confidence": 0.529154360294342
+        }
+      ],
+      "used": 1,
+      "hidden": "2cc8c6007b54f09cfc54fd592a423c8e60a6a93ae808d112c5d9981703c76073"
+    },
+    {
+      "k": 2,
+      "seed": 395143,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "7f6bee1ce942f86b83b110302b1f4d0f09c465489b9dd0ff0e461aec938f29df"
+    },
+    {
+      "k": 3,
+      "seed": 395144,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            9217,
+            29,
+            28029,
+            15946,
+            101909,
+            99735,
+            106809,
+            39426,
+            3837,
+            101137,
+            51154,
+            108704,
+            53481,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": " addCriterion\nanswer>图中是一个交通交叉口，符合查询文本描述。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.53), overpass (0.09), medium residential (0.05)",
+          "confidence": 0.529154360294342
+        }
+      ],
+      "used": 1,
+      "hidden": "c6414e9d9740e67ec782cf1d182768a41df1874513e4d990825d22738fc62ffe"
+    }
+  ],
+  "sha256": "b4e19bf5bed7b4791c01ffbf37b0fcd28737d870cbe95755fa5f4c3b06c3b6e3"
+}

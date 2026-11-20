@@ -1,0 +1,65 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1990.tif",
+  "row": 199,
+  "rgb_sha256": "b34c696b0d5812a1cf9af56e2484ad8a6b97a9f25ef899e7ad5d085feb0c37ae",
+  "view": "upright",
+  "rendered_sha256": "b34c696b0d5812a1cf9af56e2484ad8a6b97a9f25ef899e7ad5d085feb0c37ae",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395990,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            99440,
+            100172,
+            102184,
+            3837,
+            101137,
+            51154,
+            108704,
+            53481,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中是一张航拍照片，符合查询文本描述。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "storage tanks (0.33), airplane (0.06), chaparral (0.06)",
+          "confidence": 0.3274112939834595
+        }
+      ],
+      "used": 1,
+      "hidden": "45b2c0e8b018bbf37b956f6de709880312e89f501b880ecd2f631de0bedc0c1b"
+    }
+  ],
+  "sha256": "27ef2e6a18fda8fe459756f29f135f878ade1ba3b8fc1e5dcd985ae7cfd3e6a4"
+}

@@ -1,0 +1,126 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "383.tif",
+  "row": 31,
+  "rgb_sha256": "13429b4f62af92aa45dc7a982115660eddab7f7eb5ca61887973ae7f82424589",
+  "view": "rotated",
+  "rendered_sha256": "49d23814a960631a335cd3cc618d03bedee2b33047d5721351bb03f5bed206be",
+  "query": "An aerial view of a beach.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394310,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "beach (0.43), chaparral (0.06), forest (0.06)",
+          "confidence": 0.4336104094982147
+        }
+      ],
+      "used": 1,
+      "hidden": "6adb1a4f643a5b4b224427a2bc4cd7d704ee50d8316335f4b943cb96f96b0dab"
+    },
+    {
+      "k": 0,
+      "seed": 394311,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "a1b64a1c223457d8b35cac840777d883f5dee9da1596aa63803e0a604e710105"
+    },
+    {
+      "k": 1,
+      "seed": 394312,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "e778fe40af1daa53edd4755ec7c1e790017eb3bf2d0910f45d959a8faf8db3a5"
+    },
+    {
+      "k": 2,
+      "seed": 394313,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [
+        {
+          "text": "beach (0.43), chaparral (0.06), forest (0.06)",
+          "confidence": 0.4336104094982147
+        }
+      ],
+      "used": 1,
+      "hidden": "41edc46bca8dc1c71835eb2ecfc6cf9d8668d847a1d44118e8d61326c6bdfc5a"
+    },
+    {
+      "k": 3,
+      "seed": 394314,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "a1b64a1c223457d8b35cac840777d883f5dee9da1596aa63803e0a604e710105"
+    }
+  ],
+  "sha256": "09465c526e7d3f73ef259379e1283bbe70e2d4da9b7caa67bb3d226f22d4f881"
+}

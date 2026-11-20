@@ -1,0 +1,47 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "486.tif",
+  "row": 44,
+  "rgb_sha256": "c334c57a546de4ef16f6ae6ab022ffb84dd14ae6c74bb48995cde59bb0cf9918",
+  "view": "upright",
+  "rendered_sha256": "c334c57a546de4ef16f6ae6ab022ffb84dd14ae6c74bb48995cde59bb0cf9918",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394440,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            151645
+          ],
+          "text": "\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.23), sparse residential (0.10), tennis court (0.06)",
+          "confidence": 0.23364466428756714
+        }
+      ],
+      "used": 1,
+      "hidden": "c98b99a0483805f462e9a28f097ab8053bbe814aa8c2fe6dee8b179511686291"
+    }
+  ],
+  "sha256": "2760dcf03cbced3d3d77e0765fc46f9beec07c5a7bc3bd8fbd24f19b90e997c6"
+}

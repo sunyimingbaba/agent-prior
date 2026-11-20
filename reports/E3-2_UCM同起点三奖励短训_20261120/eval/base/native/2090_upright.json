@@ -1,0 +1,46 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "2090.tif",
+  "row": 209,
+  "rgb_sha256": "10baae5be9f44e23c69e5fda521c95f23c3c13bd99341a086cd721c7a2eedaa1",
+  "view": "upright",
+  "rendered_sha256": "10baae5be9f44e23c69e5fda521c95f23c3c13bd99341a086cd721c7a2eedaa1",
+  "query": "Two tennis courts arranged neatly on the lawn with some trees beside .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 396090,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "tennis court (0.29), baseball diamond (0.10), golf course (0.09)",
+          "confidence": 0.2932640314102173
+        }
+      ],
+      "used": 1,
+      "hidden": "1a36ead4c627d3c1332fba4702cec7700eff0273bc23df07357ed6ed5c577af5"
+    }
+  ],
+  "sha256": "5099cbeb2c6eecabaf4e7b76eb8fb1e7e86b289440b7b12ca0cc4196f3d8b2bc"
+}

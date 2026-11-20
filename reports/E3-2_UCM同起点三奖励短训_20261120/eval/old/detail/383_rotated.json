@@ -1,0 +1,167 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "383.tif",
+  "row": 31,
+  "rgb_sha256": "13429b4f62af92aa45dc7a982115660eddab7f7eb5ca61887973ae7f82424589",
+  "view": "rotated",
+  "rendered_sha256": "49d23814a960631a335cd3cc618d03bedee2b33047d5721351bb03f5bed206be",
+  "query": "An aerial view of a beach.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394310,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            9217,
+            198,
+            785,
+            2168,
+            4933,
+            458,
+            40784,
+            1651,
+            315,
+            264,
+            11321,
+            11,
+            892,
+            9071,
+            279,
+            3239,
+            1467,
+            13,
+            151645
+          ],
+          "text": " addCriterion\nanswer\nThe image shows an aerial view of a beach, which matches the query text."
+        }
+      ],
+      "events": [
+        {
+          "text": "beach (0.43), chaparral (0.06), forest (0.06)",
+          "confidence": 0.4336104094982147
+        }
+      ],
+      "used": 1,
+      "hidden": "7d764d20f979ba0ef7261d40dee6bde0a59304d091d655716bcb8c671d480e79"
+    },
+    {
+      "k": 0,
+      "seed": 394311,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "<tool_call>scene_classify\n addCriterion"
+        },
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [
+        {
+          "text": "beach (0.43), chaparral (0.06), forest (0.06)",
+          "confidence": 0.4336104094982147
+        }
+      ],
+      "used": 1,
+      "hidden": "8f60c82f0192b7161f4c8701dea77a53ff905240b417692a99b94c5e7e0f44e5"
+    },
+    {
+      "k": 1,
+      "seed": 394312,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "df8758588f6d43cd23b7d235cb33f973ef6b61250cc4b74a4c0e98715f2ad8da"
+    },
+    {
+      "k": 2,
+      "seed": 394313,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "beach (0.43), chaparral (0.06), forest (0.06)",
+          "confidence": 0.4336104094982147
+        }
+      ],
+      "used": 1,
+      "hidden": "0dc3fd1ce5b6dd381e8ab46566ca06039173298705f949b355ad07952e887c79"
+    },
+    {
+      "k": 3,
+      "seed": 394314,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "df8758588f6d43cd23b7d235cb33f973ef6b61250cc4b74a4c0e98715f2ad8da"
+    }
+  ],
+  "sha256": "834925ac1b03414c42dbb4deb25aac51b1b62e19dc6d180757d077675078dc7b"
+}

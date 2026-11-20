@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1489.tif",
+  "row": 148,
+  "rgb_sha256": "32ad470b9033349857ddc3d2f80291c3de046aeac753dab4e2025fabcfbc1c57",
+  "view": "upright",
+  "rendered_sha256": "32ad470b9033349857ddc3d2f80291c3de046aeac753dab4e2025fabcfbc1c57",
+  "query": "A narrow road go across another one diagonally .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395480,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "overpass (0.27), freeway (0.09), runway (0.08)",
+          "confidence": 0.272418737411499
+        }
+      ],
+      "used": 1,
+      "hidden": "e5cdf6b5d7b257b8c842e766476e7ed16f404b19d6ef8084f2f68f135d9a8499"
+    }
+  ],
+  "sha256": "b24e853e552e419fb0af87d69da5eaf4630499bec24f08a4dd6bed93f94ac6a5"
+}

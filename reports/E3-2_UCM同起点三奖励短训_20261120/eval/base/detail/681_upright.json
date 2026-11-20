@@ -1,0 +1,129 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "681.tif",
+  "row": 62,
+  "rgb_sha256": "f79ca7bc4352ff528b4ff82c27b81f9585d9a8bfc95c2131759f1e59079e0db1",
+  "view": "upright",
+  "rendered_sha256": "f79ca7bc4352ff528b4ff82c27b81f9585d9a8bfc95c2131759f1e59079e0db1",
+  "query": "An aerial view of a residential area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394620,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "dense residential (0.26), tennis court (0.12), mobile home park (0.11)",
+          "confidence": 0.2569649815559387
+        }
+      ],
+      "used": 1,
+      "hidden": "e99b66a3932e86aa19a2c0a2f1b0e088cace00720afb341b82cbc99e4b652704"
+    },
+    {
+      "k": 0,
+      "seed": 394621,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "dense residential (0.26), tennis court (0.12), mobile home park (0.11)",
+          "confidence": 0.2569649815559387
+        }
+      ],
+      "used": 1,
+      "hidden": "e99b66a3932e86aa19a2c0a2f1b0e088cace00720afb341b82cbc99e4b652704"
+    },
+    {
+      "k": 1,
+      "seed": 394622,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "9d74fa5c006ed45d85ef6246c72d071431d5014a957189395e06e5b24ed720cf"
+    },
+    {
+      "k": 2,
+      "seed": 394623,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "9d74fa5c006ed45d85ef6246c72d071431d5014a957189395e06e5b24ed720cf"
+    },
+    {
+      "k": 3,
+      "seed": 394624,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "73081bff29ebdd40a368d60b7e7b3b897d39ac4c5fecce548d4d7ea131afa561"
+    }
+  ],
+  "sha256": "0ff8fc4879d6bedacdac11b0c40f2d3c386add7017164ce7d405513c3d35a64d"
+}

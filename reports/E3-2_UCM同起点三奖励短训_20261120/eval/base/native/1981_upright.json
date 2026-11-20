@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1981.tif",
+  "row": 190,
+  "rgb_sha256": "a5e2fdc526237727754fb5a24583bcdde57bb72ac82245a181d2785961cc0964",
+  "view": "upright",
+  "rendered_sha256": "a5e2fdc526237727754fb5a24583bcdde57bb72ac82245a181d2785961cc0964",
+  "query": "Two small storage tanks are on the ground .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395900,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "storage tanks (0.40), buildings (0.06), runway (0.05)",
+          "confidence": 0.40297460556030273
+        }
+      ],
+      "used": 1,
+      "hidden": "01d1a5639ba494e38f1aa885687588cc407f4b590b86c8fd5c3cc1014e91aa8c"
+    }
+  ],
+  "sha256": "2a5471147d032852fd7186ddaf51d56db070470a30b3ec587b972984bcbb0e06"
+}

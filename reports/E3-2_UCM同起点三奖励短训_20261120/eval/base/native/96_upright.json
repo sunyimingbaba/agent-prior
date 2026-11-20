@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "96.tif",
+  "row": 5,
+  "rgb_sha256": "4dacfea4d3e96df17e843d64944524e307f8ad9f6571c470d856b697e0dbe583",
+  "view": "upright",
+  "rendered_sha256": "4dacfea4d3e96df17e843d64944524e307f8ad9f6571c470d856b697e0dbe583",
+  "query": "There is a piece of farmland .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394050,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "agricultural (0.49), chaparral (0.06), runway (0.06)",
+          "confidence": 0.49083104729652405
+        }
+      ],
+      "used": 1,
+      "hidden": "79777b0e671be86ced9d70879a5a180c29d531005d37049d7b5c526f34a8f47b"
+    }
+  ],
+  "sha256": "290b92392e9f06ca42dbc34404be51404527b8a9bff5481fc649475d174f12b1"
+}

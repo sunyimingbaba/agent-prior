@@ -1,0 +1,64 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "97.tif",
+  "row": 6,
+  "rgb_sha256": "ab369438c87b267e4689ec2f63da3ab52c09fdcae34a9c068b90c9024c4a8fa2",
+  "view": "upright",
+  "rendered_sha256": "ab369438c87b267e4689ec2f63da3ab52c09fdcae34a9c068b90c9024c4a8fa2",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394060,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            110377,
+            107344,
+            3837,
+            57218,
+            51154,
+            108704,
+            116383,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中是一张农田的照片，与查询文本不符。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "agricultural (0.27), beach (0.12), runway (0.10)",
+          "confidence": 0.2724435031414032
+        }
+      ],
+      "used": 1,
+      "hidden": "d0c08f90d89ed0a3d911243fc91d85d7899e6dcd9c18d7a47970a6b45cc8f4a0"
+    }
+  ],
+  "sha256": "1ac31a4fdbc3052cfa3698770e1926cdcb9788bd874a68f88033fbe38df285cc"
+}

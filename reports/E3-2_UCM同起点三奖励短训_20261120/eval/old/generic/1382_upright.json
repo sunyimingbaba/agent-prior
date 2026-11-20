@@ -1,0 +1,66 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1382.tif",
+  "row": 131,
+  "rgb_sha256": "5a99c40be5e451645b1652fa8a797e094d2e7ec77041636ef36ccc345e35b273",
+  "view": "upright",
+  "rendered_sha256": "5a99c40be5e451645b1652fa8a797e094d2e7ec77041636ef36ccc345e35b273",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395310,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            99440,
+            100172,
+            102184,
+            3837,
+            54021,
+            104059,
+            101148,
+            104176,
+            102077,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中是一张航拍照片，显示了一个移动房屋公园。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "mobile home park (0.31), medium residential (0.11), dense residential (0.08)",
+          "confidence": 0.3051135241985321
+        }
+      ],
+      "used": 1,
+      "hidden": "7d7f57a461bdfa21d5f8ef9da4a8a109404264b7e3fb8a8f4c32f168b8e40958"
+    }
+  ],
+  "sha256": "b553b61bb1e7f5a40e4a646e6a2dd9f5ab7339587858cae730a7e9ae2629e607"
+}

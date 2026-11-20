@@ -1,0 +1,44 @@
+{
+  "model": "b995fa858f120a74aab5fc95a54dfcb8ec408f20c441a00bd84918da34550606",
+  "image": "1786.tif",
+  "row": 175,
+  "rgb_sha256": "870e42feb1d9d211998f45872c9a3f99041eab98049ff791f1198944c1298197",
+  "view": "upright",
+  "rendered_sha256": "870e42feb1d9d211998f45872c9a3f99041eab98049ff791f1198944c1298197",
+  "query": "It is a straight runway with some mark lines on it .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395750,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "runway (0.30), chaparral (0.11), freeway (0.09)",
+          "confidence": 0.29522624611854553
+        }
+      ],
+      "used": 1,
+      "hidden": "b2c3f679d6253bda54c854d845543a9b65578b7ef4d4bd866623f9f2bf86c84f"
+    }
+  ],
+  "sha256": "78af067dcb7db3a7c6f3d08883a7c7ad4924b1eb0568f48d7aa7580e9190861e"
+}

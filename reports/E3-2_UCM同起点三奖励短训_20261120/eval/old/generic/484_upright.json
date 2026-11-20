@@ -1,0 +1,71 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "484.tif",
+  "row": 42,
+  "rgb_sha256": "ac9bf9eb0df54364bd8b3531e6b5fba3b35a8c3ae83798d18acede24ad28ee11",
+  "view": "upright",
+  "rendered_sha256": "ac9bf9eb0df54364bd8b3531e6b5fba3b35a8c3ae83798d18acede24ad28ee11",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394420,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            99440,
+            100172,
+            102184,
+            3837,
+            54021,
+            34187,
+            108900,
+            5373,
+            115280,
+            33108,
+            99871,
+            105240,
+            49567,
+            102268,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中是一张航拍照片，显示了建筑物、跑道和储罐等元素。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.11), runway (0.09), storage tanks (0.09)",
+          "confidence": 0.1072172224521637
+        }
+      ],
+      "used": 1,
+      "hidden": "1828d6afb171058737aac3260a0d544958f3f58780d3a9f5cbbb8e044186873f"
+    }
+  ],
+  "sha256": "e1a4347a2aadfd0ce2876b3c6ea61f18fec1dd8f40e3ca81f21048f4b9121e12"
+}

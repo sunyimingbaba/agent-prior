@@ -1,0 +1,46 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1984.tif",
+  "row": 193,
+  "rgb_sha256": "a09138bdf655d0b7cecd78b9f69358389d7027f15156b7ee357470acfe0f885d",
+  "view": "upright",
+  "rendered_sha256": "a09138bdf655d0b7cecd78b9f69358389d7027f15156b7ee357470acfe0f885d",
+  "query": "A storage tank with a highway beside .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395930,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "storage tanks (0.18), intersection (0.09), chaparral (0.07)",
+          "confidence": 0.1839415580034256
+        }
+      ],
+      "used": 1,
+      "hidden": "481060262d9841c3fc205d54e40ea80f8fa24b7e8b0fae4f5493ec822138d3dd"
+    }
+  ],
+  "sha256": "50539d929e799e039bc1f7976e3bbd520e461a5b76e0cf00bb3aab40207feb9d"
+}

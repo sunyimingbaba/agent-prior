@@ -1,0 +1,105 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "486.tif",
+  "row": 44,
+  "rgb_sha256": "c334c57a546de4ef16f6ae6ab022ffb84dd14ae6c74bb48995cde59bb0cf9918",
+  "view": "upright",
+  "rendered_sha256": "c334c57a546de4ef16f6ae6ab022ffb84dd14ae6c74bb48995cde59bb0cf9918",
+  "query": "There are some buildings with brown and black roofs .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394440,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644
+          ],
+          "text": " addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n addCriterion\n\n addCriterion\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.23), sparse residential (0.10), tennis court (0.06)",
+          "confidence": 0.23364466428756714
+        }
+      ],
+      "used": 1,
+      "hidden": "ed8acb9e56b98649c70ee1e33103617c6fbc5eb09e071414e0f4f7cd7c4ba187"
+    }
+  ],
+  "sha256": "3b30024317336a3ac83d6a1e5d97d330916dcc5933fcfdb97a6d132cadde054a"
+}

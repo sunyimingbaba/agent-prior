@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1582.tif",
+  "row": 151,
+  "rgb_sha256": "b785954af95ca1fead50e3c210bb2e48f1b6f7ea1b6dfbf75d00776c59b64ad2",
+  "view": "upright",
+  "rendered_sha256": "b785954af95ca1fead50e3c210bb2e48f1b6f7ea1b6dfbf75d00776c59b64ad2",
+  "query": "Lots of cars are very closed to each other in the parking lot .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395510,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "parking lot (0.47), airplane (0.06), harbor (0.06)",
+          "confidence": 0.47165539860725403
+        }
+      ],
+      "used": 1,
+      "hidden": "f68888c1326771d2f4e095f41590c9809a082c83ce99223511ca1cf990809f21"
+    }
+  ],
+  "sha256": "aba2e3c49fb68aee60bcc3d10c899d6e265497de542a3b10d3f58e35938e15b1"
+}

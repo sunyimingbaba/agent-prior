@@ -1,0 +1,47 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1989.tif",
+  "row": 198,
+  "rgb_sha256": "c54e3d84a7de0da858d5189da73072131594e66a29478e2a405414c84b6f4d9e",
+  "view": "upright",
+  "rendered_sha256": "c54e3d84a7de0da858d5189da73072131594e66a29478e2a405414c84b6f4d9e",
+  "query": "A small storage tank is on the ground .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395980,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            151645
+          ],
+          "text": "\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "storage tanks (0.28), buildings (0.07), airplane (0.06)",
+          "confidence": 0.2835657000541687
+        }
+      ],
+      "used": 1,
+      "hidden": "7b77c3790dc9bdc0e8ea9a1c360eac821f8671f73f2e233378abd990efdc4b2c"
+    }
+  ],
+  "sha256": "32d984bdd3e12385337c9615a9fd0a2120db8c85edbb90864f12aa3bff0b8085"
+}

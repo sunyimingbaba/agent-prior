@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1890.tif",
+  "row": 189,
+  "rgb_sha256": "c59bd23a322573d35eb96ed58a5df4ebacfe6073a87b0e2f22dec6ee5d8d831f",
+  "view": "upright",
+  "rendered_sha256": "c59bd23a322573d35eb96ed58a5df4ebacfe6073a87b0e2f22dec6ee5d8d831f",
+  "query": "A house with is surrounded by bushes and snds in the sparse residential area .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395890,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "sparse residential (0.32), medium residential (0.11), chaparral (0.08)",
+          "confidence": 0.32141658663749695
+        }
+      ],
+      "used": 1,
+      "hidden": "7ccbe0fa4e174f8330bc5a78e288ecbd8168d9c65d54c0d63aef89a7336ec672"
+    }
+  ],
+  "sha256": "b04d5052741ffa85129b658e22b87766f4d15f77f7f00b87e48099b1ac987c40"
+}

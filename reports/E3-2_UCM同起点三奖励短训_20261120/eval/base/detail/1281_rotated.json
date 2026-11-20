@@ -1,0 +1,136 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1281.tif",
+  "row": 120,
+  "rgb_sha256": "d543696782d651a93ee50284b5ee29a702be06b1e397027062de132919e468c6",
+  "view": "rotated",
+  "rendered_sha256": "b4d5fc15cd34449d96a7fb741a9ec9fbbb7c3c9b6dda12c18e31ede9d7653954",
+  "query": "An aerial view of a residential area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395200,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.20), sparse residential (0.15), dense residential (0.12)",
+          "confidence": 0.19683288037776947
+        }
+      ],
+      "used": 1,
+      "hidden": "df996ca05a7ab8d0f28de0e510aa94a5f7a02107126c1c61cfc169b31d00d848"
+    },
+    {
+      "k": 0,
+      "seed": 395201,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "d5e12ccc59cfd9472f9f3fe83239b3cfde4ad9b0429b6937d44d12b4fb8358d3"
+    },
+    {
+      "k": 1,
+      "seed": 395202,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "d5e12ccc59cfd9472f9f3fe83239b3cfde4ad9b0429b6937d44d12b4fb8358d3"
+    },
+    {
+      "k": 2,
+      "seed": 395203,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            3489,
+            416,
+            11234,
+            29022,
+            497,
+            330,
+            2514,
+            899,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion (\"residential-area\", \"True\")"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "1021d0ed15e63330d8660a1b2f78d9260167c94eb98fdd5e44fee9a6c83784f4"
+    },
+    {
+      "k": 3,
+      "seed": 395204,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.20), sparse residential (0.15), dense residential (0.12)",
+          "confidence": 0.19683288037776947
+        }
+      ],
+      "used": 1,
+      "hidden": "3f4951858731b1117314032f3e7e92965ea4f1c234d2c400a8595821e214268e"
+    }
+  ],
+  "sha256": "6ed84672be32be27572efb75852bed114c5cb1e2a1884c6202148882d0f00e78"
+}

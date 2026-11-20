@@ -1,0 +1,121 @@
+{
+  "model": "b995fa858f120a74aab5fc95a54dfcb8ec408f20c441a00bd84918da34550606",
+  "image": "1289.tif",
+  "row": 128,
+  "rgb_sha256": "bd279b0dd08345f1b33fe633659933166ea069eef36569d68cebb706c33a35ab",
+  "view": "rotated",
+  "rendered_sha256": "0bdbf555083e22ec8e3738208a3b0a753b95605ea6e2ce5404416773299c36f6",
+  "query": "An aerial view of a residential area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395280,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "5d9afed66283bcfc60b722d159758e4ad0f48a54a9e0513e26db97b4c0eb9da1"
+    },
+    {
+      "k": 0,
+      "seed": 395281,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "5d9afed66283bcfc60b722d159758e4ad0f48a54a9e0513e26db97b4c0eb9da1"
+    },
+    {
+      "k": 1,
+      "seed": 395282,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "5d9afed66283bcfc60b722d159758e4ad0f48a54a9e0513e26db97b4c0eb9da1"
+    },
+    {
+      "k": 2,
+      "seed": 395283,
+      "rounds": [
+        {
+          "ids": [
+            27,
+            9217,
+            29,
+            785,
+            2168,
+            5610,
+            264,
+            1909,
+            14875,
+            1651,
+            315,
+            264,
+            20057,
+            12534,
+            3918,
+            9217,
+            29,
+            151645
+          ],
+          "text": "<answer>The image contains a top-down view of a residential neighborhood.</answer>"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "56b6a2e3c9f11ccad58688e75f30616b77e526f498f736ddbb159d72a89bddd3"
+    },
+    {
+      "k": 3,
+      "seed": 395284,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "mobile home park (0.19), medium residential (0.16), dense residential (0.14)",
+          "confidence": 0.1912238597869873
+        }
+      ],
+      "used": 1,
+      "hidden": "5cdb61a9e2e9d617ddb5d79a074ecdab86e70a8414202740e286c6acbc58f3b0"
+    }
+  ],
+  "sha256": "9d825e6868d86e378f5375f448470abd297be7a5f33e99c0229b201957892bbc"
+}

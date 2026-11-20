@@ -1,0 +1,65 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1385.tif",
+  "row": 134,
+  "rgb_sha256": "ef6cd2c0b330153fa71d67157ad0f3cea4157a439a3562788505da8bf236fec3",
+  "view": "upright",
+  "rendered_sha256": "ef6cd2c0b330153fa71d67157ad0f3cea4157a439a3562788505da8bf236fec3",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395340,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            99440,
+            100172,
+            102184,
+            3837,
+            54021,
+            104059,
+            104547,
+            23836,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中是一张航拍照片，显示了一个住宅区。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.27), dense residential (0.18), mobile home park (0.17)",
+          "confidence": 0.26920175552368164
+        }
+      ],
+      "used": 1,
+      "hidden": "bc2c470fd8c62c8b6466345677dd63c9d8e8df005ebbba2b5a2fe2d7ecf91d9a"
+    }
+  ],
+  "sha256": "53e80948a78927fa5974365b2c668eba9796c2b38294fff1bad3734044320dfc"
+}

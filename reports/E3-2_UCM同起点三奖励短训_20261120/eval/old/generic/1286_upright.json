@@ -1,0 +1,47 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1286.tif",
+  "row": 125,
+  "rgb_sha256": "4fd20a4994e6aa87e24c068c3fe5f38b430f7462384f857a10464152c00db69b",
+  "view": "upright",
+  "rendered_sha256": "4fd20a4994e6aa87e24c068c3fe5f38b430f7462384f857a10464152c00db69b",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395250,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            151645
+          ],
+          "text": "\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "dense residential (0.22), medium residential (0.20), mobile home park (0.12)",
+          "confidence": 0.2208908200263977
+        }
+      ],
+      "used": 1,
+      "hidden": "ae553e114b0f7fe2f03c831eb7225d4bb35f382c896a084380fa9791cae1a982"
+    }
+  ],
+  "sha256": "c30344f3194ff4c9c7339c9781d2468fa0d82c80ddcadbde3ff0b9c0f41d070c"
+}

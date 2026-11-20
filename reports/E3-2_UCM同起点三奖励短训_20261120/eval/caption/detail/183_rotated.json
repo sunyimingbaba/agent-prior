@@ -1,0 +1,121 @@
+{
+  "model": "c8f296696ca6d0a80729635cbc0f5b70dfb82763338e1087e96cfb932ee5b192",
+  "image": "183.tif",
+  "row": 12,
+  "rgb_sha256": "93371c3e5cbcd5b9a0bef60fd78f40aa6f8a16fa6223294af3a5961f14f5a83c",
+  "view": "rotated",
+  "rendered_sha256": "1e7bf110ad06fefcad8bf63c823adf4f5c526c53d5cddb5de6104ab090120ca3",
+  "query": "An aerial view of a airport apron.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394120,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "5e4f6f2e54c124cde64f5703719d2f5c7812d9dbb6cc21f0a289e55d0d932274"
+    },
+    {
+      "k": 0,
+      "seed": 394121,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "5e4f6f2e54c124cde64f5703719d2f5c7812d9dbb6cc21f0a289e55d0d932274"
+    },
+    {
+      "k": 1,
+      "seed": 394122,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "airplane (0.58), runway (0.07), harbor (0.05)",
+          "confidence": 0.5762604475021362
+        }
+      ],
+      "used": 1,
+      "hidden": "d87efef5e3ca43e309ee6eff47ceb2d1eb85cb28abbf73c6d03fa4af894463cc"
+    },
+    {
+      "k": 2,
+      "seed": 394123,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "airplane (0.58), runway (0.07), harbor (0.05)",
+          "confidence": 0.5762604475021362
+        }
+      ],
+      "used": 1,
+      "hidden": "d87efef5e3ca43e309ee6eff47ceb2d1eb85cb28abbf73c6d03fa4af894463cc"
+    },
+    {
+      "k": 3,
+      "seed": 394124,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "5e4f6f2e54c124cde64f5703719d2f5c7812d9dbb6cc21f0a289e55d0d932274"
+    }
+  ],
+  "sha256": "e4626d2f5c842e508ca2d099728167b98db838d2f94d86e72d9c44c08dd97849"
+}

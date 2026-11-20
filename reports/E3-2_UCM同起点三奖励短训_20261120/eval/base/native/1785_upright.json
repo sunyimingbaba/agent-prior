@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1785.tif",
+  "row": 174,
+  "rgb_sha256": "4cd121be618ae61bd3669e9450b39d695880b609a583677283f9f90d1360b943",
+  "view": "upright",
+  "rendered_sha256": "4cd121be618ae61bd3669e9450b39d695880b609a583677283f9f90d1360b943",
+  "query": "It is a straight runway with some mark lines and a number and a letter R on it .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395740,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "runway (0.38), airplane (0.13), chaparral (0.05)",
+          "confidence": 0.3823123574256897
+        }
+      ],
+      "used": 1,
+      "hidden": "0679ac12230e6476d615d364467769e96b7a0647fe139fdb9a9f44022978228c"
+    }
+  ],
+  "sha256": "58b88080d88e6d99801d31d2e11af2d9a989542a63a88a86acacfb601bbccdda"
+}

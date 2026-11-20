@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "2082.tif",
+  "row": 201,
+  "rgb_sha256": "d481871c12741539545b5fd893200c69b2692849f3590cb697d00ae7907d40ea",
+  "view": "upright",
+  "rendered_sha256": "d481871c12741539545b5fd893200c69b2692849f3590cb697d00ae7907d40ea",
+  "query": "Four tennis courts arranged neatly with some plants and lawn surrounded .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 396010,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "tennis court (0.37), baseball diamond (0.11), golf course (0.08)",
+          "confidence": 0.3682086765766144
+        }
+      ],
+      "used": 1,
+      "hidden": "8ea2e4a48fb297361dc4aa630e26e30ca919d7657d3d65956a7a5aba2dd72232"
+    }
+  ],
+  "sha256": "928b52f20d71fe9f76938f8bf648862fe0431a97524b7a91a291dfb8b3e8a146"
+}

@@ -1,0 +1,125 @@
+{
+  "model": "b995fa858f120a74aab5fc95a54dfcb8ec408f20c441a00bd84918da34550606",
+  "image": "1784.tif",
+  "row": 173,
+  "rgb_sha256": "c1ae5b65a8d982bf59c5bc4edcb26bff30e8f065073bd09636b957253bfd9d21",
+  "view": "rotated",
+  "rendered_sha256": "0fbc74ef3c1f7a1d0e28e4ba99d8cb428fea569c4cf83d196d3e175db046b804",
+  "query": "An aerial view of a runway.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395730,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "4e82b5e5083336a2f5744339be2d001a13825e1eb8bfbc847e576535ae3c860c"
+    },
+    {
+      "k": 0,
+      "seed": 395731,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "4e82b5e5083336a2f5744339be2d001a13825e1eb8bfbc847e576535ae3c860c"
+    },
+    {
+      "k": 1,
+      "seed": 395732,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "runway (0.37), airplane (0.10), storage tanks (0.05)",
+          "confidence": 0.36692556738853455
+        }
+      ],
+      "used": 1,
+      "hidden": "55bc3be9333ab345bf2b2ff589231df2c6a849220a1a9c1c986cff115208e1f2"
+    },
+    {
+      "k": 2,
+      "seed": 395733,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "4e82b5e5083336a2f5744339be2d001a13825e1eb8bfbc847e576535ae3c860c"
+    },
+    {
+      "k": 3,
+      "seed": 395734,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "runway (0.37), airplane (0.10), storage tanks (0.05)",
+          "confidence": 0.36692556738853455
+        }
+      ],
+      "used": 1,
+      "hidden": "55bc3be9333ab345bf2b2ff589231df2c6a849220a1a9c1c986cff115208e1f2"
+    }
+  ],
+  "sha256": "c568dda9ee96a1d253b14e2e0428f28c3335879eb2c65fe474f40814a3f29328"
+}

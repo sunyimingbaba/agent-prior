@@ -1,0 +1,123 @@
+{
+  "model": "c8f296696ca6d0a80729635cbc0f5b70dfb82763338e1087e96cfb932ee5b192",
+  "image": "489.tif",
+  "row": 47,
+  "rgb_sha256": "cf22738865b4efc2412014b5d3d43e3c1263953649b3eff0f5fc4613f9ebfc8c",
+  "view": "upright",
+  "rendered_sha256": "cf22738865b4efc2412014b5d3d43e3c1263953649b3eff0f5fc4613f9ebfc8c",
+  "query": "An aerial view of a industrial area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394470,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "c3f5d92ff8a245aa6fa23189ce07f640c923effdf98e5cc62bcf78f5f6272d4b"
+    },
+    {
+      "k": 0,
+      "seed": 394471,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.21), mobile home park (0.13), dense residential (0.07)",
+          "confidence": 0.21278943121433258
+        }
+      ],
+      "used": 1,
+      "hidden": "d6374ffa21c1562bd17ad0a1f2f58475da784739ea903a02eff96d79b141a93d"
+    },
+    {
+      "k": 1,
+      "seed": 394472,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "c3f5d92ff8a245aa6fa23189ce07f640c923effdf98e5cc62bcf78f5f6272d4b"
+    },
+    {
+      "k": 2,
+      "seed": 394473,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "c3f5d92ff8a245aa6fa23189ce07f640c923effdf98e5cc62bcf78f5f6272d4b"
+    },
+    {
+      "k": 3,
+      "seed": 394474,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.21), mobile home park (0.13), dense residential (0.07)",
+          "confidence": 0.21278943121433258
+        }
+      ],
+      "used": 1,
+      "hidden": "87d63f679e5da209392d2e3813041c760242f472c3ac2c41d72c80fa70cecd6b"
+    }
+  ],
+  "sha256": "ba9cfbcd9f25da4958087411b7a4cbb5477b5539e54fb8675d3aa245ef352828"
+}

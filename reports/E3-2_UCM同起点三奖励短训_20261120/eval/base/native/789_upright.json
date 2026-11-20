@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "789.tif",
+  "row": 80,
+  "rgb_sha256": "713f19c3dd331c89dd59af2027e9f6f8f579fdf56d32d22c381342ae9bde6a7a",
+  "view": "upright",
+  "rendered_sha256": "713f19c3dd331c89dd59af2027e9f6f8f579fdf56d32d22c381342ae9bde6a7a",
+  "query": "This is a dense forest with green and dark green plants .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394800,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "forest (0.54), agricultural (0.08), river (0.06)",
+          "confidence": 0.540314793586731
+        }
+      ],
+      "used": 1,
+      "hidden": "61dbd34376a4a8325cf5bb19b9efe7aca95c43fa23d0e95be4322c6c4422ce6b"
+    }
+  ],
+  "sha256": "57058e8384616a2a9659e7e281f3d5f82c7fbd44c69b5844ac5520914d9d71c2"
+}

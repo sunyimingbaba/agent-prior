@@ -1,0 +1,44 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1986.tif",
+  "row": 195,
+  "rgb_sha256": "57baa042d594b4bd13d4cf198a0e38e9301a338b3aedf65b0eb58a30ad58954f",
+  "view": "upright",
+  "rendered_sha256": "57baa042d594b4bd13d4cf198a0e38e9301a338b3aedf65b0eb58a30ad58954f",
+  "query": "A big storage tank is on the ground .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395950,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "storage tanks (0.36), buildings (0.07), baseball diamond (0.07)",
+          "confidence": 0.3618347942829132
+        }
+      ],
+      "used": 1,
+      "hidden": "9fed9f08f88545867ec8db3a19aa89e6b9672d454efa18ed9c3f905299d85510"
+    }
+  ],
+  "sha256": "0a380b2bbfc32ea3a2129aa5d3705b130ae23e0ab6195a8a6adf66e03dc69a52"
+}

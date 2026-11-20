@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "684.tif",
+  "row": 65,
+  "rgb_sha256": "3c704210d7c1581d79720f0aa4222c38225d025f41031da0d5e27cd7803176d0",
+  "view": "upright",
+  "rendered_sha256": "3c704210d7c1581d79720f0aa4222c38225d025f41031da0d5e27cd7803176d0",
+  "query": "This is a dense residential area with houses and plants .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394650,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.22), dense residential (0.19), mobile home park (0.10)",
+          "confidence": 0.2159784436225891
+        }
+      ],
+      "used": 1,
+      "hidden": "b93db1b59c4edb0448407b28dfcaa070eb633ee0ffc3d1c67620b1888e538d88"
+    }
+  ],
+  "sha256": "291d060bc5ba9b538e7b933024eab086cff3de6b06ba5a74692f401bc3664c6a"
+}

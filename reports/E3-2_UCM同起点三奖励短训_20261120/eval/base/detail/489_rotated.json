@@ -1,0 +1,159 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "489.tif",
+  "row": 47,
+  "rgb_sha256": "cf22738865b4efc2412014b5d3d43e3c1263953649b3eff0f5fc4613f9ebfc8c",
+  "view": "rotated",
+  "rendered_sha256": "4046d99894fbcdcf18ee40432a5686ebf10324f8f8ae12229f594840f3aab338",
+  "query": "An aerial view of a industrial area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394470,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.29), mobile home park (0.11), storage tanks (0.08)",
+          "confidence": 0.28575897216796875
+        }
+      ],
+      "used": 1,
+      "hidden": "1e26f18971c414b0282da4553b7926f8aed607b9512eb839cfef84aeacb5979e"
+    },
+    {
+      "k": 0,
+      "seed": 394471,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.29), mobile home park (0.11), storage tanks (0.08)",
+          "confidence": 0.28575897216796875
+        }
+      ],
+      "used": 1,
+      "hidden": "1e26f18971c414b0282da4553b7926f8aed607b9512eb839cfef84aeacb5979e"
+    },
+    {
+      "k": 1,
+      "seed": 394472,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "400cfd18ed0216e6c45e2310d616f7cdc013bcdeb477cb669be3a8a7fe01f206"
+    },
+    {
+      "k": 2,
+      "seed": 394473,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.29), mobile home park (0.11), storage tanks (0.08)",
+          "confidence": 0.28575897216796875
+        }
+      ],
+      "used": 1,
+      "hidden": "be9b43f3baad715de2fa201e7244032e468d5d77983a5ead50fba6e5e674bb5b"
+    },
+    {
+      "k": 3,
+      "seed": 394474,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.29), mobile home park (0.11), storage tanks (0.08)",
+          "confidence": 0.28575897216796875
+        }
+      ],
+      "used": 1,
+      "hidden": "be9b43f3baad715de2fa201e7244032e468d5d77983a5ead50fba6e5e674bb5b"
+    }
+  ],
+  "sha256": "20daf315d05eb778b4e4722d8cc9cce4845bb88fe3fbf879e88810501214b6c0"
+}

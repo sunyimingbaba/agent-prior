@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "486.tif",
+  "row": 44,
+  "rgb_sha256": "c334c57a546de4ef16f6ae6ab022ffb84dd14ae6c74bb48995cde59bb0cf9918",
+  "view": "upright",
+  "rendered_sha256": "c334c57a546de4ef16f6ae6ab022ffb84dd14ae6c74bb48995cde59bb0cf9918",
+  "query": "There are some buildings with brown and black roofs .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394440,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.23), sparse residential (0.10), tennis court (0.06)",
+          "confidence": 0.23364466428756714
+        }
+      ],
+      "used": 1,
+      "hidden": "474a728afe69c67d48ca24dc9bf26e142cf430ced1e9b97d08ec857bc1097cef"
+    }
+  ],
+  "sha256": "6563ca39773c7a4891ad00d5486480c7ff771e8484afc826eff37329773236b6"
+}

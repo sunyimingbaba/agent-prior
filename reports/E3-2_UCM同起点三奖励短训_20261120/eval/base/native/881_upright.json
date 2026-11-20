@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "881.tif",
+  "row": 82,
+  "rgb_sha256": "69e0275686c01d78538b44b6c678299efc00190699e744e509a3d6b12b8f6b11",
+  "view": "upright",
+  "rendered_sha256": "69e0275686c01d78538b44b6c678299efc00190699e744e509a3d6b12b8f6b11",
+  "query": "There are two curved freeways closed together .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394820,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "freeway (0.34), overpass (0.18), intersection (0.06)",
+          "confidence": 0.3404201865196228
+        }
+      ],
+      "used": 1,
+      "hidden": "73bfdb512a0dd6b4cb440936347fcf07744d33815e67b224bf0d50f66df25ea3"
+    }
+  ],
+  "sha256": "5e951734ae5042abbc3493b6f2edbaa4d9e9af02b2e5ed50f52241da37bc840f"
+}

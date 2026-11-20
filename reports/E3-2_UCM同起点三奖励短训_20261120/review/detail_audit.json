@@ -1,0 +1,115 @@
+[
+  {
+    "image": "183.tif",
+    "keep": true,
+    "reason": "大面积浅色机库屋顶与两架完整可见飞机均可识别；第三架飞机仅局部入镜。屋顶位于两架完整飞机下方，C[0] 与 D[0] 描述同一关系，C[1] 与 D[1] 为其反向。旋转180度后完整性和对象身份保持，正确关系变为屋顶在上、飞机在下。"
+  },
+  {
+    "image": "383.tif",
+    "keep": true,
+    "reason": "沙滩和海水为两片清楚相邻的区域，原图沙滩整体在海水上方。C[0] 与 D[0] 互为主客体交换的同义表达，另两句给出反向关系；旋转180度后同一沙滩移至海水下方。对象名称无画面方位定位词。"
+  },
+  {
+    "image": "389.tif",
+    "keep": true,
+    "reason": "海水与沙滩边界清楚，原图海水在沙滩右侧。C[0] 与 D[0] 同义，C[1] 与 D[1] 同义且关系反向；旋转180度后同一海水区域位于沙滩左侧，指称保持。"
+  },
+  {
+    "image": "484.tif",
+    "keep": true,
+    "reason": "原提案的 top row 会在旋转后选择另一排屋顶，需先采用 cf 固定指称，再据此重写全部 C/D。最大灰色屋顶可凭可见面积识别，直接相邻的大白色屋顶也清楚可见；原图灰屋顶在该白屋顶右侧，旋转后在其左侧。修订后 C/D 的主客体交换与关系反转成立。",
+    "cf": {
+      "subject": "the largest gray roof",
+      "reference": "the large white roof directly adjoining that gray roof"
+    }
+  },
+  {
+    "image": "489.tif",
+    "keep": true,
+    "reason": "图中有多处浅色屋顶，其中锯齿状锈色屋顶旁也有单块浅色板；原 subject 的身份限定较弱。采用 cf 中由多块平行板组成的宽浅奶油色屋顶可固定所指对象，其紧邻的锈色板带位于上方。须用 cf 重写 C/D；原图为主体在下，旋转180度后同一主体在上，D 与 C 的逆关系表述一致。",
+    "cf": {
+      "subject": "the broad pale cream roof section made of several parallel panels",
+      "reference": "the adjoining strip of rust-colored roof panels"
+    }
+  },
+  {
+    "image": "681.tif",
+    "keep": true,
+    "reason": "红屋顶住宅群两侧均有可见道路，原 reference 的街道身份存在歧义。采用 cf 中紧邻局部可见长条蓝色泳池的道路可固定原图左侧道路；住宅群位于这条道路右侧。须用 cf 重写 C/D；旋转180度后住宅群位于同一道路左侧，泳池形状与局部入镜状态保持。",
+    "cf": {
+      "subject": "the red-roofed houses",
+      "reference": "the street beside the partly visible elongated blue swimming pool"
+    }
+  },
+  {
+    "image": "687.tif",
+    "keep": false,
+    "reason": "uppermost 是依赖画面朝向的楼栋选择条件。原图有多排外观近似的楼栋和停车位，旋转180度后 uppermost 将转而指向原图另一端楼栋。原图上端停车位相对屋顶的上下关系可见，C/D 交换本身一致，但跨旋转的对象身份发生变化；在所给图像中缺少清楚且简短的固定特征来唯一标识原楼栋及其停车位。"
+  },
+  {
+    "image": "883.tif",
+    "keep": true,
+    "reason": "两辆红色车辆可凭颜色共同识别，均位于分隔双向车道的深色分隔带上方；分隔带身份明确。C[0] 与 D[0] 同义，另两句为反向关系。旋转180度后同两辆红车位于同一分隔带下方，颜色和对象数量保持。"
+  },
+  {
+    "image": "889.tif",
+    "keep": true,
+    "reason": "长卡车和两辆较小乘用车可凭形状与数量区分；长卡车在两辆乘用车下方。C/D 对原图关系及反向关系的表述相互一致；旋转180度后长卡车位于同两辆乘用车上方，身份保持。"
+  },
+  {
+    "image": "981.tif",
+    "keep": true,
+    "reason": "最大树木群与具有条纹纹理的草坪均可识别，树木群整体在条纹草坪右侧。最大这一相对面积特征在180度旋转下保持；旋转后树木群位于同一草坪左侧。C[0]/D[0] 及 C[1]/D[1] 分别表达相同关系。"
+  },
+  {
+    "image": "986.tif",
+    "keep": true,
+    "reason": "两处沙坑大小差异清楚，较大沙坑位于较小沙坑上方。大小排序和两个对象在旋转180度后保持，位置关系反转为较大沙坑在下。C/D 的主客体交换及上下关系配对正确。"
+  },
+  {
+    "image": "1184.tif",
+    "keep": true,
+    "reason": "棕黄色屋顶建筑与道路交叉口中心均清楚可识别，建筑在交叉口中心左侧。C[0] 与 D[0] 同义，另两句为反向关系；180度旋转保持建筑和交叉口中心身份，并使建筑位于中心右侧。"
+  },
+  {
+    "image": "1188.tif",
+    "keep": true,
+    "reason": "原图交叉口上方有一辆完整可见的白色厢式卡车，另有数辆白色车辆和边缘车辆。采用 cf 的完整可见厢式卡车限定可提高主体身份确定性，须同步重写 C/D。该卡车在交叉口中心上方，旋转180度后在下方；完整入镜、车身形状和交叉口中心均保持，C/D 关系配对正确。",
+    "cf": {
+      "subject": "the fully visible white box truck",
+      "reference": "the center of the intersection"
+    }
+  },
+  {
+    "image": "1281.tif",
+    "keep": true,
+    "reason": "小红车可唯一识别，其所在车道通向紧邻的灰屋顶住宅；原图红车在该住宅上方。采用 cf 明确车道与住宅的归属，消除 its 的指代松散，并据此重写 C/D。旋转180度后红车仍在同一车道上且位于同一住宅下方，C/D 互逆关系成立。",
+    "cf": {
+      "subject": "the small red car",
+      "reference": "the gray-roofed house served by the driveway containing the red car"
+    }
+  },
+  {
+    "image": "1289.tif",
+    "keep": true,
+    "reason": "图中有两个蓝色泳池：较小的狭长矩形池位于街道左侧，另一处圆润轮廓泳池邻接棕黄色屋顶住宅并位于街道右侧。原 subject 的 small 存在歧义且可指向关系相反的对象。保留需采用 cf 固定右侧圆润轮廓泳池，并重写全部 C/D。修订后原图主体在街道右侧，旋转180度后同一主体在左侧，C/D 的对应关系成立。",
+    "cf": {
+      "subject": "the rounded blue pool beside the tan-roofed house",
+      "reference": "the straight street that runs through the neighborhood"
+    }
+  },
+  {
+    "image": "1390.tif",
+    "keep": true,
+    "reason": "弯道内的矩形活动房有清楚的蓝色屋顶侧扩建部分；道路从房屋侧面延伸至另一侧，原 reference 将整条弯路作为方向参照较宽泛。采用 cf 将参照固定为距蓝色侧扩建最近的弯曲路段，并重写 C/D。原图该路段在活动房左侧，180度旋转后在同一活动房右侧，身份及逆关系保持。",
+    "cf": {
+      "subject": "the rectangular mobile home with the blue-roofed side extension",
+      "reference": "the curved street segment closest to that blue-roofed extension"
+    }
+  },
+  {
+    "image": "1784.tif",
+    "keep": true,
+    "reason": "弯曲滑行道入口与跑道中部的深色轮胎痕迹带可由道路形态、标线和纹理区分；入口整体位于痕迹带上方，二者也具有横向偏移。C[0] 与 D[0] 对上下关系的表述一致，反向句配对正确；180度旋转后同一入口整体位于同一痕迹带下方，对象描述保持。"
+  }
+]

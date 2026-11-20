@@ -1,0 +1,65 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1686.tif",
+  "row": 165,
+  "rgb_sha256": "c73c48e4abe2425df196895ca1733e38c4cf84df464de7f60419238eafc7db62",
+  "view": "upright",
+  "rendered_sha256": "c73c48e4abe2425df196895ca1733e38c4cf84df464de7f60419238eafc7db62",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395650,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            99440,
+            100172,
+            102184,
+            3837,
+            54021,
+            99593,
+            38989,
+            103274,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中是一张航拍照片，显示了一条河流。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "river (0.41), forest (0.10), agricultural (0.05)",
+          "confidence": 0.40941721200942993
+        }
+      ],
+      "used": 1,
+      "hidden": "f900932600d919f1af485acfdb8e5e713197d880695671dac16b2b8f7c1cc1f0"
+    }
+  ],
+  "sha256": "2012c5e9f870a48d62381993fc46336e70b6ac02a6ca966f223d5abc433c7545"
+}

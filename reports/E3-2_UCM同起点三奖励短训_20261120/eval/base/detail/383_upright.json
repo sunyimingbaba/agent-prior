@@ -1,0 +1,126 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "383.tif",
+  "row": 31,
+  "rgb_sha256": "13429b4f62af92aa45dc7a982115660eddab7f7eb5ca61887973ae7f82424589",
+  "view": "upright",
+  "rendered_sha256": "13429b4f62af92aa45dc7a982115660eddab7f7eb5ca61887973ae7f82424589",
+  "query": "An aerial view of a beach.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394310,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "beach (0.47), chaparral (0.07), agricultural (0.05)",
+          "confidence": 0.4736255705356598
+        }
+      ],
+      "used": 1,
+      "hidden": "4b53a5796abcc55438239dd9510b41e15b6589d9ae600e9d93d6d6110894c0d5"
+    },
+    {
+      "k": 0,
+      "seed": 394311,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "5c790f1a0796cb2a24db0759ce931db5b28edf9bd96e6065bd2ea4f428cdad09"
+    },
+    {
+      "k": 1,
+      "seed": 394312,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            18724,
+            151645
+          ],
+          "text": "scene_classify addCriterion"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "592eeb5bf5f4f3e425a6c2c6686d071e2255454fd218ec06f8067cad569a107d"
+    },
+    {
+      "k": 2,
+      "seed": 394313,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "beach (0.47), chaparral (0.07), agricultural (0.05)",
+          "confidence": 0.4736255705356598
+        }
+      ],
+      "used": 1,
+      "hidden": "4b53a5796abcc55438239dd9510b41e15b6589d9ae600e9d93d6d6110894c0d5"
+    },
+    {
+      "k": 3,
+      "seed": 394314,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "5c790f1a0796cb2a24db0759ce931db5b28edf9bd96e6065bd2ea4f428cdad09"
+    }
+  ],
+  "sha256": "0ee27ea1887495353db1af1e42266e4b60236c18d865261d8991dce0ed69d4d5"
+}

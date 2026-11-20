@@ -1,0 +1,46 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1881.tif",
+  "row": 180,
+  "rgb_sha256": "38d9d4108d99273dea1b61072580d6eac479712ca77bc3d4ad0edd682b4b1c96",
+  "view": "upright",
+  "rendered_sha256": "38d9d4108d99273dea1b61072580d6eac479712ca77bc3d4ad0edd682b4b1c96",
+  "query": "A villa with grey roofs is surrounded by lush plants in the sparse residential area .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395800,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "sparse residential (0.41), tennis court (0.06), buildings (0.06)",
+          "confidence": 0.40950003266334534
+        }
+      ],
+      "used": 1,
+      "hidden": "e5309bd4188a0de88fe78a87299fb7f47232cde95c0dcd15c83b981b35a4a52f"
+    }
+  ],
+  "sha256": "a7f927179a0d16ae1281757d5221001844f16a6cd19d1c92d56cfd4bf92a793f"
+}

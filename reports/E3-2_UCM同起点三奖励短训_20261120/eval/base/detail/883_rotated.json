@@ -1,0 +1,110 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "883.tif",
+  "row": 84,
+  "rgb_sha256": "e8c20ae45a2a5c694a506649140dd09e6d76993b5c62a79fd8f4ae4dbda7ce4c",
+  "view": "rotated",
+  "rendered_sha256": "cb8a29cbcef02aa32c4bd14622ce2f9bfe96f87c4b8349c2e5706f6469af88e3",
+  "query": "An aerial view of a freeway.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394840,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "overpass (0.29), freeway (0.21), intersection (0.10)",
+          "confidence": 0.2888668477535248
+        }
+      ],
+      "used": 1,
+      "hidden": "5e03036d9319adbbe82b7061de4731a1adb449393698563107d6b7cf540f6004"
+    },
+    {
+      "k": 0,
+      "seed": 394841,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "a356039709831ff74524cd0e243151f34784e4812d6a02b159e6d482e8a329d8"
+    },
+    {
+      "k": 1,
+      "seed": 394842,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "a356039709831ff74524cd0e243151f34784e4812d6a02b159e6d482e8a329d8"
+    },
+    {
+      "k": 2,
+      "seed": 394843,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "a356039709831ff74524cd0e243151f34784e4812d6a02b159e6d482e8a329d8"
+    },
+    {
+      "k": 3,
+      "seed": 394844,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "32ef2ec8704cc16c09a71dadbe8b55f5bc59418684acb40636b05e1c9fe68e0c"
+    }
+  ],
+  "sha256": "e31dca6ca98f68c76ab330f9f804d9d5d08da6833c39ef3600564e63f0919c0a"
+}

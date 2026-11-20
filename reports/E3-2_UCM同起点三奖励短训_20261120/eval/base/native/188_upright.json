@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "188.tif",
+  "row": 17,
+  "rgb_sha256": "e98408a9300fa91eda9b74480cd9770d4b17c84155eb872c276a22428f382828",
+  "view": "upright",
+  "rendered_sha256": "e98408a9300fa91eda9b74480cd9770d4b17c84155eb872c276a22428f382828",
+  "query": "There are three airplanes at the airport .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394170,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "airplane (0.37), harbor (0.08), parking lot (0.08)",
+          "confidence": 0.36952078342437744
+        }
+      ],
+      "used": 1,
+      "hidden": "68ea91eb7436db9c70746e1b530eca820a19a3a726f4791f7a22bcf2817bbaca"
+    }
+  ],
+  "sha256": "ee7b8af2077198a177137388bd74d02c72c21fc2068718b1c1ea4882fa71c807"
+}

@@ -1,0 +1,46 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "782.tif",
+  "row": 73,
+  "rgb_sha256": "6fc2f365cd18f5fd32eee647ab2724832258cbad1e56e7470cbf1e390d4860dd",
+  "view": "upright",
+  "rendered_sha256": "6fc2f365cd18f5fd32eee647ab2724832258cbad1e56e7470cbf1e390d4860dd",
+  "query": "This is a dense forest with lots of plants .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394730,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "forest (0.48), agricultural (0.07), river (0.07)",
+          "confidence": 0.48176538944244385
+        }
+      ],
+      "used": 1,
+      "hidden": "07174812168732cc46ddf2172de2e40bbb7ab810658e7b506ba51c1da5fd3436"
+    }
+  ],
+  "sha256": "5241625260dbabee4d7d32760660616b70c57196a2547c853d6ec6c8aa3dcccd"
+}

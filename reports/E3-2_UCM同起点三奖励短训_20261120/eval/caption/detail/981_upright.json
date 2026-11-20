@@ -1,0 +1,104 @@
+{
+  "model": "c8f296696ca6d0a80729635cbc0f5b70dfb82763338e1087e96cfb932ee5b192",
+  "image": "981.tif",
+  "row": 92,
+  "rgb_sha256": "3392fd7d82684ea6bb5d17015f93ffce658c455aa9fbea1c5a85b3b6977ca93e",
+  "view": "upright",
+  "rendered_sha256": "3392fd7d82684ea6bb5d17015f93ffce658c455aa9fbea1c5a85b3b6977ca93e",
+  "query": "An aerial view of a golf course.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394920,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "5d663bb80908682af097ec95d111ff46e475bde664b140b66d33a335bf1bb335"
+    },
+    {
+      "k": 0,
+      "seed": 394921,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "5d663bb80908682af097ec95d111ff46e475bde664b140b66d33a335bf1bb335"
+    },
+    {
+      "k": 1,
+      "seed": 394922,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "5d663bb80908682af097ec95d111ff46e475bde664b140b66d33a335bf1bb335"
+    },
+    {
+      "k": 2,
+      "seed": 394923,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "golf course (0.52), baseball diamond (0.08), tennis court (0.05)",
+          "confidence": 0.5176994800567627
+        }
+      ],
+      "used": 1,
+      "hidden": "f941462cdf563c7b863dd457580345208bc77b93aed578756fe8b242470b88ee"
+    },
+    {
+      "k": 3,
+      "seed": 394924,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "5d663bb80908682af097ec95d111ff46e475bde664b140b66d33a335bf1bb335"
+    }
+  ],
+  "sha256": "9fdc78d29e960f6df7091472ea831af04ce59780a914639ec45817b94c900827"
+}

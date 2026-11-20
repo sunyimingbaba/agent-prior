@@ -1,0 +1,105 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "188.tif",
+  "row": 17,
+  "rgb_sha256": "e98408a9300fa91eda9b74480cd9770d4b17c84155eb872c276a22428f382828",
+  "view": "upright",
+  "rendered_sha256": "e98408a9300fa91eda9b74480cd9770d4b17c84155eb872c276a22428f382828",
+  "query": "There are three airplanes at the airport .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394170,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644
+          ],
+          "text": " addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n addCriterion\n\n addCriterion\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "airplane (0.37), harbor (0.08), parking lot (0.08)",
+          "confidence": 0.36952078342437744
+        }
+      ],
+      "used": 1,
+      "hidden": "8bd436b6456e4e3054315e5e0be20e636f40680fe5f5f0cbce9ba86196045c7d"
+    }
+  ],
+  "sha256": "f94871acda40e505194bca85275b4ec98b7f7b71ddad4cd77fc98e6231d87f15"
+}

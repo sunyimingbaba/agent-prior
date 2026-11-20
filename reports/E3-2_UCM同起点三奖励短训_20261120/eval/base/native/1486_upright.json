@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1486.tif",
+  "row": 145,
+  "rgb_sha256": "933b78d69d4210bac186d48875eafddc3e0c8f55a11f8ea427c7b1d8ea8b126a",
+  "view": "upright",
+  "rendered_sha256": "933b78d69d4210bac186d48875eafddc3e0c8f55a11f8ea427c7b1d8ea8b126a",
+  "query": "A road go across another one diagonally .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395450,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "overpass (0.27), freeway (0.15), runway (0.07)",
+          "confidence": 0.26598605513572693
+        }
+      ],
+      "used": 1,
+      "hidden": "308b30645d3f71fd65cac81d74ce9eb8ed9a15510e8b33247d8ea55c6b304bcc"
+    }
+  ],
+  "sha256": "6cf51c04a3a91797c98ecfecd89d5ed9f80e035f0dcc67328a6aa062e0a033fb"
+}

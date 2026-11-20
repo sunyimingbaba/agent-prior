@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1188.tif",
+  "row": 118,
+  "rgb_sha256": "cef340b807a688bc90bb503dd8212020b599a4f826f2fc8be4bd1e73f16e2fe3",
+  "view": "upright",
+  "rendered_sha256": "cef340b807a688bc90bb503dd8212020b599a4f826f2fc8be4bd1e73f16e2fe3",
+  "query": "An intersection with a few cars on the road .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395180,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.50), overpass (0.09), freeway (0.07)",
+          "confidence": 0.49523913860321045
+        }
+      ],
+      "used": 1,
+      "hidden": "e2302b682f58b0b1eb2c754a0840cb6ba033bd815d400ad93fe7481555822024"
+    }
+  ],
+  "sha256": "343e218d9fca36441e26f90fd8fd1cc0bda920c3b1bf620e1ec29799da280b16"
+}

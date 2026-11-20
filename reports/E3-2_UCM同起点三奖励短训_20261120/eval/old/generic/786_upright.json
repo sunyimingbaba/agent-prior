@@ -1,0 +1,68 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "786.tif",
+  "row": 77,
+  "rgb_sha256": "1a55907e48346ce44e7a472d92cf7b7012bf81ffb45f7f67a4ab27e20eb5ccd4",
+  "view": "upright",
+  "rendered_sha256": "1a55907e48346ce44e7a472d92cf7b7012bf81ffb45f7f67a4ab27e20eb5ccd4",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394770,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            108893,
+            45930,
+            104544,
+            100902,
+            102258,
+            101065,
+            9370,
+            99440,
+            100172,
+            102184,
+            3837,
+            101137,
+            51154,
+            108704,
+            53481,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>这张图片看起来像是森林区域的航拍照片，符合查询文本描述。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "forest (0.48), agricultural (0.10), chaparral (0.06)",
+          "confidence": 0.48334014415740967
+        }
+      ],
+      "used": 1,
+      "hidden": "7fedad68513ab9bf539615a714ca336cc7c5297951fbd43396a00143476c835e"
+    }
+  ],
+  "sha256": "3b49cd0ea5f505da10cd3d54552303cde778b32833ac1008bed04c747c1e7e6d"
+}

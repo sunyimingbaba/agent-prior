@@ -1,0 +1,290 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "183.tif",
+  "row": 12,
+  "rgb_sha256": "93371c3e5cbcd5b9a0bef60fd78f40aa6f8a16fa6223294af3a5961f14f5a83c",
+  "view": "upright",
+  "rendered_sha256": "93371c3e5cbcd5b9a0bef60fd78f40aa6f8a16fa6223294af3a5961f14f5a83c",
+  "query": "An aerial view of a airport apron.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394120,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "8e0950421c9d953c8c8c5161e4dbc640584e74515b83bd4b1ac1b6235618865c"
+    },
+    {
+      "k": 0,
+      "seed": 394121,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644
+          ],
+          "text": " addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n addCriterion\n\n addCriterion\n addCriterion\n addCriterion\n\n addCriterion\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "airplane (0.56), runway (0.07), harbor (0.05)",
+          "confidence": 0.5632407665252686
+        }
+      ],
+      "used": 1,
+      "hidden": "02f29b3d1da66d7977cd8273e7f596248673f855762e943466b2ca8702d0cf5c"
+    },
+    {
+      "k": 1,
+      "seed": 394122,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            9217,
+            198,
+            785,
+            2168,
+            2213,
+            1558,
+            537,
+            16510,
+            13216,
+            458,
+            16733,
+            21049,
+            263,
+            438,
+            11223,
+            304,
+            279,
+            3239,
+            13,
+            1084,
+            7952,
+            311,
+            1473,
+            14135,
+            389,
+            1128,
+            5868,
+            1075,
+            458,
+            3720,
+            2566,
+            11,
+            714,
+            432,
+            1558,
+            537,
+            4565,
+            3322,
+            3565,
+            3151,
+            311,
+            16733,
+            21049,
+            2382,
+            320,
+            8206,
+            11136,
+            2924,
+            10416,
+            287,
+            17337,
+            11,
+            1598,
+            2284,
+            11,
+            15022,
+            13702,
+            11,
+            4992,
+            6138
+          ],
+          "text": " addCriterion\nanswer\nThe image content does not strongly indicate an airport apron as requested in the query. It appears to show aircraft on what looks like an airfield, but it does not feature enough details specific to airport aprons (which typically include fueling stations, runways, terminal buildings, etc.)"
+        }
+      ],
+      "events": [
+        {
+          "text": "airplane (0.56), runway (0.07), harbor (0.05)",
+          "confidence": 0.5632407665252686
+        }
+      ],
+      "used": 1,
+      "hidden": "7083f6785c08fd66558c6be5c3c27a283d30bdafc6326f78c67a147972776479"
+    },
+    {
+      "k": 2,
+      "seed": 394123,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            88174,
+            25,
+            342,
+            80,
+            24,
+            71,
+            22,
+            70,
+            151645
+          ],
+          "text": "GuidId: gq9h7g"
+        }
+      ],
+      "events": [
+        {
+          "text": "airplane (0.56), runway (0.07), harbor (0.05)",
+          "confidence": 0.5632407665252686
+        }
+      ],
+      "used": 1,
+      "hidden": "8afc1d3e090a2f7549757a96804759f86e104d9da3904bb6c504f00f744d295f"
+    },
+    {
+      "k": 3,
+      "seed": 394124,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            88174,
+            32,
+            20,
+            151645
+          ],
+          "text": "GuidIdA5"
+        }
+      ],
+      "events": [
+        {
+          "text": "airplane (0.56), runway (0.07), harbor (0.05)",
+          "confidence": 0.5632407665252686
+        }
+      ],
+      "used": 1,
+      "hidden": "bb6673779dbcc92b257b7e0827f011870972f11727268e22e36cf8f477237527"
+    }
+  ],
+  "sha256": "a63039333a8a990eb3b15cee7d8e4cbe4629a03fd27a7c6ffa5b4606c907ec9f"
+}

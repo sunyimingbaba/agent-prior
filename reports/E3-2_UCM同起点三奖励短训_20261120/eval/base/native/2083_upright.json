@@ -1,0 +1,46 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "2083.tif",
+  "row": 202,
+  "rgb_sha256": "f0051cdc7cea1a5a1877026e4c29c829df1b9833ec424086cb1f4bcb40177307",
+  "view": "upright",
+  "rendered_sha256": "f0051cdc7cea1a5a1877026e4c29c829df1b9833ec424086cb1f4bcb40177307",
+  "query": "A tennis court next to a basketball court with some plants and buildings beside .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 396020,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "tennis court (0.27), dense residential (0.14), medium residential (0.10)",
+          "confidence": 0.26562756299972534
+        }
+      ],
+      "used": 1,
+      "hidden": "2612f8487faf1ed6990f1cc1bd15d72e2d836395e372a77d995d5845dcf1a746"
+    }
+  ],
+  "sha256": "26599e2822a4945f2ce8ed6308c1f9c03cf1a28c1284d75b0f31e20de5900a0e"
+}

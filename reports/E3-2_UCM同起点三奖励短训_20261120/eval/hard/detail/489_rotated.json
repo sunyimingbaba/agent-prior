@@ -1,0 +1,122 @@
+{
+  "model": "b995fa858f120a74aab5fc95a54dfcb8ec408f20c441a00bd84918da34550606",
+  "image": "489.tif",
+  "row": 47,
+  "rgb_sha256": "cf22738865b4efc2412014b5d3d43e3c1263953649b3eff0f5fc4613f9ebfc8c",
+  "view": "rotated",
+  "rendered_sha256": "4046d99894fbcdcf18ee40432a5686ebf10324f8f8ae12229f594840f3aab338",
+  "query": "An aerial view of a industrial area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394470,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "95eff0abcff210794b45c5d7168dd94259d53b29852207e74f0651dbb835baa3"
+    },
+    {
+      "k": 0,
+      "seed": 394471,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151657,
+            151645
+          ],
+          "text": "<tool_call>"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.29), mobile home park (0.11), storage tanks (0.08)",
+          "confidence": 0.28575897216796875
+        }
+      ],
+      "used": 1,
+      "hidden": "f436c5f9b2dee8efb004bd8ee614d86bc3fe5a4fecdb9f7fbde69f2e990b04a8"
+    },
+    {
+      "k": 1,
+      "seed": 394472,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "95eff0abcff210794b45c5d7168dd94259d53b29852207e74f0651dbb835baa3"
+    },
+    {
+      "k": 2,
+      "seed": 394473,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "95eff0abcff210794b45c5d7168dd94259d53b29852207e74f0651dbb835baa3"
+    },
+    {
+      "k": 3,
+      "seed": 394474,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.29), mobile home park (0.11), storage tanks (0.08)",
+          "confidence": 0.28575897216796875
+        }
+      ],
+      "used": 1,
+      "hidden": "8e0f64d1a41eece3b18454677db3126fc571699bd3ca76e07e3f88f32856df9b"
+    }
+  ],
+  "sha256": "ded4634de5e5936b58c6ef541d4223a12c7bc949846e5cc5acde16b1c75c9642"
+}

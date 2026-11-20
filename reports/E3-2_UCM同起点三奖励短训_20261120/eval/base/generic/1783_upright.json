@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1783.tif",
+  "row": 172,
+  "rgb_sha256": "bf6007266bdae30d830dbbf7ec06dc05ae04d9846aea4250cca7e00b784cea7a",
+  "view": "upright",
+  "rendered_sha256": "bf6007266bdae30d830dbbf7ec06dc05ae04d9846aea4250cca7e00b784cea7a",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395720,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "runway (0.40), airplane (0.10), freeway (0.06)",
+          "confidence": 0.4029291272163391
+        }
+      ],
+      "used": 1,
+      "hidden": "8b819b75d86b0bd6e9dbc2d6ede39d63dc0e39e7d48cf98c7ec7411118c7a898"
+    }
+  ],
+  "sha256": "21fde27e04209d2113a950762f36fe1aee2fc508ea688fe328d5a760dd644746"
+}

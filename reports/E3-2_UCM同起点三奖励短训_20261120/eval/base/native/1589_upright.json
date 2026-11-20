@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1589.tif",
+  "row": 158,
+  "rgb_sha256": "d16d9fe01f6566ccc9217f6db38dd1e3448021c9470bfea08a930c1b026eb64c",
+  "view": "upright",
+  "rendered_sha256": "d16d9fe01f6566ccc9217f6db38dd1e3448021c9470bfea08a930c1b026eb64c",
+  "query": "Lots of cars are densely arranged in the parking lot .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395580,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "parking lot (0.43), harbor (0.06), airplane (0.05)",
+          "confidence": 0.4251779615879059
+        }
+      ],
+      "used": 1,
+      "hidden": "3cf8cdb1dd41e602afbfcc3c2fcc9214e9387543378ff150c289d7a0dd585dcb"
+    }
+  ],
+  "sha256": "269c8885d1fae838c73faa100ff4380af6daa7feb8d4026cf77056602374b40b"
+}

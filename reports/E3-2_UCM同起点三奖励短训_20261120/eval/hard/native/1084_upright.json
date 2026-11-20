@@ -1,0 +1,44 @@
+{
+  "model": "b995fa858f120a74aab5fc95a54dfcb8ec408f20c441a00bd84918da34550606",
+  "image": "1084.tif",
+  "row": 105,
+  "rgb_sha256": "03c385dd773885986f6c076606550b6080e86283bdd56ed75f371551d3807ac1",
+  "view": "upright",
+  "rendered_sha256": "03c385dd773885986f6c076606550b6080e86283bdd56ed75f371551d3807ac1",
+  "query": "Lots of boats docked at the harbor and the water is deep blue .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395050,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "harbor (0.51), beach (0.06), agricultural (0.04)",
+          "confidence": 0.5070884823799133
+        }
+      ],
+      "used": 1,
+      "hidden": "1f5900f44acefb7c6e0648cdb3ab327f93ea2fd098da386a9e528e03af7f67d2"
+    }
+  ],
+  "sha256": "07b7366331b703179aebbf9c5d9f8d0bfd4d270163a52aab053e6a39ecdda6d4"
+}

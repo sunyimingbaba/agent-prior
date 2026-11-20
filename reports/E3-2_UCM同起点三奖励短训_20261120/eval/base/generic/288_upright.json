@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "288.tif",
+  "row": 26,
+  "rgb_sha256": "fb296139aca7bf6a53eee9c7f692563d096641ee5523d606fabbbc92d404fb31",
+  "view": "upright",
+  "rendered_sha256": "fb296139aca7bf6a53eee9c7f692563d096641ee5523d606fabbbc92d404fb31",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394260,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "baseball diamond (0.63), golf course (0.04), storage tanks (0.03)",
+          "confidence": 0.6265051960945129
+        }
+      ],
+      "used": 1,
+      "hidden": "c1256c407521d3e495923a561f452dce1d038b4e4e3352ce22f2590ebd29400c"
+    }
+  ],
+  "sha256": "ce8f1ddc70c7d9a92ab06f471073d7f47d84264a0353eda1e52b2a5d520f510b"
+}

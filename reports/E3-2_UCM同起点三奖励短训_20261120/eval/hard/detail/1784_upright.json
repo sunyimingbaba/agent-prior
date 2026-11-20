@@ -1,0 +1,106 @@
+{
+  "model": "b995fa858f120a74aab5fc95a54dfcb8ec408f20c441a00bd84918da34550606",
+  "image": "1784.tif",
+  "row": 173,
+  "rgb_sha256": "c1ae5b65a8d982bf59c5bc4edcb26bff30e8f065073bd09636b957253bfd9d21",
+  "view": "upright",
+  "rendered_sha256": "c1ae5b65a8d982bf59c5bc4edcb26bff30e8f065073bd09636b957253bfd9d21",
+  "query": "An aerial view of a runway.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395730,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "588d6ad024d3d85092ad88dd21f92efd00431e25391c1ef0f44fb9769c2d2620"
+    },
+    {
+      "k": 0,
+      "seed": 395731,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "588d6ad024d3d85092ad88dd21f92efd00431e25391c1ef0f44fb9769c2d2620"
+    },
+    {
+      "k": 1,
+      "seed": 395732,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "588d6ad024d3d85092ad88dd21f92efd00431e25391c1ef0f44fb9769c2d2620"
+    },
+    {
+      "k": 2,
+      "seed": 395733,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "588d6ad024d3d85092ad88dd21f92efd00431e25391c1ef0f44fb9769c2d2620"
+    },
+    {
+      "k": 3,
+      "seed": 395734,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "runway (0.32), airplane (0.09), freeway (0.05)",
+          "confidence": 0.31851765513420105
+        }
+      ],
+      "used": 1,
+      "hidden": "ebdcd3572a8906d04707742fba506a6e50eb85d29d705c9dbeb23c96943ca9ac"
+    }
+  ],
+  "sha256": "5974652f007e99aed91024a153f7547596cf3327c2642fd6c3d05e25216d1252"
+}

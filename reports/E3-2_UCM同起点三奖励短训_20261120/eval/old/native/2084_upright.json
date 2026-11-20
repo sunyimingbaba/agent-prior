@@ -1,0 +1,47 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "2084.tif",
+  "row": 203,
+  "rgb_sha256": "776617cbc4d697df95d6ca378658016f1f1a140def31657341ab28135337f5dc",
+  "view": "upright",
+  "rendered_sha256": "776617cbc4d697df95d6ca378658016f1f1a140def31657341ab28135337f5dc",
+  "query": "Two tennis courts arranged neatly with some plants surrounded .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 396030,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            151645
+          ],
+          "text": "\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "tennis court (0.40), dense residential (0.12), medium residential (0.08)",
+          "confidence": 0.39975234866142273
+        }
+      ],
+      "used": 1,
+      "hidden": "dc1c8ae1a78802676536d6ba2599d6d8b2d49785eb7dac5573fbe7dce3158df3"
+    }
+  ],
+  "sha256": "89ed03a039583e101669b02dd92133875eb152fd0e8e132b8a960ba8c54e7dd4"
+}

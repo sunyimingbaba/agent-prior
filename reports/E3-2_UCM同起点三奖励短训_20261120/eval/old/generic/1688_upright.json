@@ -1,0 +1,68 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1688.tif",
+  "row": 167,
+  "rgb_sha256": "e6c905ae878ed9ba22685c64eb66bf29ecaeaa26c77333c0771eee4f15b8f854",
+  "view": "upright",
+  "rendered_sha256": "e6c905ae878ed9ba22685c64eb66bf29ecaeaa26c77333c0771eee4f15b8f854",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395670,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            99440,
+            100172,
+            102184,
+            3837,
+            54021,
+            99593,
+            38989,
+            103274,
+            33108,
+            109292,
+            118386,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中是一张航拍照片，显示了一条河流和周围的植被。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "river (0.32), forest (0.11), beach (0.07)",
+          "confidence": 0.31659629940986633
+        }
+      ],
+      "used": 1,
+      "hidden": "8f82ba932908e5a1c4f5e922ac3c2ded1a3d5ad15ad7768eaf727c8aca20b80f"
+    }
+  ],
+  "sha256": "6868f2a07489ade78e94757b125073f5d36880fd4adeceb05b01f630e96b6436"
+}

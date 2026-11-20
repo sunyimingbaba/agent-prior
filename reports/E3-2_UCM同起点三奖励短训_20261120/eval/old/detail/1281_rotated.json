@@ -1,0 +1,175 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1281.tif",
+  "row": 120,
+  "rgb_sha256": "d543696782d651a93ee50284b5ee29a702be06b1e397027062de132919e468c6",
+  "view": "rotated",
+  "rendered_sha256": "b4d5fc15cd34449d96a7fb741a9ec9fbbb7c3c9b6dda12c18e31ede9d7653954",
+  "query": "An aerial view of a residential area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395200,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            54021,
+            100146,
+            46944,
+            104547,
+            23836,
+            9370,
+            100462,
+            121751,
+            28029,
+            3837,
+            101137,
+            51154,
+            108704,
+            53481,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中显示的是一个住宅区的鸟瞰图，符合查询文本描述。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.20), sparse residential (0.15), dense residential (0.12)",
+          "confidence": 0.19683288037776947
+        }
+      ],
+      "used": 1,
+      "hidden": "4b27763cfe64b42a9072d9654df041a1b23f2a03ef7dc5f506a8346c8ccf8292"
+    },
+    {
+      "k": 0,
+      "seed": 395201,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "e2b063ab240c15e5c54eb272fa7a634bfec24c0a3a34b0aa9ada32bee736297a"
+    },
+    {
+      "k": 1,
+      "seed": 395202,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.20), sparse residential (0.15), dense residential (0.12)",
+          "confidence": 0.19683288037776947
+        }
+      ],
+      "used": 1,
+      "hidden": "9b1743f8d3b9596750334863d9f8c73b6a86192ead493ec51f1cdba9c1efdb32"
+    },
+    {
+      "k": 2,
+      "seed": 395203,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            3489,
+            416,
+            11234,
+            29022,
+            497,
+            330,
+            2514,
+            899,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion (\"residential-area\", \"True\")"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "0a4eb753403365f09a770bfd36462587bad435f7647c06e2d5c14da7cdf2cd9d"
+    },
+    {
+      "k": 3,
+      "seed": 395204,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.20), sparse residential (0.15), dense residential (0.12)",
+          "confidence": 0.19683288037776947
+        }
+      ],
+      "used": 1,
+      "hidden": "473cb2121af0932e5db1b1df7ee2206bb5625eec69d8add2e0c855ddfc215702"
+    }
+  ],
+  "sha256": "adbff44bd61d6681674f067edcddbde5ad68b850def1c634e3bb92827dac39f2"
+}

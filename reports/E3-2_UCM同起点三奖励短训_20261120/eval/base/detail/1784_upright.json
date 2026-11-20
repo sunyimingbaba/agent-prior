@@ -1,0 +1,150 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1784.tif",
+  "row": 173,
+  "rgb_sha256": "c1ae5b65a8d982bf59c5bc4edcb26bff30e8f065073bd09636b957253bfd9d21",
+  "view": "upright",
+  "rendered_sha256": "c1ae5b65a8d982bf59c5bc4edcb26bff30e8f065073bd09636b957253bfd9d21",
+  "query": "An aerial view of a runway.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395730,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "runway (0.32), airplane (0.09), freeway (0.05)",
+          "confidence": 0.31851765513420105
+        }
+      ],
+      "used": 1,
+      "hidden": "d618518da8f139fb518c89f3c9987d6da69fe26ff14c240e6c51be65ac84b96f"
+    },
+    {
+      "k": 0,
+      "seed": 395731,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            445,
+            101276,
+            116925,
+            497,
+            330,
+            86615,
+            497,
+            330,
+            6108,
+            3117,
+            899,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion(\"航空术语\", \"airport\", \"runway\")"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "cd0ac907a40685c968b92f6a56b69a01c3fbbe6ae1c0295094ad4c091d17d450"
+    },
+    {
+      "k": 1,
+      "seed": 395732,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "27434d4243583fe50fc17ebdc74a6141eeaa97721d6f549aa68df5362e3d5fcb"
+    },
+    {
+      "k": 2,
+      "seed": 395733,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "e84c28fe307458c507ce8a775f989e1e02f8fc17b890d75e72b1a9a4bd24d90f"
+    },
+    {
+      "k": 3,
+      "seed": 395734,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "runway (0.32), airplane (0.09), freeway (0.05)",
+          "confidence": 0.31851765513420105
+        }
+      ],
+      "used": 1,
+      "hidden": "d618518da8f139fb518c89f3c9987d6da69fe26ff14c240e6c51be65ac84b96f"
+    }
+  ],
+  "sha256": "65f38b435905096972382d6b086d513e4725b5fc31b5fac69cbb39431be8f6f7"
+}

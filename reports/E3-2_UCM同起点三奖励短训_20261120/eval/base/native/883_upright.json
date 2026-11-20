@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "883.tif",
+  "row": 84,
+  "rgb_sha256": "e8c20ae45a2a5c694a506649140dd09e6d76993b5c62a79fd8f4ae4dbda7ce4c",
+  "view": "upright",
+  "rendered_sha256": "e8c20ae45a2a5c694a506649140dd09e6d76993b5c62a79fd8f4ae4dbda7ce4c",
+  "query": "Two straight freeways parrallel forward .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394840,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "overpass (0.28), freeway (0.26), intersection (0.08)",
+          "confidence": 0.27949854731559753
+        }
+      ],
+      "used": 1,
+      "hidden": "578cf690472777c514da416b395e805973bb22344c56c167df72316c15e7e2f8"
+    }
+  ],
+  "sha256": "5d5ac5ff465c3027ad0526bb1a4d31b9a030f9c1d330958992ffce8fb1ac70db"
+}

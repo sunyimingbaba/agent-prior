@@ -1,0 +1,68 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "386.tif",
+  "row": 34,
+  "rgb_sha256": "b7c5d2ef37c9848c4ce67681662ecb6887d36ebf4cd7a374300d591b19c167b6",
+  "view": "upright",
+  "rendered_sha256": "b7c5d2ef37c9848c4ce67681662ecb6887d36ebf4cd7a374300d591b19c167b6",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394340,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            9217,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            113341,
+            9370,
+            99440,
+            100172,
+            102184,
+            3837,
+            101137,
+            51154,
+            108704,
+            53481,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": " addCriterion\nanswer\n<answer>图中是一张海滩的航拍照片，符合查询文本描述。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "beach (0.41), harbor (0.06), chaparral (0.05)",
+          "confidence": 0.40841957926750183
+        }
+      ],
+      "used": 1,
+      "hidden": "1f6c666d5641005768d0e421f4c4e3635bc326be829c6eb3f1bf2b217096cf2d"
+    }
+  ],
+  "sha256": "c63f6688f231c425d357e727766f381344f3bbb2c6f1edcb3b09068cac6c7746"
+}

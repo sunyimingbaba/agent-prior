@@ -1,0 +1,102 @@
+{
+  "model": "b995fa858f120a74aab5fc95a54dfcb8ec408f20c441a00bd84918da34550606",
+  "image": "1281.tif",
+  "row": 120,
+  "rgb_sha256": "d543696782d651a93ee50284b5ee29a702be06b1e397027062de132919e468c6",
+  "view": "upright",
+  "rendered_sha256": "d543696782d651a93ee50284b5ee29a702be06b1e397027062de132919e468c6",
+  "query": "An aerial view of a residential area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395200,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "6cef360aa9639277a2c315eb3c07956c5a9530ecd6ab72dc3af253f3fd976d02"
+    },
+    {
+      "k": 0,
+      "seed": 395201,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "6cef360aa9639277a2c315eb3c07956c5a9530ecd6ab72dc3af253f3fd976d02"
+    },
+    {
+      "k": 1,
+      "seed": 395202,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "6cef360aa9639277a2c315eb3c07956c5a9530ecd6ab72dc3af253f3fd976d02"
+    },
+    {
+      "k": 2,
+      "seed": 395203,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "6cef360aa9639277a2c315eb3c07956c5a9530ecd6ab72dc3af253f3fd976d02"
+    },
+    {
+      "k": 3,
+      "seed": 395204,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.19), sparse residential (0.18), dense residential (0.10)",
+          "confidence": 0.1945239007472992
+        }
+      ],
+      "used": 1,
+      "hidden": "8e25e1a616e08bed7ab55986b14a817fdbc8a4e5d560c0c832fc64e77f6288f3"
+    }
+  ],
+  "sha256": "344518db9ac1bff8a4b866058b18dd663b2c1069c1f1d57e488c4b57185fa957"
+}

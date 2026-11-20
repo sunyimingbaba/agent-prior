@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1283.tif",
+  "row": 122,
+  "rgb_sha256": "b0e121b14f74a10dbd17a4e3b439bb2194a085fc4723aa61564c50b5e397edc3",
+  "view": "upright",
+  "rendered_sha256": "b0e121b14f74a10dbd17a4e3b439bb2194a085fc4723aa61564c50b5e397edc3",
+  "query": "It is a medium residential area .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395220,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.23), dense residential (0.19), sparse residential (0.10)",
+          "confidence": 0.2256586104631424
+        }
+      ],
+      "used": 1,
+      "hidden": "37b97940ead1c342fa96463ce68970b95be561adf9493a038c9fc8f521febda2"
+    }
+  ],
+  "sha256": "d4b12bdf9b6e12639d894158a1340b13ee06f3e74ddff67441982fbfec7c4f43"
+}

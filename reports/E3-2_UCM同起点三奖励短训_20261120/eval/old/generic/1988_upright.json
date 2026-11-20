@@ -1,0 +1,61 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1988.tif",
+  "row": 197,
+  "rgb_sha256": "9f5beb7b3d0cab5840e7d4b38082c2e902ea06d7895a45cb895e1c9c5ca5737c",
+  "view": "upright",
+  "rendered_sha256": "9f5beb7b3d0cab5840e7d4b38082c2e902ea06d7895a45cb895e1c9c5ca5737c",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395970,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            9217,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            99440,
+            100172,
+            102184,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": " addCriterion\nanswer\n<answer>图中是一张航拍照片。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "storage tanks (0.40), baseball diamond (0.05), buildings (0.05)",
+          "confidence": 0.4001440107822418
+        }
+      ],
+      "used": 1,
+      "hidden": "f887e2b034d33c49e33797467a5bc662b57ec83a4bdf9056336d7928a4fe015c"
+    }
+  ],
+  "sha256": "79dfd8515cec9483d373013d0582d0d6de3645fb88b9e936ddd23ca0c5ac1335"
+}

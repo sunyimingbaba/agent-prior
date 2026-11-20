@@ -1,0 +1,46 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "488.tif",
+  "row": 46,
+  "rgb_sha256": "806a1e2ac5506265796c749de7b9cef601713fb2b5bc0443e257ead79dd8ba29",
+  "view": "upright",
+  "rendered_sha256": "806a1e2ac5506265796c749de7b9cef601713fb2b5bc0443e257ead79dd8ba29",
+  "query": "There are some buildings with grey roofs .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394460,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.16), storage tanks (0.09), mobile home park (0.07)",
+          "confidence": 0.15623703598976135
+        }
+      ],
+      "used": 1,
+      "hidden": "f7e00e34aaa185553ed9e4d08c1196e3f8b7201a5a09c7a1a96034c4eaa14a78"
+    }
+  ],
+  "sha256": "4ea2199170fdb63bfb0b3d1baa0f44b8b181227824b12e84a27b1c1ff8deef78"
+}

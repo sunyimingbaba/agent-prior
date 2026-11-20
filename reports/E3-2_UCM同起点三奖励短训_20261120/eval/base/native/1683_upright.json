@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1683.tif",
+  "row": 162,
+  "rgb_sha256": "832a13e1c3899e9aa47e16b6cfa119b0e166add97ce559482e7d44ff4060d1b4",
+  "view": "upright",
+  "rendered_sha256": "832a13e1c3899e9aa47e16b6cfa119b0e166add97ce559482e7d44ff4060d1b4",
+  "query": "It is a river with some plants on one bank and sands on the other side .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395620,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "river (0.27), chaparral (0.09), beach (0.08)",
+          "confidence": 0.27336618304252625
+        }
+      ],
+      "used": 1,
+      "hidden": "94771fa0c2a36a2b97f9280f18123d9336828f5bd3772a5023ea02889b20913c"
+    }
+  ],
+  "sha256": "054da99eb0961937c6faf8a150ca7c1233508ce7f08e9744facc8ff687da3b98"
+}

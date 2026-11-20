@@ -1,0 +1,134 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1188.tif",
+  "row": 118,
+  "rgb_sha256": "cef340b807a688bc90bb503dd8212020b599a4f826f2fc8be4bd1e73f16e2fe3",
+  "view": "rotated",
+  "rendered_sha256": "62b536351eb59df282281263145287a8bcc08c26af195d67c05fd2ae06214cc1",
+  "query": "An aerial view of a road intersection.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395180,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.46), overpass (0.08), freeway (0.08)",
+          "confidence": 0.4615599811077118
+        }
+      ],
+      "used": 1,
+      "hidden": "8ac71109cb875afc36e4bee6d093542223edcaa1f0478bea6fcae5699907c026"
+    },
+    {
+      "k": 0,
+      "seed": 395181,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "\n addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.46), overpass (0.08), freeway (0.08)",
+          "confidence": 0.4615599811077118
+        }
+      ],
+      "used": 1,
+      "hidden": "25ccaddbbc973c5e6d39e3045d5648db158c660cc7c474ec44cc217c5f90650b"
+    },
+    {
+      "k": 1,
+      "seed": 395182,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "8dd7855824b244342b1bb601c8f50f54b0c9e3321d9241f38eaa06efb618874b"
+    },
+    {
+      "k": 2,
+      "seed": 395183,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "scene_classify"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "149df8af098d86e1dd62f629cda0f3db3143873f83888a89f38ee64337bc94d1"
+    },
+    {
+      "k": 3,
+      "seed": 395184,
+      "rounds": [
+        {
+          "ids": [
+            151644,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "scene_classify\n addCriterion"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "db199d749581e7b0ccc486160705894715a7c827dcadfec2077290d05c861d8a"
+    }
+  ],
+  "sha256": "15267542e744a584738333581f8388d58593d60a10e570c0757fac3d2b1dcb7e"
+}

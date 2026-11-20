@@ -1,0 +1,73 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1983.tif",
+  "row": 192,
+  "rgb_sha256": "7ca60533f6615e71e0bc77df4d50f12823fe76a88f63cf7abbf818ca001cbf54",
+  "view": "upright",
+  "rendered_sha256": "7ca60533f6615e71e0bc77df4d50f12823fe76a88f63cf7abbf818ca001cbf54",
+  "query": "A storage tank with some houses and plants beside .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395920,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            80443,
+            54021,
+            46944,
+            106646,
+            104176,
+            33108,
+            104155,
+            9370,
+            99871,
+            105240,
+            1773,
+            87267,
+            85106,
+            100111,
+            92894,
+            101065,
+            57191,
+            107553,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中没有显示一个带有房屋和植物的储罐。可能需要查看其他区域或图像。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.24), medium residential (0.09), storage tanks (0.08)",
+          "confidence": 0.23901355266571045
+        }
+      ],
+      "used": 1,
+      "hidden": "f105edbf690793254eec42b37674f5e257e5e980392ca7ff4220c5c5e7a19a65"
+    }
+  ],
+  "sha256": "fa971b99b77172e537a4b818ed1776deeb1941caa577627f100838efd00744c5"
+}

@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "283.tif",
+  "row": 21,
+  "rgb_sha256": "9c06b2f4827ce0cdffad72be3a1fd87a6c943bac87882e8626b76c636d742df2",
+  "view": "upright",
+  "rendered_sha256": "9c06b2f4827ce0cdffad72be3a1fd87a6c943bac87882e8626b76c636d742df2",
+  "query": "This is a old baseball diamond .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394210,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "baseball diamond (0.68), golf course (0.04), sparse residential (0.04)",
+          "confidence": 0.6794718503952026
+        }
+      ],
+      "used": 1,
+      "hidden": "f556de66a7897616c34acc994c1c1e1af68fa92eb23be9353a413032f529a66b"
+    }
+  ],
+  "sha256": "dce7e7176f9b90d60a02c63bcda75a7c71b8a205eceb385f78b3710303382c92"
+}

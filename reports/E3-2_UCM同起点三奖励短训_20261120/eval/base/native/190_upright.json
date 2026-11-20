@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "190.tif",
+  "row": 18,
+  "rgb_sha256": "f392eae7958a5dbc11d750f4fb696f4a40e7bad4c67f391404001c7cc5698de1",
+  "view": "upright",
+  "rendered_sha256": "f392eae7958a5dbc11d750f4fb696f4a40e7bad4c67f391404001c7cc5698de1",
+  "query": "There are two airplanes at the airport .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394180,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "airplane (0.34), runway (0.14), storage tanks (0.06)",
+          "confidence": 0.34083065390586853
+        }
+      ],
+      "used": 1,
+      "hidden": "766ffcc629ef15fa72af03feda7f6aa9212a41e80a5c3c952c792a7e09d5ef6f"
+    }
+  ],
+  "sha256": "f2c6d7c916aa1dd2bde82b4d9a1a448ea623ecbfb884a60edbd1fb96bb021b47"
+}

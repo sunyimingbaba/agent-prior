@@ -1,0 +1,70 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "483.tif",
+  "row": 41,
+  "rgb_sha256": "eb1b5073132583f1f23d4a33164e9a1e776deb89d8a006ab70243ac0b8cfd410",
+  "view": "upright",
+  "rendered_sha256": "eb1b5073132583f1f23d4a33164e9a1e776deb89d8a006ab70243ac0b8cfd410",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394410,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            99440,
+            100172,
+            102184,
+            3837,
+            54021,
+            34187,
+            108900,
+            5373,
+            107862,
+            33108,
+            105807,
+            104547,
+            23836,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中是一张航拍照片，显示了建筑物、停车场和密集住宅区。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.31), parking lot (0.12), dense residential (0.06)",
+          "confidence": 0.3139267563819885
+        }
+      ],
+      "used": 1,
+      "hidden": "63c898ba01ed8dbf89dfe64e7f4324e9393572a0462bccbf0371bcec8448b959"
+    }
+  ],
+  "sha256": "8059e71d1dbaf99d6fb9a1cc3aa623188c3fdd5fec32c67fcc43c7f17efcb167"
+}

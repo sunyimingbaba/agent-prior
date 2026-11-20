@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1681.tif",
+  "row": 160,
+  "rgb_sha256": "0d0d7eeb69499f80a85fa7fa626f3cd9592ad218db3baec28c2fa5fd02fd7e77",
+  "view": "upright",
+  "rendered_sha256": "0d0d7eeb69499f80a85fa7fa626f3cd9592ad218db3baec28c2fa5fd02fd7e77",
+  "query": "It is a river with some plants on one bank and roads on the other side .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395600,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "river (0.19), chaparral (0.08), freeway (0.08)",
+          "confidence": 0.18934713304042816
+        }
+      ],
+      "used": 1,
+      "hidden": "6dd807efafd8ee6fe4d5d2815bedd6bdbdded387a24cee426ef4b3153cc90291"
+    }
+  ],
+  "sha256": "623b21da3d045ee2f32641378fe79d4d1c9c96959cb91b7c0037e9875b919de2"
+}

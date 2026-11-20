@@ -1,0 +1,124 @@
+{
+  "model": "b995fa858f120a74aab5fc95a54dfcb8ec408f20c441a00bd84918da34550606",
+  "image": "389.tif",
+  "row": 37,
+  "rgb_sha256": "daa1e7e87ee9145cf303052388af34df3cf209f6c262523be0d1c2ef7afabd88",
+  "view": "rotated",
+  "rendered_sha256": "d291c7c4da38fc626ba994f1cf32ef0c010b3c8a2b39add1be20ee10edce884f",
+  "query": "An aerial view of a beach.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394370,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "9cab61d942bc1c8322332988dad947bfad276b499b31943c0a7acdc3bce14aba"
+    },
+    {
+      "k": 0,
+      "seed": 394371,
+      "rounds": [
+        {
+          "ids": [
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            54021,
+            34187,
+            112191,
+            9370,
+            113341,
+            109398,
+            3837,
+            101137,
+            103008,
+            51154,
+            34859,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "<answer>图中显示了开阔的海滩景色，符合提供的查询请求。</answer>"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "7adc3a4b7d808ef343c0ae03c7bdc7ed1f2a549b66e6b83d18a8aaaeba1a63e9"
+    },
+    {
+      "k": 1,
+      "seed": 394372,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "9cab61d942bc1c8322332988dad947bfad276b499b31943c0a7acdc3bce14aba"
+    },
+    {
+      "k": 2,
+      "seed": 394373,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151644,
+            198,
+            18724,
+            151645
+          ],
+          "text": "<tool_call>scene_classify\n addCriterion"
+        },
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [
+        {
+          "text": "beach (0.43), harbor (0.07), chaparral (0.06)",
+          "confidence": 0.43357276916503906
+        }
+      ],
+      "used": 1,
+      "hidden": "e9515ce06490e3eba8698f3e0fc0dd430e82dac94744dce304bd710ea223d901"
+    },
+    {
+      "k": 3,
+      "seed": 394374,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "9cab61d942bc1c8322332988dad947bfad276b499b31943c0a7acdc3bce14aba"
+    }
+  ],
+  "sha256": "e5e3e45cef0d9d4a7079bc84d1645b836a9e54b5c76aa583574e3eaac43d85c6"
+}

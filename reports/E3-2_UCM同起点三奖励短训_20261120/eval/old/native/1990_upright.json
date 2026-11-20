@@ -1,0 +1,68 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1990.tif",
+  "row": 199,
+  "rgb_sha256": "b34c696b0d5812a1cf9af56e2484ad8a6b97a9f25ef899e7ad5d085feb0c37ae",
+  "view": "upright",
+  "rendered_sha256": "b34c696b0d5812a1cf9af56e2484ad8a6b97a9f25ef899e7ad5d085feb0c37ae",
+  "query": "A small storage tank is on the ground .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395990,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            104133,
+            30709,
+            9370,
+            99871,
+            105240,
+            18493,
+            29490,
+            101653,
+            3837,
+            57218,
+            51154,
+            108704,
+            118338,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中有一个小的储罐在地面上，与查询文本相符。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "storage tanks (0.33), airplane (0.06), chaparral (0.06)",
+          "confidence": 0.3274112939834595
+        }
+      ],
+      "used": 1,
+      "hidden": "983fc90ac56e1f0cfbcd6d9c8f389b0b6be2d9f1eaaf8550a434d909d894189e"
+    }
+  ],
+  "sha256": "d14370c9e522f22064c351d0d11823b0b0b241baac4a18ea14acde0fe891a81a"
+}

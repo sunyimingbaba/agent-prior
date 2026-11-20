@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "184.tif",
+  "row": 13,
+  "rgb_sha256": "6fb50ab4ba3ad3c01f6d1d092683061dc4c0ebef3bbb3701be7e4a602df5daaf",
+  "view": "upright",
+  "rendered_sha256": "6fb50ab4ba3ad3c01f6d1d092683061dc4c0ebef3bbb3701be7e4a602df5daaf",
+  "query": "There is a white airplane on the runway .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394130,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "airplane (0.49), runway (0.12), freeway (0.03)",
+          "confidence": 0.4893558919429779
+        }
+      ],
+      "used": 1,
+      "hidden": "b165e7dc0cfbb308c7b92e1604fd5321d13b68d5b3e7f615f5521741ddaf5ce0"
+    }
+  ],
+  "sha256": "50d67397effca9d08f01b7c900d86af5bdbdb17297e5f825bc085173ec344bae"
+}

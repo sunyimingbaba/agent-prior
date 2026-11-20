@@ -1,0 +1,49 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "281.tif",
+  "row": 19,
+  "rgb_sha256": "b0f7c8275cd621206f8e2338609ec64f666a81c958ae6dcbd75baf9a3b8cd709",
+  "view": "upright",
+  "rendered_sha256": "b0f7c8275cd621206f8e2338609ec64f666a81c958ae6dcbd75baf9a3b8cd709",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394190,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": " addCriterion\nscene_classify"
+        }
+      ],
+      "events": [
+        {
+          "text": "baseball diamond (0.55), golf course (0.05), sparse residential (0.05)",
+          "confidence": 0.5548871755599976
+        }
+      ],
+      "used": 1,
+      "hidden": "1644d97dc89cc9aa5e6efff22c97287a1d2c30baa9d8a59edfc1e0c8212ac9e5"
+    }
+  ],
+  "sha256": "58b7a42d06725e564855a444c0bb570c029fbf872e03fe73e79358af8b8fbd5b"
+}

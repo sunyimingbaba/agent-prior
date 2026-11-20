@@ -1,0 +1,72 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1384.tif",
+  "row": 133,
+  "rgb_sha256": "5195e8e270acadda9a8d4ec93383450337e3c823cf1b56224aaf33ed7bf9ce70",
+  "view": "upright",
+  "rendered_sha256": "5195e8e270acadda9a8d4ec93383450337e3c823cf1b56224aaf33ed7bf9ce70",
+  "query": "Many mobile homes arranged neatly in the mobile home park .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395330,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            54021,
+            100146,
+            46944,
+            101148,
+            104176,
+            102077,
+            3837,
+            100694,
+            101148,
+            104176,
+            109489,
+            108467,
+            3837,
+            57218,
+            51154,
+            108704,
+            118338,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中显示的是一个移动房屋公园，许多移动房屋整齐排列，与查询文本相符。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.25), dense residential (0.18), mobile home park (0.14)",
+          "confidence": 0.24820175766944885
+        }
+      ],
+      "used": 1,
+      "hidden": "411103a1f34fca349f7433ccc35eb66e3bc6a0586fb4137df6ef4619a601bf44"
+    }
+  ],
+  "sha256": "cf5b5cfa6172484f2dc439b676f1cab23b2c61172732eec1d7a1f13db381d6f4"
+}

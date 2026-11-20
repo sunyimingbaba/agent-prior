@@ -1,0 +1,72 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1788.tif",
+  "row": 177,
+  "rgb_sha256": "fb916bb1cb9c2749e0805ec50bbbcf7002f29eb1e45b7372541cd3adcf71fd18",
+  "view": "upright",
+  "rendered_sha256": "fb916bb1cb9c2749e0805ec50bbbcf7002f29eb1e45b7372541cd3adcf71fd18",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395770,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            9217,
+            198,
+            785,
+            2168,
+            7952,
+            311,
+            387,
+            458,
+            40784,
+            10300,
+            315,
+            264,
+            5636,
+            11,
+            892,
+            5285,
+            82,
+            448,
+            279,
+            3239,
+            1467,
+            330,
+            2082,
+            40784,
+            10300,
+            1189,
+            151645
+          ],
+          "text": " addCriterion\nanswer\nThe image appears to be an aerial photograph of a road, which aligns with the query text \"An aerial photograph.\""
+        }
+      ],
+      "events": [
+        {
+          "text": "freeway (0.18), runway (0.16), chaparral (0.10)",
+          "confidence": 0.17877744138240814
+        }
+      ],
+      "used": 1,
+      "hidden": "793f4642a4c85fc9c850bb014bf06069aeafd3cee33694e5686068337f9ad264"
+    }
+  ],
+  "sha256": "db15bf70cd0f2cdb7de258a0c2524e2d50b606feb5169354eb0f0f3d2af788d6"
+}

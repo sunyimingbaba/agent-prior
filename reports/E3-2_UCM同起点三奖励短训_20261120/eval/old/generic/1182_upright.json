@@ -1,0 +1,44 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1182.tif",
+  "row": 112,
+  "rgb_sha256": "8aaf1c23c64324a09508360a5e536f756fab3e7c28979e2e23c03129bdd0b254",
+  "view": "upright",
+  "rendered_sha256": "8aaf1c23c64324a09508360a5e536f756fab3e7c28979e2e23c03129bdd0b254",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395120,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "intersection (0.52), medium residential (0.07), overpass (0.06)",
+          "confidence": 0.5170170068740845
+        }
+      ],
+      "used": 1,
+      "hidden": "484b319c9523b791be7bbe1d78d82320f9a050b213f7e449857dd97a563b8cb6"
+    }
+  ],
+  "sha256": "298aeb7beb5e303ddfdc4d227d10be4d58cb093e1fc97b752425d76a637aeb5a"
+}

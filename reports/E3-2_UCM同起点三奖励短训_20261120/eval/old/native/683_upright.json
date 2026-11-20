@@ -1,0 +1,105 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "683.tif",
+  "row": 64,
+  "rgb_sha256": "108908afa967c528cddddb28110d00b64f3e56ae4cdca73949ef4f1137e16844",
+  "view": "upright",
+  "rendered_sha256": "108908afa967c528cddddb28110d00b64f3e56ae4cdca73949ef4f1137e16844",
+  "query": "This is a dense residential area with houses and plants .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394640,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644
+          ],
+          "text": " addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n addCriterion\n\n addCriterion\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "dense residential (0.23), medium residential (0.20), mobile home park (0.12)",
+          "confidence": 0.23094001412391663
+        }
+      ],
+      "used": 1,
+      "hidden": "9cbd44850e8d5c2abb14a77a2896e474ba59eece766620f13e58b7ab3faf154b"
+    }
+  ],
+  "sha256": "7ebd50d75fbf9715fede5a0a2fbda2cd99c0c73242a5c33fa81ede9257a6ce88"
+}

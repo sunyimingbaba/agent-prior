@@ -1,0 +1,120 @@
+{
+  "model": "b995fa858f120a74aab5fc95a54dfcb8ec408f20c441a00bd84918da34550606",
+  "image": "1289.tif",
+  "row": 128,
+  "rgb_sha256": "bd279b0dd08345f1b33fe633659933166ea069eef36569d68cebb706c33a35ab",
+  "view": "upright",
+  "rendered_sha256": "bd279b0dd08345f1b33fe633659933166ea069eef36569d68cebb706c33a35ab",
+  "query": "An aerial view of a residential area.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395280,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "f9fb6feab422d72474efc976dfae4b2338f983a10fbc4e71d9fa8fdd3ed7cdb1"
+    },
+    {
+      "k": 0,
+      "seed": 395281,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "f9fb6feab422d72474efc976dfae4b2338f983a10fbc4e71d9fa8fdd3ed7cdb1"
+    },
+    {
+      "k": 1,
+      "seed": 395282,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "f9fb6feab422d72474efc976dfae4b2338f983a10fbc4e71d9fa8fdd3ed7cdb1"
+    },
+    {
+      "k": 2,
+      "seed": 395283,
+      "rounds": [
+        {
+          "ids": [
+            27,
+            9217,
+            29,
+            107553,
+            54021,
+            104059,
+            101973,
+            23836,
+            9370,
+            105438,
+            110607,
+            121751,
+            28029,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "<answer>图像显示了一个居民区的空中俯瞰图。</answer>"
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "2860ba7420423f48cb4838e4163a074bc527610dcf8a77dfaf00625b29b4ee93"
+    },
+    {
+      "k": 3,
+      "seed": 395284,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "medium residential (0.16), mobile home park (0.16), dense residential (0.13)",
+          "confidence": 0.16407716274261475
+        }
+      ],
+      "used": 1,
+      "hidden": "0636f47aa103c2c003dbff7e69a945f565f2045bb7ffcc0b0a4f852103bb49e0"
+    }
+  ],
+  "sha256": "3cd7fabbd1e8bc4ed9300d481d0ea134e111510e155bb3528d2413dcac7acfd5"
+}

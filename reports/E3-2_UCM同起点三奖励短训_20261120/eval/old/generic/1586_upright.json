@@ -1,0 +1,62 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1586.tif",
+  "row": 155,
+  "rgb_sha256": "13e50cfa0c6a2d59c470da17ab4f5ebf8a8ec02497126cb7205a3636b70f7651",
+  "view": "upright",
+  "rendered_sha256": "13e50cfa0c6a2d59c470da17ab4f5ebf8a8ec02497126cb7205a3636b70f7651",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395550,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            107862,
+            9370,
+            99440,
+            100172,
+            102184,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中是一张停车场的航拍照片。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "parking lot (0.24), agricultural (0.07), harbor (0.06)",
+          "confidence": 0.24460794031620026
+        }
+      ],
+      "used": 1,
+      "hidden": "75bc314a49c260b8b5734398bd7dee0c59d15c39d30a751619b36d20b38c3837"
+    }
+  ],
+  "sha256": "da79ce905a90c51c6dc4afcbff7253e105f731cdae106c7d0abb316111a50153"
+}

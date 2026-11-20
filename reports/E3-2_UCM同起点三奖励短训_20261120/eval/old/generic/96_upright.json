@@ -1,0 +1,65 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "96.tif",
+  "row": 5,
+  "rgb_sha256": "4dacfea4d3e96df17e843d64944524e307f8ad9f6571c470d856b697e0dbe583",
+  "view": "upright",
+  "rendered_sha256": "4dacfea4d3e96df17e843d64944524e307f8ad9f6571c470d856b697e0dbe583",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394050,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            99440,
+            100172,
+            102184,
+            3837,
+            101137,
+            51154,
+            108704,
+            53481,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中是一张航拍照片，符合查询文本描述。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "agricultural (0.49), chaparral (0.06), runway (0.06)",
+          "confidence": 0.49083104729652405
+        }
+      ],
+      "used": 1,
+      "hidden": "596189c372f5f2937de614a148510f3895e9978da18085fad81bb86cd5fd9659"
+    }
+  ],
+  "sha256": "cafef37acccb626cc79b23dc2fd1ad43c9f69bdd1ae8684fd6023b336e05c544"
+}

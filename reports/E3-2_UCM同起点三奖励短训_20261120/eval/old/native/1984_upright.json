@@ -1,0 +1,69 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1984.tif",
+  "row": 193,
+  "rgb_sha256": "a09138bdf655d0b7cecd78b9f69358389d7027f15156b7ee357470acfe0f885d",
+  "view": "upright",
+  "rendered_sha256": "a09138bdf655d0b7cecd78b9f69358389d7027f15156b7ee357470acfe0f885d",
+  "query": "A storage tank with a highway beside .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395930,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            198,
+            18724,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            104133,
+            99871,
+            105240,
+            3837,
+            102708,
+            99992,
+            38989,
+            105477,
+            3837,
+            43288,
+            57218,
+            51154,
+            108704,
+            118338,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": "\n addCriterion\n<answer>图中有一个储罐，旁边有一条高速公路，这与查询文本相符。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "storage tanks (0.18), intersection (0.09), chaparral (0.07)",
+          "confidence": 0.1839415580034256
+        }
+      ],
+      "used": 1,
+      "hidden": "ece9873a2e0754c06fc2e4df7ff883921f94b8890e46565f397b22d924f099b6"
+    }
+  ],
+  "sha256": "355041c5c24f5004ab8a729c4037e1da5958a7f6020cd9cddf8b1346e8c42d9a"
+}

@@ -1,0 +1,45 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "481.tif",
+  "row": 39,
+  "rgb_sha256": "88cfee501fbd3f9918804fb3dae6bf3eaf3adc9dc747fd92d460ed503124b240",
+  "view": "upright",
+  "rendered_sha256": "88cfee501fbd3f9918804fb3dae6bf3eaf3adc9dc747fd92d460ed503124b240",
+  "query": "There is a triangular building with grey roofs .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394390,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            151644,
+            91920,
+            151645
+          ],
+          "text": ":\".$"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.21), dense residential (0.12), intersection (0.07)",
+          "confidence": 0.2119055837392807
+        }
+      ],
+      "used": 1,
+      "hidden": "fbb241858a421c1cb96ef03fd8e8643fff307f33222e7b4755723767fc8df4d6"
+    }
+  ],
+  "sha256": "f8f18fd285398a28e382c396803b64a187faac81e365f8baed15ae58a9bab91c"
+}

@@ -1,0 +1,157 @@
+{
+  "model": "c8f296696ca6d0a80729635cbc0f5b70dfb82763338e1087e96cfb932ee5b192",
+  "image": "183.tif",
+  "row": 12,
+  "rgb_sha256": "93371c3e5cbcd5b9a0bef60fd78f40aa6f8a16fa6223294af3a5961f14f5a83c",
+  "view": "upright",
+  "rendered_sha256": "93371c3e5cbcd5b9a0bef60fd78f40aa6f8a16fa6223294af3a5961f14f5a83c",
+  "query": "An aerial view of a airport apron.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394120,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "b28e86dd8b9a8e4b315ed4ae836b5932d2ae6256eb9b0716b1e424a312026aec"
+    },
+    {
+      "k": 0,
+      "seed": 394121,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            9217,
+            198,
+            28029,
+            15946,
+            20412,
+            102165,
+            94375,
+            32648,
+            101597,
+            101913,
+            104410,
+            3837,
+            101137,
+            51154,
+            108704,
+            104272,
+            1773,
+            151645
+          ],
+          "text": " addCriterion\nanswer\n图中是机场停机坪上的飞机，符合查询文本的要求。"
+        }
+      ],
+      "events": [
+        {
+          "text": "airplane (0.56), runway (0.07), harbor (0.05)",
+          "confidence": 0.5632407665252686
+        }
+      ],
+      "used": 1,
+      "hidden": "77e344332b5442f9e83029e8cfa147a00f237ce26e4fbb4dde7fcdb3d08ad22b"
+    },
+    {
+      "k": 1,
+      "seed": 394122,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "airplane (0.56), runway (0.07), harbor (0.05)",
+          "confidence": 0.5632407665252686
+        }
+      ],
+      "used": 1,
+      "hidden": "520a3598e5565ab490c6932f244f6761fa699c3e86399f77ae1adf1aba4284bd"
+    },
+    {
+      "k": 2,
+      "seed": 394123,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "airplane (0.56), runway (0.07), harbor (0.05)",
+          "confidence": 0.5632407665252686
+        }
+      ],
+      "used": 1,
+      "hidden": "520a3598e5565ab490c6932f244f6761fa699c3e86399f77ae1adf1aba4284bd"
+    },
+    {
+      "k": 3,
+      "seed": 394124,
+      "rounds": [
+        {
+          "ids": [
+            151645
+          ],
+          "text": ""
+        }
+      ],
+      "events": [],
+      "used": 0,
+      "hidden": "b28e86dd8b9a8e4b315ed4ae836b5932d2ae6256eb9b0716b1e424a312026aec"
+    }
+  ],
+  "sha256": "ea4d99dd10339bc3a54e83503419773b2ef8281c976d2f681f216a2b820e44a4"
+}

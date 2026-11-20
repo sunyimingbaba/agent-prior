@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "482.tif",
+  "row": 40,
+  "rgb_sha256": "d3e97bb1b39678a83edb20f37619b5814a4412abaca7b633398971086ab7f59e",
+  "view": "upright",
+  "rendered_sha256": "d3e97bb1b39678a83edb20f37619b5814a4412abaca7b633398971086ab7f59e",
+  "query": "There are some buildings with white and grey roofs .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394400,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.37), parking lot (0.07), storage tanks (0.06)",
+          "confidence": 0.3671097457408905
+        }
+      ],
+      "used": 1,
+      "hidden": "d39b19205147572709fd1c3c3bfe1c32a62ed78aa020fbf56cb1206aee1085f8"
+    }
+  ],
+  "sha256": "6ed3a271d991e50c0efdd2a6c3e3c590471c943007fc5d807a24976c4baa1eb2"
+}

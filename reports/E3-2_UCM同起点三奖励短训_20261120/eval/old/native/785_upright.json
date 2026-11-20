@@ -1,0 +1,105 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "785.tif",
+  "row": 76,
+  "rgb_sha256": "d70152e6fc556d2d1aa3ac79c0f982f05c561884143a796884c77618b878d5cf",
+  "view": "upright",
+  "rendered_sha256": "d70152e6fc556d2d1aa3ac79c0f982f05c561884143a796884c77618b878d5cf",
+  "query": "This is a dense forest with lots of plants .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394760,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644,
+            198,
+            18724,
+            198,
+            151644
+          ],
+          "text": " addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n addCriterion\n\n addCriterion\n addCriterion\n addCriterion\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n"
+        }
+      ],
+      "events": [
+        {
+          "text": "forest (0.52), agricultural (0.08), river (0.06)",
+          "confidence": 0.5217880010604858
+        }
+      ],
+      "used": 1,
+      "hidden": "02962aa51640ed33c42dca0b2a2346e2b6c8e2010929b2f328576b1308903676"
+    }
+  ],
+  "sha256": "a8899c64d2f9f50379a3d7d8051259ce24c80a13b22fea9a8f6d83d9f6c3d580"
+}

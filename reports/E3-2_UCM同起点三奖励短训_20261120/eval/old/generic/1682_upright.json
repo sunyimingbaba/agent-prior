@@ -1,0 +1,66 @@
+{
+  "model": "1f4cbeb9c52c27ea207bc72336a0d29a5228e967d13d52f10003d2543d7f471a",
+  "image": "1682.tif",
+  "row": 161,
+  "rgb_sha256": "989b6211b8e9bbec7f1a13eef7d6a78bab8edf2526237c34d9d679108684add6",
+  "view": "upright",
+  "rendered_sha256": "989b6211b8e9bbec7f1a13eef7d6a78bab8edf2526237c34d9d679108684add6",
+  "query": "An aerial photograph.",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395610,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            198,
+            151644,
+            9217,
+            198,
+            27,
+            9217,
+            29,
+            28029,
+            15946,
+            99639,
+            86341,
+            99440,
+            100172,
+            102184,
+            3837,
+            101137,
+            51154,
+            108704,
+            53481,
+            37132,
+            9217,
+            29,
+            151645
+          ],
+          "text": " addCriterion\nanswer\n<answer>图中是一张航拍照片，符合查询文本描述。</answer>"
+        }
+      ],
+      "events": [
+        {
+          "text": "river (0.19), freeway (0.09), chaparral (0.09)",
+          "confidence": 0.18526315689086914
+        }
+      ],
+      "used": 1,
+      "hidden": "a4e82eac5352e46926710747a509baa8d34fefee7362a309cea1086005853d37"
+    }
+  ],
+  "sha256": "b9d57d34bb76c89533745f82f4a550d56cf07398b0e3ce953080cda3237d209a"
+}

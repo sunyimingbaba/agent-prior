@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "181.tif",
+  "row": 10,
+  "rgb_sha256": "b518b2390eed414d7fc4ea480e40f213979b63618ee5cfb9db97c5b55b383f94",
+  "view": "upright",
+  "rendered_sha256": "b518b2390eed414d7fc4ea480e40f213979b63618ee5cfb9db97c5b55b383f94",
+  "query": "There is an airplanes stopped at the airport .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394100,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "airplane (0.38), runway (0.11), harbor (0.06)",
+          "confidence": 0.375704288482666
+        }
+      ],
+      "used": 1,
+      "hidden": "beb440dc392ed4677e3006bfa13853fa531a275e2e2cfbf3ce8558c74eac33c2"
+    }
+  ],
+  "sha256": "ff6d6fc12e193fa8c6ffb6c585e5a1a56a6944f02b864fcf4789140d2b21c915"
+}

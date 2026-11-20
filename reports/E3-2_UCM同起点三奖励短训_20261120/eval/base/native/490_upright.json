@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "490.tif",
+  "row": 48,
+  "rgb_sha256": "311fb766378ab7b96bb47618852b2d5b9a4b733cc7bcd3525707fa289f2834eb",
+  "view": "upright",
+  "rendered_sha256": "311fb766378ab7b96bb47618852b2d5b9a4b733cc7bcd3525707fa289f2834eb",
+  "query": "There are some buildings with different colors of roofs .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394480,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "buildings (0.27), parking lot (0.07), mobile home park (0.06)",
+          "confidence": 0.2673119902610779
+        }
+      ],
+      "used": 1,
+      "hidden": "be599075112e6a7a2608719f99aac5743b202960c54db205a467960735defc77"
+    }
+  ],
+  "sha256": "6a29bd32295dc06047b808ca06a4b1402661c50f7919b59a4a29d66b3e748f3e"
+}

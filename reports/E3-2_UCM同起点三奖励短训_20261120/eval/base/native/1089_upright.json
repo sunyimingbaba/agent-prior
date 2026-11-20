@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "1089.tif",
+  "row": 109,
+  "rgb_sha256": "1eb522ead6522448d2aca788a4f380e378a8d7a26e47f59bb744ad74eaa68580",
+  "view": "upright",
+  "rendered_sha256": "1eb522ead6522448d2aca788a4f380e378a8d7a26e47f59bb744ad74eaa68580",
+  "query": "Lots of boats docked at the harbor and the water is deep blue .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 395090,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "harbor (0.50), beach (0.05), runway (0.04)",
+          "confidence": 0.5015181303024292
+        }
+      ],
+      "used": 1,
+      "hidden": "483454095227000be9b6181a031bd1e6ce0832750283c33f06a4ebfdab9d14c0"
+    }
+  ],
+  "sha256": "bdfb50d0783275e921053132781a5704af38282d6268e014e972b8b4ba098f3e"
+}

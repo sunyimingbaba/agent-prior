@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "984.tif",
+  "row": 95,
+  "rgb_sha256": "7b7a56edfce15bf10004f3bf12453c9f9b0b292a9a44a410ea4d9fef1986661f",
+  "view": "upright",
+  "rendered_sha256": "7b7a56edfce15bf10004f3bf12453c9f9b0b292a9a44a410ea4d9fef1986661f",
+  "query": "This is a part of a golf course with green turfs and some bunkers and a trail go through the turfs .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394950,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "golf course (0.56), tennis court (0.06), baseball diamond (0.05)",
+          "confidence": 0.5632721185684204
+        }
+      ],
+      "used": 1,
+      "hidden": "f6f87d2cffd68b5daaeb76476218d0e8bc88757082a48e5b833ada6c1b29f267"
+    }
+  ],
+  "sha256": "b8af3b295feec92a5ca5449a6f82b1908e32301b362725625d3572ee5d4b1346"
+}

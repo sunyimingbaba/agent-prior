@@ -1,0 +1,44 @@
+{
+  "model": "f84cdadb1c0cf0c74c93aaeb8a997a4c9064bc71d5a82920b05373f704126fcb",
+  "image": "587.tif",
+  "row": 55,
+  "rgb_sha256": "bbdc2b5c20867a3daba8e04dcc71383ea6321749d872b2e897efe631e69d5abc",
+  "view": "upright",
+  "rendered_sha256": "bbdc2b5c20867a3daba8e04dcc71383ea6321749d872b2e897efe631e69d5abc",
+  "query": "This is a chaparral .",
+  "traces": [
+    {
+      "k": -1,
+      "seed": 394550,
+      "rounds": [
+        {
+          "ids": [
+            151657,
+            22483,
+            4790,
+            1437,
+            151645
+          ],
+          "text": "<tool_call>scene_classify"
+        },
+        {
+          "ids": [
+            151644,
+            18724,
+            151645
+          ],
+          "text": " addCriterion"
+        }
+      ],
+      "events": [
+        {
+          "text": "chaparral (0.56), forest (0.08), agricultural (0.05)",
+          "confidence": 0.5647416114807129
+        }
+      ],
+      "used": 1,
+      "hidden": "cb1ba685f7bd437db86bae53b6bebe7115faccff047b5672c2899213434b0c57"
+    }
+  ],
+  "sha256": "ca918bec3e4db90bdd1b39bc2dfe124b9d4c1ade963ec47bcee2c95693b99e90"
+}
