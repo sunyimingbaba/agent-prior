@@ -1,0 +1,135 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "reason_code": "generation_degeneration_and_scope_constraints",
+  "summary": "保存特征的1452项独立重算及原汇总核验通过；通用AGSE为133/133单EOS，标注及样本相关性需在解释中明确。",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "agent_id": "/root/ucm_e1_baseline_audit",
+  "reviewer_model": "inherited Codex model; exact model identifier not exposed",
+  "reviewer_family": "openai",
+  "reviewer_reasoning": "inherited; exact tier not exposed",
+  "generated_at": "2026-11-20T01:52:01.864531+00:00",
+  "date": "2026-11-20",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "trace_path": "/Users/botlv/CUP-code/reports/E1_UCM试验_20261110/三类细节基线_20261120/.aris/traces/experiment-audit/2026-11-20_run01",
+  "audited_input_hashes": {
+    "inputs/cases.json": "sha256:3a4332bf73df485143771457cc75852c954615c20b29823b58d3517d4afc00e1",
+    "inputs/scored_images.json": "sha256:38bd531dc3929873e71a96089b7ad386e1008da671a15a4d09289d9e8afd050e",
+    "inputs/paired_visual_labels.tsv": "sha256:ab0d9d9393d4074716e127bd87debc227adac8a7fb7e25a9064995bb74c94d0e",
+    "asset_bindings.json": "sha256:be3b95b655bdf67e7731c2099796c414b054a2a08f85cf6789e1087290d99175",
+    "native_token_control.json": "sha256:fe096fdfcea81b2fa8eb6b9c072381d2fb3bf2cbb42750510dcf64140048d0b3",
+    "baseline_summary.csv": "sha256:d833cdde19c73bdcdf37a1bbd60a143055034eba3a2249f63cfe55062069623e",
+    "score_verification.json": "sha256:96d6c6c533b91eae802a2d8d7034d7b41766269a21d346f8441b988998c52f5b",
+    "code/prepare_images.py": "sha256:4b82e40128d157a01cc8b0a5e31a87113b3a8a2723d2b86d9826641c84967997",
+    "code/generate.py": "sha256:f3700190183042ee1506c87f75ef97dfe90b4eb5f93fb6110b79c9d900e0b6d4",
+    "code/review_pairs.py": "sha256:1414c1978d34230a2029fd4b7fd8f26665ec22c52fa3f9352785d70fb8d3992c",
+    "code/score_archived.py": "sha256:7ac47bd2e7639bc717fff935dffcd257a29009625dfedc38fd3c7b5c1a68b846",
+    "code/check_empty.py": "sha256:cc84e4e43767a5f8f174b254b570b39d9bbebf4f612223097e090ab257c733bc",
+    "code/summarize.py": "sha256:8a07c6366515062a6520a42fa3502313f98d8b5f5fc790229eeb08045b32d53f",
+    "code/build_report.py": "sha256:440541366b2f560147cb3a2b94783f5dd7585c70527464a23de6a241935c7851",
+    "code/common.py": "sha256:b82b51d37d813794a9fd2c54067a50d53dd8429f93dc078005d34addfb2b7614",
+    "code/lock_cases.py": "sha256:8239c2f6b076daceba27c7cbeee53f63a4b4ce911dec09ce9028dd912bdf88bf",
+    "code/screen_panels.py": "sha256:db26422399b54bdaefc6737270ded8c842beea45b1fcf952fa616fbeedcd0982",
+    "code/score.py": "sha256:3157ed91f7f24a1e8aea5e24eb5a09993d1b8c0419c4cd1347b53fe7f3660c5c",
+    "code/bind_sources.py": "sha256:bb7125e40c5facd3fbd9bee99bd06764aecad41186a02ef3b4a841f01c467a2c",
+    "outputs/CLIP/settings.json": "sha256:fecc7f55f0ee655a9bb7eaaa297552a2039468b7981165651b62e3537c11dedb",
+    "outputs/CUP_CCB/settings.json": "sha256:a3d454b83223800e0ce998bbac43aef4a991efeee3e51000452584583688632a",
+    "outputs/AGSE/settings.json": "sha256:80294408719dca98df6ab07a2f1cb10d973922a8a35f53191f177b4f287bbde1",
+    "outputs/ASPF/settings.json": "sha256:07fdb678efea03cadfced722ab590611b63984b62dbd7f74b53651079ec738e6",
+    "outputs/AGSE_archived/settings.json": "sha256:5ad68dd1d59eb8f3069691fbba3b767fdc15c478b9a24ce5b6082ea0e960d3f4",
+    "outputs/CLIP_legacy/settings.json": "sha256:19d20a32a332b4cf204627be9d5187f1188eba43d124d4d9f05d1f54b09551fb",
+    "outputs/CLIP/rows.json": "sha256:f7d0c1c0e88d3a3d5fd90bda5af93936f48252c0e50de1c6a8a33350d3e6fc9d",
+    "outputs/CUP_CCB/rows.json": "sha256:0963a7bcda795d6f4bc1272e4a58b681b67524b036814f5b5694f0f0c3df66a7",
+    "outputs/AGSE/rows.json": "sha256:354eacb7aa3fae629ce0b758993f159aec836db8048aef3d52be977090cc87f3",
+    "outputs/ASPF/rows.json": "sha256:b2e09cef163f1f16be73977a6be6c4986ccd98c1d4c1512362a2b9e116585fd2",
+    "outputs/AGSE_archived/rows.json": "sha256:44138b37504c23725e8a0a8f1bdc8dec1f42475701ba2f929733fab3eddc72a3",
+    "outputs/CLIP_legacy/rows.json": "sha256:6155857de40de711945ede674ace9988b8689807d1c94b27ca44f5b2ad7d33e0",
+    "outputs/CLIP/features.pt": "sha256:fe5b6a1a80cbbc56aa67166440011fb3693ce08414470e3eeeda655eebf02556",
+    "outputs/CUP_CCB/features.pt": "sha256:69a7cadca2b8fdec79df8a361cab9c81dfab4885cb4fc8bf40561ad9342ce387",
+    "outputs/AGSE/features.pt": "sha256:1d7e140a574a6039bb5fc35b59eecf4c895aa132fce65f745af4256bbe199501",
+    "outputs/ASPF/features.pt": "sha256:ed02f285c0cd9b7bee13842ed17e72a4a862fd0c6396c7442026e4e36bbaf8e6",
+    "outputs/AGSE_archived/features.pt": "sha256:8bbfeaf1db894292e52031e08fad3c7e54c52c588ade92d3fdbda0da30dc531f",
+    "outputs/CLIP_legacy/features.pt": "sha256:caf4dc6b1e434e6346320121fa6fb0f511a3be25ea0f7c13eccc2ac794fc718b",
+    "review/pairs_05.jpg": "sha256:23455843718c894640cbe6e51a0702fda1da5efabb3ef439ca46d2742d69729b",
+    "review/pairs_04.jpg": "sha256:fae39774731d82e9e850cae57f6af29826524656f6540f13296d3b84b7a26b5a",
+    "review/pairs_06.jpg": "sha256:2cd64e4c39802a1578f75c2c46a83aa5ae97a0f3c1ef7eed5ef3d89c2dd98fa3",
+    "review/pairs_03.jpg": "sha256:ee06bc1ea6ce57cd93717b85bf613af3280aa5cacbddd5a0afb3ba1128a6aa62",
+    "review/pairs_02.jpg": "sha256:e9bada8f35b53985c3cf635e3032f7a2055968397a82947602ca64e908126ea1",
+    "review/pairs_01.jpg": "sha256:908ae1e2ddb8ac1698b0efd52e409d1849c7a85acddeba376dbd2748db272b27"
+  },
+  "checks": {
+    "gt_provenance": {
+      "status": "WARN",
+      "details": "数量200项与既有用户确认清单逐项相符；属性关系42项来源明确为assistant_pixel_review，42图块视觉复核未发现明确标签反转，独立人工确认仍待完成。"
+    },
+    "score_normalization": {
+      "status": "PASS",
+      "details": "L2单位特征余弦；保存正负原始分数与差值；6组1452项重算最大差5.551115123125783e-16。"
+    },
+    "result_existence": {
+      "status": "PASS",
+      "details": "六组结果/特征/设置齐全且哈希吻合；原汇总60行计数/均值一致；原score_verification覆盖前五组1210项，新增归档条件由本审计补查。"
+    },
+    "dead_code": {
+      "status": "PASS",
+      "details": "指标函数运行输出与保存记录吻合；通用AGSE实际工具调用0，原描述六图控制5次工具调用。"
+    },
+    "scope": {
+      "status": "WARN",
+      "details": "单数据集133图（train96/val37），242评测项含同图A/B与反向配对依赖；通用AGSE133/133单EOS，历史原描述先验含语义线索。"
+    },
+    "eval_type": {
+      "status": "WARN",
+      "classification": [
+        "human_eval",
+        "synthetic_proxy"
+      ],
+      "details": "真实UCM图像上的自建诊断：用户确认数量标签与助手视觉属性/关系标签混合。"
+    }
+  },
+  "claims": [
+    {
+      "id": "saved_numeric_results",
+      "impact": "supported"
+    },
+    {
+      "id": "original_clip_vs_16_zero_visual_tokens",
+      "impact": "supported"
+    },
+    {
+      "id": "strict_loading_in_scoring_path",
+      "impact": "supported",
+      "qualification": "static source, matching archived checkpoint hashes, and completion logs; no new model load performed"
+    },
+    {
+      "id": "general_fine_grained_superiority",
+      "impact": "needs_qualifier"
+    },
+    {
+      "id": "tool_causal_benefit_from_generic_agse",
+      "impact": "unsupported"
+    },
+    {
+      "id": "242_independent_images",
+      "impact": "unsupported"
+    },
+    {
+      "id": "fully_human_verified_attribute_relation_gt",
+      "impact": "unsupported"
+    },
+    {
+      "id": "archived_prior_results_as_same_query_comparison",
+      "impact": "unsupported"
+    }
+  ],
+  "deterministic_checks": "PASS",
+  "semantic_review": "provisional",
+  "evidence_files": [
+    "EXPERIMENT_AUDIT.md",
+    "independent_check.py",
+    "independent_evidence.json",
+    "archived_checkpoint_hashes.json"
+  ]
+}
