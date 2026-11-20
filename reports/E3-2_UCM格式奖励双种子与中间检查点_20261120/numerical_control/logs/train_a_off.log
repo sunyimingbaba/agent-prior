@@ -1,0 +1,40 @@
+If for semantic segmentation, please install mmsegmentation first
+If for detection, please install mmdetection first
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:02<00:10,  2.74s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:04<00:07,  2.41s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:06<00:04,  2.08s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:08<00:01,  1.92s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:08<00:00,  1.39s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:08<00:00,  1.75s/it]
+已加载 LoRA 适配器: /private/AGSE_E1_20261110/legacy/assets/ucm_main_lora
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+The tokenizer you are loading from '/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e.  This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+this is name:/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt
+
+###########This is config ####################
+{'exp_name': 'finetune_irtr_ucm_randaug', 'seed': 0, 'datasets': ['ucm'], 'loss_names': {'itm': 0, 'mlm': 0, 'mpp': 0, 'vqa': 0, 'nlvr2': 0, 'irtr': 0, 'clip': 1}, 'batch_size': 256, 'clip_model': 'ViT-L/14', 'current_epoch': 49, 'weight_margin': 0.015, 'loss_scale_kl': 1, 'loss_scale_un': 1, 'loss_scale': 1, 'max_image_len': -1, 'patch_size': 32, 'draw_false_image': 1, 'image_only': False, 'vqav2_label_size': 3129, 'max_text_len': 77, 'tokenizer': 'bert-base-uncased', 'vocab_size': 30522, 'whole_word_masking': False, 'mlm_prob': 0.15, 'draw_false_text': 0, 'vit': 'vit_base_patch32_384', 'hidden_size': 768, 'num_heads': 12, 'num_layers': 12, 'mlp_ratio': 4, 'drop_rate': 0.1, 'prompt_length': 16, 'optim_type': 'adamw', 'learning_rate': 0.0001, 'weight_decay': 0.01, 'decay_power': 1, 'max_epoch': 50, 'max_steps': None, 'warmup_steps': 0.1, 'end_lr': 0, 'lr_mult': 1, 'clip_zero': True, 'get_recall_metric': True, 'resume_from': None, 'fast_dev_run': False, 'val_check_interval': 1.0, 'test_only': False, 'data_root': '/workspace/cup-debug/data/ucm', 'log_dir': '/workspace/cup-debug/logs', 'per_gpu_batchsize': 32, 'num_gpus': 1, 'num_nodes': 1, 'load_path': '', 'num_workers': 8, 'precision': 16, 'linear_projector': 0.1, 'train_transform_keys': 'ViT-L/14', 'val_transform_keys': 'ViT-L/14', 'image_size': [14, 14], 'img_features_dim': 1024, 'txt_features_dim': 768, 'cls_number': 21, 'save_image_path': '/workspace/cup-debug/images', 'json': '/home/amax/wyj/dataset/UCM_captions/karpathy/ucm.json', 'use_agent_prior': True, 'agent_cache_dir': '/workspace/cup-debug/agent_cache_domain_tool', 'agent_hidden_dim': 3584, '__doc__': 'ViT-L/14 骨干：UCM 遥感数据集'}
+###########This is config ####################
+
+this is name:/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt
+a_off 1 1852.tif 350.0 0.0
+a_off 2 1845.tif 350.0 0.0
+a_off 3 1907.tif 528.0 0.0
+a_off 4 1919.tif 448.0 0.0
+a_off 5 1813.tif 338.0 0.0
+/private/AGSE_E1_20261110/legacy/env/lib/python3.12/site-packages/peft/utils/save_and_load.py:154: UserWarning: Could not find a config file in /workspace/cup-debug/models/Qwen2.5-VL-7B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+a_off 6 232.tif 318.0 0.0
+a_off 7 255.tif 284.0 0.0
+a_off 8 1808.tif 170.0 0.0
+a_off 9 1662.tif 236.0 0.0
+a_off 10 1853.tif 244.0 0.0
+a_off 11 221.tif 251.0 0.0
+a_off 12 204.tif 198.0 0.0
+a_off 13 1668.tif 278.0 0.0
+a_off 14 325.tif 0.0 0
+a_off 15 2022.tif 226.0 0.0
+a_off 16 1454.tif 198.0 0.0
+a_off 17 1442.tif 209.0 0.0
+a_off 18 1429.tif 175.0 0.0
+a_off 19 1854.tif 352.0 0.0
+a_off 20 1417.tif 266.0 0.0
+a_off 21 1933.tif 234.0 0.0
+a_off 22 2007.tif 254.0 0.0
+a_off 23 304.tif 0.0 0
+a_off 24 1969.tif 258.0 0.0
