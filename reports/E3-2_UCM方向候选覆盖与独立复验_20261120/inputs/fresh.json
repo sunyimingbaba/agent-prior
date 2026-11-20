@@ -1,0 +1,478 @@
+[
+  {
+    "row": 14,
+    "image": "185.tif",
+    "orig_query": "There are four airplanes stopped at the airport .",
+    "rgb_sha256": "d7b31a6c7e402f572143df7a0c39402493166ec2448de15bd9a94183974db5d2",
+    "fresh": true,
+    "block": 1,
+    "split": "val",
+    "scene_query": "An aerial view of the airport apron.",
+    "landmarks": [
+      "the painted white X on the apron",
+      "the cluster of parked airliners"
+    ],
+    "xy": [
+      [
+        0.95,
+        0.29
+      ],
+      [
+        0.31,
+        0.39
+      ]
+    ],
+    "axis": "x",
+    "direction": "right",
+    "A": [
+      "The painted white x on the apron is to the right of the cluster of parked airliners.",
+      "The painted white x on the apron is to the left of the cluster of parked airliners."
+    ],
+    "B": [
+      "The cluster of parked airliners is to the left of the painted white X on the apron.",
+      "The cluster of parked airliners is to the right of the painted white X on the apron."
+    ]
+  },
+  {
+    "row": 17,
+    "image": "188.tif",
+    "orig_query": "There are three airplanes at the airport .",
+    "rgb_sha256": "e98408a9300fa91eda9b74480cd9770d4b17c84155eb872c276a22428f382828",
+    "fresh": true,
+    "block": 1,
+    "split": "val",
+    "scene_query": "An aerial view of the airport apron.",
+    "landmarks": [
+      "the small white ground vehicle",
+      "the cluster of parked airliners"
+    ],
+    "xy": [
+      [
+        0.032,
+        0.28
+      ],
+      [
+        0.63,
+        0.51
+      ]
+    ],
+    "axis": "x",
+    "direction": "left",
+    "A": [
+      "The small white ground vehicle is to the left of the cluster of parked airliners.",
+      "The small white ground vehicle is to the right of the cluster of parked airliners."
+    ],
+    "B": [
+      "The cluster of parked airliners is to the right of the small white ground vehicle.",
+      "The cluster of parked airliners is to the left of the small white ground vehicle."
+    ]
+  },
+  {
+    "row": 59,
+    "image": "614.tif",
+    "orig_query": "This is a dense residential area with houses and roads .",
+    "rgb_sha256": "15ea97e9cdc49eef6d4b6d051372128dfd9d5e5e1026502f8c382b4a910843f7",
+    "fresh": true,
+    "block": 6,
+    "split": "val",
+    "scene_query": "An aerial view of the residential area.",
+    "landmarks": [
+      "the turquoise swimming pool",
+      "the red car in the striped parking area"
+    ],
+    "xy": [
+      [
+        0.78,
+        0.22
+      ],
+      [
+        0.74,
+        0.97
+      ]
+    ],
+    "axis": "y",
+    "direction": "above",
+    "A": [
+      "The turquoise swimming pool is above the red car in the striped parking area.",
+      "The turquoise swimming pool is below the red car in the striped parking area."
+    ],
+    "B": [
+      "The red car in the striped parking area is below the turquoise swimming pool.",
+      "The red car in the striped parking area is above the turquoise swimming pool."
+    ]
+  },
+  {
+    "row": 85,
+    "image": "884.tif",
+    "orig_query": "Two straight freeways parrallel forward .",
+    "rgb_sha256": "cfdce2805e53503efd38dfe210c2727aec5fc3a3f5624c1a9d83c6961362f576",
+    "fresh": true,
+    "block": 8,
+    "split": "val",
+    "scene_query": "An aerial view of the freeway.",
+    "landmarks": [
+      "the dark oval patch on the paved lane",
+      "the grassy median between the two carriageways"
+    ],
+    "xy": [
+      [
+        0.88,
+        0.68
+      ],
+      [
+        0.59,
+        0.55
+      ]
+    ],
+    "axis": "y",
+    "direction": "below",
+    "A": [
+      "The dark oval patch on the paved lane is below the grassy median between the two carriageways.",
+      "The dark oval patch on the paved lane is above the grassy median between the two carriageways."
+    ],
+    "B": [
+      "The grassy median between the two carriageways is above the dark oval patch on the paved lane.",
+      "The grassy median between the two carriageways is below the dark oval patch on the paved lane."
+    ]
+  },
+  {
+    "row": 89,
+    "image": "888.tif",
+    "orig_query": "There are two wide straight freeways parrallel forward .",
+    "rgb_sha256": "ae2f8cf3c15105b89271a7fc462d9e0aec97167169bbc1df5920bfd7b74f9b6c",
+    "fresh": true,
+    "block": 8,
+    "split": "val",
+    "scene_query": "An aerial view of the freeway.",
+    "landmarks": [
+      "the long white truck",
+      "the nearest small dark car beside that truck"
+    ],
+    "xy": [
+      [
+        0.16,
+        0.6
+      ],
+      [
+        0.27,
+        0.7
+      ]
+    ],
+    "axis": "x",
+    "direction": "left",
+    "A": [
+      "The long white truck is to the left of the nearest small dark car beside that truck.",
+      "The long white truck is to the right of the nearest small dark car beside that truck."
+    ],
+    "B": [
+      "The nearest small dark car beside that truck is to the right of the long white truck.",
+      "The nearest small dark car beside that truck is to the left of the long white truck."
+    ]
+  },
+  {
+    "row": 96,
+    "image": "985.tif",
+    "orig_query": "This is a part of a golf course with green turfs and some trees .",
+    "rgb_sha256": "bd99c3b2fd7923f3bb1851decc5f2ed450be611c7d70671561c70cac0681d475",
+    "fresh": true,
+    "block": 9,
+    "split": "val",
+    "scene_query": "An aerial view of the golf course.",
+    "landmarks": [
+      "the small white spot on the green",
+      "the cluster of trees casting long shadows beside the green"
+    ],
+    "xy": [
+      [
+        0.56,
+        0.26
+      ],
+      [
+        0.68,
+        0.73
+      ]
+    ],
+    "axis": "y",
+    "direction": "above",
+    "A": [
+      "The small white spot on the green is above the cluster of trees casting long shadows beside the green.",
+      "The small white spot on the green is below the cluster of trees casting long shadows beside the green."
+    ],
+    "B": [
+      "The cluster of trees casting long shadows beside the green is below the small white spot on the green.",
+      "The cluster of trees casting long shadows beside the green is above the small white spot on the green."
+    ]
+  },
+  {
+    "row": 98,
+    "image": "987.tif",
+    "orig_query": "This is a part of a golf course with green turfs and some bunkers and trees .",
+    "rgb_sha256": "07f90d53ac995b37c34de73347b32af79e31f772407dce773b0c824ea5009985",
+    "fresh": true,
+    "block": 9,
+    "split": "val",
+    "scene_query": "An aerial view of the golf course.",
+    "landmarks": [
+      "the pale sand bunker",
+      "the large tree whose long shadow crosses the green"
+    ],
+    "xy": [
+      [
+        0.34,
+        0.04
+      ],
+      [
+        0.56,
+        0.63
+      ]
+    ],
+    "axis": "y",
+    "direction": "above",
+    "A": [
+      "The pale sand bunker is above the large tree whose long shadow crosses the green.",
+      "The pale sand bunker is below the large tree whose long shadow crosses the green."
+    ],
+    "B": [
+      "The large tree whose long shadow crosses the green is below the pale sand bunker.",
+      "The large tree whose long shadow crosses the green is above the pale sand bunker."
+    ]
+  },
+  {
+    "row": 122,
+    "image": "1283.tif",
+    "orig_query": "It is a medium residential area .",
+    "rgb_sha256": "b0e121b14f74a10dbd17a4e3b439bb2194a085fc4723aa61564c50b5e397edc3",
+    "fresh": true,
+    "block": 12,
+    "split": "val",
+    "scene_query": "An aerial view of the residential area.",
+    "landmarks": [
+      "the small red car",
+      "the large bright square roof"
+    ],
+    "xy": [
+      [
+        0.28,
+        0.51
+      ],
+      [
+        0.68,
+        0.53
+      ]
+    ],
+    "axis": "x",
+    "direction": "left",
+    "A": [
+      "The small red car is to the left of the large bright square roof.",
+      "The small red car is to the right of the large bright square roof."
+    ],
+    "B": [
+      "The large bright square roof is to the right of the small red car.",
+      "The large bright square roof is to the left of the small red car."
+    ]
+  },
+  {
+    "row": 127,
+    "image": "1288.tif",
+    "orig_query": "It is a medium residential area .",
+    "rgb_sha256": "a7491be1f02e541b8afbf9e01b8bc83cef193c7f680f8b7ed483f5dfc9504170",
+    "fresh": true,
+    "block": 12,
+    "split": "val",
+    "scene_query": "An aerial view of the residential area.",
+    "landmarks": [
+      "the turquoise swimming pool",
+      "the red car in a driveway"
+    ],
+    "xy": [
+      [
+        0.5,
+        0.31
+      ],
+      [
+        0.45,
+        0.84
+      ]
+    ],
+    "axis": "y",
+    "direction": "above",
+    "A": [
+      "The turquoise swimming pool is above the red car in a driveway.",
+      "The turquoise swimming pool is below the red car in a driveway."
+    ],
+    "B": [
+      "The red car in a driveway is below the turquoise swimming pool.",
+      "The red car in a driveway is above the turquoise swimming pool."
+    ]
+  },
+  {
+    "row": 129,
+    "image": "1290.tif",
+    "orig_query": "It is a medium residential area .",
+    "rgb_sha256": "e6da4b01dc083153ab3fdb2e1465ec29c57bc50e39003c97f2b0461b92302ef5",
+    "fresh": true,
+    "block": 12,
+    "split": "val",
+    "scene_query": "An aerial view of the residential area.",
+    "landmarks": [
+      "the pair of white house roofs aligned in a column",
+      "the unpaved alley running between the two columns of houses"
+    ],
+    "xy": [
+      [
+        0.17,
+        0.68
+      ],
+      [
+        0.54,
+        0.54
+      ]
+    ],
+    "axis": "x",
+    "direction": "left",
+    "A": [
+      "The pair of white house roofs aligned in a column is to the left of the unpaved alley running between the two columns of houses.",
+      "The pair of white house roofs aligned in a column is to the right of the unpaved alley running between the two columns of houses."
+    ],
+    "B": [
+      "The unpaved alley running between the two columns of houses is to the right of the pair of white house roofs aligned in a column.",
+      "The unpaved alley running between the two columns of houses is to the left of the pair of white house roofs aligned in a column."
+    ]
+  },
+  {
+    "row": 137,
+    "image": "1388.tif",
+    "orig_query": "Many mobile homes arranged in lines in the mobile home park .",
+    "rgb_sha256": "b319e64055277a25986e0c8dd2a979a621d372b983c5fa57967a87b7af8c0fe3",
+    "fresh": true,
+    "block": 13,
+    "split": "val",
+    "scene_query": "An aerial view of the mobile home park.",
+    "landmarks": [
+      "the large dark L-shaped roof",
+      "the tan mobile home with a long bright white awning"
+    ],
+    "xy": [
+      [
+        0.89,
+        0.87
+      ],
+      [
+        0.57,
+        0.18
+      ]
+    ],
+    "axis": "y",
+    "direction": "below",
+    "A": [
+      "The large dark l-shaped roof is below the tan mobile home with a long bright white awning.",
+      "The large dark l-shaped roof is above the tan mobile home with a long bright white awning."
+    ],
+    "B": [
+      "The tan mobile home with a long bright white awning is above the large dark L-shaped roof.",
+      "The tan mobile home with a long bright white awning is below the large dark L-shaped roof."
+    ]
+  },
+  {
+    "row": 138,
+    "image": "1389.tif",
+    "orig_query": "Many mobile homes are arranged haphazardly in the mobile home park .",
+    "rgb_sha256": "c4d839dc2c593d3a83276234336ac936c24436fd5d049b8fa5f46b4e9e71d418",
+    "fresh": true,
+    "block": 13,
+    "split": "val",
+    "scene_query": "An aerial view of the mobile home park.",
+    "landmarks": [
+      "the small pale building enclosed by a curved hedge",
+      "the straight stretch of wide asphalt street"
+    ],
+    "xy": [
+      [
+        0.22,
+        0.88
+      ],
+      [
+        0.62,
+        0.43
+      ]
+    ],
+    "axis": "y",
+    "direction": "below",
+    "A": [
+      "The small pale building enclosed by a curved hedge is below the straight stretch of wide asphalt street.",
+      "The small pale building enclosed by a curved hedge is above the straight stretch of wide asphalt street."
+    ],
+    "B": [
+      "The straight stretch of wide asphalt street is above the small pale building enclosed by a curved hedge.",
+      "The straight stretch of wide asphalt street is below the small pale building enclosed by a curved hedge."
+    ]
+  },
+  {
+    "row": 164,
+    "image": "1685.tif",
+    "orig_query": "It is a very wide river with dense forest on both banks of the river .",
+    "rgb_sha256": "cf7421d33df73276fcd79474f2b0d8ecd7ff19440a68666b104e463023bd17ba",
+    "fresh": true,
+    "block": 16,
+    "split": "val",
+    "scene_query": "An aerial view of the river.",
+    "landmarks": [
+      "the dense continuous strip of green trees",
+      "the broad area of dark river water"
+    ],
+    "xy": [
+      [
+        0.97,
+        0.5
+      ],
+      [
+        0.47,
+        0.49
+      ]
+    ],
+    "axis": "x",
+    "direction": "right",
+    "A": [
+      "The dense continuous strip of green trees is to the right of the broad area of dark river water.",
+      "The dense continuous strip of green trees is to the left of the broad area of dark river water."
+    ],
+    "B": [
+      "The broad area of dark river water is to the left of the dense continuous strip of green trees.",
+      "The broad area of dark river water is to the right of the dense continuous strip of green trees."
+    ]
+  },
+  {
+    "row": 172,
+    "image": "1783.tif",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "rgb_sha256": "bf6007266bdae30d830dbbf7ec06dc05ae04d9846aea4250cca7e00b784cea7a",
+    "fresh": true,
+    "block": 17,
+    "split": "val",
+    "scene_query": "An aerial view of the runway.",
+    "landmarks": [
+      "the thin straight white line ending at the dark tire marks",
+      "the pair of broad white bars farthest from that line"
+    ],
+    "xy": [
+      [
+        0.12,
+        0.31
+      ],
+      [
+        0.43,
+        0.26
+      ]
+    ],
+    "axis": "x",
+    "direction": "left",
+    "A": [
+      "The thin straight white line ending at the dark tire marks is to the left of the pair of broad white bars farthest from that line.",
+      "The thin straight white line ending at the dark tire marks is to the right of the pair of broad white bars farthest from that line."
+    ],
+    "B": [
+      "The pair of broad white bars farthest from that line is to the right of the thin straight white line ending at the dark tire marks.",
+      "The pair of broad white bars farthest from that line is to the left of the thin straight white line ending at the dark tire marks."
+    ]
+  }
+]

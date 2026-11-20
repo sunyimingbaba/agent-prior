@@ -1,0 +1,6 @@
+{
+  "role": "Supplementary upstream perception test registered before fresh scores. Not a replacement for ordinary deployment, and not a trained classifier.",
+  "design": "At the original deployed Qwen+LoRA, present each source/wording at original and 180 degrees together with its two same-subject alternatives. Score first response letter A or B under both possible option orders. Use the average signed A/B logit advantage, separately retaining each order and total vocabulary probability on A/B. Identical uniform gray input controls textual preference across the two views. No scoring labels enter the prompt as labels.",
+  "readouts": "Strict both-views correct, per-view accuracy, positive directional response, raw probability mass, forced-letter ordering agreement. Compare with the CUP native greedy retrieval figures as two different tasks; no model updates.",
+  "sources": "All 16 train and all locked new validation photos; two existing phrasings per photo."
+}

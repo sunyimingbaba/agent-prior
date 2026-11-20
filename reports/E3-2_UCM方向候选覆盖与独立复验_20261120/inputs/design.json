@@ -1,0 +1,13 @@
+{
+  "model": "Historical deployed UCM LoRA and frozen UCM CUP. No parameter updates or rollout filtering.",
+  "views": ["upright", "rot180"],
+  "conditions": ["scene", "objects"],
+  "generation": "Each condition and view gets its ordinary greedy output and eight stochastic draws at temperature 1, 3 rounds, 64 tokens/round, same tool and system prompt. Match seed slots across prompts and use independent streams across views. All rows and trajectories retained.",
+  "seed": 1484000,
+  "object_cue": "The object cue appends two neutral reference names and asks about relative position. It contains no ground-truth direction or positive/negative option. Same query for both views.",
+  "primary_train": "Among the 10 preidentified one-sided train photos, count photos with at least one strictly correct sampled A margin in each view among the 8 draws (independent slot choices) for each fixed prompt. Report all 16, prior 6 and B as separate summaries. Compare 1/2/4/8 candidate prefixes. Report actually paired slots separately.",
+  "primary_new": "New source photos from the old UCM retrieval-validation split, disjoint from old direction/E1 panels. Pixel-only review before scoring; keep all agreed unambiguous labels passing the registered image-overlap screen. Two reciprocal word orders per photo. Report deployment success on both views with greedy and eight-score average, slot coverage and attainable signs; source is the unit.",
+  "control": "Cross 36 same-source generated states (two cues × two views × nine outputs) with fixed pixels; re-read both views with the same 32 archived historical scene priors from 16 train images, excluding own reciprocal pair on train. Save and score every embedding. Independent diagnostic arm uses original ViT-L/14 with zero added prompt tokens (empty sequence) and original CLIP text readout.",
+  "opposite_view": "Report signed response (upright raw margin - rotated raw margin)/2 as a two-view score. Enforces opposite predictions. Compare discrimination to the 50% source-level sign-flip reference, with both wordings tied within source. Also report raw margins and raw per-view accuracy. Not a deployable ordinary single-view gallery or an accuracy gain attributable to RFPO.",
+  "decision": "Keep deployment fixed. If target-cued generation recovers a majority of the old one-sided cases and improves label-free mean-eight both-correct over scene on the fresh panel, prioritize candidates for larger validation. Otherwise prioritize direction readout/target diagnostics if attainable coverage stays limited. No formal test or weight selection."
+}
