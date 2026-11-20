@@ -1,0 +1,40 @@
+{
+  "image": "1585.tif",
+  "row": 154,
+  "rgb_sha256": "5f04a29f7dfd91c93436e8d64267b37172bbb2c2f88850cd569b40df169e186e",
+  "mode": "scene",
+  "k": 1,
+  "query": "An aerial view of a parking lot.",
+  "seed": 20267282,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        135930,
+        151645
+      ],
+      "decoded": "تكنولوج"
+    }
+  ],
+  "events": [
+    {
+      "text": "parking lot (0.11), harbor (0.09), freeway (0.08)",
+      "confidence": 0.10630067437887192
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "3ab9d9a3b4629d0d9a7ad748bd23b406951d3c6f59aebcc75a8560accb76fcd4",
+  "vector_sha256": "c61044379da87b4a465010ad12bfe1d678a8401caa7171d53607d4637fbf6e34"
+}

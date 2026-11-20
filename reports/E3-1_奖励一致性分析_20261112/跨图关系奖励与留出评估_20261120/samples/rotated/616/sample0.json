@@ -1,0 +1,80 @@
+{
+  "image": "616.tif",
+  "row": 61,
+  "rgb_sha256": "f7c1bd5e73cc438a0c1137f9a06dcb15992f2a5ca7e88502043b360258330bfd",
+  "mode": "rotated",
+  "k": 0,
+  "query": "An aerial view of a residential area.",
+  "seed": 20263561,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        2322,
+        397,
+        785,
+        2168,
+        7952,
+        311,
+        387,
+        458,
+        40784,
+        1651,
+        315,
+        264,
+        20057,
+        3082,
+        11,
+        438,
+        16317,
+        553,
+        279,
+        9362,
+        315,
+        5248,
+        14967,
+        323,
+        1128,
+        5868,
+        1075,
+        264,
+        8592,
+        4303,
+        1526,
+        1105,
+        624,
+        522,
+        2322,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<response>\nThe image appears to be an aerial view of a residential area, as indicated by the presence of multiple houses and what looks like a street running through them.\n</response>"
+    }
+  ],
+  "events": [
+    {
+      "text": "dense residential (0.21), medium residential (0.21), mobile home park (0.12)",
+      "confidence": 0.21452926099300385
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "7fbe2e903da41c5c62c002ca5a94de1a796373edbf37ae401345ae655853dd8d",
+  "vector_sha256": "812d97715d76a3ae11a971ec40c2ed75e805f748e11535288b838ad39637678e"
+}

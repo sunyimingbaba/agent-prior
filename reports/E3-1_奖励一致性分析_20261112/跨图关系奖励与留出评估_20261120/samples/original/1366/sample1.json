@@ -1,0 +1,80 @@
+{
+  "image": "1366.tif",
+  "row": 1105,
+  "rgb_sha256": "00b966dc89fb7f8a07f88817f21f957239e03e912daac0a2ad068468ee367d07",
+  "mode": "original",
+  "k": 1,
+  "query": "Many mobile homes arranged in lines in the mobile home park .",
+  "seed": 20305332,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        397,
+        785,
+        2168,
+        4933,
+        5248,
+        6371,
+        10415,
+        27802,
+        304,
+        6978,
+        11,
+        892,
+        33210,
+        311,
+        279,
+        3239,
+        315,
+        330,
+        8441,
+        6371,
+        10415,
+        27802,
+        304,
+        5128,
+        304,
+        279,
+        6371,
+        2114,
+        6118,
+        10040,
+        522,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>\nThe image shows multiple mobile homes arranged in rows, which corresponds to the query of \"Many mobile homes arranged in lines in the mobile home park.\"\n</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "mobile home park (0.45), medium residential (0.11), dense residential (0.10)",
+      "confidence": 0.4511445164680481
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "a0f8a282b3c73c765cad4fbc89a5d3bd432194a5071b842dccb7ed36ec603840",
+  "vector_sha256": "168004f9529be6fb41fab97061a7d606b630e74db90ec1913ca9855967ccf492"
+}

@@ -1,0 +1,62 @@
+{
+  "image": "1502.tif",
+  "row": 1201,
+  "rgb_sha256": "ec205291d156a9e097f88ca9af9260cefeb3887aa5fce600c2386a138fb5f888",
+  "mode": "original",
+  "k": 4,
+  "query": "Lots of cars parked neatly in the parking lot .",
+  "seed": 20309175,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        101219,
+        107862,
+        101194,
+        109489,
+        115145,
+        104006,
+        107105,
+        3837,
+        101137,
+        51154,
+        43815,
+        8997,
+        522,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion\n<answer>图中是在停车场有很多整齐停放的小轿车，符合查询内容。\n</answer>"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "parking lot (0.56), harbor (0.04), dense residential (0.04)",
+      "confidence": 0.5609509348869324
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "6d1230bd4116a3e1d89651e4705ded5d158dfdbf260b09830c0439b1358a9ff8",
+  "vector_sha256": "fd1e9f60ec27e9879f1a261df821602f0307db05a764ac320f8530a5a958f725"
+}

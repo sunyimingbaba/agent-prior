@@ -1,0 +1,56 @@
+{
+  "image": "1882.tif",
+  "row": 181,
+  "rgb_sha256": "f75d3844eea5d64a20e238ff874d9b2cd4ac28f25277e32a2e09386688c7e0d7",
+  "mode": "rotated",
+  "k": 4,
+  "query": "An aerial view of a residential area.",
+  "seed": 20268365,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        85884,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        1631,
+        20412,
+        330,
+        3862,
+        374,
+        264,
+        56411,
+        448,
+        3807,
+        17727,
+        1189,
+        151645
+      ],
+      "decoded": "PropertyParams\n\n addCriterion\nquery是 \"There is a harbor with several ships.\""
+    }
+  ],
+  "events": [
+    {
+      "text": "sparse residential (0.39), buildings (0.07), tennis court (0.07)",
+      "confidence": 0.3885432481765747
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "643db9bae6a6174a219921ea14c58eddaa9b2f441c782b55ba8b5284e73f918c",
+  "vector_sha256": "a9044eedfd7025d8c0a2576aa4211484566c8e3ac3784a8054b2b1b8f41efefe"
+}

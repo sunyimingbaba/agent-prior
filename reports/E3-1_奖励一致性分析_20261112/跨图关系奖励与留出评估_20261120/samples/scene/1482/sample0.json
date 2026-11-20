@@ -1,0 +1,82 @@
+{
+  "image": "1482.tif",
+  "row": 141,
+  "rgb_sha256": "cb4c69e0bd6533b0f35ccb07bdcccc4821a21ece92f2325e2510afacd5d9c6b1",
+  "mode": "scene",
+  "k": 0,
+  "query": "An aerial view of a overpass.",
+  "seed": 20266761,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        12753,
+        29,
+        38182,
+        45995,
+        100391,
+        7,
+        15,
+        13,
+        22,
+        24,
+        12533,
+        12753,
+        397,
+        27,
+        12753,
+        29,
+        105477,
+        7,
+        15,
+        13,
+        20,
+        21,
+        12533,
+        12753,
+        397,
+        27,
+        12753,
+        29,
+        106809,
+        39426,
+        7,
+        15,
+        13,
+        15,
+        19,
+        12533,
+        12753,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<feature>过路桥(0.79)</feature>\n<feature>高速公路(0.56)</feature>\n<feature>交叉口(0.04)</feature>"
+    }
+  ],
+  "events": [
+    {
+      "text": "overpass (0.36), freeway (0.16), intersection (0.08)",
+      "confidence": 0.3644205927848816
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "0e79bb1c92902b01e74c1e89dcb630eff9e5faf0abd850e9660f380944e44f8d",
+  "vector_sha256": "0846922b5d69c881e6af7a1b2081a1424240ba594bae61e22edaa5e0c8e0cda3"
+}

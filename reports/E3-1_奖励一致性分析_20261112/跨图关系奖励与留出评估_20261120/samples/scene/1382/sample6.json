@@ -1,0 +1,38 @@
+{
+  "image": "1382.tif",
+  "row": 131,
+  "rgb_sha256": "5a99c40be5e451645b1652fa8a797e094d2e7ec77041636ef36ccc345e35b273",
+  "mode": "scene",
+  "k": 6,
+  "query": "An aerial view of a mobile home park.",
+  "seed": 20266367,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "mobile home park (0.31), medium residential (0.11), dense residential (0.08)",
+      "confidence": 0.3051135241985321
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "8e03a5dd6049838a8e9a92ee897a6fc5235945e2a022ac8f55390fe2042e426e",
+  "vector_sha256": "36c4773a2608070e2fc5cfbcd7ea6baac16d4496fa2d0fa19b39e689878bd775"
+}

@@ -1,0 +1,41 @@
+{
+  "image": "815.tif",
+  "row": 652,
+  "rgb_sha256": "d7afed27ca0bf813285df6b3de3e211d29fbd882ccfa97a7a290b0e8afb8651c",
+  "mode": "original",
+  "k": 6,
+  "query": "There are two straight freeways closed to each other .",
+  "seed": 20287217,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "freeway (0.41), overpass (0.17), intersection (0.04)",
+      "confidence": 0.4081803858280182
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "fec91933e8bd118258a37f98e6faaac0ad5e0347fab2e6cdb48b05e6cdddb773",
+  "vector_sha256": "c6e432adff9ff4d2ad527fc5c1eca56157231d276b06c44fabb42738e5898501"
+}

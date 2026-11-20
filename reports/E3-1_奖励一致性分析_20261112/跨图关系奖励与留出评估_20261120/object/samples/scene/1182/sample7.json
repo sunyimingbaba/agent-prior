@@ -1,0 +1,40 @@
+{
+  "image": "1182.tif",
+  "row": 112,
+  "rgb_sha256": "8aaf1c23c64324a09508360a5e536f756fab3e7c28979e2e23c03129bdd0b254",
+  "mode": "scene",
+  "k": 7,
+  "query": "An aerial view of a intersection.",
+  "seed": 20265608,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        148133,
+        151645
+      ],
+      "decoded": "넹"
+    }
+  ],
+  "events": [
+    {
+      "text": "intersection (0.52), medium residential (0.07), overpass (0.06)",
+      "confidence": 0.5170170068740845
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "25799df3a14fe96bba62cc3b36c322bfae8d91f670027abf58347dc97892db0b",
+  "vector_sha256": "ba7249635551f1e8f3d86257419b1858846470365e37b2a4be5e8a99bf2e6c77"
+}

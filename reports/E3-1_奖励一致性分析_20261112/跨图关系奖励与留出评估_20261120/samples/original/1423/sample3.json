@@ -1,0 +1,52 @@
+{
+  "image": "1423.tif",
+  "row": 1142,
+  "rgb_sha256": "f83194b8f3d7d5f1b8aaec700c91367e84333875af1fb629c702b1689728e306",
+  "mode": "original",
+  "k": 3,
+  "query": "An overpass with a road go across another two vertically .",
+  "seed": 20306814,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        445,
+        28029,
+        15946,
+        54021,
+        111097,
+        1827,
+        285,
+        66469,
+        1005,
+        2641,
+        368,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion(\"图中显示的画面\").is_horizontal().bool()"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "overpass (0.23), freeway (0.19), intersection (0.10)",
+      "confidence": 0.22544969618320465
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "03a44a37b9db2a1dd62a8535bab82845f859e059c56dab09363e3b2f3f8fad0f",
+  "vector_sha256": "91f618a2aeb7d9dd2454ada60f411640952e09292d322da3c263e9b1558d0bc8"
+}

@@ -1,0 +1,40 @@
+{
+  "image": "1988.tif",
+  "row": 197,
+  "rgb_sha256": "9f5beb7b3d0cab5840e7d4b38082c2e902ea06d7895a45cb895e1c9c5ca5737c",
+  "mode": "scene",
+  "k": -1,
+  "query": "An aerial view of a storage tank area.",
+  "seed": 20269000,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.40), baseball diamond (0.05), buildings (0.05)",
+      "confidence": 0.4001440107822418
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "400a00afe075fa5cad5bccbe8222c108a340b9b0adca62f2a88a2fe9049fae2a",
+  "vector_sha256": "f9333c9d54ee9553ac56be20b23b953a76d3e7d0584858f0903c39a8b57fe8c5"
+}

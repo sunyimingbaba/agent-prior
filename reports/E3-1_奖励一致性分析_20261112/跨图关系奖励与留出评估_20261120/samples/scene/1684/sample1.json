@@ -1,0 +1,42 @@
+{
+  "image": "1684.tif",
+  "row": 163,
+  "rgb_sha256": "699d4bc48cb0dbc0ee19b9c0d7baf219486d1316a34fea22ffb32d981b8976aa",
+  "mode": "scene",
+  "k": 1,
+  "query": "An aerial view of a river.",
+  "seed": 20267642,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "river (0.29), forest (0.10), agricultural (0.06)",
+      "confidence": 0.29416072368621826
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "d7b3df45f1977e104b228e098d72ed85194abc2640c768c55ad529bd15926d28",
+  "vector_sha256": "77df1097faf0ca060ee1195484f99c36875fb6f9c6d8699db420fab1c14b8b14"
+}

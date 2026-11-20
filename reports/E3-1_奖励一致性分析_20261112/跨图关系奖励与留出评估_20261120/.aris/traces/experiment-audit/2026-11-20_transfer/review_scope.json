@@ -1,0 +1,19 @@
+{
+  "reviewer": "relation_transfer_integrity_review",
+  "pixel_reviewer": "ucm_relation_blind_review_nov20",
+  "family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "checks": [
+    "A ground truth provenance",
+    "B scores, ties, uncertainty",
+    "C raw evidence",
+    "D live code path",
+    "E scope",
+    "F evaluation type"
+  ],
+  "verdict_md": "review/EXPERIMENT_AUDIT.md",
+  "verdict_json": "review/EXPERIMENT_AUDIT.json",
+  "replication": "val/stable_cross_device.json",
+  "objects": "object_verification.json"
+}

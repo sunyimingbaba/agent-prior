@@ -1,0 +1,118 @@
+{
+  "image": "690.tif",
+  "row": 71,
+  "rgb_sha256": "09b95d235f4fa9ff21f7fcbc7890d59f7640d12707186d826666b6ea19497632",
+  "mode": "original",
+  "k": 3,
+  "query": "This is a dense residential area with some houses .",
+  "seed": 20263974,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        198,
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": " addCriterion\n<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198
+      ],
+      "decoded": "\n addCriterion\n\n addCriterion\n\n addCriterion\n addCriterion\n\n addCriterion\n addCriterion\n addCriterion\n\n addCriterion\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n"
+    }
+  ],
+  "events": [
+    {
+      "text": "medium residential (0.27), dense residential (0.23), mobile home park (0.13)",
+      "confidence": 0.2707176208496094
+    },
+    {
+      "text": "medium residential (0.27), dense residential (0.23), mobile home park (0.13)",
+      "confidence": 0.2707176208496094
+    }
+  ],
+  "used": 2,
+  "filtered": 0,
+  "history": null,
+  "sha256": "fe141f2b713471fdde197dc98a2544e704e4a7b90b926d82ca9d0e398ff7584d",
+  "vector_sha256": "045a79ad167f1d01866ef1dca1f58788c79e14d5b656be975efb0f6769f00038"
+}

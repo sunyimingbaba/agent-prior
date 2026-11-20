@@ -1,0 +1,66 @@
+{
+  "image": "1528.tif",
+  "row": 1227,
+  "rgb_sha256": "4d28b8f78c79507552b24253b10a1e1c83afdd393399aaaca0cc81b9316e5c84",
+  "mode": "original",
+  "k": 4,
+  "query": "Lots of cars parked in lines in the parking lot .",
+  "seed": 20310215,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        101987,
+        100146,
+        46944,
+        107862,
+        3837,
+        115145,
+        34187,
+        42140,
+        59956,
+        103978,
+        1773,
+        51154,
+        108704,
+        53481,
+        105531,
+        101266,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion\n<answer>图中展示的是一个停车场，停放了多排车辆。查询文本描述与此一致。</answer>"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "parking lot (0.54), airplane (0.04), buildings (0.04)",
+      "confidence": 0.5429971218109131
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "c0c25b389fbeb862f6c4f18188ae51b68a32f5dda6fea41d676c5f33a2607654",
+  "vector_sha256": "c0b64b5edc868bd3775d6648424f82dada8d6545f4cee657d55f46cd17af0f45"
+}

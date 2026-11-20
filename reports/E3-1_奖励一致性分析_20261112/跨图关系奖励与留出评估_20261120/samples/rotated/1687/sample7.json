@@ -1,0 +1,65 @@
+{
+  "image": "1687.tif",
+  "row": 166,
+  "rgb_sha256": "2fb374db6abe3f4e84fe3ce97d4cbcd28c6bf328fa2d51fed5b29348d004de86",
+  "mode": "rotated",
+  "k": 7,
+  "query": "An aerial view of a river.",
+  "seed": 20267768,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        104133,
+        103274,
+        9370,
+        110607,
+        121751,
+        57452,
+        28029,
+        3837,
+        99487,
+        27369,
+        57218,
+        51154,
+        108704,
+        118338,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中有一个河流的俯瞰视图，这个信息与查询文本相符。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "river (0.41), forest (0.08), agricultural (0.05)",
+      "confidence": 0.41466039419174194
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "04d7a4c47dd9386ac21a031ee6ae6c6428c3ed2b37f7bfdc23719b9573170eb1",
+  "vector_sha256": "29804546cad7accbc22dde13563787dc7cd214b77b39bcf9ce6f258ed4fd303c"
+}

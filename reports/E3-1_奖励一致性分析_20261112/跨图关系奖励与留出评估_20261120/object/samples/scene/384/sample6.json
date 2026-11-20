@@ -1,0 +1,59 @@
+{
+  "image": "384.tif",
+  "row": 32,
+  "rgb_sha256": "ad5d1b708c770c73f0b7c8b01aed05a8cedc6d6760274fb3477c931b1be80376",
+  "mode": "scene",
+  "k": 6,
+  "query": "An aerial view of a beach.",
+  "seed": 20262407,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        110571,
+        101909,
+        113341,
+        3837,
+        100372,
+        101137,
+        51154,
+        108704,
+        101882,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中东是一个海滩，完全符合查询文本要求。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "beach (0.57), chaparral (0.05), agricultural (0.04)",
+      "confidence": 0.5693103671073914
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "21f3532c37d611d63f2bf032012980f2f9a907940a6bd6eec26bed0f4f94c5a7",
+  "vector_sha256": "91ddac2b6f76c771698211ee0fd48d6f18587edb2b1a02f7d9034bfe8b5c03a2"
+}

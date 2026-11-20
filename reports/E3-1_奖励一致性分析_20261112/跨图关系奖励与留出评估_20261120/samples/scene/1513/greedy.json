@@ -1,0 +1,42 @@
+{
+  "image": "1513.tif",
+  "row": 1212,
+  "rgb_sha256": "7d2f7d2e34177c3bae95b41c5bcad8fac6a080e32b0a22e75a15a23d5c4f5a95",
+  "mode": "scene",
+  "k": -1,
+  "query": "An aerial view of a parking lot.",
+  "seed": 20309600,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "parking lot (0.52), buildings (0.04), harbor (0.04)",
+      "confidence": 0.522549033164978
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "b231c8c9699e9e7009a4a1844a140773e5435127ec5011cae04222827b68879f",
+  "vector_sha256": "aa7e6ce4626801fd1ea3ff2a285920adfde6bebc505b6df60df61519fbc70341"
+}

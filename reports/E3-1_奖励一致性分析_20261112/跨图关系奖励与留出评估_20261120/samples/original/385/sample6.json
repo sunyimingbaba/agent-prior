@@ -1,0 +1,40 @@
+{
+  "image": "385.tif",
+  "row": 33,
+  "rgb_sha256": "19a2abc8732c128a86884d4dcc6bd146de9aff4aa7dcbf070a00053db9b17ae8",
+  "mode": "original",
+  "k": 6,
+  "query": "This is a beach with blue-green sea and white sand .",
+  "seed": 20262457,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        88174,
+        151645
+      ],
+      "decoded": "GuidId"
+    }
+  ],
+  "events": [
+    {
+      "text": "beach (0.52), chaparral (0.06), agricultural (0.05)",
+      "confidence": 0.5172509551048279
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "8712ebed3cc3ba1416378bf3b26d122e7f63c9e0753cba89a21c092e295effda",
+  "vector_sha256": "e0b211b4eac53ae4f3a648b3752c7c4a48a4169f317cf583e2860768a0950a8f"
+}

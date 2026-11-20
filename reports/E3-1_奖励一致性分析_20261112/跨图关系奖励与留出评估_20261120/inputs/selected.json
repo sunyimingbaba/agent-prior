@@ -1,0 +1,1862 @@
+[
+  {
+    "split": "train",
+    "row": 120,
+    "image": "141.tif",
+    "block": 1,
+    "rgb_sha256": "db25944b89968795704b5975c59b78c18f0ba032d3a5e1207f8b726259493bb6",
+    "pair": "train_01",
+    "side": 0,
+    "scene": "airplane",
+    "contrast": "nose",
+    "subject": "the largest airplane",
+    "orig_query": "There are two airplanes closed to each other in the airport .",
+    "scene_query": "An aerial view of a airplane.",
+    "A": [
+      "The nose of the largest airplane points up.",
+      "The nose of the largest airplane points down."
+    ],
+    "B": [
+      "The largest airplane is headed towards the top edge.",
+      "The largest airplane is headed towards the bottom edge."
+    ],
+    "C": [
+      "The largest airplane faces the upper border of the picture.",
+      "The largest airplane faces the lower border of the picture."
+    ],
+    "D": [
+      "The tail is below the cockpit of the largest airplane.",
+      "The tail is above the cockpit of the largest airplane."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 146,
+    "image": "167.tif",
+    "block": 1,
+    "rgb_sha256": "1eaf487730329f818476fe420b5a40b8362dba08d286256ce387b6d443797690",
+    "pair": "train_01",
+    "side": 1,
+    "scene": "airplane",
+    "contrast": "nose",
+    "subject": "the largest airplane",
+    "orig_query": "There is an airplane at the airport .",
+    "scene_query": "An aerial view of a airplane.",
+    "A": [
+      "The nose of the largest airplane points down.",
+      "The nose of the largest airplane points up."
+    ],
+    "B": [
+      "The largest airplane is headed towards the bottom edge.",
+      "The largest airplane is headed towards the top edge."
+    ],
+    "C": [
+      "The largest airplane faces the lower border of the picture.",
+      "The largest airplane faces the upper border of the picture."
+    ],
+    "D": [
+      "The tail is above the cockpit of the largest airplane.",
+      "The tail is below the cockpit of the largest airplane."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 198,
+    "image": "238.tif",
+    "block": 2,
+    "rgb_sha256": "106d44ba9f09eb87cf386e085de5df4dc03f02356133cec9cc9a3560f83d081b",
+    "pair": "train_02",
+    "side": 0,
+    "scene": "baseball field",
+    "contrast": "lr",
+    "subject": "the dirt infield",
+    "orig_query": "This is an old baseball diamond .",
+    "scene_query": "An aerial view of a baseball field.",
+    "A": [
+      "The dirt infield is on the left side.",
+      "The dirt infield is on the right side."
+    ],
+    "B": [
+      "The left half of this view contains the dirt infield.",
+      "The right half of this view contains the dirt infield."
+    ],
+    "C": [
+      "The dirt infield lies farther west than the middle of the picture.",
+      "The dirt infield lies farther east than the middle of the picture."
+    ],
+    "D": [
+      "The image center is to the right of the dirt infield.",
+      "The image center is to the left of the dirt infield."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 178,
+    "image": "218.tif",
+    "block": 2,
+    "rgb_sha256": "9f91248c7ee3b68038b7707174c1db32d14a17b993738223a408417d7b44be9b",
+    "pair": "train_02",
+    "side": 1,
+    "scene": "baseball field",
+    "contrast": "lr",
+    "subject": "the dirt infield",
+    "orig_query": "This is a baseball diamond .",
+    "scene_query": "An aerial view of a baseball field.",
+    "A": [
+      "The dirt infield is on the right side.",
+      "The dirt infield is on the left side."
+    ],
+    "B": [
+      "The right half of this view contains the dirt infield.",
+      "The left half of this view contains the dirt infield."
+    ],
+    "C": [
+      "The dirt infield lies farther east than the middle of the picture.",
+      "The dirt infield lies farther west than the middle of the picture."
+    ],
+    "D": [
+      "The image center is to the left of the dirt infield.",
+      "The image center is to the right of the dirt infield."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 212,
+    "image": "252.tif",
+    "block": 2,
+    "rgb_sha256": "41ba19626e4565dc6bd071616f2a6498509b491d9b8cca154cbd041fff4f31f3",
+    "pair": "train_03",
+    "side": 0,
+    "scene": "baseball field",
+    "contrast": "tb",
+    "subject": "the dirt infield",
+    "orig_query": "This is a baseball diamond .",
+    "scene_query": "An aerial view of a baseball field.",
+    "A": [
+      "The dirt infield is near the top.",
+      "The dirt infield is near the bottom."
+    ],
+    "B": [
+      "The upper half of this view contains the dirt infield.",
+      "The lower half of this view contains the dirt infield."
+    ],
+    "C": [
+      "The dirt infield lies above the middle of the picture.",
+      "The dirt infield lies below the middle of the picture."
+    ],
+    "D": [
+      "The image center is below the dirt infield.",
+      "The image center is above the dirt infield."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 188,
+    "image": "228.tif",
+    "block": 2,
+    "rgb_sha256": "4f5f0ad6cd3a8e82c04966fc7fb4e5de2b5573a90dfd74032a561ac97316c973",
+    "pair": "train_03",
+    "side": 1,
+    "scene": "baseball field",
+    "contrast": "tb",
+    "subject": "the dirt infield",
+    "orig_query": "This is an old baseball diamond .",
+    "scene_query": "An aerial view of a baseball field.",
+    "A": [
+      "The dirt infield is near the bottom.",
+      "The dirt infield is near the top."
+    ],
+    "B": [
+      "The lower half of this view contains the dirt infield.",
+      "The upper half of this view contains the dirt infield."
+    ],
+    "C": [
+      "The dirt infield lies below the middle of the picture.",
+      "The dirt infield lies above the middle of the picture."
+    ],
+    "D": [
+      "The image center is above the dirt infield.",
+      "The image center is below the dirt infield."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 257,
+    "image": "317.tif",
+    "block": 3,
+    "rgb_sha256": "b0f96acb3a83b2b1d90b43ef2ff8f9bc7af3c98249556b8bfc20c7e77dcf9cc9",
+    "pair": "train_04",
+    "side": 0,
+    "scene": "beach",
+    "contrast": "lr",
+    "subject": "the sandy beach",
+    "orig_query": "This is a beach with blue sea and white sands .",
+    "scene_query": "An aerial view of a beach.",
+    "A": [
+      "The sandy beach is on the left side.",
+      "The sandy beach is on the right side."
+    ],
+    "B": [
+      "The left half of this view contains the sandy beach.",
+      "The right half of this view contains the sandy beach."
+    ],
+    "C": [
+      "The sandy beach lies farther west than the middle of the picture.",
+      "The sandy beach lies farther east than the middle of the picture."
+    ],
+    "D": [
+      "The image center is to the right of the sandy beach.",
+      "The image center is to the left of the sandy beach."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 248,
+    "image": "308.tif",
+    "block": 3,
+    "rgb_sha256": "823782ed539b1368d976c3a6a6c77e655ed5c6d84b2d2097af12e9d9a345d3f2",
+    "pair": "train_04",
+    "side": 1,
+    "scene": "beach",
+    "contrast": "lr",
+    "subject": "the sandy beach",
+    "orig_query": "This is a beach with blue sea and white sands .",
+    "scene_query": "An aerial view of a beach.",
+    "A": [
+      "The sandy beach is on the right side.",
+      "The sandy beach is on the left side."
+    ],
+    "B": [
+      "The right half of this view contains the sandy beach.",
+      "The left half of this view contains the sandy beach."
+    ],
+    "C": [
+      "The sandy beach lies farther east than the middle of the picture.",
+      "The sandy beach lies farther west than the middle of the picture."
+    ],
+    "D": [
+      "The image center is to the left of the sandy beach.",
+      "The image center is to the right of the sandy beach."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 253,
+    "image": "313.tif",
+    "block": 3,
+    "rgb_sha256": "4e40d29dde81da1bb44399ec776d1baab9ca5c46519a97f10821f9e86d0755a6",
+    "pair": "train_05",
+    "side": 0,
+    "scene": "beach",
+    "contrast": "hv",
+    "subject": "the shoreline",
+    "orig_query": "This is a beach with blue sea and white sands .",
+    "scene_query": "An aerial view of a beach.",
+    "A": [
+      "The shoreline runs mostly horizontally.",
+      "The shoreline runs mostly vertically."
+    ],
+    "B": [
+      "The shoreline extends from left to right.",
+      "The shoreline extends from top to bottom."
+    ],
+    "C": [
+      "The main direction of the shoreline is across the width of the frame.",
+      "The main direction of the shoreline is along the height of the frame."
+    ],
+    "D": [
+      "The side edges of the picture are linked by the direction of the shoreline.",
+      "The upper and lower edges of the picture are linked by the direction of the shoreline."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 246,
+    "image": "306.tif",
+    "block": 3,
+    "rgb_sha256": "b66a80d662198fe09208860f84269ad71de8ee670efa516b3659e9f95f3359e8",
+    "pair": "train_05",
+    "side": 1,
+    "scene": "beach",
+    "contrast": "hv",
+    "subject": "the shoreline",
+    "orig_query": "This is a beach with blue sea and white sands .",
+    "scene_query": "An aerial view of a beach.",
+    "A": [
+      "The shoreline runs mostly vertically.",
+      "The shoreline runs mostly horizontally."
+    ],
+    "B": [
+      "The shoreline extends from top to bottom.",
+      "The shoreline extends from left to right."
+    ],
+    "C": [
+      "The main direction of the shoreline is along the height of the frame.",
+      "The main direction of the shoreline is across the width of the frame."
+    ],
+    "D": [
+      "The upper and lower edges of the picture are linked by the direction of the shoreline.",
+      "The side edges of the picture are linked by the direction of the shoreline."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 652,
+    "image": "815.tif",
+    "block": 8,
+    "rgb_sha256": "d7afed27ca0bf813285df6b3de3e211d29fbd882ccfa97a7a290b0e8afb8651c",
+    "pair": "train_06",
+    "side": 0,
+    "scene": "freeway",
+    "contrast": "hv",
+    "subject": "the freeway",
+    "orig_query": "There are two straight freeways closed to each other .",
+    "scene_query": "An aerial view of a freeway.",
+    "A": [
+      "The freeway runs mostly horizontally.",
+      "The freeway runs mostly vertically."
+    ],
+    "B": [
+      "The freeway extends from left to right.",
+      "The freeway extends from top to bottom."
+    ],
+    "C": [
+      "The main direction of the freeway is across the width of the frame.",
+      "The main direction of the freeway is along the height of the frame."
+    ],
+    "D": [
+      "The side edges of the picture are linked by the direction of the freeway.",
+      "The upper and lower edges of the picture are linked by the direction of the freeway."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 682,
+    "image": "845.tif",
+    "block": 8,
+    "rgb_sha256": "1f651f13385fd9eae0436d233d33ab15102fb5fddeda046bff14c0c68709b446",
+    "pair": "train_06",
+    "side": 1,
+    "scene": "freeway",
+    "contrast": "hv",
+    "subject": "the freeway",
+    "orig_query": "There are two straight freeways closed together .",
+    "scene_query": "An aerial view of a freeway.",
+    "A": [
+      "The freeway runs mostly vertically.",
+      "The freeway runs mostly horizontally."
+    ],
+    "B": [
+      "The freeway extends from top to bottom.",
+      "The freeway extends from left to right."
+    ],
+    "C": [
+      "The main direction of the freeway is along the height of the frame.",
+      "The main direction of the freeway is across the width of the frame."
+    ],
+    "D": [
+      "The upper and lower edges of the picture are linked by the direction of the freeway.",
+      "The side edges of the picture are linked by the direction of the freeway."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 664,
+    "image": "827.tif",
+    "block": 8,
+    "rgb_sha256": "ee6788521744da84ccc79935cb4423daabaf1c0f8f4d6bbe1d70b9434dd0e0fb",
+    "pair": "train_07",
+    "side": 0,
+    "scene": "freeway",
+    "contrast": "diag",
+    "subject": "the freeway",
+    "orig_query": "There are two straight freeways closed to each other and some plants beside the roads .",
+    "scene_query": "An aerial view of a freeway.",
+    "A": [
+      "The freeway slopes down toward the right.",
+      "The freeway slopes up toward the right."
+    ],
+    "B": [
+      "The freeway runs from upper left to lower right.",
+      "The freeway runs from lower left to upper right."
+    ],
+    "C": [
+      "Following the freeway from the left edge takes one lower in the picture.",
+      "Following the freeway from the left edge takes one higher in the picture."
+    ],
+    "D": [
+      "The right end of the freeway stands below its left end.",
+      "The right end of the freeway stands above its left end."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 656,
+    "image": "819.tif",
+    "block": 8,
+    "rgb_sha256": "9cb3621dd092abb16dbf49c5f36598a8819e61a47c72590b421dcd2434695e62",
+    "pair": "train_07",
+    "side": 1,
+    "scene": "freeway",
+    "contrast": "diag",
+    "subject": "the freeway",
+    "orig_query": "There are two straight freeways closed to each other .",
+    "scene_query": "An aerial view of a freeway.",
+    "A": [
+      "The freeway slopes up toward the right.",
+      "The freeway slopes down toward the right."
+    ],
+    "B": [
+      "The freeway runs from lower left to upper right.",
+      "The freeway runs from upper left to lower right."
+    ],
+    "C": [
+      "Following the freeway from the left edge takes one higher in the picture.",
+      "Following the freeway from the left edge takes one lower in the picture."
+    ],
+    "D": [
+      "The right end of the freeway stands above its left end.",
+      "The right end of the freeway stands below its left end."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 836,
+    "image": "1039.tif",
+    "block": 10,
+    "rgb_sha256": "deae4966bb08abd24c2e04a22fc1c99906983a3b8a3f97a62db9d53c5e9a12b5",
+    "pair": "train_08",
+    "side": 0,
+    "scene": "harbor",
+    "contrast": "hv",
+    "subject": "the long docks lined with boats",
+    "orig_query": "Lots of boats docked at the harbor and the water is turbid .",
+    "scene_query": "An aerial view of a harbor.",
+    "A": [
+      "The long docks lined with boats run mostly horizontally.",
+      "The long docks lined with boats run mostly vertically."
+    ],
+    "B": [
+      "The long docks lined with boats extend from left to right.",
+      "The long docks lined with boats extend from top to bottom."
+    ],
+    "C": [
+      "The main direction of the long docks lined with boats is across the width of the frame.",
+      "The main direction of the long docks lined with boats is along the height of the frame."
+    ],
+    "D": [
+      "The side edges of the picture are linked by the direction of the long docks lined with boats.",
+      "The upper and lower edges of the picture are linked by the direction of the long docks lined with boats."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 799,
+    "image": "1002.tif",
+    "block": 10,
+    "rgb_sha256": "e5e4a312dde82402e325b491223a8ca4cc22c41b515d3edd3e1c725b8ed21695",
+    "pair": "train_08",
+    "side": 1,
+    "scene": "harbor",
+    "contrast": "hv",
+    "subject": "the long docks lined with boats",
+    "orig_query": "Lots of boats docked at the harbor .",
+    "scene_query": "An aerial view of a harbor.",
+    "A": [
+      "The long docks lined with boats run mostly vertically.",
+      "The long docks lined with boats run mostly horizontally."
+    ],
+    "B": [
+      "The long docks lined with boats extend from top to bottom.",
+      "The long docks lined with boats extend from left to right."
+    ],
+    "C": [
+      "The main direction of the long docks lined with boats is along the height of the frame.",
+      "The main direction of the long docks lined with boats is across the width of the frame."
+    ],
+    "D": [
+      "The upper and lower edges of the picture are linked by the direction of the long docks lined with boats.",
+      "The side edges of the picture are linked by the direction of the long docks lined with boats."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 871,
+    "image": "1074.tif",
+    "block": 10,
+    "rgb_sha256": "c757088a0a0ac6181533812b2edf550ff355298360a6239244d88dcf8a5a832f",
+    "pair": "train_09",
+    "side": 0,
+    "scene": "harbor",
+    "contrast": "diag",
+    "subject": "the rows of moored boats",
+    "orig_query": "Lots of boats docked in lines at the harbor .",
+    "scene_query": "An aerial view of a harbor.",
+    "A": [
+      "The rows of moored boats slope down toward the right.",
+      "The rows of moored boats slope up toward the right."
+    ],
+    "B": [
+      "The rows of moored boats run from upper left to lower right.",
+      "The rows of moored boats run from lower left to upper right."
+    ],
+    "C": [
+      "Following the rows of moored boats from the left edge takes one lower in the picture.",
+      "Following the rows of moored boats from the left edge takes one higher in the picture."
+    ],
+    "D": [
+      "The right end of the rows of moored boats stands below its left end.",
+      "The right end of the rows of moored boats stands above its left end."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 827,
+    "image": "1030.tif",
+    "block": 10,
+    "rgb_sha256": "2c70319eaea3bf7dffafe52304c3df0ae9139c310c47d986a9521db37395e722",
+    "pair": "train_09",
+    "side": 1,
+    "scene": "harbor",
+    "contrast": "diag",
+    "subject": "the rows of moored boats",
+    "orig_query": "Lots of boats docked at the harbor and the water is blue .",
+    "scene_query": "An aerial view of a harbor.",
+    "A": [
+      "The rows of moored boats slope up toward the right.",
+      "The rows of moored boats slope down toward the right."
+    ],
+    "B": [
+      "The rows of moored boats run from lower left to upper right.",
+      "The rows of moored boats run from upper left to lower right."
+    ],
+    "C": [
+      "Following the rows of moored boats from the left edge takes one higher in the picture.",
+      "Following the rows of moored boats from the left edge takes one lower in the picture."
+    ],
+    "D": [
+      "The right end of the rows of moored boats stands above its left end.",
+      "The right end of the rows of moored boats stands below its left end."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 930,
+    "image": "1152.tif",
+    "block": 11,
+    "rgb_sha256": "f55027a778a13eec9866252b474708d545d39f6d401030db8244cc3a8fa2b3f6",
+    "pair": "train_10",
+    "side": 0,
+    "scene": "intersection",
+    "contrast": "grid",
+    "subject": "the crossing streets",
+    "orig_query": "An intersection with a few cars on the road .",
+    "scene_query": "An aerial view of a intersection.",
+    "A": [
+      "The crossing streets follow the sides of the picture.",
+      "The crossing streets run diagonally across the picture."
+    ],
+    "B": [
+      "The crossing streets form an upright cross.",
+      "The crossing streets form a tilted cross."
+    ],
+    "C": [
+      "The crossing streets are aligned with the horizontal and vertical frame axes.",
+      "The crossing streets are at an oblique angle to the horizontal and vertical frame axes."
+    ],
+    "D": [
+      "The picture borders are nearly parallel to one or the other of the crossing streets.",
+      "The picture borders cut obliquely across both of the crossing streets."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 906,
+    "image": "1128.tif",
+    "block": 11,
+    "rgb_sha256": "b8c826314b2a65d63f8b6fc796933d11a50f736f2b7dafca26acd5168b488d10",
+    "pair": "train_10",
+    "side": 1,
+    "scene": "intersection",
+    "contrast": "grid",
+    "subject": "the crossing streets",
+    "orig_query": "An intersection with some cars on the road .",
+    "scene_query": "An aerial view of a intersection.",
+    "A": [
+      "The crossing streets run diagonally across the picture.",
+      "The crossing streets follow the sides of the picture."
+    ],
+    "B": [
+      "The crossing streets form a tilted cross.",
+      "The crossing streets form an upright cross."
+    ],
+    "C": [
+      "The crossing streets are at an oblique angle to the horizontal and vertical frame axes.",
+      "The crossing streets are aligned with the horizontal and vertical frame axes."
+    ],
+    "D": [
+      "The picture borders cut obliquely across both of the crossing streets.",
+      "The picture borders are nearly parallel to one or the other of the crossing streets."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 913,
+    "image": "1135.tif",
+    "block": 11,
+    "rgb_sha256": "bdd5e6dfed3176033359029c26c42f9fa8d5c049ae5f160a10badb2237c7ac57",
+    "pair": "train_11",
+    "side": 0,
+    "scene": "intersection",
+    "contrast": "grid",
+    "subject": "the crossing streets",
+    "orig_query": "An intersection with some cars on the road .",
+    "scene_query": "An aerial view of a intersection.",
+    "A": [
+      "The crossing streets follow the sides of the picture.",
+      "The crossing streets run diagonally across the picture."
+    ],
+    "B": [
+      "The crossing streets form an upright cross.",
+      "The crossing streets form a tilted cross."
+    ],
+    "C": [
+      "The crossing streets are aligned with the horizontal and vertical frame axes.",
+      "The crossing streets are at an oblique angle to the horizontal and vertical frame axes."
+    ],
+    "D": [
+      "The picture borders are nearly parallel to one or the other of the crossing streets.",
+      "The picture borders cut obliquely across both of the crossing streets."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 881,
+    "image": "1103.tif",
+    "block": 11,
+    "rgb_sha256": "6f1628a1a078e7d758a6b4d3eb855d90f01cad633c662117f08ebd138d7f37b8",
+    "pair": "train_11",
+    "side": 1,
+    "scene": "intersection",
+    "contrast": "grid",
+    "subject": "the crossing streets",
+    "orig_query": "An intersection with many cars on the road .",
+    "scene_query": "An aerial view of a intersection.",
+    "A": [
+      "The crossing streets run diagonally across the picture.",
+      "The crossing streets follow the sides of the picture."
+    ],
+    "B": [
+      "The crossing streets form a tilted cross.",
+      "The crossing streets form an upright cross."
+    ],
+    "C": [
+      "The crossing streets are at an oblique angle to the horizontal and vertical frame axes.",
+      "The crossing streets are aligned with the horizontal and vertical frame axes."
+    ],
+    "D": [
+      "The picture borders cut obliquely across both of the crossing streets.",
+      "The picture borders are nearly parallel to one or the other of the crossing streets."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1105,
+    "image": "1366.tif",
+    "block": 13,
+    "rgb_sha256": "00b966dc89fb7f8a07f88817f21f957239e03e912daac0a2ad068468ee367d07",
+    "pair": "train_12",
+    "side": 0,
+    "scene": "mobile home park",
+    "contrast": "hv",
+    "subject": "the street between the homes",
+    "orig_query": "Many mobile homes arranged in lines in the mobile home park .",
+    "scene_query": "An aerial view of a mobile home park.",
+    "A": [
+      "The street between the homes runs mostly horizontally.",
+      "The street between the homes runs mostly vertically."
+    ],
+    "B": [
+      "The street between the homes extends from left to right.",
+      "The street between the homes extends from top to bottom."
+    ],
+    "C": [
+      "The main direction of the street between the homes is across the width of the frame.",
+      "The main direction of the street between the homes is along the height of the frame."
+    ],
+    "D": [
+      "The side edges of the picture are linked by the direction of the street between the homes.",
+      "The upper and lower edges of the picture are linked by the direction of the street between the homes."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1053,
+    "image": "1314.tif",
+    "block": 13,
+    "rgb_sha256": "e2c8e51775cb0f473776bdf1a3898a9aee4c18d9bbac6af0b82bff0289b6cac5",
+    "pair": "train_12",
+    "side": 1,
+    "scene": "mobile home park",
+    "contrast": "hv",
+    "subject": "the street between the homes",
+    "orig_query": "Many mobile homes arranged in lines in the mobile home park .",
+    "scene_query": "An aerial view of a mobile home park.",
+    "A": [
+      "The street between the homes runs mostly vertically.",
+      "The street between the homes runs mostly horizontally."
+    ],
+    "B": [
+      "The street between the homes extends from top to bottom.",
+      "The street between the homes extends from left to right."
+    ],
+    "C": [
+      "The main direction of the street between the homes is along the height of the frame.",
+      "The main direction of the street between the homes is across the width of the frame."
+    ],
+    "D": [
+      "The upper and lower edges of the picture are linked by the direction of the street between the homes.",
+      "The side edges of the picture are linked by the direction of the street between the homes."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1142,
+    "image": "1423.tif",
+    "block": 14,
+    "rgb_sha256": "f83194b8f3d7d5f1b8aaec700c91367e84333875af1fb629c702b1689728e306",
+    "pair": "train_13",
+    "side": 0,
+    "scene": "overpass",
+    "contrast": "hv",
+    "subject": "the elevated road",
+    "orig_query": "An overpass with a road go across another two vertically .",
+    "scene_query": "An aerial view of a overpass.",
+    "A": [
+      "The elevated road runs mostly horizontally.",
+      "The elevated road runs mostly vertically."
+    ],
+    "B": [
+      "The elevated road extends from left to right.",
+      "The elevated road extends from top to bottom."
+    ],
+    "C": [
+      "The main direction of the elevated road is across the width of the frame.",
+      "The main direction of the elevated road is along the height of the frame."
+    ],
+    "D": [
+      "The side edges of the picture are linked by the direction of the elevated road.",
+      "The upper and lower edges of the picture are linked by the direction of the elevated road."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1138,
+    "image": "1419.tif",
+    "block": 14,
+    "rgb_sha256": "06b80996d5336cec3f67d70bcf4f42e6cfcd1bb57941b5c91ba054b610ebbe23",
+    "pair": "train_13",
+    "side": 1,
+    "scene": "overpass",
+    "contrast": "hv",
+    "subject": "the elevated road",
+    "orig_query": "An overpass with a road go across another roads vertically .",
+    "scene_query": "An aerial view of a overpass.",
+    "A": [
+      "The elevated road runs mostly vertically.",
+      "The elevated road runs mostly horizontally."
+    ],
+    "B": [
+      "The elevated road extends from top to bottom.",
+      "The elevated road extends from left to right."
+    ],
+    "C": [
+      "The main direction of the elevated road is along the height of the frame.",
+      "The main direction of the elevated road is across the width of the frame."
+    ],
+    "D": [
+      "The upper and lower edges of the picture are linked by the direction of the elevated road.",
+      "The side edges of the picture are linked by the direction of the elevated road."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1175,
+    "image": "1456.tif",
+    "block": 14,
+    "rgb_sha256": "a99c7ba35934ff7632f77392da07ea350d29c18b2f02e1185dddc39f3272bf20",
+    "pair": "train_14",
+    "side": 0,
+    "scene": "overpass",
+    "contrast": "diag",
+    "subject": "the elevated road",
+    "orig_query": "An overpass with a road go across another roads vertically .",
+    "scene_query": "An aerial view of a overpass.",
+    "A": [
+      "The elevated road slopes down toward the right.",
+      "The elevated road slopes up toward the right."
+    ],
+    "B": [
+      "The elevated road runs from upper left to lower right.",
+      "The elevated road runs from lower left to upper right."
+    ],
+    "C": [
+      "Following the elevated road from the left edge takes one lower in the picture.",
+      "Following the elevated road from the left edge takes one higher in the picture."
+    ],
+    "D": [
+      "The right end of the elevated road stands below its left end.",
+      "The right end of the elevated road stands above its left end."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1159,
+    "image": "1440.tif",
+    "block": 14,
+    "rgb_sha256": "90c73f74ac732c9e27cf2d871de8adac513b23f5846feb69c6e1f72867a4769f",
+    "pair": "train_14",
+    "side": 1,
+    "scene": "overpass",
+    "contrast": "diag",
+    "subject": "the elevated road",
+    "orig_query": "An overpass with a road go across another one diagonally .",
+    "scene_query": "An aerial view of a overpass.",
+    "A": [
+      "The elevated road slopes up toward the right.",
+      "The elevated road slopes down toward the right."
+    ],
+    "B": [
+      "The elevated road runs from lower left to upper right.",
+      "The elevated road runs from upper left to lower right."
+    ],
+    "C": [
+      "Following the elevated road from the left edge takes one higher in the picture.",
+      "Following the elevated road from the left edge takes one lower in the picture."
+    ],
+    "D": [
+      "The right end of the elevated road stands above its left end.",
+      "The right end of the elevated road stands below its left end."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1212,
+    "image": "1513.tif",
+    "block": 15,
+    "rgb_sha256": "7d2f7d2e34177c3bae95b41c5bcad8fac6a080e32b0a22e75a15a23d5c4f5a95",
+    "pair": "train_15",
+    "side": 0,
+    "scene": "parking lot",
+    "contrast": "hv",
+    "subject": "the rows of parked cars",
+    "orig_query": "Lots of cars parked neatly in the parking lot .",
+    "scene_query": "An aerial view of a parking lot.",
+    "A": [
+      "The rows of parked cars run mostly horizontally.",
+      "The rows of parked cars run mostly vertically."
+    ],
+    "B": [
+      "The rows of parked cars extend from left to right.",
+      "The rows of parked cars extend from top to bottom."
+    ],
+    "C": [
+      "The main direction of the rows of parked cars is across the width of the frame.",
+      "The main direction of the rows of parked cars is along the height of the frame."
+    ],
+    "D": [
+      "The side edges of the picture are linked by the direction of the rows of parked cars.",
+      "The upper and lower edges of the picture are linked by the direction of the rows of parked cars."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1201,
+    "image": "1502.tif",
+    "block": 15,
+    "rgb_sha256": "ec205291d156a9e097f88ca9af9260cefeb3887aa5fce600c2386a138fb5f888",
+    "pair": "train_15",
+    "side": 1,
+    "scene": "parking lot",
+    "contrast": "hv",
+    "subject": "the rows of parked cars",
+    "orig_query": "Lots of cars parked neatly in the parking lot .",
+    "scene_query": "An aerial view of a parking lot.",
+    "A": [
+      "The rows of parked cars run mostly vertically.",
+      "The rows of parked cars run mostly horizontally."
+    ],
+    "B": [
+      "The rows of parked cars extend from top to bottom.",
+      "The rows of parked cars extend from left to right."
+    ],
+    "C": [
+      "The main direction of the rows of parked cars is along the height of the frame.",
+      "The main direction of the rows of parked cars is across the width of the frame."
+    ],
+    "D": [
+      "The upper and lower edges of the picture are linked by the direction of the rows of parked cars.",
+      "The side edges of the picture are linked by the direction of the rows of parked cars."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1251,
+    "image": "1552.tif",
+    "block": 15,
+    "rgb_sha256": "6e6ab6081002c5ff3abd9d61349e0fd5268e06c64ec1beecb0657a3598fa8042",
+    "pair": "train_16",
+    "side": 0,
+    "scene": "parking lot",
+    "contrast": "diag",
+    "subject": "the rows of parked cars",
+    "orig_query": "Lots of cars parked neatly in the parking lot .",
+    "scene_query": "An aerial view of a parking lot.",
+    "A": [
+      "The rows of parked cars slope down toward the right.",
+      "The rows of parked cars slope up toward the right."
+    ],
+    "B": [
+      "The rows of parked cars run from upper left to lower right.",
+      "The rows of parked cars run from lower left to upper right."
+    ],
+    "C": [
+      "Following the rows of parked cars from the left edge takes one lower in the picture.",
+      "Following the rows of parked cars from the left edge takes one higher in the picture."
+    ],
+    "D": [
+      "The right end of the rows of parked cars stands below its left end.",
+      "The right end of the rows of parked cars stands above its left end."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1227,
+    "image": "1528.tif",
+    "block": 15,
+    "rgb_sha256": "4d28b8f78c79507552b24253b10a1e1c83afdd393399aaaca0cc81b9316e5c84",
+    "pair": "train_16",
+    "side": 1,
+    "scene": "parking lot",
+    "contrast": "diag",
+    "subject": "the rows of parked cars",
+    "orig_query": "Lots of cars parked in lines in the parking lot .",
+    "scene_query": "An aerial view of a parking lot.",
+    "A": [
+      "The rows of parked cars slope up toward the right.",
+      "The rows of parked cars slope down toward the right."
+    ],
+    "B": [
+      "The rows of parked cars run from lower left to upper right.",
+      "The rows of parked cars run from upper left to lower right."
+    ],
+    "C": [
+      "Following the rows of parked cars from the left edge takes one higher in the picture.",
+      "Following the rows of parked cars from the left edge takes one lower in the picture."
+    ],
+    "D": [
+      "The right end of the rows of parked cars stands above its left end.",
+      "The right end of the rows of parked cars stands below its left end."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1356,
+    "image": "1677.tif",
+    "block": 16,
+    "rgb_sha256": "b49e0d3ce2e6257b4d5040c069ab1a31b25030609954afc0463337e39ff9383f",
+    "pair": "train_17",
+    "side": 0,
+    "scene": "river",
+    "contrast": "diag",
+    "subject": "the river",
+    "orig_query": "It is a river with dense forest on both banks of the river .",
+    "scene_query": "An aerial view of a river.",
+    "A": [
+      "The river slopes down toward the right.",
+      "The river slopes up toward the right."
+    ],
+    "B": [
+      "The river runs from upper left to lower right.",
+      "The river runs from lower left to upper right."
+    ],
+    "C": [
+      "Following the river from the left edge takes one lower in the picture.",
+      "Following the river from the left edge takes one higher in the picture."
+    ],
+    "D": [
+      "The right end of the river stands below its left end.",
+      "The right end of the river stands above its left end."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1300,
+    "image": "1621.tif",
+    "block": 16,
+    "rgb_sha256": "2e4f671129758c3b9dd10beae1257673de404f25cb90da81306103eb6f71b503",
+    "pair": "train_17",
+    "side": 1,
+    "scene": "river",
+    "contrast": "diag",
+    "subject": "the river",
+    "orig_query": "It is a river with dense forest on both banks of the river .",
+    "scene_query": "An aerial view of a river.",
+    "A": [
+      "The river slopes up toward the right.",
+      "The river slopes down toward the right."
+    ],
+    "B": [
+      "The river runs from lower left to upper right.",
+      "The river runs from upper left to lower right."
+    ],
+    "C": [
+      "Following the river from the left edge takes one higher in the picture.",
+      "Following the river from the left edge takes one lower in the picture."
+    ],
+    "D": [
+      "The right end of the river stands above its left end.",
+      "The right end of the river stands below its left end."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1422,
+    "image": "1763.tif",
+    "block": 17,
+    "rgb_sha256": "9523e5a1216e3cb64514895f325145a4ccb8b95863faf5f0a965305c78ffada4",
+    "pair": "train_18",
+    "side": 0,
+    "scene": "runway",
+    "contrast": "hv",
+    "subject": "the runway",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "scene_query": "An aerial view of a runway.",
+    "A": [
+      "The runway runs mostly horizontally.",
+      "The runway runs mostly vertically."
+    ],
+    "B": [
+      "The runway extends from left to right.",
+      "The runway extends from top to bottom."
+    ],
+    "C": [
+      "The main direction of the runway is across the width of the frame.",
+      "The main direction of the runway is along the height of the frame."
+    ],
+    "D": [
+      "The side edges of the picture are linked by the direction of the runway.",
+      "The upper and lower edges of the picture are linked by the direction of the runway."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1390,
+    "image": "1731.tif",
+    "block": 17,
+    "rgb_sha256": "d5437303e19086bfa1cc55f2a2577e8b1f2eb4330d7976580e72cf9adb9e9340",
+    "pair": "train_18",
+    "side": 1,
+    "scene": "runway",
+    "contrast": "hv",
+    "subject": "the runway",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "scene_query": "An aerial view of a runway.",
+    "A": [
+      "The runway runs mostly vertically.",
+      "The runway runs mostly horizontally."
+    ],
+    "B": [
+      "The runway extends from top to bottom.",
+      "The runway extends from left to right."
+    ],
+    "C": [
+      "The main direction of the runway is along the height of the frame.",
+      "The main direction of the runway is across the width of the frame."
+    ],
+    "D": [
+      "The upper and lower edges of the picture are linked by the direction of the runway.",
+      "The side edges of the picture are linked by the direction of the runway."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1421,
+    "image": "1762.tif",
+    "block": 17,
+    "rgb_sha256": "2ba371fad0b34e39e21c2eaf3bf60d12bea890dd3ee2d7d9dc64593c8118046f",
+    "pair": "train_19",
+    "side": 0,
+    "scene": "runway",
+    "contrast": "diag",
+    "subject": "the runway",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "scene_query": "An aerial view of a runway.",
+    "A": [
+      "The runway slopes down toward the right.",
+      "The runway slopes up toward the right."
+    ],
+    "B": [
+      "The runway runs from upper left to lower right.",
+      "The runway runs from lower left to upper right."
+    ],
+    "C": [
+      "Following the runway from the left edge takes one lower in the picture.",
+      "Following the runway from the left edge takes one higher in the picture."
+    ],
+    "D": [
+      "The right end of the runway stands below its left end.",
+      "The right end of the runway stands above its left end."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1432,
+    "image": "1773.tif",
+    "block": 17,
+    "rgb_sha256": "20c586bb7ffa7d354c854c6603be46e758abaad5eb5831927a075a36954bfa67",
+    "pair": "train_19",
+    "side": 1,
+    "scene": "runway",
+    "contrast": "diag",
+    "subject": "the runway",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "scene_query": "An aerial view of a runway.",
+    "A": [
+      "The runway slopes up toward the right.",
+      "The runway slopes down toward the right."
+    ],
+    "B": [
+      "The runway runs from lower left to upper right.",
+      "The runway runs from upper left to lower right."
+    ],
+    "C": [
+      "Following the runway from the left edge takes one higher in the picture.",
+      "Following the runway from the left edge takes one lower in the picture."
+    ],
+    "D": [
+      "The right end of the runway stands above its left end.",
+      "The right end of the runway stands below its left end."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1524,
+    "image": "1905.tif",
+    "block": 19,
+    "rgb_sha256": "9977130a397b7a58bba55b034ebea7d92e74c9036d5dcdf5f2c6154cd020ef7f",
+    "pair": "train_20",
+    "side": 0,
+    "scene": "storage tank area",
+    "contrast": "tb",
+    "subject": "the pair of circular tanks",
+    "orig_query": "Two round storage tanks are in the lawn with some buildings beside .",
+    "scene_query": "An aerial view of a storage tank area.",
+    "A": [
+      "The pair of circular tanks is near the top.",
+      "The pair of circular tanks is near the bottom."
+    ],
+    "B": [
+      "The upper half of this view contains the pair of circular tanks.",
+      "The lower half of this view contains the pair of circular tanks."
+    ],
+    "C": [
+      "The pair of circular tanks lies above the middle of the picture.",
+      "The pair of circular tanks lies below the middle of the picture."
+    ],
+    "D": [
+      "The image center is below the pair of circular tanks.",
+      "The image center is above the pair of circular tanks."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1523,
+    "image": "1904.tif",
+    "block": 19,
+    "rgb_sha256": "52ff08a9efa6fda3b96255bb8ac206187a1dd4cd5fccf7d34f25cd53fca8eb92",
+    "pair": "train_20",
+    "side": 1,
+    "scene": "storage tank area",
+    "contrast": "tb",
+    "subject": "the pair of circular tanks",
+    "orig_query": "Two round storage tanks are in the lawn with some buildings beside .",
+    "scene_query": "An aerial view of a storage tank area.",
+    "A": [
+      "The pair of circular tanks is near the bottom.",
+      "The pair of circular tanks is near the top."
+    ],
+    "B": [
+      "The lower half of this view contains the pair of circular tanks.",
+      "The upper half of this view contains the pair of circular tanks."
+    ],
+    "C": [
+      "The pair of circular tanks lies below the middle of the picture.",
+      "The pair of circular tanks lies above the middle of the picture."
+    ],
+    "D": [
+      "The image center is above the pair of circular tanks.",
+      "The image center is below the pair of circular tanks."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1535,
+    "image": "1916.tif",
+    "block": 19,
+    "rgb_sha256": "e94c12d5362b41eaf079f7a886bc3c3949c5d50ad78dceeefb2390d0e7bbc664",
+    "pair": "train_21",
+    "side": 0,
+    "scene": "storage tank area",
+    "contrast": "lr",
+    "subject": "the large circular tank",
+    "orig_query": "A white storage tank is on the lawn and a road beside .",
+    "scene_query": "An aerial view of a storage tank area.",
+    "A": [
+      "The large circular tank is on the left side.",
+      "The large circular tank is on the right side."
+    ],
+    "B": [
+      "The left half of this view contains the large circular tank.",
+      "The right half of this view contains the large circular tank."
+    ],
+    "C": [
+      "The large circular tank lies farther west than the middle of the picture.",
+      "The large circular tank lies farther east than the middle of the picture."
+    ],
+    "D": [
+      "The image center is to the right of the large circular tank.",
+      "The image center is to the left of the large circular tank."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1540,
+    "image": "1921.tif",
+    "block": 19,
+    "rgb_sha256": "fdd3028ecc0e563ac3a190342a647e6bc708c750a121f076e271a815249296d6",
+    "pair": "train_21",
+    "side": 1,
+    "scene": "storage tank area",
+    "contrast": "lr",
+    "subject": "the large circular tank",
+    "orig_query": "A big storage tank is on the ground .",
+    "scene_query": "An aerial view of a storage tank area.",
+    "A": [
+      "The large circular tank is on the right side.",
+      "The large circular tank is on the left side."
+    ],
+    "B": [
+      "The right half of this view contains the large circular tank.",
+      "The left half of this view contains the large circular tank."
+    ],
+    "C": [
+      "The large circular tank lies farther east than the middle of the picture.",
+      "The large circular tank lies farther west than the middle of the picture."
+    ],
+    "D": [
+      "The image center is to the left of the large circular tank.",
+      "The image center is to the right of the large circular tank."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1653,
+    "image": "2054.tif",
+    "block": 20,
+    "rgb_sha256": "e44a44df86f4e092111cfdf90d201463b13f03e953946388a4a93d535e07d42f",
+    "pair": "train_22",
+    "side": 0,
+    "scene": "tennis court area",
+    "contrast": "tb",
+    "subject": "the tennis courts",
+    "orig_query": "Two tennis courts arranged neatly with a road beside .",
+    "scene_query": "An aerial view of a tennis court area.",
+    "A": [
+      "The tennis courts are near the top.",
+      "The tennis courts are near the bottom."
+    ],
+    "B": [
+      "The upper half of this view contains the tennis courts.",
+      "The lower half of this view contains the tennis courts."
+    ],
+    "C": [
+      "The tennis courts lie above the middle of the picture.",
+      "The tennis courts lie below the middle of the picture."
+    ],
+    "D": [
+      "The image center is below the tennis courts.",
+      "The image center is above the tennis courts."
+    ]
+  },
+  {
+    "split": "train",
+    "row": 1665,
+    "image": "2066.tif",
+    "block": 20,
+    "rgb_sha256": "5740e0bc6fe1d1227f985999cb619b3310d8155d77f13fe4037c8b975d766090",
+    "pair": "train_22",
+    "side": 1,
+    "scene": "tennis court area",
+    "contrast": "tb",
+    "subject": "the tennis courts",
+    "orig_query": "A small tennis court with some plants and cars beside .",
+    "scene_query": "An aerial view of a tennis court area.",
+    "A": [
+      "The tennis courts are near the bottom.",
+      "The tennis courts are near the top."
+    ],
+    "B": [
+      "The lower half of this view contains the tennis courts.",
+      "The upper half of this view contains the tennis courts."
+    ],
+    "C": [
+      "The tennis courts lie below the middle of the picture.",
+      "The tennis courts lie above the middle of the picture."
+    ],
+    "D": [
+      "The image center is above the tennis courts.",
+      "The image center is below the tennis courts."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 36,
+    "image": "388.tif",
+    "block": 3,
+    "rgb_sha256": "08843009b993465e7b3c61d0a00c8d9ee67f3136b4844653c9f0f9ae6cbc7e1c",
+    "pair": "val_23",
+    "side": 0,
+    "scene": "beach",
+    "contrast": "lr",
+    "subject": "the sandy beach",
+    "orig_query": "This is a beach with blue-green sea and white sands .",
+    "scene_query": "An aerial view of a beach.",
+    "A": [
+      "The sandy beach is on the left side.",
+      "The sandy beach is on the right side."
+    ],
+    "B": [
+      "The left half of this view contains the sandy beach.",
+      "The right half of this view contains the sandy beach."
+    ],
+    "C": [
+      "The sandy beach lies farther west than the middle of the picture.",
+      "The sandy beach lies farther east than the middle of the picture."
+    ],
+    "D": [
+      "The image center is to the right of the sandy beach.",
+      "The image center is to the left of the sandy beach."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 33,
+    "image": "385.tif",
+    "block": 3,
+    "rgb_sha256": "19a2abc8732c128a86884d4dcc6bd146de9aff4aa7dcbf070a00053db9b17ae8",
+    "pair": "val_23",
+    "side": 1,
+    "scene": "beach",
+    "contrast": "lr",
+    "subject": "the sandy beach",
+    "orig_query": "This is a beach with blue-green sea and white sand .",
+    "scene_query": "An aerial view of a beach.",
+    "A": [
+      "The sandy beach is on the right side.",
+      "The sandy beach is on the left side."
+    ],
+    "B": [
+      "The right half of this view contains the sandy beach.",
+      "The left half of this view contains the sandy beach."
+    ],
+    "C": [
+      "The sandy beach lies farther east than the middle of the picture.",
+      "The sandy beach lies farther west than the middle of the picture."
+    ],
+    "D": [
+      "The image center is to the left of the sandy beach.",
+      "The image center is to the right of the sandy beach."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 61,
+    "image": "616.tif",
+    "block": 6,
+    "rgb_sha256": "f7c1bd5e73cc438a0c1137f9a06dcb15992f2a5ca7e88502043b360258330bfd",
+    "pair": "val_24",
+    "side": 0,
+    "scene": "residential area",
+    "contrast": "hv",
+    "subject": "the central corridor between the buildings",
+    "orig_query": "This is a dense residential area .",
+    "scene_query": "An aerial view of a residential area.",
+    "A": [
+      "The central corridor between the buildings runs mostly horizontally.",
+      "The central corridor between the buildings runs mostly vertically."
+    ],
+    "B": [
+      "The central corridor between the buildings extends from left to right.",
+      "The central corridor between the buildings extends from top to bottom."
+    ],
+    "C": [
+      "The main direction of the central corridor between the buildings is across the width of the frame.",
+      "The main direction of the central corridor between the buildings is along the height of the frame."
+    ],
+    "D": [
+      "The side edges of the picture are linked by the direction of the central corridor between the buildings.",
+      "The upper and lower edges of the picture are linked by the direction of the central corridor between the buildings."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 71,
+    "image": "690.tif",
+    "block": 6,
+    "rgb_sha256": "09b95d235f4fa9ff21f7fcbc7890d59f7640d12707186d826666b6ea19497632",
+    "pair": "val_24",
+    "side": 1,
+    "scene": "residential area",
+    "contrast": "hv",
+    "subject": "the central corridor between the buildings",
+    "orig_query": "This is a dense residential area with some houses .",
+    "scene_query": "An aerial view of a residential area.",
+    "A": [
+      "The central corridor between the buildings runs mostly vertically.",
+      "The central corridor between the buildings runs mostly horizontally."
+    ],
+    "B": [
+      "The central corridor between the buildings extends from top to bottom.",
+      "The central corridor between the buildings extends from left to right."
+    ],
+    "C": [
+      "The main direction of the central corridor between the buildings is along the height of the frame.",
+      "The main direction of the central corridor between the buildings is across the width of the frame."
+    ],
+    "D": [
+      "The upper and lower edges of the picture are linked by the direction of the central corridor between the buildings.",
+      "The side edges of the picture are linked by the direction of the central corridor between the buildings."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 83,
+    "image": "882.tif",
+    "block": 8,
+    "rgb_sha256": "c7626d53bc843e23efe3afc9bedd31fe689cab97b8facd62574f506bdbcfe442",
+    "pair": "val_25",
+    "side": 0,
+    "scene": "freeway",
+    "contrast": "hv",
+    "subject": "the freeway",
+    "orig_query": "There are two curved freeways closed together .",
+    "scene_query": "An aerial view of a freeway.",
+    "A": [
+      "The freeway runs mostly horizontally.",
+      "The freeway runs mostly vertically."
+    ],
+    "B": [
+      "The freeway extends from left to right.",
+      "The freeway extends from top to bottom."
+    ],
+    "C": [
+      "The main direction of the freeway is across the width of the frame.",
+      "The main direction of the freeway is along the height of the frame."
+    ],
+    "D": [
+      "The side edges of the picture are linked by the direction of the freeway.",
+      "The upper and lower edges of the picture are linked by the direction of the freeway."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 91,
+    "image": "890.tif",
+    "block": 8,
+    "rgb_sha256": "e0c4856d911d48a0cf4e4df9ad89aff163a8b3e4c8f61290b9bd45c4e2f8f985",
+    "pair": "val_25",
+    "side": 1,
+    "scene": "freeway",
+    "contrast": "hv",
+    "subject": "the freeway",
+    "orig_query": "There are two white straight freeways parrallel forward .",
+    "scene_query": "An aerial view of a freeway.",
+    "A": [
+      "The freeway runs mostly vertically.",
+      "The freeway runs mostly horizontally."
+    ],
+    "B": [
+      "The freeway extends from top to bottom.",
+      "The freeway extends from left to right."
+    ],
+    "C": [
+      "The main direction of the freeway is along the height of the frame.",
+      "The main direction of the freeway is across the width of the frame."
+    ],
+    "D": [
+      "The upper and lower edges of the picture are linked by the direction of the freeway.",
+      "The side edges of the picture are linked by the direction of the freeway."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 102,
+    "image": "1081.tif",
+    "block": 10,
+    "rgb_sha256": "4c0ab8434628598fae91f545880d9866a417018fe103c6ba6281e0dd1fb8caa9",
+    "pair": "val_26",
+    "side": 0,
+    "scene": "harbor",
+    "contrast": "tilt",
+    "subject": "the rows of moored boats",
+    "orig_query": "Lots of boats docked at the harbor and the water is deep blue .",
+    "scene_query": "An aerial view of a harbor.",
+    "A": [
+      "The rows of moored boats are slanted.",
+      "The rows of moored boats are upright."
+    ],
+    "B": [
+      "The rows of moored boats run diagonally.",
+      "The rows of moored boats run from top to bottom."
+    ],
+    "C": [
+      "The rows of moored boats make a visible angle with the vertical edges.",
+      "The rows of moored boats follow the vertical edges."
+    ],
+    "D": [
+      "The side borders are oblique to the rows of moored boats.",
+      "The side borders are parallel to the rows of moored boats."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 110,
+    "image": "1090.tif",
+    "block": 10,
+    "rgb_sha256": "a0eae165f6ffe0a416dc09101579cdfec4e65d4d85f1c24735b079b65945842d",
+    "pair": "val_26",
+    "side": 1,
+    "scene": "harbor",
+    "contrast": "tilt",
+    "subject": "the rows of moored boats",
+    "orig_query": "Lots of boats docked at the harbor and the water is deep blue .",
+    "scene_query": "An aerial view of a harbor.",
+    "A": [
+      "The rows of moored boats are upright.",
+      "The rows of moored boats are slanted."
+    ],
+    "B": [
+      "The rows of moored boats run from top to bottom.",
+      "The rows of moored boats run diagonally."
+    ],
+    "C": [
+      "The rows of moored boats follow the vertical edges.",
+      "The rows of moored boats make a visible angle with the vertical edges."
+    ],
+    "D": [
+      "The side borders are parallel to the rows of moored boats.",
+      "The side borders are oblique to the rows of moored boats."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 111,
+    "image": "1181.tif",
+    "block": 11,
+    "rgb_sha256": "e2b4a706949b5dc5436710ca0e7e9b2b6bb0528fed6c7af87c3154ebeb3662af",
+    "pair": "val_27",
+    "side": 0,
+    "scene": "intersection",
+    "contrast": "grid",
+    "subject": "the crossing streets",
+    "orig_query": "An intersection with some cars on the road .",
+    "scene_query": "An aerial view of a intersection.",
+    "A": [
+      "The crossing streets follow the sides of the picture.",
+      "The crossing streets run diagonally across the picture."
+    ],
+    "B": [
+      "The crossing streets form an upright cross.",
+      "The crossing streets form a tilted cross."
+    ],
+    "C": [
+      "The crossing streets are aligned with the horizontal and vertical frame axes.",
+      "The crossing streets are at an oblique angle to the horizontal and vertical frame axes."
+    ],
+    "D": [
+      "The picture borders are nearly parallel to one or the other of the crossing streets.",
+      "The picture borders cut obliquely across both of the crossing streets."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 116,
+    "image": "1186.tif",
+    "block": 11,
+    "rgb_sha256": "c4890e7c8dd7c4f7951a252359cd98f21aeb8bb7e26e591d7e3ba60fadb400d5",
+    "pair": "val_27",
+    "side": 1,
+    "scene": "intersection",
+    "contrast": "grid",
+    "subject": "the crossing streets",
+    "orig_query": "An intersection with many cars on the road .",
+    "scene_query": "An aerial view of a intersection.",
+    "A": [
+      "The crossing streets run diagonally across the picture.",
+      "The crossing streets follow the sides of the picture."
+    ],
+    "B": [
+      "The crossing streets form a tilted cross.",
+      "The crossing streets form an upright cross."
+    ],
+    "C": [
+      "The crossing streets are at an oblique angle to the horizontal and vertical frame axes.",
+      "The crossing streets are aligned with the horizontal and vertical frame axes."
+    ],
+    "D": [
+      "The picture borders cut obliquely across both of the crossing streets.",
+      "The picture borders are nearly parallel to one or the other of the crossing streets."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 131,
+    "image": "1382.tif",
+    "block": 13,
+    "rgb_sha256": "5a99c40be5e451645b1652fa8a797e094d2e7ec77041636ef36ccc345e35b273",
+    "pair": "val_28",
+    "side": 0,
+    "scene": "mobile home park",
+    "contrast": "hv",
+    "subject": "the central street between the homes",
+    "orig_query": "Many mobile homes arranged in lines with some cars parked at the roadside in the mobile home park .",
+    "scene_query": "An aerial view of a mobile home park.",
+    "A": [
+      "The central street between the homes runs mostly horizontally.",
+      "The central street between the homes runs mostly vertically."
+    ],
+    "B": [
+      "The central street between the homes extends from left to right.",
+      "The central street between the homes extends from top to bottom."
+    ],
+    "C": [
+      "The main direction of the central street between the homes is across the width of the frame.",
+      "The main direction of the central street between the homes is along the height of the frame."
+    ],
+    "D": [
+      "The side edges of the picture are linked by the direction of the central street between the homes.",
+      "The upper and lower edges of the picture are linked by the direction of the central street between the homes."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 135,
+    "image": "1386.tif",
+    "block": 13,
+    "rgb_sha256": "0fb84b4b878064ad92661f32bb2d3d6564f97d4a0b1b925569c6b25a1f59be32",
+    "pair": "val_28",
+    "side": 1,
+    "scene": "mobile home park",
+    "contrast": "hv",
+    "subject": "the central street between the homes",
+    "orig_query": "Many mobile homes arranged in lines in the mobile home park .",
+    "scene_query": "An aerial view of a mobile home park.",
+    "A": [
+      "The central street between the homes runs mostly vertically.",
+      "The central street between the homes runs mostly horizontally."
+    ],
+    "B": [
+      "The central street between the homes extends from top to bottom.",
+      "The central street between the homes extends from left to right."
+    ],
+    "C": [
+      "The main direction of the central street between the homes is along the height of the frame.",
+      "The main direction of the central street between the homes is across the width of the frame."
+    ],
+    "D": [
+      "The upper and lower edges of the picture are linked by the direction of the central street between the homes.",
+      "The side edges of the picture are linked by the direction of the central street between the homes."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 144,
+    "image": "1485.tif",
+    "block": 14,
+    "rgb_sha256": "70859beca18b65e054efc6d4f40a924d8e791ddc47c399e5c18eda9fe45f444c",
+    "pair": "val_29",
+    "side": 0,
+    "scene": "overpass",
+    "contrast": "hv",
+    "subject": "the elevated road",
+    "orig_query": "A road go across another one diagonally .",
+    "scene_query": "An aerial view of a overpass.",
+    "A": [
+      "The elevated road runs mostly horizontally.",
+      "The elevated road runs mostly vertically."
+    ],
+    "B": [
+      "The elevated road extends from left to right.",
+      "The elevated road extends from top to bottom."
+    ],
+    "C": [
+      "The main direction of the elevated road is across the width of the frame.",
+      "The main direction of the elevated road is along the height of the frame."
+    ],
+    "D": [
+      "The side edges of the picture are linked by the direction of the elevated road.",
+      "The upper and lower edges of the picture are linked by the direction of the elevated road."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 141,
+    "image": "1482.tif",
+    "block": 14,
+    "rgb_sha256": "cb4c69e0bd6533b0f35ccb07bdcccc4821a21ece92f2325e2510afacd5d9c6b1",
+    "pair": "val_29",
+    "side": 1,
+    "scene": "overpass",
+    "contrast": "hv",
+    "subject": "the elevated road",
+    "orig_query": "A road go across another one diagonally .",
+    "scene_query": "An aerial view of a overpass.",
+    "A": [
+      "The elevated road runs mostly vertically.",
+      "The elevated road runs mostly horizontally."
+    ],
+    "B": [
+      "The elevated road extends from top to bottom.",
+      "The elevated road extends from left to right."
+    ],
+    "C": [
+      "The main direction of the elevated road is along the height of the frame.",
+      "The main direction of the elevated road is across the width of the frame."
+    ],
+    "D": [
+      "The upper and lower edges of the picture are linked by the direction of the elevated road.",
+      "The side edges of the picture are linked by the direction of the elevated road."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 159,
+    "image": "1590.tif",
+    "block": 15,
+    "rgb_sha256": "77c25044c6b5cf7cf705581cba1858cf9aa323da02b022aa489afe729055cb86",
+    "pair": "val_30",
+    "side": 0,
+    "scene": "parking lot",
+    "contrast": "hv",
+    "subject": "the rows of parked cars",
+    "orig_query": "Lots of cars are densely arranged in the parking lot .",
+    "scene_query": "An aerial view of a parking lot.",
+    "A": [
+      "The rows of parked cars run mostly horizontally.",
+      "The rows of parked cars run mostly vertically."
+    ],
+    "B": [
+      "The rows of parked cars extend from left to right.",
+      "The rows of parked cars extend from top to bottom."
+    ],
+    "C": [
+      "The main direction of the rows of parked cars is across the width of the frame.",
+      "The main direction of the rows of parked cars is along the height of the frame."
+    ],
+    "D": [
+      "The side edges of the picture are linked by the direction of the rows of parked cars.",
+      "The upper and lower edges of the picture are linked by the direction of the rows of parked cars."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 154,
+    "image": "1585.tif",
+    "block": 15,
+    "rgb_sha256": "5f04a29f7dfd91c93436e8d64267b37172bbb2c2f88850cd569b40df169e186e",
+    "pair": "val_30",
+    "side": 1,
+    "scene": "parking lot",
+    "contrast": "hv",
+    "subject": "the rows of parked cars",
+    "orig_query": "Lots of cars are very closed to each other in the parking lot .",
+    "scene_query": "An aerial view of a parking lot.",
+    "A": [
+      "The rows of parked cars run mostly vertically.",
+      "The rows of parked cars run mostly horizontally."
+    ],
+    "B": [
+      "The rows of parked cars extend from top to bottom.",
+      "The rows of parked cars extend from left to right."
+    ],
+    "C": [
+      "The main direction of the rows of parked cars is along the height of the frame.",
+      "The main direction of the rows of parked cars is across the width of the frame."
+    ],
+    "D": [
+      "The upper and lower edges of the picture are linked by the direction of the rows of parked cars.",
+      "The side edges of the picture are linked by the direction of the rows of parked cars."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 163,
+    "image": "1684.tif",
+    "block": 16,
+    "rgb_sha256": "699d4bc48cb0dbc0ee19b9c0d7baf219486d1316a34fea22ffb32d981b8976aa",
+    "pair": "val_31",
+    "side": 0,
+    "scene": "river",
+    "contrast": "hv",
+    "subject": "the river",
+    "orig_query": "It is a river with some plants on both banks of the river .",
+    "scene_query": "An aerial view of a river.",
+    "A": [
+      "The river runs mostly horizontally.",
+      "The river runs mostly vertically."
+    ],
+    "B": [
+      "The river extends from left to right.",
+      "The river extends from top to bottom."
+    ],
+    "C": [
+      "The main direction of the river is across the width of the frame.",
+      "The main direction of the river is along the height of the frame."
+    ],
+    "D": [
+      "The side edges of the picture are linked by the direction of the river.",
+      "The upper and lower edges of the picture are linked by the direction of the river."
+    ]
+  },
+  {
+    "split": "val",
+    "row": 166,
+    "image": "1687.tif",
+    "block": 16,
+    "rgb_sha256": "2fb374db6abe3f4e84fe3ce97d4cbcd28c6bf328fa2d51fed5b29348d004de86",
+    "pair": "val_31",
+    "side": 1,
+    "scene": "river",
+    "contrast": "hv",
+    "subject": "the river",
+    "orig_query": "It is a river with dense forest on both banks of the river .",
+    "scene_query": "An aerial view of a river.",
+    "A": [
+      "The river runs mostly vertically.",
+      "The river runs mostly horizontally."
+    ],
+    "B": [
+      "The river extends from top to bottom.",
+      "The river extends from left to right."
+    ],
+    "C": [
+      "The main direction of the river is along the height of the frame.",
+      "The main direction of the river is across the width of the frame."
+    ],
+    "D": [
+      "The upper and lower edges of the picture are linked by the direction of the river.",
+      "The side edges of the picture are linked by the direction of the river."
+    ]
+  }
+]

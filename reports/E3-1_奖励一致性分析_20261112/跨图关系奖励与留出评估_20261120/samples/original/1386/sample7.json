@@ -1,0 +1,71 @@
+{
+  "image": "1386.tif",
+  "row": 135,
+  "rgb_sha256": "0fb84b4b878064ad92661f32bb2d3d6564f97d4a0b1b925569c6b25a1f59be32",
+  "mode": "original",
+  "k": 7,
+  "query": "Many mobile homes arranged in lines in the mobile home park .",
+  "seed": 20266538,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        107553,
+        101047,
+        104547,
+        23836,
+        102006,
+        54021,
+        34187,
+        43268,
+        33071,
+        108467,
+        9370,
+        101148,
+        104176,
+        3837,
+        101137,
+        51154,
+        108704,
+        113110,
+        99559,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图像中的住宅区布局显示了线性排列的移动房屋，符合查询文本所述情况。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "medium residential (0.19), dense residential (0.19), mobile home park (0.13)",
+      "confidence": 0.19413971900939941
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "4c9e0b36197c6cc66e9a7aa18cfb2db402899df7c70923b1b63731ecfb2077dc",
+  "vector_sha256": "f940cc5a1dfe986ba00e6e0f239e0eb4ac726a8a77ba16b25767273ce5a033e1"
+}

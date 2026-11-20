@@ -1,0 +1,24 @@
+{
+  "objective": "Does relation-aware selection transfer to unscored phrasings on fresh real photos and preserve caption retrieval?",
+  "unit": "scene-matched reciprocal original photo pair; both members retained together on the pre-score pixel audit",
+  "sampling": "Historical UCM LoRA, native multi-round scene tool, eight stochastic draws and one greedy per image. Scene-only query primary, first archived caption secondary. Real val images reserved in full until training-set gate and checkpoint decision fixed.",
+  "selection": "Within each image select maximal unweighted average of the midranks of A and B, average all tied choices. Historical reward = format + reciprocal proxy rank. Random = mean over the identical eight candidates.",
+  "primary": "Average of C and D binary true-over-counterdescription margins under frozen downstream model, then average equally across images. Also report the two separately, reciprocal pair assignment and native all-caption RR.",
+  "training_gate": "On train scene-only originals, A+B should exceed both random and historical reward on the primary mean; neither C nor D may lose to random, and original-caption gallery RR may lose at most 0.02 absolute vs random. If yes, run matched small policy updates and evaluate sealed fresh val. If no, release heldout performance, true-caption retrieval and geometric counterfactual as the planned diagnostics without updating the policy.",
+  "rotation": "For each retained val hv or diag pair rotate each photo 90 degrees counterclockwise; for lr/tb/nose rotate 180 degrees. Opposite relation is then true. Non-axis-preserving contrasts grid/tilt excluded. Use the same per-candidate seeds, same scene cue and rerun entire tool loop and decoder from rotated pixels. Original photographs only for native-caption and native proxy-reward comparison, since proxy gallery indexes real original photos.",
+  "inference": "Point estimates, percentile bootstrap by paired photos 20000 repetitions with seed 20261120. One UCM deployment. No formal test accesses.",
+  "short_training_if_promoted": {
+    "image_groups": 12,
+    "samples_per_group": 4,
+    "order": "random.Random(20261120).sample(sorted retained train image names,12); paired arms per-step same image and four per-image seeds",
+    "arms": [
+      "original format+proxy reciprocal rank",
+      "mean midrank of two labeled relation margins A and B"
+    ],
+    "learning_rate": 5e-06,
+    "optimizer": "AdamW; group-normalized on-policy log likelihood; gradient norm clip 1.0",
+    "initial_adapter": "ucm_main_lora deployed model",
+    "training_prompt": "neutral identical scene cue",
+    "eval": "fresh validation originals; neutral scene; each policy emits greedy and eight matched random draws without consulting relation labels for selection; compare C/D and native retrieval. End of step 12, no selection by validation."
+  }
+}

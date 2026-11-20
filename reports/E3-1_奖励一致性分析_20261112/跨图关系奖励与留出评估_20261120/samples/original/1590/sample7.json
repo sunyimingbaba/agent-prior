@@ -1,0 +1,42 @@
+{
+  "image": "1590.tif",
+  "row": 159,
+  "rgb_sha256": "77c25044c6b5cf7cf705581cba1858cf9aa323da02b022aa489afe729055cb86",
+  "mode": "original",
+  "k": 7,
+  "query": "Lots of cars are densely arranged in the parking lot .",
+  "seed": 20267498,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "parking lot (0.35), harbor (0.08), dense residential (0.05)",
+      "confidence": 0.3522767424583435
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "d5c2c0e611c3d2db5152ca73a177c7dfe85917711a742a5dbe978a65dc70e93c",
+  "vector_sha256": "3f8725da2e5e340781b38b1033df35488172af66e9a58e6d44e2cdb7d6de36f2"
+}

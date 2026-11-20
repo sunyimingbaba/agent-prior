@@ -1,0 +1,42 @@
+{
+  "image": "490.tif",
+  "row": 48,
+  "rgb_sha256": "311fb766378ab7b96bb47618852b2d5b9a4b733cc7bcd3525707fa289f2834eb",
+  "mode": "scene",
+  "k": -1,
+  "query": "An aerial view of a industrial area.",
+  "seed": 20263040,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "buildings (0.27), parking lot (0.07), mobile home park (0.06)",
+      "confidence": 0.2673119902610779
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "7efdae9ac77bf6b4baa29a5ef45ef641bfc1068403be006b314285caa956650f",
+  "vector_sha256": "a87bcd9b860d042417a7271418c7dd258147ca128a675081df1aebf2c9bc1529"
+}

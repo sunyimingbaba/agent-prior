@@ -1,0 +1,118 @@
+{
+  "image": "218.tif",
+  "row": 178,
+  "rgb_sha256": "9f91248c7ee3b68038b7707174c1db32d14a17b993738223a408417d7b44be9b",
+  "mode": "scene",
+  "k": 2,
+  "query": "An aerial view of a baseball field.",
+  "seed": 20268243,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        198,
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": " addCriterion\n<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198
+      ],
+      "decoded": "\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n"
+    }
+  ],
+  "events": [
+    {
+      "text": "baseball diamond (0.64), golf course (0.05), storage tanks (0.03)",
+      "confidence": 0.6374258995056152
+    },
+    {
+      "text": "baseball diamond (0.64), golf course (0.05), storage tanks (0.03)",
+      "confidence": 0.6374258995056152
+    }
+  ],
+  "used": 2,
+  "filtered": 0,
+  "history": null,
+  "sha256": "41cc1f70353a09d51b3f778d5de986035da0e81b9ce7477b1c04194c18cccbe9",
+  "vector_sha256": "4d791d182931199bbe51e5796360c5c71f04a634ba9615bca2fb456166e558a6"
+}

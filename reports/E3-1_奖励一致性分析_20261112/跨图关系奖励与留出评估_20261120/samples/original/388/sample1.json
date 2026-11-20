@@ -1,0 +1,65 @@
+{
+  "image": "388.tif",
+  "row": 36,
+  "rgb_sha256": "08843009b993465e7b3c61d0a00c8d9ee67f3136b4844653c9f0f9ae6cbc7e1c",
+  "mode": "original",
+  "k": 1,
+  "query": "This is a beach with blue-green sea and white sands .",
+  "seed": 20262572,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        108869,
+        105681,
+        100706,
+        9370,
+        110888,
+        33108,
+        110408,
+        110944,
+        3837,
+        43288,
+        57218,
+        51154,
+        108704,
+        53481,
+        101266,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion\n<answer>图中展示了蓝色绿色的海域和白色的沙滩，这与查询文本描述一致。</answer>"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "beach (0.45), chaparral (0.06), agricultural (0.06)",
+      "confidence": 0.45028433203697205
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "9525423d6e988d57ef69c2a5aa031df8d2158e61bbebca872d6ad4001d070e08",
+  "vector_sha256": "75c9a4d98f1a645a7aba3822792f3b774c9e70a82efc8ab60bcd0e66035a94f7"
+}

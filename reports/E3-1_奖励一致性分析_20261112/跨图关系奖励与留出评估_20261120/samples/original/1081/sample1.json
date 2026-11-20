@@ -1,0 +1,52 @@
+{
+  "image": "1081.tif",
+  "row": 102,
+  "rgb_sha256": "4c0ab8434628598fae91f545880d9866a417018fe103c6ba6281e0dd1fb8caa9",
+  "mode": "original",
+  "k": 1,
+  "query": "Lots of boats docked at the harbor and the water is deep blue .",
+  "seed": 20265212,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        25,
+        99194,
+        100400,
+        114067,
+        81217,
+        94375,
+        103001,
+        99555,
+        118515,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion:深蓝水域及停泊很多船只"
+    },
+    {
+      "ids": [
+        151644,
+        70567,
+        151645
+      ],
+      "decoded": "MMdd"
+    }
+  ],
+  "events": [
+    {
+      "text": "harbor (0.49), beach (0.07), agricultural (0.04)",
+      "confidence": 0.4876106083393097
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "daf283ba9a32195d191413deffbe367ea96dc476b1fe9458da4576663dec5f7a",
+  "vector_sha256": "270bd94cf89c4f2e9d7ba4df1ba918372e1a454e243bfe5be77f8b4e70129546"
+}

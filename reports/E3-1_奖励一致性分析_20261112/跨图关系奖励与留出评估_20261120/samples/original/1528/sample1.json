@@ -1,0 +1,40 @@
+{
+  "image": "1528.tif",
+  "row": 1227,
+  "rgb_sha256": "4d28b8f78c79507552b24253b10a1e1c83afdd393399aaaca0cc81b9316e5c84",
+  "mode": "original",
+  "k": 1,
+  "query": "Lots of cars parked in lines in the parking lot .",
+  "seed": 20310212,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "parking lot (0.54), airplane (0.04), buildings (0.04)",
+      "confidence": 0.5429971218109131
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "c9f62caa306a341bd212598195cc303139a4d49f170866707667190bb9d61564",
+  "vector_sha256": "b55832f263fcb1b8469ef89bff324f4f29d61f081383ec001ce59713724dacc6"
+}

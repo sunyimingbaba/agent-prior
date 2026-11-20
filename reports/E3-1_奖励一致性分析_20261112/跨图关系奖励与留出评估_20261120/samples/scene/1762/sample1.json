@@ -1,0 +1,59 @@
+{
+  "image": "1762.tif",
+  "row": 1421,
+  "rgb_sha256": "2ba371fad0b34e39e21c2eaf3bf60d12bea890dd3ee2d7d9dc64593c8118046f",
+  "mode": "scene",
+  "k": 1,
+  "query": "An aerial view of a runway.",
+  "seed": 20317962,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        108893,
+        100954,
+        98650,
+        107553,
+        54021,
+        99593,
+        38989,
+        102175,
+        104610,
+        115280,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>这张遥感图像显示了一条公路而不是跑道。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "runway (0.28), airplane (0.12), freeway (0.06)",
+      "confidence": 0.2844105064868927
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "d54c1efe511dafc69f8f7e53db6755d685e36a2b6627b5259101b44b77e397d3",
+  "vector_sha256": "3ea44190fdff0b844eab7b119b2cee830da32d5872196372e1ea81dcf3445904"
+}

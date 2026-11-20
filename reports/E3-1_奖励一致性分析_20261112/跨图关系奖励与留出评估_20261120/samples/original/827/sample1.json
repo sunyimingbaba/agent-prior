@@ -1,0 +1,73 @@
+{
+  "image": "827.tif",
+  "row": 664,
+  "rgb_sha256": "ee6788521744da84ccc79935cb4423daabaf1c0f8f4d6bbe1d70b9434dd0e0fb",
+  "mode": "original",
+  "k": 1,
+  "query": "There are two straight freeways closed to each other and some plants beside the roads .",
+  "seed": 20287692,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        54021,
+        100146,
+        44636,
+        99630,
+        100391,
+        3837,
+        104610,
+        108330,
+        104945,
+        106963,
+        74999,
+        108978,
+        1773,
+        101886,
+        3837,
+        45930,
+        107132,
+        103008,
+        51154,
+        43815,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中显示的是高架桥，而不是两条互相靠近关闭的道路。因此，图片不符合提供的查询内容。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "overpass (0.29), freeway (0.27), intersection (0.05)",
+      "confidence": 0.28587597608566284
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "c943ee3aad9b888ca8e18ae846d2513237d3035f8ca5bcc80ff03d11c37b865d",
+  "vector_sha256": "bcfc4226fe4c7f3a5de936be36bf0b1f74604710200886b67d945cc2cbb56c19"
+}

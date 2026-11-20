@@ -1,0 +1,8 @@
+{
+ "status":"Secondary diagnostic specified after the train gate failed and before val readout. Primary training decision unchanged.",
+ "query":"Neutral scene cue; no caption in policy input. Same eight candidates used for all choices.",
+ "training_reward":"Score true first UCM caption minus highest negative cosine in even SHA256 parity cohort of deduplicated caption tokens. All original positive token groups of this image excluded from negatives. Joint = equal weight of midranks of this native margin and the A+B relation score.",
+ "evaluation":"Best of other positive token groups (remove first and all token equivalents) against disjoint odd-parity negative cohort; reciprocal rank and margin. Also assess frozen relation C and D. For cross-metric paired comparisons only use original photo pairs for which both members have at least one other token group and both negative cohorts exist.",
+ "hash":"SHA256 of comma-separated decimal CLIP token IDs including padding. Last hexadecimal digit parity.",
+ "use":"Characterize reward trade-offs and identify a training candidate. No new hyperparameter grid or policy promotion on validation results."
+}

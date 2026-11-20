@@ -1,0 +1,40 @@
+{
+  "image": "827.tif",
+  "row": 664,
+  "rgb_sha256": "ee6788521744da84ccc79935cb4423daabaf1c0f8f4d6bbe1d70b9434dd0e0fb",
+  "mode": "original",
+  "k": 6,
+  "query": "There are two straight freeways closed to each other and some plants beside the roads .",
+  "seed": 20287697,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "overpass (0.29), freeway (0.27), intersection (0.05)",
+      "confidence": 0.28587597608566284
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "d9570be04dcf52d66d84e168f1025164563cc0d3f192188f69e36abf2d4bba18",
+  "vector_sha256": "308fb41ace3ff4674c455680a4b0a34fae4f1486bf35cd3918fc6dda725c4485"
+}

@@ -1,0 +1,40 @@
+{
+  "image": "1074.tif",
+  "row": 871,
+  "rgb_sha256": "c757088a0a0ac6181533812b2edf550ff355298360a6239244d88dcf8a5a832f",
+  "mode": "scene",
+  "k": -1,
+  "query": "An aerial view of a harbor.",
+  "seed": 20295960,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "harbor (0.23), beach (0.07), agricultural (0.07)",
+      "confidence": 0.2324455827474594
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "47aeef0bec25f7d39583b2cdc5dcf30d99590caed35f4f6a92f76c448aa7f514",
+  "vector_sha256": "4efded17adb75975b02795e4afbbf0829c640ad37fcbcd55de680a6ef8556433"
+}

@@ -1,0 +1,40 @@
+{
+  "image": "238.tif",
+  "row": 198,
+  "rgb_sha256": "106d44ba9f09eb87cf386e085de5df4dc03f02356133cec9cc9a3560f83d081b",
+  "mode": "original",
+  "k": 7,
+  "query": "This is an old baseball diamond .",
+  "seed": 20269058,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "baseball diamond (0.34), tennis court (0.07), golf course (0.05)",
+      "confidence": 0.3440605700016022
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "ae82848c62712d5ab40ffbb0cae1f2666f444a49400036bc015d20545b2163f5",
+  "vector_sha256": "40aafb059019d133a5c1a4c00ab84db6d66c29e7c3f39dceef5c6d684c33b613"
+}

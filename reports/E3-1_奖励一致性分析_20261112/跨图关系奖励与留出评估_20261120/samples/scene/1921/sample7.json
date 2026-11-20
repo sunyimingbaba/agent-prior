@@ -1,0 +1,42 @@
+{
+  "image": "1921.tif",
+  "row": 1540,
+  "rgb_sha256": "fdd3028ecc0e563ac3a190342a647e6bc708c750a121f076e271a815249296d6",
+  "mode": "scene",
+  "k": 7,
+  "query": "An aerial view of a storage tank area.",
+  "seed": 20322728,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        90557,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "��\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.34), buildings (0.08), sparse residential (0.06)",
+      "confidence": 0.33856651186943054
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "8799628293c97de369794173f50bd87e1e049e3c11d5579118d124c7a1f15794",
+  "vector_sha256": "dbe04bc275bbb0bb0bd50bac0e1a2dd7a31af948dc83cda529fc48c49fdab7e9"
+}

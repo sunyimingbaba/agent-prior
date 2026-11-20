@@ -1,0 +1,122 @@
+{
+  "image": "1002.tif",
+  "row": 799,
+  "rgb_sha256": "e5e4a312dde82402e325b491223a8ca4cc22c41b515d3edd3e1c725b8ed21695",
+  "mode": "original",
+  "k": 7,
+  "query": "Lots of boats docked at the harbor .",
+  "seed": 20293098,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": " addCriterion\n\n addCriterion\n<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198
+      ],
+      "decoded": "\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n"
+    }
+  ],
+  "events": [
+    {
+      "text": "harbor (0.61), beach (0.04), parking lot (0.03)",
+      "confidence": 0.6097226142883301
+    },
+    {
+      "text": "harbor (0.61), beach (0.04), parking lot (0.03)",
+      "confidence": 0.6097226142883301
+    }
+  ],
+  "used": 2,
+  "filtered": 0,
+  "history": null,
+  "sha256": "f4c98201796382a3a0846e1b0a2826572bc59531c7e40586ff48810c4f37434e",
+  "vector_sha256": "61fee6cd7023ce261c74ef232a324b7626186cf4a0f51772912f1efd5f3c353e"
+}

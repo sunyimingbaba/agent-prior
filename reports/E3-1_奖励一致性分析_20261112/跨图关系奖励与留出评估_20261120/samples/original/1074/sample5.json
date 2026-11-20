@@ -1,0 +1,40 @@
+{
+  "image": "1074.tif",
+  "row": 871,
+  "rgb_sha256": "c757088a0a0ac6181533812b2edf550ff355298360a6239244d88dcf8a5a832f",
+  "mode": "original",
+  "k": 5,
+  "query": "Lots of boats docked in lines at the harbor .",
+  "seed": 20295976,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "harbor (0.23), beach (0.07), agricultural (0.07)",
+      "confidence": 0.2324455827474594
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "52cf784f941135ce20d855b092d355d1328c9f4dde5e72212d3325ebdf22b909",
+  "vector_sha256": "96a90f090d43de6b4ac917b4326302878f47b76a9d49c49ad2addc679c058643"
+}

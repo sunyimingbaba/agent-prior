@@ -1,0 +1,42 @@
+{
+  "image": "1882.tif",
+  "row": 181,
+  "rgb_sha256": "f75d3844eea5d64a20e238ff874d9b2cd4ac28f25277e32a2e09386688c7e0d7",
+  "mode": "scene",
+  "k": 3,
+  "query": "An aerial view of a residential area.",
+  "seed": 20268364,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        90557,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "��\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "sparse residential (0.39), buildings (0.09), storage tanks (0.07)",
+      "confidence": 0.3879287838935852
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "223effba66159ed8f70bf47cca7f2d0bdf3364a1587c31afc93fe1f47a8bdcf0",
+  "vector_sha256": "5a7c7aaa54943873334793c7eb04e90d8a75adef75d5663ad7afef3fe7ed1469"
+}

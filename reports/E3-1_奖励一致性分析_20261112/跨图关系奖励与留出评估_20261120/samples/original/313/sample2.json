@@ -1,0 +1,38 @@
+{
+  "image": "313.tif",
+  "row": 253,
+  "rgb_sha256": "4e40d29dde81da1bb44399ec776d1baab9ca5c46519a97f10821f9e86d0755a6",
+  "mode": "original",
+  "k": 2,
+  "query": "This is a beach with blue sea and white sands .",
+  "seed": 20271253,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "beach (0.55), agricultural (0.05), harbor (0.04)",
+      "confidence": 0.5494810938835144
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "896a8fcb4a3f0de327c8dfd4c72b7f32b99a4ed1a99c3ae38396d213d04b121e",
+  "vector_sha256": "2d0d3c6474a77e173e5ecbdcd9c7eb2ff786a7c4f42bdd0db31a20a1a9b5d7c4"
+}

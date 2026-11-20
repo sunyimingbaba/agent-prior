@@ -1,0 +1,66 @@
+{
+  "image": "690.tif",
+  "row": 71,
+  "rgb_sha256": "09b95d235f4fa9ff21f7fcbc7890d59f7640d12707186d826666b6ea19497632",
+  "mode": "scene",
+  "k": 7,
+  "query": "An aerial view of a residential area.",
+  "seed": 20263968,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        26355,
+        113004,
+        43815,
+        17714,
+        46944,
+        104547,
+        23836,
+        9370,
+        105438,
+        28029,
+        46423,
+        3837,
+        101137,
+        51154,
+        108704,
+        104272,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图例所示内容为一个住宅区的空中图象，符合查询文本的要求。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "medium residential (0.27), dense residential (0.23), mobile home park (0.13)",
+      "confidence": 0.2707176208496094
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "b79e2438f8b57ef7f73a418fbd4bd613f5293fe5388b38a0c85f2ad02bdf41a3",
+  "vector_sha256": "94a0c3fc50a5ab9efda451a4547d8189662cb8bc47e56da284d3063889472694"
+}

@@ -1,0 +1,43 @@
+{
+  "image": "218.tif",
+  "row": 178,
+  "rgb_sha256": "9f91248c7ee3b68038b7707174c1db32d14a17b993738223a408417d7b44be9b",
+  "mode": "scene",
+  "k": 7,
+  "query": "An aerial view of a baseball field.",
+  "seed": 20268248,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        151645
+      ],
+      "decoded": "\n addCriterion\n"
+    }
+  ],
+  "events": [
+    {
+      "text": "baseball diamond (0.64), golf course (0.05), storage tanks (0.03)",
+      "confidence": 0.6374258995056152
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "7e8bb0a05895fb189e0865bd76594f8fcd5613518cbef19c4839eba1db81a923",
+  "vector_sha256": "0a547f5b5330f614b821204b71c6dd2c1f320185c62da3114de4925807005e94"
+}

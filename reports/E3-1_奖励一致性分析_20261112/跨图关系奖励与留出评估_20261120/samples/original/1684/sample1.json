@@ -1,0 +1,40 @@
+{
+  "image": "1684.tif",
+  "row": 163,
+  "rgb_sha256": "699d4bc48cb0dbc0ee19b9c0d7baf219486d1316a34fea22ffb32d981b8976aa",
+  "mode": "original",
+  "k": 1,
+  "query": "It is a river with some plants on both banks of the river .",
+  "seed": 20267652,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "river (0.29), forest (0.10), agricultural (0.06)",
+      "confidence": 0.29416072368621826
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "201103087472a8886c5ac94684d6ec2c8fdb0accee8eab32c45489b251281073",
+  "vector_sha256": "5f34cc63f5aed17d98817edf414ee3aa46b66665adfe1c6ade840fa4c63aca28"
+}

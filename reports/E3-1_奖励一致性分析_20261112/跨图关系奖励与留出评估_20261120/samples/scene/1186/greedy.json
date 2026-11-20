@@ -1,0 +1,40 @@
+{
+  "image": "1186.tif",
+  "row": 116,
+  "rgb_sha256": "c4890e7c8dd7c4f7951a252359cd98f21aeb8bb7e26e591d7e3ba60fadb400d5",
+  "mode": "scene",
+  "k": -1,
+  "query": "An aerial view of a intersection.",
+  "seed": 20265760,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "intersection (0.28), overpass (0.12), freeway (0.08)",
+      "confidence": 0.27622130513191223
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "3f2bcf6578cda7d557cad3f61e59a5c60c7b68b2b5806145e81317486ffb318a",
+  "vector_sha256": "c0890b341bff50fd6eaf3dacfa00b4bf6da59544cdba35a0b99ce0fb5f74488a"
+}

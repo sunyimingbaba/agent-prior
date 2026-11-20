@@ -1,0 +1,70 @@
+{
+  "image": "1440.tif",
+  "row": 1159,
+  "rgb_sha256": "90c73f74ac732c9e27cf2d871de8adac513b23f5846feb69c6e1f72867a4769f",
+  "mode": "original",
+  "k": 0,
+  "query": "An overpass with a road go across another one diagonally .",
+  "seed": 20307491,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        101047,
+        102122,
+        20412,
+        105477,
+        3837,
+        101137,
+        51154,
+        108704,
+        104496,
+        9370,
+        2073,
+        104788,
+        101178,
+        102669,
+        99960,
+        100266,
+        99579,
+        854,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中的场景是高速公路，符合查询文本提到的“一座道路斜跨另一座”。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "overpass (0.36), freeway (0.25), intersection (0.05)",
+      "confidence": 0.3551543653011322
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "a2eecbf1c00854bad84b153deb227445cf08c9fc82feeb419ccc18a43829a288",
+  "vector_sha256": "157923dd2b145f18637a12cec60cb9f594dcc45ccc0f346ae7bc83368493e54d"
+}

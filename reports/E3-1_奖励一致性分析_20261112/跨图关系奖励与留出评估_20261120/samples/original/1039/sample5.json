@@ -1,0 +1,47 @@
+{
+  "image": "1039.tif",
+  "row": 836,
+  "rgb_sha256": "deae4966bb08abd24c2e04a22fc1c99906983a3b8a3f97a62db9d53c5e9a12b5",
+  "mode": "original",
+  "k": 5,
+  "query": "Lots of boats docked at the harbor and the water is turbid .",
+  "seed": 20294576,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        70567,
+        198,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "MMdd\n\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "harbor (0.47), river (0.05), parking lot (0.04)",
+      "confidence": 0.47448262572288513
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "26e22aaf609c667d3070ec318b858baa9776ef92b34b15a796526df3f0001e44",
+  "vector_sha256": "59b553f08f519371e2f44c5c0940acf22c0badb666fb7b6e2693bd5092f718f9"
+}

@@ -1,0 +1,40 @@
+{
+  "image": "1916.tif",
+  "row": 1535,
+  "rgb_sha256": "e94c12d5362b41eaf079f7a886bc3c3949c5d50ad78dceeefb2390d0e7bbc664",
+  "mode": "original",
+  "k": 1,
+  "query": "A white storage tank is on the lawn and a road beside .",
+  "seed": 20322532,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.41), mobile home park (0.05), buildings (0.04)",
+      "confidence": 0.4074157476425171
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "e5afedeefb72586e73153f352c94ba217eadd2d64c88aaef7874b92731f88b78",
+  "vector_sha256": "46c24fe98c7fa7afe7f8be46b54f673fe3fd2375503c3911159b8fafe9adaf87"
+}

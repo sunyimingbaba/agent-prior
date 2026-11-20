@@ -1,0 +1,74 @@
+{
+  "image": "385.tif",
+  "row": 33,
+  "rgb_sha256": "19a2abc8732c128a86884d4dcc6bd146de9aff4aa7dcbf070a00053db9b17ae8",
+  "mode": "rotated",
+  "k": 1,
+  "query": "An aerial view of a beach.",
+  "seed": 20262442,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        198,
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": " addCriterion\n<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        97028,
+        151645
+      ],
+      "decoded": " addCriterion\n\n addCriterion\n\n addCriterion\n addCriterion\n addCriterion\n\n addCriterion\n 自动生成"
+    }
+  ],
+  "events": [
+    {
+      "text": "beach (0.52), chaparral (0.06), agricultural (0.05)",
+      "confidence": 0.5219930410385132
+    },
+    {
+      "text": "beach (0.52), chaparral (0.06), agricultural (0.05)",
+      "confidence": 0.5219930410385132
+    }
+  ],
+  "used": 2,
+  "filtered": 0,
+  "history": null,
+  "sha256": "5da00d438d4a443ea6d12826a236707474e61f60e3bb51fc5edfbea25b544ff1",
+  "vector_sha256": "b0a022d87d147bd96060ad546b0c5b411abd13dcec06614ee804979e6eb19305"
+}

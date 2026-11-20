@@ -1,0 +1,71 @@
+{
+  "image": "1487.tif",
+  "row": 146,
+  "rgb_sha256": "9aec42f2bf2dcb8e025e1f1384eefe33d5f68762c752e830a1430a087b15ed4d",
+  "mode": "scene",
+  "k": 1,
+  "query": "An aerial view of a overpass.",
+  "seed": 20266962,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        1382,
+        51407,
+        1942,
+        36182,
+        320,
+        15,
+        13,
+        16,
+        17,
+        701,
+        548,
+        74590,
+        320,
+        15,
+        13,
+        21,
+        24,
+        701,
+        23946,
+        2929,
+        320,
+        15,
+        13,
+        16,
+        23,
+        12533,
+        1382,
+        29,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion\n<result>buckskin (0.12), prairie (0.69), hillside (0.18)</result>"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "overpass (0.30), freeway (0.21), river (0.07)",
+      "confidence": 0.29668739438056946
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "e9d861dc30b4c943f369911566debb842186e8a059f434c8e28d21e1ed870d2b",
+  "vector_sha256": "4c6ede1ec28d87b17bc8b8c457525f6bce2905e178755ad8e31fa1660fceb757"
+}

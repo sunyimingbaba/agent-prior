@@ -1,0 +1,72 @@
+{
+  "image": "616.tif",
+  "row": 61,
+  "rgb_sha256": "f7c1bd5e73cc438a0c1137f9a06dcb15992f2a5ca7e88502043b360258330bfd",
+  "mode": "scene",
+  "k": 0,
+  "query": "An aerial view of a residential area.",
+  "seed": 20263561,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        1382,
+        29,
+        416,
+        11234,
+        320,
+        15,
+        13,
+        22,
+        23,
+        701,
+        6290,
+        7675,
+        320,
+        15,
+        13,
+        16,
+        20,
+        701,
+        13154,
+        4752,
+        6351,
+        320,
+        15,
+        13,
+        16,
+        12533,
+        1382,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<result>residential (0.78), townhouse (0.15), apartment building complex (0.1)</result>"
+    }
+  ],
+  "events": [
+    {
+      "text": "dense residential (0.23), medium residential (0.19), mobile home park (0.15)",
+      "confidence": 0.22542257606983185
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "d0a341e1ff504942e94c74ce2f241ecac6ad80ced9a990f6b3f4fe6e4f93d668",
+  "vector_sha256": "5d79e5843fc7c34f84237bb15e3ceacf57e18767a782aba98d5647f5e6db812d"
+}

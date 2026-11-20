@@ -1,0 +1,68 @@
+{
+  "image": "167.tif",
+  "row": 146,
+  "rgb_sha256": "1eaf487730329f818476fe420b5a40b8362dba08d286256ce387b6d443797690",
+  "mode": "scene",
+  "k": 1,
+  "query": "An aerial view of a airplane.",
+  "seed": 20266962,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        1382,
+        51407,
+        62118,
+        320,
+        15,
+        13,
+        24,
+        16,
+        701,
+        42924,
+        320,
+        15,
+        13,
+        20,
+        22,
+        701,
+        646,
+        320,
+        15,
+        13,
+        15,
+        20,
+        12533,
+        1382,
+        29,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion\n<result>bottle (0.91), airplane (0.57), can (0.05)</result>"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "airplane (0.43), runway (0.07), storage tanks (0.06)",
+      "confidence": 0.43124306201934814
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "fc6bdf20d034d4f7ea1908f0e2de8e90480959d1138e1aff719c171bdee7b8e6",
+  "vector_sha256": "14a48403d88980aaedbbfbdb960264433d22294bd65cf81ca47258ed470a7b1f"
+}

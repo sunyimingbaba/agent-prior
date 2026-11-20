@@ -1,0 +1,118 @@
+{
+  "image": "1513.tif",
+  "row": 1212,
+  "rgb_sha256": "7d2f7d2e34177c3bae95b41c5bcad8fac6a080e32b0a22e75a15a23d5c4f5a95",
+  "mode": "scene",
+  "k": 3,
+  "query": "An aerial view of a parking lot.",
+  "seed": 20309604,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        198,
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": " addCriterion\n<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198
+      ],
+      "decoded": "\n addCriterion\n\n addCriterion\n\n addCriterion\n addCriterion\n addCriterion\n\n addCriterion\n addCriterion\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n\n addCriterion\n"
+    }
+  ],
+  "events": [
+    {
+      "text": "parking lot (0.52), buildings (0.04), harbor (0.04)",
+      "confidence": 0.522549033164978
+    },
+    {
+      "text": "parking lot (0.52), buildings (0.04), harbor (0.04)",
+      "confidence": 0.522549033164978
+    }
+  ],
+  "used": 2,
+  "filtered": 0,
+  "history": null,
+  "sha256": "0eb35f2ed9e28ff9076782d3e90ef7886f4d3907318fb9b8d58a6cf055833d79",
+  "vector_sha256": "32b9e0a5f850e2743cf35402f80d666d11825ba5e36843365d015826caccead0"
+}

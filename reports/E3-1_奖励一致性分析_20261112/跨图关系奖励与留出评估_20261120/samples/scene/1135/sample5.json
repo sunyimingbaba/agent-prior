@@ -1,0 +1,70 @@
+{
+  "image": "1135.tif",
+  "row": 913,
+  "rgb_sha256": "bdd5e6dfed3176033359029c26c42f9fa8d5c049ae5f160a10badb2237c7ac57",
+  "mode": "scene",
+  "k": 5,
+  "query": "An aerial view of a intersection.",
+  "seed": 20297646,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        330,
+        785,
+        1995,
+        3897,
+        304,
+        279,
+        2086,
+        2168,
+        323,
+        279,
+        5189,
+        3239,
+        525,
+        2155,
+        26,
+        1052,
+        374,
+        902,
+        1995,
+        911,
+        264,
+        56411,
+        476,
+        17727,
+        304,
+        279,
+        2086,
+        2168,
+        1189,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion \"The information provided in the second image and the specified query are different; there is no information about a harbor or ships in the second image.\""
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "intersection (0.32), buildings (0.07), freeway (0.06)",
+      "confidence": 0.31588104367256165
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "0aa9c106d4dc12dcc2dc27ad3eaa09301d107cc509ce13c63d5e64ed06480116",
+  "vector_sha256": "f799ade4091e3b6be94420047ebdc2933c42f94983e823ced6e1d5dcc08c55d7"
+}

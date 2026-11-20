@@ -1,0 +1,118 @@
+{
+  "image": "385.tif",
+  "row": 33,
+  "rgb_sha256": "19a2abc8732c128a86884d4dcc6bd146de9aff4aa7dcbf070a00053db9b17ae8",
+  "mode": "scene",
+  "k": 1,
+  "query": "An aerial view of a beach.",
+  "seed": 20262442,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        198,
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": " addCriterion\n<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        18724,
+        198,
+        151644,
+        198,
+        90557,
+        198,
+        90557,
+        198,
+        151644,
+        198,
+        90557,
+        198,
+        151644,
+        198,
+        90557,
+        198,
+        151644,
+        198,
+        90557,
+        198,
+        151644,
+        198,
+        90557,
+        198,
+        151644,
+        198,
+        90557,
+        198,
+        151644,
+        198,
+        151644,
+        198,
+        151644,
+        198,
+        90557,
+        198,
+        151644,
+        198,
+        151644,
+        198,
+        90557,
+        198,
+        151644,
+        198,
+        151644,
+        198
+      ],
+      "decoded": " addCriterion\n\n addCriterion\n\n addCriterion\n addCriterion\n addCriterion\n\n addCriterion\n addCriterion\n\n��\n��\n\n��\n\n��\n\n��\n\n��\n\n��\n\n\n\n��\n\n\n��\n\n\n"
+    }
+  ],
+  "events": [
+    {
+      "text": "beach (0.52), chaparral (0.06), agricultural (0.05)",
+      "confidence": 0.5172509551048279
+    },
+    {
+      "text": "beach (0.52), chaparral (0.06), agricultural (0.05)",
+      "confidence": 0.5172509551048279
+    }
+  ],
+  "used": 2,
+  "filtered": 0,
+  "history": null,
+  "sha256": "503360b6d04d9b6811c26eb6cc5035b0bcb7acd11238c1014756e21dbd84b917",
+  "vector_sha256": "6027de71c001c4793451259fc6cf21c4fd9e708c12c2cefdf1305ddb27209055"
+}

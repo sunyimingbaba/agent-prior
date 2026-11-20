@@ -1,0 +1,44 @@
+{
+  "image": "385.tif",
+  "row": 33,
+  "rgb_sha256": "19a2abc8732c128a86884d4dcc6bd146de9aff4aa7dcbf070a00053db9b17ae8",
+  "mode": "rotated",
+  "k": 7,
+  "query": "An aerial view of a beach.",
+  "seed": 20262448,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        2073,
+        17,
+        854,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion“2”"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "beach (0.52), chaparral (0.06), agricultural (0.05)",
+      "confidence": 0.5219930410385132
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "e8218bfccaab7712fab5ca033c7acca04817fa863c960d48207a305db101efea",
+  "vector_sha256": "a08a262da6592ed8bc874de12bd6f0fceb43c03983527ee19a2b87e43b8dfd62"
+}

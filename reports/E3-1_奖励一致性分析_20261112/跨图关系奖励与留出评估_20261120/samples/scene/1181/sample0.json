@@ -1,0 +1,106 @@
+{
+  "image": "1181.tif",
+  "row": 111,
+  "rgb_sha256": "e2b4a706949b5dc5436710ca0e7e9b2b6bb0528fed6c7af87c3154ebeb3662af",
+  "mode": "scene",
+  "k": 0,
+  "query": "An aerial view of a intersection.",
+  "seed": 20265561,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        397,
+        100345,
+        89012,
+        22382,
+        105427,
+        3837,
+        104120,
+        107553,
+        9370,
+        102122,
+        70538,
+        114956,
+        2073,
+        106809,
+        39426,
+        854,
+        100622,
+        106716,
+        100020,
+        27442,
+        9909,
+        15,
+        13,
+        18,
+        21,
+        114568,
+        48272,
+        43288,
+        101137,
+        51154,
+        108704,
+        15946,
+        109361,
+        9370,
+        2073,
+        99440,
+        100172,
+        38109,
+        109082,
+        97907,
+        53481,
+        8997,
+        522,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>\n根据给定的信息，上述图像的场景分类显示出“交叉口”作为首要关注点（0.36的概率），这符合查询文本中提及的“航拍交差点”的描述。\n</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "intersection (0.36), medium residential (0.16), dense residential (0.09)",
+      "confidence": 0.36015263199806213
+    },
+    {
+      "text": "intersection (0.36), medium residential (0.16), dense residential (0.09)",
+      "confidence": 0.36015263199806213
+    }
+  ],
+  "used": 2,
+  "filtered": 0,
+  "history": null,
+  "sha256": "3351433c221705fa85d5a32ac0907a4755c91f82a6a4272706223fc71e20162b",
+  "vector_sha256": "be5fecc494399807dae1f6c1579cb1162a17c8e8276d8659bb53ad549cbf0a01"
+}

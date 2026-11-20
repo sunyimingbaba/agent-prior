@@ -1,0 +1,45 @@
+{
+  "image": "2054.tif",
+  "row": 1653,
+  "rgb_sha256": "e44a44df86f4e092111cfdf90d201463b13f03e953946388a4a93d535e07d42f",
+  "mode": "original",
+  "k": -1,
+  "query": "Two tennis courts arranged neatly with a road beside .",
+  "seed": 20327250,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "tennis court (0.42), baseball diamond (0.06), mobile home park (0.06)",
+      "confidence": 0.4220937192440033
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": {
+    "archive_sha": "a37ce9aea39a1ce8d98be3c46f1c62c629403933c2081490c8f7d533788718a8",
+    "bit_equal": true
+  },
+  "sha256": "cb23e66ba522fd3a7d064769eb5b19cc11f66056c9b40657d14c94357ce59135",
+  "vector_sha256": "40cf57b24f898687a1a7b6320fa03208b26e8452e0806ae63288a8caa4bf89cd"
+}

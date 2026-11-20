@@ -1,0 +1,42 @@
+{
+  "image": "989.tif",
+  "row": 100,
+  "rgb_sha256": "310f70bd148b8ad30f5bc28b5205e812c8b0f61bc638505c24c3dc47a3f2d6c1",
+  "mode": "rotated",
+  "k": -1,
+  "query": "An aerial view of a golf course.",
+  "seed": 20265120,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "golf course (0.44), tennis court (0.07), baseball diamond (0.05)",
+      "confidence": 0.4379066526889801
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "a2b01c8ab2703ad4bafe385317956dd65a046befbf7765507a29bdcf51493400",
+  "vector_sha256": "1019adf44636a9eb5ed46b8d06fd1a0a7cd10e20629470628effcc014dcf6809"
+}

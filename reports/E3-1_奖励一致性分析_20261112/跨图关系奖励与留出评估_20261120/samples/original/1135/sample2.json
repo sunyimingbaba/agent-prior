@@ -1,0 +1,79 @@
+{
+  "image": "1135.tif",
+  "row": 913,
+  "rgb_sha256": "bdd5e6dfed3176033359029c26c42f9fa8d5c049ae5f160a10badb2237c7ac57",
+  "mode": "original",
+  "k": 2,
+  "query": "An intersection with some cars on the road .",
+  "seed": 20297653,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        101047,
+        27369,
+        54021,
+        43288,
+        99639,
+        44290,
+        106809,
+        108005,
+        3837,
+        77288,
+        104065,
+        100692,
+        102406,
+        18830,
+        100343,
+        18493,
+        45995,
+        101653,
+        105427,
+        100347,
+        3837,
+        101886,
+        87267,
+        32664,
+        51154,
+        101192,
+        114286,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中的信息显示这是一处交叉路口，但并没有明确表明有汽车在路面上的信息出现，因此可能对查询有所误导。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "intersection (0.32), buildings (0.07), freeway (0.06)",
+      "confidence": 0.31588104367256165
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "ed461f49acfa1279f3c303f05e3fe5e6f4a1bdd0d070ea2ccf529ba2dbbc523b",
+  "vector_sha256": "c505e516172b4f42d2500db5abf04b16be3b0f6759e4e72b99857c2ce9a1e290"
+}

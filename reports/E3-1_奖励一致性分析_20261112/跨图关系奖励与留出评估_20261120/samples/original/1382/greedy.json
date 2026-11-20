@@ -1,0 +1,43 @@
+{
+  "image": "1382.tif",
+  "row": 131,
+  "rgb_sha256": "5a99c40be5e451645b1652fa8a797e094d2e7ec77041636ef36ccc345e35b273",
+  "mode": "original",
+  "k": -1,
+  "query": "Many mobile homes arranged in lines with some cars parked at the roadside in the mobile home park .",
+  "seed": 20266370,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "mobile home park (0.31), medium residential (0.11), dense residential (0.08)",
+      "confidence": 0.3051135241985321
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": {
+    "archive_sha": "cdde4c10d1fe650135a32e5c557978079680c9f6a33635eef729128f808ec93d",
+    "bit_equal": true
+  },
+  "sha256": "16c33a6b8059dfe8cf7539d9e5fc7b17f2a7e5cdabbcfbf7a147ee2ede0ce64e",
+  "vector_sha256": "cdc3d37900e9cbb379d2fdf1ff3299cb878ed3b9a29cd554d2508a563697cf5e"
+}

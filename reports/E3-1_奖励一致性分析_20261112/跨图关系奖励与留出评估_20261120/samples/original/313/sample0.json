@@ -1,0 +1,104 @@
+{
+  "image": "313.tif",
+  "row": 253,
+  "rgb_sha256": "4e40d29dde81da1bb44399ec776d1baab9ca5c46519a97f10821f9e86d0755a6",
+  "mode": "original",
+  "k": 0,
+  "query": "This is a beach with blue sea and white sands .",
+  "seed": 20271251,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        101909,
+        18830,
+        105681,
+        110326,
+        33108,
+        102440,
+        110944,
+        9370,
+        113341,
+        37132,
+        9217,
+        397,
+        151644,
+        198,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        101909,
+        18830,
+        105681,
+        110326,
+        33108,
+        102440,
+        110944,
+        9370,
+        113341,
+        3837,
+        101137,
+        51154,
+        108704,
+        53481,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中是一个有蓝色海水和白色沙滩的海滩。</answer>\n\n\n addCriterion\n<answer>图中是一个有蓝色海水和白色沙滩的海滩，符合查询文本描述。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "beach (0.55), agricultural (0.05), harbor (0.04)",
+      "confidence": 0.5494810938835144
+    },
+    {
+      "text": "beach (0.55), agricultural (0.05), harbor (0.04)",
+      "confidence": 0.5494810938835144
+    }
+  ],
+  "used": 2,
+  "filtered": 0,
+  "history": null,
+  "sha256": "ec78b5b0598aaa00c77159feeac2f516890432e6bb7cc255c5e94e3bc29581e1",
+  "vector_sha256": "1a53a594211ceeac736b801b0e41042075cc9e9cf15d2ca7c9d61dda09745e02"
+}

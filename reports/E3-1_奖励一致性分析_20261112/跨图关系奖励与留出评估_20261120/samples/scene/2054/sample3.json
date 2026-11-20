@@ -1,0 +1,42 @@
+{
+  "image": "2054.tif",
+  "row": 1653,
+  "rgb_sha256": "e44a44df86f4e092111cfdf90d201463b13f03e953946388a4a93d535e07d42f",
+  "mode": "scene",
+  "k": 3,
+  "query": "An aerial view of a tennis court area.",
+  "seed": 20327244,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "tennis court (0.42), baseball diamond (0.06), mobile home park (0.06)",
+      "confidence": 0.4220937192440033
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "adf28617e12462b6dd2d25e370e1656b29e14000149741ccceb622270c02cb5f",
+  "vector_sha256": "d0c6398d46eb8a290f7028d608982b88b64aeb6726a8688937e30eb78ecac29c"
+}

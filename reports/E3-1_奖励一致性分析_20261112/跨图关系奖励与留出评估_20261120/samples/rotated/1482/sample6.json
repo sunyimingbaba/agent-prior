@@ -1,0 +1,41 @@
+{
+  "image": "1482.tif",
+  "row": 141,
+  "rgb_sha256": "cb4c69e0bd6533b0f35ccb07bdcccc4821a21ece92f2325e2510afacd5d9c6b1",
+  "mode": "rotated",
+  "k": 6,
+  "query": "An aerial view of a overpass.",
+  "seed": 20266767,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "overpass (0.40), freeway (0.16), intersection (0.09)",
+      "confidence": 0.3963277339935303
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "3d9204b5ae39d6bb93b73721cf8b1c5a3c4c8bd59136ebc6a8247f050eaff9b1",
+  "vector_sha256": "5331caf51eb251d8c5044fda413986189677ad8ec90cf1cfe70cbd05ba455508"
+}

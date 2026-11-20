@@ -1,0 +1,64 @@
+{
+  "image": "1187.tif",
+  "row": 117,
+  "rgb_sha256": "8fc6c68419b39f44e82ab6edca75a5df8764958d4ee2731b912428f2dcc6aa14",
+  "mode": "rotated",
+  "k": 5,
+  "query": "An aerial view of a intersection.",
+  "seed": 20265806,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        20412,
+        109382,
+        108005,
+        9370,
+        99440,
+        100172,
+        28029,
+        3837,
+        101137,
+        51154,
+        101882,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中是十字路口的航拍图，符合查询要求。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "intersection (0.43), overpass (0.08), freeway (0.07)",
+      "confidence": 0.43061363697052
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "e4d261c3473804326baa19904499e8d249f791bb19a67756c8f35bd0973ff294",
+  "vector_sha256": "91249b1a8576cbe5125c67ded709d041b0415260e5cb8a693d5b9263f33d1b29"
+}

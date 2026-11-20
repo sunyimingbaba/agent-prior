@@ -1,0 +1,42 @@
+{
+  "image": "890.tif",
+  "row": 91,
+  "rgb_sha256": "e0c4856d911d48a0cf4e4df9ad89aff163a8b3e4c8f61290b9bd45c4e2f8f985",
+  "mode": "rotated",
+  "k": -1,
+  "query": "An aerial view of a freeway.",
+  "seed": 20264760,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "freeway (0.26), overpass (0.16), storage tanks (0.08)",
+      "confidence": 0.26055896282196045
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "eeb4b37bc9cbb210bbc0c3e370f61593eeeaae0347c0af3d1cfaaf510d02c875",
+  "vector_sha256": "67202215ef066e3fc3b7fa4db615bd87da06b4934f9a5b92ab0a09a0dd6cf356"
+}

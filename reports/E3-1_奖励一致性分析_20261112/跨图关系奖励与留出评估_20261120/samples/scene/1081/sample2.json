@@ -1,0 +1,67 @@
+{
+  "image": "1081.tif",
+  "row": 102,
+  "rgb_sha256": "4c0ab8434628598fae91f545880d9866a417018fe103c6ba6281e0dd1fb8caa9",
+  "mode": "scene",
+  "k": 2,
+  "query": "An aerial view of a harbor.",
+  "seed": 20265203,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        99734,
+        100440,
+        9909,
+        15,
+        13,
+        18,
+        24,
+        64359,
+        113341,
+        9909,
+        15,
+        13,
+        15,
+        23,
+        7552,
+        33108,
+        100174,
+        101065,
+        9909,
+        15,
+        13,
+        15,
+        19,
+        23083,
+        151645
+      ],
+      "decoded": "\n addCriterion\n港湾（0.39）、海滩（0.08）和农业区域（0.04）\n"
+    }
+  ],
+  "events": [
+    {
+      "text": "harbor (0.49), beach (0.07), agricultural (0.04)",
+      "confidence": 0.4876106083393097
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "9c40722403a662f6ffe43f4ad52ff71ca529e7e6253626f4f0322fbf11275669",
+  "vector_sha256": "d652ed47d894cae9fc296980e8c3ae84f3ddc08ab91aa5610aaf943589881ab6"
+}

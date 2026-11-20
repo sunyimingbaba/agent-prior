@@ -1,0 +1,40 @@
+{
+  "image": "1988.tif",
+  "row": 197,
+  "rgb_sha256": "9f5beb7b3d0cab5840e7d4b38082c2e902ea06d7895a45cb895e1c9c5ca5737c",
+  "mode": "rotated",
+  "k": 4,
+  "query": "An aerial view of a storage tank area.",
+  "seed": 20269005,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.31), buildings (0.06), runway (0.06)",
+      "confidence": 0.3121317923069
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "58b218bf8ca83fcb7f231ba6fb8dc7626b5352dac5c46a779635f1a0f3c370f4",
+  "vector_sha256": "f95d0c6718d8886c6106b8830dda41bccece6653a817f3a9114807533ec193b2"
+}

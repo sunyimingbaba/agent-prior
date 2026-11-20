@@ -1,0 +1,43 @@
+{
+  "image": "1152.tif",
+  "row": 930,
+  "rgb_sha256": "f55027a778a13eec9866252b474708d545d39f6d401030db8244cc3a8fa2b3f6",
+  "mode": "original",
+  "k": -1,
+  "query": "An intersection with a few cars on the road .",
+  "seed": 20298330,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "intersection (0.34), medium residential (0.09), freeway (0.08)",
+      "confidence": 0.3388308584690094
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": {
+    "archive_sha": "7df4535e4cd41b9c0c92348a4f00fe8f121e72600f5691228806210d58f191ef",
+    "bit_equal": true
+  },
+  "sha256": "0f0ee63736143b42e9ac86347764e8b0034bdaee2c9418e0dcc5317c1ead4501",
+  "vector_sha256": "021425785763fc59b0cc9a6a7b98c5d1a06b7d19be379fb62bb5f26c5969ed37"
+}

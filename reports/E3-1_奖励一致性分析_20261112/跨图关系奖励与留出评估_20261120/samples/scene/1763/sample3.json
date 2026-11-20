@@ -1,0 +1,40 @@
+{
+  "image": "1763.tif",
+  "row": 1422,
+  "rgb_sha256": "9523e5a1216e3cb64514895f325145a4ccb8b95863faf5f0a965305c78ffada4",
+  "mode": "scene",
+  "k": 3,
+  "query": "An aerial view of a runway.",
+  "seed": 20318004,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "runway (0.22), agricultural (0.08), beach (0.06)",
+      "confidence": 0.217296302318573
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "377e6015d20e05f3536d2842106014cf3d56b20b7c1d0b1f15f50976bff1b802",
+  "vector_sha256": "fd015e61f2ca2f04951ca37b09f33d597f7ebf0fdfb3e25d2fb39dbd5f2b45f8"
+}

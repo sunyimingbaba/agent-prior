@@ -1,0 +1,42 @@
+{
+  "image": "1904.tif",
+  "row": 1523,
+  "rgb_sha256": "52ff08a9efa6fda3b96255bb8ac206187a1dd4cd5fccf7d34f25cd53fca8eb92",
+  "mode": "scene",
+  "k": -1,
+  "query": "An aerial view of a storage tank area.",
+  "seed": 20322040,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.41), buildings (0.06), tennis court (0.04)",
+      "confidence": 0.4134677052497864
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "9177dff94bb8049f4ae9f1c92c31644bf256a0ba0779e8653453a2b37af12045",
+  "vector_sha256": "f55343161b8f59edec6427638bfae855101ca6021726d2b56eb9234b8e07d200"
+}

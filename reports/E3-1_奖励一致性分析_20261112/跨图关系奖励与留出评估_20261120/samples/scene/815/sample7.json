@@ -1,0 +1,44 @@
+{
+  "image": "815.tif",
+  "row": 652,
+  "rgb_sha256": "d7afed27ca0bf813285df6b3de3e211d29fbd882ccfa97a7a290b0e8afb8651c",
+  "mode": "scene",
+  "k": 7,
+  "query": "An aerial view of a freeway.",
+  "seed": 20287208,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        198,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion\n\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "freeway (0.41), overpass (0.17), intersection (0.04)",
+      "confidence": 0.4081803858280182
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "aadafa2eee2b6f75ae2847e655e238aa06e4fa4debe59e31cee979a6930a83a9",
+  "vector_sha256": "af8648e9818cc3b9e070827801439d939141be8551b163d1c5852b6bf83b5246"
+}

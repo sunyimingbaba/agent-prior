@@ -1,0 +1,42 @@
+{
+  "image": "1882.tif",
+  "row": 181,
+  "rgb_sha256": "f75d3844eea5d64a20e238ff874d9b2cd4ac28f25277e32a2e09386688c7e0d7",
+  "mode": "rotated",
+  "k": 2,
+  "query": "An aerial view of a residential area.",
+  "seed": 20268363,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "\n addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "sparse residential (0.39), buildings (0.07), tennis court (0.07)",
+      "confidence": 0.3885432481765747
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "53513486a046e06605c3565dec9be465cd9a20802de449bc73a8f333c29ab5f4",
+  "vector_sha256": "4cbb744ea2ec654728ed58e150a2103f1e0a546e05a3b9742212caa365874f01"
+}

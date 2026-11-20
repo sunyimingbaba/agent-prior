@@ -1,0 +1,73 @@
+{
+  "image": "2066.tif",
+  "row": 1665,
+  "rgb_sha256": "5740e0bc6fe1d1227f985999cb619b3310d8155d77f13fe4037c8b975d766090",
+  "mode": "original",
+  "k": 0,
+  "query": "A small tennis court with some plants and cars beside .",
+  "seed": 20327731,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        445,
+        32,
+        2613,
+        31415,
+        5473,
+        448,
+        1045,
+        10779,
+        323,
+        9331,
+        29388,
+        10465,
+        330,
+        1960,
+        25151,
+        5473,
+        320,
+        15,
+        13,
+        24,
+        23,
+        11583,
+        330,
+        50708,
+        3143,
+        1,
+        320,
+        15,
+        13,
+        23,
+        22,
+        593,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion(\"A small tennis court with some plants and cars beside.\", \"tennis court (0.98)\", \"cars near\" (0.87))"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "tennis court (0.32), dense residential (0.10), mobile home park (0.09)",
+      "confidence": 0.3222462832927704
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "3fa4df53917704cdb3819ba19d366f6feefc80865d0972aacc8af33b85e01f2a",
+  "vector_sha256": "63bbad45d6c267728624cd360beffe3fb445906db00d0e30581d0fc0f0ec4730"
+}

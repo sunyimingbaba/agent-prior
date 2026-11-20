@@ -1,0 +1,70 @@
+{
+  "image": "1440.tif",
+  "row": 1159,
+  "rgb_sha256": "90c73f74ac732c9e27cf2d871de8adac513b23f5846feb69c6e1f72867a4769f",
+  "mode": "scene",
+  "k": 7,
+  "query": "An aerial view of a overpass.",
+  "seed": 20307488,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        101987,
+        9370,
+        115164,
+        79095,
+        38109,
+        100391,
+        3837,
+        101137,
+        51154,
+        108704,
+        113110,
+        9370,
+        2073,
+        44636,
+        99630,
+        100391,
+        55807,
+        522,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中展示的是一座立交桥，符合查询文本所述的“高架桥”。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "overpass (0.36), freeway (0.25), intersection (0.05)",
+      "confidence": 0.3551543653011322
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "1713fb983e9978d43159967e5028adf137dceb4d7433236e1f594d3566c943cf",
+  "vector_sha256": "e95341c673db7f5e24e91b59154079e5576852d5a1ef480b40a7e43aaa6a4f57"
+}

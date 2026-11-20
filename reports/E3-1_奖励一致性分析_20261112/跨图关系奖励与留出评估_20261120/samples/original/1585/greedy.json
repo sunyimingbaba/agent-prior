@@ -1,0 +1,43 @@
+{
+  "image": "1585.tif",
+  "row": 154,
+  "rgb_sha256": "5f04a29f7dfd91c93436e8d64267b37172bbb2c2f88850cd569b40df169e186e",
+  "mode": "original",
+  "k": -1,
+  "query": "Lots of cars are very closed to each other in the parking lot .",
+  "seed": 20267290,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "parking lot (0.11), harbor (0.09), freeway (0.08)",
+      "confidence": 0.10630067437887192
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": {
+    "archive_sha": "2784a26624fe8c9468164ca98389debd0070e7fa7edc486c4bbe8db0f8c1c11a",
+    "bit_equal": true
+  },
+  "sha256": "323ee40c43b3d3c63666e8812d99ad0c88b061a93c34a71275b843f72388a7e5",
+  "vector_sha256": "3176edf3b3dedb6dab7324006dc0524a8d3d2e800c31ac6ffb70aebedc264888"
+}

@@ -1,0 +1,43 @@
+{
+  "image": "1921.tif",
+  "row": 1540,
+  "rgb_sha256": "fdd3028ecc0e563ac3a190342a647e6bc708c750a121f076e271a815249296d6",
+  "mode": "original",
+  "k": -1,
+  "query": "A big storage tank is on the ground .",
+  "seed": 20322730,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.34), buildings (0.08), sparse residential (0.06)",
+      "confidence": 0.33856651186943054
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": {
+    "archive_sha": "f09504185e2603728f2ff09c863c7962e8645d6313dcceae678b9698413dcf73",
+    "bit_equal": true
+  },
+  "sha256": "6e5d667295f292864df74afa1c7f631a5596b32cec2c3bb30621092e2d2ed36a",
+  "vector_sha256": "5db40d9bb0bbbf0d8ca1594437d4e9f9a49d39ddfa13cb6c121b022836d17ca1"
+}

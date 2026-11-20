@@ -1,0 +1,41 @@
+{
+  "image": "1905.tif",
+  "row": 1524,
+  "rgb_sha256": "9977130a397b7a58bba55b034ebea7d92e74c9036d5dcdf5f2c6154cd020ef7f",
+  "mode": "original",
+  "k": 5,
+  "query": "Two round storage tanks are in the lawn with some buildings beside .",
+  "seed": 20322096,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        26860,
+        29,
+        151645
+      ],
+      "decoded": "<LM>"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.58), buildings (0.05), parking lot (0.03)",
+      "confidence": 0.583781361579895
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "6f7429d927a2b5f08d44c223f83425b14ee5895efbd855562c0a69f05536fa7d",
+  "vector_sha256": "145f40f504319bd8603da6fc92232fd6cd31ba98a713f413e4cdac5241cff63a"
+}

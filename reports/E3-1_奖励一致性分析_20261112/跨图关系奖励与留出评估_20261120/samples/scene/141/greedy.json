@@ -1,0 +1,40 @@
+{
+  "image": "141.tif",
+  "row": 120,
+  "rgb_sha256": "db25944b89968795704b5975c59b78c18f0ba032d3a5e1207f8b726259493bb6",
+  "mode": "scene",
+  "k": -1,
+  "query": "An aerial view of a airplane.",
+  "seed": 20265920,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "airplane (0.56), runway (0.07), harbor (0.04)",
+      "confidence": 0.5615110397338867
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "4dca65c831ecaaa3089ead047484b3c2f5515c9cb3e47e55eba4a44000dcefc3",
+  "vector_sha256": "3a1a17f0e85962933988e5a5f28c2217e22b52436ef469f36067879156637ceb"
+}

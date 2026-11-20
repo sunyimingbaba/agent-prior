@@ -1,0 +1,41 @@
+{
+  "image": "167.tif",
+  "row": 146,
+  "rgb_sha256": "1eaf487730329f818476fe420b5a40b8362dba08d286256ce387b6d443797690",
+  "mode": "original",
+  "k": 3,
+  "query": "There is an airplane at the airport .",
+  "seed": 20266974,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "airplane (0.43), runway (0.07), storage tanks (0.06)",
+      "confidence": 0.43124306201934814
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "f5fa968f4631421ba8a72d34ecf5724b2a25c5b1986c35ba8e3cc2c34e563ca0",
+  "vector_sha256": "06853eac893c4dfebb7f081e90cc397236d908079c18f7a14dc525b67c27e3a3"
+}

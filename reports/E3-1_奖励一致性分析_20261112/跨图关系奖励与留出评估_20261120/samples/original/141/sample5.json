@@ -1,0 +1,40 @@
+{
+  "image": "141.tif",
+  "row": 120,
+  "rgb_sha256": "db25944b89968795704b5975c59b78c18f0ba032d3a5e1207f8b726259493bb6",
+  "mode": "original",
+  "k": 5,
+  "query": "There are two airplanes closed to each other in the airport .",
+  "seed": 20265936,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "airplane (0.56), runway (0.07), harbor (0.04)",
+      "confidence": 0.5615110397338867
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "72cc0f4c4e9260ca56192610e84a9c97947eee330c13d6dc2a9d69a04419ec4d",
+  "vector_sha256": "d39adc62d99c96d0510849c5e923db07d23f212b859beebd6c022c9a35ea30a0"
+}

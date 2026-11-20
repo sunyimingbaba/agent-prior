@@ -1,0 +1,374 @@
+[
+  {
+    "split": "val",
+    "image": "384.tif",
+    "row": 32,
+    "scene": "beach",
+    "pair": "object_01",
+    "subject": "the sea",
+    "reference": "the sandy beach",
+    "side": 0,
+    "relation": "below",
+    "contrast": "object",
+    "scene_query": "An aerial view of a beach.",
+    "orig_query": "This is a beach with blue-green sea and white sand .",
+    "rgb_sha256": "ad5d1b708c770c73f0b7c8b01aed05a8cedc6d6760274fb3477c931b1be80376",
+    "A": [
+      "The sea is below the sandy beach.",
+      "The sea is above the sandy beach."
+    ],
+    "B": [
+      "Relative to the sandy beach, the sea is positioned lower in the view.",
+      "Relative to the sandy beach, the sea is positioned higher in the view."
+    ],
+    "C": [
+      "Comparing positions in the picture, the sea lies lower than the sandy beach.",
+      "Comparing positions in the picture, the sea lies higher than the sandy beach."
+    ],
+    "D": [
+      "The sandy beach is above the sea.",
+      "The sandy beach is below the sea."
+    ]
+  },
+  {
+    "split": "val",
+    "image": "490.tif",
+    "row": 48,
+    "scene": "industrial area",
+    "pair": "object_02",
+    "subject": "the row of parked cars",
+    "reference": "the largest warehouse roof",
+    "side": 0,
+    "relation": "below",
+    "contrast": "object",
+    "scene_query": "An aerial view of a industrial area.",
+    "orig_query": "There are some buildings with different colors of roofs .",
+    "rgb_sha256": "311fb766378ab7b96bb47618852b2d5b9a4b733cc7bcd3525707fa289f2834eb",
+    "A": [
+      "The row of parked cars is below the largest warehouse roof.",
+      "The row of parked cars is above the largest warehouse roof."
+    ],
+    "B": [
+      "Relative to the largest warehouse roof, the row of parked cars is positioned lower in the view.",
+      "Relative to the largest warehouse roof, the row of parked cars is positioned higher in the view."
+    ],
+    "C": [
+      "Comparing positions in the picture, the row of parked cars lies lower than the largest warehouse roof.",
+      "Comparing positions in the picture, the row of parked cars lies higher than the largest warehouse roof."
+    ],
+    "D": [
+      "The largest warehouse roof is above the row of parked cars.",
+      "The largest warehouse roof is below the row of parked cars."
+    ]
+  },
+  {
+    "split": "val",
+    "image": "989.tif",
+    "row": 100,
+    "scene": "golf course",
+    "pair": "object_03",
+    "subject": "the curved path",
+    "reference": "the sand bunkers",
+    "side": 0,
+    "relation": "left",
+    "contrast": "object",
+    "scene_query": "An aerial view of a golf course.",
+    "orig_query": "This is a part of a golf course with green turfs and some bunkers .",
+    "rgb_sha256": "310f70bd148b8ad30f5bc28b5205e812c8b0f61bc638505c24c3dc47a3f2d6c1",
+    "A": [
+      "The curved path is to the left of the sand bunkers.",
+      "The curved path is to the right of the sand bunkers."
+    ],
+    "B": [
+      "Relative to the sand bunkers, the curved path is positioned farther left in the view.",
+      "Relative to the sand bunkers, the curved path is positioned farther right in the view."
+    ],
+    "C": [
+      "Comparing positions in the picture, the curved path lies farther left than the sand bunkers.",
+      "Comparing positions in the picture, the curved path lies farther right than the sand bunkers."
+    ],
+    "D": [
+      "The sand bunkers are to the right of the curved path.",
+      "The sand bunkers are to the left of the curved path."
+    ]
+  },
+  {
+    "split": "val",
+    "image": "1187.tif",
+    "row": 117,
+    "scene": "intersection",
+    "pair": "object_04",
+    "subject": "the white car",
+    "reference": "the center of the road junction",
+    "side": 0,
+    "relation": "left",
+    "contrast": "object",
+    "scene_query": "An aerial view of a intersection.",
+    "orig_query": "An intersection with a few cars on the road .",
+    "rgb_sha256": "8fc6c68419b39f44e82ab6edca75a5df8764958d4ee2731b912428f2dcc6aa14",
+    "A": [
+      "The white car is to the left of the center of the road junction.",
+      "The white car is to the right of the center of the road junction."
+    ],
+    "B": [
+      "Relative to the center of the road junction, the white car is positioned farther left in the view.",
+      "Relative to the center of the road junction, the white car is positioned farther right in the view."
+    ],
+    "C": [
+      "Comparing positions in the picture, the white car lies farther left than the center of the road junction.",
+      "Comparing positions in the picture, the white car lies farther right than the center of the road junction."
+    ],
+    "D": [
+      "The center of the road junction is to the right of the white car.",
+      "The center of the road junction is to the left of the white car."
+    ]
+  },
+  {
+    "split": "val",
+    "image": "1287.tif",
+    "row": 126,
+    "scene": "residential area",
+    "pair": "object_05",
+    "subject": "the rectangular turquoise pool",
+    "reference": "the large dark-roofed house directly beside it",
+    "side": 0,
+    "relation": "above",
+    "contrast": "object",
+    "scene_query": "An aerial view of a residential area.",
+    "orig_query": "It is a medium residential area .",
+    "rgb_sha256": "e8fcbc1828e902d80a2d00f33f2b1ec58768aa0768c0b0c26408053bb120e75d",
+    "A": [
+      "The rectangular turquoise pool is above the large dark-roofed house directly beside it.",
+      "The rectangular turquoise pool is below the large dark-roofed house directly beside it."
+    ],
+    "B": [
+      "Relative to the large dark-roofed house directly beside it, the rectangular turquoise pool is positioned higher in the view.",
+      "Relative to the large dark-roofed house directly beside it, the rectangular turquoise pool is positioned lower in the view."
+    ],
+    "C": [
+      "Comparing positions in the picture, the rectangular turquoise pool lies higher than the large dark-roofed house directly beside it.",
+      "Comparing positions in the picture, the rectangular turquoise pool lies lower than the large dark-roofed house directly beside it."
+    ],
+    "D": [
+      "The large dark-roofed house directly beside it is below the rectangular turquoise pool.",
+      "The large dark-roofed house directly beside it is above the rectangular turquoise pool."
+    ]
+  },
+  {
+    "split": "val",
+    "image": "1487.tif",
+    "row": 146,
+    "scene": "overpass",
+    "pair": "object_06",
+    "subject": "the dark shadow of the overpass",
+    "reference": "the elevated road",
+    "side": 0,
+    "relation": "above",
+    "contrast": "object",
+    "scene_query": "An aerial view of a overpass.",
+    "orig_query": "A road go across another one diagonally .",
+    "rgb_sha256": "9aec42f2bf2dcb8e025e1f1384eefe33d5f68762c752e830a1430a087b15ed4d",
+    "A": [
+      "The dark shadow of the overpass is above the elevated road.",
+      "The dark shadow of the overpass is below the elevated road."
+    ],
+    "B": [
+      "Relative to the elevated road, the dark shadow of the overpass is positioned higher in the view.",
+      "Relative to the elevated road, the dark shadow of the overpass is positioned lower in the view."
+    ],
+    "C": [
+      "Comparing positions in the picture, the dark shadow of the overpass lies higher than the elevated road.",
+      "Comparing positions in the picture, the dark shadow of the overpass lies lower than the elevated road."
+    ],
+    "D": [
+      "The elevated road is below the dark shadow of the overpass.",
+      "The elevated road is above the dark shadow of the overpass."
+    ]
+  },
+  {
+    "split": "val",
+    "image": "1882.tif",
+    "row": 181,
+    "scene": "residential area",
+    "pair": "object_07",
+    "subject": "the blue-green water feature",
+    "reference": "the large light-roofed house",
+    "side": 0,
+    "relation": "above",
+    "contrast": "object",
+    "scene_query": "An aerial view of a residential area.",
+    "orig_query": "A house with orange roofs is surrounded by trees and cropland in the sparse residential area .",
+    "rgb_sha256": "f75d3844eea5d64a20e238ff874d9b2cd4ac28f25277e32a2e09386688c7e0d7",
+    "A": [
+      "The blue-green water feature is above the large light-roofed house.",
+      "The blue-green water feature is below the large light-roofed house."
+    ],
+    "B": [
+      "Relative to the large light-roofed house, the blue-green water feature is positioned higher in the view.",
+      "Relative to the large light-roofed house, the blue-green water feature is positioned lower in the view."
+    ],
+    "C": [
+      "Comparing positions in the picture, the blue-green water feature lies higher than the large light-roofed house.",
+      "Comparing positions in the picture, the blue-green water feature lies lower than the large light-roofed house."
+    ],
+    "D": [
+      "The large light-roofed house is below the blue-green water feature.",
+      "The large light-roofed house is above the blue-green water feature."
+    ]
+  },
+  {
+    "split": "val",
+    "image": "1890.tif",
+    "row": 189,
+    "scene": "residential area",
+    "pair": "object_08",
+    "subject": "the blue swimming pool",
+    "reference": "the isolated house",
+    "side": 0,
+    "relation": "above",
+    "contrast": "object",
+    "scene_query": "An aerial view of a residential area.",
+    "orig_query": "A house with is surrounded by bushes and snds in the sparse residential area .",
+    "rgb_sha256": "c59bd23a322573d35eb96ed58a5df4ebacfe6073a87b0e2f22dec6ee5d8d831f",
+    "A": [
+      "The blue swimming pool is above the isolated house.",
+      "The blue swimming pool is below the isolated house."
+    ],
+    "B": [
+      "Relative to the isolated house, the blue swimming pool is positioned higher in the view.",
+      "Relative to the isolated house, the blue swimming pool is positioned lower in the view."
+    ],
+    "C": [
+      "Comparing positions in the picture, the blue swimming pool lies higher than the isolated house.",
+      "Comparing positions in the picture, the blue swimming pool lies lower than the isolated house."
+    ],
+    "D": [
+      "The isolated house is below the blue swimming pool.",
+      "The isolated house is above the blue swimming pool."
+    ]
+  },
+  {
+    "split": "val",
+    "image": "1988.tif",
+    "row": 197,
+    "scene": "storage tank area",
+    "pair": "object_09",
+    "subject": "the dark shadow",
+    "reference": "the circular tank",
+    "side": 0,
+    "relation": "right",
+    "contrast": "object",
+    "scene_query": "An aerial view of a storage tank area.",
+    "orig_query": "A big storage tank is on the ground .",
+    "rgb_sha256": "9f5beb7b3d0cab5840e7d4b38082c2e902ea06d7895a45cb895e1c9c5ca5737c",
+    "A": [
+      "The dark shadow is to the right of the circular tank.",
+      "The dark shadow is to the left of the circular tank."
+    ],
+    "B": [
+      "Relative to the circular tank, the dark shadow is positioned farther right in the view.",
+      "Relative to the circular tank, the dark shadow is positioned farther left in the view."
+    ],
+    "C": [
+      "Comparing positions in the picture, the dark shadow lies farther right than the circular tank.",
+      "Comparing positions in the picture, the dark shadow lies farther left than the circular tank."
+    ],
+    "D": [
+      "The circular tank is to the left of the dark shadow.",
+      "The circular tank is to the right of the dark shadow."
+    ]
+  },
+  {
+    "split": "val",
+    "image": "2087.tif",
+    "row": 206,
+    "scene": "tennis court area",
+    "pair": "object_10",
+    "subject": "the tennis courts",
+    "reference": "the straight road beside the courts",
+    "side": 0,
+    "relation": "right",
+    "contrast": "object",
+    "scene_query": "An aerial view of a tennis court area.",
+    "orig_query": "Two tennis courts arranged neatly with some plants surrounded .",
+    "rgb_sha256": "85c082167abcda4a49e7078affbf0fda809b1ab9d6b86af7b452b5ac5e731442",
+    "A": [
+      "The tennis courts are to the right of the straight road beside the courts.",
+      "The tennis courts are to the left of the straight road beside the courts."
+    ],
+    "B": [
+      "Relative to the straight road beside the courts, the tennis courts are positioned farther right in the view.",
+      "Relative to the straight road beside the courts, the tennis courts are positioned farther left in the view."
+    ],
+    "C": [
+      "Comparing positions in the picture, the tennis courts lie farther right than the straight road beside the courts.",
+      "Comparing positions in the picture, the tennis courts lie farther left than the straight road beside the courts."
+    ],
+    "D": [
+      "The straight road beside the courts is to the left of the tennis courts.",
+      "The straight road beside the courts is to the right of the tennis courts."
+    ]
+  },
+  {
+    "split": "val",
+    "image": "2090.tif",
+    "row": 209,
+    "scene": "tennis court area",
+    "pair": "object_11",
+    "subject": "the tennis courts",
+    "reference": "the group of trees beside the courts",
+    "side": 0,
+    "relation": "left",
+    "contrast": "object",
+    "scene_query": "An aerial view of a tennis court area.",
+    "orig_query": "Two tennis courts arranged neatly on the lawn with some trees beside .",
+    "rgb_sha256": "10baae5be9f44e23c69e5fda521c95f23c3c13bd99341a086cd721c7a2eedaa1",
+    "A": [
+      "The tennis courts are to the left of the group of trees beside the courts.",
+      "The tennis courts are to the right of the group of trees beside the courts."
+    ],
+    "B": [
+      "Relative to the group of trees beside the courts, the tennis courts are positioned farther left in the view.",
+      "Relative to the group of trees beside the courts, the tennis courts are positioned farther right in the view."
+    ],
+    "C": [
+      "Comparing positions in the picture, the tennis courts lie farther left than the group of trees beside the courts.",
+      "Comparing positions in the picture, the tennis courts lie farther right than the group of trees beside the courts."
+    ],
+    "D": [
+      "The group of trees beside the courts is to the right of the tennis courts.",
+      "The group of trees beside the courts is to the left of the tennis courts."
+    ]
+  },
+  {
+    "split": "val",
+    "image": "1182.tif",
+    "row": 112,
+    "scene": "intersection",
+    "pair": "object_12",
+    "subject": "the tan-roofed building",
+    "reference": "the crossing road beside its long side",
+    "side": 0,
+    "relation": "below",
+    "contrast": "object",
+    "scene_query": "An aerial view of a intersection.",
+    "orig_query": "An intersection with some cars on the road .",
+    "rgb_sha256": "8aaf1c23c64324a09508360a5e536f756fab3e7c28979e2e23c03129bdd0b254",
+    "A": [
+      "The tan-roofed building is below the crossing road beside its long side.",
+      "The tan-roofed building is above the crossing road beside its long side."
+    ],
+    "B": [
+      "Relative to the crossing road beside its long side, the tan-roofed building is positioned lower in the view.",
+      "Relative to the crossing road beside its long side, the tan-roofed building is positioned higher in the view."
+    ],
+    "C": [
+      "Comparing positions in the picture, the tan-roofed building lies lower than the crossing road beside its long side.",
+      "Comparing positions in the picture, the tan-roofed building lies higher than the crossing road beside its long side."
+    ],
+    "D": [
+      "The crossing road beside its long side is above the tan-roofed building.",
+      "The crossing road beside its long side is below the tan-roofed building."
+    ]
+  }
+]

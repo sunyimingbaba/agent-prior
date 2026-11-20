@@ -1,0 +1,41 @@
+{
+  "image": "1916.tif",
+  "row": 1535,
+  "rgb_sha256": "e94c12d5362b41eaf079f7a886bc3c3949c5d50ad78dceeefb2390d0e7bbc664",
+  "mode": "scene",
+  "k": 6,
+  "query": "An aerial view of a storage tank area.",
+  "seed": 20322527,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.41), mobile home park (0.05), buildings (0.04)",
+      "confidence": 0.4074157476425171
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "2cd095cfd6501f20168d602571666a99ab113c4c2976548f586b90b07075866b",
+  "vector_sha256": "38388f589aa2a17fb291d8e6b9f74fc842a7714ae8e5fc2326692574786e05e7"
+}

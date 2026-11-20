@@ -1,0 +1,40 @@
+{
+  "image": "1002.tif",
+  "row": 799,
+  "rgb_sha256": "e5e4a312dde82402e325b491223a8ca4cc22c41b515d3edd3e1c725b8ed21695",
+  "mode": "original",
+  "k": 1,
+  "query": "Lots of boats docked at the harbor .",
+  "seed": 20293092,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "harbor (0.61), beach (0.04), parking lot (0.03)",
+      "confidence": 0.6097226142883301
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "2636b1b9bcc7fb519e054587a2e759f5d50d7e60fea54d422913d823e18f40e9",
+  "vector_sha256": "277e02e07446fe785b08b76c230b49f19a4592ea5bee1f2b9d513a10c9a311d9"
+}

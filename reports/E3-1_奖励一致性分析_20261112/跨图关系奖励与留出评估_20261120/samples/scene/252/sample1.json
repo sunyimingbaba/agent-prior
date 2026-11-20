@@ -1,0 +1,91 @@
+{
+  "image": "252.tif",
+  "row": 212,
+  "rgb_sha256": "41ba19626e4565dc6bd071616f2a6498509b491d9b8cca154cbd041fff4f31f3",
+  "mode": "scene",
+  "k": 1,
+  "query": "An aerial view of a baseball field.",
+  "seed": 20269602,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        2322,
+        397,
+        27,
+        9217,
+        29,
+        100345,
+        103008,
+        102122,
+        70538,
+        59151,
+        3837,
+        43288,
+        99639,
+        86341,
+        102321,
+        108992,
+        9370,
+        105438,
+        110607,
+        57452,
+        28029,
+        1773,
+        51154,
+        108704,
+        2073,
+        2082,
+        40784,
+        1651,
+        315,
+        264,
+        19507,
+        2070,
+        1987,
+        57218,
+        107553,
+        78556,
+        33071,
+        105540,
+        37132,
+        9217,
+        397,
+        522,
+        2322,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<response>\n<answer>根据提供的场景分类结果，这是一张棒球场的空中俯视图。查询文本“An aerial view of a baseball field.”与图像相关性较高。</answer>\n</response>"
+    }
+  ],
+  "events": [
+    {
+      "text": "baseball diamond (0.62), golf course (0.04), storage tanks (0.04)",
+      "confidence": 0.6185646057128906
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "493da427e5a19a2d3f6c9b676f668e113b655d51ea9d0dfdd09e806ef6183e15",
+  "vector_sha256": "859eaef583abc94f34cf67332ef1304f8434b03322e10beede93914f15da091d"
+}

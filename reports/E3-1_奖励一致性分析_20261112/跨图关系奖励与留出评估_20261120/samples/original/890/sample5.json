@@ -1,0 +1,51 @@
+{
+  "image": "890.tif",
+  "row": 91,
+  "rgb_sha256": "e0c4856d911d48a0cf4e4df9ad89aff163a8b3e4c8f61290b9bd45c4e2f8f985",
+  "mode": "original",
+  "k": 5,
+  "query": "There are two white straight freeways parrallel forward .",
+  "seed": 20264776,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        90557,
+        198,
+        18724,
+        445,
+        22483,
+        25,
+        330,
+        488,
+        48129,
+        670,
+        10019,
+        13426,
+        151645
+      ],
+      "decoded": "��\n addCriterion(\"scene: \" + classify.getScene());"
+    }
+  ],
+  "events": [
+    {
+      "text": "freeway (0.23), overpass (0.15), runway (0.10)",
+      "confidence": 0.23094533383846283
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "23d25d0c25027ef2ca09305463d2f9465dbdc5bc534f4b6b192760cfc6985719",
+  "vector_sha256": "cffd232da4d60ce937cf38e2807e0e7d011c551e315447bbfda07221f29d0031"
+}

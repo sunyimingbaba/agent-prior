@@ -1,0 +1,40 @@
+{
+  "image": "1905.tif",
+  "row": 1524,
+  "rgb_sha256": "9977130a397b7a58bba55b034ebea7d92e74c9036d5dcdf5f2c6154cd020ef7f",
+  "mode": "scene",
+  "k": 4,
+  "query": "An aerial view of a storage tank area.",
+  "seed": 20322085,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "storage tanks (0.58), buildings (0.05), parking lot (0.03)",
+      "confidence": 0.583781361579895
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "e9bbce2077ea1acbb9f79b3f98ec8df72d7b5cbe1e6a531f1f0d1e696eb4a23c",
+  "vector_sha256": "ce50ebafb1d600e03b3c1fa4a8dda1ba0c908a380d1692395c4db2a711f37bbb"
+}

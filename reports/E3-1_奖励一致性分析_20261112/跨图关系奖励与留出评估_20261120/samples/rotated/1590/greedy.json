@@ -1,0 +1,64 @@
+{
+  "image": "1590.tif",
+  "row": 159,
+  "rgb_sha256": "77c25044c6b5cf7cf705581cba1858cf9aa323da02b022aa489afe729055cb86",
+  "mode": "rotated",
+  "k": -1,
+  "query": "An aerial view of a parking lot.",
+  "seed": 20267480,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        54021,
+        100146,
+        46944,
+        107862,
+        9370,
+        110607,
+        57452,
+        28029,
+        3837,
+        57218,
+        51154,
+        108704,
+        118338,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中显示的是一个停车场的俯视图，与查询文本相符。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "parking lot (0.23), harbor (0.08), freeway (0.07)",
+      "confidence": 0.23210301995277405
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "22ebac602cdaf70275fd6fdae7e3d398360a57021b43a29a815cb730a8058f89",
+  "vector_sha256": "8be6a742bf6dbe5ca9b310be5f37a76e6be0ae611ca5796ca2a214aa2e93fb53"
+}

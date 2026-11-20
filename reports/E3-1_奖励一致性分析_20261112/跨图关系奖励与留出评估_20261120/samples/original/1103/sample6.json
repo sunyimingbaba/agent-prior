@@ -1,0 +1,38 @@
+{
+  "image": "1103.tif",
+  "row": 881,
+  "rgb_sha256": "6f1628a1a078e7d758a6b4d3eb855d90f01cad633c662117f08ebd138d7f37b8",
+  "mode": "original",
+  "k": 6,
+  "query": "An intersection with many cars on the road .",
+  "seed": 20296377,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "decoded": ""
+    }
+  ],
+  "events": [
+    {
+      "text": "intersection (0.51), overpass (0.07), freeway (0.06)",
+      "confidence": 0.5147543549537659
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "1c93a4d76d6959be41fc1286ad4ce163c1b3fdb7da455727fde757de0b51183c",
+  "vector_sha256": "2e7ff189e9743cbfe05214044d54d6fa3f34c9144f1439b677c6636516c5e1de"
+}

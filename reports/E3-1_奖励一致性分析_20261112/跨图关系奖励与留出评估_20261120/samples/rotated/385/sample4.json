@@ -1,0 +1,64 @@
+{
+  "image": "385.tif",
+  "row": 33,
+  "rgb_sha256": "19a2abc8732c128a86884d4dcc6bd146de9aff4aa7dcbf070a00053db9b17ae8",
+  "mode": "rotated",
+  "k": 4,
+  "query": "An aerial view of a beach.",
+  "seed": 20262445,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        198,
+        151644,
+        9217,
+        198,
+        27,
+        9217,
+        29,
+        45930,
+        54021,
+        104059,
+        101276,
+        104421,
+        9370,
+        113341,
+        3837,
+        57218,
+        87026,
+        103008,
+        51154,
+        108704,
+        106188,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": " addCriterion\nanswer\n<answer>图片显示了一个航空拍摄的海滩，与您提供的查询文本匹配。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "beach (0.52), chaparral (0.06), agricultural (0.05)",
+      "confidence": 0.5219930410385132
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "b33747b0b1149b1eb2daa4d08412c65e5040c937195a078f2d3272b039c156d8",
+  "vector_sha256": "4d99ce0fc1ff72b26b2d9d71908470e34442ccf474e9b71d1e97fb8f1fdcbb85"
+}

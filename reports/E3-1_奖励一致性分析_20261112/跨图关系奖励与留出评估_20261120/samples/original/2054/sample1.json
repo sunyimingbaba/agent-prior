@@ -1,0 +1,74 @@
+{
+  "image": "2054.tif",
+  "row": 1653,
+  "rgb_sha256": "e44a44df86f4e092111cfdf90d201463b13f03e953946388a4a93d535e07d42f",
+  "mode": "original",
+  "k": 1,
+  "query": "Two tennis courts arranged neatly with a road beside .",
+  "seed": 20327252,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify\n addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        1382,
+        29,
+        86615,
+        51761,
+        320,
+        15,
+        13,
+        15,
+        20,
+        701,
+        31415,
+        5473,
+        320,
+        15,
+        13,
+        15,
+        19,
+        701,
+        19507,
+        22205,
+        320,
+        15,
+        13,
+        15,
+        18,
+        12533,
+        1382,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<result>airport runway (0.05), tennis court (0.04), baseball diamond (0.03)</result>"
+    }
+  ],
+  "events": [
+    {
+      "text": "tennis court (0.42), baseball diamond (0.06), mobile home park (0.06)",
+      "confidence": 0.4220937192440033
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "64b457c2c41a3c03bcd9f487bddcf08cd155ed96ce3a173920487d2d42842cd9",
+  "vector_sha256": "761a15e67da1b8971f7b32935a98da5466c42c3c264c54cfe2a788e0edf2f730"
+}

@@ -1,0 +1,65 @@
+{
+  "image": "1181.tif",
+  "row": 111,
+  "rgb_sha256": "e2b4a706949b5dc5436710ca0e7e9b2b6bb0528fed6c7af87c3154ebeb3662af",
+  "mode": "scene",
+  "k": 6,
+  "query": "An aerial view of a intersection.",
+  "seed": 20265567,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        27,
+        9217,
+        29,
+        28029,
+        15946,
+        54021,
+        99593,
+        86341,
+        99440,
+        100172,
+        28029,
+        9370,
+        106809,
+        108005,
+        3837,
+        57218,
+        51154,
+        108704,
+        118338,
+        37132,
+        9217,
+        29,
+        151645
+      ],
+      "decoded": "\n addCriterion\n<answer>图中显示了一张航拍图的交叉路口，与查询文本相符。</answer>"
+    }
+  ],
+  "events": [
+    {
+      "text": "intersection (0.36), medium residential (0.16), dense residential (0.09)",
+      "confidence": 0.36015263199806213
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": null,
+  "sha256": "da7596a05e29b7ac4eec4f11e410ffcd7707e053172fe253b262dc619e29bf8f",
+  "vector_sha256": "85a4ded9ef03f46e451fa22843560f7634b2e6730a5d16399308d5e20d0017e7"
+}

@@ -1,0 +1,43 @@
+{
+  "image": "882.tif",
+  "row": 83,
+  "rgb_sha256": "c7626d53bc843e23efe3afc9bedd31fe689cab97b8facd62574f506bdbcfe442",
+  "mode": "original",
+  "k": -1,
+  "query": "There are two curved freeways closed together .",
+  "seed": 20264450,
+  "rounds": [
+    {
+      "ids": [
+        151657,
+        22483,
+        4790,
+        1437,
+        151645
+      ],
+      "decoded": "<tool_call>scene_classify"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "decoded": " addCriterion"
+    }
+  ],
+  "events": [
+    {
+      "text": "freeway (0.21), overpass (0.16), runway (0.09)",
+      "confidence": 0.21304437518119812
+    }
+  ],
+  "used": 1,
+  "filtered": 0,
+  "history": {
+    "archive_sha": "a3d093179857f8308665d886deaa064511136b52e3f5008d7334c683bd09388e",
+    "bit_equal": true
+  },
+  "sha256": "c3cda5e8bdc3887294aed2e8f1c41d49549500cfaf2f7ed5091b818afc0c99db",
+  "vector_sha256": "c02abccb10497b9d0e283159ffc408c50d33923e30cc623643692e64fe8a87ee"
+}
