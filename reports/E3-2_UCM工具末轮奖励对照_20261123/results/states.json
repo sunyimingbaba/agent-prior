@@ -1,0 +1,163 @@
+{
+  "R0": {
+    "retrieval_percent": {
+      "I2T_R1": 16.90702947845805,
+      "I2T_R5": 53.88926681783824,
+      "I2T_R10": 81.45598581312868,
+      "T2I_R1": 18.0952380952381,
+      "T2I_R5": 63.42857142857142,
+      "T2I_R10": 94.47619047619048,
+      "mR": 54.70871368490416
+    },
+    "e1": {
+      "quantity_A": {
+        "correct": 16,
+        "n": 22,
+        "margin": 0.006976939231223888
+      },
+      "quantity_B": {
+        "correct": 17,
+        "n": 22,
+        "margin": 0.007692511458541032
+      },
+      "attribute": {
+        "correct": 25,
+        "n": 36,
+        "margin": 0.011830366015762806,
+        "both": 7,
+        "pairs": 18
+      },
+      "relation": {
+        "correct": 19,
+        "n": 36,
+        "margin": 0.00369563217469746,
+        "both": 2,
+        "pairs": 18
+      }
+    },
+    "behavior": {
+      "rounds": 1.9952380952380953,
+      "tool_calls": 0.9952380952380953,
+      "answer_format": 0.023809523809523808,
+      "first_eos_only": 0.004761904761904762,
+      "last_eos": 1.0,
+      "tokens": 10.642857142857142
+    }
+  },
+  "R1": {
+    "retrieval_percent": {
+      "I2T_R1": 15.37226001511716,
+      "I2T_R5": 50.392115820687245,
+      "I2T_R10": 77.57913250770395,
+      "T2I_R1": 18.095238095238095,
+      "T2I_R5": 62.19047619047618,
+      "T2I_R10": 93.42857142857143,
+      "mR": 52.842965676299016
+    },
+    "e1": {
+      "quantity_A": {
+        "correct": 17,
+        "n": 22,
+        "margin": 0.008444814330250279
+      },
+      "quantity_B": {
+        "correct": 19,
+        "n": 22,
+        "margin": 0.008282425987377903
+      },
+      "attribute": {
+        "correct": 23,
+        "n": 36,
+        "margin": 0.008669605057110662,
+        "both": 5,
+        "pairs": 18
+      },
+      "relation": {
+        "correct": 21,
+        "n": 36,
+        "margin": 0.004149966002153716,
+        "both": 4,
+        "pairs": 18
+      }
+    },
+    "behavior": {
+      "rounds": 1.7904761904761906,
+      "tool_calls": 0.7904761904761904,
+      "answer_format": 0.004761904761904762,
+      "first_eos_only": 0.20952380952380953,
+      "last_eos": 1.0,
+      "tokens": 8.380952380952381
+    },
+    "training": {
+      "updates": 23,
+      "groups": 24,
+      "varied_retrieval": 23,
+      "mixed_format": 1,
+      "mean_within_group_retrieval_sd": 0.0005107658879242562,
+      "mean_within_group_format_sd": 0.0029462782549439484,
+      "varied_format_larger_sd": 1,
+      "mean_group_sampling_logp_error": 0.015206882452884702,
+      "max_token_logp_error": 0.3453390598297119,
+      "eos": 192,
+      "generated": 192
+    }
+  },
+  "R2": {
+    "retrieval_percent": {
+      "I2T_R1": 16.39304610733182,
+      "I2T_R5": 53.90307576021862,
+      "I2T_R10": 81.90484911913484,
+      "T2I_R1": 18.0,
+      "T2I_R5": 63.23809523809525,
+      "T2I_R10": 94.47619047619047,
+      "mR": 54.65254278349517
+    },
+    "e1": {
+      "quantity_A": {
+        "correct": 16,
+        "n": 22,
+        "margin": 0.007053253921542254
+      },
+      "quantity_B": {
+        "correct": 17,
+        "n": 22,
+        "margin": 0.00777007547465676
+      },
+      "attribute": {
+        "correct": 25,
+        "n": 36,
+        "margin": 0.011673424125000794,
+        "both": 7,
+        "pairs": 18
+      },
+      "relation": {
+        "correct": 19,
+        "n": 36,
+        "margin": 0.0033322636806941003,
+        "both": 2,
+        "pairs": 18
+      }
+    },
+    "behavior": {
+      "rounds": 2.0,
+      "tool_calls": 1.0,
+      "answer_format": 0.0380952380952381,
+      "first_eos_only": 0.0,
+      "last_eos": 1.0,
+      "tokens": 11.252380952380953
+    },
+    "training": {
+      "updates": 22,
+      "groups": 24,
+      "varied_retrieval": 22,
+      "mixed_format": 1,
+      "mean_within_group_retrieval_sd": 0.00037091629446111066,
+      "mean_within_group_format_sd": 0.0029462782549439484,
+      "varied_format_larger_sd": 1,
+      "mean_group_sampling_logp_error": 0.018778704367075242,
+      "max_token_logp_error": 0.5671520233154297,
+      "eos": 192,
+      "generated": 192
+    }
+  }
+}

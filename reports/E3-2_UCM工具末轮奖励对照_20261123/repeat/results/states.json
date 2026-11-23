@@ -1,0 +1,163 @@
+{
+  "R0": {
+    "retrieval_percent": {
+      "I2T_R1": 16.90702947845805,
+      "I2T_R5": 53.88926681783824,
+      "I2T_R10": 81.45598581312868,
+      "T2I_R1": 18.0952380952381,
+      "T2I_R5": 63.42857142857142,
+      "T2I_R10": 94.47619047619048,
+      "mR": 54.70871368490416
+    },
+    "e1": {
+      "quantity_A": {
+        "correct": 16,
+        "n": 22,
+        "margin": 0.006976939231223888
+      },
+      "quantity_B": {
+        "correct": 17,
+        "n": 22,
+        "margin": 0.007692511458541032
+      },
+      "attribute": {
+        "correct": 25,
+        "n": 36,
+        "margin": 0.011830366015762806,
+        "both": 7,
+        "pairs": 18
+      },
+      "relation": {
+        "correct": 19,
+        "n": 36,
+        "margin": 0.00369563217469746,
+        "both": 2,
+        "pairs": 18
+      }
+    },
+    "behavior": {
+      "rounds": 1.9952380952380953,
+      "tool_calls": 0.9952380952380953,
+      "answer_format": 0.023809523809523808,
+      "first_eos_only": 0.004761904761904762,
+      "last_eos": 1.0,
+      "tokens": 10.642857142857142
+    }
+  },
+  "R1": {
+    "retrieval_percent": {
+      "I2T_R1": 17.457860922146637,
+      "I2T_R5": 55.11339322053607,
+      "I2T_R10": 81.64426710855282,
+      "T2I_R1": 18.666666666666664,
+      "T2I_R5": 63.523809523809526,
+      "T2I_R10": 94.85714285714285,
+      "mR": 55.21052338314243
+    },
+    "e1": {
+      "quantity_A": {
+        "correct": 17,
+        "n": 22,
+        "margin": 0.007222200168929265
+      },
+      "quantity_B": {
+        "correct": 19,
+        "n": 22,
+        "margin": 0.00805185175355514
+      },
+      "attribute": {
+        "correct": 25,
+        "n": 36,
+        "margin": 0.011876033539251242,
+        "both": 7,
+        "pairs": 18
+      },
+      "relation": {
+        "correct": 19,
+        "n": 36,
+        "margin": 0.0034371856878110205,
+        "both": 2,
+        "pairs": 18
+      }
+    },
+    "behavior": {
+      "rounds": 1.9904761904761905,
+      "tool_calls": 0.9904761904761905,
+      "answer_format": 0.009523809523809525,
+      "first_eos_only": 0.009523809523809525,
+      "last_eos": 1.0,
+      "tokens": 10.152380952380952
+    },
+    "training": {
+      "updates": 24,
+      "groups": 24,
+      "varied_retrieval": 24,
+      "mixed_format": 0,
+      "mean_within_group_retrieval_sd": 0.0004286741178028651,
+      "mean_within_group_format_sd": 0.0,
+      "varied_format_larger_sd": 0,
+      "mean_group_sampling_logp_error": 0.02467896636979822,
+      "max_token_logp_error": 0.8528748750686646,
+      "eos": 192,
+      "generated": 192
+    }
+  },
+  "R2": {
+    "retrieval_percent": {
+      "I2T_R1": 17.25283446712018,
+      "I2T_R5": 54.840339554625274,
+      "I2T_R10": 81.191551834409,
+      "T2I_R1": 17.523809523809522,
+      "T2I_R5": 63.8095238095238,
+      "T2I_R10": 95.52380952380952,
+      "mR": 55.02364478554955
+    },
+    "e1": {
+      "quantity_A": {
+        "correct": 17,
+        "n": 22,
+        "margin": 0.007234760102782895
+      },
+      "quantity_B": {
+        "correct": 17,
+        "n": 22,
+        "margin": 0.008010387077156888
+      },
+      "attribute": {
+        "correct": 25,
+        "n": 36,
+        "margin": 0.011920672586869777,
+        "both": 7,
+        "pairs": 18
+      },
+      "relation": {
+        "correct": 19,
+        "n": 36,
+        "margin": 0.0035161953870088245,
+        "both": 2,
+        "pairs": 18
+      }
+    },
+    "behavior": {
+      "rounds": 2.0,
+      "tool_calls": 1.0,
+      "answer_format": 0.0,
+      "first_eos_only": 0.0,
+      "last_eos": 1.0,
+      "tokens": 10.147619047619047
+    },
+    "training": {
+      "updates": 22,
+      "groups": 24,
+      "varied_retrieval": 22,
+      "mixed_format": 0,
+      "mean_within_group_retrieval_sd": 8.169253893677886e-05,
+      "mean_within_group_format_sd": 0.0,
+      "varied_format_larger_sd": 0,
+      "mean_group_sampling_logp_error": 0.01370701402950155,
+      "max_token_logp_error": 0.820345401763916,
+      "eos": 192,
+      "generated": 192
+    }
+  }
+}

@@ -1,0 +1,6975 @@
+[
+  {
+    "step": 1,
+    "image": "1852.tif",
+    "row": 1491,
+    "seed": 385000,
+    "proxy_rank": [
+      1217,
+      1041,
+      1217,
+      1217,
+      1030,
+      1217,
+      1041,
+      1030
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0008210180623973727,
+      0.0009596928982725527,
+      0.0008210180623973727,
+      0.0008210180623973727,
+      0.0009699321047526673,
+      0.0008210180623973727,
+      0.0009596928982725527,
+      0.0009699321047526673
+    ],
+    "total": [
+      0.0008210180623973727,
+      0.0009596928982725527,
+      0.0008210180623973727,
+      0.0008210180623973727,
+      0.0009699321047526673,
+      0.0008210180623973727,
+      0.0009596928982725527,
+      0.0009699321047526673
+    ],
+    "advantage": [
+      -0.9341094704333748,
+      0.8675941044592216,
+      -0.9341094704333748,
+      -0.9341094704333748,
+      1.0006248364075236,
+      -0.9341094704333748,
+      0.8675941044592216,
+      1.0006248364075236
+    ],
+    "terminal": [
+      {
+        "first_sha": "85c883b4d8b437352aae3583c74dd03e6f5421004c1b965f5a2f14c90146dab7",
+        "final_sha": "85c883b4d8b437352aae3583c74dd03e6f5421004c1b965f5a2f14c90146dab7",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "98ba988469d89d6624f2aa2f81b42287ed2df697e8c51373997e3de6b6a0d4bd",
+        "final_sha": "c98fe0b828ff21760394b8f817bd90b07f81573b06f7a9c4e7b972c69ef4f722",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.43), medium residential (0.06), tennis court (0.04)",
+        "confidence": 0.43327945470809937,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "85c883b4d8b437352aae3583c74dd03e6f5421004c1b965f5a2f14c90146dab7",
+        "final_sha": "85c883b4d8b437352aae3583c74dd03e6f5421004c1b965f5a2f14c90146dab7",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "85c883b4d8b437352aae3583c74dd03e6f5421004c1b965f5a2f14c90146dab7",
+        "final_sha": "85c883b4d8b437352aae3583c74dd03e6f5421004c1b965f5a2f14c90146dab7",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "f372d82690a8211ff4d00ec185ce9bb117467d59698033ccea85f4b7f868e9c4",
+        "final_sha": "f372d82690a8211ff4d00ec185ce9bb117467d59698033ccea85f4b7f868e9c4",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "85c883b4d8b437352aae3583c74dd03e6f5421004c1b965f5a2f14c90146dab7",
+        "final_sha": "85c883b4d8b437352aae3583c74dd03e6f5421004c1b965f5a2f14c90146dab7",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "98ba988469d89d6624f2aa2f81b42287ed2df697e8c51373997e3de6b6a0d4bd",
+        "final_sha": "c98fe0b828ff21760394b8f817bd90b07f81573b06f7a9c4e7b972c69ef4f722",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.43), medium residential (0.06), tennis court (0.04)",
+        "confidence": 0.43327945470809937,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "f372d82690a8211ff4d00ec185ce9bb117467d59698033ccea85f4b7f868e9c4",
+        "final_sha": "f372d82690a8211ff4d00ec185ce9bb117467d59698033ccea85f4b7f868e9c4",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 29.443561553955078,
+    "replay_mean_abs_logp_difference": 0.026876061869415935,
+    "replay_max_abs_logp_difference": 0.2027972936630249,
+    "trajectories": [
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1782479286193848
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5830101370811462,
+          -0.00025245340657420456,
+          -0.0009254701435565948,
+          -7.033323527139146e-06,
+          -0.11214547604322433
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1782479286193848
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1782479286193848
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -2.0115818977355957,
+          -0.0017284705536440015,
+          -0.0016468308167532086,
+          -1.0490362910786644e-05,
+          -0.07972566783428192
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1782479286193848
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5830101370811462,
+          -0.00025245340657420456,
+          -0.0009254701435565948,
+          -7.033323527139146e-06,
+          -0.11214547604322433
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -2.0115818977355957,
+          -0.0017284705536440015,
+          -0.0016468308167532086,
+          -1.0490362910786644e-05,
+          -0.07972566783428192
+        ],
+        "text": "scene_classify",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "image": "1845.tif",
+    "row": 1484,
+    "seed": 385001,
+    "proxy_rank": [
+      739,
+      1080,
+      785,
+      1080,
+      739,
+      1080,
+      739,
+      739
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0013513513513513514,
+      0.0009250693802035153,
+      0.001272264631043257,
+      0.0009250693802035153,
+      0.0013513513513513514,
+      0.0009250693802035153,
+      0.0013513513513513514,
+      0.0013513513513513514
+    ],
+    "total": [
+      0.0013513513513513514,
+      0.0009250693802035153,
+      0.001272264631043257,
+      0.0009250693802035153,
+      0.0013513513513513514,
+      0.0009250693802035153,
+      0.0013513513513513514,
+      0.0013513513513513514
+    ],
+    "advantage": [
+      0.7927349980899422,
+      -1.1981068400654649,
+      0.4233805278366245,
+      -1.1981068400654649,
+      0.7927349980899422,
+      -1.1981068400654649,
+      0.7927349980899422,
+      0.7927349980899422
+    ],
+    "terminal": [
+      {
+        "first_sha": "46125ef0ec0ff945bf803dc7a178ac70cb26d8a54f1f970aea9ae9417f333327",
+        "final_sha": "46125ef0ec0ff945bf803dc7a178ac70cb26d8a54f1f970aea9ae9417f333327",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "c4156e055e98041bb0e99fd42972073d7c1816992d0e69fc1adfa2974a3c9f56",
+        "final_sha": "d50d1c9578065e86605939db3f013d4f5ba329ac0569162b01dad01b61cef88d",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.33), medium residential (0.11), dense residential (0.08)",
+        "confidence": 0.3289244472980499,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "de735759215403153fe8e795b377dc67f679b0ca4a8cdfc88964865df3334d6f",
+        "final_sha": "6af1b64c580ea3907db53b7dca9b373ee09873e81a143d861c8d54c32d1954fd",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.33), medium residential (0.11), dense residential (0.08)",
+        "confidence": 0.3289244472980499,
+        "continuation_ids": [
+          [
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "c4156e055e98041bb0e99fd42972073d7c1816992d0e69fc1adfa2974a3c9f56",
+        "final_sha": "d50d1c9578065e86605939db3f013d4f5ba329ac0569162b01dad01b61cef88d",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.33), medium residential (0.11), dense residential (0.08)",
+        "confidence": 0.3289244472980499,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "46125ef0ec0ff945bf803dc7a178ac70cb26d8a54f1f970aea9ae9417f333327",
+        "final_sha": "46125ef0ec0ff945bf803dc7a178ac70cb26d8a54f1f970aea9ae9417f333327",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "c4156e055e98041bb0e99fd42972073d7c1816992d0e69fc1adfa2974a3c9f56",
+        "final_sha": "d50d1c9578065e86605939db3f013d4f5ba329ac0569162b01dad01b61cef88d",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.33), medium residential (0.11), dense residential (0.08)",
+        "confidence": 0.3289244472980499,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "46125ef0ec0ff945bf803dc7a178ac70cb26d8a54f1f970aea9ae9417f333327",
+        "final_sha": "46125ef0ec0ff945bf803dc7a178ac70cb26d8a54f1f970aea9ae9417f333327",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "46125ef0ec0ff945bf803dc7a178ac70cb26d8a54f1f970aea9ae9417f333327",
+        "final_sha": "46125ef0ec0ff945bf803dc7a178ac70cb26d8a54f1f970aea9ae9417f333327",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 27.48421859741211,
+    "replay_mean_abs_logp_difference": 0.029752089614460905,
+    "replay_max_abs_logp_difference": 0.34304702281951904,
+    "trajectories": [
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.234070062637329
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6388323307037354,
+          -0.00027164106722921133,
+          -0.0008110094931907952,
+          -5.8412379075889476e-06,
+          -0.11208878457546234
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151644,
+          198,
+          91587,
+          58,
+          15,
+          60,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6388323307037354,
+          -0.00027164106722921133,
+          -0.0008110094931907952,
+          -5.8412379075889476e-06,
+          -2.2549452781677246,
+          -1.114400029182434,
+          -2.5354678630828857,
+          -5.197750091552734,
+          -0.823519229888916,
+          -0.9047054052352905,
+          -0.3404548168182373
+        ],
+        "text": "<tool_call>scene_classify\nuParam[0]",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6388323307037354,
+          -0.00027164106722921133,
+          -0.0008110094931907952,
+          -5.8412379075889476e-06,
+          -0.11208878457546234
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.234070062637329
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6388323307037354,
+          -0.00027164106722921133,
+          -0.0008110094931907952,
+          -5.8412379075889476e-06,
+          -0.11208878457546234
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.234070062637329
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.234070062637329
+        ],
+        "text": "",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "image": "1907.tif",
+    "row": 1526,
+    "seed": 385002,
+    "proxy_rank": [
+      1182,
+      1182,
+      1182,
+      1336,
+      1182,
+      1263,
+      1263,
+      1336
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0008453085376162299,
+      0.0008453085376162299,
+      0.0008453085376162299,
+      0.0007479431563201197,
+      0.0008453085376162299,
+      0.0007911392405063291,
+      0.0007911392405063291,
+      0.0007479431563201197
+    ],
+    "total": [
+      0.0008453085376162299,
+      0.0008453085376162299,
+      0.0008453085376162299,
+      0.0007479431563201197,
+      0.0008453085376162299,
+      0.0007911392405063291,
+      0.0007911392405063291,
+      0.0007479431563201197
+    ],
+    "advantage": [
+      0.8673716264072527,
+      0.8673716264072527,
+      0.8673716264072527,
+      -1.3618730592031236,
+      0.8673716264072527,
+      -0.37287019361137935,
+      -0.37287019361137935,
+      -1.3618730592031236
+    ],
+    "terminal": [
+      {
+        "first_sha": "660e7291d713bcf6bdfc82f14b5b52edf655cbe58559dc41933f313d2a79d700",
+        "final_sha": "93e9ba417df8e1ece4e62fe8a7d0d223fccf97b63b98b8ff09ba21873d36e464",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.40), buildings (0.08), baseball diamond (0.07)",
+        "confidence": 0.40010175108909607,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "660e7291d713bcf6bdfc82f14b5b52edf655cbe58559dc41933f313d2a79d700",
+        "final_sha": "93e9ba417df8e1ece4e62fe8a7d0d223fccf97b63b98b8ff09ba21873d36e464",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.40), buildings (0.08), baseball diamond (0.07)",
+        "confidence": 0.40010175108909607,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "660e7291d713bcf6bdfc82f14b5b52edf655cbe58559dc41933f313d2a79d700",
+        "final_sha": "93e9ba417df8e1ece4e62fe8a7d0d223fccf97b63b98b8ff09ba21873d36e464",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.40), buildings (0.08), baseball diamond (0.07)",
+        "confidence": 0.40010175108909607,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "943ddf3552b84f7f4153a6561d374b5d378b52a3827a3292cb6f7cce421e9c6c",
+        "final_sha": "943ddf3552b84f7f4153a6561d374b5d378b52a3827a3292cb6f7cce421e9c6c",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "660e7291d713bcf6bdfc82f14b5b52edf655cbe58559dc41933f313d2a79d700",
+        "final_sha": "93e9ba417df8e1ece4e62fe8a7d0d223fccf97b63b98b8ff09ba21873d36e464",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.40), buildings (0.08), baseball diamond (0.07)",
+        "confidence": 0.40010175108909607,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "9e8288bfad36f87ed979abc7b3eb098a56ba545c3af6d5323ea673101f316313",
+        "final_sha": "9e8288bfad36f87ed979abc7b3eb098a56ba545c3af6d5323ea673101f316313",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "9e8288bfad36f87ed979abc7b3eb098a56ba545c3af6d5323ea673101f316313",
+        "final_sha": "9e8288bfad36f87ed979abc7b3eb098a56ba545c3af6d5323ea673101f316313",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "943ddf3552b84f7f4153a6561d374b5d378b52a3827a3292cb6f7cce421e9c6c",
+        "final_sha": "943ddf3552b84f7f4153a6561d374b5d378b52a3827a3292cb6f7cce421e9c6c",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 22.446582794189453,
+    "replay_mean_abs_logp_difference": 0.014070449814369113,
+    "replay_max_abs_logp_difference": 0.08446455001831055,
+    "trajectories": [
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5997248888015747,
+          -0.00032205163734033704,
+          -0.0008311392739415169,
+          -6.270212179515511e-05,
+          -0.08941192179918289
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5997248888015747,
+          -0.00032205163734033704,
+          -0.0008311392739415169,
+          -6.270212179515511e-05,
+          -0.08941192179918289
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5997248888015747,
+          -0.00032205163734033704,
+          -0.0008311392739415169,
+          -6.270212179515511e-05,
+          -0.08941192179918289
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1949626207351685
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5997248888015747,
+          -0.00032205163734033704,
+          -0.0008311392739415169,
+          -6.270212179515511e-05,
+          -0.08941192179918289
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -1.9092475175857544,
+          -0.0016625404823571444,
+          -0.0013950864085927606,
+          -1.7523612768854946e-05,
+          -0.1253841072320938
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -1.9092475175857544,
+          -0.0016625404823571444,
+          -0.0013950864085927606,
+          -1.7523612768854946e-05,
+          -0.1253841072320938
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1949626207351685
+        ],
+        "text": "",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "image": "1919.tif",
+    "row": 1538,
+    "seed": 385003,
+    "proxy_rank": [
+      1206,
+      1034,
+      1034,
+      1203,
+      1034,
+      1034,
+      1203,
+      1206
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0008285004142502071,
+      0.000966183574879227,
+      0.000966183574879227,
+      0.0008305647840531562,
+      0.000966183574879227,
+      0.000966183574879227,
+      0.0008305647840531562,
+      0.0008285004142502071
+    ],
+    "total": [
+      0.0008285004142502071,
+      0.000966183574879227,
+      0.000966183574879227,
+      0.0008305647840531562,
+      0.000966183574879227,
+      0.000966183574879227,
+      0.0008305647840531562,
+      0.0008285004142502071
+    ],
+    "advantage": [
+      -0.9493614017060072,
+      0.9352329503636382,
+      0.9352329503636382,
+      -0.921104499021272,
+      0.9352329503636382,
+      0.9352329503636382,
+      -0.921104499021272,
+      -0.9493614017060072
+    ],
+    "terminal": [
+      {
+        "first_sha": "7bd777d9dc2297c2acc2b5d20915d07dd36d665c4e8285eaaef6b35d7ec0f113",
+        "final_sha": "7bd777d9dc2297c2acc2b5d20915d07dd36d665c4e8285eaaef6b35d7ec0f113",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "182891fd2639c14d472b6dff168c70dfa21cdc6c46213094072c608277222452",
+        "final_sha": "bb6ae56494cd29763bd0a97a80936e168474978f30dd15ea220e8eec98004d39",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.47), buildings (0.07), mobile home park (0.07)",
+        "confidence": 0.46614253520965576,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "182891fd2639c14d472b6dff168c70dfa21cdc6c46213094072c608277222452",
+        "final_sha": "bb6ae56494cd29763bd0a97a80936e168474978f30dd15ea220e8eec98004d39",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.47), buildings (0.07), mobile home park (0.07)",
+        "confidence": 0.46614253520965576,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "cce79c01d4bc6277ac7b0b560510a6869bf1a0f6cae04cbd02f53e99f6e9da95",
+        "final_sha": "cce79c01d4bc6277ac7b0b560510a6869bf1a0f6cae04cbd02f53e99f6e9da95",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "9d3e8c9240a4c2e65327f8c953b3c65d825387547b94ee968031a1a9a570ba42",
+        "final_sha": "bb6ae56494cd29763bd0a97a80936e168474978f30dd15ea220e8eec98004d39",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.47), buildings (0.07), mobile home park (0.07)",
+        "confidence": 0.46614253520965576,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "9d3e8c9240a4c2e65327f8c953b3c65d825387547b94ee968031a1a9a570ba42",
+        "final_sha": "bb6ae56494cd29763bd0a97a80936e168474978f30dd15ea220e8eec98004d39",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.47), buildings (0.07), mobile home park (0.07)",
+        "confidence": 0.46614253520965576,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "cce79c01d4bc6277ac7b0b560510a6869bf1a0f6cae04cbd02f53e99f6e9da95",
+        "final_sha": "cce79c01d4bc6277ac7b0b560510a6869bf1a0f6cae04cbd02f53e99f6e9da95",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "7bd777d9dc2297c2acc2b5d20915d07dd36d665c4e8285eaaef6b35d7ec0f113",
+        "final_sha": "7bd777d9dc2297c2acc2b5d20915d07dd36d665c4e8285eaaef6b35d7ec0f113",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 26.829153060913086,
+    "replay_mean_abs_logp_difference": 0.02334042897585759,
+    "replay_max_abs_logp_difference": 0.12672261893749237,
+    "trajectories": [
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -2.0314440727233887,
+          -0.0027069137431681156,
+          -0.0017847575945779681,
+          -3.6000557884108275e-05,
+          -0.15655887126922607
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151644,
+          151645
+        ],
+        "sampled_logp": [
+          -0.7219195365905762,
+          -0.000402250443585217,
+          -0.0010213402565568686,
+          -0.00018940561858471483,
+          -2.4702773094177246,
+          -0.2673853635787964
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151644,
+          151645
+        ],
+        "sampled_logp": [
+          -0.7219195365905762,
+          -0.000402250443585217,
+          -0.0010213402565568686,
+          -0.00018940561858471483,
+          -2.4702773094177246,
+          -0.2673853635787964
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -0.9600157737731934
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.7219195365905762,
+          -0.000402250443585217,
+          -0.0010213402565568686,
+          -0.00018940561858471483,
+          -0.08932644873857498
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.7219195365905762,
+          -0.000402250443585217,
+          -0.0010213402565568686,
+          -0.00018940561858471483,
+          -0.08932644873857498
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -0.9600157737731934
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -2.0314440727233887,
+          -0.0027069137431681156,
+          -0.0017847575945779681,
+          -3.6000557884108275e-05,
+          -0.15655887126922607
+        ],
+        "text": "scene_classify",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "image": "1813.tif",
+    "row": 1452,
+    "seed": 385004,
+    "proxy_rank": [
+      1396,
+      1396,
+      1396,
+      1396,
+      1396,
+      988,
+      988,
+      988
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0007158196134574087,
+      0.0007158196134574087,
+      0.0007158196134574087,
+      0.0007158196134574087,
+      0.0007158196134574087,
+      0.0010111223458038423,
+      0.0010111223458038423,
+      0.0010111223458038423
+    ],
+    "total": [
+      0.0007158196134574087,
+      0.0007158196134574087,
+      0.0007158196134574087,
+      0.0007158196134574087,
+      0.0007158196134574087,
+      0.0010111223458038423,
+      0.0010111223458038423,
+      0.0010111223458038423
+    ],
+    "advantage": [
+      -0.7245214314357769,
+      -0.7245214314357769,
+      -0.7245214314357769,
+      -0.7245214314357769,
+      -0.7245214314357769,
+      1.2075357190596276,
+      1.2075357190596276,
+      1.2075357190596276
+    ],
+    "terminal": [
+      {
+        "first_sha": "a8a9ec8c20be23ef5822a502d1f81c2e633838922d4e23ff40c01203dfa99544",
+        "final_sha": "a9ebda8778b1d7bc3e53f1d20a04b450be8ecdee8aa63486710a86a82f238f77",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.13), chaparral (0.11), mobile home park (0.09)",
+        "confidence": 0.12837892770767212,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "a8a9ec8c20be23ef5822a502d1f81c2e633838922d4e23ff40c01203dfa99544",
+        "final_sha": "a9ebda8778b1d7bc3e53f1d20a04b450be8ecdee8aa63486710a86a82f238f77",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.13), chaparral (0.11), mobile home park (0.09)",
+        "confidence": 0.12837892770767212,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "a8a9ec8c20be23ef5822a502d1f81c2e633838922d4e23ff40c01203dfa99544",
+        "final_sha": "a9ebda8778b1d7bc3e53f1d20a04b450be8ecdee8aa63486710a86a82f238f77",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.13), chaparral (0.11), mobile home park (0.09)",
+        "confidence": 0.12837892770767212,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "a8a9ec8c20be23ef5822a502d1f81c2e633838922d4e23ff40c01203dfa99544",
+        "final_sha": "a9ebda8778b1d7bc3e53f1d20a04b450be8ecdee8aa63486710a86a82f238f77",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.13), chaparral (0.11), mobile home park (0.09)",
+        "confidence": 0.12837892770767212,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "a8a9ec8c20be23ef5822a502d1f81c2e633838922d4e23ff40c01203dfa99544",
+        "final_sha": "a9ebda8778b1d7bc3e53f1d20a04b450be8ecdee8aa63486710a86a82f238f77",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.13), chaparral (0.11), mobile home park (0.09)",
+        "confidence": 0.12837892770767212,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "85727c3078ff8c2350bebd2c4cf517ac4c4e864e57f90d3b394bce0c5963554f",
+        "final_sha": "85727c3078ff8c2350bebd2c4cf517ac4c4e864e57f90d3b394bce0c5963554f",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "85727c3078ff8c2350bebd2c4cf517ac4c4e864e57f90d3b394bce0c5963554f",
+        "final_sha": "85727c3078ff8c2350bebd2c4cf517ac4c4e864e57f90d3b394bce0c5963554f",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "85727c3078ff8c2350bebd2c4cf517ac4c4e864e57f90d3b394bce0c5963554f",
+        "final_sha": "85727c3078ff8c2350bebd2c4cf517ac4c4e864e57f90d3b394bce0c5963554f",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 39.5146484375,
+    "replay_mean_abs_logp_difference": 0.01758625705708385,
+    "replay_max_abs_logp_difference": 0.08149838447570801,
+    "trajectories": [
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6373409032821655,
+          -0.0002579356369096786,
+          -0.0006886732880957425,
+          -9.65590606938349e-06,
+          -0.11214611679315567
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6373409032821655,
+          -0.0002579356369096786,
+          -0.0006886732880957425,
+          -9.65590606938349e-06,
+          -0.11214611679315567
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6373409032821655,
+          -0.0002579356369096786,
+          -0.0006886732880957425,
+          -9.65590606938349e-06,
+          -0.11214611679315567
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6373409032821655,
+          -0.0002579356369096786,
+          -0.0006886732880957425,
+          -9.65590606938349e-06,
+          -0.11214611679315567
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6373409032821655,
+          -0.0002579356369096786,
+          -0.0006886732880957425,
+          -9.65590606938349e-06,
+          -0.11214611679315567
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.113531470298767
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.113531470298767
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.113531470298767
+        ],
+        "text": "",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "image": "232.tif",
+    "row": 192,
+    "seed": 385005,
+    "proxy_rank": [
+      1045,
+      815,
+      1045,
+      815,
+      815,
+      1045,
+      832,
+      815
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0009560229445506692,
+      0.0012254901960784314,
+      0.0009560229445506692,
+      0.0012254901960784314,
+      0.0012254901960784314,
+      0.0009560229445506692,
+      0.0012004801920768306,
+      0.0012254901960784314
+    ],
+    "total": [
+      0.0009560229445506692,
+      0.0012254901960784314,
+      0.0009560229445506692,
+      0.0012254901960784314,
+      0.0012254901960784314,
+      0.0009560229445506692,
+      0.0012004801920768306,
+      0.0012254901960784314
+    ],
+    "advantage": [
+      -1.2052294417776546,
+      0.7596101081766581,
+      -1.2052294417776546,
+      0.7596101081766581,
+      0.7596101081766581,
+      -1.2052294417776546,
+      0.5772478926263284,
+      0.7596101081766581
+    ],
+    "terminal": [
+      {
+        "first_sha": "14c308991d014b138f53d6af8b7887ea64b5b83b32b29d112d6c1da8028e1c06",
+        "final_sha": "14c308991d014b138f53d6af8b7887ea64b5b83b32b29d112d6c1da8028e1c06",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "cf835acc65020e8dc5c49c312e7894b0626c9384d4454dc0e947879a2557a69f",
+        "final_sha": "cf835acc65020e8dc5c49c312e7894b0626c9384d4454dc0e947879a2557a69f",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "14c308991d014b138f53d6af8b7887ea64b5b83b32b29d112d6c1da8028e1c06",
+        "final_sha": "14c308991d014b138f53d6af8b7887ea64b5b83b32b29d112d6c1da8028e1c06",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "cf835acc65020e8dc5c49c312e7894b0626c9384d4454dc0e947879a2557a69f",
+        "final_sha": "cf835acc65020e8dc5c49c312e7894b0626c9384d4454dc0e947879a2557a69f",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "cf835acc65020e8dc5c49c312e7894b0626c9384d4454dc0e947879a2557a69f",
+        "final_sha": "cf835acc65020e8dc5c49c312e7894b0626c9384d4454dc0e947879a2557a69f",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "14c308991d014b138f53d6af8b7887ea64b5b83b32b29d112d6c1da8028e1c06",
+        "final_sha": "14c308991d014b138f53d6af8b7887ea64b5b83b32b29d112d6c1da8028e1c06",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "306c9556d4590bffd55ad5e073e0e4034209fe4c6ff0875e65a0e5f66215d4c8",
+        "final_sha": "72bc00415c3e57d6bfb65f1a1fc6249f716e153370a34b679d63d9a5bc62eff2",
+        "tool_calls": 1,
+        "tool_response": "baseball diamond (0.34), golf course (0.06), buildings (0.05)",
+        "confidence": 0.3356582224369049,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "cf835acc65020e8dc5c49c312e7894b0626c9384d4454dc0e947879a2557a69f",
+        "final_sha": "cf835acc65020e8dc5c49c312e7894b0626c9384d4454dc0e947879a2557a69f",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 36.2359504699707,
+    "replay_mean_abs_logp_difference": 0.03551472472766667,
+    "replay_max_abs_logp_difference": 0.19767677783966064,
+    "trajectories": [
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -1.8746854066848755,
+          -0.0016446886584162712,
+          -0.000985017861239612,
+          -1.7881233361549675e-05,
+          -0.07126278430223465
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.2794476747512817
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -1.8746854066848755,
+          -0.0016446886584162712,
+          -0.000985017861239612,
+          -1.7881233361549675e-05,
+          -0.07126278430223465
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.2794476747512817
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.2794476747512817
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -1.8746854066848755,
+          -0.0016446886584162712,
+          -0.000985017861239612,
+          -1.7881233361549675e-05,
+          -0.07126278430223465
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5651627779006958,
+          -0.00013910756388213485,
+          -0.000646501372102648,
+          -1.3828182090946939e-05,
+          -0.12592123448848724
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.2794476747512817
+        ],
+        "text": "",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "image": "255.tif",
+    "row": 215,
+    "seed": 385006,
+    "proxy_rank": [
+      1566,
+      1591,
+      1591,
+      1566,
+      1566,
+      1591,
+      1591,
+      1591
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0006381620931716656,
+      0.000628140703517588,
+      0.000628140703517588,
+      0.0006381620931716656,
+      0.0006381620931716656,
+      0.000628140703517588,
+      0.000628140703517588,
+      0.000628140703517588
+    ],
+    "total": [
+      0.0006381620931716656,
+      0.000628140703517588,
+      0.000628140703517588,
+      0.0006381620931716656,
+      0.0006381620931716656,
+      0.000628140703517588,
+      0.000628140703517588,
+      0.000628140703517588
+    ],
+    "advantage": [
+      1.2052908563469447,
+      -0.7231745138081584,
+      -0.7231745138081584,
+      1.2052908563469447,
+      1.2052908563469447,
+      -0.7231745138081584,
+      -0.7231745138081584,
+      -0.7231745138081584
+    ],
+    "terminal": [
+      {
+        "first_sha": "5399e75608d71d6b20588b897423d54b2cd463ee77824c7ecdd299df73b898f5",
+        "final_sha": "5399e75608d71d6b20588b897423d54b2cd463ee77824c7ecdd299df73b898f5",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "b976511b1116c9174640486c2ea9706cdcfbe31a9dddf46e15da27048948ca65",
+        "final_sha": "224a874e123887bc6d46cfb333b1687769f6b1d6b42fc0c1e3dc8b74c95fcf32",
+        "tool_calls": 1,
+        "tool_response": "baseball diamond (0.50), tennis court (0.08), storage tanks (0.05)",
+        "confidence": 0.5039563179016113,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "b976511b1116c9174640486c2ea9706cdcfbe31a9dddf46e15da27048948ca65",
+        "final_sha": "224a874e123887bc6d46cfb333b1687769f6b1d6b42fc0c1e3dc8b74c95fcf32",
+        "tool_calls": 1,
+        "tool_response": "baseball diamond (0.50), tennis court (0.08), storage tanks (0.05)",
+        "confidence": 0.5039563179016113,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "5399e75608d71d6b20588b897423d54b2cd463ee77824c7ecdd299df73b898f5",
+        "final_sha": "5399e75608d71d6b20588b897423d54b2cd463ee77824c7ecdd299df73b898f5",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "5399e75608d71d6b20588b897423d54b2cd463ee77824c7ecdd299df73b898f5",
+        "final_sha": "5399e75608d71d6b20588b897423d54b2cd463ee77824c7ecdd299df73b898f5",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "b976511b1116c9174640486c2ea9706cdcfbe31a9dddf46e15da27048948ca65",
+        "final_sha": "224a874e123887bc6d46cfb333b1687769f6b1d6b42fc0c1e3dc8b74c95fcf32",
+        "tool_calls": 1,
+        "tool_response": "baseball diamond (0.50), tennis court (0.08), storage tanks (0.05)",
+        "confidence": 0.5039563179016113,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "b976511b1116c9174640486c2ea9706cdcfbe31a9dddf46e15da27048948ca65",
+        "final_sha": "224a874e123887bc6d46cfb333b1687769f6b1d6b42fc0c1e3dc8b74c95fcf32",
+        "tool_calls": 1,
+        "tool_response": "baseball diamond (0.50), tennis court (0.08), storage tanks (0.05)",
+        "confidence": 0.5039563179016113,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "b976511b1116c9174640486c2ea9706cdcfbe31a9dddf46e15da27048948ca65",
+        "final_sha": "224a874e123887bc6d46cfb333b1687769f6b1d6b42fc0c1e3dc8b74c95fcf32",
+        "tool_calls": 1,
+        "tool_response": "baseball diamond (0.50), tennis court (0.08), storage tanks (0.05)",
+        "confidence": 0.5039563179016113,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      }
+    ],
+    "norm": 24.65768051147461,
+    "replay_mean_abs_logp_difference": 0.006474199232928056,
+    "replay_max_abs_logp_difference": 0.02259671688079834,
+    "trajectories": [
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.2340260744094849
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6387883424758911,
+          -0.0001754606782924384,
+          -0.0006774752982892096,
+          -2.3841574147809297e-05,
+          -0.1404319703578949
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6387883424758911,
+          -0.0001754606782924384,
+          -0.0006774752982892096,
+          -2.3841574147809297e-05,
+          -0.1404319703578949
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.2340260744094849
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.2340260744094849
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6387883424758911,
+          -0.0001754606782924384,
+          -0.0006774752982892096,
+          -2.3841574147809297e-05,
+          -0.1404319703578949
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6387883424758911,
+          -0.0001754606782924384,
+          -0.0006774752982892096,
+          -2.3841574147809297e-05,
+          -0.1404319703578949
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6387883424758911,
+          -0.0001754606782924384,
+          -0.0006774752982892096,
+          -2.3841574147809297e-05,
+          -0.1404319703578949
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "image": "1808.tif",
+    "row": 1447,
+    "seed": 385007,
+    "proxy_rank": [
+      1242,
+      1550,
+      1550,
+      1550,
+      1550,
+      1124,
+      1242,
+      1550
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0008045052292839903,
+      0.0006447453255963894,
+      0.0006447453255963894,
+      0.0006447453255963894,
+      0.0006447453255963894,
+      0.0008888888888888889,
+      0.0008045052292839903,
+      0.0006447453255963894
+    ],
+    "total": [
+      0.0008045052292839903,
+      0.0006447453255963894,
+      0.0006447453255963894,
+      0.0006447453255963894,
+      0.0006447453255963894,
+      0.0008888888888888889,
+      0.0008045052292839903,
+      0.0006447453255963894
+    ],
+    "advantage": [
+      0.8870080478866654,
+      -0.6998360127360698,
+      -0.6998360127360698,
+      -0.6998360127360698,
+      -0.6998360127360698,
+      1.725163967907018,
+      0.8870080478866654,
+      -0.6998360127360698
+    ],
+    "terminal": [
+      {
+        "first_sha": "e7505ddfb292d60fd3933bede141e266017a5dcd6ff5a56dead80f3bb213786f",
+        "final_sha": "e7505ddfb292d60fd3933bede141e266017a5dcd6ff5a56dead80f3bb213786f",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "5499d889b9d695996bceb8146a0cbde9fe9f2bb02469efa03fa21d270de682d4",
+        "final_sha": "18ab00c9e5cc4f099192c52a8443835adc4833bd54bf69a292e1c7cdb42aca2c",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.33), buildings (0.09), river (0.07)",
+        "confidence": 0.3282563388347626,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "5499d889b9d695996bceb8146a0cbde9fe9f2bb02469efa03fa21d270de682d4",
+        "final_sha": "18ab00c9e5cc4f099192c52a8443835adc4833bd54bf69a292e1c7cdb42aca2c",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.33), buildings (0.09), river (0.07)",
+        "confidence": 0.3282563388347626,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "5499d889b9d695996bceb8146a0cbde9fe9f2bb02469efa03fa21d270de682d4",
+        "final_sha": "18ab00c9e5cc4f099192c52a8443835adc4833bd54bf69a292e1c7cdb42aca2c",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.33), buildings (0.09), river (0.07)",
+        "confidence": 0.3282563388347626,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "5499d889b9d695996bceb8146a0cbde9fe9f2bb02469efa03fa21d270de682d4",
+        "final_sha": "18ab00c9e5cc4f099192c52a8443835adc4833bd54bf69a292e1c7cdb42aca2c",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.33), buildings (0.09), river (0.07)",
+        "confidence": 0.3282563388347626,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "0f602c6cee87bd9f09f429ba11ae9043b77efe4f91b85de288c401e01790d47f",
+        "final_sha": "0f602c6cee87bd9f09f429ba11ae9043b77efe4f91b85de288c401e01790d47f",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "e7505ddfb292d60fd3933bede141e266017a5dcd6ff5a56dead80f3bb213786f",
+        "final_sha": "e7505ddfb292d60fd3933bede141e266017a5dcd6ff5a56dead80f3bb213786f",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "5499d889b9d695996bceb8146a0cbde9fe9f2bb02469efa03fa21d270de682d4",
+        "final_sha": "18ab00c9e5cc4f099192c52a8443835adc4833bd54bf69a292e1c7cdb42aca2c",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.33), buildings (0.09), river (0.07)",
+        "confidence": 0.3282563388347626,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      }
+    ],
+    "norm": 20.70693016052246,
+    "replay_mean_abs_logp_difference": 0.03010487763131664,
+    "replay_max_abs_logp_difference": 0.13757532835006714,
+    "trajectories": [
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -0.9452541470527649
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.7071598172187805,
+          -0.0003325386205688119,
+          -0.0008659188752062619,
+          -1.2516897186287679e-05,
+          -0.12534961104393005
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.7071598172187805,
+          -0.0003325386205688119,
+          -0.0008659188752062619,
+          -1.2516897186287679e-05,
+          -0.12534961104393005
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.7071598172187805,
+          -0.0003325386205688119,
+          -0.0008659188752062619,
+          -1.2516897186287679e-05,
+          -0.12534961104393005
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.7071598172187805,
+          -0.0003325386205688119,
+          -0.0008659188752062619,
+          -1.2516897186287679e-05,
+          -0.12534961104393005
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -2.1357295513153076,
+          -0.0041219755075871944,
+          -0.001754413009621203,
+          -1.3351351299206726e-05,
+          -0.14009658992290497
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -0.9452541470527649
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.7071598172187805,
+          -0.0003325386205688119,
+          -0.0008659188752062619,
+          -1.2516897186287679e-05,
+          -0.12534961104393005
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "image": "1662.tif",
+    "row": 1341,
+    "seed": 385008,
+    "proxy_rank": [
+      823,
+      823,
+      1209,
+      1264,
+      1264,
+      1314,
+      823,
+      823
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0012135922330097086,
+      0.0012135922330097086,
+      0.0008264462809917355,
+      0.0007905138339920949,
+      0.0007905138339920949,
+      0.0007604562737642585,
+      0.0012135922330097086,
+      0.0012135922330097086
+    ],
+    "total": [
+      0.0012135922330097086,
+      0.0012135922330097086,
+      0.0008264462809917355,
+      0.0007905138339920949,
+      0.0007905138339920949,
+      0.0007604562737642585,
+      0.0012135922330097086,
+      0.0012135922330097086
+    ],
+    "advantage": [
+      0.9325104348528137,
+      0.9325104348528137,
+      -0.7800576558923304,
+      -0.9390074313793769,
+      -0.9390074313793769,
+      -1.0719692207601765,
+      0.9325104348528137,
+      0.9325104348528137
+    ],
+    "terminal": [
+      {
+        "first_sha": "061504c4155ccf9fe5604b8d17fd75eb73c55775b7be4195fd3701e703acffc1",
+        "final_sha": "2628e189517142e5b4f1c20e208eb59da79c0ed616174287ea861ece1aff4544",
+        "tool_calls": 1,
+        "tool_response": "river (0.41), sparse residential (0.06), medium residential (0.05)",
+        "confidence": 0.408578485250473,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "061504c4155ccf9fe5604b8d17fd75eb73c55775b7be4195fd3701e703acffc1",
+        "final_sha": "2628e189517142e5b4f1c20e208eb59da79c0ed616174287ea861ece1aff4544",
+        "tool_calls": 1,
+        "tool_response": "river (0.41), sparse residential (0.06), medium residential (0.05)",
+        "confidence": 0.408578485250473,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "bfeb18d7e77800d86981e74d987b8f2f1b2a57b40a39e606955f32d383ee9860",
+        "final_sha": "bfeb18d7e77800d86981e74d987b8f2f1b2a57b40a39e606955f32d383ee9860",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "fec208f895d90ee8039e64463d5d725a1d8d22a0e556da4bbef2f96b28e65c06",
+        "final_sha": "fec208f895d90ee8039e64463d5d725a1d8d22a0e556da4bbef2f96b28e65c06",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "fec208f895d90ee8039e64463d5d725a1d8d22a0e556da4bbef2f96b28e65c06",
+        "final_sha": "fec208f895d90ee8039e64463d5d725a1d8d22a0e556da4bbef2f96b28e65c06",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "a7b7c7aa6ca99b5113f343f7b88037281acf54b9444324cae6b94001d281153b",
+        "final_sha": "a7b7c7aa6ca99b5113f343f7b88037281acf54b9444324cae6b94001d281153b",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "061504c4155ccf9fe5604b8d17fd75eb73c55775b7be4195fd3701e703acffc1",
+        "final_sha": "2628e189517142e5b4f1c20e208eb59da79c0ed616174287ea861ece1aff4544",
+        "tool_calls": 1,
+        "tool_response": "river (0.41), sparse residential (0.06), medium residential (0.05)",
+        "confidence": 0.408578485250473,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "061504c4155ccf9fe5604b8d17fd75eb73c55775b7be4195fd3701e703acffc1",
+        "final_sha": "2628e189517142e5b4f1c20e208eb59da79c0ed616174287ea861ece1aff4544",
+        "tool_calls": 1,
+        "tool_response": "river (0.41), sparse residential (0.06), medium residential (0.05)",
+        "confidence": 0.408578485250473,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      }
+    ],
+    "norm": 41.05661392211914,
+    "replay_mean_abs_logp_difference": 0.022233338493970224,
+    "replay_max_abs_logp_difference": 0.22040092945098877,
+    "trajectories": [
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.542117714881897,
+          -0.00039843725971877575,
+          -0.0007814691052772105,
+          -0.00010227633902104571,
+          -0.1407645344734192
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.542117714881897,
+          -0.00039843725971877575,
+          -0.0007814691052772105,
+          -0.00010227633902104571,
+          -0.1407645344734192
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          198,
+          18724,
+          151645
+        ],
+        "sampled_logp": [
+          -2.3278326988220215,
+          -0.5830507278442383,
+          -0.7457758188247681,
+          -0.024319075047969818
+        ],
+        "text": "\n addCriterion",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -2.3278326988220215,
+          -0.8211469650268555,
+          -0.0014457975048571825,
+          -7.92710343375802e-05,
+          -0.05049222707748413
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -2.3278326988220215,
+          -0.8211469650268555,
+          -0.0014457975048571825,
+          -7.92710343375802e-05,
+          -0.05049222707748413
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1373554468154907
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.542117714881897,
+          -0.00039843725971877575,
+          -0.0007814691052772105,
+          -0.00010227633902104571,
+          -0.1407645344734192
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.542117714881897,
+          -0.00039843725971877575,
+          -0.0007814691052772105,
+          -0.00010227633902104571,
+          -0.1407645344734192
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 10,
+    "image": "1853.tif",
+    "row": 1492,
+    "seed": 385009,
+    "proxy_rank": [
+      799,
+      799,
+      1138,
+      799,
+      799,
+      1138,
+      799,
+      808
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.00125,
+      0.00125,
+      0.000877963125548727,
+      0.00125,
+      0.00125,
+      0.000877963125548727,
+      0.00125,
+      0.0012360939431396785
+    ],
+    "total": [
+      0.00125,
+      0.00125,
+      0.000877963125548727,
+      0.00125,
+      0.00125,
+      0.000877963125548727,
+      0.00125,
+      0.0012360939431396785
+    ],
+    "advantage": [
+      0.5533540242892079,
+      0.5533540242892079,
+      -1.6194542758411088,
+      0.5533540242892079,
+      0.5533540242892079,
+      -1.6194542758411088,
+      0.5533540242892079,
+      0.4721384302361832
+    ],
+    "terminal": [
+      {
+        "first_sha": "99f076ccab21b372cc24d3d93965151bc66010c93e86e9399bd9f60d40bdf9c8",
+        "final_sha": "79069f9582d832668f27b004003aa0b89d1f5b453a6d34c76a3edcc7a7ecd73b",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.44), medium residential (0.06), golf course (0.05)",
+        "confidence": 0.4431104063987732,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "99f076ccab21b372cc24d3d93965151bc66010c93e86e9399bd9f60d40bdf9c8",
+        "final_sha": "79069f9582d832668f27b004003aa0b89d1f5b453a6d34c76a3edcc7a7ecd73b",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.44), medium residential (0.06), golf course (0.05)",
+        "confidence": 0.4431104063987732,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "21a60abfe0480e49a6e60cf255cbf6da7812186ff2357e4e29f9464ad3cfceb7",
+        "final_sha": "21a60abfe0480e49a6e60cf255cbf6da7812186ff2357e4e29f9464ad3cfceb7",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "99f076ccab21b372cc24d3d93965151bc66010c93e86e9399bd9f60d40bdf9c8",
+        "final_sha": "79069f9582d832668f27b004003aa0b89d1f5b453a6d34c76a3edcc7a7ecd73b",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.44), medium residential (0.06), golf course (0.05)",
+        "confidence": 0.4431104063987732,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "99f076ccab21b372cc24d3d93965151bc66010c93e86e9399bd9f60d40bdf9c8",
+        "final_sha": "79069f9582d832668f27b004003aa0b89d1f5b453a6d34c76a3edcc7a7ecd73b",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.44), medium residential (0.06), golf course (0.05)",
+        "confidence": 0.4431104063987732,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "21a60abfe0480e49a6e60cf255cbf6da7812186ff2357e4e29f9464ad3cfceb7",
+        "final_sha": "21a60abfe0480e49a6e60cf255cbf6da7812186ff2357e4e29f9464ad3cfceb7",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "99f076ccab21b372cc24d3d93965151bc66010c93e86e9399bd9f60d40bdf9c8",
+        "final_sha": "79069f9582d832668f27b004003aa0b89d1f5b453a6d34c76a3edcc7a7ecd73b",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.44), medium residential (0.06), golf course (0.05)",
+        "confidence": 0.4431104063987732,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "072b3168cfb88d9b76b69e6c4331b7f4d06678ff92b3eeba59449855e51fe119",
+        "final_sha": "072b3168cfb88d9b76b69e6c4331b7f4d06678ff92b3eeba59449855e51fe119",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 21.672988891601562,
+    "replay_mean_abs_logp_difference": 0.0003564320643647534,
+    "replay_max_abs_logp_difference": 0.009652063250541687,
+    "trajectories": [
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5843633413314819,
+          -0.00018880968855228275,
+          -0.0006883158930577338,
+          -5.960446742392378e-06,
+          -0.17492780089378357
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5843633413314819,
+          -0.00018880968855228275,
+          -0.0006883158930577338,
+          -5.960446742392378e-06,
+          -0.17492780089378357
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.2986501455307007
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5843633413314819,
+          -0.00018880968855228275,
+          -0.0006883158930577338,
+          -5.960446742392378e-06,
+          -0.17492780089378357
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5843633413314819,
+          -0.00018880968855228275,
+          -0.0006883158930577338,
+          -5.960446742392378e-06,
+          -0.17492780089378357
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.2986501455307007
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5843633413314819,
+          -0.00018880968855228275,
+          -0.0006883158930577338,
+          -5.960446742392378e-06,
+          -0.17492780089378357
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -1.7748388051986694,
+          -0.0017114529618993402,
+          -0.0012432949151843786,
+          -1.4662635294371285e-05,
+          -0.0894634798169136
+        ],
+        "text": "scene_classify",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 11,
+    "image": "221.tif",
+    "row": 181,
+    "seed": 385010,
+    "proxy_rank": [
+      1439,
+      1513,
+      1592,
+      1513,
+      1513,
+      1513,
+      1439,
+      1592
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0006944444444444445,
+      0.0006605019815059445,
+      0.0006277463904582549,
+      0.0006605019815059445,
+      0.0006605019815059445,
+      0.0006605019815059445,
+      0.0006944444444444445,
+      0.0006277463904582549
+    ],
+    "total": [
+      0.0006944444444444445,
+      0.0006605019815059445,
+      0.0006277463904582549,
+      0.0006605019815059445,
+      0.0006605019815059445,
+      0.0006605019815059445,
+      0.0006944444444444445,
+      0.0006277463904582549
+    ],
+    "advantage": [
+      1.3340109735662002,
+      -0.011764490043002559,
+      -1.3104819934801908,
+      -0.011764490043002559,
+      -0.011764490043002559,
+      -0.011764490043002559,
+      1.3340109735662002,
+      -1.3104819934801908
+    ],
+    "terminal": [
+      {
+        "first_sha": "bcdd92518c24a560a6a6ebc22afc12fc7a8f6e465f6034deafcb9117d78e77fc",
+        "final_sha": "b47a60a45181e7507baf951fdf97fb0d83c9cf1d9036e7190447d18cadca64e4",
+        "tool_calls": 1,
+        "tool_response": "baseball diamond (0.61), golf course (0.05), tennis court (0.04)",
+        "confidence": 0.6054713726043701,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "5641553c32a88af4be2fe1795beed5154920683367e48b313ebe59e89624dded",
+        "final_sha": "5641553c32a88af4be2fe1795beed5154920683367e48b313ebe59e89624dded",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "2c31e5ad82194c926aac4c892e4f9472749d0180833c44d7bc888c09384da290",
+        "final_sha": "2c31e5ad82194c926aac4c892e4f9472749d0180833c44d7bc888c09384da290",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "5641553c32a88af4be2fe1795beed5154920683367e48b313ebe59e89624dded",
+        "final_sha": "5641553c32a88af4be2fe1795beed5154920683367e48b313ebe59e89624dded",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "5641553c32a88af4be2fe1795beed5154920683367e48b313ebe59e89624dded",
+        "final_sha": "5641553c32a88af4be2fe1795beed5154920683367e48b313ebe59e89624dded",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "5641553c32a88af4be2fe1795beed5154920683367e48b313ebe59e89624dded",
+        "final_sha": "5641553c32a88af4be2fe1795beed5154920683367e48b313ebe59e89624dded",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "bcdd92518c24a560a6a6ebc22afc12fc7a8f6e465f6034deafcb9117d78e77fc",
+        "final_sha": "b47a60a45181e7507baf951fdf97fb0d83c9cf1d9036e7190447d18cadca64e4",
+        "tool_calls": 1,
+        "tool_response": "baseball diamond (0.61), golf course (0.05), tennis court (0.04)",
+        "confidence": 0.6054713726043701,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "2c31e5ad82194c926aac4c892e4f9472749d0180833c44d7bc888c09384da290",
+        "final_sha": "2c31e5ad82194c926aac4c892e4f9472749d0180833c44d7bc888c09384da290",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 24.504287719726562,
+    "replay_mean_abs_logp_difference": 0.03315442190326697,
+    "replay_max_abs_logp_difference": 0.13441860675811768,
+    "trajectories": [
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5997277498245239,
+          -0.0001774868869688362,
+          -0.0007625294383615255,
+          -1.3708974620385561e-05,
+          -0.14043082296848297
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1949654817581177
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -1.9092522859573364,
+          -0.016102386638522148,
+          -0.0009868042543530464,
+          -1.5258672647178173e-05,
+          -0.071122907102108
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1949654817581177
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1949654817581177
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1949654817581177
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5997277498245239,
+          -0.0001774868869688362,
+          -0.0007625294383615255,
+          -1.3708974620385561e-05,
+          -0.14043082296848297
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -1.9092522859573364,
+          -0.016102386638522148,
+          -0.0009868042543530464,
+          -1.5258672647178173e-05,
+          -0.071122907102108
+        ],
+        "text": "scene_classify",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 12,
+    "image": "204.tif",
+    "row": 164,
+    "seed": 385011,
+    "proxy_rank": [
+      329,
+      450,
+      329,
+      329,
+      351,
+      328,
+      328,
+      329
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0030303030303030303,
+      0.0022172949002217295,
+      0.0030303030303030303,
+      0.0030303030303030303,
+      0.002840909090909091,
+      0.00303951367781155,
+      0.00303951367781155,
+      0.0030303030303030303
+    ],
+    "total": [
+      0.0030303030303030303,
+      0.0022172949002217295,
+      0.0030303030303030303,
+      0.0030303030303030303,
+      0.002840909090909091,
+      0.00303951367781155,
+      0.00303951367781155,
+      0.0030303030303030303
+    ],
+    "advantage": [
+      0.4287669167787702,
+      -2.4053615401962034,
+      0.4287669167787702,
+      0.4287669167787702,
+      -0.23145618967562673,
+      0.4608750313783761,
+      0.4608750313783761,
+      0.4287669167787702
+    ],
+    "terminal": [
+      {
+        "first_sha": "1da7039d87406a77b49c9b89b85a1013cae9f3180e9e62a093989ac76923e791",
+        "final_sha": "1da7039d87406a77b49c9b89b85a1013cae9f3180e9e62a093989ac76923e791",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "6cd864ec45731e0a155ee2e44f4c35cda5527cbc0e8afa8382dffbaa18af17c7",
+        "final_sha": "6cd864ec45731e0a155ee2e44f4c35cda5527cbc0e8afa8382dffbaa18af17c7",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "1da7039d87406a77b49c9b89b85a1013cae9f3180e9e62a093989ac76923e791",
+        "final_sha": "1da7039d87406a77b49c9b89b85a1013cae9f3180e9e62a093989ac76923e791",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "1da7039d87406a77b49c9b89b85a1013cae9f3180e9e62a093989ac76923e791",
+        "final_sha": "1da7039d87406a77b49c9b89b85a1013cae9f3180e9e62a093989ac76923e791",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "a20b4a83437cdc6bfd2a5125d9d1cfca59f19bd4039f5252f96129d8973fc9e5",
+        "final_sha": "a20b4a83437cdc6bfd2a5125d9d1cfca59f19bd4039f5252f96129d8973fc9e5",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "5355dc122b81c022a366df64c220efcbf2697612bfe30c302d29f72359296f17",
+        "final_sha": "7f10baac8f1cf9c21175f2f3f13dfeeb10ccb2edfef2e879a71649a402e78090",
+        "tool_calls": 1,
+        "tool_response": "baseball diamond (0.42), golf course (0.06), agricultural (0.05)",
+        "confidence": 0.41643860936164856,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "0e9262cd5a1e578508fb62d99a3543f328ceb6836aae0835325c3e2b2c8b1402",
+        "final_sha": "7f10baac8f1cf9c21175f2f3f13dfeeb10ccb2edfef2e879a71649a402e78090",
+        "tool_calls": 1,
+        "tool_response": "baseball diamond (0.42), golf course (0.06), agricultural (0.05)",
+        "confidence": 0.41643860936164856,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "1da7039d87406a77b49c9b89b85a1013cae9f3180e9e62a093989ac76923e791",
+        "final_sha": "1da7039d87406a77b49c9b89b85a1013cae9f3180e9e62a093989ac76923e791",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 71.81307983398438,
+    "replay_mean_abs_logp_difference": 0.03289861687017037,
+    "replay_max_abs_logp_difference": 0.1356654167175293,
+    "trajectories": [
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.3488149642944336
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151644,
+          198,
+          18724,
+          198,
+          22483,
+          5122,
+          3152,
+          3959,
+          2070,
+          320,
+          16,
+          13,
+          15,
+          15,
+          69515,
+          60901,
+          4910,
+          9909,
+          15,
+          13,
+          24,
+          22,
+          48272,
+          13250,
+          4268,
+          9909,
+          15,
+          13,
+          23,
+          15,
+          23083,
+          151645
+        ],
+        "sampled_logp": [
+          -1.9440526962280273,
+          -0.009964012540876865,
+          -0.0011251792311668396,
+          -2.455681169521995e-05,
+          -2.6902124881744385,
+          -0.04995008930563927,
+          -0.18082410097122192,
+          -4.3342108726501465,
+          -6.210024356842041,
+          -4.485238075256348,
+          -0.581648051738739,
+          -0.004268582910299301,
+          -0.7041695713996887,
+          -0.8192868232727051,
+          -2.508901834487915,
+          -0.09819642454385757,
+          -0.0019516960019245744,
+          -0.8392472863197327,
+          -1.5395333766937256,
+          -3.664637565612793,
+          -2.2975900173187256,
+          -2.9823055267333984,
+          -0.05443308874964714,
+          -0.026641882956027985,
+          -1.0183613300323486,
+          -1.692434549331665,
+          -0.3524586260318756,
+          -4.008439064025879,
+          -3.129669189453125,
+          -0.637160062789917,
+          -0.006710493937134743,
+          -0.001206504413858056,
+          -2.1389267444610596,
+          -2.649648666381836,
+          -0.9703983664512634,
+          -0.029369410127401352
+        ],
+        "text": "scene_classify\n addCriterion\nscene：baseball field (1.00)，sport ground（0.97），green land（0.80）\n",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.3488149642944336
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.3488149642944336
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -1.9440526962280273,
+          -0.009964012540876865,
+          -0.0011251792311668396,
+          -2.455681169521995e-05,
+          -0.07116531580686569
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151644,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5154809951782227,
+          -0.00017998983094003052,
+          -0.0007908792467787862,
+          -3.731181277544238e-05,
+          -2.4704372882843018,
+          -0.2673545181751251
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5154809951782227,
+          -0.00017998983094003052,
+          -0.0007908792467787862,
+          -3.731181277544238e-05,
+          -0.08948452025651932
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.3488149642944336
+        ],
+        "text": "",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 13,
+    "image": "1668.tif",
+    "row": 1347,
+    "seed": 385012,
+    "proxy_rank": [
+      606,
+      939,
+      939,
+      606,
+      939,
+      954,
+      939,
+      939
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0016474464579901153,
+      0.0010638297872340426,
+      0.0010638297872340426,
+      0.0016474464579901153,
+      0.0010638297872340426,
+      0.0010471204188481676,
+      0.0010638297872340426,
+      0.0010638297872340426
+    ],
+    "total": [
+      0.0016474464579901153,
+      0.0010638297872340426,
+      0.0010638297872340426,
+      0.0016474464579901153,
+      0.0010638297872340426,
+      0.0010471204188481676,
+      0.0010638297872340426,
+      0.0010638297872340426
+    ],
+    "advantage": [
+      1.619760221510018,
+      -0.5296634806945401,
+      -0.5296634806945401,
+      1.619760221510018,
+      -0.5296634806945401,
+      -0.5912030395473375,
+      -0.5296634806945401,
+      -0.5296634806945401
+    ],
+    "terminal": [
+      {
+        "first_sha": "1e0d3aca052c7498138b3be1261aa0816b0b57fa2e4768cc7c7d16ed7292e798",
+        "final_sha": "1e0d3aca052c7498138b3be1261aa0816b0b57fa2e4768cc7c7d16ed7292e798",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "21125a019f33f1a4a0492ac862af07dea34a37226cfa67bb3296aeeae9568c83",
+        "final_sha": "bc30c284f8e04efe4720568a05fecf5cbaa060825546b8fd0cc04fa7531267d4",
+        "tool_calls": 1,
+        "tool_response": "river (0.25), overpass (0.12), freeway (0.09)",
+        "confidence": 0.2539561092853546,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "3097c64ef54ae7729ce21d27368741f0ef309b6febd2085c138738a3a6fa2b6e",
+        "final_sha": "bc30c284f8e04efe4720568a05fecf5cbaa060825546b8fd0cc04fa7531267d4",
+        "tool_calls": 1,
+        "tool_response": "river (0.25), overpass (0.12), freeway (0.09)",
+        "confidence": 0.2539561092853546,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "1e0d3aca052c7498138b3be1261aa0816b0b57fa2e4768cc7c7d16ed7292e798",
+        "final_sha": "1e0d3aca052c7498138b3be1261aa0816b0b57fa2e4768cc7c7d16ed7292e798",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "21125a019f33f1a4a0492ac862af07dea34a37226cfa67bb3296aeeae9568c83",
+        "final_sha": "bc30c284f8e04efe4720568a05fecf5cbaa060825546b8fd0cc04fa7531267d4",
+        "tool_calls": 1,
+        "tool_response": "river (0.25), overpass (0.12), freeway (0.09)",
+        "confidence": 0.2539561092853546,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "db0fbbc85f99e15a9b6a935455ae2e606b99ab4a373baad6ed3c49e39625362d",
+        "final_sha": "db0fbbc85f99e15a9b6a935455ae2e606b99ab4a373baad6ed3c49e39625362d",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "21125a019f33f1a4a0492ac862af07dea34a37226cfa67bb3296aeeae9568c83",
+        "final_sha": "bc30c284f8e04efe4720568a05fecf5cbaa060825546b8fd0cc04fa7531267d4",
+        "tool_calls": 1,
+        "tool_response": "river (0.25), overpass (0.12), freeway (0.09)",
+        "confidence": 0.2539561092853546,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "3097c64ef54ae7729ce21d27368741f0ef309b6febd2085c138738a3a6fa2b6e",
+        "final_sha": "bc30c284f8e04efe4720568a05fecf5cbaa060825546b8fd0cc04fa7531267d4",
+        "tool_calls": 1,
+        "tool_response": "river (0.25), overpass (0.12), freeway (0.09)",
+        "confidence": 0.2539561092853546,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      }
+    ],
+    "norm": 58.99727249145508,
+    "replay_mean_abs_logp_difference": 0.04658214442921841,
+    "replay_max_abs_logp_difference": 0.8528748750686646,
+    "trajectories": [
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1373474597930908
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5421097278594971,
+          -0.0003583981015253812,
+          -0.0007907600956968963,
+          -4.160317621426657e-05,
+          -0.1259164959192276
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151644,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5421097278594971,
+          -0.0003583981015253812,
+          -0.0007907600956968963,
+          -4.160317621426657e-05,
+          -2.1497278213500977,
+          -0.44099465012550354
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1373474597930908
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5421097278594971,
+          -0.0003583981015253812,
+          -0.0007907600956968963,
+          -4.160317621426657e-05,
+          -0.1259164959192276
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          198,
+          18724,
+          151645
+        ],
+        "sampled_logp": [
+          -2.3278229236602783,
+          -0.8882626295089722,
+          -0.07672936469316483,
+          -0.02470828965306282
+        ],
+        "text": "\n addCriterion",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5421097278594971,
+          -0.0003583981015253812,
+          -0.0007907600956968963,
+          -4.160317621426657e-05,
+          -0.1259164959192276
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151644,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5421097278594971,
+          -0.0003583981015253812,
+          -0.0007907600956968963,
+          -4.160317621426657e-05,
+          -2.1497278213500977,
+          -0.44099465012550354
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 14,
+    "image": "325.tif",
+    "row": 265,
+    "seed": 385013,
+    "proxy_rank": [
+      36,
+      36,
+      36,
+      36,
+      109,
+      36,
+      59,
+      36
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.02702702702702703,
+      0.02702702702702703,
+      0.02702702702702703,
+      0.02702702702702703,
+      0.00909090909090909,
+      0.02702702702702703,
+      0.016666666666666666,
+      0.02702702702702703
+    ],
+    "total": [
+      0.02702702702702703,
+      0.02702702702702703,
+      0.02702702702702703,
+      0.02702702702702703,
+      0.00909090909090909,
+      0.02702702702702703,
+      0.016666666666666666,
+      0.02702702702702703
+    ],
+    "advantage": [
+      0.515967685482895,
+      0.515967685482895,
+      0.515967685482895,
+      0.515967685482895,
+      -2.1004588990787023,
+      0.515967685482895,
+      -0.9953472138186671,
+      0.515967685482895
+    ],
+    "terminal": [
+      {
+        "first_sha": "415b1a29f6a5a06e8f3ae5b81ca1ac08b46bd0916d64dafcfe77a35a53010fcc",
+        "final_sha": "46f5b9932a889974fb59ca57e76ad97272548bd23b2442b9f27af5a4765887ca",
+        "tool_calls": 1,
+        "tool_response": "beach (0.43), harbor (0.06), agricultural (0.05)",
+        "confidence": 0.4293142557144165,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "415b1a29f6a5a06e8f3ae5b81ca1ac08b46bd0916d64dafcfe77a35a53010fcc",
+        "final_sha": "46f5b9932a889974fb59ca57e76ad97272548bd23b2442b9f27af5a4765887ca",
+        "tool_calls": 1,
+        "tool_response": "beach (0.43), harbor (0.06), agricultural (0.05)",
+        "confidence": 0.4293142557144165,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "415b1a29f6a5a06e8f3ae5b81ca1ac08b46bd0916d64dafcfe77a35a53010fcc",
+        "final_sha": "46f5b9932a889974fb59ca57e76ad97272548bd23b2442b9f27af5a4765887ca",
+        "tool_calls": 1,
+        "tool_response": "beach (0.43), harbor (0.06), agricultural (0.05)",
+        "confidence": 0.4293142557144165,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "415b1a29f6a5a06e8f3ae5b81ca1ac08b46bd0916d64dafcfe77a35a53010fcc",
+        "final_sha": "46f5b9932a889974fb59ca57e76ad97272548bd23b2442b9f27af5a4765887ca",
+        "tool_calls": 1,
+        "tool_response": "beach (0.43), harbor (0.06), agricultural (0.05)",
+        "confidence": 0.4293142557144165,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "49c110d5df43b769705eef904a74abadfc3d622ea549cc8408a6b0f93cc9ed7a",
+        "final_sha": "49c110d5df43b769705eef904a74abadfc3d622ea549cc8408a6b0f93cc9ed7a",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "415b1a29f6a5a06e8f3ae5b81ca1ac08b46bd0916d64dafcfe77a35a53010fcc",
+        "final_sha": "46f5b9932a889974fb59ca57e76ad97272548bd23b2442b9f27af5a4765887ca",
+        "tool_calls": 1,
+        "tool_response": "beach (0.43), harbor (0.06), agricultural (0.05)",
+        "confidence": 0.4293142557144165,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "559d5c181d4a9e593b4f9494d760d8339e5ad2c24eba67c2a7cb3744f44ad443",
+        "final_sha": "559d5c181d4a9e593b4f9494d760d8339e5ad2c24eba67c2a7cb3744f44ad443",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "415b1a29f6a5a06e8f3ae5b81ca1ac08b46bd0916d64dafcfe77a35a53010fcc",
+        "final_sha": "46f5b9932a889974fb59ca57e76ad97272548bd23b2442b9f27af5a4765887ca",
+        "tool_calls": 1,
+        "tool_response": "beach (0.43), harbor (0.06), agricultural (0.05)",
+        "confidence": 0.4293142557144165,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      }
+    ],
+    "norm": 89.5249252319336,
+    "replay_mean_abs_logp_difference": 0.01954490613549881,
+    "replay_max_abs_logp_difference": 0.39205873012542725,
+    "trajectories": [
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5213539600372314,
+          -0.00047362555051222444,
+          -0.0008546037715859711,
+          -1.7404405298293568e-05,
+          -0.10024724155664444
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5213539600372314,
+          -0.00047362555051222444,
+          -0.0008546037715859711,
+          -1.7404405298293568e-05,
+          -0.10024724155664444
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5213539600372314,
+          -0.00047362555051222444,
+          -0.0008546037715859711,
+          -1.7404405298293568e-05,
+          -0.10024724155664444
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5213539600372314,
+          -0.00047362555051222444,
+          -0.0008546037715859711,
+          -1.7404405298293568e-05,
+          -0.10024724155664444
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1165916919708252
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5213539600372314,
+          -0.00047362555051222444,
+          -0.0008546037715859711,
+          -1.7404405298293568e-05,
+          -0.10024724155664444
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          198,
+          18724,
+          151645
+        ],
+        "sampled_logp": [
+          -2.54516339302063,
+          -1.5495145320892334,
+          -0.146563321352005,
+          -0.02156873419880867
+        ],
+        "text": "\n addCriterion",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5213539600372314,
+          -0.00047362555051222444,
+          -0.0008546037715859711,
+          -1.7404405298293568e-05,
+          -0.10024724155664444
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 15,
+    "image": "2022.tif",
+    "row": 1621,
+    "seed": 385014,
+    "proxy_rank": [
+      1379,
+      1501,
+      1439,
+      1501,
+      1501,
+      1501,
+      1439,
+      1439
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0007246376811594203,
+      0.0006657789613848203,
+      0.0006944444444444445,
+      0.0006657789613848203,
+      0.0006657789613848203,
+      0.0006657789613848203,
+      0.0006944444444444445,
+      0.0006944444444444445
+    ],
+    "total": [
+      0.0007246376811594203,
+      0.0006657789613848203,
+      0.0006944444444444445,
+      0.0006657789613848203,
+      0.0006657789613848203,
+      0.0006657789613848203,
+      0.0006944444444444445,
+      0.0006944444444444445
+    ],
+    "advantage": [
+      1.8741544833659636,
+      -0.8327264278662706,
+      0.48558374269970134,
+      -0.8327264278662706,
+      -0.8327264278662706,
+      -0.8327264278662706,
+      0.48558374269970134,
+      0.48558374269970134
+    ],
+    "terminal": [
+      {
+        "first_sha": "8cf0abe48b1ac4e1e1cb7f9f0bf6790dd59c6e2a5a1aa4ac0be11956d52d14c3",
+        "final_sha": "cff9f898df639999f3ae41287f2af9f96144dcb2b4dcd4c6f255da7ba59784da",
+        "tool_calls": 1,
+        "tool_response": "tennis court (0.55), buildings (0.04), baseball diamond (0.04)",
+        "confidence": 0.5528786182403564,
+        "continuation_ids": [
+          [
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "37987e64a09f13e5dcc08f73d7150b5175de6672513783b226dcafcec1c9d1b5",
+        "final_sha": "53cae7ec92fe9869c1333860bc463a75db453fc153e4cd4d3cf3d29ef45b5510",
+        "tool_calls": 1,
+        "tool_response": "tennis court (0.55), buildings (0.04), baseball diamond (0.04)",
+        "confidence": 0.5528786182403564,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "1ea71dd68b719ff402620b400deef951d98780adec23945f9ea06a8a7f8dfd1b",
+        "final_sha": "1ea71dd68b719ff402620b400deef951d98780adec23945f9ea06a8a7f8dfd1b",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "37987e64a09f13e5dcc08f73d7150b5175de6672513783b226dcafcec1c9d1b5",
+        "final_sha": "53cae7ec92fe9869c1333860bc463a75db453fc153e4cd4d3cf3d29ef45b5510",
+        "tool_calls": 1,
+        "tool_response": "tennis court (0.55), buildings (0.04), baseball diamond (0.04)",
+        "confidence": 0.5528786182403564,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "37987e64a09f13e5dcc08f73d7150b5175de6672513783b226dcafcec1c9d1b5",
+        "final_sha": "53cae7ec92fe9869c1333860bc463a75db453fc153e4cd4d3cf3d29ef45b5510",
+        "tool_calls": 1,
+        "tool_response": "tennis court (0.55), buildings (0.04), baseball diamond (0.04)",
+        "confidence": 0.5528786182403564,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "37987e64a09f13e5dcc08f73d7150b5175de6672513783b226dcafcec1c9d1b5",
+        "final_sha": "53cae7ec92fe9869c1333860bc463a75db453fc153e4cd4d3cf3d29ef45b5510",
+        "tool_calls": 1,
+        "tool_response": "tennis court (0.55), buildings (0.04), baseball diamond (0.04)",
+        "confidence": 0.5528786182403564,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "1ea71dd68b719ff402620b400deef951d98780adec23945f9ea06a8a7f8dfd1b",
+        "final_sha": "1ea71dd68b719ff402620b400deef951d98780adec23945f9ea06a8a7f8dfd1b",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "1ea71dd68b719ff402620b400deef951d98780adec23945f9ea06a8a7f8dfd1b",
+        "final_sha": "1ea71dd68b719ff402620b400deef951d98780adec23945f9ea06a8a7f8dfd1b",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 57.9293327331543,
+    "replay_mean_abs_logp_difference": 0.02810222774146496,
+    "replay_max_abs_logp_difference": 0.3241613507270813,
+    "trajectories": [
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151644,
+          198,
+          91587,
+          284,
+          330,
+          28029,
+          101047,
+          102122,
+          102298,
+          87752,
+          101124,
+          104747,
+          52334,
+          28311,
+          16,
+          13,
+          66521,
+          223,
+          18600,
+          108005,
+          320,
+          15,
+          13,
+          21,
+          20,
+          340,
+          17,
+          13,
+          68739,
+          250,
+          104722,
+          320,
+          15,
+          13,
+          17,
+          16,
+          340,
+          18,
+          13,
+          18137,
+          40419,
+          94299,
+          102175,
+          14,
+          105072,
+          102175,
+          320,
+          15,
+          13,
+          15,
+          15,
+          12954,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5830354690551758,
+          -0.0003143055073451251,
+          -0.0008322112844325602,
+          -1.728519782773219e-05,
+          -1.841487169265747,
+          -0.6368604302406311,
+          -2.631131649017334,
+          -2.7670679092407227,
+          -2.1781373023986816,
+          -3.9544849395751953,
+          -2.264732599258423,
+          -0.4576166272163391,
+          -2.8920674324035645,
+          -2.42815899848938,
+          -3.6877083778381348,
+          -4.6816253662109375,
+          -0.13058048486709595,
+          -5.6104583740234375,
+          -0.5281700491905212,
+          -0.10342159122228622,
+          -4.024752616882324,
+          -0.2802031934261322,
+          -0.21055510640144348,
+          -0.046696316450834274,
+          -0.3906487226486206,
+          -0.20150737464427948,
+          -0.0008126770262606442,
+          -1.9981800317764282,
+          -1.2117319107055664,
+          -0.14775557816028595,
+          -0.003145035356283188,
+          -2.884823152271565e-05,
+          -3.65578031539917,
+          -0.025601422414183617,
+          -8.97475814819336,
+          -0.2392919659614563,
+          -0.0009887097403407097,
+          -0.00011848701251437888,
+          -0.8354882597923279,
+          -2.2789108753204346,
+          -0.026776405051350594,
+          -0.0003953390696551651,
+          -6.16293036728166e-05,
+          -1.6844544410705566,
+          -1.113417148590088,
+          -0.14934639632701874,
+          -0.1799011081457138,
+          -4.1826019287109375,
+          -4.169321060180664,
+          -0.42194584012031555,
+          -0.044191136956214905,
+          -0.0014459164813160896,
+          -0.002032240154221654,
+          -0.9026076793670654,
+          -6.102286338806152,
+          -1.4073506593704224,
+          -0.9448039531707764
+        ],
+        "text": "<tool_call>scene_classify\nuParam = \"图中的场景包含以下三个优先级：\n1. 十字路口 (0.65)\n2. 农地面 (0.21)\n3. 高速公路/一级公路 (0.00)\"\n",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5830354690551758,
+          -0.0003143055073451251,
+          -0.0008322112844325602,
+          -1.728519782773219e-05,
+          -0.17482110857963562
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1782732009887695
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5830354690551758,
+          -0.0003143055073451251,
+          -0.0008322112844325602,
+          -1.728519782773219e-05,
+          -0.17482110857963562
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5830354690551758,
+          -0.0003143055073451251,
+          -0.0008322112844325602,
+          -1.728519782773219e-05,
+          -0.17482110857963562
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5830354690551758,
+          -0.0003143055073451251,
+          -0.0008322112844325602,
+          -1.728519782773219e-05,
+          -0.17482110857963562
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1782732009887695
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1782732009887695
+        ],
+        "text": "",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 16,
+    "image": "1454.tif",
+    "row": 1173,
+    "seed": 385015,
+    "proxy_rank": [
+      1382,
+      1408,
+      1382,
+      1382,
+      1382,
+      1408,
+      1382,
+      1382
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0007230657989877079,
+      0.0007097232079489,
+      0.0007230657989877079,
+      0.0007230657989877079,
+      0.0007230657989877079,
+      0.0007097232079489,
+      0.0007230657989877079,
+      0.0007230657989877079
+    ],
+    "total": [
+      0.0007230657989877079,
+      0.0007097232079489,
+      0.0007230657989877079,
+      0.0007230657989877079,
+      0.0007230657989877079,
+      0.0007097232079489,
+      0.0007230657989877079,
+      0.0007230657989877079
+    ],
+    "advantage": [
+      0.5391887453897545,
+      -1.6175662361692282,
+      0.5391887453897545,
+      0.5391887453897545,
+      0.5391887453897545,
+      -1.6175662361692282,
+      0.5391887453897545,
+      0.5391887453897545
+    ],
+    "terminal": [
+      {
+        "first_sha": "0d1f07be67bf805f519793b47a9a1b94bab9a3a3b1b21494ced5586acfec6690",
+        "final_sha": "0d1f07be67bf805f519793b47a9a1b94bab9a3a3b1b21494ced5586acfec6690",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "d48483d8b8c066efd6eff26ad794ee6d84d3d7c6a237cd72a5db4de1787b9c50",
+        "final_sha": "1be4252bd3454d7a79a9f7a25077d38c7349ff2dc7b30f7c5911b0def5a9320c",
+        "tool_calls": 1,
+        "tool_response": "overpass (0.35), freeway (0.19), intersection (0.13)",
+        "confidence": 0.35370954871177673,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "0d1f07be67bf805f519793b47a9a1b94bab9a3a3b1b21494ced5586acfec6690",
+        "final_sha": "0d1f07be67bf805f519793b47a9a1b94bab9a3a3b1b21494ced5586acfec6690",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "0d1f07be67bf805f519793b47a9a1b94bab9a3a3b1b21494ced5586acfec6690",
+        "final_sha": "0d1f07be67bf805f519793b47a9a1b94bab9a3a3b1b21494ced5586acfec6690",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "0d1f07be67bf805f519793b47a9a1b94bab9a3a3b1b21494ced5586acfec6690",
+        "final_sha": "0d1f07be67bf805f519793b47a9a1b94bab9a3a3b1b21494ced5586acfec6690",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "c04cd71854f79816772ce0455f522629a7f983e910e16616778ed81ea6aee545",
+        "final_sha": "1be4252bd3454d7a79a9f7a25077d38c7349ff2dc7b30f7c5911b0def5a9320c",
+        "tool_calls": 1,
+        "tool_response": "overpass (0.35), freeway (0.19), intersection (0.13)",
+        "confidence": 0.35370954871177673,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "0d1f07be67bf805f519793b47a9a1b94bab9a3a3b1b21494ced5586acfec6690",
+        "final_sha": "0d1f07be67bf805f519793b47a9a1b94bab9a3a3b1b21494ced5586acfec6690",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "0d1f07be67bf805f519793b47a9a1b94bab9a3a3b1b21494ced5586acfec6690",
+        "final_sha": "0d1f07be67bf805f519793b47a9a1b94bab9a3a3b1b21494ced5586acfec6690",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 55.29667282104492,
+    "replay_mean_abs_logp_difference": 0.07303378546673818,
+    "replay_max_abs_logp_difference": 0.5604755878448486,
+    "trajectories": [
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1782889366149902
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5830512046813965,
+          -0.00028689560713246465,
+          -0.0009433348895981908,
+          -9.536697689327411e-06,
+          -0.19503487646579742
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1782889366149902
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1782889366149902
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1782889366149902
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151644,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5830512046813965,
+          -0.00028689560713246465,
+          -0.0009433348895981908,
+          -9.536697689327411e-06,
+          -1.742653727531433,
+          -1.2799432277679443
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1782889366149902
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1782889366149902
+        ],
+        "text": "",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 17,
+    "image": "1442.tif",
+    "row": 1161,
+    "seed": 385016,
+    "proxy_rank": [
+      1126,
+      1075,
+      1075,
+      956,
+      1126,
+      1075,
+      1075,
+      956
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0008873114463176575,
+      0.0009293680297397769,
+      0.0009293680297397769,
+      0.0010449320794148381,
+      0.0008873114463176575,
+      0.0009293680297397769,
+      0.0009293680297397769,
+      0.0010449320794148381
+    ],
+    "total": [
+      0.0008873114463176575,
+      0.0009293680297397769,
+      0.0009293680297397769,
+      0.0010449320794148381,
+      0.0008873114463176575,
+      0.0009293680297397769,
+      0.0009293680297397769,
+      0.0010449320794148381
+    ],
+    "advantage": [
+      -0.9632264517836908,
+      -0.29290209277969864,
+      -0.29290209277969864,
+      1.5490306373430847,
+      -0.9632264517836908,
+      -0.29290209277969864,
+      -0.29290209277969864,
+      1.5490306373430847
+    ],
+    "terminal": [
+      {
+        "first_sha": "df3cfbd171a0986ea891cf765d6b0e1def75c45a84ae7dad9f0c96adf7a4acb1",
+        "final_sha": "df3cfbd171a0986ea891cf765d6b0e1def75c45a84ae7dad9f0c96adf7a4acb1",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "9789cbc466d5ca3115d619b48c06d63271d4b765ad08f4d29ff55fa6d58f8ca8",
+        "final_sha": "e97837f80a7c1c748599db988a385f01804c6a2857071a1dd4fa3e5f9d7c8817",
+        "tool_calls": 1,
+        "tool_response": "overpass (0.32), freeway (0.13), intersection (0.09)",
+        "confidence": 0.32035306096076965,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "9789cbc466d5ca3115d619b48c06d63271d4b765ad08f4d29ff55fa6d58f8ca8",
+        "final_sha": "e97837f80a7c1c748599db988a385f01804c6a2857071a1dd4fa3e5f9d7c8817",
+        "tool_calls": 1,
+        "tool_response": "overpass (0.32), freeway (0.13), intersection (0.09)",
+        "confidence": 0.32035306096076965,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "a3cdc693e6b5a9d5bc34755c6d3dbebf36a0cac12a5d5e557ddfa3d7f04be3de",
+        "final_sha": "a3cdc693e6b5a9d5bc34755c6d3dbebf36a0cac12a5d5e557ddfa3d7f04be3de",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "df3cfbd171a0986ea891cf765d6b0e1def75c45a84ae7dad9f0c96adf7a4acb1",
+        "final_sha": "df3cfbd171a0986ea891cf765d6b0e1def75c45a84ae7dad9f0c96adf7a4acb1",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "9789cbc466d5ca3115d619b48c06d63271d4b765ad08f4d29ff55fa6d58f8ca8",
+        "final_sha": "e97837f80a7c1c748599db988a385f01804c6a2857071a1dd4fa3e5f9d7c8817",
+        "tool_calls": 1,
+        "tool_response": "overpass (0.32), freeway (0.13), intersection (0.09)",
+        "confidence": 0.32035306096076965,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "9789cbc466d5ca3115d619b48c06d63271d4b765ad08f4d29ff55fa6d58f8ca8",
+        "final_sha": "e97837f80a7c1c748599db988a385f01804c6a2857071a1dd4fa3e5f9d7c8817",
+        "tool_calls": 1,
+        "tool_response": "overpass (0.32), freeway (0.13), intersection (0.09)",
+        "confidence": 0.32035306096076965,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "a3cdc693e6b5a9d5bc34755c6d3dbebf36a0cac12a5d5e557ddfa3d7f04be3de",
+        "final_sha": "a3cdc693e6b5a9d5bc34755c6d3dbebf36a0cac12a5d5e557ddfa3d7f04be3de",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 24.231548309326172,
+    "replay_mean_abs_logp_difference": 0.012175936881021698,
+    "replay_max_abs_logp_difference": 0.08581888675689697,
+    "trajectories": [
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.319850206375122
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6055653691291809,
+          -0.0002791491860989481,
+          -0.0007853999268263578,
+          -9.179073458653875e-06,
+          -0.14024610817432404
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6055653691291809,
+          -0.0002791491860989481,
+          -0.0007853999268263578,
+          -9.179073458653875e-06,
+          -0.14024610817432404
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -1.6769936084747314,
+          -0.002266816096380353,
+          -0.0014477020595222712,
+          -6.794906312279636e-06,
+          -0.071072056889534
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.319850206375122
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6055653691291809,
+          -0.0002791491860989481,
+          -0.0007853999268263578,
+          -9.179073458653875e-06,
+          -0.14024610817432404
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6055653691291809,
+          -0.0002791491860989481,
+          -0.0007853999268263578,
+          -9.179073458653875e-06,
+          -0.14024610817432404
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -1.6769936084747314,
+          -0.002266816096380353,
+          -0.0014477020595222712,
+          -6.794906312279636e-06,
+          -0.071072056889534
+        ],
+        "text": "scene_classify",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 18,
+    "image": "1429.tif",
+    "row": 1148,
+    "seed": 385017,
+    "proxy_rank": [
+      1151,
+      1151,
+      1151,
+      1151,
+      1383,
+      1151,
+      1383,
+      1383
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0008680555555555555,
+      0.0008680555555555555,
+      0.0008680555555555555,
+      0.0008680555555555555,
+      0.000722543352601156,
+      0.0008680555555555555,
+      0.000722543352601156,
+      0.000722543352601156
+    ],
+    "total": [
+      0.0008680555555555555,
+      0.0008680555555555555,
+      0.0008680555555555555,
+      0.0008680555555555555,
+      0.000722543352601156,
+      0.0008680555555555555,
+      0.000722543352601156,
+      0.000722543352601156
+    ],
+    "advantage": [
+      0.724472638221197,
+      0.724472638221197,
+      0.724472638221197,
+      0.724472638221197,
+      -1.2074543970353298,
+      0.724472638221197,
+      -1.2074543970353298,
+      -1.2074543970353298
+    ],
+    "terminal": [
+      {
+        "first_sha": "97d8bf40c7720eb540ac176c6d79491bcdb688a803977942a5348712607ce507",
+        "final_sha": "d37bb68467d1cc56ab1f471fba92f97d94840abe6010e0dbf7850053099bcaf1",
+        "tool_calls": 1,
+        "tool_response": "overpass (0.33), freeway (0.16), intersection (0.09)",
+        "confidence": 0.3347081243991852,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "97d8bf40c7720eb540ac176c6d79491bcdb688a803977942a5348712607ce507",
+        "final_sha": "d37bb68467d1cc56ab1f471fba92f97d94840abe6010e0dbf7850053099bcaf1",
+        "tool_calls": 1,
+        "tool_response": "overpass (0.33), freeway (0.16), intersection (0.09)",
+        "confidence": 0.3347081243991852,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "97d8bf40c7720eb540ac176c6d79491bcdb688a803977942a5348712607ce507",
+        "final_sha": "d37bb68467d1cc56ab1f471fba92f97d94840abe6010e0dbf7850053099bcaf1",
+        "tool_calls": 1,
+        "tool_response": "overpass (0.33), freeway (0.16), intersection (0.09)",
+        "confidence": 0.3347081243991852,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "97d8bf40c7720eb540ac176c6d79491bcdb688a803977942a5348712607ce507",
+        "final_sha": "d37bb68467d1cc56ab1f471fba92f97d94840abe6010e0dbf7850053099bcaf1",
+        "tool_calls": 1,
+        "tool_response": "overpass (0.33), freeway (0.16), intersection (0.09)",
+        "confidence": 0.3347081243991852,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "21636b0babf3f72cb8f034588dd652e2fa7f339d369e819528915d81b7a29063",
+        "final_sha": "21636b0babf3f72cb8f034588dd652e2fa7f339d369e819528915d81b7a29063",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "97d8bf40c7720eb540ac176c6d79491bcdb688a803977942a5348712607ce507",
+        "final_sha": "d37bb68467d1cc56ab1f471fba92f97d94840abe6010e0dbf7850053099bcaf1",
+        "tool_calls": 1,
+        "tool_response": "overpass (0.33), freeway (0.16), intersection (0.09)",
+        "confidence": 0.3347081243991852,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "21636b0babf3f72cb8f034588dd652e2fa7f339d369e819528915d81b7a29063",
+        "final_sha": "21636b0babf3f72cb8f034588dd652e2fa7f339d369e819528915d81b7a29063",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "21636b0babf3f72cb8f034588dd652e2fa7f339d369e819528915d81b7a29063",
+        "final_sha": "21636b0babf3f72cb8f034588dd652e2fa7f339d369e819528915d81b7a29063",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 24.16729736328125,
+    "replay_mean_abs_logp_difference": 0.016531926255863385,
+    "replay_max_abs_logp_difference": 0.06671667098999023,
+    "trajectories": [
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6055912375450134,
+          -0.00021050144277978688,
+          -0.0006467396160587668,
+          -6.6756979322235566e-06,
+          -0.12553100287914276
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6055912375450134,
+          -0.00021050144277978688,
+          -0.0006467396160587668,
+          -6.6756979322235566e-06,
+          -0.12553100287914276
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6055912375450134,
+          -0.00021050144277978688,
+          -0.0006467396160587668,
+          -6.6756979322235566e-06,
+          -0.12553100287914276
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6055912375450134,
+          -0.00021050144277978688,
+          -0.0006467396160587668,
+          -6.6756979322235566e-06,
+          -0.12553100287914276
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.319878101348877
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6055912375450134,
+          -0.00021050144277978688,
+          -0.0006467396160587668,
+          -6.6756979322235566e-06,
+          -0.12553100287914276
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.319878101348877
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.319878101348877
+        ],
+        "text": "",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 19,
+    "image": "1854.tif",
+    "row": 1493,
+    "seed": 385018,
+    "proxy_rank": [
+      1101,
+      765,
+      1101,
+      1101,
+      1101,
+      1101,
+      815,
+      1101
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0009074410163339383,
+      0.0013054830287206266,
+      0.0009074410163339383,
+      0.0009074410163339383,
+      0.0009074410163339383,
+      0.0009074410163339383,
+      0.0012254901960784314,
+      0.0009074410163339383
+    ],
+    "total": [
+      0.0009074410163339383,
+      0.0013054830287206266,
+      0.0009074410163339383,
+      0.0009074410163339383,
+      0.0009074410163339383,
+      0.0009074410163339383,
+      0.0012254901960784314,
+      0.0009074410163339383
+    ],
+    "advantage": [
+      -0.535592167837371,
+      1.8460953786334653,
+      -0.535592167837371,
+      -0.535592167837371,
+      -0.535592167837371,
+      -0.535592167837371,
+      1.3674576283907631,
+      -0.535592167837371
+    ],
+    "terminal": [
+      {
+        "first_sha": "ba259a15da0496c095aad2dc258e8f80fe561bc97c28b91fc4b337f7037f35c3",
+        "final_sha": "fb512dbc73a3c7696ec3c61be9aee8b7cb28812ea3e628042648a8d26c845744",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.42), medium residential (0.10), dense residential (0.06)",
+        "confidence": 0.4228401780128479,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "19a196851bd03b9582e53cfbebe18175c0ca7c93896afdb36590d3a7d3a34c0b",
+        "final_sha": "19a196851bd03b9582e53cfbebe18175c0ca7c93896afdb36590d3a7d3a34c0b",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "ba259a15da0496c095aad2dc258e8f80fe561bc97c28b91fc4b337f7037f35c3",
+        "final_sha": "fb512dbc73a3c7696ec3c61be9aee8b7cb28812ea3e628042648a8d26c845744",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.42), medium residential (0.10), dense residential (0.06)",
+        "confidence": 0.4228401780128479,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "ab7ec6ebe8ad3786c7e46775cb53a04d1369d47469a7b602630738dc6ede5850",
+        "final_sha": "fb512dbc73a3c7696ec3c61be9aee8b7cb28812ea3e628042648a8d26c845744",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.42), medium residential (0.10), dense residential (0.06)",
+        "confidence": 0.4228401780128479,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "ba259a15da0496c095aad2dc258e8f80fe561bc97c28b91fc4b337f7037f35c3",
+        "final_sha": "fb512dbc73a3c7696ec3c61be9aee8b7cb28812ea3e628042648a8d26c845744",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.42), medium residential (0.10), dense residential (0.06)",
+        "confidence": 0.4228401780128479,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "ba259a15da0496c095aad2dc258e8f80fe561bc97c28b91fc4b337f7037f35c3",
+        "final_sha": "fb512dbc73a3c7696ec3c61be9aee8b7cb28812ea3e628042648a8d26c845744",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.42), medium residential (0.10), dense residential (0.06)",
+        "confidence": 0.4228401780128479,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "76853d94d87a7031e9d17fc98fcbad1598f85cc2681e25dbd31874325fe37cef",
+        "final_sha": "76853d94d87a7031e9d17fc98fcbad1598f85cc2681e25dbd31874325fe37cef",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "ba259a15da0496c095aad2dc258e8f80fe561bc97c28b91fc4b337f7037f35c3",
+        "final_sha": "fb512dbc73a3c7696ec3c61be9aee8b7cb28812ea3e628042648a8d26c845744",
+        "tool_calls": 1,
+        "tool_response": "sparse residential (0.42), medium residential (0.10), dense residential (0.06)",
+        "confidence": 0.4228401780128479,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      }
+    ],
+    "norm": 21.864578247070312,
+    "replay_mean_abs_logp_difference": 0.008417560894608992,
+    "replay_max_abs_logp_difference": 0.08729636669158936,
+    "trajectories": [
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5651897192001343,
+          -0.0001867835089797154,
+          -0.0007697956170886755,
+          -1.2874520507466514e-05,
+          -0.1568589210510254
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -1.874712347984314,
+          -0.0019363479223102331,
+          -0.0011950739426538348,
+          -1.0490362910786644e-05,
+          -0.10009614378213882
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5651897192001343,
+          -0.0001867835089797154,
+          -0.0007697956170886755,
+          -1.2874520507466514e-05,
+          -0.1568589210510254
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151644,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5651897192001343,
+          -0.0001867835089797154,
+          -0.0007697956170886755,
+          -1.2874520507466514e-05,
+          -1.9425740242004395,
+          -0.694542407989502
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5651897192001343,
+          -0.0001867835089797154,
+          -0.0007697956170886755,
+          -1.2874520507466514e-05,
+          -0.1568589210510254
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5651897192001343,
+          -0.0001867835089797154,
+          -0.0007697956170886755,
+          -1.2874520507466514e-05,
+          -0.1568589210510254
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.2794746160507202
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5651897192001343,
+          -0.0001867835089797154,
+          -0.0007697956170886755,
+          -1.2874520507466514e-05,
+          -0.1568589210510254
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 20,
+    "image": "1417.tif",
+    "row": 1136,
+    "seed": 385019,
+    "proxy_rank": [
+      1089,
+      707,
+      1089,
+      1089,
+      707,
+      759,
+      707,
+      707
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0009174311926605505,
+      0.0014124293785310734,
+      0.0009174311926605505,
+      0.0009174311926605505,
+      0.0014124293785310734,
+      0.0013157894736842105,
+      0.0014124293785310734,
+      0.0014124293785310734
+    ],
+    "total": [
+      0.0009174311926605505,
+      0.0014124293785310734,
+      0.0009174311926605505,
+      0.0009174311926605505,
+      0.0014124293785310734,
+      0.0013157894736842105,
+      0.0014124293785310734,
+      0.0014124293785310734
+    ],
+    "advantage": [
+      -1.1970711585470686,
+      0.7960679390320605,
+      -1.1970711585470686,
+      -1.1970711585470686,
+      0.7960679390320605,
+      0.40694171951296065,
+      0.7960679390320605,
+      0.7960679390320605
+    ],
+    "terminal": [
+      {
+        "first_sha": "01c06715d70c257402f9437481bc7b581e8aab287d81e23ecde166d42e2f3f9a",
+        "final_sha": "01c06715d70c257402f9437481bc7b581e8aab287d81e23ecde166d42e2f3f9a",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "983522f816687f580168a49f237cd922dce8f5c823442599bb9fffbd0c473e3b",
+        "final_sha": "236a3e489ec0b85f256fbf0ab7f39c44399ceb1347cb9e84dd3f48c519a69be9",
+        "tool_calls": 1,
+        "tool_response": "freeway (0.28), overpass (0.27), intersection (0.08)",
+        "confidence": 0.27536994218826294,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "01c06715d70c257402f9437481bc7b581e8aab287d81e23ecde166d42e2f3f9a",
+        "final_sha": "01c06715d70c257402f9437481bc7b581e8aab287d81e23ecde166d42e2f3f9a",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "01c06715d70c257402f9437481bc7b581e8aab287d81e23ecde166d42e2f3f9a",
+        "final_sha": "01c06715d70c257402f9437481bc7b581e8aab287d81e23ecde166d42e2f3f9a",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "983522f816687f580168a49f237cd922dce8f5c823442599bb9fffbd0c473e3b",
+        "final_sha": "236a3e489ec0b85f256fbf0ab7f39c44399ceb1347cb9e84dd3f48c519a69be9",
+        "tool_calls": 1,
+        "tool_response": "freeway (0.28), overpass (0.27), intersection (0.08)",
+        "confidence": 0.27536994218826294,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "453bacf179a08f7099ca890ae2d3dcd17ad84255d025075bbcfd6ae5d145acae",
+        "final_sha": "453bacf179a08f7099ca890ae2d3dcd17ad84255d025075bbcfd6ae5d145acae",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "983522f816687f580168a49f237cd922dce8f5c823442599bb9fffbd0c473e3b",
+        "final_sha": "236a3e489ec0b85f256fbf0ab7f39c44399ceb1347cb9e84dd3f48c519a69be9",
+        "tool_calls": 1,
+        "tool_response": "freeway (0.28), overpass (0.27), intersection (0.08)",
+        "confidence": 0.27536994218826294,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "983522f816687f580168a49f237cd922dce8f5c823442599bb9fffbd0c473e3b",
+        "final_sha": "236a3e489ec0b85f256fbf0ab7f39c44399ceb1347cb9e84dd3f48c519a69be9",
+        "tool_calls": 1,
+        "tool_response": "freeway (0.28), overpass (0.27), intersection (0.08)",
+        "confidence": 0.27536994218826294,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      }
+    ],
+    "norm": 25.524324417114258,
+    "replay_mean_abs_logp_difference": 0.020241814070524406,
+    "replay_max_abs_logp_difference": 0.06574976444244385,
+    "trajectories": [
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.0973542928695679
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6211637258529663,
+          -0.000393432448618114,
+          -0.0008743754005990922,
+          -1.0371154530730564e-05,
+          -0.11236241459846497
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.0973542928695679
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.0973542928695679
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6211637258529663,
+          -0.000393432448618114,
+          -0.0008743754005990922,
+          -1.0371154530730564e-05,
+          -0.11236241459846497
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -2.0497355461120605,
+          -0.001529715140350163,
+          -0.0019339682767167687,
+          -9.775113539944869e-06,
+          -0.1119975596666336
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6211637258529663,
+          -0.000393432448618114,
+          -0.0008743754005990922,
+          -1.0371154530730564e-05,
+          -0.11236241459846497
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6211637258529663,
+          -0.000393432448618114,
+          -0.0008743754005990922,
+          -1.0371154530730564e-05,
+          -0.11236241459846497
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 21,
+    "image": "1933.tif",
+    "row": 1552,
+    "seed": 385020,
+    "proxy_rank": [
+      1617,
+      1617,
+      1617,
+      1617,
+      1617,
+      1617,
+      1529,
+      1617
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0006180469715698393,
+      0.0006180469715698393,
+      0.0006180469715698393,
+      0.0006180469715698393,
+      0.0006180469715698393,
+      0.0006180469715698393,
+      0.00065359477124183,
+      0.0006180469715698393
+    ],
+    "total": [
+      0.0006180469715698393,
+      0.0006180469715698393,
+      0.0006180469715698393,
+      0.0006180469715698393,
+      0.0006180469715698393,
+      0.0006180469715698393,
+      0.00065359477124183,
+      0.0006180469715698393
+    ],
+    "advantage": [
+      -0.3532723028823253,
+      -0.3532723028823253,
+      -0.3532723028823253,
+      -0.3532723028823253,
+      -0.3532723028823253,
+      -0.3532723028823253,
+      2.4729061201763027,
+      -0.3532723028823253
+    ],
+    "terminal": [
+      {
+        "first_sha": "c8aca16a943066286d7def6ae433e133f5f88f731d71d35c1df52ebe35393919",
+        "final_sha": "4f8d662bb916de81da9d240cf138e94a66dd0c3718734296ef3e6a90d54712f4",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.62), parking lot (0.04), airplane (0.03)",
+        "confidence": 0.6205237507820129,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "9aa7771105ad5b2b6261a58ad2cb57add1fde695da71d019e705dbe5da2f5218",
+        "final_sha": "4f8d662bb916de81da9d240cf138e94a66dd0c3718734296ef3e6a90d54712f4",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.62), parking lot (0.04), airplane (0.03)",
+        "confidence": 0.6205237507820129,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "c8aca16a943066286d7def6ae433e133f5f88f731d71d35c1df52ebe35393919",
+        "final_sha": "4f8d662bb916de81da9d240cf138e94a66dd0c3718734296ef3e6a90d54712f4",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.62), parking lot (0.04), airplane (0.03)",
+        "confidence": 0.6205237507820129,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "c8aca16a943066286d7def6ae433e133f5f88f731d71d35c1df52ebe35393919",
+        "final_sha": "4f8d662bb916de81da9d240cf138e94a66dd0c3718734296ef3e6a90d54712f4",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.62), parking lot (0.04), airplane (0.03)",
+        "confidence": 0.6205237507820129,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "c8aca16a943066286d7def6ae433e133f5f88f731d71d35c1df52ebe35393919",
+        "final_sha": "4f8d662bb916de81da9d240cf138e94a66dd0c3718734296ef3e6a90d54712f4",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.62), parking lot (0.04), airplane (0.03)",
+        "confidence": 0.6205237507820129,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "c8aca16a943066286d7def6ae433e133f5f88f731d71d35c1df52ebe35393919",
+        "final_sha": "4f8d662bb916de81da9d240cf138e94a66dd0c3718734296ef3e6a90d54712f4",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.62), parking lot (0.04), airplane (0.03)",
+        "confidence": 0.6205237507820129,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "e8cb6377a2af1a765058b6e26824913dfe2fe37c11b81bc9c01c589af6e149c6",
+        "final_sha": "e8cb6377a2af1a765058b6e26824913dfe2fe37c11b81bc9c01c589af6e149c6",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "c8aca16a943066286d7def6ae433e133f5f88f731d71d35c1df52ebe35393919",
+        "final_sha": "4f8d662bb916de81da9d240cf138e94a66dd0c3718734296ef3e6a90d54712f4",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.62), parking lot (0.04), airplane (0.03)",
+        "confidence": 0.6205237507820129,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      }
+    ],
+    "norm": 17.697912216186523,
+    "replay_mean_abs_logp_difference": 0.01842354462388431,
+    "replay_max_abs_logp_difference": 0.13985997438430786,
+    "trajectories": [
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6551859974861145,
+          -0.0002416080387774855,
+          -0.0007686044555157423,
+          -3.7431014789035544e-05,
+          -0.1400109827518463
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151644,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6551859974861145,
+          -0.0002416080387774855,
+          -0.0007686044555157423,
+          -3.7431014789035544e-05,
+          -2.0447733402252197,
+          -0.9606848955154419
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6551859974861145,
+          -0.0002416080387774855,
+          -0.0007686044555157423,
+          -3.7431014789035544e-05,
+          -0.1400109827518463
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6551859974861145,
+          -0.0002416080387774855,
+          -0.0007686044555157423,
+          -3.7431014789035544e-05,
+          -0.1400109827518463
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6551859974861145,
+          -0.0002416080387774855,
+          -0.0007686044555157423,
+          -3.7431014789035544e-05,
+          -0.1400109827518463
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6551859974861145,
+          -0.0002416080387774855,
+          -0.0007686044555157423,
+          -3.7431014789035544e-05,
+          -0.1400109827518463
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1313765048980713
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6551859974861145,
+          -0.0002416080387774855,
+          -0.0007686044555157423,
+          -3.7431014789035544e-05,
+          -0.1400109827518463
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 22,
+    "image": "2007.tif",
+    "row": 1606,
+    "seed": 385021,
+    "proxy_rank": [
+      1606,
+      1636,
+      1606,
+      1562,
+      1606,
+      1606,
+      1626,
+      1626
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0006222775357809583,
+      0.0006108735491753207,
+      0.0006222775357809583,
+      0.0006397952655150352,
+      0.0006222775357809583,
+      0.0006222775357809583,
+      0.0006146281499692685,
+      0.0006146281499692685
+    ],
+    "total": [
+      0.0006222775357809583,
+      0.0006108735491753207,
+      0.0006222775357809583,
+      0.0006397952655150352,
+      0.0006222775357809583,
+      0.0006222775357809583,
+      0.0006146281499692685,
+      0.0006146281499692685
+    ],
+    "advantage": [
+      0.13016257671326362,
+      -1.1626998523677698,
+      0.13016257671326362,
+      2.1161360261022337,
+      0.13016257671326362,
+      0.13016257671326362,
+      -0.7370432402937714,
+      -0.7370432402937714
+    ],
+    "terminal": [
+      {
+        "first_sha": "77eb24baa071aa3df4e19b4f21caf0aa12a97fdef609342ef8ba1c562ef0f603",
+        "final_sha": "77eb24baa071aa3df4e19b4f21caf0aa12a97fdef609342ef8ba1c562ef0f603",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "33929aec1a7a0ce8bf074e41df458580796108fc9fc6d5265dd5b8f98b9d1b06",
+        "final_sha": "8897faf970897cb9fdb1f18d56334f5b92e4ad42a165dd330b3f006182728643",
+        "tool_calls": 1,
+        "tool_response": "tennis court (0.59), baseball diamond (0.05), golf course (0.04)",
+        "confidence": 0.5928758978843689,
+        "continuation_ids": [
+          [
+            83134,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "77eb24baa071aa3df4e19b4f21caf0aa12a97fdef609342ef8ba1c562ef0f603",
+        "final_sha": "77eb24baa071aa3df4e19b4f21caf0aa12a97fdef609342ef8ba1c562ef0f603",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "5d36e33fb8c87f9d73f453e0efdc666d29e4958b4a31635a831baacc0584be10",
+        "final_sha": "5d36e33fb8c87f9d73f453e0efdc666d29e4958b4a31635a831baacc0584be10",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "77eb24baa071aa3df4e19b4f21caf0aa12a97fdef609342ef8ba1c562ef0f603",
+        "final_sha": "77eb24baa071aa3df4e19b4f21caf0aa12a97fdef609342ef8ba1c562ef0f603",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "77eb24baa071aa3df4e19b4f21caf0aa12a97fdef609342ef8ba1c562ef0f603",
+        "final_sha": "77eb24baa071aa3df4e19b4f21caf0aa12a97fdef609342ef8ba1c562ef0f603",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "d6419773b69db585def406275fe21241dc362c39d22d0c4fe9d1ccd3e6a1f3c3",
+        "final_sha": "54b2b00d7065210e7cf3747111de7f6ec77227936cb758db72fd5b1be7bea62b",
+        "tool_calls": 1,
+        "tool_response": "tennis court (0.59), baseball diamond (0.05), golf course (0.04)",
+        "confidence": 0.5928758978843689,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "d6419773b69db585def406275fe21241dc362c39d22d0c4fe9d1ccd3e6a1f3c3",
+        "final_sha": "54b2b00d7065210e7cf3747111de7f6ec77227936cb758db72fd5b1be7bea62b",
+        "tool_calls": 1,
+        "tool_response": "tennis court (0.59), baseball diamond (0.05), golf course (0.04)",
+        "confidence": 0.5928758978843689,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      }
+    ],
+    "norm": 26.224563598632812,
+    "replay_mean_abs_logp_difference": 0.025686486052210158,
+    "replay_max_abs_logp_difference": 0.1881548911333084,
+    "trajectories": [
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1631876230239868
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151644,
+          198,
+          83134,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5679498910903931,
+          -0.0002857038634829223,
+          -0.0008095800876617432,
+          -7.92710343375802e-05,
+          -1.841278314590454,
+          -0.17359276115894318,
+          -1.9833545684814453,
+          -0.7772592306137085
+        ],
+        "text": "<tool_call>scene_classify\n !***",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1631876230239868
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -2.1155686378479004,
+          -0.07149554789066315,
+          -0.001369253732264042,
+          -2.074220174108632e-05,
+          -0.06353447586297989
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1631876230239868
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1631876230239868
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5679498910903931,
+          -0.0002857038634829223,
+          -0.0008095800876617432,
+          -7.92710343375802e-05,
+          -0.17461229860782623
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5679498910903931,
+          -0.0002857038634829223,
+          -0.0008095800876617432,
+          -7.92710343375802e-05,
+          -0.17461229860782623
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 23,
+    "image": "304.tif",
+    "row": 244,
+    "seed": 385022,
+    "proxy_rank": [
+      101,
+      92,
+      111,
+      101,
+      101,
+      92,
+      131,
+      101
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.00980392156862745,
+      0.010752688172043012,
+      0.008928571428571428,
+      0.00980392156862745,
+      0.00980392156862745,
+      0.010752688172043012,
+      0.007575757575757576,
+      0.00980392156862745
+    ],
+    "total": [
+      0.00980392156862745,
+      0.010752688172043012,
+      0.008928571428571428,
+      0.00980392156862745,
+      0.00980392156862745,
+      0.010752688172043012,
+      0.007575757575757576,
+      0.00980392156862745
+    ],
+    "advantage": [
+      0.14711847752577706,
+      1.073044221136287,
+      -0.7071582502101095,
+      0.14711847752577706,
+      0.14711847752577706,
+      1.073044221136287,
+      -2.0274041021655695,
+      0.14711847752577706
+    ],
+    "terminal": [
+      {
+        "first_sha": "aca85895665718f48db5d5c2b33e52166fd6694856da02a9743aeadd4aa9ef65",
+        "final_sha": "aca85895665718f48db5d5c2b33e52166fd6694856da02a9743aeadd4aa9ef65",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "cdb8b93e669737819681257ac4e08a130da1c1ef00eedd74a97ace2f940deac5",
+        "final_sha": "eb8f5bd5b397ced502ebdeed0128e16274c66246b8f1a574d2fe8435483a2ffd",
+        "tool_calls": 1,
+        "tool_response": "beach (0.50), agricultural (0.05), chaparral (0.05)",
+        "confidence": 0.4956185817718506,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "aa3a6bbd56ade79f060a06aae12307093d50f0227be74583fb3c7d5446d4c221",
+        "final_sha": "ebb60829451dd5a85750059c077d449da2f761eaf02a1df88627088a003a8d53",
+        "tool_calls": 1,
+        "tool_response": "beach (0.50), agricultural (0.05), chaparral (0.05)",
+        "confidence": 0.4956185817718506,
+        "continuation_ids": [
+          [
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "aca85895665718f48db5d5c2b33e52166fd6694856da02a9743aeadd4aa9ef65",
+        "final_sha": "aca85895665718f48db5d5c2b33e52166fd6694856da02a9743aeadd4aa9ef65",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "aca85895665718f48db5d5c2b33e52166fd6694856da02a9743aeadd4aa9ef65",
+        "final_sha": "aca85895665718f48db5d5c2b33e52166fd6694856da02a9743aeadd4aa9ef65",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "cdb8b93e669737819681257ac4e08a130da1c1ef00eedd74a97ace2f940deac5",
+        "final_sha": "eb8f5bd5b397ced502ebdeed0128e16274c66246b8f1a574d2fe8435483a2ffd",
+        "tool_calls": 1,
+        "tool_response": "beach (0.50), agricultural (0.05), chaparral (0.05)",
+        "confidence": 0.4956185817718506,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "b3b56019f75f48a6aef485b6f86fbde9d798e68d7a82ab78dd4ce06d351fe8f4",
+        "final_sha": "fde45c2fcdc9118b89f93fa1803c28c0597bc61ced67e418dfa7a77f1852376f",
+        "tool_calls": 1,
+        "tool_response": "beach (0.50), agricultural (0.05), chaparral (0.05)",
+        "confidence": 0.4956185817718506,
+        "continuation_ids": [
+          [
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "aca85895665718f48db5d5c2b33e52166fd6694856da02a9743aeadd4aa9ef65",
+        "final_sha": "aca85895665718f48db5d5c2b33e52166fd6694856da02a9743aeadd4aa9ef65",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 78.85089874267578,
+    "replay_mean_abs_logp_difference": 0.03616169014213873,
+    "replay_max_abs_logp_difference": 0.26708292961120605,
+    "trajectories": [
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1375185251235962
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5422807931900024,
+          -0.00042798896902240813,
+          -0.0007526425761170685,
+          -3.957670196541585e-05,
+          -0.12553595006465912
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151644,
+          198,
+          18724,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5422807931900024,
+          -0.00042798896902240813,
+          -0.0007526425761170685,
+          -3.957670196541585e-05,
+          -2.1493453979492188,
+          -0.08888393640518188,
+          -0.9375171661376953,
+          -0.30569320917129517
+        ],
+        "text": "<tool_call>scene_classify\n addCriterion",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1375185251235962
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1375185251235962
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5422807931900024,
+          -0.00042798896902240813,
+          -0.0007526425761170685,
+          -3.957670196541585e-05,
+          -0.12553595006465912
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151644,
+          198,
+          151644,
+          96808,
+          32376,
+          106525,
+          67949,
+          102122,
+          151645
+        ],
+        "sampled_logp": [
+          -0.5422807931900024,
+          -0.00042798896902240813,
+          -0.0007526425761170685,
+          -3.957670196541585e-05,
+          -2.1493453979492188,
+          -0.08888393640518188,
+          -2.5327510833740234,
+          -1.3549737930297852,
+          -1.7840254306793213,
+          -2.81256103515625,
+          -2.9544472694396973,
+          -3.450169086456299,
+          -4.403722763061523
+        ],
+        "text": "<tool_call>scene_classify\n�能否告诉我当前场景",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.1375185251235962
+        ],
+        "text": "",
+        "ended": true
+      }
+    ]
+  },
+  {
+    "step": 24,
+    "image": "1969.tif",
+    "row": 1588,
+    "seed": 385023,
+    "proxy_rank": [
+      1465,
+      1465,
+      1553,
+      1465,
+      1553,
+      1557,
+      1465,
+      1557
+    ],
+    "native_margin": [],
+    "format": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "retrieval": [
+      0.0006821282401091405,
+      0.0006821282401091405,
+      0.0006435006435006435,
+      0.0006821282401091405,
+      0.0006435006435006435,
+      0.0006418485237483953,
+      0.0006821282401091405,
+      0.0006418485237483953
+    ],
+    "total": [
+      0.0006821282401091405,
+      0.0006821282401091405,
+      0.0006435006435006435,
+      0.0006821282401091405,
+      0.0006435006435006435,
+      0.0006418485237483953,
+      0.0006821282401091405,
+      0.0006418485237483953
+    ],
+    "advantage": [
+      0.9345615913952525,
+      0.9345615913952525,
+      -0.895426874808507,
+      0.9345615913952525,
+      -0.895426874808507,
+      -0.973696307982003,
+      0.9345615913952525,
+      -0.973696307982003
+    ],
+    "terminal": [
+      {
+        "first_sha": "963240e213fb175d950bffc8df172a91119ace17cdb0694835b949720ab3eef5",
+        "final_sha": "18a064d77437b76e527dac33fe7425ee1810c82badba347acd5547b814d0f636",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.34), buildings (0.09), river (0.05)",
+        "confidence": 0.33711889386177063,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "963240e213fb175d950bffc8df172a91119ace17cdb0694835b949720ab3eef5",
+        "final_sha": "18a064d77437b76e527dac33fe7425ee1810c82badba347acd5547b814d0f636",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.34), buildings (0.09), river (0.05)",
+        "confidence": 0.33711889386177063,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "bc5f58e8b5f2a9118131af24d68963747e2c998c4cddc5982a1079155afe73f0",
+        "final_sha": "bc5f58e8b5f2a9118131af24d68963747e2c998c4cddc5982a1079155afe73f0",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "963240e213fb175d950bffc8df172a91119ace17cdb0694835b949720ab3eef5",
+        "final_sha": "18a064d77437b76e527dac33fe7425ee1810c82badba347acd5547b814d0f636",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.34), buildings (0.09), river (0.05)",
+        "confidence": 0.33711889386177063,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "bc5f58e8b5f2a9118131af24d68963747e2c998c4cddc5982a1079155afe73f0",
+        "final_sha": "bc5f58e8b5f2a9118131af24d68963747e2c998c4cddc5982a1079155afe73f0",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "4b68779a2a30b4a6f191602e46c2549b60414e838419e3a377b6d66db4c13b59",
+        "final_sha": "4b68779a2a30b4a6f191602e46c2549b60414e838419e3a377b6d66db4c13b59",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      },
+      {
+        "first_sha": "963240e213fb175d950bffc8df172a91119ace17cdb0694835b949720ab3eef5",
+        "final_sha": "18a064d77437b76e527dac33fe7425ee1810c82badba347acd5547b814d0f636",
+        "tool_calls": 1,
+        "tool_response": "storage tanks (0.34), buildings (0.09), river (0.05)",
+        "confidence": 0.33711889386177063,
+        "continuation_ids": [
+          [
+            151644,
+            151644,
+            198,
+            18724,
+            151645
+          ]
+        ]
+      },
+      {
+        "first_sha": "4b68779a2a30b4a6f191602e46c2549b60414e838419e3a377b6d66db4c13b59",
+        "final_sha": "4b68779a2a30b4a6f191602e46c2549b60414e838419e3a377b6d66db4c13b59",
+        "tool_calls": 0,
+        "tool_response": null,
+        "confidence": null,
+        "continuation_ids": []
+      }
+    ],
+    "norm": 19.914621353149414,
+    "replay_mean_abs_logp_difference": 0.015031271927114176,
+    "replay_max_abs_logp_difference": 0.08086025714874268,
+    "trajectories": [
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6211236119270325,
+          -0.0003401654539629817,
+          -0.0008063640561886132,
+          -5.769562994828448e-05,
+          -0.12518301606178284
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6211236119270325,
+          -0.0003401654539629817,
+          -0.0008063640561886132,
+          -5.769562994828448e-05,
+          -0.12518301606178284
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.0973141193389893
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6211236119270325,
+          -0.0003401654539629817,
+          -0.0008063640561886132,
+          -5.769562994828448e-05,
+          -0.12518301606178284
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151645
+        ],
+        "sampled_logp": [
+          -1.0973141193389893
+        ],
+        "text": "",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -2.0496933460235596,
+          -0.0021865288726985455,
+          -0.0016348104691132903,
+          -1.5258672647178173e-05,
+          -0.15624649822711945
+        ],
+        "text": "scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -0.6211236119270325,
+          -0.0003401654539629817,
+          -0.0008063640561886132,
+          -5.769562994828448e-05,
+          -0.12518301606178284
+        ],
+        "text": "<tool_call>scene_classify",
+        "ended": true
+      },
+      {
+        "ids": [
+          151644,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "sampled_logp": [
+          -2.0496933460235596,
+          -0.0021865288726985455,
+          -0.0016348104691132903,
+          -1.5258672647178173e-05,
+          -0.15624649822711945
+        ],
+        "text": "scene_classify",
+        "ended": true
+      }
+    ]
+  }
+]
