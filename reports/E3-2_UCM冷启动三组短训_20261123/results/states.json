@@ -1,0 +1,163 @@
+{
+  "R0": {
+    "retrieval_percent": {
+      "I2T_R1": 16.90702947845805,
+      "I2T_R5": 53.88926681783824,
+      "I2T_R10": 81.45598581312868,
+      "T2I_R1": 18.0952380952381,
+      "T2I_R5": 63.42857142857142,
+      "T2I_R10": 94.47619047619048,
+      "mR": 54.70871368490416
+    },
+    "e1": {
+      "quantity_A": {
+        "correct": 16,
+        "n": 22,
+        "margin": 0.006976939231223888
+      },
+      "quantity_B": {
+        "correct": 17,
+        "n": 22,
+        "margin": 0.007692511458541032
+      },
+      "attribute": {
+        "correct": 25,
+        "n": 36,
+        "margin": 0.011830366015762806,
+        "both": 7,
+        "pairs": 18
+      },
+      "relation": {
+        "correct": 19,
+        "n": 36,
+        "margin": 0.00369563217469746,
+        "both": 2,
+        "pairs": 18
+      }
+    },
+    "behavior": {
+      "rounds": 1.9952380952380953,
+      "tool_calls": 0.9952380952380953,
+      "answer_format": 0.023809523809523808,
+      "first_eos_only": 0.004761904761904762,
+      "last_eos": 1.0,
+      "tokens": 10.642857142857142
+    }
+  },
+  "R1": {
+    "retrieval_percent": {
+      "I2T_R1": 17.369992441421015,
+      "I2T_R5": 55.14230478516193,
+      "I2T_R10": 81.33176347462062,
+      "T2I_R1": 17.9047619047619,
+      "T2I_R5": 63.71428571428572,
+      "T2I_R10": 94.95238095238095,
+      "mR": 55.06924821210536
+    },
+    "e1": {
+      "quantity_A": {
+        "correct": 16,
+        "n": 22,
+        "margin": 0.0069977385083779325
+      },
+      "quantity_B": {
+        "correct": 17,
+        "n": 22,
+        "margin": 0.0078333205493114
+      },
+      "attribute": {
+        "correct": 25,
+        "n": 36,
+        "margin": 0.011610466090444856,
+        "both": 7,
+        "pairs": 18
+      },
+      "relation": {
+        "correct": 19,
+        "n": 36,
+        "margin": 0.003578334121706014,
+        "both": 2,
+        "pairs": 18
+      }
+    },
+    "behavior": {
+      "rounds": 2.0,
+      "tool_calls": 1.0,
+      "answer_format": 0.004761904761904762,
+      "first_eos_only": 0.0,
+      "last_eos": 1.0,
+      "tokens": 10.266666666666667
+    },
+    "training": {
+      "updates": 23,
+      "groups": 24,
+      "varied_retrieval": 23,
+      "mixed_format": 1,
+      "mean_within_group_retrieval_sd": 0.00020995167844296568,
+      "mean_within_group_format_sd": 0.0029462782549439484,
+      "varied_format_larger_sd": 1,
+      "mean_group_sampling_logp_error": 0.018370388757143388,
+      "max_token_logp_error": 0.4777066111564636,
+      "eos": 192,
+      "generated": 192
+    }
+  },
+  "R2": {
+    "retrieval_percent": {
+      "I2T_R1": 16.806500377928952,
+      "I2T_R5": 54.58145822431537,
+      "I2T_R10": 80.74233967091111,
+      "T2I_R1": 17.80952380952381,
+      "T2I_R5": 63.8095238095238,
+      "T2I_R10": 94.57142857142857,
+      "mR": 54.72012907727193
+    },
+    "e1": {
+      "quantity_A": {
+        "correct": 16,
+        "n": 22,
+        "margin": 0.007191026548856341
+      },
+      "quantity_B": {
+        "correct": 18,
+        "n": 22,
+        "margin": 0.008043057687918985
+      },
+      "attribute": {
+        "correct": 24,
+        "n": 36,
+        "margin": 0.011241927508249868,
+        "both": 6,
+        "pairs": 18
+      },
+      "relation": {
+        "correct": 19,
+        "n": 36,
+        "margin": 0.003417612946467078,
+        "both": 2,
+        "pairs": 18
+      }
+    },
+    "behavior": {
+      "rounds": 1.9952380952380953,
+      "tool_calls": 0.9952380952380953,
+      "answer_format": 0.01904761904761905,
+      "first_eos_only": 0.004761904761904762,
+      "last_eos": 1.0,
+      "tokens": 10.847619047619048
+    },
+    "training": {
+      "updates": 23,
+      "groups": 24,
+      "varied_retrieval": 23,
+      "mixed_format": 1,
+      "mean_within_group_retrieval_sd": 0.0001556519919984955,
+      "mean_within_group_format_sd": 0.0029462782549439484,
+      "varied_format_larger_sd": 1,
+      "mean_group_sampling_logp_error": 0.017976534792633947,
+      "max_token_logp_error": 0.26935625076293945,
+      "eos": 191,
+      "generated": 192
+    }
+  }
+}

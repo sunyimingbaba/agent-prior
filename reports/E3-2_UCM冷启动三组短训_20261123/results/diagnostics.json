@@ -1,0 +1,85 @@
+{
+  "training": {
+    "R1": {
+      "groups": 24,
+      "eos_only_trajectories": 61,
+      "trajectories": 192,
+      "valid_answer_trajectories": 1,
+      "winner_excludes_all_best_retrieval": 1,
+      "winner_sets_collapsed_by_scale": 0,
+      "shortest": 1,
+      "longest": 39
+    },
+    "R2": {
+      "groups": 24,
+      "eos_only_trajectories": 60,
+      "trajectories": 192,
+      "valid_answer_trajectories": 1,
+      "winner_excludes_all_best_retrieval": 1,
+      "winner_sets_collapsed_by_scale": 3,
+      "different_best_vs_proxy_with_same_format": 16,
+      "different_update_vs_proxy": 19,
+      "shortest": 1,
+      "longest": 64
+    }
+  },
+  "other_captions": {
+    "images": 210,
+    "captions": 829,
+    "image_gallery": 210,
+    "metrics": {
+      "R0": {
+        "I2T_percent": 51.83947710138187,
+        "T2I_percent": 58.18254925613188,
+        "mR_percent": 55.011013178756876
+      },
+      "R1": {
+        "I2T_percent": 51.857704905323956,
+        "T2I_percent": 58.46401286690792,
+        "mR_percent": 55.16085888611594
+      },
+      "R2": {
+        "I2T_percent": 51.18900323662229,
+        "T2I_percent": 58.30317651789305,
+        "mR_percent": 54.74608987725767
+      }
+    },
+    "differences_pp": {
+      "R2-R1": {
+        "mean": -0.4147690088582731,
+        "lo": -1.4967197915955681,
+        "hi": 0.550269686882601
+      },
+      "R2-R0": {
+        "mean": -0.2649233014992106,
+        "lo": -1.5065000310536025,
+        "hi": 1.0470055960804663
+      },
+      "R1-R0": {
+        "mean": 0.1498457073590625,
+        "lo": -0.7295155816226707,
+        "hi": 1.2425309189546854
+      }
+    }
+  },
+  "deployment": {
+    "R2-R1": {
+      "identical_token_traces": 204,
+      "identical_priors": 0,
+      "mean_prior_cosine": 0.9892017841339111,
+      "mean_image_feature_cosine": 0.9877771735191345
+    },
+    "R2-R0": {
+      "identical_token_traces": 202,
+      "identical_priors": 0,
+      "mean_prior_cosine": 0.9885855317115784,
+      "mean_image_feature_cosine": 0.9850710034370422
+    },
+    "R1-R0": {
+      "identical_token_traces": 204,
+      "identical_priors": 0,
+      "mean_prior_cosine": 0.9908079504966736,
+      "mean_image_feature_cosine": 0.9913071990013123
+    }
+  }
+}
