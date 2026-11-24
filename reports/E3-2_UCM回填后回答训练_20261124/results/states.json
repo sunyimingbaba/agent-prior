@@ -1,0 +1,266 @@
+{
+  "R0": {
+    "retrieval_percent": {
+      "I2T_R1": 16.874527588813304,
+      "I2T_R5": 54.05686377114949,
+      "I2T_R10": 80.12538519681375,
+      "T2I_R1": 18.0,
+      "T2I_R5": 63.71428571428572,
+      "T2I_R10": 94.57142857142857,
+      "mR": 54.55708180708181
+    },
+    "e1": {
+      "quantity_A": {
+        "correct": 16,
+        "n": 22,
+        "margin": 0.007102068802427145
+      },
+      "quantity_B": {
+        "correct": 18,
+        "n": 22,
+        "margin": 0.00777032300119295
+      },
+      "attribute": {
+        "correct": 25,
+        "n": 36,
+        "margin": 0.011372467614960656,
+        "both": 7,
+        "pairs": 18
+      },
+      "relation": {
+        "correct": 19,
+        "n": 36,
+        "margin": 0.0035580603956008863,
+        "both": 2,
+        "pairs": 18
+      }
+    },
+    "behavior": {
+      "rounds": 2.0,
+      "tool_calls": 1.0,
+      "answer_format": 0.014285714285714285,
+      "first_eos_only": 0.0,
+      "last_eos": 1.0,
+      "tokens": 10.59047619047619
+    }
+  },
+  "R1": {
+    "retrieval_percent": {
+      "I2T_R1": 16.054421768707485,
+      "I2T_R5": 54.5302343159486,
+      "I2T_R10": 81.84025234025233,
+      "T2I_R1": 18.095238095238095,
+      "T2I_R5": 60.95238095238095,
+      "T2I_R10": 93.04761904761905,
+      "mR": 54.08669108669108
+    },
+    "e1": {
+      "quantity_A": {
+        "correct": 15,
+        "n": 22,
+        "margin": 0.006602949729994917
+      },
+      "quantity_B": {
+        "correct": 17,
+        "n": 22,
+        "margin": 0.0070796652994132145
+      },
+      "attribute": {
+        "correct": 26,
+        "n": 36,
+        "margin": 0.012463993958145665,
+        "both": 8,
+        "pairs": 18
+      },
+      "relation": {
+        "correct": 19,
+        "n": 36,
+        "margin": 0.003517287557945074,
+        "both": 2,
+        "pairs": 18
+      }
+    },
+    "behavior": {
+      "rounds": 1.9904761904761905,
+      "tool_calls": 0.9904761904761905,
+      "answer_format": 0.0,
+      "first_eos_only": 0.009523809523809525,
+      "last_eos": 1.0,
+      "tokens": 9.042857142857143
+    },
+    "training": {
+      "updates": 24,
+      "groups": 24,
+      "varied_retrieval": 24,
+      "mixed_format": 0,
+      "mean_within_group_retrieval_sd": 0.0005616254326991213,
+      "mean_within_group_format_sd": 0.0,
+      "varied_format_larger_sd": 0,
+      "mean_group_sampling_logp_error": 0.032484370757822574,
+      "max_token_logp_error": 0.49728989601135254,
+      "eos": 186,
+      "generated": 192
+    }
+  },
+  "R2": {
+    "retrieval_percent": {
+      "I2T_R1": 16.969198790627367,
+      "I2T_R5": 57.24060991918135,
+      "I2T_R10": 83.13368509797083,
+      "T2I_R1": 18.761904761904766,
+      "T2I_R5": 63.8095238095238,
+      "T2I_R10": 95.04761904761905,
+      "mR": 55.82709023780452
+    },
+    "e1": {
+      "quantity_A": {
+        "correct": 17,
+        "n": 22,
+        "margin": 0.007455513533027041
+      },
+      "quantity_B": {
+        "correct": 18,
+        "n": 22,
+        "margin": 0.008071968134167107
+      },
+      "attribute": {
+        "correct": 24,
+        "n": 36,
+        "margin": 0.011808806218576641,
+        "both": 6,
+        "pairs": 18
+      },
+      "relation": {
+        "correct": 20,
+        "n": 36,
+        "margin": 0.003755083514113141,
+        "both": 2,
+        "pairs": 18
+      }
+    },
+    "behavior": {
+      "rounds": 1.9904761904761905,
+      "tool_calls": 0.9904761904761905,
+      "answer_format": 0.0,
+      "first_eos_only": 0.009523809523809525,
+      "last_eos": 1.0,
+      "tokens": 9.914285714285715
+    },
+    "training": {
+      "updates": 21,
+      "groups": 24,
+      "varied_retrieval": 21,
+      "mixed_format": 0,
+      "mean_within_group_retrieval_sd": 0.00033315290440301507,
+      "mean_within_group_format_sd": 0.0,
+      "varied_format_larger_sd": 0,
+      "mean_group_sampling_logp_error": 0.020834117016116854,
+      "max_token_logp_error": 0.7491095662117004,
+      "eos": 188,
+      "generated": 192
+    }
+  },
+  "first_R2": {
+    "retrieval_percent": {
+      "I2T_R1": 17.808390022675734,
+      "I2T_R5": 54.752427466713186,
+      "I2T_R10": 82.70184313041456,
+      "T2I_R1": 18.095238095238095,
+      "T2I_R5": 63.9047619047619,
+      "T2I_R10": 95.42857142857143,
+      "mR": 55.44853867472914
+    },
+    "e1": {
+      "quantity_A": {
+        "correct": 17,
+        "n": 22,
+        "margin": 0.007417289535776612
+      },
+      "quantity_B": {
+        "correct": 18,
+        "n": 22,
+        "margin": 0.008125611646750729
+      },
+      "attribute": {
+        "correct": 25,
+        "n": 36,
+        "margin": 0.011950792361979138,
+        "both": 7,
+        "pairs": 18
+      },
+      "relation": {
+        "correct": 19,
+        "n": 36,
+        "margin": 0.0037719253286840723,
+        "both": 2,
+        "pairs": 18
+      }
+    },
+    "behavior": {
+      "rounds": 2.0,
+      "tool_calls": 1.0,
+      "answer_format": 0.004761904761904762,
+      "first_eos_only": 0.0,
+      "last_eos": 1.0,
+      "tokens": 10.266666666666667
+    },
+    "training": {
+      "updates": 18,
+      "groups": 24,
+      "varied_retrieval": 18,
+      "mixed_format": 0,
+      "mean_within_group_retrieval_sd": 0.00029046197771913146,
+      "mean_within_group_format_sd": 0.0,
+      "varied_format_larger_sd": 0,
+      "mean_group_sampling_logp_error": 0.011357116536033995,
+      "max_token_logp_error": 0.6159157752990723,
+      "eos": 191,
+      "generated": 192
+    }
+  },
+  "old_R2": {
+    "retrieval_percent": {
+      "I2T_R1": 17.059712773998488,
+      "I2T_R5": 52.83731612303041,
+      "I2T_R10": 82.02433281004711,
+      "T2I_R1": 17.238095238095237,
+      "T2I_R5": 63.523809523809526,
+      "T2I_R10": 94.38095238095238,
+      "mR": 54.510703141655526
+    },
+    "e1": {
+      "quantity_A": {
+        "correct": 16,
+        "n": 22,
+        "margin": 0.007276634555173833
+      },
+      "quantity_B": {
+        "correct": 17,
+        "n": 22,
+        "margin": 0.007965281612071395
+      },
+      "attribute": {
+        "correct": 25,
+        "n": 36,
+        "margin": 0.012189642616158191,
+        "both": 7,
+        "pairs": 18
+      },
+      "relation": {
+        "correct": 19,
+        "n": 36,
+        "margin": 0.003642767243875749,
+        "both": 2,
+        "pairs": 18
+      }
+    },
+    "behavior": {
+      "rounds": 2.0,
+      "tool_calls": 1.0,
+      "answer_format": 0.0380952380952381,
+      "first_eos_only": 0.0,
+      "last_eos": 1.0,
+      "tokens": 11.066666666666666
+    }
+  }
+}
