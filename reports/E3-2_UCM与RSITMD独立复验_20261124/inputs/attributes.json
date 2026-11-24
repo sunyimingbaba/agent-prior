@@ -1,0 +1,452 @@
+[
+  {
+    "image": "697.tif",
+    "pair": "697-700",
+    "scene": 6,
+    "template": "building_roofs",
+    "vocabulary": "old_extension",
+    "positive": "The rooftops are mostly pale in color.",
+    "negative": "The rooftops are mostly dark in color."
+  },
+  {
+    "image": "700.tif",
+    "pair": "697-700",
+    "scene": 6,
+    "template": "building_roofs",
+    "vocabulary": "old_extension",
+    "positive": "The rooftops are mostly dark in color.",
+    "negative": "The rooftops are mostly pale in color."
+  },
+  {
+    "image": "1591.tif",
+    "pair": "1591-1596",
+    "scene": 15,
+    "template": "parking_occupancy",
+    "vocabulary": "old_extension",
+    "positive": "The parking rows are densely filled with cars.",
+    "negative": "The parking rows have many empty spaces."
+  },
+  {
+    "image": "1596.tif",
+    "pair": "1591-1596",
+    "scene": 15,
+    "template": "parking_occupancy",
+    "vocabulary": "old_extension",
+    "positive": "The parking rows have many empty spaces.",
+    "negative": "The parking rows are densely filled with cars."
+  },
+  {
+    "image": "1593.tif",
+    "pair": "1593-1595",
+    "scene": 15,
+    "template": "parking_occupancy",
+    "vocabulary": "old_extension",
+    "positive": "The parking rows are densely filled with cars.",
+    "negative": "The parking rows have many empty spaces."
+  },
+  {
+    "image": "1595.tif",
+    "pair": "1593-1595",
+    "scene": 15,
+    "template": "parking_occupancy",
+    "vocabulary": "old_extension",
+    "positive": "The parking rows have many empty spaces.",
+    "negative": "The parking rows are densely filled with cars."
+  },
+  {
+    "image": "1699.tif",
+    "pair": "1699-1696",
+    "scene": 16,
+    "template": "river_shape",
+    "vocabulary": "old_extension",
+    "positive": "The river channel runs nearly straight through the image.",
+    "negative": "The river channel forms a pronounced bend in the image."
+  },
+  {
+    "image": "1696.tif",
+    "pair": "1699-1696",
+    "scene": 16,
+    "template": "river_shape",
+    "vocabulary": "old_extension",
+    "positive": "The river channel forms a pronounced bend in the image.",
+    "negative": "The river channel runs nearly straight through the image."
+  },
+  {
+    "image": "1891.tif",
+    "pair": "1891-1899",
+    "scene": 18,
+    "template": "roof_brightness",
+    "vocabulary": "old_extension",
+    "positive": "The main house has a bright white roof.",
+    "negative": "The main house has a brown roof."
+  },
+  {
+    "image": "1899.tif",
+    "pair": "1891-1899",
+    "scene": 18,
+    "template": "roof_brightness",
+    "vocabulary": "old_extension",
+    "positive": "The main house has a brown roof.",
+    "negative": "The main house has a bright white roof."
+  },
+  {
+    "image": "1099.tif",
+    "pair": "1099-1091",
+    "scene": 10,
+    "template": "boat_rows",
+    "vocabulary": "old_extension",
+    "positive": "The long rows of moored boats run horizontally across the image.",
+    "negative": "The long rows of moored boats run vertically across the image."
+  },
+  {
+    "image": "1091.tif",
+    "pair": "1099-1091",
+    "scene": 10,
+    "template": "boat_rows",
+    "vocabulary": "old_extension",
+    "positive": "The long rows of moored boats run vertically across the image.",
+    "negative": "The long rows of moored boats run horizontally across the image."
+  },
+  {
+    "image": "1194.tif",
+    "pair": "1194-1191",
+    "scene": 11,
+    "template": "crosswalk_style",
+    "vocabulary": "old_extension",
+    "positive": "The intersection has clearly striped pedestrian crossings.",
+    "negative": "The intersection lacks striped pedestrian crossings."
+  },
+  {
+    "image": "1191.tif",
+    "pair": "1194-1191",
+    "scene": 11,
+    "template": "crosswalk_style",
+    "vocabulary": "old_extension",
+    "positive": "The intersection lacks striped pedestrian crossings.",
+    "negative": "The intersection has clearly striped pedestrian crossings."
+  },
+  {
+    "image": "1493.tif",
+    "pair": "1493-1497",
+    "scene": 14,
+    "template": "overpass_slant",
+    "vocabulary": "old_extension",
+    "positive": "From left to right, the upper roadway crosses the lower roadway on an upward diagonal.",
+    "negative": "From left to right, the upper roadway crosses the lower roadway on a downward diagonal."
+  },
+  {
+    "image": "1497.tif",
+    "pair": "1493-1497",
+    "scene": 14,
+    "template": "overpass_slant",
+    "vocabulary": "old_extension",
+    "positive": "From left to right, the upper roadway crosses the lower roadway on a downward diagonal.",
+    "negative": "From left to right, the upper roadway crosses the lower roadway on an upward diagonal."
+  },
+  {
+    "image": "293.tif",
+    "pair": "293-298",
+    "scene": 2,
+    "template": "baseball_infield",
+    "vocabulary": "old_other",
+    "positive": "The central part of the baseball infield is green grass.",
+    "negative": "The central part of the baseball infield is bare dirt."
+  },
+  {
+    "image": "298.tif",
+    "pair": "293-298",
+    "scene": 2,
+    "template": "baseball_infield",
+    "vocabulary": "old_other",
+    "positive": "The central part of the baseball infield is bare dirt.",
+    "negative": "The central part of the baseball infield is green grass."
+  },
+  {
+    "image": "297.tif",
+    "pair": "297-299",
+    "scene": 2,
+    "template": "baseball_infield",
+    "vocabulary": "old_other",
+    "positive": "The central part of the baseball infield is green grass.",
+    "negative": "The central part of the baseball infield is bare dirt."
+  },
+  {
+    "image": "299.tif",
+    "pair": "297-299",
+    "scene": 2,
+    "template": "baseball_infield",
+    "vocabulary": "old_other",
+    "positive": "The central part of the baseball infield is bare dirt.",
+    "negative": "The central part of the baseball infield is green grass."
+  },
+  {
+    "image": "1495.tif",
+    "pair": "1495-1491",
+    "scene": 14,
+    "template": "overpass_shape",
+    "vocabulary": "old_other",
+    "positive": "The upper roadway curves as it crosses the lower road.",
+    "negative": "The upper roadway runs straight as it crosses the lower road."
+  },
+  {
+    "image": "1491.tif",
+    "pair": "1495-1491",
+    "scene": 14,
+    "template": "overpass_shape",
+    "vocabulary": "old_other",
+    "positive": "The upper roadway runs straight as it crosses the lower road.",
+    "negative": "The upper roadway curves as it crosses the lower road."
+  },
+  {
+    "image": "2091.tif",
+    "pair": "2091-2094",
+    "scene": 20,
+    "template": "court_surround",
+    "vocabulary": "old_other",
+    "positive": "The area immediately surrounding the marked tennis playing surface is red.",
+    "negative": "The area immediately surrounding the marked tennis playing surface is green."
+  },
+  {
+    "image": "2094.tif",
+    "pair": "2091-2094",
+    "scene": 20,
+    "template": "court_surround",
+    "vocabulary": "old_other",
+    "positive": "The area immediately surrounding the marked tennis playing surface is green.",
+    "negative": "The area immediately surrounding the marked tennis playing surface is red."
+  },
+  {
+    "image": "87.tif",
+    "pair": "87-85",
+    "scene": 0,
+    "template": "field_color",
+    "vocabulary": "new_wording",
+    "positive": "The field is golden yellow in color.",
+    "negative": "The field is muted brown in color."
+  },
+  {
+    "image": "85.tif",
+    "pair": "87-85",
+    "scene": 0,
+    "template": "field_color",
+    "vocabulary": "new_wording",
+    "positive": "The field is muted brown in color.",
+    "negative": "The field is golden yellow in color."
+  },
+  {
+    "image": "394.tif",
+    "pair": "394-392",
+    "scene": 3,
+    "template": "surf",
+    "vocabulary": "new_wording",
+    "positive": "Broad bands of white breaking surf cover the water.",
+    "negative": "The water is relatively smooth with little white surf."
+  },
+  {
+    "image": "392.tif",
+    "pair": "394-392",
+    "scene": 3,
+    "template": "surf",
+    "vocabulary": "new_wording",
+    "positive": "The water is relatively smooth with little white surf.",
+    "negative": "Broad bands of white breaking surf cover the water."
+  },
+  {
+    "image": "497.tif",
+    "pair": "497-496",
+    "scene": 4,
+    "template": "roof_color",
+    "vocabulary": "new_wording",
+    "positive": "The large central roof is bright white.",
+    "negative": "The large central roof is tan."
+  },
+  {
+    "image": "496.tif",
+    "pair": "497-496",
+    "scene": 4,
+    "template": "roof_color",
+    "vocabulary": "new_wording",
+    "positive": "The large central roof is tan.",
+    "negative": "The large central roof is bright white."
+  },
+  {
+    "image": "691.tif",
+    "pair": "691-694",
+    "scene": 6,
+    "template": "residential_street",
+    "vocabulary": "new_wording",
+    "positive": "The street runs horizontally across the image.",
+    "negative": "The street runs vertically through the image."
+  },
+  {
+    "image": "694.tif",
+    "pair": "691-694",
+    "scene": 6,
+    "template": "residential_street",
+    "vocabulary": "new_wording",
+    "positive": "The street runs vertically through the image.",
+    "negative": "The street runs horizontally across the image."
+  },
+  {
+    "image": "891.tif",
+    "pair": "891-895",
+    "scene": 8,
+    "template": "freeway_color",
+    "vocabulary": "new_wording",
+    "positive": "The freeway pavement is very light in color.",
+    "negative": "The freeway pavement is dark in color."
+  },
+  {
+    "image": "895.tif",
+    "pair": "891-895",
+    "scene": 8,
+    "template": "freeway_color",
+    "vocabulary": "new_wording",
+    "positive": "The freeway pavement is dark in color.",
+    "negative": "The freeway pavement is very light in color."
+  },
+  {
+    "image": "898.tif",
+    "pair": "898-894",
+    "scene": 8,
+    "template": "median",
+    "vocabulary": "new_wording",
+    "positive": "The freeway median contains a row of trees.",
+    "negative": "The freeway median is bare ground without a row of trees."
+  },
+  {
+    "image": "894.tif",
+    "pair": "898-894",
+    "scene": 8,
+    "template": "median",
+    "vocabulary": "new_wording",
+    "positive": "The freeway median is bare ground without a row of trees.",
+    "negative": "The freeway median contains a row of trees."
+  },
+  {
+    "image": "1394.tif",
+    "pair": "1394-1392",
+    "scene": 13,
+    "template": "mobile_home_street",
+    "vocabulary": "new_wording",
+    "positive": "The straight street runs horizontally between the rows of mobile homes.",
+    "negative": "The straight street runs vertically between the rows of mobile homes."
+  },
+  {
+    "image": "1392.tif",
+    "pair": "1394-1392",
+    "scene": 13,
+    "template": "mobile_home_street",
+    "vocabulary": "new_wording",
+    "positive": "The straight street runs vertically between the rows of mobile homes.",
+    "negative": "The straight street runs horizontally between the rows of mobile homes."
+  },
+  {
+    "image": "1594.tif",
+    "pair": "1594-1597",
+    "scene": 15,
+    "template": "parking_axis",
+    "vocabulary": "new_wording",
+    "positive": "The long rows of cars extend horizontally.",
+    "negative": "The long rows of cars extend vertically."
+  },
+  {
+    "image": "1597.tif",
+    "pair": "1594-1597",
+    "scene": 15,
+    "template": "parking_axis",
+    "vocabulary": "new_wording",
+    "positive": "The long rows of cars extend vertically.",
+    "negative": "The long rows of cars extend horizontally."
+  },
+  {
+    "image": "1693.tif",
+    "pair": "1693-1700",
+    "scene": 16,
+    "template": "river_orientation",
+    "vocabulary": "new_wording",
+    "positive": "The river runs mainly horizontally through the image.",
+    "negative": "The river runs mainly vertically through the image."
+  },
+  {
+    "image": "1700.tif",
+    "pair": "1693-1700",
+    "scene": 16,
+    "template": "river_orientation",
+    "vocabulary": "new_wording",
+    "positive": "The river runs mainly vertically through the image.",
+    "negative": "The river runs mainly horizontally through the image."
+  },
+  {
+    "image": "1794.tif",
+    "pair": "1794-1796",
+    "scene": 17,
+    "template": "runway_slant",
+    "vocabulary": "new_wording",
+    "positive": "From left to right the runway slopes downward.",
+    "negative": "From left to right the runway slopes upward."
+  },
+  {
+    "image": "1796.tif",
+    "pair": "1794-1796",
+    "scene": 17,
+    "template": "runway_slant",
+    "vocabulary": "new_wording",
+    "positive": "From left to right the runway slopes upward.",
+    "negative": "From left to right the runway slopes downward."
+  },
+  {
+    "image": "1895.tif",
+    "pair": "1895-1893",
+    "scene": 18,
+    "template": "roof_hue",
+    "vocabulary": "new_wording",
+    "positive": "The main house has a reddish roof.",
+    "negative": "The main house has a pale cream roof."
+  },
+  {
+    "image": "1893.tif",
+    "pair": "1895-1893",
+    "scene": 18,
+    "template": "roof_hue",
+    "vocabulary": "new_wording",
+    "positive": "The main house has a pale cream roof.",
+    "negative": "The main house has a reddish roof."
+  },
+  {
+    "image": "1991.tif",
+    "pair": "1991-1996",
+    "scene": 19,
+    "template": "tank_surface",
+    "vocabulary": "new_wording",
+    "positive": "The visible circular tank surface is pale.",
+    "negative": "The visible circular tank surface is dark."
+  },
+  {
+    "image": "1996.tif",
+    "pair": "1991-1996",
+    "scene": 19,
+    "template": "tank_surface",
+    "vocabulary": "new_wording",
+    "positive": "The visible circular tank surface is dark.",
+    "negative": "The visible circular tank surface is pale."
+  },
+  {
+    "image": "2095.tif",
+    "pair": "2095-2096",
+    "scene": 20,
+    "template": "court_surround",
+    "vocabulary": "new_wording",
+    "positive": "The area surrounding the marked tennis playing surface is red.",
+    "negative": "The area surrounding the marked tennis playing surface is dark gray."
+  },
+  {
+    "image": "2096.tif",
+    "pair": "2095-2096",
+    "scene": 20,
+    "template": "court_surround",
+    "vocabulary": "new_wording",
+    "positive": "The area surrounding the marked tennis playing surface is dark gray.",
+    "negative": "The area surrounding the marked tennis playing surface is red."
+  }
+]

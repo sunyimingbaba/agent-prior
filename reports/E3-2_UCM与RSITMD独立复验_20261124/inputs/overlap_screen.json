@@ -1,0 +1,121 @@
+{
+  "edges": [
+    {
+      "query_set": "ucm_test",
+      "query": "1096.tif",
+      "reference_set": "ucm_test",
+      "reference": "1095.tif",
+      "inliers": 41,
+      "candidate_matches": 44,
+      "coverage": 0.2243,
+      "transform": [
+        [
+          0.9999859758283924,
+          -7.087134008788146e-05,
+          0.013055424441308534
+        ],
+        [
+          7.087134008788146e-05,
+          0.9999859758283924,
+          -135.00188369318957
+        ]
+      ]
+    },
+    {
+      "query_set": "rsitmd_test",
+      "query": "airport_448.tif",
+      "reference_set": "ucm_train",
+      "reference": "104.tif",
+      "inliers": 117,
+      "candidate_matches": 117,
+      "coverage": 0.4928,
+      "transform": [
+        [
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "query_set": "rsitmd_test",
+      "query": "intersection_449.tif",
+      "reference_set": "ucm_train",
+      "reference": "1201.tif",
+      "inliers": 122,
+      "candidate_matches": 122,
+      "coverage": 0.7334,
+      "transform": [
+        [
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "query_set": "rsitmd_test",
+      "query": "playground_450.tif",
+      "reference_set": "ucm_train",
+      "reference": "2056.tif",
+      "inliers": 130,
+      "candidate_matches": 130,
+      "coverage": 0.7735,
+      "transform": [
+        [
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "query_set": "rsitmd_test",
+      "query": "storagetanks_451.tif",
+      "reference_set": "ucm_train",
+      "reference": "1941.tif",
+      "inliers": 131,
+      "candidate_matches": 131,
+      "coverage": 0.6158,
+      "transform": [
+        [
+          1.0,
+          -1.2286540675249046e-19,
+          5.624607218920528e-15
+        ],
+        [
+          1.2286540675249046e-19,
+          1.0,
+          6.3085014478257775e-15
+        ]
+      ]
+    }
+  ],
+  "exclude": {
+    "ucm": [
+      "1096.tif"
+    ],
+    "rsitmd": [
+      "airport_448.tif",
+      "intersection_449.tif",
+      "playground_450.tif",
+      "storagetanks_451.tif"
+    ]
+  },
+  "method": "SIFT at 192px, top 24 candidates, 2px RANSAC similarity, >=12 unique destination points, >=60% inliers and >=10% hull coverage in both views. Sensitivity analysis only."
+}

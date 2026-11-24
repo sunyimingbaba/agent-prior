@@ -1,0 +1,45 @@
+{
+  "files": {
+    "ucm_train": "4dd3c7eed39d309ffba1e77066a7fffae7912768c0a01f18fb578f3e6e5f967f",
+    "ucm_val": "02204bf7566842f7fcd7c3e2a5ea012367ab5815bd8af09c06405c5e4adf20d2",
+    "ucm_test": "aa918799ddc1c4a782312cc9e1f01db0cd3cd3e4be4f825ca67e55effe9f0949",
+    "rsitmd_test": "4e859d26ee642a9f0a0b18626b09f5d27a6f38d2d1e2a0c194c999c1f3deb873"
+  },
+  "regions": {
+    "ucm": {
+      "source": 210,
+      "kept": 210,
+      "excluded": [],
+      "manifest": "31e4052b7e612bfd4e3c44edc8a41fa3308d960c52d62c6dae0b3aac65ea613c"
+    },
+    "rsitmd": {
+      "source": 452,
+      "kept": 448,
+      "excluded": [
+        {
+          "image": "airport_448.tif",
+          "reason": "previous_split"
+        },
+        {
+          "image": "intersection_449.tif",
+          "reason": "previous_split"
+        },
+        {
+          "image": "playground_450.tif",
+          "reason": "previous_split"
+        },
+        {
+          "image": "storagetanks_451.tif",
+          "reason": "previous_split"
+        }
+      ],
+      "manifest": "95c2ebf83d62674bb0284ee41656d0a47949317afb9fd6ab32f0aba8a795bf1e"
+    }
+  },
+  "source_counts": {
+    "ucm_train": 1680,
+    "ucm_val": 210,
+    "ucm_test": 210,
+    "rsitmd_test": 452
+  }
+}
