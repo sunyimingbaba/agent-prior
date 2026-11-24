@@ -1,0 +1,3026 @@
+[
+  {
+    "scene_id": 0,
+    "split": "val",
+    "row": 0,
+    "rgb_sha256": "cdf515cb84e9166a83425987722c9f87a3cc6653f271f7801134ad405813590f",
+    "orig_query": "There is a piece of farmland .",
+    "image": "91.tif",
+    "pair": "91-99",
+    "side": 0,
+    "attribute": "field_axis",
+    "scene_query": "Scene: an agricultural field.",
+    "C": [
+      "Rows of crops cross the field from side to side.",
+      "Rows of crops cross the field from the upper edge to the lower edge."
+    ],
+    "D": [
+      "The planting furrows have a left-right orientation.",
+      "The planting furrows have a top-bottom orientation."
+    ],
+    "E": [
+      "Furrows are oriented across the width of this field.",
+      "Furrows are oriented along the height of this field."
+    ]
+  },
+  {
+    "scene_id": 0,
+    "split": "val",
+    "row": 8,
+    "rgb_sha256": "46d98525ac0287a6e28f00b944eacd4d35ececdf3ed60e872433d21bd132256e",
+    "orig_query": "There is a piece of farmland .",
+    "image": "99.tif",
+    "pair": "91-99",
+    "side": 1,
+    "attribute": "field_axis",
+    "scene_query": "Scene: an agricultural field.",
+    "C": [
+      "Rows of crops cross the field from the upper edge to the lower edge.",
+      "Rows of crops cross the field from side to side."
+    ],
+    "D": [
+      "The planting furrows have a top-bottom orientation.",
+      "The planting furrows have a left-right orientation."
+    ],
+    "E": [
+      "Furrows are oriented along the height of this field.",
+      "Furrows are oriented across the width of this field."
+    ]
+  },
+  {
+    "scene_id": 0,
+    "split": "val",
+    "row": 1,
+    "rgb_sha256": "51685db2ed83a4a29b3333bd0beb8b24335df37ae8658b713cbee8daa39829f7",
+    "orig_query": "There is a piece of farmland .",
+    "image": "92.tif",
+    "pair": "92-96",
+    "side": 0,
+    "attribute": "field_axis",
+    "scene_query": "Scene: an agricultural field.",
+    "C": [
+      "Rows of crops cross the field from side to side.",
+      "Rows of crops cross the field from the upper edge to the lower edge."
+    ],
+    "D": [
+      "The planting furrows have a left-right orientation.",
+      "The planting furrows have a top-bottom orientation."
+    ],
+    "E": [
+      "Furrows are oriented across the width of this field.",
+      "Furrows are oriented along the height of this field."
+    ]
+  },
+  {
+    "scene_id": 0,
+    "split": "val",
+    "row": 5,
+    "rgb_sha256": "4dacfea4d3e96df17e843d64944524e307f8ad9f6571c470d856b697e0dbe583",
+    "orig_query": "There is a piece of farmland .",
+    "image": "96.tif",
+    "pair": "92-96",
+    "side": 1,
+    "attribute": "field_axis",
+    "scene_query": "Scene: an agricultural field.",
+    "C": [
+      "Rows of crops cross the field from the upper edge to the lower edge.",
+      "Rows of crops cross the field from side to side."
+    ],
+    "D": [
+      "The planting furrows have a top-bottom orientation.",
+      "The planting furrows have a left-right orientation."
+    ],
+    "E": [
+      "Furrows are oriented along the height of this field.",
+      "Furrows are oriented across the width of this field."
+    ]
+  },
+  {
+    "scene_id": 0,
+    "split": "val",
+    "row": 4,
+    "rgb_sha256": "acc3e0ac35cbcd3eb7c33617a8c87b5f68a66779360717db2b9b8c22a2bdffbb",
+    "orig_query": "There is a piece of farmland .",
+    "image": "95.tif",
+    "pair": "95-98",
+    "side": 0,
+    "attribute": "field_axis",
+    "scene_query": "Scene: an agricultural field.",
+    "C": [
+      "Rows of crops cross the field from side to side.",
+      "Rows of crops cross the field from the upper edge to the lower edge."
+    ],
+    "D": [
+      "The planting furrows have a left-right orientation.",
+      "The planting furrows have a top-bottom orientation."
+    ],
+    "E": [
+      "Furrows are oriented across the width of this field.",
+      "Furrows are oriented along the height of this field."
+    ]
+  },
+  {
+    "scene_id": 0,
+    "split": "val",
+    "row": 7,
+    "rgb_sha256": "279ed3f890524d2afb88093a2fac60acd84770e54036b1323c11229d86ac5a73",
+    "orig_query": "There is a piece of farmland .",
+    "image": "98.tif",
+    "pair": "95-98",
+    "side": 1,
+    "attribute": "field_axis",
+    "scene_query": "Scene: an agricultural field.",
+    "C": [
+      "Rows of crops cross the field from the upper edge to the lower edge.",
+      "Rows of crops cross the field from side to side."
+    ],
+    "D": [
+      "The planting furrows have a top-bottom orientation.",
+      "The planting furrows have a left-right orientation."
+    ],
+    "E": [
+      "Furrows are oriented along the height of this field.",
+      "Furrows are oriented across the width of this field."
+    ]
+  },
+  {
+    "scene_id": 2,
+    "split": "test",
+    "row": 22,
+    "rgb_sha256": "4c6bc7f274ee0fa43b34fcf39d30293a0f5d069d4616bf91fcc6f652eef57a96",
+    "orig_query": "This is a baseball diamond .",
+    "image": "293.tif",
+    "pair": "293-291",
+    "side": 0,
+    "attribute": "infield",
+    "scene_query": "Scene: a baseball field.",
+    "C": [
+      "Inside the base paths the playing surface is grassy.",
+      "Inside the base paths the playing surface is earthen."
+    ],
+    "D": [
+      "Within the diamond there is a grass-covered patch around the mound.",
+      "Within the diamond the ground around the mound is dirt."
+    ],
+    "E": [
+      "The area inside the baseball diamond has a grassy center.",
+      "The area inside the baseball diamond has a dirt center."
+    ]
+  },
+  {
+    "scene_id": 2,
+    "split": "test",
+    "row": 20,
+    "rgb_sha256": "3a87f705ff106a65b232896c48476c3304e803fc54d2ce5e77018f2f09426274",
+    "orig_query": "This is a baseball diamond .",
+    "image": "291.tif",
+    "pair": "293-291",
+    "side": 1,
+    "attribute": "infield",
+    "scene_query": "Scene: a baseball field.",
+    "C": [
+      "Inside the base paths the playing surface is earthen.",
+      "Inside the base paths the playing surface is grassy."
+    ],
+    "D": [
+      "Within the diamond the ground around the mound is dirt.",
+      "Within the diamond there is a grass-covered patch around the mound."
+    ],
+    "E": [
+      "The area inside the baseball diamond has a dirt center.",
+      "The area inside the baseball diamond has a grassy center."
+    ]
+  },
+  {
+    "scene_id": 2,
+    "split": "test",
+    "row": 23,
+    "rgb_sha256": "d9dd8fa0c5f2412379678d1c56beb0d3d6ef24c9a2202350ebf765e778ecfa9d",
+    "orig_query": "This is a baseball diamond .",
+    "image": "294.tif",
+    "pair": "294-292",
+    "side": 0,
+    "attribute": "infield",
+    "scene_query": "Scene: a baseball field.",
+    "C": [
+      "Inside the base paths the playing surface is grassy.",
+      "Inside the base paths the playing surface is earthen."
+    ],
+    "D": [
+      "Within the diamond there is a grass-covered patch around the mound.",
+      "Within the diamond the ground around the mound is dirt."
+    ],
+    "E": [
+      "The area inside the baseball diamond has a grassy center.",
+      "The area inside the baseball diamond has a dirt center."
+    ]
+  },
+  {
+    "scene_id": 2,
+    "split": "test",
+    "row": 21,
+    "rgb_sha256": "aa6e87ac49dedf5ea6060d56e2745d9ee9f876535ea5962e602ed501363536dc",
+    "orig_query": "This is a baseball diamond .",
+    "image": "292.tif",
+    "pair": "294-292",
+    "side": 1,
+    "attribute": "infield",
+    "scene_query": "Scene: a baseball field.",
+    "C": [
+      "Inside the base paths the playing surface is earthen.",
+      "Inside the base paths the playing surface is grassy."
+    ],
+    "D": [
+      "Within the diamond the ground around the mound is dirt.",
+      "Within the diamond there is a grass-covered patch around the mound."
+    ],
+    "E": [
+      "The area inside the baseball diamond has a dirt center.",
+      "The area inside the baseball diamond has a grassy center."
+    ]
+  },
+  {
+    "scene_id": 2,
+    "split": "test",
+    "row": 26,
+    "rgb_sha256": "6ceb71ad29e9625d909dd13721ea2e80327282c5dd85668fbd23209055627bcd",
+    "orig_query": "This is a baseball diamond .",
+    "image": "297.tif",
+    "pair": "297-298",
+    "side": 0,
+    "attribute": "infield",
+    "scene_query": "Scene: a baseball field.",
+    "C": [
+      "Inside the base paths the playing surface is grassy.",
+      "Inside the base paths the playing surface is earthen."
+    ],
+    "D": [
+      "Within the diamond there is a grass-covered patch around the mound.",
+      "Within the diamond the ground around the mound is dirt."
+    ],
+    "E": [
+      "The area inside the baseball diamond has a grassy center.",
+      "The area inside the baseball diamond has a dirt center."
+    ]
+  },
+  {
+    "scene_id": 2,
+    "split": "test",
+    "row": 27,
+    "rgb_sha256": "0c57944f8042c1dae45c512450fd932bbbb673e0ac4bc6ff9cdfe1cde3bcca4c",
+    "orig_query": "This is a baseball diamond .",
+    "image": "298.tif",
+    "pair": "297-298",
+    "side": 1,
+    "attribute": "infield",
+    "scene_query": "Scene: a baseball field.",
+    "C": [
+      "Inside the base paths the playing surface is earthen.",
+      "Inside the base paths the playing surface is grassy."
+    ],
+    "D": [
+      "Within the diamond the ground around the mound is dirt.",
+      "Within the diamond there is a grass-covered patch around the mound."
+    ],
+    "E": [
+      "The area inside the baseball diamond has a dirt center.",
+      "The area inside the baseball diamond has a grassy center."
+    ]
+  },
+  {
+    "scene_id": 3,
+    "split": "test",
+    "row": 33,
+    "rgb_sha256": "28bdf6994d71977ffb8f64b3cab46f6786dd8678cbfca5fa9dd6c451f2dfa12d",
+    "orig_query": "This is a beach with blue sea and white sands .",
+    "image": "394.tif",
+    "pair": "394-391",
+    "side": 0,
+    "attribute": "surf",
+    "scene_query": "Scene: a beach.",
+    "C": [
+      "Breaking waves create a wide frothy belt by the sand.",
+      "Only a thin trace of froth appears by the sand."
+    ],
+    "D": [
+      "There is extensive breaking whitewater at the shore.",
+      "There is little breaking whitewater at the shore."
+    ],
+    "E": [
+      "A broad swath of white foam breaks along the beach.",
+      "Very little white foam breaks along the beach."
+    ]
+  },
+  {
+    "scene_id": 3,
+    "split": "test",
+    "row": 30,
+    "rgb_sha256": "877476c5bf9142450f4d59bdfac0fb4bd9a3b745c93c2dd3ace662e6d7e5b40c",
+    "orig_query": "This is a beach with blue-green sea and white sands .",
+    "image": "391.tif",
+    "pair": "394-391",
+    "side": 1,
+    "attribute": "surf",
+    "scene_query": "Scene: a beach.",
+    "C": [
+      "Only a thin trace of froth appears by the sand.",
+      "Breaking waves create a wide frothy belt by the sand."
+    ],
+    "D": [
+      "There is little breaking whitewater at the shore.",
+      "There is extensive breaking whitewater at the shore."
+    ],
+    "E": [
+      "Very little white foam breaks along the beach.",
+      "A broad swath of white foam breaks along the beach."
+    ]
+  },
+  {
+    "scene_id": 3,
+    "split": "test",
+    "row": 35,
+    "rgb_sha256": "bc2ca7d7dc6ee87bd0004993d7571f745d90ee6235b1df6fb73660e766b15081",
+    "orig_query": "This is a beach with blue sea and white sands .",
+    "image": "396.tif",
+    "pair": "396-392",
+    "side": 0,
+    "attribute": "surf",
+    "scene_query": "Scene: a beach.",
+    "C": [
+      "Breaking waves create a wide frothy belt by the sand.",
+      "Only a thin trace of froth appears by the sand."
+    ],
+    "D": [
+      "There is extensive breaking whitewater at the shore.",
+      "There is little breaking whitewater at the shore."
+    ],
+    "E": [
+      "A broad swath of white foam breaks along the beach.",
+      "Very little white foam breaks along the beach."
+    ]
+  },
+  {
+    "scene_id": 3,
+    "split": "test",
+    "row": 31,
+    "rgb_sha256": "d120a5b1ea7e2efcd7dc6fabf3d3b460cb14d7a1e25e5c0b17c0ee1b8bd113b4",
+    "orig_query": "This is a peaceful beach with blue sea and white sands .",
+    "image": "392.tif",
+    "pair": "396-392",
+    "side": 1,
+    "attribute": "surf",
+    "scene_query": "Scene: a beach.",
+    "C": [
+      "Only a thin trace of froth appears by the sand.",
+      "Breaking waves create a wide frothy belt by the sand."
+    ],
+    "D": [
+      "There is little breaking whitewater at the shore.",
+      "There is extensive breaking whitewater at the shore."
+    ],
+    "E": [
+      "Very little white foam breaks along the beach.",
+      "A broad swath of white foam breaks along the beach."
+    ]
+  },
+  {
+    "scene_id": 3,
+    "split": "test",
+    "row": 36,
+    "rgb_sha256": "3c4a2a73a9c7eb3d80051ba1442fbf9773ea447d95cf4792a7fa4f512a3926c3",
+    "orig_query": "This is a beach with blue sea and white sands .",
+    "image": "397.tif",
+    "pair": "397-393",
+    "side": 0,
+    "attribute": "surf",
+    "scene_query": "Scene: a beach.",
+    "C": [
+      "Breaking waves create a wide frothy belt by the sand.",
+      "Only a thin trace of froth appears by the sand."
+    ],
+    "D": [
+      "There is extensive breaking whitewater at the shore.",
+      "There is little breaking whitewater at the shore."
+    ],
+    "E": [
+      "A broad swath of white foam breaks along the beach.",
+      "Very little white foam breaks along the beach."
+    ]
+  },
+  {
+    "scene_id": 3,
+    "split": "test",
+    "row": 32,
+    "rgb_sha256": "73b426961bbeaea8b4892bc7f9acb3968c75bbae93c3fa1554a5830247d797d7",
+    "orig_query": "This is a peaceful beach with blue sea and white sands .",
+    "image": "393.tif",
+    "pair": "397-393",
+    "side": 1,
+    "attribute": "surf",
+    "scene_query": "Scene: a beach.",
+    "C": [
+      "Only a thin trace of froth appears by the sand.",
+      "Breaking waves create a wide frothy belt by the sand."
+    ],
+    "D": [
+      "There is little breaking whitewater at the shore.",
+      "There is extensive breaking whitewater at the shore."
+    ],
+    "E": [
+      "Very little white foam breaks along the beach.",
+      "A broad swath of white foam breaks along the beach."
+    ]
+  },
+  {
+    "scene_id": 4,
+    "split": "val",
+    "row": 47,
+    "rgb_sha256": "cf22738865b4efc2412014b5d3d43e3c1263953649b3eff0f5fc4613f9ebfc8c",
+    "orig_query": "There are some buildings with different colors of roofs .",
+    "image": "489.tif",
+    "pair": "489-488",
+    "side": 0,
+    "attribute": "roof_red",
+    "scene_query": "Scene: buildings.",
+    "C": [
+      "Several roofs are rusty red or reddish brown.",
+      "The roofs are predominantly white or gray."
+    ],
+    "D": [
+      "A group of red-brown rooftops appears.",
+      "Pale and gray rooftops predominate."
+    ],
+    "E": [
+      "Red-brown roof surfaces are visible together.",
+      "Most rooftop surfaces have a neutral white or gray color."
+    ]
+  },
+  {
+    "scene_id": 4,
+    "split": "val",
+    "row": 46,
+    "rgb_sha256": "806a1e2ac5506265796c749de7b9cef601713fb2b5bc0443e257ead79dd8ba29",
+    "orig_query": "There are some buildings with grey roofs .",
+    "image": "488.tif",
+    "pair": "489-488",
+    "side": 1,
+    "attribute": "roof_red",
+    "scene_query": "Scene: buildings.",
+    "C": [
+      "The roofs are predominantly white or gray.",
+      "Several roofs are rusty red or reddish brown."
+    ],
+    "D": [
+      "Pale and gray rooftops predominate.",
+      "A group of red-brown rooftops appears."
+    ],
+    "E": [
+      "Most rooftop surfaces have a neutral white or gray color.",
+      "Red-brown roof surfaces are visible together."
+    ]
+  },
+  {
+    "scene_id": 4,
+    "split": "test",
+    "row": 41,
+    "rgb_sha256": "66425c569efb4e6f8983177e657f98e8b40ede976cbcdf20cd4b1b09b81188d5",
+    "orig_query": "There is are some buildings with grey and orange roofs .",
+    "image": "492.tif",
+    "pair": "492-497",
+    "side": 0,
+    "attribute": "roof_red",
+    "scene_query": "Scene: buildings.",
+    "C": [
+      "Several roofs are rusty red or reddish brown.",
+      "The roofs are predominantly white or gray."
+    ],
+    "D": [
+      "A group of red-brown rooftops appears.",
+      "Pale and gray rooftops predominate."
+    ],
+    "E": [
+      "Red-brown roof surfaces are visible together.",
+      "Most rooftop surfaces have a neutral white or gray color."
+    ]
+  },
+  {
+    "scene_id": 4,
+    "split": "test",
+    "row": 46,
+    "rgb_sha256": "4612396624a4fb89057b1296dd000924070696304a4dee5fa0aea88fcdaedea2",
+    "orig_query": "There is are some buildings with white and grey roofs .",
+    "image": "497.tif",
+    "pair": "492-497",
+    "side": 1,
+    "attribute": "roof_red",
+    "scene_query": "Scene: buildings.",
+    "C": [
+      "The roofs are predominantly white or gray.",
+      "Several roofs are rusty red or reddish brown."
+    ],
+    "D": [
+      "Pale and gray rooftops predominate.",
+      "A group of red-brown rooftops appears."
+    ],
+    "E": [
+      "Most rooftop surfaces have a neutral white or gray color.",
+      "Red-brown roof surfaces are visible together."
+    ]
+  },
+  {
+    "scene_id": 6,
+    "split": "val",
+    "row": 62,
+    "rgb_sha256": "f79ca7bc4352ff528b4ff82c27b81f9585d9a8bfc95c2131759f1e59079e0db1",
+    "orig_query": "This is a dense residential area with houses and plants .",
+    "image": "681.tif",
+    "pair": "681-688",
+    "side": 0,
+    "attribute": "roof_hue",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The residential rooftops look red.",
+      "The residential rooftops look gray."
+    ],
+    "D": [
+      "The homes have red-toned roofing.",
+      "The homes have gray-toned roofing."
+    ],
+    "E": [
+      "A reddish color characterizes the residential roofs.",
+      "A gray color characterizes the residential roofs."
+    ]
+  },
+  {
+    "scene_id": 6,
+    "split": "val",
+    "row": 69,
+    "rgb_sha256": "9faeee998f23b3bdfae189ce0da373a0005eff887cc9ea04804b1d4217677347",
+    "orig_query": "This is a dense residential area with some houses .",
+    "image": "688.tif",
+    "pair": "681-688",
+    "side": 1,
+    "attribute": "roof_hue",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The residential rooftops look gray.",
+      "The residential rooftops look red."
+    ],
+    "D": [
+      "The homes have gray-toned roofing.",
+      "The homes have red-toned roofing."
+    ],
+    "E": [
+      "A gray color characterizes the residential roofs.",
+      "A reddish color characterizes the residential roofs."
+    ]
+  },
+  {
+    "scene_id": 6,
+    "split": "val",
+    "row": 59,
+    "rgb_sha256": "15ea97e9cdc49eef6d4b6d051372128dfd9d5e5e1026502f8c382b4a910843f7",
+    "orig_query": "This is a dense residential area with houses and roads .",
+    "image": "614.tif",
+    "pair": "614-689",
+    "side": 0,
+    "attribute": "community_pool",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The neighborhood contains a visible swimming pool.",
+      "The neighborhood shows no swimming pool."
+    ],
+    "D": [
+      "A swimming pool appears between the residential buildings.",
+      "There is no swimming pool in sight between the residential buildings."
+    ],
+    "E": [
+      "One can see a swimming pool on this residential block.",
+      "No swimming pool can be seen on this residential block."
+    ]
+  },
+  {
+    "scene_id": 6,
+    "split": "val",
+    "row": 70,
+    "rgb_sha256": "4fcdb0664d819b2bbfb7dc6e6ba810a11bcd0245572e8313134bdfedbde3b8f5",
+    "orig_query": "This is a dense residential area with some houses .",
+    "image": "689.tif",
+    "pair": "614-689",
+    "side": 1,
+    "attribute": "community_pool",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The neighborhood shows no swimming pool.",
+      "The neighborhood contains a visible swimming pool."
+    ],
+    "D": [
+      "There is no swimming pool in sight between the residential buildings.",
+      "A swimming pool appears between the residential buildings."
+    ],
+    "E": [
+      "No swimming pool can be seen on this residential block.",
+      "One can see a swimming pool on this residential block."
+    ]
+  },
+  {
+    "scene_id": 12,
+    "split": "val",
+    "row": 126,
+    "rgb_sha256": "e8fcbc1828e902d80a2d00f33f2b1ec58768aa0768c0b0c26408053bb120e75d",
+    "orig_query": "It is a medium residential area .",
+    "image": "1287.tif",
+    "pair": "1287-1285",
+    "side": 0,
+    "attribute": "community_pool",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The neighborhood contains a visible swimming pool.",
+      "The neighborhood shows no swimming pool."
+    ],
+    "D": [
+      "A swimming pool appears between the residential buildings.",
+      "There is no swimming pool in sight between the residential buildings."
+    ],
+    "E": [
+      "One can see a swimming pool on this residential block.",
+      "No swimming pool can be seen on this residential block."
+    ]
+  },
+  {
+    "scene_id": 12,
+    "split": "val",
+    "row": 124,
+    "rgb_sha256": "81da1c40b63e00e2964e55046695dd71bcc1280499c1341a3f5d049c191fedab",
+    "orig_query": "It is a medium residential area with houses and plants .",
+    "image": "1285.tif",
+    "pair": "1287-1285",
+    "side": 1,
+    "attribute": "community_pool",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The neighborhood shows no swimming pool.",
+      "The neighborhood contains a visible swimming pool."
+    ],
+    "D": [
+      "There is no swimming pool in sight between the residential buildings.",
+      "A swimming pool appears between the residential buildings."
+    ],
+    "E": [
+      "No swimming pool can be seen on this residential block.",
+      "One can see a swimming pool on this residential block."
+    ]
+  },
+  {
+    "scene_id": 12,
+    "split": "test",
+    "row": 121,
+    "rgb_sha256": "7a83884a83fd6df1e9b897eedcbc7f0426df80cf408391e3acae3f901581ef6c",
+    "orig_query": "It is a medium residential area .",
+    "image": "1292.tif",
+    "pair": "1292-1295",
+    "side": 0,
+    "attribute": "community_pool",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The neighborhood contains a visible swimming pool.",
+      "The neighborhood shows no swimming pool."
+    ],
+    "D": [
+      "A swimming pool appears between the residential buildings.",
+      "There is no swimming pool in sight between the residential buildings."
+    ],
+    "E": [
+      "One can see a swimming pool on this residential block.",
+      "No swimming pool can be seen on this residential block."
+    ]
+  },
+  {
+    "scene_id": 12,
+    "split": "test",
+    "row": 124,
+    "rgb_sha256": "2a0a47dfb3b49152e790be53d5473e9296e3a9645bc0c89ddbc032c6096428a3",
+    "orig_query": "It is a medium residential area .",
+    "image": "1295.tif",
+    "pair": "1292-1295",
+    "side": 1,
+    "attribute": "community_pool",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The neighborhood shows no swimming pool.",
+      "The neighborhood contains a visible swimming pool."
+    ],
+    "D": [
+      "There is no swimming pool in sight between the residential buildings.",
+      "A swimming pool appears between the residential buildings."
+    ],
+    "E": [
+      "No swimming pool can be seen on this residential block.",
+      "One can see a swimming pool on this residential block."
+    ]
+  },
+  {
+    "scene_id": 6,
+    "split": "test",
+    "row": 60,
+    "rgb_sha256": "1ca0a59da445ec48c7032c806e9c1bcf9d1a5b9a47756a15a899a7ac4e9846bd",
+    "orig_query": "This is a dense residential area .",
+    "image": "691.tif",
+    "pair": "691-694",
+    "side": 0,
+    "attribute": "street_axis",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The houses line a street spanning the width of the image.",
+      "The houses line a street spanning the height of the image."
+    ],
+    "D": [
+      "The residential road follows a left-right course.",
+      "The residential road follows a top-bottom course."
+    ],
+    "E": [
+      "The main street between the homes extends sideways in the image.",
+      "The main street between the homes extends vertically in the image."
+    ]
+  },
+  {
+    "scene_id": 6,
+    "split": "test",
+    "row": 63,
+    "rgb_sha256": "58ebebde8cb04331b2012df2ee7032cb855206db97d250a149ced3f39bf804c9",
+    "orig_query": "This is a dense residential area with lots of houses arranged in lines .",
+    "image": "694.tif",
+    "pair": "691-694",
+    "side": 1,
+    "attribute": "street_axis",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The houses line a street spanning the height of the image.",
+      "The houses line a street spanning the width of the image."
+    ],
+    "D": [
+      "The residential road follows a top-bottom course.",
+      "The residential road follows a left-right course."
+    ],
+    "E": [
+      "The main street between the homes extends vertically in the image.",
+      "The main street between the homes extends sideways in the image."
+    ]
+  },
+  {
+    "scene_id": 6,
+    "split": "test",
+    "row": 61,
+    "rgb_sha256": "07944910d3eeeec498832a981131009f8b82eae3593dc34a1c9fb2985f1eaa58",
+    "orig_query": "This is a dense residential area .",
+    "image": "692.tif",
+    "pair": "692-697",
+    "side": 0,
+    "attribute": "street_axis",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The houses line a street spanning the width of the image.",
+      "The houses line a street spanning the height of the image."
+    ],
+    "D": [
+      "The residential road follows a left-right course.",
+      "The residential road follows a top-bottom course."
+    ],
+    "E": [
+      "The main street between the homes extends sideways in the image.",
+      "The main street between the homes extends vertically in the image."
+    ]
+  },
+  {
+    "scene_id": 6,
+    "split": "test",
+    "row": 66,
+    "rgb_sha256": "8729144a34b2124fab0a96c2fb84f6d4f36d4beddaa73349f83f501fe6f2dec6",
+    "orig_query": "This is a dense residential area .",
+    "image": "697.tif",
+    "pair": "692-697",
+    "side": 1,
+    "attribute": "street_axis",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The houses line a street spanning the height of the image.",
+      "The houses line a street spanning the width of the image."
+    ],
+    "D": [
+      "The residential road follows a top-bottom course.",
+      "The residential road follows a left-right course."
+    ],
+    "E": [
+      "The main street between the homes extends vertically in the image.",
+      "The main street between the homes extends sideways in the image."
+    ]
+  },
+  {
+    "scene_id": 12,
+    "split": "test",
+    "row": 125,
+    "rgb_sha256": "b488e8fdcfb1ee6606454a9b9c71bb897021908dd18acf305ee10e2095cffa2c",
+    "orig_query": "It is a medium residential area .",
+    "image": "1296.tif",
+    "pair": "1296-1293",
+    "side": 0,
+    "attribute": "street_curve",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The main residential street curves.",
+      "The main residential street runs straight."
+    ],
+    "D": [
+      "The street between the houses follows a bend.",
+      "The street between the houses follows a straight line."
+    ],
+    "E": [
+      "The principal road through the homes is curved.",
+      "The principal road through the homes is straight."
+    ]
+  },
+  {
+    "scene_id": 12,
+    "split": "test",
+    "row": 122,
+    "rgb_sha256": "f56a56d763aba4d0ac677d0de647a64b85902f2ce5a3fbfb2ff0c34dd28b3eb2",
+    "orig_query": "It is a medium residential area .",
+    "image": "1293.tif",
+    "pair": "1296-1293",
+    "side": 1,
+    "attribute": "street_curve",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The main residential street runs straight.",
+      "The main residential street curves."
+    ],
+    "D": [
+      "The street between the houses follows a straight line.",
+      "The street between the houses follows a bend."
+    ],
+    "E": [
+      "The principal road through the homes is straight.",
+      "The principal road through the homes is curved."
+    ]
+  },
+  {
+    "scene_id": 8,
+    "split": "test",
+    "row": 80,
+    "rgb_sha256": "729d9aa6873bfd707cb59b57608ebdb142ffa08561fc92e64528e63dfc0636d7",
+    "orig_query": "There are two white straight freeways parrallel forward .",
+    "image": "891.tif",
+    "pair": "891-895",
+    "side": 0,
+    "attribute": "freeway_color",
+    "scene_query": "Scene: a freeway.",
+    "C": [
+      "The road lanes have a bright surface.",
+      "The road lanes have a dark surface."
+    ],
+    "D": [
+      "A light-colored highway surface is visible.",
+      "A dark-colored highway surface is visible."
+    ],
+    "E": [
+      "The highway has pale paving.",
+      "The highway has dark paving."
+    ]
+  },
+  {
+    "scene_id": 8,
+    "split": "test",
+    "row": 84,
+    "rgb_sha256": "db21efeb5029d3591561cdac862b6422ebab0ccb96238fa1717da08d359d2a1d",
+    "orig_query": "There are two straight freeways in the desert .",
+    "image": "895.tif",
+    "pair": "891-895",
+    "side": 1,
+    "attribute": "freeway_color",
+    "scene_query": "Scene: a freeway.",
+    "C": [
+      "The road lanes have a dark surface.",
+      "The road lanes have a bright surface."
+    ],
+    "D": [
+      "A dark-colored highway surface is visible.",
+      "A light-colored highway surface is visible."
+    ],
+    "E": [
+      "The highway has dark paving.",
+      "The highway has pale paving."
+    ]
+  },
+  {
+    "scene_id": 8,
+    "split": "test",
+    "row": 81,
+    "rgb_sha256": "90763bcc6df2822e263d5b63583fef98637a80f6fd4902a64decb770ed6d4985",
+    "orig_query": "There are two white straight freeways parrallel forward .",
+    "image": "892.tif",
+    "pair": "892-897",
+    "side": 0,
+    "attribute": "freeway_color",
+    "scene_query": "Scene: a freeway.",
+    "C": [
+      "The road lanes have a bright surface.",
+      "The road lanes have a dark surface."
+    ],
+    "D": [
+      "A light-colored highway surface is visible.",
+      "A dark-colored highway surface is visible."
+    ],
+    "E": [
+      "The highway has pale paving.",
+      "The highway has dark paving."
+    ]
+  },
+  {
+    "scene_id": 8,
+    "split": "test",
+    "row": 86,
+    "rgb_sha256": "757b2a78b1f6cc05d2883683c1db6b56d4745b92e22f61445e4222603ac3d99a",
+    "orig_query": "There are two straight freeways in the desert .",
+    "image": "897.tif",
+    "pair": "892-897",
+    "side": 1,
+    "attribute": "freeway_color",
+    "scene_query": "Scene: a freeway.",
+    "C": [
+      "The road lanes have a dark surface.",
+      "The road lanes have a bright surface."
+    ],
+    "D": [
+      "A dark-colored highway surface is visible.",
+      "A light-colored highway surface is visible."
+    ],
+    "E": [
+      "The highway has dark paving.",
+      "The highway has pale paving."
+    ]
+  },
+  {
+    "scene_id": 8,
+    "split": "test",
+    "row": 82,
+    "rgb_sha256": "fa0af2a88f3eaf909595a50b2278670d94157b6bb55e7aa646cf3b9cfeff1f77",
+    "orig_query": "There are two white straight freeways parrallel forward .",
+    "image": "893.tif",
+    "pair": "893-896",
+    "side": 0,
+    "attribute": "freeway_color",
+    "scene_query": "Scene: a freeway.",
+    "C": [
+      "The road lanes have a bright surface.",
+      "The road lanes have a dark surface."
+    ],
+    "D": [
+      "A light-colored highway surface is visible.",
+      "A dark-colored highway surface is visible."
+    ],
+    "E": [
+      "The highway has pale paving.",
+      "The highway has dark paving."
+    ]
+  },
+  {
+    "scene_id": 8,
+    "split": "test",
+    "row": 85,
+    "rgb_sha256": "b63c850894c7dc63ae9f8856b776773bad2ce83c35ed5dc2fadd4057d3a5cdcb",
+    "orig_query": "There are two straight freeways in the desert .",
+    "image": "896.tif",
+    "pair": "893-896",
+    "side": 1,
+    "attribute": "freeway_color",
+    "scene_query": "Scene: a freeway.",
+    "C": [
+      "The road lanes have a dark surface.",
+      "The road lanes have a bright surface."
+    ],
+    "D": [
+      "A dark-colored highway surface is visible.",
+      "A light-colored highway surface is visible."
+    ],
+    "E": [
+      "The highway has dark paving.",
+      "The highway has pale paving."
+    ]
+  },
+  {
+    "scene_id": 10,
+    "split": "test",
+    "row": 101,
+    "rgb_sha256": "af219061f0d9d74c0ac8a74c0273712fec6d197e26aac5aeb3d125b3e2937be5",
+    "orig_query": "Lots of boats docked at the harbor and the water is deep blue .",
+    "image": "1092.tif",
+    "pair": "1092-1100",
+    "side": 0,
+    "attribute": "berths",
+    "scene_query": "Scene: a harbor.",
+    "C": [
+      "Boats fill almost all the slips.",
+      "Numerous slips lack a moored boat."
+    ],
+    "D": [
+      "Very few spaces for boats are vacant at the docks.",
+      "Many spaces for boats are vacant at the docks."
+    ],
+    "E": [
+      "Boats occupy nearly every docking space.",
+      "Quite a few docking spaces are unoccupied."
+    ]
+  },
+  {
+    "scene_id": 10,
+    "split": "test",
+    "row": 109,
+    "rgb_sha256": "4695c988eb45c5f7dd93d501802b5f08cdcc0708c22b8d53aa9820a2789876fc",
+    "orig_query": "Lots of boats docked at the harbor and the water is deep blue .",
+    "image": "1100.tif",
+    "pair": "1092-1100",
+    "side": 1,
+    "attribute": "berths",
+    "scene_query": "Scene: a harbor.",
+    "C": [
+      "Numerous slips lack a moored boat.",
+      "Boats fill almost all the slips."
+    ],
+    "D": [
+      "Many spaces for boats are vacant at the docks.",
+      "Very few spaces for boats are vacant at the docks."
+    ],
+    "E": [
+      "Quite a few docking spaces are unoccupied.",
+      "Boats occupy nearly every docking space."
+    ]
+  },
+  {
+    "scene_id": 10,
+    "split": "test",
+    "row": 103,
+    "rgb_sha256": "b022c37cc9d190eaeec78f5b9d01880dd99bad8d5ffc1e6277bc7a37b44519f0",
+    "orig_query": "Lots of boats docked at the harbor and the water is deep blue .",
+    "image": "1094.tif",
+    "pair": "1094-1098",
+    "side": 0,
+    "attribute": "berths",
+    "scene_query": "Scene: a harbor.",
+    "C": [
+      "Boats fill almost all the slips.",
+      "Numerous slips lack a moored boat."
+    ],
+    "D": [
+      "Very few spaces for boats are vacant at the docks.",
+      "Many spaces for boats are vacant at the docks."
+    ],
+    "E": [
+      "Boats occupy nearly every docking space.",
+      "Quite a few docking spaces are unoccupied."
+    ]
+  },
+  {
+    "scene_id": 10,
+    "split": "test",
+    "row": 107,
+    "rgb_sha256": "9fe4a9b3c4c0792a25a6d6b297c850278f34410364ccd20209fff259acfec791",
+    "orig_query": "Lots of boats docked at the harbor and the water is deep blue .",
+    "image": "1098.tif",
+    "pair": "1094-1098",
+    "side": 1,
+    "attribute": "berths",
+    "scene_query": "Scene: a harbor.",
+    "C": [
+      "Numerous slips lack a moored boat.",
+      "Boats fill almost all the slips."
+    ],
+    "D": [
+      "Many spaces for boats are vacant at the docks.",
+      "Very few spaces for boats are vacant at the docks."
+    ],
+    "E": [
+      "Quite a few docking spaces are unoccupied.",
+      "Boats occupy nearly every docking space."
+    ]
+  },
+  {
+    "scene_id": 10,
+    "split": "test",
+    "row": 104,
+    "rgb_sha256": "605542265ec83ba4488cc672db6ce016c7c309fccb4941b20b10c5f59106acbd",
+    "orig_query": "Lots of boats docked at the harbor and the water is deep blue .",
+    "image": "1095.tif",
+    "pair": "1095-1091",
+    "side": 0,
+    "attribute": "harbor_rows",
+    "scene_query": "Scene: a harbor.",
+    "C": [
+      "The boat rows span the width of the picture.",
+      "The boat rows span the height of the picture."
+    ],
+    "D": [
+      "Moored boats form rows across the width of the frame.",
+      "Moored boats form rows down the height of the frame."
+    ],
+    "E": [
+      "The long lines of boats go from left to right in this harbor.",
+      "The long lines of boats go from top to bottom in this harbor."
+    ]
+  },
+  {
+    "scene_id": 10,
+    "split": "test",
+    "row": 100,
+    "rgb_sha256": "d6ee97bed262183257c608672221f2d75d39d68d28a1198d4bb9f6cf4df3e5c8",
+    "orig_query": "Lots of boats docked at the harbor and the water is deep blue .",
+    "image": "1091.tif",
+    "pair": "1095-1091",
+    "side": 1,
+    "attribute": "harbor_rows",
+    "scene_query": "Scene: a harbor.",
+    "C": [
+      "The boat rows span the height of the picture.",
+      "The boat rows span the width of the picture."
+    ],
+    "D": [
+      "Moored boats form rows down the height of the frame.",
+      "Moored boats form rows across the width of the frame."
+    ],
+    "E": [
+      "The long lines of boats go from top to bottom in this harbor.",
+      "The long lines of boats go from left to right in this harbor."
+    ]
+  },
+  {
+    "scene_id": 11,
+    "split": "test",
+    "row": 113,
+    "rgb_sha256": "4517379537817afbe774297affa6298492e302acc110ae6ae90a046559867942",
+    "orig_query": "An intersection with a few cars on the road .",
+    "image": "1194.tif",
+    "pair": "1194-1195",
+    "side": 0,
+    "attribute": "crosswalk",
+    "scene_query": "Scene: a road intersection.",
+    "C": [
+      "Bands of parallel pedestrian markings appear at the junction.",
+      "The junction has no bands of parallel pedestrian markings."
+    ],
+    "D": [
+      "There are painted stripes for pedestrians at the road crossing.",
+      "There are no painted stripes for pedestrians at the road crossing."
+    ],
+    "E": [
+      "Striped pedestrian crossings mark this intersection.",
+      "This intersection has no striped pedestrian crossings."
+    ]
+  },
+  {
+    "scene_id": 11,
+    "split": "test",
+    "row": 114,
+    "rgb_sha256": "d378f8a8f758032e0c305a51a51fdac64fb3bdd066eaedf0ab8e77c1e941e543",
+    "orig_query": "An intersection with a few cars on the road .",
+    "image": "1195.tif",
+    "pair": "1194-1195",
+    "side": 1,
+    "attribute": "crosswalk",
+    "scene_query": "Scene: a road intersection.",
+    "C": [
+      "The junction has no bands of parallel pedestrian markings.",
+      "Bands of parallel pedestrian markings appear at the junction."
+    ],
+    "D": [
+      "There are no painted stripes for pedestrians at the road crossing.",
+      "There are painted stripes for pedestrians at the road crossing."
+    ],
+    "E": [
+      "This intersection has no striped pedestrian crossings.",
+      "Striped pedestrian crossings mark this intersection."
+    ]
+  },
+  {
+    "scene_id": 13,
+    "split": "test",
+    "row": 133,
+    "rgb_sha256": "ce07a0594c0316def9be7a3aeb8cdf78cd2d7fe06b4324864b9a2327fdf71783",
+    "orig_query": "Many mobile homes arranged in lines in the mobile home park .",
+    "image": "1394.tif",
+    "pair": "1394-1392",
+    "side": 0,
+    "attribute": "mobile_axis",
+    "scene_query": "Scene: a mobile home park.",
+    "C": [
+      "The mobile homes line a road spanning the width of the view.",
+      "The mobile homes line a road spanning the height of the view."
+    ],
+    "D": [
+      "The access street between the trailers follows a left-right course.",
+      "The access street between the trailers follows a top-bottom course."
+    ],
+    "E": [
+      "The road between the trailers crosses the picture from side to side.",
+      "The road between the trailers crosses the picture from top to bottom."
+    ]
+  },
+  {
+    "scene_id": 13,
+    "split": "test",
+    "row": 131,
+    "rgb_sha256": "a32e6fdd9ff6a20d4e9a735d8ff5bf01b2c23778e5772b9550674788e41857cf",
+    "orig_query": "Many mobile homes arranged in lines in the mobile home park .",
+    "image": "1392.tif",
+    "pair": "1394-1392",
+    "side": 1,
+    "attribute": "mobile_axis",
+    "scene_query": "Scene: a mobile home park.",
+    "C": [
+      "The mobile homes line a road spanning the height of the view.",
+      "The mobile homes line a road spanning the width of the view."
+    ],
+    "D": [
+      "The access street between the trailers follows a top-bottom course.",
+      "The access street between the trailers follows a left-right course."
+    ],
+    "E": [
+      "The road between the trailers crosses the picture from top to bottom.",
+      "The road between the trailers crosses the picture from side to side."
+    ]
+  },
+  {
+    "scene_id": 14,
+    "split": "test",
+    "row": 147,
+    "rgb_sha256": "0e8a0510b477d5499f7f6573185d20dcd0218217eadb8d1cad6b597e89b0e404",
+    "orig_query": "A road go across another one diagonally .",
+    "image": "1498.tif",
+    "pair": "1498-1491",
+    "side": 0,
+    "attribute": "bridge_axis",
+    "scene_query": "Scene: an overpass.",
+    "C": [
+      "The overpassing road spans the width of the image.",
+      "The overpassing road spans the height of the image."
+    ],
+    "D": [
+      "The deck on top has a left-right alignment.",
+      "The deck on top has a top-bottom alignment."
+    ],
+    "E": [
+      "The upper deck extends sideways through the frame.",
+      "The upper deck extends vertically through the frame."
+    ]
+  },
+  {
+    "scene_id": 14,
+    "split": "test",
+    "row": 140,
+    "rgb_sha256": "4d6be65d40297752de5e0433f1a872a00640c5b8cf29e5760751ec78f2a07aed",
+    "orig_query": "An overpass with a road go across another two vertically .",
+    "image": "1491.tif",
+    "pair": "1498-1491",
+    "side": 1,
+    "attribute": "bridge_axis",
+    "scene_query": "Scene: an overpass.",
+    "C": [
+      "The overpassing road spans the height of the image.",
+      "The overpassing road spans the width of the image."
+    ],
+    "D": [
+      "The deck on top has a top-bottom alignment.",
+      "The deck on top has a left-right alignment."
+    ],
+    "E": [
+      "The upper deck extends vertically through the frame.",
+      "The upper deck extends sideways through the frame."
+    ]
+  },
+  {
+    "scene_id": 14,
+    "split": "test",
+    "row": 148,
+    "rgb_sha256": "ffcf9dbf0f1bb64b88bb9de70d3adb40b6c46015a3bb54058872ef3d1f6e09ec",
+    "orig_query": "A road go across another one diagonally .",
+    "image": "1499.tif",
+    "pair": "1499-1492",
+    "side": 0,
+    "attribute": "bridge_axis",
+    "scene_query": "Scene: an overpass.",
+    "C": [
+      "The overpassing road spans the width of the image.",
+      "The overpassing road spans the height of the image."
+    ],
+    "D": [
+      "The deck on top has a left-right alignment.",
+      "The deck on top has a top-bottom alignment."
+    ],
+    "E": [
+      "The upper deck extends sideways through the frame.",
+      "The upper deck extends vertically through the frame."
+    ]
+  },
+  {
+    "scene_id": 14,
+    "split": "test",
+    "row": 141,
+    "rgb_sha256": "7d72d8bddeb38e1e9f0e32f0fe5051f210afb61ea13d409bb11c4618b251323c",
+    "orig_query": "Two roads go across another roads diagonally .",
+    "image": "1492.tif",
+    "pair": "1499-1492",
+    "side": 1,
+    "attribute": "bridge_axis",
+    "scene_query": "Scene: an overpass.",
+    "C": [
+      "The overpassing road spans the height of the image.",
+      "The overpassing road spans the width of the image."
+    ],
+    "D": [
+      "The deck on top has a top-bottom alignment.",
+      "The deck on top has a left-right alignment."
+    ],
+    "E": [
+      "The upper deck extends vertically through the frame.",
+      "The upper deck extends sideways through the frame."
+    ]
+  },
+  {
+    "scene_id": 14,
+    "split": "test",
+    "row": 149,
+    "rgb_sha256": "6324654479b93e74ba7604cf64632ee7e84d86ffa720f35fa963485b0f1c1768",
+    "orig_query": "A road go across another one diagonally .",
+    "image": "1500.tif",
+    "pair": "1500-1494",
+    "side": 0,
+    "attribute": "bridge_axis",
+    "scene_query": "Scene: an overpass.",
+    "C": [
+      "The overpassing road spans the width of the image.",
+      "The overpassing road spans the height of the image."
+    ],
+    "D": [
+      "The deck on top has a left-right alignment.",
+      "The deck on top has a top-bottom alignment."
+    ],
+    "E": [
+      "The upper deck extends sideways through the frame.",
+      "The upper deck extends vertically through the frame."
+    ]
+  },
+  {
+    "scene_id": 14,
+    "split": "test",
+    "row": 143,
+    "rgb_sha256": "029735a307216c5cc65fcf8e4a811bf08e7b01ee4284ea2748a686e3fc22b150",
+    "orig_query": "An overpass with a road go across another roads vertically .",
+    "image": "1494.tif",
+    "pair": "1500-1494",
+    "side": 1,
+    "attribute": "bridge_axis",
+    "scene_query": "Scene: an overpass.",
+    "C": [
+      "The overpassing road spans the height of the image.",
+      "The overpassing road spans the width of the image."
+    ],
+    "D": [
+      "The deck on top has a top-bottom alignment.",
+      "The deck on top has a left-right alignment."
+    ],
+    "E": [
+      "The upper deck extends vertically through the frame.",
+      "The upper deck extends sideways through the frame."
+    ]
+  },
+  {
+    "scene_id": 14,
+    "split": "test",
+    "row": 145,
+    "rgb_sha256": "d3b58ecc69399d661123899d70550957fa06d0fc8c778923338b2b36256f430f",
+    "orig_query": "An overpass with a road go across another roads vertically .",
+    "image": "1496.tif",
+    "pair": "1496-1493",
+    "side": 0,
+    "attribute": "bridge_curve",
+    "scene_query": "Scene: an overpass.",
+    "C": [
+      "The elevated road follows a curved path.",
+      "The elevated road follows a straight path."
+    ],
+    "D": [
+      "A bend is visible in the roadway on top.",
+      "The roadway on top has a linear alignment."
+    ],
+    "E": [
+      "The direction of the upper road changes across the scene.",
+      "The upper road keeps a straight course across the scene."
+    ]
+  },
+  {
+    "scene_id": 14,
+    "split": "test",
+    "row": 142,
+    "rgb_sha256": "072adf47fced1b8752e062ce89c9720deb69b7835ed09835660f0da8a19b1849",
+    "orig_query": "A road go across another one diagonally .",
+    "image": "1493.tif",
+    "pair": "1496-1493",
+    "side": 1,
+    "attribute": "bridge_curve",
+    "scene_query": "Scene: an overpass.",
+    "C": [
+      "The elevated road follows a straight path.",
+      "The elevated road follows a curved path."
+    ],
+    "D": [
+      "The roadway on top has a linear alignment.",
+      "A bend is visible in the roadway on top."
+    ],
+    "E": [
+      "The upper road keeps a straight course across the scene.",
+      "The direction of the upper road changes across the scene."
+    ]
+  },
+  {
+    "scene_id": 15,
+    "split": "test",
+    "row": 150,
+    "rgb_sha256": "69d0fb587c4716d5f33acad421f6e70f1133e01019beaa58d567451248eb7a28",
+    "orig_query": "Lots of cars are densely arranged in the parking lot .",
+    "image": "1591.tif",
+    "pair": "1591-1597",
+    "side": 0,
+    "attribute": "parking_axis",
+    "scene_query": "Scene: a parking lot.",
+    "C": [
+      "Cars are lined up in rows spanning the width of the view.",
+      "Cars are lined up in rows spanning the height of the view."
+    ],
+    "D": [
+      "The parking rows follow a left-right alignment.",
+      "The parking rows follow a top-bottom alignment."
+    ],
+    "E": [
+      "The lines of cars extend sideways across the lot.",
+      "The lines of cars extend vertically across the lot."
+    ]
+  },
+  {
+    "scene_id": 15,
+    "split": "test",
+    "row": 156,
+    "rgb_sha256": "75dbd3f7bdafa786a9e79fa8e0d5bead0a74c09a0aac6bfba0f6f8113117cf54",
+    "orig_query": "Lots of cars parked neatly in the parking lot .",
+    "image": "1597.tif",
+    "pair": "1591-1597",
+    "side": 1,
+    "attribute": "parking_axis",
+    "scene_query": "Scene: a parking lot.",
+    "C": [
+      "Cars are lined up in rows spanning the height of the view.",
+      "Cars are lined up in rows spanning the width of the view."
+    ],
+    "D": [
+      "The parking rows follow a top-bottom alignment.",
+      "The parking rows follow a left-right alignment."
+    ],
+    "E": [
+      "The lines of cars extend vertically across the lot.",
+      "The lines of cars extend sideways across the lot."
+    ]
+  },
+  {
+    "scene_id": 15,
+    "split": "test",
+    "row": 153,
+    "rgb_sha256": "6cb7bde504e8f5c4de70c95337e7eb04159f51816cc51baf7af7ecefa60534f7",
+    "orig_query": "Lots of cars parked in lines in the parking lot .",
+    "image": "1594.tif",
+    "pair": "1594-1599",
+    "side": 0,
+    "attribute": "parking_axis",
+    "scene_query": "Scene: a parking lot.",
+    "C": [
+      "Cars are lined up in rows spanning the width of the view.",
+      "Cars are lined up in rows spanning the height of the view."
+    ],
+    "D": [
+      "The parking rows follow a left-right alignment.",
+      "The parking rows follow a top-bottom alignment."
+    ],
+    "E": [
+      "The lines of cars extend sideways across the lot.",
+      "The lines of cars extend vertically across the lot."
+    ]
+  },
+  {
+    "scene_id": 15,
+    "split": "test",
+    "row": 158,
+    "rgb_sha256": "09b9bb4353b7b90ad2a234cce87846290b5033ed66a555d24a01703e62ff7edf",
+    "orig_query": "Lots of cars parked in lines in the parking lot .",
+    "image": "1599.tif",
+    "pair": "1594-1599",
+    "side": 1,
+    "attribute": "parking_axis",
+    "scene_query": "Scene: a parking lot.",
+    "C": [
+      "Cars are lined up in rows spanning the height of the view.",
+      "Cars are lined up in rows spanning the width of the view."
+    ],
+    "D": [
+      "The parking rows follow a top-bottom alignment.",
+      "The parking rows follow a left-right alignment."
+    ],
+    "E": [
+      "The lines of cars extend vertically across the lot.",
+      "The lines of cars extend sideways across the lot."
+    ]
+  },
+  {
+    "scene_id": 16,
+    "split": "test",
+    "row": 162,
+    "rgb_sha256": "67fc12e3ed70a568de11da5794619b299ccc9e601fd7b1c68b179f79f8c2a379",
+    "orig_query": "It is a river with many trees on both banks of the river .",
+    "image": "1693.tif",
+    "pair": "1693-1699",
+    "side": 0,
+    "attribute": "river_axis",
+    "scene_query": "Scene: a river.",
+    "C": [
+      "The channel spans the width of the view.",
+      "The channel spans the height of the view."
+    ],
+    "D": [
+      "The main course of the river goes across the frame sideways.",
+      "The main course of the river travels from the upper edge toward the lower edge."
+    ],
+    "E": [
+      "The channel stretches sideways across the scene.",
+      "The channel stretches vertically through the scene."
+    ]
+  },
+  {
+    "scene_id": 16,
+    "split": "test",
+    "row": 168,
+    "rgb_sha256": "688c686d41fe61aeca21cf4237ccfc52a5d52f14ff947cd633b4d5d02937a5ce",
+    "orig_query": "It is a very wide river with dense forest on both banks of the river .",
+    "image": "1699.tif",
+    "pair": "1693-1699",
+    "side": 1,
+    "attribute": "river_axis",
+    "scene_query": "Scene: a river.",
+    "C": [
+      "The channel spans the height of the view.",
+      "The channel spans the width of the view."
+    ],
+    "D": [
+      "The main course of the river travels from the upper edge toward the lower edge.",
+      "The main course of the river goes across the frame sideways."
+    ],
+    "E": [
+      "The channel stretches vertically through the scene.",
+      "The channel stretches sideways across the scene."
+    ]
+  },
+  {
+    "scene_id": 16,
+    "split": "test",
+    "row": 161,
+    "rgb_sha256": "1b35fb489a77dfac7d3e5ddee31b36f5cdd554c45c59a1d1ac046d3e0bde99da",
+    "orig_query": "It is a river with many trees on both banks of the river .",
+    "image": "1692.tif",
+    "pair": "1692-1700",
+    "side": 0,
+    "attribute": "river_axis",
+    "scene_query": "Scene: a river.",
+    "C": [
+      "The channel spans the width of the view.",
+      "The channel spans the height of the view."
+    ],
+    "D": [
+      "The main course of the river goes across the frame sideways.",
+      "The main course of the river travels from the upper edge toward the lower edge."
+    ],
+    "E": [
+      "The channel stretches sideways across the scene.",
+      "The channel stretches vertically through the scene."
+    ]
+  },
+  {
+    "scene_id": 16,
+    "split": "test",
+    "row": 169,
+    "rgb_sha256": "8f26bca355d22f9bfb66fb501fc6a280f16dfbd37696c87975e862cd290f6de5",
+    "orig_query": "It is a very wide river with dense forest on both banks of the river .",
+    "image": "1700.tif",
+    "pair": "1692-1700",
+    "side": 1,
+    "attribute": "river_axis",
+    "scene_query": "Scene: a river.",
+    "C": [
+      "The channel spans the height of the view.",
+      "The channel spans the width of the view."
+    ],
+    "D": [
+      "The main course of the river travels from the upper edge toward the lower edge.",
+      "The main course of the river goes across the frame sideways."
+    ],
+    "E": [
+      "The channel stretches vertically through the scene.",
+      "The channel stretches sideways across the scene."
+    ]
+  },
+  {
+    "scene_id": 16,
+    "split": "test",
+    "row": 166,
+    "rgb_sha256": "479c4150b71e2ad4b325226a45850be969a3bcfafb2efead02ac5eeece65c64f",
+    "orig_query": "It is a river with dense forest on both banks of the river and some boats moored to the bank .",
+    "image": "1697.tif",
+    "pair": "1697-1691",
+    "side": 0,
+    "attribute": "water_boat",
+    "scene_query": "Scene: a river.",
+    "C": [
+      "A boat is visible on the river.",
+      "There is no visible boat on the river."
+    ],
+    "D": [
+      "A vessel appears along the river channel.",
+      "The river channel shows no vessel."
+    ],
+    "E": [
+      "The river scene includes a boat on the water.",
+      "The water is shown without a visible boat."
+    ]
+  },
+  {
+    "scene_id": 16,
+    "split": "test",
+    "row": 160,
+    "rgb_sha256": "0c66deb50b429d8eb549b4ecba96ad4b6841d372b774a3d8b51a890ddfec37a2",
+    "orig_query": "It is a river with many trees on both banks of the river .",
+    "image": "1691.tif",
+    "pair": "1697-1691",
+    "side": 1,
+    "attribute": "water_boat",
+    "scene_query": "Scene: a river.",
+    "C": [
+      "There is no visible boat on the river.",
+      "A boat is visible on the river."
+    ],
+    "D": [
+      "The river channel shows no vessel.",
+      "A vessel appears along the river channel."
+    ],
+    "E": [
+      "The water is shown without a visible boat.",
+      "The river scene includes a boat on the water."
+    ]
+  },
+  {
+    "scene_id": 16,
+    "split": "test",
+    "row": 167,
+    "rgb_sha256": "5fe2f0fe8975c9f96bd68f839320eea6663946a57a2fb5655632b7b71677fcff",
+    "orig_query": "It is a river with dense forest on both banks of the river and some boats moored to the bank .",
+    "image": "1698.tif",
+    "pair": "1698-1694",
+    "side": 0,
+    "attribute": "water_boat",
+    "scene_query": "Scene: a river.",
+    "C": [
+      "A boat is visible on the river.",
+      "There is no visible boat on the river."
+    ],
+    "D": [
+      "A vessel appears along the river channel.",
+      "The river channel shows no vessel."
+    ],
+    "E": [
+      "The river scene includes a boat on the water.",
+      "The water is shown without a visible boat."
+    ]
+  },
+  {
+    "scene_id": 16,
+    "split": "test",
+    "row": 163,
+    "rgb_sha256": "ac59bbef4e12716f90ae3673dcc4b72d30b71afeef9359393f41637a0f00dcf5",
+    "orig_query": "It is a river with many trees on both banks of the river .",
+    "image": "1694.tif",
+    "pair": "1698-1694",
+    "side": 1,
+    "attribute": "water_boat",
+    "scene_query": "Scene: a river.",
+    "C": [
+      "There is no visible boat on the river.",
+      "A boat is visible on the river."
+    ],
+    "D": [
+      "The river channel shows no vessel.",
+      "A vessel appears along the river channel."
+    ],
+    "E": [
+      "The water is shown without a visible boat.",
+      "The river scene includes a boat on the water."
+    ]
+  },
+  {
+    "scene_id": 17,
+    "split": "val",
+    "row": 171,
+    "rgb_sha256": "007647697dba4656d183ee3c4e821652104c387da5f4603014987ec35a107148",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "image": "1782.tif",
+    "pair": "1782-1786",
+    "side": 0,
+    "attribute": "runway_bars",
+    "scene_query": "Scene: a runway.",
+    "C": [
+      "The airstrip bears prominent broad white rectangles.",
+      "No broad white rectangles appear on the airstrip."
+    ],
+    "D": [
+      "The runway includes conspicuous wide white bars.",
+      "There are no conspicuous wide white bars on the runway."
+    ],
+    "E": [
+      "The runway has broad rectangular white markings.",
+      "The runway lacks broad rectangular white markings."
+    ]
+  },
+  {
+    "scene_id": 17,
+    "split": "val",
+    "row": 175,
+    "rgb_sha256": "870e42feb1d9d211998f45872c9a3f99041eab98049ff791f1198944c1298197",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "image": "1786.tif",
+    "pair": "1782-1786",
+    "side": 1,
+    "attribute": "runway_bars",
+    "scene_query": "Scene: a runway.",
+    "C": [
+      "No broad white rectangles appear on the airstrip.",
+      "The airstrip bears prominent broad white rectangles."
+    ],
+    "D": [
+      "There are no conspicuous wide white bars on the runway.",
+      "The runway includes conspicuous wide white bars."
+    ],
+    "E": [
+      "The runway lacks broad rectangular white markings.",
+      "The runway has broad rectangular white markings."
+    ]
+  },
+  {
+    "scene_id": 17,
+    "split": "test",
+    "row": 172,
+    "rgb_sha256": "d345cf61dc04382b3e2a7dd78892a50180451320c3a7f966d6d128164dbf4c3a",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "image": "1793.tif",
+    "pair": "1793-1797",
+    "side": 0,
+    "attribute": "runway_bars",
+    "scene_query": "Scene: a runway.",
+    "C": [
+      "The airstrip bears prominent broad white rectangles.",
+      "No broad white rectangles appear on the airstrip."
+    ],
+    "D": [
+      "The runway includes conspicuous wide white bars.",
+      "There are no conspicuous wide white bars on the runway."
+    ],
+    "E": [
+      "The runway has broad rectangular white markings.",
+      "The runway lacks broad rectangular white markings."
+    ]
+  },
+  {
+    "scene_id": 17,
+    "split": "test",
+    "row": 176,
+    "rgb_sha256": "5bdf1ee30b10f3e36293e280d7ea49a57cd9f7908050137bc8a0bfbc3644e157",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "image": "1797.tif",
+    "pair": "1793-1797",
+    "side": 1,
+    "attribute": "runway_bars",
+    "scene_query": "Scene: a runway.",
+    "C": [
+      "No broad white rectangles appear on the airstrip.",
+      "The airstrip bears prominent broad white rectangles."
+    ],
+    "D": [
+      "There are no conspicuous wide white bars on the runway.",
+      "The runway includes conspicuous wide white bars."
+    ],
+    "E": [
+      "The runway lacks broad rectangular white markings.",
+      "The runway has broad rectangular white markings."
+    ]
+  },
+  {
+    "scene_id": 17,
+    "split": "val",
+    "row": 178,
+    "rgb_sha256": "e474096ac836a2530e9abf514ed30553e9338c03167a9a11b2434c0d15c9035e",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "image": "1789.tif",
+    "pair": "1789-1788",
+    "side": 0,
+    "attribute": "paired_bars",
+    "scene_query": "Scene: a runway.",
+    "C": [
+      "Adjacent parallel white bars form a pair beside the centerline.",
+      "There is no pair of adjacent white bars beside the centerline."
+    ],
+    "D": [
+      "Two neighboring white strips sit side by side to one side of the middle line.",
+      "No side-by-side pair of white strips appears next to the middle line."
+    ],
+    "E": [
+      "Paired parallel white marks flank the runway center.",
+      "The surface lacks paired parallel white marks flanking its center."
+    ]
+  },
+  {
+    "scene_id": 17,
+    "split": "val",
+    "row": 177,
+    "rgb_sha256": "fb916bb1cb9c2749e0805ec50bbbcf7002f29eb1e45b7372541cd3adcf71fd18",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "image": "1788.tif",
+    "pair": "1789-1788",
+    "side": 1,
+    "attribute": "paired_bars",
+    "scene_query": "Scene: a runway.",
+    "C": [
+      "There is no pair of adjacent white bars beside the centerline.",
+      "Adjacent parallel white bars form a pair beside the centerline."
+    ],
+    "D": [
+      "No side-by-side pair of white strips appears next to the middle line.",
+      "Two neighboring white strips sit side by side to one side of the middle line."
+    ],
+    "E": [
+      "The surface lacks paired parallel white marks flanking its center.",
+      "Paired parallel white marks flank the runway center."
+    ]
+  },
+  {
+    "scene_id": 17,
+    "split": "test",
+    "row": 173,
+    "rgb_sha256": "271156cdf64f6fce2e8e8f3a942e2a10fea50effb66a320c156b1f18f9e875b7",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "image": "1794.tif",
+    "pair": "1794-1792",
+    "side": 0,
+    "attribute": "paired_bars",
+    "scene_query": "Scene: a runway.",
+    "C": [
+      "Adjacent parallel white bars form a pair beside the centerline.",
+      "There is no pair of adjacent white bars beside the centerline."
+    ],
+    "D": [
+      "Two neighboring white strips sit side by side to one side of the middle line.",
+      "No side-by-side pair of white strips appears next to the middle line."
+    ],
+    "E": [
+      "Paired parallel white marks flank the runway center.",
+      "The surface lacks paired parallel white marks flanking its center."
+    ]
+  },
+  {
+    "scene_id": 17,
+    "split": "test",
+    "row": 171,
+    "rgb_sha256": "18800baf2ba474bb11c638b010e680241c326d79a15032241cc9688e1d199a51",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "image": "1792.tif",
+    "pair": "1794-1792",
+    "side": 1,
+    "attribute": "paired_bars",
+    "scene_query": "Scene: a runway.",
+    "C": [
+      "There is no pair of adjacent white bars beside the centerline.",
+      "Adjacent parallel white bars form a pair beside the centerline."
+    ],
+    "D": [
+      "No side-by-side pair of white strips appears next to the middle line.",
+      "Two neighboring white strips sit side by side to one side of the middle line."
+    ],
+    "E": [
+      "The surface lacks paired parallel white marks flanking its center.",
+      "Paired parallel white marks flank the runway center."
+    ]
+  },
+  {
+    "scene_id": 17,
+    "split": "test",
+    "row": 175,
+    "rgb_sha256": "92a874bf488dc4bf79ddad5988c4529b3c1c415498b291404bf96be8bdf43101",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "image": "1796.tif",
+    "pair": "1796-1799",
+    "side": 0,
+    "attribute": "paired_bars",
+    "scene_query": "Scene: a runway.",
+    "C": [
+      "Adjacent parallel white bars form a pair beside the centerline.",
+      "There is no pair of adjacent white bars beside the centerline."
+    ],
+    "D": [
+      "Two neighboring white strips sit side by side to one side of the middle line.",
+      "No side-by-side pair of white strips appears next to the middle line."
+    ],
+    "E": [
+      "Paired parallel white marks flank the runway center.",
+      "The surface lacks paired parallel white marks flanking its center."
+    ]
+  },
+  {
+    "scene_id": 17,
+    "split": "test",
+    "row": 178,
+    "rgb_sha256": "4b6f326ae33f07a3e09b84e71fa9f468831f4659c2ff1e1757d900a9821f7a6e",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "image": "1799.tif",
+    "pair": "1796-1799",
+    "side": 1,
+    "attribute": "paired_bars",
+    "scene_query": "Scene: a runway.",
+    "C": [
+      "There is no pair of adjacent white bars beside the centerline.",
+      "Adjacent parallel white bars form a pair beside the centerline."
+    ],
+    "D": [
+      "No side-by-side pair of white strips appears next to the middle line.",
+      "Two neighboring white strips sit side by side to one side of the middle line."
+    ],
+    "E": [
+      "The surface lacks paired parallel white marks flanking its center.",
+      "Paired parallel white marks flank the runway center."
+    ]
+  },
+  {
+    "scene_id": 17,
+    "split": "test",
+    "row": 179,
+    "rgb_sha256": "1643d15bfda278e07f3bbf84ac2d440146bcc7e49d0fc5ce0fc17649d4d9128a",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "image": "1800.tif",
+    "pair": "1800-1791",
+    "side": 0,
+    "attribute": "paired_bars",
+    "scene_query": "Scene: a runway.",
+    "C": [
+      "Adjacent parallel white bars form a pair beside the centerline.",
+      "There is no pair of adjacent white bars beside the centerline."
+    ],
+    "D": [
+      "Two neighboring white strips sit side by side to one side of the middle line.",
+      "No side-by-side pair of white strips appears next to the middle line."
+    ],
+    "E": [
+      "Paired parallel white marks flank the runway center.",
+      "The surface lacks paired parallel white marks flanking its center."
+    ]
+  },
+  {
+    "scene_id": 17,
+    "split": "test",
+    "row": 170,
+    "rgb_sha256": "5da60ddd4319017a9b73a7d24ba996c2a55d8814c53dac898e51ce243349cb99",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "image": "1791.tif",
+    "pair": "1800-1791",
+    "side": 1,
+    "attribute": "paired_bars",
+    "scene_query": "Scene: a runway.",
+    "C": [
+      "There is no pair of adjacent white bars beside the centerline.",
+      "Adjacent parallel white bars form a pair beside the centerline."
+    ],
+    "D": [
+      "No side-by-side pair of white strips appears next to the middle line.",
+      "Two neighboring white strips sit side by side to one side of the middle line."
+    ],
+    "E": [
+      "The surface lacks paired parallel white marks flanking its center.",
+      "Paired parallel white marks flank the runway center."
+    ]
+  },
+  {
+    "scene_id": 18,
+    "split": "test",
+    "row": 180,
+    "rgb_sha256": "2442c71ba0bbae841b52657c1ae9e6fbf5b3dbf8a17a96df80537246a49f2a43",
+    "orig_query": "A house with is surrounded by bushes and snds in the sparse residential area .",
+    "image": "1891.tif",
+    "pair": "1891-1892",
+    "side": 0,
+    "attribute": "house_pool",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "A pool is visible in the grounds of the house.",
+      "The grounds of the house show no pool."
+    ],
+    "D": [
+      "A swimming pool is visible on the residential property.",
+      "No swimming pool is visible on the residential property."
+    ],
+    "E": [
+      "There is a swimming pool on the grounds around this home.",
+      "The grounds around this home have no visible swimming pool."
+    ]
+  },
+  {
+    "scene_id": 18,
+    "split": "test",
+    "row": 181,
+    "rgb_sha256": "2bef1475828db0e144f94adf29437fec8e9ae4240eb07e94a622e2b80d8f772f",
+    "orig_query": "A house with is surrounded by bushes and sands in the sparse residential area .",
+    "image": "1892.tif",
+    "pair": "1891-1892",
+    "side": 1,
+    "attribute": "house_pool",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The grounds of the house show no pool.",
+      "A pool is visible in the grounds of the house."
+    ],
+    "D": [
+      "No swimming pool is visible on the residential property.",
+      "A swimming pool is visible on the residential property."
+    ],
+    "E": [
+      "The grounds around this home have no visible swimming pool.",
+      "There is a swimming pool on the grounds around this home."
+    ]
+  },
+  {
+    "scene_id": 18,
+    "split": "test",
+    "row": 182,
+    "rgb_sha256": "ffb85d11743f4641bd9ca14546d13f44b65ea1943c830d9d74eb89bd3a31b502",
+    "orig_query": "A house with is surrounded by bushes and sands in the sparse residential area .",
+    "image": "1893.tif",
+    "pair": "1893-1898",
+    "side": 0,
+    "attribute": "house_pool",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "A pool is visible in the grounds of the house.",
+      "The grounds of the house show no pool."
+    ],
+    "D": [
+      "A swimming pool is visible on the residential property.",
+      "No swimming pool is visible on the residential property."
+    ],
+    "E": [
+      "There is a swimming pool on the grounds around this home.",
+      "The grounds around this home have no visible swimming pool."
+    ]
+  },
+  {
+    "scene_id": 18,
+    "split": "test",
+    "row": 187,
+    "rgb_sha256": "b3b435f44be5c51a11958dd42b1c4e7ae3c7c782131b0401d29ddce3a67b58c2",
+    "orig_query": "A small house is surrounded by losts of plants in the sparse residential area .",
+    "image": "1898.tif",
+    "pair": "1893-1898",
+    "side": 1,
+    "attribute": "house_pool",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The grounds of the house show no pool.",
+      "A pool is visible in the grounds of the house."
+    ],
+    "D": [
+      "No swimming pool is visible on the residential property.",
+      "A swimming pool is visible on the residential property."
+    ],
+    "E": [
+      "The grounds around this home have no visible swimming pool.",
+      "There is a swimming pool on the grounds around this home."
+    ]
+  },
+  {
+    "scene_id": 18,
+    "split": "test",
+    "row": 183,
+    "rgb_sha256": "1c57dbfc3fab43957c3ad33c032ba4687bd4656668753531119b7e48dd809e5e",
+    "orig_query": "A house with is surrounded by bushes and sands in the sparse residential area .",
+    "image": "1894.tif",
+    "pair": "1894-1900",
+    "side": 0,
+    "attribute": "house_pool",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "A pool is visible in the grounds of the house.",
+      "The grounds of the house show no pool."
+    ],
+    "D": [
+      "A swimming pool is visible on the residential property.",
+      "No swimming pool is visible on the residential property."
+    ],
+    "E": [
+      "There is a swimming pool on the grounds around this home.",
+      "The grounds around this home have no visible swimming pool."
+    ]
+  },
+  {
+    "scene_id": 18,
+    "split": "test",
+    "row": 189,
+    "rgb_sha256": "c70004a5a3843c93afd8b6f23f0d9a038dad11ff1bd05161752b80b60cd1e7e1",
+    "orig_query": "Some houses are surrounded by plants and lawn in the spase residential area .",
+    "image": "1900.tif",
+    "pair": "1894-1900",
+    "side": 1,
+    "attribute": "house_pool",
+    "scene_query": "Scene: a residential area.",
+    "C": [
+      "The grounds of the house show no pool.",
+      "A pool is visible in the grounds of the house."
+    ],
+    "D": [
+      "No swimming pool is visible on the residential property.",
+      "A swimming pool is visible on the residential property."
+    ],
+    "E": [
+      "The grounds around this home have no visible swimming pool.",
+      "There is a swimming pool on the grounds around this home."
+    ]
+  },
+  {
+    "scene_id": 20,
+    "split": "test",
+    "row": 200,
+    "rgb_sha256": "4c7050f4864f2f38c60c6611cb8dce6eb00c68a1d38bd5dd652100a47b966574",
+    "orig_query": "Two tennis courts arranged neatly with some plants surrounded .",
+    "image": "2091.tif",
+    "pair": "2091-2094",
+    "side": 0,
+    "attribute": "court_surround",
+    "scene_query": "Scene: tennis courts.",
+    "C": [
+      "Outside the marked lines the court surface is red.",
+      "Outside the marked lines the court surface is green."
+    ],
+    "D": [
+      "The outer apron of the tennis court is red.",
+      "The outer apron of the tennis court is green."
+    ],
+    "E": [
+      "A red surface borders the lined part of the tennis court.",
+      "A green surface borders the lined part of the tennis court."
+    ]
+  },
+  {
+    "scene_id": 20,
+    "split": "test",
+    "row": 203,
+    "rgb_sha256": "a36caaa491b4768786e36bfd5d7ec70781490c07c3238c7c62a30e1b95275b6b",
+    "orig_query": "Two tennis courts on the lawn with some plants beside .",
+    "image": "2094.tif",
+    "pair": "2091-2094",
+    "side": 1,
+    "attribute": "court_surround",
+    "scene_query": "Scene: tennis courts.",
+    "C": [
+      "Outside the marked lines the court surface is green.",
+      "Outside the marked lines the court surface is red."
+    ],
+    "D": [
+      "The outer apron of the tennis court is green.",
+      "The outer apron of the tennis court is red."
+    ],
+    "E": [
+      "A green surface borders the lined part of the tennis court.",
+      "A red surface borders the lined part of the tennis court."
+    ]
+  },
+  {
+    "scene_id": 20,
+    "split": "test",
+    "row": 201,
+    "rgb_sha256": "bc387398abda449a0820116031d247dcea71a61ff9fbfc5c385fac130f2ea3fd",
+    "orig_query": "Three tennis courts arranged neatly with some plants surrounded .",
+    "image": "2092.tif",
+    "pair": "2092-2096",
+    "side": 0,
+    "attribute": "court_red",
+    "scene_query": "Scene: tennis courts.",
+    "C": [
+      "The area immediately outside the playing lines is red.",
+      "The area immediately outside the playing lines is not red."
+    ],
+    "D": [
+      "Red paving borders the court markings.",
+      "There is no red paving bordering the court markings."
+    ],
+    "E": [
+      "A reddish border surrounds the painted court.",
+      "The border around the painted court lacks a reddish color."
+    ]
+  },
+  {
+    "scene_id": 20,
+    "split": "test",
+    "row": 205,
+    "rgb_sha256": "8cfd74944b8979b7a18b3d74750e76536947e2c035e6bf9771a04b63e817033b",
+    "orig_query": "Many tennis courts arranged in line with some plants beside .",
+    "image": "2096.tif",
+    "pair": "2092-2096",
+    "side": 1,
+    "attribute": "court_red",
+    "scene_query": "Scene: tennis courts.",
+    "C": [
+      "The area immediately outside the playing lines is not red.",
+      "The area immediately outside the playing lines is red."
+    ],
+    "D": [
+      "There is no red paving bordering the court markings.",
+      "Red paving borders the court markings."
+    ],
+    "E": [
+      "The border around the painted court lacks a reddish color.",
+      "A reddish border surrounds the painted court."
+    ]
+  },
+  {
+    "scene_id": 20,
+    "split": "test",
+    "row": 202,
+    "rgb_sha256": "baa51245ac268a9f30bb310702f59c6a6cbc778b23afd4810f4600b6a374ccdb",
+    "orig_query": "Three tennis courts arranged neatly with some plants surrounded .",
+    "image": "2093.tif",
+    "pair": "2093-2099",
+    "side": 0,
+    "attribute": "court_red",
+    "scene_query": "Scene: tennis courts.",
+    "C": [
+      "The area immediately outside the playing lines is red.",
+      "The area immediately outside the playing lines is not red."
+    ],
+    "D": [
+      "Red paving borders the court markings.",
+      "There is no red paving bordering the court markings."
+    ],
+    "E": [
+      "A reddish border surrounds the painted court.",
+      "The border around the painted court lacks a reddish color."
+    ]
+  },
+  {
+    "scene_id": 20,
+    "split": "test",
+    "row": 208,
+    "rgb_sha256": "b17f81482e6ebfaa10edf1ee4f5978edd0690b7975926c4050364a7cea4cf127",
+    "orig_query": "Four tennis courts on the lawn with a road beside .",
+    "image": "2099.tif",
+    "pair": "2093-2099",
+    "side": 1,
+    "attribute": "court_red",
+    "scene_query": "Scene: tennis courts.",
+    "C": [
+      "The area immediately outside the playing lines is not red.",
+      "The area immediately outside the playing lines is red."
+    ],
+    "D": [
+      "There is no red paving bordering the court markings.",
+      "Red paving borders the court markings."
+    ],
+    "E": [
+      "The border around the painted court lacks a reddish color.",
+      "A reddish border surrounds the painted court."
+    ]
+  },
+  {
+    "scene_id": 20,
+    "split": "test",
+    "row": 204,
+    "rgb_sha256": "802f6b301a4e7daabc48b1812c80c3ecebd18b533fffc653d0a4a1071802cd48",
+    "orig_query": "A small tennis court with some plants and a road beside .",
+    "image": "2095.tif",
+    "pair": "2095-2098",
+    "side": 0,
+    "attribute": "court_red",
+    "scene_query": "Scene: tennis courts.",
+    "C": [
+      "The area immediately outside the playing lines is red.",
+      "The area immediately outside the playing lines is not red."
+    ],
+    "D": [
+      "Red paving borders the court markings.",
+      "There is no red paving bordering the court markings."
+    ],
+    "E": [
+      "A reddish border surrounds the painted court.",
+      "The border around the painted court lacks a reddish color."
+    ]
+  },
+  {
+    "scene_id": 20,
+    "split": "test",
+    "row": 207,
+    "rgb_sha256": "0040f42e6efaa9d6aadc55a1f08455f944625b0ac14888c8d5ec8e9d01455d37",
+    "orig_query": "A small tennis court with some plants and a road beside .",
+    "image": "2098.tif",
+    "pair": "2095-2098",
+    "side": 1,
+    "attribute": "court_red",
+    "scene_query": "Scene: tennis courts.",
+    "C": [
+      "The area immediately outside the playing lines is not red.",
+      "The area immediately outside the playing lines is red."
+    ],
+    "D": [
+      "There is no red paving bordering the court markings.",
+      "Red paving borders the court markings."
+    ],
+    "E": [
+      "The border around the painted court lacks a reddish color.",
+      "A reddish border surrounds the painted court."
+    ]
+  },
+  {
+    "scene_id": 20,
+    "split": "test",
+    "row": 206,
+    "rgb_sha256": "9863251079e2a5c2e60f54d1c08f101ef77d6e039c422cd7382f04956b576f6b",
+    "orig_query": "A small tennis court with some plants and a road beside .",
+    "image": "2097.tif",
+    "pair": "2097-2100",
+    "side": 0,
+    "attribute": "court_red",
+    "scene_query": "Scene: tennis courts.",
+    "C": [
+      "The area immediately outside the playing lines is red.",
+      "The area immediately outside the playing lines is not red."
+    ],
+    "D": [
+      "Red paving borders the court markings.",
+      "There is no red paving bordering the court markings."
+    ],
+    "E": [
+      "A reddish border surrounds the painted court.",
+      "The border around the painted court lacks a reddish color."
+    ]
+  },
+  {
+    "scene_id": 20,
+    "split": "test",
+    "row": 209,
+    "rgb_sha256": "fbfb960573f048756bee02fea570de63a06f6cf8131c4ac62cf53c8bd48a13aa",
+    "orig_query": "Four tennis courts on the lawn with a road beside .",
+    "image": "2100.tif",
+    "pair": "2097-2100",
+    "side": 1,
+    "attribute": "court_red",
+    "scene_query": "Scene: tennis courts.",
+    "C": [
+      "The area immediately outside the playing lines is not red.",
+      "The area immediately outside the playing lines is red."
+    ],
+    "D": [
+      "There is no red paving bordering the court markings.",
+      "Red paving borders the court markings."
+    ],
+    "E": [
+      "The border around the painted court lacks a reddish color.",
+      "A reddish border surrounds the painted court."
+    ]
+  },
+  {
+    "scene_id": 1,
+    "split": "test",
+    "row": 12,
+    "rgb_sha256": "4c5c264ae037de5a076b58a32f288d681c959219c4de442fce88e6ce46c4e992",
+    "orig_query": "There are many airplanes at the airport .",
+    "image": "193.tif",
+    "pair": "193-197",
+    "side": 0,
+    "attribute": "plane_scale",
+    "scene_query": "Scene: an airport apron.",
+    "C": [
+      "Most visible airplanes are small light aircraft.",
+      "Most visible airplanes are large passenger jets."
+    ],
+    "D": [
+      "The aircraft are predominantly small planes.",
+      "The aircraft are predominantly large airliners."
+    ],
+    "E": [
+      "Small light aircraft dominate the view.",
+      "Large passenger aircraft dominate the view."
+    ]
+  },
+  {
+    "scene_id": 1,
+    "split": "test",
+    "row": 16,
+    "rgb_sha256": "9a720464b53ef9f4d59c63611c6cd369ec9f32e884d320d90c70c5eba2897fd3",
+    "orig_query": "There is an airplanes at the airport with some luggage cars beside it .",
+    "image": "197.tif",
+    "pair": "193-197",
+    "side": 1,
+    "attribute": "plane_scale",
+    "scene_query": "Scene: an airport apron.",
+    "C": [
+      "Most visible airplanes are large passenger jets.",
+      "Most visible airplanes are small light aircraft."
+    ],
+    "D": [
+      "The aircraft are predominantly large airliners.",
+      "The aircraft are predominantly small planes."
+    ],
+    "E": [
+      "Large passenger aircraft dominate the view.",
+      "Small light aircraft dominate the view."
+    ]
+  },
+  {
+    "scene_id": 1,
+    "split": "test",
+    "row": 13,
+    "rgb_sha256": "c935d63f75a0da851613ffca02858180dff3a2335013c872d27775cd542f9d9d",
+    "orig_query": "There are many small airplanes at the airport .",
+    "image": "194.tif",
+    "pair": "194-198",
+    "side": 0,
+    "attribute": "plane_scale",
+    "scene_query": "Scene: an airport apron.",
+    "C": [
+      "Most visible airplanes are small light aircraft.",
+      "Most visible airplanes are large passenger jets."
+    ],
+    "D": [
+      "The aircraft are predominantly small planes.",
+      "The aircraft are predominantly large airliners."
+    ],
+    "E": [
+      "Small light aircraft dominate the view.",
+      "Large passenger aircraft dominate the view."
+    ]
+  },
+  {
+    "scene_id": 1,
+    "split": "test",
+    "row": 17,
+    "rgb_sha256": "8fbd105e72c323e5c6663ec4b7a5e6fb80e625201d1ad64781c5a47d08966119",
+    "orig_query": "There is a white airplane in the airport .",
+    "image": "198.tif",
+    "pair": "194-198",
+    "side": 1,
+    "attribute": "plane_scale",
+    "scene_query": "Scene: an airport apron.",
+    "C": [
+      "Most visible airplanes are large passenger jets.",
+      "Most visible airplanes are small light aircraft."
+    ],
+    "D": [
+      "The aircraft are predominantly large airliners.",
+      "The aircraft are predominantly small planes."
+    ],
+    "E": [
+      "Large passenger aircraft dominate the view.",
+      "Small light aircraft dominate the view."
+    ]
+  },
+  {
+    "scene_id": 1,
+    "split": "test",
+    "row": 14,
+    "rgb_sha256": "cb8879043b1c251199b5939ebe77725e4aaede04803498e1de20ec7b7cd2154e",
+    "orig_query": "There are many small airplanes at the airport and the ground is dark .",
+    "image": "195.tif",
+    "pair": "195-199",
+    "side": 0,
+    "attribute": "plane_scale",
+    "scene_query": "Scene: an airport apron.",
+    "C": [
+      "Most visible airplanes are small light aircraft.",
+      "Most visible airplanes are large passenger jets."
+    ],
+    "D": [
+      "The aircraft are predominantly small planes.",
+      "The aircraft are predominantly large airliners."
+    ],
+    "E": [
+      "Small light aircraft dominate the view.",
+      "Large passenger aircraft dominate the view."
+    ]
+  },
+  {
+    "scene_id": 1,
+    "split": "test",
+    "row": 18,
+    "rgb_sha256": "96c8bbe8d8cda4585b02e1423a5ba4eb4bdb731915b24b299bb171c1b90b02f2",
+    "orig_query": "There is a blue airplane in the airport .",
+    "image": "199.tif",
+    "pair": "195-199",
+    "side": 1,
+    "attribute": "plane_scale",
+    "scene_query": "Scene: an airport apron.",
+    "C": [
+      "Most visible airplanes are large passenger jets.",
+      "Most visible airplanes are small light aircraft."
+    ],
+    "D": [
+      "The aircraft are predominantly large airliners.",
+      "The aircraft are predominantly small planes."
+    ],
+    "E": [
+      "Large passenger aircraft dominate the view.",
+      "Small light aircraft dominate the view."
+    ]
+  },
+  {
+    "scene_id": 1,
+    "split": "test",
+    "row": 10,
+    "rgb_sha256": "5b76c1ecae8f8ed57d11f790717ed641bcc8aa0b7bf00e801113ca35bc6ff806",
+    "orig_query": "There are many airplanes at the airport .",
+    "image": "191.tif",
+    "pair": "191-196",
+    "side": 0,
+    "attribute": "plane_count",
+    "scene_query": "Scene: an airport apron.",
+    "C": [
+      "Several large jets are visible.",
+      "Just one large jet is visible."
+    ],
+    "D": [
+      "The scene shows multiple large airliners.",
+      "The scene shows a single large airliner."
+    ],
+    "E": [
+      "More than one large passenger plane appears.",
+      "Only one large passenger plane appears."
+    ]
+  },
+  {
+    "scene_id": 1,
+    "split": "test",
+    "row": 15,
+    "rgb_sha256": "7cb249da0512033e9773bb788c67df3d450b9cb9b881776df6e9dcacb68a446a",
+    "orig_query": "There is an airplanes at the airport .",
+    "image": "196.tif",
+    "pair": "191-196",
+    "side": 1,
+    "attribute": "plane_count",
+    "scene_query": "Scene: an airport apron.",
+    "C": [
+      "Just one large jet is visible.",
+      "Several large jets are visible."
+    ],
+    "D": [
+      "The scene shows a single large airliner.",
+      "The scene shows multiple large airliners."
+    ],
+    "E": [
+      "Only one large passenger plane appears.",
+      "More than one large passenger plane appears."
+    ]
+  },
+  {
+    "scene_id": 9,
+    "split": "val",
+    "row": 97,
+    "rgb_sha256": "19bceba07a41f66598bc789452b2e8cbbe90aded745dedf97bfce79c730cf736",
+    "orig_query": "This is a part of a golf course with green turfs and some bunkers and trees .",
+    "image": "986.tif",
+    "pair": "986-981",
+    "side": 0,
+    "attribute": "golf_sand",
+    "scene_query": "Scene: a golf course.",
+    "C": [
+      "A pale sand bunker is visible on the golf course.",
+      "No pale sand bunker is visible on the golf course."
+    ],
+    "D": [
+      "The golf grounds contain a light-colored sand trap.",
+      "The golf grounds show no light-colored sand trap."
+    ],
+    "E": [
+      "A patch of pale bunker sand appears beside the grass.",
+      "The grass is shown without a visible patch of bunker sand."
+    ]
+  },
+  {
+    "scene_id": 9,
+    "split": "val",
+    "row": 92,
+    "rgb_sha256": "3392fd7d82684ea6bb5d17015f93ffce658c455aa9fbea1c5a85b3b6977ca93e",
+    "orig_query": "This is a part of a golf course with green turfs and some trees .",
+    "image": "981.tif",
+    "pair": "986-981",
+    "side": 1,
+    "attribute": "golf_sand",
+    "scene_query": "Scene: a golf course.",
+    "C": [
+      "No pale sand bunker is visible on the golf course.",
+      "A pale sand bunker is visible on the golf course."
+    ],
+    "D": [
+      "The golf grounds show no light-colored sand trap.",
+      "The golf grounds contain a light-colored sand trap."
+    ],
+    "E": [
+      "The grass is shown without a visible patch of bunker sand.",
+      "A patch of pale bunker sand appears beside the grass."
+    ]
+  },
+  {
+    "scene_id": 9,
+    "split": "test",
+    "row": 90,
+    "rgb_sha256": "ff4a27a216ad0445cd3e274c8bbc68757879fc2d72d435d7cb42458eda5bbfc5",
+    "orig_query": "This is a part of a golf course with green turfs and some bunkers .",
+    "image": "991.tif",
+    "pair": "991-993",
+    "side": 0,
+    "attribute": "golf_sand",
+    "scene_query": "Scene: a golf course.",
+    "C": [
+      "A pale sand bunker is visible on the golf course.",
+      "No pale sand bunker is visible on the golf course."
+    ],
+    "D": [
+      "The golf grounds contain a light-colored sand trap.",
+      "The golf grounds show no light-colored sand trap."
+    ],
+    "E": [
+      "A patch of pale bunker sand appears beside the grass.",
+      "The grass is shown without a visible patch of bunker sand."
+    ]
+  },
+  {
+    "scene_id": 9,
+    "split": "test",
+    "row": 92,
+    "rgb_sha256": "e04046e9f9b66728054e1372564d599938accc122a7377dc30ef21c378363787",
+    "orig_query": "This is a part of a golf course with green turfs and some trees .",
+    "image": "993.tif",
+    "pair": "991-993",
+    "side": 1,
+    "attribute": "golf_sand",
+    "scene_query": "Scene: a golf course.",
+    "C": [
+      "No pale sand bunker is visible on the golf course.",
+      "A pale sand bunker is visible on the golf course."
+    ],
+    "D": [
+      "The golf grounds show no light-colored sand trap.",
+      "The golf grounds contain a light-colored sand trap."
+    ],
+    "E": [
+      "The grass is shown without a visible patch of bunker sand.",
+      "A patch of pale bunker sand appears beside the grass."
+    ]
+  },
+  {
+    "scene_id": 9,
+    "split": "test",
+    "row": 91,
+    "rgb_sha256": "8f913abc00743aeae7e0466b11fbfc13a0d5088bd665e3951c7bb076a5a837ae",
+    "orig_query": "This is a part of a golf course with green turfs and some bunkers .",
+    "image": "992.tif",
+    "pair": "992-996",
+    "side": 0,
+    "attribute": "golf_sand",
+    "scene_query": "Scene: a golf course.",
+    "C": [
+      "A pale sand bunker is visible on the golf course.",
+      "No pale sand bunker is visible on the golf course."
+    ],
+    "D": [
+      "The golf grounds contain a light-colored sand trap.",
+      "The golf grounds show no light-colored sand trap."
+    ],
+    "E": [
+      "A patch of pale bunker sand appears beside the grass.",
+      "The grass is shown without a visible patch of bunker sand."
+    ]
+  },
+  {
+    "scene_id": 9,
+    "split": "test",
+    "row": 95,
+    "rgb_sha256": "2f2d025dfbdf7d837aa13ea0c3730c6bce3416b478b5afba741a53693df61035",
+    "orig_query": "This is a part of a golf course with green turfs and trees .",
+    "image": "996.tif",
+    "pair": "992-996",
+    "side": 1,
+    "attribute": "golf_sand",
+    "scene_query": "Scene: a golf course.",
+    "C": [
+      "No pale sand bunker is visible on the golf course.",
+      "A pale sand bunker is visible on the golf course."
+    ],
+    "D": [
+      "The golf grounds show no light-colored sand trap.",
+      "The golf grounds contain a light-colored sand trap."
+    ],
+    "E": [
+      "The grass is shown without a visible patch of bunker sand.",
+      "A patch of pale bunker sand appears beside the grass."
+    ]
+  },
+  {
+    "scene_id": 9,
+    "split": "test",
+    "row": 94,
+    "rgb_sha256": "c55b1405be63564c464159aed58562713992facfcc531b50d312ce0dd0e39b30",
+    "orig_query": "This is a part of a golf course with green turfs and some bunkers and trees .",
+    "image": "995.tif",
+    "pair": "995-998",
+    "side": 0,
+    "attribute": "golf_sand",
+    "scene_query": "Scene: a golf course.",
+    "C": [
+      "A pale sand bunker is visible on the golf course.",
+      "No pale sand bunker is visible on the golf course."
+    ],
+    "D": [
+      "The golf grounds contain a light-colored sand trap.",
+      "The golf grounds show no light-colored sand trap."
+    ],
+    "E": [
+      "A patch of pale bunker sand appears beside the grass.",
+      "The grass is shown without a visible patch of bunker sand."
+    ]
+  },
+  {
+    "scene_id": 9,
+    "split": "test",
+    "row": 97,
+    "rgb_sha256": "d63b0c7d312eddb18689acd8a42dbae98e7aecac110dd2862c0aae897d948f13",
+    "orig_query": "This is a part of a golf course with green turfs and trees .",
+    "image": "998.tif",
+    "pair": "995-998",
+    "side": 1,
+    "attribute": "golf_sand",
+    "scene_query": "Scene: a golf course.",
+    "C": [
+      "No pale sand bunker is visible on the golf course.",
+      "A pale sand bunker is visible on the golf course."
+    ],
+    "D": [
+      "The golf grounds show no light-colored sand trap.",
+      "The golf grounds contain a light-colored sand trap."
+    ],
+    "E": [
+      "The grass is shown without a visible patch of bunker sand.",
+      "A patch of pale bunker sand appears beside the grass."
+    ]
+  },
+  {
+    "scene_id": 9,
+    "split": "test",
+    "row": 93,
+    "rgb_sha256": "c0580f4074b00cb0a1210b99b37c6cbb1fe73bc0780dc1838bc6ee0f136d8fe1",
+    "orig_query": "This is a part of a golf course with green turfs and some bunkers and trees .",
+    "image": "994.tif",
+    "pair": "994-999",
+    "side": 0,
+    "attribute": "golf_multi",
+    "scene_query": "Scene: a golf course.",
+    "C": [
+      "Several sand bunkers are visible.",
+      "Just one sand bunker is visible."
+    ],
+    "D": [
+      "At least two sand traps can be seen on the course.",
+      "A single sand trap can be seen on the course."
+    ],
+    "E": [
+      "The view includes multiple separate sand hazards.",
+      "The view includes only one sand hazard."
+    ]
+  },
+  {
+    "scene_id": 9,
+    "split": "test",
+    "row": 98,
+    "rgb_sha256": "9b736f04ddd79aa1bd64ac40ea9b3716191e1dd11f4762b02b968561024eaa47",
+    "orig_query": "This is a part of a golf course with green turfs and some bunkers and trees .",
+    "image": "999.tif",
+    "pair": "994-999",
+    "side": 1,
+    "attribute": "golf_multi",
+    "scene_query": "Scene: a golf course.",
+    "C": [
+      "Just one sand bunker is visible.",
+      "Several sand bunkers are visible."
+    ],
+    "D": [
+      "A single sand trap can be seen on the course.",
+      "At least two sand traps can be seen on the course."
+    ],
+    "E": [
+      "The view includes only one sand hazard.",
+      "The view includes multiple separate sand hazards."
+    ]
+  },
+  {
+    "scene_id": 19,
+    "split": "test",
+    "row": 190,
+    "rgb_sha256": "d48247cbd17deedebed82c180c67403e74aea7b5c6f9937113f7d71927f3e22d",
+    "orig_query": "A big storage tank is on the ground with some buildings and cars beside .",
+    "image": "1991.tif",
+    "pair": "1991-1996",
+    "side": 0,
+    "attribute": "basin_cover",
+    "scene_query": "Scene: a storage tank facility.",
+    "C": [
+      "The circular structures have light solid covers.",
+      "The interiors of the circular structures contain exposed dark water."
+    ],
+    "D": [
+      "Solid pale tops cover the large round structures.",
+      "Dark water is visible inside the open round structures."
+    ],
+    "E": [
+      "The circular tanks have a bright covered surface.",
+      "The circular tanks show an open dark liquid surface."
+    ]
+  },
+  {
+    "scene_id": 19,
+    "split": "test",
+    "row": 195,
+    "rgb_sha256": "f3cb4e08964fc92fe74352585bbfd43a68b0bab675d46e556e9cfd30ca9d0364",
+    "orig_query": "A black storage tank is on the ground .",
+    "image": "1996.tif",
+    "pair": "1991-1996",
+    "side": 1,
+    "attribute": "basin_cover",
+    "scene_query": "Scene: a storage tank facility.",
+    "C": [
+      "The interiors of the circular structures contain exposed dark water.",
+      "The circular structures have light solid covers."
+    ],
+    "D": [
+      "Dark water is visible inside the open round structures.",
+      "Solid pale tops cover the large round structures."
+    ],
+    "E": [
+      "The circular tanks show an open dark liquid surface.",
+      "The circular tanks have a bright covered surface."
+    ]
+  },
+  {
+    "scene_id": 19,
+    "split": "test",
+    "row": 191,
+    "rgb_sha256": "0a3b2c843ef76967041a08f5c1ca56ce5bc29c92120a26a97501c9fe552e396f",
+    "orig_query": "Four storage tanks are connected to each other .",
+    "image": "1992.tif",
+    "pair": "1992-1998",
+    "side": 0,
+    "attribute": "basin_cover",
+    "scene_query": "Scene: a storage tank facility.",
+    "C": [
+      "The circular structures have light solid covers.",
+      "The interiors of the circular structures contain exposed dark water."
+    ],
+    "D": [
+      "Solid pale tops cover the large round structures.",
+      "Dark water is visible inside the open round structures."
+    ],
+    "E": [
+      "The circular tanks have a bright covered surface.",
+      "The circular tanks show an open dark liquid surface."
+    ]
+  },
+  {
+    "scene_id": 19,
+    "split": "test",
+    "row": 197,
+    "rgb_sha256": "f879439cd412763145a5e5be1e8ea0050c16b991ad2ded24a8075e2b1ed1144a",
+    "orig_query": "Two black storage tanks are on the ground .",
+    "image": "1998.tif",
+    "pair": "1992-1998",
+    "side": 1,
+    "attribute": "basin_cover",
+    "scene_query": "Scene: a storage tank facility.",
+    "C": [
+      "The interiors of the circular structures contain exposed dark water.",
+      "The circular structures have light solid covers."
+    ],
+    "D": [
+      "Dark water is visible inside the open round structures.",
+      "Solid pale tops cover the large round structures."
+    ],
+    "E": [
+      "The circular tanks show an open dark liquid surface.",
+      "The circular tanks have a bright covered surface."
+    ]
+  },
+  {
+    "scene_id": 19,
+    "split": "test",
+    "row": 192,
+    "rgb_sha256": "56456227284a2057073072add341139f48cddc385767de317ca7236b27bbee66",
+    "orig_query": "A storage tank is on the ground with some buildings and plants beside .",
+    "image": "1993.tif",
+    "pair": "1993-1997",
+    "side": 0,
+    "attribute": "basin_cover",
+    "scene_query": "Scene: a storage tank facility.",
+    "C": [
+      "The circular structures have light solid covers.",
+      "The interiors of the circular structures contain exposed dark water."
+    ],
+    "D": [
+      "Solid pale tops cover the large round structures.",
+      "Dark water is visible inside the open round structures."
+    ],
+    "E": [
+      "The circular tanks have a bright covered surface.",
+      "The circular tanks show an open dark liquid surface."
+    ]
+  },
+  {
+    "scene_id": 19,
+    "split": "test",
+    "row": 196,
+    "rgb_sha256": "dd44a6ae74b6f98309eccfe0bc44b59ae77ba256d7c5a5981abab2e8a4030507",
+    "orig_query": "Two black storage tanks are on the ground .",
+    "image": "1997.tif",
+    "pair": "1993-1997",
+    "side": 1,
+    "attribute": "basin_cover",
+    "scene_query": "Scene: a storage tank facility.",
+    "C": [
+      "The interiors of the circular structures contain exposed dark water.",
+      "The circular structures have light solid covers."
+    ],
+    "D": [
+      "Dark water is visible inside the open round structures.",
+      "Solid pale tops cover the large round structures."
+    ],
+    "E": [
+      "The circular tanks show an open dark liquid surface.",
+      "The circular tanks have a bright covered surface."
+    ]
+  },
+  {
+    "scene_id": 19,
+    "split": "test",
+    "row": 193,
+    "rgb_sha256": "950a2e7bb070c50d63a618ae5fa3b643834436863219abfe491240e53009b513",
+    "orig_query": "A storage tank is on the ground with some houses and a road beside .",
+    "image": "1994.tif",
+    "pair": "1994-1995",
+    "side": 0,
+    "attribute": "basin_count",
+    "scene_query": "Scene: a storage tank facility.",
+    "C": [
+      "One large circular structure is visible.",
+      "At least two large circular structures are visible."
+    ],
+    "D": [
+      "The view shows a single large round tank.",
+      "The view shows multiple large round tanks."
+    ],
+    "E": [
+      "There is one large circular tank in this scene.",
+      "Several large circular tanks are present in this scene."
+    ]
+  },
+  {
+    "scene_id": 19,
+    "split": "test",
+    "row": 194,
+    "rgb_sha256": "6db0ed49bf3a88c0cefd18ed839160bc01997a21639d55f09e732fe780798a03",
+    "orig_query": "Two storage tanks are connected to each other .",
+    "image": "1995.tif",
+    "pair": "1994-1995",
+    "side": 1,
+    "attribute": "basin_count",
+    "scene_query": "Scene: a storage tank facility.",
+    "C": [
+      "At least two large circular structures are visible.",
+      "One large circular structure is visible."
+    ],
+    "D": [
+      "The view shows multiple large round tanks.",
+      "The view shows a single large round tank."
+    ],
+    "E": [
+      "Several large circular tanks are present in this scene.",
+      "There is one large circular tank in this scene."
+    ]
+  }
+]
