@@ -1,0 +1,33 @@
+{
+  "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+  "torch": "2.10.0",
+  "cuda": "13.0",
+  "transformers": "4.57.2",
+  "peft": "0.10.0",
+  "gpu": "NVIDIA GeForce RTX 5090, 32108 MiB, 580.142",
+  "device_mount": "fs2            1022800699392 398343527424 624457171968      39% /private",
+  "init": {
+    "a": "50c8911f2a806d301a849ad7937d212999c2222ef49937b1bf416a468b67e27c",
+    "b": "2e0a06f58dd3608c597e464e1b0d5eb97ab7abfb5ddf55b84754a1220eeaf239"
+  },
+  "dependencies": {
+    "/private/AGSE_E3_1_rebuild_20261112/r3_after_tool_trainpanel_20261124/code/base.py": "e342da62b1d4cc2455e438e970582da198d864c5340d6c6445677ec3c4cfcaa7",
+    "/private/AGSE_E3_1_rebuild_20261112/r3_after_tool_trainpanel_20261124/code/pack.py": "5bc32360c68407f8e5e5b427b49e0888d6a05ae9e8f8f1e32677f78a3283f118",
+    "/private/AGSE_E3_1_rebuild_20261112/r3_after_tool_trainpanel_20261124/code/sample_panel.py": "dc3d64ad08b1029a6115d0f11ce60092fe0c50211373f41a9abf88c61317f9d4",
+    "/private/AGSE_E3_1_rebuild_20261112/r3_after_tool_trainpanel_20261124/code/read_panel.py": "430ecbd1eb482de2da88931038b2fed800d8759d4dadb873c67bad83434b8d9d",
+    "/private/AGSE_E3_1_rebuild_20261112/second_answer_5090_20261124/code/shared.py": "b6817451f760ccd3c8e197c5084c8fbf871a8e595d99d13e975de2d4f4664a72",
+    "/private/AGSE_E3_1_rebuild_20261112/second_answer_5090_20261124/code/policy.py": "31ac06ef767813de37df161182139b382e74acb30c3803a3fd09c327647a63b6",
+    "/private/AGSE_E3_1_rebuild_20261112/second_answer_5090_20261124/code/readouts.py": "14237bff50efb05cfebfd482af8e197a957b1190eed5e6c3dea7ed2140b0a951",
+    "/private/AGSE_E3_1_rebuild_20261112/second_answer_5090_20261124/code/train.py": "e520ffd1be04d513e84f7995664afeca7e03c5b1e48bb59f77c1ca9b574248b7"
+  },
+  "new_training_code": {
+    "build_rosters.py": "6dc93496b235fefca6cab9b851874e36dcfaedac053c859959ddcc9e41849a9c",
+    "common.py": "d1b444c38fb04fd6d77f08f14ee39c825f6c310229bf5e9866299a598ea89f0a",
+    "contexts.py": "69e96d0e442024fcb1462ba34599c0b8668232ffcdeddf93ff134833acd47f67",
+    "evaluate.py": "e4b233cc03fd30a7daf6dc63c817f3c9d35fbd2ef301ffb68b7100741732e0e3",
+    "run_train.py": "b57841fbd2a45dfa290b6aedc314f6fecdbb7d3986213eb4783ffbe0c1361d52",
+    "text_bank.py": "b49e9dc2aa70c80350d18bd188426d64cab6ac0e37b5442abea7620d1767955b",
+    "vectors.py": "fbb0601c0fe3341941dd9cd5391a267c663caf6f26dacfa1d1279e201f1e97db",
+    "worker.py": "fa9b65077e8311dbeba13fdbd27bcbc0856fc247b4f92ca47ae62dcef5dc70a3"
+  }
+}
