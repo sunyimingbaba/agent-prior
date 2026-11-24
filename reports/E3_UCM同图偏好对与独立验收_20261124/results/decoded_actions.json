@@ -1,0 +1,46 @@
+{
+  "a": {
+    "counts": {
+      "useful_unique_within_image": 39,
+      "useful_empty": 12,
+      "useful_complete_answer": 3,
+      "useful_addcriterion": 22,
+      "poor_unique_within_image": 44,
+      "poor_empty": 11,
+      "poor_complete_answer": 3,
+      "poor_addcriterion": 29
+    },
+    "examples": {
+      "26.tif_useful": "<|im_start|><|im_end|>",
+      "26.tif_poor": "<|im_start|><|im_start|>\n addCriterion\n<|im_end|>",
+      "244.tif_useful": "<|im_start|><tool_call>\n<|im_start|>\n<|im_start|>answer\n图像显示的是一个棒球场场地。因此，查询“Scene: a baseball field.”与图像相关。<|im_end|>",
+      "244.tif_poor": "<|im_start|><|im_start|>\n addCriterion\n港<|im_end|>",
+      "636.tif_useful": "<|im_start|><|im_start|>\n addCriterion\n<|im_end|>",
+      "636.tif_poor": "<tool_call><|im_end|>",
+      "640.tif_useful": "<tool_call>\n<|im_start|><|im_end|>",
+      "640.tif_poor": "<|im_start|><|im_start|>\n addCriterion<|im_end|>"
+    }
+  },
+  "b": {
+    "counts": {
+      "useful_unique_within_image": 30,
+      "useful_empty": 4,
+      "useful_complete_answer": 3,
+      "useful_addcriterion": 20,
+      "poor_unique_within_image": 34,
+      "poor_empty": 8,
+      "poor_complete_answer": 1,
+      "poor_addcriterion": 21
+    },
+    "examples": {
+      "26.tif_useful": "<|im_start|><|im_start|>\n addCriterion\n<answer>图中描绘了一个农田场景，符合查询文本的要求。</answer><|im_end|>",
+      "26.tif_poor": "<tool_call><|im_end|>",
+      "244.tif_useful": "<|im_start|><tool_call>\n<|im_start|>\n<|im_start|>answer\n图像显示的是一个棒球场场地，这符合查询中的描述\"Scene: a baseball field\"。<|im_end|>",
+      "244.tif_poor": "<|im_start|><|im_start|>\n addCriterion\n港<|im_end|>",
+      "365.tif_useful": "<tool_call><|im_end|>",
+      "365.tif_poor": "<|im_start|><|im_end|>",
+      "636.tif_useful": "<|im_start|><|im_start|>\n addCriterion\n<|im_end|>",
+      "636.tif_poor": "<tool_call><|im_end|>"
+    }
+  }
+}
