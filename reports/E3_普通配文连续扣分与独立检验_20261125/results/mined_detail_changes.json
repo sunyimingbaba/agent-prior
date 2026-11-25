@@ -1,0 +1,96 @@
+{
+  "judgments": 756,
+  "gained": 0,
+  "lost": 5,
+  "counts": {
+    "a_C": {
+      "gained": 0,
+      "lost": 0
+    },
+    "a_D": {
+      "gained": 0,
+      "lost": 0
+    },
+    "a_E": {
+      "gained": 0,
+      "lost": 1
+    },
+    "b_C": {
+      "gained": 0,
+      "lost": 1
+    },
+    "b_D": {
+      "gained": 0,
+      "lost": 1
+    },
+    "b_E": {
+      "gained": 0,
+      "lost": 2
+    }
+  },
+  "gained_by_attribute": {},
+  "lost_by_attribute": {
+    "golf_sand": 1,
+    "river_axis": 1,
+    "community_pool": 1,
+    "roof_hue": 1,
+    "court_red": 1
+  },
+  "records": [
+    {
+      "seed": "a",
+      "image": "993.tif",
+      "attribute": "golf_sand",
+      "wording": "E",
+      "pair": [
+        "The grass is shown without a visible patch of bunker sand.",
+        "A patch of pale bunker sand appears beside the grass."
+      ],
+      "after": 0
+    },
+    {
+      "seed": "b",
+      "image": "1693.tif",
+      "attribute": "river_axis",
+      "wording": "C",
+      "pair": [
+        "The channel spans the width of the view.",
+        "The channel spans the height of the view."
+      ],
+      "after": 0
+    },
+    {
+      "seed": "b",
+      "image": "689.tif",
+      "attribute": "community_pool",
+      "wording": "D",
+      "pair": [
+        "There is no swimming pool in sight between the residential buildings.",
+        "A swimming pool appears between the residential buildings."
+      ],
+      "after": 0
+    },
+    {
+      "seed": "b",
+      "image": "688.tif",
+      "attribute": "roof_hue",
+      "wording": "E",
+      "pair": [
+        "A gray color characterizes the residential roofs.",
+        "A reddish color characterizes the residential roofs."
+      ],
+      "after": 0
+    },
+    {
+      "seed": "b",
+      "image": "2096.tif",
+      "attribute": "court_red",
+      "wording": "E",
+      "pair": [
+        "The border around the painted court lacks a reddish color.",
+        "A reddish border surrounds the painted court."
+      ],
+      "after": 0
+    }
+  ]
+}
