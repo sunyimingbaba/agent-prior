@@ -5,6 +5,9 @@ import pyarrow as pa
 from remote_common import ROOT,BASE,setup,sha,read,dump,savept,rgb
 FORM=BASE/'after_tool_holdout_20261124'
 
+def check_window():
+    if time.time()>=1795593060:raise SystemExit(75)
+
 def dataset():
     proof=read(FORM/'inputs/audit.json');p=FORM/'inputs/rsitmd_caption_karpathy_label_test.arrow';f=FORM/'inputs/rsitmd.json'
     assert sha(p)==proof['files']['rsitmd_test'] and sha(f)==proof['regions']['rsitmd']['manifest']
@@ -22,6 +25,7 @@ def generate(seed):
     path,sig=weights(seed+'_deployed');m,proc=policy(path);folder=ROOT/'records/cross'/seed/'raw'
     folder.mkdir(exist_ok=True,parents=True)
     for j,c in enumerate(rows):
+        check_window()
         nm=c['image'];f=folder/(nm+'.pt');feedback=tools[c['rgb_sha256']][0];top=feedback.split(' (',1)[0]
         entry=route['categories'].get(top);query=c['orig_query']+(' '+entry['question'] if entry else '')
         if f.is_file():
@@ -42,14 +46,16 @@ def project():
         folder=ROOT/'records/cross'/seed/'raw';fs=[];history=[];raw_proof={};base=None
         for c in rows:
             nm=c['image'];p=folder/(nm+'.pt')
-            while not p.is_file():time.sleep(1)
+            while not p.is_file():
+                check_window();time.sleep(1)
             z=torch.load(p,weights_only=True);assert z['image']==nm and z['rgb']==c['rgb_sha256']
             pix=m.preprocess(rgb(t,c))[None]
             def embed(h):return m.img_embeds(pix,agent_hidden=h.float()[None])['image_feats'][0].clone()
             fs.append(embed(z['prior']));raw_proof[nm]=sha(p)
             if 'baseline' in z:base=embed(z['baseline'])
             history.append(dict(image=nm,attribute=z['attribute'],top=z['top']))
-        while not (folder/'complete.json').is_file():time.sleep(1)
+        while not (folder/'complete.json').is_file():
+            check_window();time.sleep(1)
         cp=read(folder/'complete.json');assert raw_proof==cp['files'] and base is not None
         f=folder.parent/'features.pt';savept(f,dict(features=torch.stack(fs),meta=history,baseline=base,adapter=cp['adapter'],route=sha(ROOT/'inputs/route.json')))
         a=folder.parent/'trajectories.tar.gz'
@@ -60,5 +66,8 @@ def project():
         dump(folder.parent/'read.json',dict(features=sha(f),archive=sha(a),raw=sha(folder/'complete.json')))
         print(seed,len(rows),flush=True)
 if __name__=='__main__':
+    while not (ROOT/'logs/cross_allowed').is_file():
+        check_window();time.sleep(4)
+    check_window()
     if sys.argv[1]=='project':project()
     else:generate(sys.argv[1])

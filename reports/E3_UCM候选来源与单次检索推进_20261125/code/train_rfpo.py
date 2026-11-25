@@ -15,12 +15,18 @@ from policy import policy
 from orders import score,advantages
 from train import sequence_logp
 from full_traces import trace_batch
+from prefixes import greedy
 
 def train(seed,condition,reward):
     setup();torch.set_num_threads(1)
-    decision=read(ROOT/'results/nomination.json')
-    assert decision['selected'] in ('mixed','question') and decision['protocol']==sha(ROOT/'实验口径.md')
-    assert condition in ('scene','selected') and reward in ('R2','R3') and seed in 'ab'
+    assert condition in ('scene','selected','locked','free') and reward in ('R2','R3') and seed in ('a','b')
+    timing=condition in ('locked','free')
+    nomination=ROOT/'results'/('prefix_nomination.json' if timing else 'nomination.json')
+    decision=read(nomination)
+    if timing:
+        assert decision['eligible'] and decision['protocol']==sha(ROOT/'首轮探索复核口径.md')
+    else:
+        assert decision['selected'] in ('mixed','question') and decision['protocol']==sha(ROOT/'实验口径.md')
     plan=read(ROOT/'inputs/training_roster.json')
     assert plan['protocol']==sha(ROOT/'入围后同预算短训口径.md')
     dest=ROOT/'pilot'/(seed+'_'+condition+'_'+reward);dest.mkdir(exist_ok=True,parents=True)
@@ -49,16 +55,23 @@ def train(seed,condition,reward):
                 dump(dest/'window_end.json',dict(completed_steps=len(logs),roster=roster_sig))
                 raise SystemExit(75)
             nm=row['image'];c=cases[nm];assert c['rgb_sha256']==row['rgb'];im=rgb(data,c)
-            source='scene' if condition=='scene' else decision['selected']
+            source=decision['selected'] if condition=='selected' else 'scene'
             prompts=['scene','scene'] if source=='scene' else (['question','question'] if source=='question' else
                 (['scene','question'] if j%2==0 else ['question','scene']))
-            batches=[];states=[];rngs=[];actions=[]
+            batches=[];states=[];rngs=[];actions=[];sampled_tokens=0
+            fixed=(greedy(model,proc,im,c['scene_query'],c['feedback']) if condition=='locked' else None)
             for n,mode in enumerate(prompts):
                 query=c['scene_query']+(' '+row['question'] if mode=='question' else '')
                 rng=(13100000 if seed=='a' else 23100000)+1000*j+100*n
-                ctx,paths,hs=trace_batch(model,proc,im,query,c['feedback'],rng)
+                if fixed is not None and fixed[3] is None:
+                    ctx={};paths=[[] for _ in range(8)];hs=[fixed[0]]*8
+                else:
+                    prefix=None if fixed is None else fixed[3]
+                    ctx,paths,hs=trace_batch(model,proc,im,query,c['feedback'],rng,initial_prefix=prefix)
                 batches.append((ctx,paths));states.extend(hs);rngs.append(rng)
-                actions.extend([[z[1][0] for z in trace] for trace in paths])
+                for trace in paths:
+                    ids=[z[1][0] for z in trace];sampled_tokens+=sum(map(len,ids))
+                    actions.append(ids if fixed is None else [fixed[1][0]]+ids)
             # The worker expects 17 slots; its extra diagnostic slot is excluded before reward construction.
             packet=base64.b64encode(torch.stack(states+[states[0]]).float().numpy().tobytes()).decode()
             worker.stdin.write(json.dumps(dict(image=nm,data=packet))+'\n');worker.stdin.flush()
@@ -83,7 +96,7 @@ def train(seed,condition,reward):
             if norm>0:opt.step()
             logs.append(dict(step=j+1,image=nm,prompts=prompts,rngs=rngs,paths=actions,scores=scores[:16],
                 rewards={k:v.tolist() for k,v in rw.items()},floor=floor,advantages=adv.tolist(),grad_norm=norm,
-                unique_backward_terms=used,replay_tokens=len(errors),mean_abs_logp_error=float(np.mean(errors)) if errors else 0.,
+                sampled_tokens=sampled_tokens,unique_backward_terms=used,replay_tokens=len(errors),mean_abs_logp_error=float(np.mean(errors)) if errors else 0.,
                 max_abs_logp_error=max(errors,default=0.)))
             if (j+1)%2==0:
                 savept(state,dict(initial=start,roster=roster_sig,weights={k:v.detach().cpu() for k,v in params.items()},
@@ -95,6 +108,6 @@ def train(seed,condition,reward):
     model.save_pretrained(dest/'adapter')
     dump(dest/'steps.json',logs)
     dump(dest/'complete.json',dict(initial=start,final=sha(dest/'adapter/adapter_model.safetensors'),steps=len(logs),
-        updated=sum(z['grad_norm']>0 for z in logs),roster=roster_sig,nomination=sha(ROOT/'results/nomination.json'),
+        updated=sum(z['grad_norm']>0 for z in logs),roster=roster_sig,nomination=sha(nomination),
         steps_sha=sha(dest/'steps.json'),entry=sha(ROOT/'code/train_rfpo.py'),sampler=sha(ROOT/'code/full_traces.py')))
 if __name__=='__main__':train(*sys.argv[1:])

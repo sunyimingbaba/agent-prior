@@ -46,7 +46,9 @@ def project(tags):
                 sig=z['adapter'] if sig is None else sig;assert z['adapter']==sig
                 ft=m.img_embeds(m.preprocess(rgb(tables[c['split']],c))[None],agent_hidden=z['prior'].float()[None])['image_feats'][0]
                 assert abs(ft.norm().item()-1)<1e-4;fs.append(ft);names.append(nm);proof[nm]=sha(p)
-            while not (out/'complete.json').exists():time.sleep(1)
+            while not (out/'complete.json').exists():
+                if time.time()>=float(os.environ.get('E3_END_EPOCH','inf')):raise SystemExit(75)
+                time.sleep(1)
             assert read(out/'complete.json')['files']==proof and read(ROOT/'pilot'/tag/'complete.json')['final']==sig
             savept(f,dict(images=names,features=torch.stack(fs),adapter=sig))
             arc=out.parent/(sub+'.tar.gz')

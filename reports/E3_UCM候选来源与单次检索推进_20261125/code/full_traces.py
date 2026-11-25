@@ -6,12 +6,14 @@ from policy import prompt,cut
 from rollout import parse_tool_call
 
 @torch.no_grad()
-def trace_batch(model,proc,image,query,feedback,rng):
+def trace_batch(model,proc,image,query,feedback,rng,initial_prefix=None):
     single=proc(text=[prompt(proc,query)],images=[image],return_tensors='pt').to('cuda')
-    pending=[(list(range(8)),single.input_ids)]
+    start=0 if initial_prefix is None else 1
+    first=single.input_ids if initial_prefix is None else initial_prefix.to(single.input_ids.device)
+    pending=[(list(range(8)),first)]
     history=[[] for _ in range(8)];terminal={};inputs={};cfg=model.generation_config
     assert cfg.top_k==50 and cfg.top_p==1 and cfg.repetition_penalty==1.05
-    for turn in range(3):
+    for turn in range(start,3):
         later=[]
         for slots,prefix in pending:
             torch.manual_seed(rng+turn*11+min(slots))

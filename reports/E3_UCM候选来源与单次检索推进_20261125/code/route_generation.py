@@ -1,5 +1,6 @@
 """Apply a training-only scene-to-question map and generate one prior per image."""
 import sys
+import time
 from pathlib import Path
 import torch
 from remote_common import ROOT,BASE,setup,table,rgb,read,dump,sha,savept
@@ -9,6 +10,7 @@ from policy import policy
 
 @torch.inference_mode()
 def main(seed):
+    while not (ROOT/'logs/prefix_gpu.done').is_file():time.sleep(3)
     setup();torch.set_num_threads(1)
     route=read(ROOT/'inputs/route.json')
     assert route['protocol']==sha(ROOT/'单次部署核查口径.md')
