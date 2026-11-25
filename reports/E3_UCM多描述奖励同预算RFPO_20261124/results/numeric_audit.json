@@ -1,0 +1,26 @@
+{
+  "legacy_a_R2_spurious_steps": [
+    {
+      "step": 88,
+      "rank": 33,
+      "legacy_reward_range": 3.469446951953614e-18,
+      "legacy_norm": 8.237394100163442e-10,
+      "new_same_sample": false,
+      "new_norm": 0.0,
+      "new_rank_count": 1
+    }
+  ],
+  "first_changed_sampled_tokens": 3,
+  "first_group": {
+    "exact_same_token_records": true,
+    "exact_same_advantages": true,
+    "legacy_gradient_norm": 52.9704475402832,
+    "corrected_gradient_norm": 52.961246490478516
+  },
+  "corrected_zero_signal_no_update": {
+    "a_R2": 86,
+    "a_R3": 70,
+    "b_R2": 51,
+    "b_R3": 6
+  }
+}

@@ -47,7 +47,8 @@ def run(backup):
                     row[name]=dict(detail=d,rr=m,better_detail=d>1e-12,better_rr=m>1e-12,joint=d>1e-12 and m>1e-12,winners=int(win.sum()))
                 detail.append(row)
             rs=[r for r in detail if r['seed']==seed and r['arm']==arm]
-            out[tag]=dict(steps=len(rs),candidates=len(rs)*16,updates=sum(r['update'] for r in rs),different_first=sum(not r['first_same'] for r in rs),changed_advantages=sum(r['reward_diff'] for r in rs),
+            lengths=[len(v['ids']) for step in ss for v in step['records']]
+            out[tag]=dict(steps=len(rs),candidates=len(rs)*16,mean_sampled_second_tokens=float(np.mean(lengths)),at_token_cap=sum(n==64 for n in lengths),updates=sum(r['update'] for r in rs),different_first=sum(not r['first_same'] for r in rs),changed_advantages=sum(r['reward_diff'] for r in rs),
                 changed_winners=sum(r['winner_diff'] for r in rs),joint_available=sum(r['any_joint'] for r in rs),mean_unique_answers=np.mean([r['unique_actions'] for r in rs]),max_mean_abs_logp_error=max(v['mean_abs_logp_error'] for v in ss))
             for name in ('R2','R3'):
                 out[tag][name]={k:sum(r[name][k] for r in rs) for k in ('better_detail','better_rr','joint')}

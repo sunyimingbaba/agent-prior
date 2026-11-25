@@ -1,0 +1,89 @@
+{
+  "tokenizer": "/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct/tokenizer.json",
+  "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+  "reference": [
+    "a_R2",
+    "a_R3"
+  ],
+  "rows": [
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "all_tokens": "<|im_start|><|im_start|>\n addCriterion<|im_end|>",
+      "visible": "\n addCriterion"
+    },
+    {
+      "ids": [
+        151645
+      ],
+      "all_tokens": "<|im_end|>",
+      "visible": ""
+    },
+    {
+      "ids": [
+        151644,
+        151645
+      ],
+      "all_tokens": "<|im_start|><|im_end|>",
+      "visible": ""
+    },
+    {
+      "ids": [
+        151644,
+        151644,
+        198,
+        18724,
+        198,
+        151645
+      ],
+      "all_tokens": "<|im_start|><|im_start|>\n addCriterion\n<|im_end|>",
+      "visible": "\n addCriterion\n"
+    },
+    {
+      "ids": [
+        151644,
+        18724,
+        151645
+      ],
+      "all_tokens": "<|im_start|> addCriterion<|im_end|>",
+      "visible": " addCriterion"
+    },
+    {
+      "ids": [
+        151644,
+        90557,
+        198,
+        18724,
+        151645
+      ],
+      "all_tokens": "<|im_start|>��\n addCriterion<|im_end|>",
+      "visible": "��\n addCriterion"
+    },
+    {
+      "ids": [
+        151657,
+        151645
+      ],
+      "all_tokens": "<tool_call><|im_end|>",
+      "visible": "<tool_call>"
+    },
+    {
+      "ids": [
+        151657,
+        198,
+        151644,
+        151644,
+        198,
+        18724,
+        151645
+      ],
+      "all_tokens": "<tool_call>\n<|im_start|><|im_start|>\n addCriterion<|im_end|>",
+      "visible": "<tool_call>\n\n addCriterion"
+    }
+  ]
+}

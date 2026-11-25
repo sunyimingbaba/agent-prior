@@ -1,0 +1,213 @@
+{
+  "traces": 4428,
+  "archives": 8,
+  "vector_files": 28,
+  "tool_usage": {
+    "a_R0": {
+      "primary": {
+        "images": 126,
+        "with_tools": 118,
+        "calls": 118
+      },
+      "official": {
+        "images": 210,
+        "with_tools": 206,
+        "calls": 206
+      }
+    },
+    "a_R2": {
+      "primary": {
+        "images": 126,
+        "with_tools": 71,
+        "calls": 71
+      },
+      "official": {
+        "images": 210,
+        "with_tools": 96,
+        "calls": 96
+      },
+      "prior148": {
+        "images": 148,
+        "with_tools": 94,
+        "calls": 94
+      },
+      "prior142": {
+        "images": 142,
+        "with_tools": 96,
+        "calls": 96
+      }
+    },
+    "a_R3": {
+      "primary": {
+        "images": 126,
+        "with_tools": 87,
+        "calls": 87
+      },
+      "official": {
+        "images": 210,
+        "with_tools": 120,
+        "calls": 120
+      },
+      "prior148": {
+        "images": 148,
+        "with_tools": 103,
+        "calls": 103
+      },
+      "prior142": {
+        "images": 142,
+        "with_tools": 108,
+        "calls": 108
+      }
+    },
+    "a_deployed": {
+      "primary": {
+        "images": 126,
+        "with_tools": 119,
+        "calls": 119
+      },
+      "official": {
+        "images": 210,
+        "with_tools": 206,
+        "calls": 206
+      },
+      "prior148": {
+        "images": 148,
+        "with_tools": 135,
+        "calls": 135
+      },
+      "prior142": {
+        "images": 142,
+        "with_tools": 136,
+        "calls": 136
+      }
+    },
+    "b_R0": {
+      "primary": {
+        "images": 126,
+        "with_tools": 118,
+        "calls": 118
+      },
+      "official": {
+        "images": 210,
+        "with_tools": 206,
+        "calls": 206
+      }
+    },
+    "b_R2": {
+      "primary": {
+        "images": 126,
+        "with_tools": 92,
+        "calls": 92
+      },
+      "official": {
+        "images": 210,
+        "with_tools": 131,
+        "calls": 131
+      },
+      "prior148": {
+        "images": 148,
+        "with_tools": 120,
+        "calls": 120
+      },
+      "prior142": {
+        "images": 142,
+        "with_tools": 121,
+        "calls": 121
+      }
+    },
+    "b_R3": {
+      "primary": {
+        "images": 126,
+        "with_tools": 52,
+        "calls": 52
+      },
+      "official": {
+        "images": 210,
+        "with_tools": 56,
+        "calls": 56
+      },
+      "prior148": {
+        "images": 148,
+        "with_tools": 72,
+        "calls": 72
+      },
+      "prior142": {
+        "images": 142,
+        "with_tools": 80,
+        "calls": 80
+      }
+    },
+    "b_deployed": {
+      "primary": {
+        "images": 126,
+        "with_tools": 119,
+        "calls": 119
+      },
+      "official": {
+        "images": 210,
+        "with_tools": 205,
+        "calls": 205
+      },
+      "prior148": {
+        "images": 148,
+        "with_tools": 132,
+        "calls": 132
+      },
+      "prior142": {
+        "images": 142,
+        "with_tools": 134,
+        "calls": 134
+      }
+    }
+  },
+  "R3_vs_R2": {
+    "a_primary": {
+      "images": 126,
+      "same_all_actions": 95,
+      "same_tool_returns": 108,
+      "mean_prior_cos": 0.9295106038214669,
+      "net_correct_votes_same_actions": -8,
+      "net_correct_votes_changed_actions": 4
+    },
+    "a_prior148": {
+      "images": 148,
+      "same_all_actions": 106,
+      "same_tool_returns": 127,
+      "mean_prior_cos": 0.9283733972021051,
+      "net_correct_votes_same_actions": 3,
+      "net_correct_votes_changed_actions": 0
+    },
+    "a_prior142": {
+      "images": 142,
+      "same_all_actions": 108,
+      "same_tool_returns": 128,
+      "mean_prior_cos": 0.9480317373510817,
+      "net_correct_votes_same_actions": -8,
+      "net_correct_votes_changed_actions": 1
+    },
+    "b_primary": {
+      "images": 126,
+      "same_all_actions": 59,
+      "same_tool_returns": 84,
+      "mean_prior_cos": 0.8654994375648952,
+      "net_correct_votes_same_actions": -3,
+      "net_correct_votes_changed_actions": -8
+    },
+    "b_prior148": {
+      "images": 148,
+      "same_all_actions": 60,
+      "same_tool_returns": 98,
+      "mean_prior_cos": 0.8549978596133154,
+      "net_correct_votes_same_actions": -1,
+      "net_correct_votes_changed_actions": 11
+    },
+    "b_prior142": {
+      "images": 142,
+      "same_all_actions": 70,
+      "same_tool_returns": 97,
+      "mean_prior_cos": 0.8744470636609575,
+      "net_correct_votes_same_actions": -3,
+      "net_correct_votes_changed_actions": 1
+    }
+  }
+}

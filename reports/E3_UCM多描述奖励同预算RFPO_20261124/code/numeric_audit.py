@@ -20,5 +20,5 @@ def main():
             tag=seed+'_'+arm;ss=steps(tag);st=[q for q in ss if np.ptp(q['retrieval'][arm])==0]
             assert all(q['norm']==0 and all(a==0 for a in q['advantages']) for q in st)
             flat[tag]=len(st)
-    dump(ROOT/'results/numeric_audit.json',dict(legacy_a_R2_spurious_steps=events,first_changed_sampled_tokens=first_change,corrected_zero_signal_no_update=flat))
+    dump(ROOT/'results/numeric_audit.json',dict(legacy_a_R2_spurious_steps=events,first_changed_sampled_tokens=first_change,first_group=dict(exact_same_token_records=old[0]['records']==current[0]['records'],exact_same_advantages=old[0]['advantages']==current[0]['advantages'],legacy_gradient_norm=old[0]['norm'],corrected_gradient_norm=current[0]['norm']),corrected_zero_signal_no_update=flat))
 if __name__=='__main__':main()

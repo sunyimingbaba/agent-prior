@@ -1,0 +1,131 @@
+{
+  "pairs": 77,
+  "arms": {
+    "a_R2": {
+      "steps": 154,
+      "candidates": 2464,
+      "mean_sampled_second_tokens": 5.188717532467533,
+      "at_token_cap": 3,
+      "updates": 68,
+      "different_first": 23,
+      "changed_advantages": 20,
+      "changed_winners": 12,
+      "joint_available": 11,
+      "mean_unique_answers": 1.9610389610389611,
+      "max_mean_abs_logp_error": 0.039593263125491295,
+      "R2": {
+        "better_detail": 18,
+        "better_rr": 33,
+        "joint": 9,
+        "detail": 0.011363636363636364,
+        "rr": 0.023096358173005347,
+        "winners": 12.662337662337663
+      },
+      "R3": {
+        "better_detail": 20,
+        "better_rr": 33,
+        "joint": 9,
+        "detail": 0.01352813852813853,
+        "rr": 0.024395059471706646,
+        "winners": 12.279220779220779
+      }
+    },
+    "a_R3": {
+      "steps": 154,
+      "candidates": 2464,
+      "mean_sampled_second_tokens": 6.150568181818182,
+      "at_token_cap": 12,
+      "updates": 84,
+      "different_first": 5,
+      "changed_advantages": 40,
+      "changed_winners": 17,
+      "joint_available": 8,
+      "mean_unique_answers": 2.831168831168831,
+      "max_mean_abs_logp_error": 0.06216049132009971,
+      "R2": {
+        "better_detail": 13,
+        "better_rr": 31,
+        "joint": 6,
+        "detail": -0.0011595547309833027,
+        "rr": 0.01992017098304275,
+        "winners": 10.902597402597403
+      },
+      "R3": {
+        "better_detail": 15,
+        "better_rr": 29,
+        "joint": 6,
+        "detail": 0.007440476190476188,
+        "rr": 0.007102916023510424,
+        "winners": 10.720779220779221
+      }
+    },
+    "b_R2": {
+      "steps": 154,
+      "candidates": 2464,
+      "mean_sampled_second_tokens": 5.241071428571429,
+      "at_token_cap": 3,
+      "updates": 103,
+      "different_first": 16,
+      "changed_advantages": 28,
+      "changed_winners": 12,
+      "joint_available": 5,
+      "mean_unique_answers": 2.396103896103896,
+      "max_mean_abs_logp_error": 0.05334724012585535,
+      "R2": {
+        "better_detail": 9,
+        "better_rr": 30,
+        "joint": 2,
+        "detail": -0.04274891774891775,
+        "rr": 0.005090656972034374,
+        "winners": 10.733766233766234
+      },
+      "R3": {
+        "better_detail": 11,
+        "better_rr": 29,
+        "joint": 2,
+        "detail": -0.02922077922077922,
+        "rr": 0.011223413104790506,
+        "winners": 10.558441558441558
+      }
+    },
+    "b_R3": {
+      "steps": 154,
+      "candidates": 2464,
+      "mean_sampled_second_tokens": 5.842938311688312,
+      "at_token_cap": 18,
+      "updates": 148,
+      "different_first": 40,
+      "changed_advantages": 90,
+      "changed_winners": 39,
+      "joint_available": 17,
+      "mean_unique_answers": 4.415584415584416,
+      "max_mean_abs_logp_error": 0.061162205386200846,
+      "R2": {
+        "better_detail": 25,
+        "better_rr": 49,
+        "joint": 5,
+        "detail": -0.04085497835497835,
+        "rr": 0.034050519015886224,
+        "winners": 5.402597402597403
+      },
+      "R3": {
+        "better_detail": 28,
+        "better_rr": 52,
+        "joint": 5,
+        "detail": 0.017586580086580088,
+        "rr": 0.043099442586714456,
+        "winners": 5.558441558441558
+      }
+    }
+  },
+  "seed_checks": {
+    "a": {
+      "exact_initial_sampling": true,
+      "same_consecutive_batches": 1
+    },
+    "b": {
+      "exact_initial_sampling": true,
+      "same_consecutive_batches": 1
+    }
+  }
+}
