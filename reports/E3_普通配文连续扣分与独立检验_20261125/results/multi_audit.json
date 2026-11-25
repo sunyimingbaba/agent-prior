@@ -1,0 +1,171 @@
+{
+  "fresh": {
+    "folds": 696,
+    "baseline_replayed": 188,
+    "max_difference": 0.0,
+    "strata": {
+      "all_scene_cluster": {
+        "images": 94,
+        "clusters": 16,
+        "joint": {
+          "mean": 0.03874113475177305,
+          "interval": [
+            0.011318185856432125,
+            0.07785439311594193
+          ],
+          "defined_images": 188,
+          "defined_draws": 20000
+        },
+        "mrr": {
+          "mean": 0.00813179954550389,
+          "interval": [
+            -0.007082386915597798,
+            0.02860610232642563
+          ],
+          "defined_images": 188,
+          "defined_draws": 20000
+        },
+        "detail": {
+          "mean": 0.03207988573680063,
+          "interval": [
+            0.007370107483626913,
+            0.06525771604938266
+          ],
+          "defined_images": 188,
+          "defined_draws": 20000
+        }
+      },
+      "known_attribute": {
+        "images": 42,
+        "clusters": 21,
+        "joint": {
+          "mean": 0.0748015873015873,
+          "interval": [
+            0.028174603174603175,
+            0.13234126984126984
+          ],
+          "defined_images": 84,
+          "defined_draws": 20000
+        },
+        "mrr": {
+          "mean": 0.005615744877482744,
+          "interval": [
+            -0.018300083073868132,
+            0.027378487520925896
+          ],
+          "defined_images": 84,
+          "defined_draws": 20000
+        },
+        "detail": {
+          "mean": 0.07202380952380952,
+          "interval": [
+            0.03310185185185185,
+            0.12208994708994705
+          ],
+          "defined_images": 84,
+          "defined_draws": 20000
+        }
+      },
+      "new_attribute": {
+        "images": 52,
+        "clusters": 26,
+        "joint": {
+          "mean": 0.009615384615384616,
+          "interval": [
+            0.0,
+            0.02403846153846154
+          ],
+          "defined_images": 104,
+          "defined_draws": 20000
+        },
+        "mrr": {
+          "mean": 0.01016399754659789,
+          "interval": [
+            -0.02704196036607388,
+            0.04618713636052096
+          ],
+          "defined_images": 104,
+          "defined_draws": 20000
+        },
+        "detail": {
+          "mean": -0.00018251424501424934,
+          "interval": [
+            -0.018660968660968665,
+            0.0162710336538461
+          ],
+          "defined_images": 104,
+          "defined_draws": 20000
+        }
+      }
+    }
+  },
+  "extension": {
+    "folds": 344,
+    "baseline_replayed": 88,
+    "max_difference": 0.0,
+    "strata": {
+      "all_scene_cluster": {
+        "images": 44,
+        "clusters": 5,
+        "joint": {
+          "mean": 0.005681818181818182,
+          "interval": [
+            -0.006944444444444444,
+            0.0175
+          ],
+          "defined_images": 88,
+          "defined_draws": 20000
+        },
+        "mrr": {
+          "mean": -0.021849139969018327,
+          "interval": [
+            -0.0647999460817801,
+            0.0005380088924341089
+          ],
+          "defined_images": 88,
+          "defined_draws": 20000
+        },
+        "detail": {
+          "mean": -0.0016684704184704226,
+          "interval": [
+            -0.03592687074829931,
+            0.07052951388888888
+          ],
+          "defined_images": 88,
+          "defined_draws": 20000
+        }
+      },
+      "new_attribute": {
+        "images": 44,
+        "clusters": 22,
+        "joint": {
+          "mean": 0.005681818181818182,
+          "interval": [
+            -0.005681818181818182,
+            0.019886363636363636
+          ],
+          "defined_images": 88,
+          "defined_draws": 20000
+        },
+        "mrr": {
+          "mean": -0.021849139969018327,
+          "interval": [
+            -0.048161206788682374,
+            -0.002286664256515764
+          ],
+          "defined_images": 88,
+          "defined_draws": 20000
+        },
+        "detail": {
+          "mean": -0.0016684704184704183,
+          "interval": [
+            -0.046018217893217896,
+            0.048295454545454544
+          ],
+          "defined_images": 88,
+          "defined_draws": 20000
+        }
+      }
+    }
+  }
+}

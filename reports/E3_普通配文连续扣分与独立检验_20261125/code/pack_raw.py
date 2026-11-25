@@ -6,11 +6,11 @@ def sha(p):
     with p.open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
 def main():
     entries={};dest=ROOT/'archives';dest.mkdir(exist_ok=True)
-    for mode,tags in [('candidate',('fresh','extension')),('ordinary',('first','second','third'))]:
+    for mode,tags in [('candidate',('fresh','extension')),('ordinary',('first','second','third')),('covered',('extra',))]:
         for tag in tags:
             for s in 'ab':
                 base=ROOT/'records'/tag/s if mode=='candidate' else ROOT/'records/ordinary'/tag/s
-                folder=base/'raw' if mode=='candidate' else base
+                folder=(ROOT/'records/covered'/tag/s/'raw') if mode=='covered' else (base/'raw' if mode=='candidate' else base)
                 p=folder/'complete.json';cp=json.loads(p.read_bytes());paths=[]
                 for n,expected in cp['files'].items():
                     f=folder/(n+'.pt');assert sha(f)==expected;paths.append(f)

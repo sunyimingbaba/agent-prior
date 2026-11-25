@@ -1,0 +1,92 @@
+{
+  "archives": {
+    "candidate_fresh_a.tar.gz": {
+      "images": 94,
+      "candidate_or_single_count": 1504,
+      "adapter": "50c8911f2a806d301a849ad7937d212999c2222ef49937b1bf416a468b67e27c"
+    },
+    "candidate_fresh_b.tar.gz": {
+      "images": 94,
+      "candidate_or_single_count": 1504,
+      "adapter": "2e0a06f58dd3608c597e464e1b0d5eb97ab7abfb5ddf55b84754a1220eeaf239"
+    },
+    "candidate_extension_a.tar.gz": {
+      "images": 44,
+      "candidate_or_single_count": 704,
+      "adapter": "50c8911f2a806d301a849ad7937d212999c2222ef49937b1bf416a468b67e27c"
+    },
+    "candidate_extension_b.tar.gz": {
+      "images": 44,
+      "candidate_or_single_count": 704,
+      "adapter": "2e0a06f58dd3608c597e464e1b0d5eb97ab7abfb5ddf55b84754a1220eeaf239"
+    },
+    "ordinary_first_a.tar.gz": {
+      "images": 148,
+      "candidate_or_single_count": 148,
+      "adapter": "50c8911f2a806d301a849ad7937d212999c2222ef49937b1bf416a468b67e27c"
+    },
+    "ordinary_first_b.tar.gz": {
+      "images": 148,
+      "candidate_or_single_count": 148,
+      "adapter": "2e0a06f58dd3608c597e464e1b0d5eb97ab7abfb5ddf55b84754a1220eeaf239"
+    },
+    "ordinary_second_a.tar.gz": {
+      "images": 98,
+      "candidate_or_single_count": 98,
+      "adapter": "50c8911f2a806d301a849ad7937d212999c2222ef49937b1bf416a468b67e27c"
+    },
+    "ordinary_second_b.tar.gz": {
+      "images": 98,
+      "candidate_or_single_count": 98,
+      "adapter": "2e0a06f58dd3608c597e464e1b0d5eb97ab7abfb5ddf55b84754a1220eeaf239"
+    },
+    "ordinary_third_a.tar.gz": {
+      "images": 122,
+      "candidate_or_single_count": 122,
+      "adapter": "50c8911f2a806d301a849ad7937d212999c2222ef49937b1bf416a468b67e27c"
+    },
+    "ordinary_third_b.tar.gz": {
+      "images": 122,
+      "candidate_or_single_count": 122,
+      "adapter": "2e0a06f58dd3608c597e464e1b0d5eb97ab7abfb5ddf55b84754a1220eeaf239"
+    },
+    "covered_extra_a.tar.gz": {
+      "images": 52,
+      "candidate_or_single_count": 832,
+      "adapter": "50c8911f2a806d301a849ad7937d212999c2222ef49937b1bf416a468b67e27c"
+    },
+    "covered_extra_b.tar.gz": {
+      "images": 52,
+      "candidate_or_single_count": 832,
+      "adapter": "2e0a06f58dd3608c597e464e1b0d5eb97ab7abfb5ddf55b84754a1220eeaf239"
+    }
+  },
+  "models": {
+    "a_ordinary": {
+      "steps": 186,
+      "positive_grads": 186,
+      "sha": "8df002a55ba93602b19fb200d57e1946acc223dbe2678088f97afcbd083db005",
+      "epoch": 6
+    },
+    "a_hard": {
+      "steps": 186,
+      "positive_grads": 186,
+      "sha": "4bd21c9a20218e9cb9f3e41b00373e6cbd073d3b917b3ce117f472af4d25e362",
+      "epoch": 6
+    },
+    "b_ordinary": {
+      "steps": 186,
+      "positive_grads": 186,
+      "sha": "14f79ac6bd80838dd2ca7ae7c59ebe5ae3aad99267ecefeca7298821c73cd0bc",
+      "epoch": 6
+    },
+    "b_hard": {
+      "steps": 186,
+      "positive_grads": 186,
+      "sha": "f921ef0fe55137ab73144702b1451b7462485a4063918be3cd2bcc3775317e9b",
+      "epoch": 6
+    }
+  },
+  "donor_file": "412827e85e217b8631de94e68fcf46532a9dc4fd2b149cd604a0bdcfb39e9798",
+  "candidate_proof": "5eb3b7de390560fde0c8869091ba91bd87f92b9a860609da2b57ac12e4a1be22"
+}
