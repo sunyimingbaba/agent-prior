@@ -1,5 +1,6 @@
 from pathlib import Path
-from compare import OUT,SOURCE,REP,read,dump,sha
+from compare import OUT,read,dump,sha
+REP=OUT.parent
 def main():
     q={}
     for p in REP.glob('E3_UCM中性观察问题*/inputs/lock.json'):
