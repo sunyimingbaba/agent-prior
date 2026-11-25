@@ -1,0 +1,257 @@
+{
+  "raw_fold_counts": {
+    "anchor_at_ceiling": 412,
+    "neither": 234,
+    "ordinary_only": 198,
+    "same_candidate_improves_both": 122,
+    "different_candidates_improve_each": 59,
+    "detail_only": 83
+  },
+  "changed_winner_images": [
+    "1361.tif",
+    "1404.tif",
+    "1411.tif",
+    "1453.tif",
+    "1504.tif",
+    "1524.tif",
+    "1536.tif",
+    "1610.tif",
+    "1619.tif",
+    "1625.tif",
+    "1674.tif",
+    "1866.tif",
+    "223.tif",
+    "673.tif",
+    "834.tif"
+  ],
+  "changed_joint_folds": [
+    {
+      "image": "1504.tif",
+      "seed": "a",
+      "held": 970,
+      "anchor_detail": 0.0,
+      "anchor_mrr": 0.09090909090909091,
+      "baseline": {
+        "passed": [
+          5
+        ],
+        "winners": [
+          5
+        ],
+        "detail": 0.3333333333333333,
+        "mrr": 0.16666666666666666,
+        "hit": 1.0,
+        "blocked_miss": 0.0,
+        "other_miss": 0.0
+      },
+      "vote": {
+        "passed": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "winners": [
+          0,
+          1,
+          6,
+          7,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15
+        ],
+        "detail": 0.0,
+        "mrr": 0.09090909090909091,
+        "hit": 0.0,
+        "blocked_miss": 0.0,
+        "other_miss": 1.0
+      }
+    },
+    {
+      "image": "1504.tif",
+      "seed": "a",
+      "held": 965,
+      "anchor_detail": 0.0,
+      "anchor_mrr": 0.09090909090909091,
+      "baseline": {
+        "passed": [
+          5
+        ],
+        "winners": [
+          5
+        ],
+        "detail": 0.3333333333333333,
+        "mrr": 0.1,
+        "hit": 1.0,
+        "blocked_miss": 0.0,
+        "other_miss": 0.0
+      },
+      "vote": {
+        "passed": [
+          2,
+          3,
+          5,
+          8,
+          11
+        ],
+        "winners": [
+          2,
+          8,
+          11
+        ],
+        "detail": 0.6666666666666666,
+        "mrr": 0.09090909090909091,
+        "hit": 0.0,
+        "blocked_miss": 0.0,
+        "other_miss": 1.0
+      }
+    },
+    {
+      "image": "1504.tif",
+      "seed": "a",
+      "held": 971,
+      "anchor_detail": 0.0,
+      "anchor_mrr": 0.14285714285714285,
+      "baseline": {
+        "passed": [
+          5
+        ],
+        "winners": [
+          5
+        ],
+        "detail": 0.3333333333333333,
+        "mrr": 0.1,
+        "hit": 0.0,
+        "blocked_miss": 1.0,
+        "other_miss": 0.0
+      },
+      "vote": {
+        "passed": [
+          2,
+          5,
+          8,
+          11
+        ],
+        "winners": [
+          2,
+          8,
+          11
+        ],
+        "detail": 0.6666666666666666,
+        "mrr": 0.16666666666666666,
+        "hit": 1.0,
+        "blocked_miss": 0.0,
+        "other_miss": 0.0
+      }
+    },
+    {
+      "image": "1504.tif",
+      "seed": "b",
+      "held": 970,
+      "anchor_detail": 0.0,
+      "anchor_mrr": 0.09090909090909091,
+      "baseline": {
+        "passed": [
+          5,
+          15
+        ],
+        "winners": [
+          5,
+          15
+        ],
+        "detail": 0.3333333333333333,
+        "mrr": 0.16666666666666666,
+        "hit": 1.0,
+        "blocked_miss": 0.0,
+        "other_miss": 0.0
+      },
+      "vote": {
+        "passed": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15
+        ],
+        "winners": [
+          0,
+          1,
+          2,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14
+        ],
+        "detail": 0.0,
+        "mrr": 0.1,
+        "hit": 0.0,
+        "blocked_miss": 0.0,
+        "other_miss": 1.0
+      }
+    }
+  ],
+  "images_with_opportunities": [
+    "1236.tif",
+    "1244.tif",
+    "1265.tif",
+    "1279.tif",
+    "1310.tif",
+    "1317.tif",
+    "1403.tif",
+    "1404.tif",
+    "1411.tif",
+    "1421.tif",
+    "1434.tif",
+    "1444.tif",
+    "1460.tif",
+    "1504.tif",
+    "1512.tif",
+    "1522.tif",
+    "1536.tif",
+    "1640.tif",
+    "1643.tif",
+    "1665.tif",
+    "1676.tif",
+    "1727.tif",
+    "1732.tif",
+    "1820.tif",
+    "1837.tif",
+    "2011.tif",
+    "241.tif",
+    "350.tif",
+    "357.tif",
+    "375.tif",
+    "376.tif",
+    "377.tif",
+    "643.tif",
+    "666.tif",
+    "844.tif",
+    "854.tif",
+    "870.tif"
+  ]
+}

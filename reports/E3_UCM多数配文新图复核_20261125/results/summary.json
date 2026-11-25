@@ -1,0 +1,1242 @@
+{
+  "all": {
+    "images": 147,
+    "pairs": 74,
+    "folds": 1108,
+    "opportunity_folds": 122,
+    "changes": 28,
+    "changed_slots": 595,
+    "unique_opportunity_images": 37,
+    "opportunity": {
+      "mean": 0.11167800453514738,
+      "interval": [
+        0.074770213352228,
+        0.15172467187014596
+      ],
+      "defined_draws": 20000
+    },
+    "random_hit_given_opportunity": {
+      "mean": 0.11278553299492386,
+      "interval": [
+        0.07877604166666666,
+        0.181030507442264
+      ],
+      "defined_draws": 20000
+    },
+    "hit": {
+      "baseline": {
+        "mean": 0.5000000000000001,
+        "interval": [
+          0.33587463583729765,
+          0.6574082083813917
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.48477157360406103,
+        "interval": [
+          0.32047156602052745,
+          0.6438060674021094
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": -0.015228426395939089,
+        "interval": [
+          -0.05128205128205128,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "mrr": {
+      "baseline": {
+        "mean": 0.3530361070520504,
+        "interval": [
+          0.2933345564108858,
+          0.4156502203138238
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.35431628692333955,
+        "interval": [
+          0.2945443663185792,
+          0.4169913752786819
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.0012801798712891428,
+        "interval": [
+          -0.0014270839048333985,
+          0.004504763589461375
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "detail": {
+      "baseline": {
+        "mean": 0.5629251700680271,
+        "interval": [
+          0.524092970521542,
+          0.6030251141552512
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.5669879062736205,
+        "interval": [
+          0.5277777777777778,
+          0.6078265765765766
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.004062736205593349,
+        "interval": [
+          -0.0008561643835616438,
+          0.01020408163265306
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "blocked_miss": {
+      "baseline": {
+        "mean": 0.4263959390862945,
+        "interval": [
+          0.26562500000000006,
+          0.5982905982905983
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.4086294416243655,
+        "interval": [
+          0.2547169811320755,
+          0.5737202380952379
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": -0.017766497461928935,
+        "interval": [
+          -0.04241105248917749,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "other_miss": {
+      "baseline": {
+        "mean": 0.0736040609137056,
+        "interval": [
+          0.0192759499536608,
+          0.13559322033898305
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.10659898477157362,
+        "interval": [
+          0.03589712918660288,
+          0.18137338268640782
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.03299492385786802,
+        "interval": [
+          0.0,
+          0.08793990309855466
+        ],
+        "defined_draws": 20000
+      }
+    }
+  },
+  "a": {
+    "images": 147,
+    "pairs": 74,
+    "folds": 554,
+    "opportunity_folds": 60,
+    "changes": 19,
+    "changed_slots": 397,
+    "unique_opportunity_images": 29,
+    "opportunity": {
+      "mean": 0.11054421768707483,
+      "interval": [
+        0.07029478458049886,
+        0.15419501133786848
+      ],
+      "defined_draws": 20000
+    },
+    "random_hit_given_opportunity": {
+      "mean": 0.0907051282051282,
+      "interval": [
+        0.07893041237113403,
+        0.103427306986555
+      ],
+      "defined_draws": 20000
+    },
+    "hit": {
+      "baseline": {
+        "mean": 0.5025641025641026,
+        "interval": [
+          0.3,
+          0.6783925132269276
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.48717948717948717,
+        "interval": [
+          0.2838413194854243,
+          0.6648052366627785
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": -0.015384615384615385,
+        "interval": [
+          -0.05194992868403273,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "mrr": {
+      "baseline": {
+        "mean": 0.36252050294991145,
+        "interval": [
+          0.30010767561446017,
+          0.427570974419772
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.3626205676903718,
+        "interval": [
+          0.299591560166543,
+          0.4279041928512182
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.00010006474046037223,
+        "interval": [
+          -0.0037505579791540233,
+          0.004244001462213535
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "detail": {
+      "baseline": {
+        "mean": 0.5578231292517006,
+        "interval": [
+          0.5147392290249434,
+          0.6024774774774774
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.5606575963718822,
+        "interval": [
+          0.518018018018018,
+          0.6050228310502282
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.0028344671201814054,
+        "interval": [
+          -0.003942111754611755,
+          0.010135135135135136
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "blocked_miss": {
+      "baseline": {
+        "mean": 0.4205128205128205,
+        "interval": [
+          0.2537286394116375,
+          0.6122448979591837
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.40512820512820513,
+        "interval": [
+          0.23571314831665152,
+          0.6
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": -0.015384615384615385,
+        "interval": [
+          -0.05194992868403273,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "other_miss": {
+      "baseline": {
+        "mean": 0.07692307692307693,
+        "interval": [
+          0.0,
+          0.20689655172413796
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.1076923076923077,
+        "interval": [
+          0.0,
+          0.2475761556960895
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.03076923076923077,
+        "interval": [
+          0.0,
+          0.10389985736806515
+        ],
+        "defined_draws": 20000
+      }
+    }
+  },
+  "b": {
+    "images": 147,
+    "pairs": 74,
+    "folds": 554,
+    "opportunity_folds": 62,
+    "changes": 9,
+    "changed_slots": 198,
+    "unique_opportunity_images": 28,
+    "opportunity": {
+      "mean": 0.11281179138321995,
+      "interval": [
+        0.06925675675675676,
+        0.1621315192743764
+      ],
+      "defined_draws": 20000
+    },
+    "random_hit_given_opportunity": {
+      "mean": 0.13442211055276382,
+      "interval": [
+        0.0715063864628821,
+        0.26178600114744693
+      ],
+      "defined_draws": 20000
+    },
+    "hit": {
+      "baseline": {
+        "mean": 0.4974874371859297,
+        "interval": [
+          0.3011322263901147,
+          0.6947413024085635
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.4824120603015076,
+        "interval": [
+          0.28350413994642426,
+          0.6795641346651058
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": -0.015075376884422112,
+        "interval": [
+          -0.05389221556886228,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "mrr": {
+      "baseline": {
+        "mean": 0.34355171115418937,
+        "interval": [
+          0.2844261688947713,
+          0.4062635288616971
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.3460120061563073,
+        "interval": [
+          0.28654077049683707,
+          0.4087095181686381
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.002460295002117914,
+        "interval": [
+          -0.0006373276199909064,
+          0.007200240045272793
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "detail": {
+      "baseline": {
+        "mean": 0.5680272108843538,
+        "interval": [
+          0.5275899930102516,
+          0.6094104308390021
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.573318216175359,
+        "interval": [
+          0.532312925170068,
+          0.6154279279279279
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.005291005291005291,
+        "interval": [
+          0.0005630630630630633,
+          0.013416477702191988
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "blocked_miss": {
+      "baseline": {
+        "mean": 0.4321608040201005,
+        "interval": [
+          0.24210526315789474,
+          0.6244054878048767
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.4120603015075377,
+        "interval": [
+          0.23610895445134572,
+          0.5973154362416108
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": -0.020100502512562814,
+        "interval": [
+          -0.05970149253731343,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "other_miss": {
+      "baseline": {
+        "mean": 0.07035175879396985,
+        "interval": [
+          0.0,
+          0.1511627906976744
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.10552763819095479,
+        "interval": [
+          0.01694915254237288,
+          0.20689655172413796
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.035175879396984924,
+        "interval": [
+          0.0,
+          0.08547149122807005
+        ],
+        "defined_draws": 20000
+      }
+    }
+  },
+  "disagree": {
+    "images": 92,
+    "pairs": 56,
+    "folds": 501,
+    "opportunity_folds": 68,
+    "changes": 28,
+    "changed_slots": 595,
+    "unique_opportunity_images": 20,
+    "opportunity": {
+      "mean": 0.1362776025236593,
+      "interval": [
+        0.076921768707483,
+        0.2006501817295332
+      ],
+      "defined_draws": 20000
+    },
+    "random_hit_given_opportunity": {
+      "mean": 0.0859375,
+      "interval": [
+        0.07274590163934426,
+        0.10037096334103747
+      ],
+      "defined_draws": 20000
+    },
+    "hit": {
+      "baseline": {
+        "mean": 0.4976851851851851,
+        "interval": [
+          0.2849740932642487,
+          0.6983487472123835
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.46990740740740733,
+        "interval": [
+          0.2568493150684932,
+          0.6778446208022856
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": -0.027777777777777776,
+        "interval": [
+          -0.09411764705882353,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "mrr": {
+      "baseline": {
+        "mean": 0.2629373492836908,
+        "interval": [
+          0.21639413304050722,
+          0.3120389165994198
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.26578686006344354,
+        "interval": [
+          0.21911416326560113,
+          0.31467434932342314
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.0028495107797527415,
+        "interval": [
+          -0.003233322399253063,
+          0.010048438012739781
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "detail": {
+      "baseline": {
+        "mean": 0.5167192429022082,
+        "interval": [
+          0.4645541926511374,
+          0.571547128481614
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.5257623554153522,
+        "interval": [
+          0.47293565880450716,
+          0.580529757632696
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.009043112513144057,
+        "interval": [
+          -0.002039445100327335,
+          0.022620146299768478
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "blocked_miss": {
+      "baseline": {
+        "mean": 0.4074074074074074,
+        "interval": [
+          0.1959386016451234,
+          0.6285714285714286
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.375,
+        "interval": [
+          0.18,
+          0.5797120721554115
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": -0.032407407407407406,
+        "interval": [
+          -0.07476635514018691,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "other_miss": {
+      "baseline": {
+        "mean": 0.0949074074074074,
+        "interval": [
+          0.017045454545454548,
+          0.1875
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.1550925925925926,
+        "interval": [
+          0.04232617929801028,
+          0.27
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.06018518518518518,
+        "interval": [
+          0.0,
+          0.15695067264573992
+        ],
+        "defined_draws": 20000
+      }
+    }
+  },
+  "agree": {
+    "images": 121,
+    "pairs": 71,
+    "folds": 607,
+    "opportunity_folds": 54,
+    "changes": 0,
+    "changed_slots": 0,
+    "unique_opportunity_images": 24,
+    "opportunity": {
+      "mean": 0.09161091096242924,
+      "interval": [
+        0.051546261519146916,
+        0.13857826864147077
+      ],
+      "defined_draws": 20000
+    },
+    "random_hit_given_opportunity": {
+      "mean": 0.14536516853932585,
+      "interval": [
+        0.07507611000140174,
+        0.2879674745652431
+      ],
+      "defined_draws": 20000
+    },
+    "hit": {
+      "baseline": {
+        "mean": 0.502808988764045,
+        "interval": [
+          0.2434166073968706,
+          0.7211192585977926
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.502808988764045,
+        "interval": [
+          0.2434166073968706,
+          0.7211192585977926
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "mrr": {
+      "baseline": {
+        "mean": 0.42653406436695007,
+        "interval": [
+          0.33293085323726246,
+          0.5187382517710543
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.42653406436695007,
+        "interval": [
+          0.33293085323726246,
+          0.5187382517710543
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "detail": {
+      "baseline": {
+        "mean": 0.6006176016469378,
+        "interval": [
+          0.5471323698441981,
+          0.6536925359245869
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.6006176016469378,
+        "interval": [
+          0.5471323698441981,
+          0.6536925359245869
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "blocked_miss": {
+      "baseline": {
+        "mean": 0.449438202247191,
+        "interval": [
+          0.2239989583333333,
+          0.72
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.449438202247191,
+        "interval": [
+          0.2239989583333333,
+          0.72
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "other_miss": {
+      "baseline": {
+        "mean": 0.047752808988764044,
+        "interval": [
+          0.0,
+          0.10839160839160839
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.047752808988764044,
+        "interval": [
+          0.0,
+          0.10839160839160839
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    }
+  },
+  "ever_disagree_image": {
+    "images": 92,
+    "pairs": 56,
+    "folds": 690,
+    "opportunity_folds": 99,
+    "changes": 28,
+    "changed_slots": 595,
+    "unique_opportunity_images": 31,
+    "opportunity": {
+      "mean": 0.14266304347826086,
+      "interval": [
+        0.09325294550810015,
+        0.1962216569767441
+      ],
+      "defined_draws": 20000
+    },
+    "random_hit_given_opportunity": {
+      "mean": 0.08333333333333333,
+      "interval": [
+        0.07429941002949852,
+        0.09324437734888819
+      ],
+      "defined_draws": 20000
+    },
+    "hit": {
+      "baseline": {
+        "mean": 0.4603174603174603,
+        "interval": [
+          0.2866646341463414,
+          0.6263037186552175
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.4412698412698412,
+        "interval": [
+          0.2669892627941418,
+          0.6089394427732415
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": -0.01904761904761905,
+        "interval": [
+          -0.06474820143884892,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "mrr": {
+      "baseline": {
+        "mean": 0.259453506805267,
+        "interval": [
+          0.2145366252528635,
+          0.30658857998778494
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.26149901159960953,
+        "interval": [
+          0.2170549823407244,
+          0.30883695668812494
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.0020455047943424348,
+        "interval": [
+          -0.00229429281064997,
+          0.007252628978480768
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "detail": {
+      "baseline": {
+        "mean": 0.532608695652174,
+        "interval": [
+          0.48158889228886165,
+          0.5861928104575164
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.5391002415458938,
+        "interval": [
+          0.4877017343395692,
+          0.5928118191721131
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.006491545893719807,
+        "interval": [
+          -0.0014367816091954023,
+          0.01640104502471521
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "blocked_miss": {
+      "baseline": {
+        "mean": 0.4603174603174603,
+        "interval": [
+          0.2875985134599134,
+          0.6437499999999999
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.4380952380952381,
+        "interval": [
+          0.27348038110271733,
+          0.6136384148342631
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": -0.02222222222222222,
+        "interval": [
+          -0.051852385526737106,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "other_miss": {
+      "baseline": {
+        "mean": 0.07936507936507936,
+        "interval": [
+          0.014437845321739584,
+          0.15384615384615385
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.12063492063492062,
+        "interval": [
+          0.03296402502606883,
+          0.2096395258453167
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.04126984126984127,
+        "interval": [
+          0.0,
+          0.1095890410958904
+        ],
+        "defined_draws": 20000
+      }
+    }
+  },
+  "never_disagree_image": {
+    "images": 55,
+    "pairs": 38,
+    "folds": 418,
+    "opportunity_folds": 23,
+    "changes": 0,
+    "changed_slots": 0,
+    "unique_opportunity_images": 6,
+    "opportunity": {
+      "mean": 0.059848484848484845,
+      "interval": [
+        0.013636363636363636,
+        0.11864406779661016
+      ],
+      "defined_draws": 20000
+    },
+    "random_hit_given_opportunity": {
+      "mean": 0.23022151898734178,
+      "interval": [
+        0.08173076923076923,
+        0.6807432432432433
+      ],
+      "defined_draws": 19959
+    },
+    "hit": {
+      "baseline": {
+        "mean": 0.6582278481012659,
+        "interval": [
+          0.11538461538461539,
+          1.0
+        ],
+        "defined_draws": 19959
+      },
+      "vote": {
+        "mean": 0.6582278481012659,
+        "interval": [
+          0.11538461538461539,
+          1.0
+        ],
+        "defined_draws": 19959
+      },
+      "change": {
+        "mean": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "defined_draws": 19959
+      }
+    },
+    "mrr": {
+      "baseline": {
+        "mean": 0.509574274737579,
+        "interval": [
+          0.3845640085891357,
+          0.6289973008849575
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.509574274737579,
+        "interval": [
+          0.3845640085891357,
+          0.6289973008849575
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "detail": {
+      "baseline": {
+        "mean": 0.6136363636363636,
+        "interval": [
+          0.5345902362325509,
+          0.6927083333333334
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.6136363636363636,
+        "interval": [
+          0.5345902362325509,
+          0.6927083333333334
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "blocked_miss": {
+      "baseline": {
+        "mean": 0.2911392405063291,
+        "interval": [
+          0.0,
+          0.8846153846153846
+        ],
+        "defined_draws": 19959
+      },
+      "vote": {
+        "mean": 0.2911392405063291,
+        "interval": [
+          0.0,
+          0.8846153846153846
+        ],
+        "defined_draws": 19959
+      },
+      "change": {
+        "mean": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "defined_draws": 19959
+      }
+    },
+    "other_miss": {
+      "baseline": {
+        "mean": 0.05063291139240506,
+        "interval": [
+          0.0,
+          0.15384615384615385
+        ],
+        "defined_draws": 19959
+      },
+      "vote": {
+        "mean": 0.05063291139240506,
+        "interval": [
+          0.0,
+          0.15384615384615385
+        ],
+        "defined_draws": 19959
+      },
+      "change": {
+        "mean": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "defined_draws": 19959
+      }
+    }
+  },
+  "complete_pairs_only": {
+    "images": 146,
+    "pairs": 73,
+    "folds": 1100,
+    "opportunity_folds": 122,
+    "changes": 28,
+    "changed_slots": 595,
+    "unique_opportunity_images": 37,
+    "opportunity": {
+      "mean": 0.11244292237442921,
+      "interval": [
+        0.07534246575342465,
+        0.15268264840182647
+      ],
+      "defined_draws": 20000
+    },
+    "random_hit_given_opportunity": {
+      "mean": 0.11278553299492386,
+      "interval": [
+        0.07877604166666666,
+        0.181030507442264
+      ],
+      "defined_draws": 20000
+    },
+    "hit": {
+      "baseline": {
+        "mean": 0.5000000000000001,
+        "interval": [
+          0.33587463583729765,
+          0.6574082083813917
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.48477157360406103,
+        "interval": [
+          0.32047156602052745,
+          0.6438060674021094
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": -0.015228426395939089,
+        "interval": [
+          -0.05128205128205128,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "mrr": {
+      "baseline": {
+        "mean": 0.3508308749085713,
+        "interval": [
+          0.2909300628583109,
+          0.41403794766527496
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.3521198231351433,
+        "interval": [
+          0.29181064603182144,
+          0.41506024547484394
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.0012889482265719453,
+        "interval": [
+          -0.0014369596066778417,
+          0.0045251518629745675
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "detail": {
+      "baseline": {
+        "mean": 0.5667808219178081,
+        "interval": [
+          0.5283564814814814,
+          0.6070205479452054
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.5708713850837138,
+        "interval": [
+          0.5319063782091951,
+          0.6115891362252661
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.004090563165905631,
+        "interval": [
+          -0.0008680555555555555,
+          0.010230003330795497
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "blocked_miss": {
+      "baseline": {
+        "mean": 0.4263959390862945,
+        "interval": [
+          0.26562500000000006,
+          0.5982905982905983
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.4086294416243655,
+        "interval": [
+          0.2547169811320755,
+          0.5737202380952379
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": -0.017766497461928935,
+        "interval": [
+          -0.04241105248917749,
+          0.0
+        ],
+        "defined_draws": 20000
+      }
+    },
+    "other_miss": {
+      "baseline": {
+        "mean": 0.0736040609137056,
+        "interval": [
+          0.0192759499536608,
+          0.13559322033898305
+        ],
+        "defined_draws": 20000
+      },
+      "vote": {
+        "mean": 0.10659898477157362,
+        "interval": [
+          0.03589712918660288,
+          0.18137338268640782
+        ],
+        "defined_draws": 20000
+      },
+      "change": {
+        "mean": 0.03299492385786802,
+        "interval": [
+          0.0,
+          0.08793990309855466
+        ],
+        "defined_draws": 20000
+      }
+    }
+  }
+}
