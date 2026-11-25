@@ -1,5 +1,7 @@
 """Two independent one-draw deployments; no best-of-N or reward readout at inference."""
 import hashlib
+import os
+from gpu_turn import priority_training,lease
 import sys
 import tarfile
 import time
@@ -24,7 +26,11 @@ def generate(seed):
         if sub not in ('primary','official'):continue
         out=ROOT/'records/stochastic'/seed/sub;out.mkdir(exist_ok=True,parents=True)
         for j,c in enumerate(rows):
-            check();nm=c['image'];q=c[field];answer=feedback[nm];p=out/(nm+'.pt')
+            check()
+            if priority_training():
+                print('Releasing GPU after saved images for an admitted training pair.',flush=True)
+                os.execv(sys.executable,[sys.executable,'-u',__file__,seed])
+            nm=c['image'];q=c[field];answer=feedback[nm];p=out/(nm+'.pt')
             if p.is_file():
                 z=torch.load(p,weights_only=True);assert z['adapter']==sig and z['query']==q;continue
             im=rgb(tables[c['split']],c);ins=proc(text=[prompt(proc,q)],images=[im],return_tensors='pt').to('cuda')
@@ -76,5 +82,11 @@ def project():
 
 if __name__=='__main__':
     check()
-    if sys.argv[1]=='project':project()
-    else:generate(sys.argv[1])
+    if sys.argv[1]=='project':
+        for stage in ('prefix','resolution'):
+            while not (ROOT/'results'/(stage+'_nomination.json')).exists():check();time.sleep(3)
+        while priority_training():check();time.sleep(3)
+        project()
+    else:
+        while priority_training():check();time.sleep(3)
+        with lease():generate(sys.argv[1])

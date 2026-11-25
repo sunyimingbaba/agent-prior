@@ -67,7 +67,7 @@ def decision():
     vals={k:read(ROOT/'results'/('resolution_'+k+'.json'))['metrics'] for k in ('first','second','third')}
     eligible=all(x['change_joint']['mean']>0 for x in vals.values()) and vals['third']['change_joint']['interval'][0]>0
     eligible=eligible and all(x['change_'+k]['interval'][1]>=0 for x in vals.values() for k in ('mrr','detail'))
-    dump(ROOT/'results/resolution_nomination.json',dict(eligible=bool(eligible),sources={k:sha(ROOT/'results'/('resolution_'+k+'.json')) for k in vals}))
+    dump(ROOT/'results/resolution_nomination.json',dict(eligible=bool(eligible),protocol=sha(ROOT/'奖励并列与训练信号复核口径.md'),sources={k:sha(ROOT/'results'/('resolution_'+k+'.json')) for k in vals}))
 if __name__=='__main__':
     if sys.argv[1]=='decide':decision()
     else:main(sys.argv[1])

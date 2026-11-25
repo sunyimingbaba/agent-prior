@@ -12,19 +12,26 @@ import torch
 from remote_common import ROOT,BASE,read,dump,sha,setup,table,rgb,savept
 from runtime import initial,pool,OLD,BASE as LEGACY
 from policy import policy
-from orders import score,advantages
+from orders import score,advantages,calibrate
 from train import sequence_logp
 from full_traces import trace_batch
 from prefixes import greedy
 
 def train(seed,condition,reward):
     setup();torch.set_num_threads(1)
-    assert condition in ('scene','selected','locked','free') and reward in ('R2','R3') and seed in ('a','b')
+    assert condition in ('scene','selected','locked','free','ordinal','resolutionbase') and reward in ('R2','R3') and seed in ('a','b')
     timing=condition in ('locked','free')
-    nomination=ROOT/'results'/('prefix_nomination.json' if timing else 'nomination.json')
+    resolution=condition in ('ordinal','resolutionbase')
+    nomination=ROOT/'results'/('resolution_nomination.json' if resolution else ('prefix_nomination.json' if timing else 'nomination.json'))
     decision=read(nomination)
-    if timing:
-        assert decision['eligible'] and decision['protocol']==sha(ROOT/'首轮探索复核口径.md')
+    if timing or resolution:
+        assert decision['eligible']
+        if timing:assert decision['protocol']==sha(ROOT/'首轮探索复核口径.md')
+        else:assert reward=='R3' and decision['protocol']==sha(ROOT/'奖励并列与训练信号复核口径.md')
+        if (ROOT/'logs/cross_first').is_file():
+            while not (ROOT/'logs/cross_gpu.done').is_file():
+                if time.time()>=float(os.environ.get('E3_END_EPOCH','inf')):raise SystemExit(75)
+                time.sleep(3)
     else:
         assert decision['selected'] in ('mixed','question') and decision['protocol']==sha(ROOT/'实验口径.md')
     plan=read(ROOT/'inputs/training_roster.json')
@@ -76,7 +83,12 @@ def train(seed,condition,reward):
             packet=base64.b64encode(torch.stack(states+[states[0]]).float().numpy().tobytes()).decode()
             worker.stdin.write(json.dumps(dict(image=nm,data=packet))+'\n');worker.stdin.flush()
             scores=json.loads(worker.stdout.readline());assert len(scores)==17 and scores[0]==scores[-1]
-            rw,floor=score(scores[:16],k);adv=advantages(rw[reward]);opt.zero_grad(set_to_none=True)
+            rw,floor=score(scores[:16],k)
+            if condition=='ordinal':
+                native,hard,keep=(np.array([v[key] for v in scores[:16]]) for key in ('native','A','keep'))
+                dense=np.unique(native+k*hard,return_inverse=True)[1]
+                rw['original_R3']=rw['R3'];rw['R3']=calibrate(dense+17*(keep+1e-14>=floor),np.arange(16))
+            adv=advantages(rw[reward]);opt.zero_grad(set_to_none=True)
             errors=[];used=0
             for n,(ctx,paths) in enumerate(batches):
                 repeated={}
@@ -110,4 +122,6 @@ def train(seed,condition,reward):
     dump(dest/'complete.json',dict(initial=start,final=sha(dest/'adapter/adapter_model.safetensors'),steps=len(logs),
         updated=sum(z['grad_norm']>0 for z in logs),roster=roster_sig,nomination=sha(nomination),
         steps_sha=sha(dest/'steps.json'),entry=sha(ROOT/'code/train_rfpo.py'),sampler=sha(ROOT/'code/full_traces.py')))
-if __name__=='__main__':train(*sys.argv[1:])
+if __name__=='__main__':
+    from gpu_turn import lease
+    with lease():train(*sys.argv[1:])
