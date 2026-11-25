@@ -1,10 +1,12 @@
 """Collect training and development single-pass states for the actual ordinary deployment prompt."""
 from fresh_remote import ROOT,BASE,table,rgb,read,dump,sha,setup,savept,weights,policy,greedy
+import sys
 import torch
 @torch.inference_mode()
 def main():
     setup();torch.set_num_threads(1);t=table();src=BASE/'source_transfer_2h_20261125'
-    for seed in 'ab':
+    for seed in sys.argv[1:]:
+        assert seed in ('a','b')
         p,sig=weights(seed+'_deployed');model,proc=policy(p)
         for tag in ('first','second','third'):
             rs=read(src/'inputs'/(tag+'.json'));folder=ROOT/'records/ordinary'/tag/seed
