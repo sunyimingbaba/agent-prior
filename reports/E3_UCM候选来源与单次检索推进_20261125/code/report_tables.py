@@ -48,6 +48,24 @@ def report():
         for mode,label in [('native','全部配文'),('alternatives','不同于输入首句')]:
             v=r('single_'+t)[mode];rows.append([t.upper(),label,v['eligible'],v['captions'],m(v['baseline']['mR']),m(v['route']['mR']),d(v['change']['mR'])])
     if rows:sections+=['## 自动提问的完整图库与非输入配文',table(['数据集','文本','图数','配文数','原 mR','提问 mR','配对差及区间'],rows)]
+    if (ROOT/'results/independent_device.json').exists() and not (ROOT/'results/route.json').exists():
+        v=r('independent_device');rows=[]
+        for sub,k,desc in [('primary','CDE','126 图细节'),('official','mR','210 图普通检索')]:
+            rows.append([desc,m(v[sub]['before'][k]),m(v[sub]['after'][k]),d(v[sub]['change'][k])])
+        sections+=['## 单次部署，独立设备读出',table(['评价','原 R2','自动提问','配对差及区间'],rows)]
+    rows=[]
+    for t,name in [('UCM','device_ucm_gallery'),('RSITMD','device_cross_both')]:
+        if not (ROOT/'results'/(name+'.json')).exists():continue
+        record=r(name);record=record['metrics'] if t=='RSITMD' else record
+        for mode,label in [('native','全配文'),('alternatives','不同于首句')]:
+            v=record[mode];rows.append([t,label,v.get('eligible',v.get('images')),v['captions'],m(v['before']['mR']),m(v['after']['mR']),d(v['change']['mR'])])
+    if rows:sections+=['## 双向检索跨域复算',table(['数据集','配文','图数','配文数','原 R2','自动提问','配对差及区间'],rows)]
+    rows=[]
+    for t in ('first','second','third'):
+        if not (ROOT/'results'/('without_gate_'+t+'.json')).exists():continue
+        v=r('without_gate_'+t)
+        rows.append([t,d(v['joint']['change']),d(v['mrr']['change']),d(v['detail']['change'])])
+    if rows:sections+=['## 去除普通配文门槛的配对变化',table(['图组','双项选中（百分点）','MRR ×100','细节（百分点）'],rows)]
     if (ROOT/'results/stochastic_single.json').exists():
         z=r('stochastic_single');rows=[]
         for sub,k in [('primary','CDE'),('official','mR')]:

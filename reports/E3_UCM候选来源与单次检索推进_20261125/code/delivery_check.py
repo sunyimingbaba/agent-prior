@@ -9,7 +9,7 @@ def digest(path):
     with path.open('rb') as fh:return hashlib.file_digest(fh,'sha256').hexdigest()
 def included(path):
     rel=path.relative_to(ROOT)
-    return path.is_file() and path!=INDEX and not (set(rel.parts)&{'__pycache__','.git','.DS_Store'}) and path.suffix not in ('.pyc','.part') and not path.name.startswith('._')
+    return path.is_file() and path!=INDEX and rel.parts[0]!='logs' and not (set(rel.parts)&{'__pycache__','.git','.DS_Store'}) and path.suffix not in ('.pyc','.part') and not path.name.startswith('._')
 def main():
     if sys.argv[1]=='build':
         paths=sorted((p for p in ROOT.rglob('*') if included(p)),key=lambda p:p.as_posix())

@@ -45,7 +45,7 @@ def main():
                 if refpath.is_file():
                     before=load(refpath)['modes']
                     checks.append(dict(seed=s,image=nm,max_visual=max(float((v['visual']-before[k]['visual']).abs().max()) for k,v in f.items()),
-                        different_ranks=sum(np.count_nonzero(np.asarray(v['ranks'])!=before[k]['ranks']) for k,v in f.items())))
+                        different_ranks=int(sum(np.count_nonzero(np.asarray(v['ranks'])!=before[k]['ranks']) for k,v in f.items()))))
             item=dict(image=nm,pair=c['pair'],seed=s);anchor=f['locked']['visual'][-1].double().numpy()
             for arm,v in f.items():
                 vis=v['visual'].double().numpy();vis[-1]=anchor;folds,_=image_folds(c,s,b,vis,np.asarray(v['ranks'][:16]))

@@ -1,0 +1,120 @@
+{
+  "first": {
+    "max_canonical_difference": 1.0728836059570312e-06,
+    "metrics": {
+      "scene_detail": {
+        "mean": -0.018140589569160998,
+        "interval": [
+          -0.04279279279279279,
+          0.0045351473922902496
+        ],
+        "defined_images": 294,
+        "defined_draws": 20000
+      },
+      "scene_mrr": {
+        "mean": -0.006328436760698476,
+        "interval": [
+          -0.019778737572615997,
+          0.006348848430572111
+        ],
+        "defined_images": 294,
+        "defined_draws": 20000
+      },
+      "question_detail": {
+        "mean": -0.02267573696145125,
+        "interval": [
+          -0.0686936936936937,
+          0.018390804597701153
+        ],
+        "defined_images": 294,
+        "defined_draws": 20000
+      },
+      "question_mrr": {
+        "mean": 0.0019843090978335495,
+        "interval": [
+          -0.025142064079153315,
+          0.02772395675007966
+        ],
+        "defined_images": 294,
+        "defined_draws": 20000
+      },
+      "question_minus_scene_detail": {
+        "mean": -0.004535147392290252,
+        "interval": [
+          -0.05405405405405406,
+          0.04166666666666666
+        ],
+        "defined_images": 294,
+        "defined_draws": 20000
+      },
+      "question_minus_scene_mrr": {
+        "mean": 0.008312745858532027,
+        "interval": [
+          -0.020003094761820224,
+          0.03539033487252706
+        ],
+        "defined_images": 294,
+        "defined_draws": 20000
+      }
+    }
+  },
+  "second": {
+    "max_canonical_difference": 8.940696716308594e-07,
+    "metrics": {
+      "scene_detail": {
+        "mean": 0.02210884353741496,
+        "interval": [
+          0.0017006802721088417,
+          0.04591836734693878
+        ],
+        "defined_images": 196,
+        "defined_draws": 20000
+      },
+      "scene_mrr": {
+        "mean": -0.007584201873926059,
+        "interval": [
+          -0.022455318401822702,
+          0.006909374803637323
+        ],
+        "defined_images": 196,
+        "defined_draws": 20000
+      },
+      "question_detail": {
+        "mean": -0.011904761904761899,
+        "interval": [
+          -0.05442176870748299,
+          0.028911564625850344
+        ],
+        "defined_images": 196,
+        "defined_draws": 20000
+      },
+      "question_mrr": {
+        "mean": 0.01845297001447828,
+        "interval": [
+          -0.01054258915825135,
+          0.05000933023363915
+        ],
+        "defined_images": 196,
+        "defined_draws": 20000
+      },
+      "question_minus_scene_detail": {
+        "mean": -0.03401360544217686,
+        "interval": [
+          -0.07993197278911564,
+          0.010204081632653067
+        ],
+        "defined_images": 196,
+        "defined_draws": 20000
+      },
+      "question_minus_scene_mrr": {
+        "mean": 0.026037171888404338,
+        "interval": [
+          -0.0038604143156362064,
+          0.06094510437572774
+        ],
+        "defined_images": 196,
+        "defined_draws": 20000
+      }
+    }
+  }
+}
