@@ -10,7 +10,7 @@ from gate import K
 
 ARMS=('locked_R3','free_R3','locked_R2','free_R2')
 CONTRASTS=(('free_R3','locked_R3'),('free_R2','locked_R2'),('free_R3','free_R2'),
-           ('locked_R3','locked_R2'),('free_R3','locked_R2'),('free_R3','retained'),('locked_R3','retained'))
+           ('locked_R3','locked_R2'),('free_R3','locked_R2'),('free_R3','retained'),('locked_R3','retained'),('free_R3','R0'),('locked_R3','R0'),('free_R2','R0'),('locked_R2','R0'))
 
 def summarize(runs,groups):
     return {k:dict(**{t:x for t,x in boot(np.stack([r[k] for r in runs.values()]).mean(0),np.ones(len(groups)),groups).items()
@@ -50,9 +50,15 @@ def main():
     for sub,rows in [('primary',read(RFPO/'inputs/panel.json')),('official',read(FORM/'inputs/ucm.json'))]:
         ids=[c['image'] for c in rows];groups=[c.get('pair',c['image']) for c in rows];levels=defaultdict(dict)
         for seed in 'ab':
-            for arm in ('retained',)+ARMS:
+            for arm in ('R0','retained')+ARMS:
                 tag=seed+'_'+arm
-                if arm=='retained':o=load(RFPO/'vectors'/(seed+'_deployed_'+sub+'.pt'))
+                if arm in ('R0','retained'):
+                    label='deployed' if arm=='retained' else arm
+                    p=RFPO/'vectors'/(seed+'_'+label+'_'+sub+'.pt')
+                    assert sha(p)==read(RFPO/'archives/index.json')['vectors'][p.name]
+                    o=load(p)
+                    if arm=='R0':
+                        assert all(v['initial']==o['adapter'] for t,v in runs.items() if t.startswith(seed+'_'))
                 else:
                     base=ROOT/'records/learned'/tag
                     if tag not in runs or not (base/(sub+'_read.json')).is_file():continue

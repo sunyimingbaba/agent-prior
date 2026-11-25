@@ -1,0 +1,268 @@
+{
+  "protocol": "22ab266152c89215ab50b437ea6f927d6c81e099303fc2a5f42afa3daf1c925c",
+  "images": 98,
+  "pairs": 49,
+  "metrics": {
+    "winners_pruned": {
+      "mean": 0.1326530612244898,
+      "interval": [
+        0.08928571428571429,
+        0.17857142857142858
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "distinct_winners_pruned": {
+      "mean": 0.1326530612244898,
+      "interval": [
+        0.08928571428571429,
+        0.17857142857142858
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "original_constant": {
+      "mean": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "original_winners": {
+      "mean": 3.5301870748299318,
+      "interval": [
+        3.123724489795918,
+        3.9392006802721085
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "original_distinct_winners": {
+      "mean": 1.1488095238095237,
+      "interval": [
+        1.0977891156462585,
+        1.2028167517006794
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "original_joint": {
+      "mean": 0.053826530612244905,
+      "interval": [
+        0.030392978620019433,
+        0.080988824101069
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "original_signal_joint": {
+      "mean": -0.005499696365995171,
+      "interval": [
+        -0.01743592450416066,
+        0.005481996213226347
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "original_mrr": {
+      "mean": 0.3624004921463097,
+      "interval": [
+        0.2779186127315965,
+        0.4518113776178902
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "original_signal_mrr": {
+      "mean": 0.03107365836264101,
+      "interval": [
+        0.009747072288957135,
+        0.05422286443155486
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "original_detail": {
+      "mean": 0.5659227724278745,
+      "interval": [
+        0.5235823860568758,
+        0.6111386520697745
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "original_signal_detail": {
+      "mean": 0.022187886168444405,
+      "interval": [
+        0.00618317968059735,
+        0.03838384528154207
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "ordinal_constant": {
+      "mean": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "change_constant": {
+      "mean": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "ordinal_winners": {
+      "mean": 3.211734693877551,
+      "interval": [
+        2.80484693877551,
+        3.627551020408163
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "change_winners": {
+      "mean": -0.31845238095238093,
+      "interval": [
+        -0.4642857142857143,
+        -0.18877551020408162
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "ordinal_distinct_winners": {
+      "mean": 1.0,
+      "interval": [
+        1.0,
+        1.0
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "change_distinct_winners": {
+      "mean": -0.1488095238095238,
+      "interval": [
+        -0.20281675170068025,
+        -0.09778911564625849
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "ordinal_joint": {
+      "mean": 0.05994897959183673,
+      "interval": [
+        0.03443877551020408,
+        0.08843537414965985
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "change_joint": {
+      "mean": 0.006122448979591837,
+      "interval": [
+        0.0,
+        0.016144314868804667
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "ordinal_signal_joint": {
+      "mean": -0.0011757323281938257,
+      "interval": [
+        -0.013630086687960716,
+        0.010529119910634498
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "change_signal_joint": {
+      "mean": 0.004323964037801345,
+      "interval": [
+        -0.0001126730282351587,
+        0.00876192555289919
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "ordinal_mrr": {
+      "mean": 0.3624923288238174,
+      "interval": [
+        0.2775394572014475,
+        0.4519007114028634
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "change_mrr": {
+      "mean": 9.183667750769547e-05,
+      "interval": [
+        -0.0036816004465748614,
+        0.0038387911983788097
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "ordinal_signal_mrr": {
+      "mean": 0.02096016253096824,
+      "interval": [
+        0.001286037736011825,
+        0.04166925599286859
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "change_signal_mrr": {
+      "mean": -0.010113495831672774,
+      "interval": [
+        -0.016240139800829757,
+        -0.004281762491030191
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "ordinal_detail": {
+      "mean": 0.5701530612244897,
+      "interval": [
+        0.5282029478458049,
+        0.614937641723356
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "change_detail": {
+      "mean": 0.004230288796615326,
+      "interval": [
+        -0.0012054583738257251,
+        0.010719232227523037
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "ordinal_signal_detail": {
+      "mean": 0.024815695124258595,
+      "interval": [
+        0.011009382181975565,
+        0.03907598862605103
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    },
+    "change_signal_detail": {
+      "mean": 0.0026278089558141905,
+      "interval": [
+        -0.004537652936480894,
+        0.010425521686016572
+      ],
+      "defined_images": 196,
+      "defined_draws": 20000
+    }
+  }
+}
