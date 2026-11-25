@@ -1,0 +1,202 @@
+{
+  "second": {
+    "increased": {
+      "tag": "second",
+      "image": "1046.tif",
+      "seed": "a",
+      "correct_A": "The long rows of moored boats run vertically.",
+      "opposite_A": "The long rows of moored boats run horizontally.",
+      "unseen_C": [
+        "The boat rows span the height of the picture.",
+        "The boat rows span the width of the picture."
+      ],
+      "unseen_D": [
+        "Moored boats form rows down the height of the frame.",
+        "Moored boats form rows across the width of the frame."
+      ],
+      "unseen_E": [
+        "The long lines of boats go from top to bottom in this harbor.",
+        "The long lines of boats go from left to right in this harbor."
+      ],
+      "withheld_native": "Lots of boats docked in lines at the harbor .",
+      "original_greedy": {
+        "detail": 0.3333333333333333,
+        "mrr": 0.09090909090909091
+      },
+      "fixed": {
+        "detail": 0.33333333333333326,
+        "mrr": 0.1111111111111111,
+        "hit": 0.0,
+        "winners": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "free": {
+        "detail": 0.6666666666666666,
+        "mrr": 0.1,
+        "hit": 1.0,
+        "winners": [
+          2
+        ]
+      },
+      "seed_averaged_joint_change": 0.125
+    },
+    "decreased": {
+      "tag": "second",
+      "image": "1308.tif",
+      "seed": "a",
+      "correct_A": "The straight street between the mobile homes runs vertically.",
+      "opposite_A": "The straight street between the mobile homes runs horizontally.",
+      "unseen_C": [
+        "The mobile homes line a road spanning the height of the view.",
+        "The mobile homes line a road spanning the width of the view."
+      ],
+      "unseen_D": [
+        "The access street between the trailers follows a top-bottom course.",
+        "The access street between the trailers follows a left-right course."
+      ],
+      "unseen_E": [
+        "The road between the trailers crosses the picture from top to bottom.",
+        "The road between the trailers crosses the picture from side to side."
+      ],
+      "withheld_native": "Many mobile homes arranged in lines in the mobile home park and some roads go through this area .",
+      "original_greedy": {
+        "detail": 0.3333333333333333,
+        "mrr": 0.5
+      },
+      "fixed": {
+        "detail": 1.0,
+        "mrr": 1.0,
+        "hit": 1.0,
+        "winners": [
+          6
+        ]
+      },
+      "free": {
+        "detail": 0.3333333333333333,
+        "mrr": 0.2,
+        "hit": 0.0,
+        "winners": [
+          5,
+          6,
+          13
+        ]
+      },
+      "seed_averaged_joint_change": -0.125
+    }
+  },
+  "third": {
+    "increased": {
+      "tag": "third",
+      "image": "1248.tif",
+      "seed": "b",
+      "correct_A": "The street between the houses runs vertically.",
+      "opposite_A": "The street between the houses runs horizontally.",
+      "unseen_C": [
+        "The houses line a street spanning the height of the image.",
+        "The houses line a street spanning the width of the image."
+      ],
+      "unseen_D": [
+        "The residential road follows a top-bottom course.",
+        "The residential road follows a left-right course."
+      ],
+      "unseen_E": [
+        "The main street between the homes extends vertically in the image.",
+        "The main street between the homes extends sideways in the image."
+      ],
+      "withheld_native": "A medium residential area with a road goes through this area .",
+      "original_greedy": {
+        "detail": 0.3333333333333333,
+        "mrr": 0.07142857142857142
+      },
+      "fixed": {
+        "detail": 0.3333333333333333,
+        "mrr": 0.06666666666666667,
+        "hit": 0.0,
+        "winners": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15
+        ]
+      },
+      "free": {
+        "detail": 0.6666666666666666,
+        "mrr": 0.125,
+        "hit": 1.0,
+        "winners": [
+          14
+        ]
+      },
+      "seed_averaged_joint_change": 0.0625
+    },
+    "decreased": {
+      "tag": "third",
+      "image": "1350.tif",
+      "seed": "b",
+      "correct_A": "The straight street between the mobile homes runs horizontally.",
+      "opposite_A": "The straight street between the mobile homes runs vertically.",
+      "unseen_C": [
+        "The mobile homes line a road spanning the width of the view.",
+        "The mobile homes line a road spanning the height of the view."
+      ],
+      "unseen_D": [
+        "The access street between the trailers follows a left-right course.",
+        "The access street between the trailers follows a top-bottom course."
+      ],
+      "unseen_E": [
+        "The road between the trailers crosses the picture from side to side.",
+        "The road between the trailers crosses the picture from top to bottom."
+      ],
+      "withheld_native": "Lots of mobile homes arranged very neatly surrounded in the mobile home park .",
+      "original_greedy": {
+        "detail": 0.3333333333333333,
+        "mrr": 0.14285714285714285
+      },
+      "fixed": {
+        "detail": 0.6666666666666666,
+        "mrr": 0.2,
+        "hit": 1.0,
+        "winners": [
+          3,
+          10
+        ]
+      },
+      "free": {
+        "detail": 0.3333333333333333,
+        "mrr": 0.16666666666666666,
+        "hit": 0.0,
+        "winners": [
+          0,
+          2,
+          3,
+          4,
+          6
+        ]
+      },
+      "seed_averaged_joint_change": -0.125
+    }
+  }
+}

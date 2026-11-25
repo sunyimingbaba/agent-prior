@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-25T07:21:55.496137+00:00",
+  "utc": "2026-11-25T07:54:58.817841+00:00",
   "scheduled_end_utc": "2026-11-25T07:55:22+00:00",
   "server_directory": "/private/AGSE_E3_1_rebuild_20261112/source_transfer_2h_20261125",
   "gpu": "NVIDIA GeForce RTX 5090",
@@ -7,8 +7,13 @@
   "markers": [
     "0.done",
     "1.done",
+    "cross_gpu.done",
     "gpu.done",
-    "prefix_gpu.done"
+    "prefix_0.done",
+    "prefix_1.done",
+    "prefix_gpu.done",
+    "replay.done",
+    "route_gpu.done"
   ],
   "coverage": {
     "first/a": {
@@ -59,14 +64,16 @@
     "prefix/second/b": {
       "file_counts": {
         "raw": 98,
-        "features": 28
+        "features": 98
       },
-      "sealed": []
+      "sealed": [
+        "archive.json"
+      ]
     },
     "prefix/third/a": {
       "file_counts": {
         "raw": 122,
-        "features": 110
+        "features": 122
       },
       "sealed": [
         "archive.json"
@@ -74,7 +81,8 @@
     },
     "prefix/third/b": {
       "file_counts": {
-        "raw": 122
+        "raw": 122,
+        "features": 122
       },
       "sealed": [
         "archive.json"
@@ -83,37 +91,73 @@
     "route/a": {
       "file_counts": {
         "primary": 126,
-        "official": 13
+        "official": 210
+      },
+      "sealed": []
+    },
+    "route/b": {
+      "file_counts": {
+        "primary": 126,
+        "official": 210
+      },
+      "sealed": []
+    },
+    "cross/a": {
+      "file_counts": {
+        "raw": 448
+      },
+      "sealed": []
+    },
+    "cross/b": {
+      "file_counts": {
+        "raw": 448
+      },
+      "sealed": []
+    },
+    "stochastic/a": {
+      "file_counts": {
+        "primary": 126,
+        "official": 16
       },
       "sealed": []
     }
   },
   "pilots": {},
-  "logs_sha256": "ec524f6f10fe16f14a7d87a8ad520fc0a503c7eeda1e36de912320a11c01d1c4",
-  "bytes": 8631,
+  "logs_sha256": "8eb4a7a041fbe987e3fced739d32d66a1f44824600bfe9ae191a46ea641d1f78",
+  "bytes": 10169,
   "logs": {
     "0.done": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "0.log": "76ae4015a3d2aa19b5260ee615c709bf25382dcaadac2693366384693542a4b1",
     "1.done": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "1.log": "f0adc16622309c61f940b6bea245986823b321d6bfbf9044fff762122a52b27f",
-    "finish_second.log": "de2cb7da2041108f8cbb4731ff02f5124aebd2e1a1647f1c4badfd92350d6d90",
+    "assist_third.log": "d20f06d192ff3c029ea9657ce5d351d7e45848b65466c54e3f7853e16d2b1bf0",
+    "cross_cpu.log": "a03e31266570867a7e483ef5cb88e31b34aae72e5a26242f9bc3895b44c77f10",
+    "cross_gpu.done": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "cross_gpu.log": "e0524541b9323a4ef1bff9744c0aa3c902ebe6b0b47ac1a98f99302ee6922445",
+    "export_proxy.log": "1b977a952b6bea15b8479a9d1bcc435732ce6ed41cbaf0c0c9879c6f728a4bee",
+    "export_readout.log": "75d8a0a5bf7a8e5837c850b6ef799301e4207fd0c7b9bf719d50dea163346a5b",
+    "finish_second.log": "266c7da63fa23ded2d1e4fe71c3a4dce9394ba27e24a8bee9262209b4af0b813",
     "gpu.done": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "gpu.log": "5be1b0a01a9256610519193ec1c16763f2e48c2cb6965440801502ff860198f0",
-    "prefix_0.log": "26e235f2bded98d2f59ce204c62e96e1ad8b925e20bfb1209fc13502309289c9",
-    "prefix_1.log": "092d50e9625afb19db9a1188ef5d90a5be54f9b3007e48350872ce7a75930bc3",
+    "prefix_0.done": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prefix_0.log": "550eee9a359ee56bd2d917459a9a99974c3b391f52eb03e2cafc06d6fec7f4be",
+    "prefix_1.done": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prefix_1.log": "e856f80b0a92361e21b2e2823713e44ba15e34b75c95269e9b5bbe54aa84edeb",
     "prefix_gpu.done": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "prefix_gpu.log": "d62c734c87d133db42f114628f9f2a5dbc9c67814151f3affdd34d3d9459ba83",
     "prefix_train_cpu.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "prefix_train_gpu.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "reader_priority.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "replay.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "replay.done": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "replay.log": "eaf6f73e2e606e1708322120de26d0169e17aa083c39b0ae03297908b70455ee",
     "resolution_cpu.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "resolution_gpu.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "resume.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "route_cpu.log": "df9e8e03e8b8892268cdc6225f231658c53886efff76858e38e63fa0d781995d",
-    "route_gpu.log": "532d2e6c3f4d9cfaae1dacf4677c3af3c62528eb839958d41d2b55d9e3ac6c9e",
-    "stochastic_cpu.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "stochastic_gpu.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "swap.log": "f22821746f2c1a3103d93f3e5b0d4998086188c333cfffb5de25d8316f502fdb"
+    "route_cpu.log": "5558d7b2d78bca5c4c9ff27c92a84cdbf91e29deafc3dfbdf05a31af8bd6b9fd",
+    "route_gpu.done": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "route_gpu.log": "9304a4e3d24c1c9711f6bb4f230e86a8899d05039decace86f389404cf6f0e66",
+    "stochastic_cpu.log": "d1e5fea20be8c5bc9a6a2eb042358705dca18d36fd54e77c4e1d9206dbac9471",
+    "stochastic_gpu.log": "2c7c2406e3120591d8f70c14fd0fb796c7c71c36b6180e4a4d848417870fdceb",
+    "swap.log": "b245c3796e64d37cae73a95e0d487ce82f8738a9692845a8140d06453ba1d91e"
   }
 }
