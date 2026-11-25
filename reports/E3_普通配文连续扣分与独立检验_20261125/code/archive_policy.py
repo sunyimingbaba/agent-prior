@@ -11,7 +11,7 @@ def sha(p):
     with p.open('rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
 
 def main(mode):
-    arms={'exact_policy':('ordinary','joint'),'policy':('R2','old','new')}[mode]
+    arms={'exact_policy':('ordinary','joint'),'policy':('R2','old','new'),'mined_policy':('selected_ordinary','selected_joint','uniform_joint')}[mode]
     read=lambda p:json.loads(p.read_bytes())
     index={}
     for seed in 'ab':

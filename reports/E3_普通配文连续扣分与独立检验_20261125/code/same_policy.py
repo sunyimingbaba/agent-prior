@@ -10,8 +10,8 @@ def rr(value,negative):
     return sum(Fraction(1,i) for i in range(above+1,above+tied+1))/tied
 
 def main(stage):
-    fitted=stage=='policy'
-    arms=['R2','old','new'] if fitted else ['ordinary','joint']
+    arms={'policy':['R2','old','new'],'exact_policy':['ordinary','joint'],
+          'mined_policy':['selected_ordinary','uniform_joint','selected_joint']}[stage]
     target=arms[-1];arms+=['untrained','retained']
     primary=read(RFPO/'inputs/panel.json');official=read(FORM/'inputs/ucm.json')
     idx={r['rgb_sha256']:i for i,r in enumerate(official)}
