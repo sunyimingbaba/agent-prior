@@ -33,7 +33,7 @@ def comparison(rows,variant,left,right=None):
     items=defaultdict(list)
     for r in rows:items[r['image']].append(r)
     result={}
-    for metric in ('concordance','mrr','detail','joint','joint_if_available','all_good_blocked','opportunity','false_accept','false_reject')
+    for metric in ('concordance','mrr','detail','joint','joint_if_available','all_good_blocked','opportunity','false_accept','false_reject'):
         ratio=metric in ('joint_if_available','all_good_blocked')
         field={'joint_if_available':'joint','all_good_blocked':'blocked'}.get(metric,metric)
         numer=[];den=[];labels=[];by_seed=defaultdict(list)
