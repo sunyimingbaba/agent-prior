@@ -1,0 +1,297 @@
+{
+  "all": {
+    "images": 282,
+    "availability": {
+      "mean": 0.14140070921985815,
+      "interval": [
+        0.11096335697399526,
+        0.17390661938534277
+      ],
+      "defined_images": 564,
+      "defined_draws": 20000
+    },
+    "hit_if_available": {
+      "old": {
+        "mean": 0.3238169876100911,
+        "interval": [
+          0.22603432953677444,
+          0.42193683812552474
+        ],
+        "defined_images": 564,
+        "defined_draws": 20000
+      },
+      "R2": {
+        "mean": 0.31889087923570686,
+        "interval": [
+          0.22198165904292755,
+          0.4171631160900805
+        ],
+        "defined_images": 564,
+        "defined_draws": 20000
+      },
+      "mix_4_0.5_1": {
+        "mean": 0.3755784445439618,
+        "interval": [
+          0.26928225633764236,
+          0.4783240448517922
+        ],
+        "defined_images": 564,
+        "defined_draws": 20000
+      },
+      "random": {
+        "mean": 0.24457941483803552,
+        "interval": [
+          0.20988119074861064,
+          0.2787443447843028
+        ],
+        "defined_images": 564,
+        "defined_draws": 20000
+      }
+    },
+    "new_minus_old_if_available": {
+      "mean": 0.05176145693387072,
+      "interval": [
+        -0.04740867172705384,
+        0.1535593365273177
+      ],
+      "defined_images": 564,
+      "defined_draws": 20000
+    }
+  },
+  "fresh": {
+    "images": 94,
+    "availability": {
+      "mean": 0.12987588652482268,
+      "interval": [
+        0.08244680851063829,
+        0.18439716312056736
+      ],
+      "defined_images": 188,
+      "defined_draws": 20000
+    },
+    "hit_if_available": {
+      "old": {
+        "mean": 0.3174061433447099,
+        "interval": [
+          0.15305822328931573,
+          0.48084741657194935
+        ],
+        "defined_images": 188,
+        "defined_draws": 20000
+      },
+      "R2": {
+        "mean": 0.27303754266211605,
+        "interval": [
+          0.13618585703585975,
+          0.43172056467761305
+        ],
+        "defined_images": 188,
+        "defined_draws": 20000
+      },
+      "mix_4_0.5_1": {
+        "mean": 0.34812286689419797,
+        "interval": [
+          0.15837283425956195,
+          0.5223880597014925
+        ],
+        "defined_images": 188,
+        "defined_draws": 20000
+      },
+      "random": {
+        "mean": 0.21736348122866894,
+        "interval": [
+          0.16489330040526848,
+          0.27805143218704803
+        ],
+        "defined_images": 188,
+        "defined_draws": 20000
+      }
+    },
+    "new_minus_old_if_available": {
+      "mean": 0.030716723549488057,
+      "interval": [
+        -0.12396694214876035,
+        0.21884498480243164
+      ],
+      "defined_images": 188,
+      "defined_draws": 20000
+    }
+  },
+  "extension": {
+    "images": 44,
+    "availability": {
+      "mean": 0.0625,
+      "interval": [
+        0.019886363636363636,
+        0.11363636363636363
+      ],
+      "defined_images": 88,
+      "defined_draws": 20000
+    },
+    "hit_if_available": {
+      "old": {
+        "mean": 0.12337662337662336,
+        "interval": [
+          0.0,
+          0.2571428571428572
+        ],
+        "defined_images": 88,
+        "defined_draws": 19967
+      },
+      "R2": {
+        "mean": 0.0974025974025974,
+        "interval": [
+          0.0,
+          0.24369747899159666
+        ],
+        "defined_images": 88,
+        "defined_draws": 19967
+      },
+      "mix_4_0.5_1": {
+        "mean": 0.27922077922077926,
+        "interval": [
+          0.0,
+          0.5918367346938774
+        ],
+        "defined_images": 88,
+        "defined_draws": 19967
+      },
+      "random": {
+        "mean": 0.1846590909090909,
+        "interval": [
+          0.0859375,
+          0.2598684210526316
+        ],
+        "defined_images": 88,
+        "defined_draws": 19967
+      }
+    },
+    "new_minus_old_if_available": {
+      "mean": 0.15584415584415587,
+      "interval": [
+        -0.07142857142857142,
+        0.4
+      ],
+      "defined_images": 88,
+      "defined_draws": 19967
+    }
+  },
+  "saved": {
+    "images": 92,
+    "availability": {
+      "mean": 0.16666666666666669,
+      "interval": [
+        0.11503623188405795,
+        0.22010869565217392
+      ],
+      "defined_images": 184,
+      "defined_draws": 20000
+    },
+    "hit_if_available": {
+      "old": {
+        "mean": 0.3220108695652174,
+        "interval": [
+          0.15199818594104308,
+          0.5
+        ],
+        "defined_images": 184,
+        "defined_draws": 20000
+      },
+      "R2": {
+        "mean": 0.33220108695652173,
+        "interval": [
+          0.17301181327835394,
+          0.5029963221704736
+        ],
+        "defined_images": 184,
+        "defined_draws": 20000
+      },
+      "mix_4_0.5_1": {
+        "mean": 0.34782608695652173,
+        "interval": [
+          0.19164359406896717,
+          0.5148315993096226
+        ],
+        "defined_images": 184,
+        "defined_draws": 20000
+      },
+      "random": {
+        "mean": 0.24745244565217392,
+        "interval": [
+          0.19964170506912446,
+          0.2916666666666667
+        ],
+        "defined_images": 184,
+        "defined_draws": 20000
+      }
+    },
+    "new_minus_old_if_available": {
+      "mean": 0.02581521739130434,
+      "interval": [
+        -0.14872609041743734,
+        0.2000059952038364
+      ],
+      "defined_images": 184,
+      "defined_draws": 20000
+    }
+  },
+  "extra": {
+    "images": 52,
+    "availability": {
+      "mean": 0.1842948717948718,
+      "interval": [
+        0.0953525641025641,
+        0.28365384615384615
+      ],
+      "defined_images": 104,
+      "defined_draws": 20000
+    },
+    "hit_if_available": {
+      "old": {
+        "mean": 0.39239130434782604,
+        "interval": [
+          0.18280469392668686,
+          0.5733342391304347
+        ],
+        "defined_images": 104,
+        "defined_draws": 20000
+      },
+      "R2": {
+        "mean": 0.41956521739130437,
+        "interval": [
+          0.18884045139409947,
+          0.6229061727264401
+        ],
+        "defined_images": 104,
+        "defined_draws": 20000
+      },
+      "mix_4_0.5_1": {
+        "mean": 0.4826086956521739,
+        "interval": [
+          0.21392968313512647,
+          0.6900049019607839
+        ],
+        "defined_images": 104,
+        "defined_draws": 20000
+      },
+      "random": {
+        "mean": 0.29184782608695653,
+        "interval": [
+          0.19328547538224558,
+          0.37750041946308727
+        ],
+        "defined_images": 104,
+        "defined_draws": 20000
+      }
+    },
+    "new_minus_old_if_available": {
+      "mean": 0.09021739130434782,
+      "interval": [
+        -0.11878179650238473,
+        0.30845796220510346
+      ],
+      "defined_images": 104,
+      "defined_draws": 20000
+    }
+  }
+}
