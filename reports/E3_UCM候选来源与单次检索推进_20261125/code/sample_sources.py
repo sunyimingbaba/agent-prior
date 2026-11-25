@@ -37,6 +37,6 @@ def main(seed,tag):
             assert vec.shape==(17,3584) and torch.isfinite(vec).all()
             record['modes'][mode]=dict(query=query,hidden=vec,paths=paths,greedy=actions,calls=calls,rngs=rngs)
         savept(f,record);print(tag,seed,j+1,len(rows),flush=True)
-    dump(target/'complete.json',dict(adapter=adapter,sampler=sha(source),entry=sha(__file__),lock=sha(ROOT/'inputs/lock.json'),
+    dump(target/'complete.json',dict(adapter=adapter,sampler=sha(source),entry=sha(ROOT/'code/sample_sources.py'),lock=sha(ROOT/'inputs/lock.json'),
         files={r['image']:sha(target/(r['image']+'.pt')) for r in rows}))
 if __name__=='__main__':main(*sys.argv[1:])

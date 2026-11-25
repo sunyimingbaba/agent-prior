@@ -1,0 +1,163 @@
+{
+  "categories": {
+    "agricultural": {
+      "attribute": "field_axis",
+      "question": "Which direction do the crop rows run in the image?",
+      "counts": {
+        "field_axis": 4,
+        "field_color": 4,
+        "field_curve": 4
+      },
+      "training_pairs": 6
+    },
+    "baseball diamond": {
+      "attribute": "infield",
+      "question": "What surface covers the center of the baseball infield?",
+      "counts": {
+        "infield": 16
+      },
+      "training_pairs": 8
+    },
+    "beach": {
+      "attribute": "surf",
+      "question": "How wide is the surf along the shoreline?",
+      "counts": {
+        "surf": 8,
+        "water_side": 4
+      },
+      "training_pairs": 6
+    },
+    "buildings": {
+      "attribute": "rooftops",
+      "question": "How light or dark are most of the rooftops?",
+      "counts": {
+        "rooftops": 4
+      },
+      "training_pairs": 2
+    },
+    "dense residential": {
+      "attribute": "roof_hue",
+      "question": "What color are the roofs of the houses?",
+      "counts": {
+        "roof_hue": 4,
+        "street_axis": 1,
+        "rooftops": 1
+      },
+      "training_pairs": 4
+    },
+    "medium residential": {
+      "attribute": "street_axis",
+      "question": "Which direction does the street between the houses run?",
+      "counts": {
+        "street_axis": 4,
+        "rooftops": 3
+      },
+      "training_pairs": 4
+    },
+    "freeway": {
+      "attribute": "freeway_axis",
+      "question": "Which direction does the freeway run in the image?",
+      "counts": {
+        "freeway_axis": 4,
+        "freeway_color": 4,
+        "bridge_axis": 1
+      },
+      "training_pairs": 6
+    },
+    "overpass": {
+      "attribute": "bridge_slope",
+      "question": "How does the upper roadway slope across the image?",
+      "counts": {
+        "freeway_axis": 1,
+        "bridge_axis": 4,
+        "bridge_slope": 8
+      },
+      "training_pairs": 8
+    },
+    "runway": {
+      "attribute": "runway_number",
+      "question": "What numeric markings, if any, are visible on the runway?",
+      "counts": {
+        "freeway_axis": 1,
+        "bridge_axis": 1,
+        "runway_number": 8,
+        "runway_bars": 4
+      },
+      "training_pairs": 8
+    },
+    "harbor": {
+      "attribute": "berths",
+      "question": "How full are the berths along the docks?",
+      "counts": {
+        "harbor_rows": 4,
+        "berths": 8
+      },
+      "training_pairs": 6
+    },
+    "intersection": {
+      "attribute": "crosswalk",
+      "question": "What pedestrian markings can be seen at the intersection?",
+      "counts": {
+        "crosswalk": 6
+      },
+      "training_pairs": 3
+    },
+    "mobile home park": {
+      "attribute": "mobile_axis",
+      "question": "Which direction does the straight street between the mobile homes run?",
+      "counts": {
+        "mobile_axis": 4,
+        "street_axis": 1
+      },
+      "training_pairs": 3
+    },
+    "parking lot": {
+      "attribute": "parking_fill",
+      "question": "How full are the parking rows?",
+      "counts": {
+        "parking_fill": 8,
+        "parking_ground": 4,
+        "parking_axis": 4
+      },
+      "training_pairs": 8
+    },
+    "river": {
+      "attribute": "river_bank",
+      "question": "How much tree cover is visible along the riverbanks?",
+      "counts": {
+        "river_axis": 4,
+        "river_bank": 8
+      },
+      "training_pairs": 6
+    },
+    "sparse residential": {
+      "attribute": "house_pool",
+      "question": "What swimming facilities, if any, are visible beside the house?",
+      "counts": {
+        "house_light": 4,
+        "house_pool": 8
+      },
+      "training_pairs": 6
+    },
+    "tennis court": {
+      "attribute": "court_surround",
+      "question": "What color is the area immediately surrounding the marked tennis court?",
+      "counts": {
+        "court_surround": 12
+      },
+      "training_pairs": 6
+    }
+  },
+  "source": {
+    "": {
+      "panel": "0aa3ebc5e3e8aab803934e16592f36da169a6cce66873c989f1045fb84048c5d",
+      "tools": "9f57ab778b4fe917e7b8e92b2996a5b545e0dd95df6d56e61b69ae12e341b686"
+    },
+    "confirm": {
+      "panel": "ccc4f16b2ffccb8932b53f63108499214cc806dd7ea99a29f3b3473424a23d11",
+      "tools": "ad0a60a79b07adba540289331073469ee72c4067432ba85a1752da136ff3381f"
+    }
+  },
+  "protocol": "d57b84705d7d1893a57f845e1a925f71e1375e53602c7ed2b4d04456ed95fb03",
+  "questions": "5e1b118d5acd90aa46fa968e75e7eed14b625076983ae01212adbeea5b00879f"
+}
