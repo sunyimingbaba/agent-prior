@@ -3,13 +3,16 @@ import numpy as np
 from rosters import ROOT,read,sha,dump
 from report_scores import load
 from single_scores import calculate,RFPO,FORM,summary_by_seed
+from run_stage import boot
 
 def main():
     results={};records=[]
     for sub,rows in [('primary',read(RFPO/'inputs/panel.json')),('official',read(FORM/'inputs/ucm.json'))]:
         labels=[r.get('pair',r['image']) for r in rows]
         groups={m:{} for m in ('greedy','draw1','draw2','average','change')};actions={};checks={}
-        for seed in 'ab':
+        avail=[s for s in 'ab' if (ROOT/'records/stochastic'/s/(sub+'_read.json')).is_file()]
+        if not avail:continue
+        for seed in avail:
             base=ROOT/'records/stochastic'/seed;f=base/(sub+'_features.pt');proof=read(base/(sub+'_read.json'))
             assert proof['features']==sha(f) and proof['archive']==sha(base/(sub+'.tar.gz'));z=load(f)
             ref=load(RFPO/'vectors'/(seed+'_deployed_'+sub+'.pt'));v=z['visual']
@@ -24,6 +27,13 @@ def main():
             actions[seed]={k:np.mean([z1[k] for z1 in z['meta']],axis=0).tolist() for k in ('same','rounds','tokens')}
             for j,c in enumerate(rows):
                 records.append(dict(image=c['image'],seed=seed,sub=sub,outcomes={m:{k:float(vv[j]) for k,vv in g[seed].items()} for m,g in groups.items()}))
-        results[sub]=dict(metrics={k:summary_by_seed(g,labels) for k,g in groups.items()},actions=actions,checks=checks)
-    dump(ROOT/'results/stochastic_single.json',results);dump(ROOT/'records/stochastic_images.json',records)
+        def summarize(g):
+            if len(g)==2:return summary_by_seed(g,labels)
+            key=next(iter(g));return {k:dict(mean=float(v.mean()),interval=boot(v,np.ones(len(labels)),labels)['interval'],
+                                             seeds=[float(v.mean())]) for k,v in g[key].items()}
+        results[sub]=dict(seeds=avail,metrics={k:summarize(g) for k,g in groups.items()},actions=actions,checks=checks)
+    if not results:return
+    complete=len(results)==2 and all(len(v['seeds'])==2 for v in results.values())
+    name='single' if complete else 'partial'
+    dump(ROOT/'results'/('stochastic_'+name+'.json'),results);dump(ROOT/'records'/('stochastic_'+name+'_images.json'),records)
 if __name__=='__main__':main()

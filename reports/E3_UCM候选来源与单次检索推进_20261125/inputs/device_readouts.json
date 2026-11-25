@@ -1,0 +1,14 @@
+{
+  "readout": {
+    "trace": "fafb860c45a7bc5d99ef7c835d13f5793c631cdf85faafddc3622be722b77f16",
+    "transform": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    <function _convert_image_to_rgb at 0x7fc922a4f7e0>\n    ToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+    "reader": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc"
+  },
+  "proxy": {
+    "trace": "bb2aa73a9ac245251659cc973d99a0d6f47561e347b1b2ec28dc14cdee21dd0c",
+    "gallery": "79623799780f03058004f66228cfd7a9efb5004718d223c0966c478f8bddf484",
+    "source": "4c575909f27f140b312ba1f8277ffdf5cce973a7fecaa8ee7ffe291ade0d795c"
+  },
+  "local_assets": "/Users/botlv/cup-deploy-assets/e3-source-transfer-20261125",
+  "server_assets": "/private/AGSE_E3_1_rebuild_20261112/source_transfer_2h_20261125/scratch"
+}

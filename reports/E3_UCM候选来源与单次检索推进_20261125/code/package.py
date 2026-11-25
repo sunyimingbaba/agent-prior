@@ -10,6 +10,11 @@ from rosters import ROOT,read,sha,dump
 def main(tag,seed):
     folder=ROOT/'records'/tag/seed/'raw'
     proof=read(folder/'complete.json');dest=folder.parent/'trajectories.tar.gz';part=dest.with_suffix('.part')
+    receipt=folder.parent/'archive.json'
+    if receipt.exists() and dest.exists():
+        done=read(receipt)
+        if done['raw_proof']==sha(folder/'complete.json') and done['sha256']==sha(dest):
+            assert done['images']==len(proof['files']);return
     with tarfile.open(part,'w:gz',compresslevel=3) as output:
         output.add(folder/'complete.json',arcname='complete.json')
         for image,h in proof['files'].items():

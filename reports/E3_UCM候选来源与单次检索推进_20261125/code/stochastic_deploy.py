@@ -83,9 +83,6 @@ def project():
 if __name__=='__main__':
     check()
     if sys.argv[1]=='project':
-        for stage in ('prefix','resolution'):
-            while not (ROOT/'results'/(stage+'_nomination.json')).exists():check();time.sleep(3)
-        while priority_training():check();time.sleep(3)
         project()
     else:
         while priority_training():check();time.sleep(3)
