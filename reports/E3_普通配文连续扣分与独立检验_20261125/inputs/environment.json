@@ -1,0 +1,32 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5090, 32108 MiB, 580.142",
+  "agent": {
+    "python": "3.13.13",
+    "interpreter": "/private/AGSE_E1_20261110/e1_prior_compat_20261111/venv/bin/python",
+    "packages": {
+      "torch": "2.10.0",
+      "torchvision": "0.25.0+cu130",
+      "transformers": "4.57.2",
+      "peft": "0.10.0",
+      "numpy": "2.4.3",
+      "pyarrow": "21.0.0",
+      "Pillow": "11.3.0"
+    }
+  },
+  "frozen_reader": {
+    "python": "3.12.6",
+    "interpreter": "/private/AGSE_E1_20261110/legacy/env/bin/python",
+    "packages": {
+      "torch": "2.4.1+cu124",
+      "torchvision": "0.19.1+cu124",
+      "transformers": "4.57.2",
+      "peft": "0.10.0",
+      "numpy": "1.26.4",
+      "scipy": "1.14.1",
+      "pyarrow": "14.0.0",
+      "Pillow": "10.4.0"
+    }
+  },
+  "working_directory": "/private/AGSE_E3_1_rebuild_20261112/soft_guard_20261125",
+  "private_mount": "/private gpfs"
+}
