@@ -14,10 +14,10 @@ def head(x,base,w):
 def compress(h):
     mu=h.mean(0);u,s,v=torch.linalg.svd((h-mu).double(),full_matrices=False)
     return dict(mu=mu,pc=v[:32].T.float().contiguous(),std=(s[:32]/np.sqrt(len(h)-1)).float().clamp_min(1e-5))
-def native_loss(v,pos,native):
+def native_loss(v,pos,native,training_texts):
     # Other positive paraphrases and identical text columns are excluded from negatives in both directions.
     logits=40*(v@native.T);alt=pos[:,1:];ok=alt!=pos[:,0,None];none=~ok.any(1);ok[none,0]=True
-    valid=torch.ones_like(logits,dtype=torch.bool);valid.scatter_(1,pos,False)
+    valid=training_texts.expand_as(logits).clone();valid.scatter_(1,pos,False)
     neg=logits.masked_fill(~valid,float('-inf')).logsumexp(1)
     target=logits.gather(1,alt)
     fwd=F.softplus(neg[:,None]-target)
@@ -58,7 +58,8 @@ def fit(seed):
     pub=OUT/seed;pub.mkdir(exist_ok=True)
     prefix=pub/'base_dev.pt'
     if not prefix.exists():save(prefix,embeddings(m,dev,None))
-    gallery=data['native'].cuda();logs=[]
+    gallery=data['native'].cuda();training_texts=torch.zeros(len(gallery),dtype=torch.bool,device='cuda')
+    training_texts[data['pos'].unique().cuda()]=True;logs=[]
     for arm in ('ordinary','hard'):
         folder=pub/arm;folder.mkdir(exist_ok=True)
         if (folder/'done.json').exists():continue
@@ -71,7 +72,7 @@ def fit(seed):
                 ids=sum((groups[k] for k in pairs[start:start+4]),[]);p=data['pixels'][ids].cuda()
                 x=torch.cat([data['ordinary'][ids],data['scene'][ids]]).cuda();hs=head(x,base,w)
                 v=m(torch.cat([p,p]),hs);o,s=v.chunk(2);cs=data['pos'][ids].cuda()
-                ordinary=(native_loss(o,cs,gallery)+native_loss(s,cs,gallery))*.5
+                ordinary=(native_loss(o,cs,gallery,training_texts)+native_loss(s,cs,gallery,training_texts))*.5
                 fine=F.softplus(-50*torch.einsum('bd,bkd->bk',s,data['ab'][ids].cuda())).mean()
                 loss=ordinary+(.75*fine if arm=='hard' else 0.)
                 opt.zero_grad(set_to_none=True);loss.backward()
