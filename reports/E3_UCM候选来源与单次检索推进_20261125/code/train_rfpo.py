@@ -5,6 +5,7 @@ import os
 from pathlib import Path
 import subprocess
 import sys
+import time
 
 import numpy as np
 import torch
@@ -41,6 +42,12 @@ def train(seed,condition,reward):
         assert worker.stdout.readline().strip()=='READY'
         for j,row in enumerate(plan['rows']):
             if j<len(logs):continue
+            if time.time() >= float(os.environ.get('E3_END_EPOCH','inf')):
+                if logs:
+                    savept(state,dict(initial=start,roster=roster_sig,weights={k:v.detach().cpu() for k,v in params.items()},
+                                      optimizer=opt.state_dict(),logs=logs))
+                dump(dest/'window_end.json',dict(completed_steps=len(logs),roster=roster_sig))
+                raise SystemExit(75)
             nm=row['image'];c=cases[nm];assert c['rgb_sha256']==row['rgb'];im=rgb(data,c)
             source='scene' if condition=='scene' else decision['selected']
             prompts=['scene','scene'] if source=='scene' else (['question','question'] if source=='question' else

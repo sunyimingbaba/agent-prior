@@ -1,5 +1,5 @@
 """Use each finished RFPO checkpoint once per picture with the original deployment input."""
-import sys,time,tarfile
+import sys,time,tarfile,os
 import torch
 from remote_common import ROOT,BASE,setup,table,rgb,read,dump,sha,savept
 from eval_io import datasets
@@ -16,6 +16,7 @@ def generate(tag):
     for sub in ('primary','official'):
         rows,answers,field=ds[sub];out=bundle(tag,sub);out.mkdir(exist_ok=True,parents=True)
         for c in rows:
+            if time.time()>=float(os.environ.get('E3_END_EPOCH','inf')):raise SystemExit(75)
             nm=c['image'];p=out/(nm+'.pt')
             if p.exists():
                 old=torch.load(p,weights_only=True);assert old['adapter']==sig and old['query']==c[field];continue
@@ -38,7 +39,9 @@ def project(tags):
             fs=[];names=[];proof={};sig=None
             for c in rows:
                 nm=c['image'];p=out/(nm+'.pt')
-                while not p.exists():time.sleep(1)
+                while not p.exists():
+                    if time.time()>=float(os.environ.get('E3_END_EPOCH','inf')):raise SystemExit(75)
+                    time.sleep(1)
                 z=torch.load(p,weights_only=True);assert z['image']==nm and z['rgb']==c['rgb_sha256'] and z['query']==c[field]
                 sig=z['adapter'] if sig is None else sig;assert z['adapter']==sig
                 ft=m.img_embeds(m.preprocess(rgb(tables[c['split']],c))[None],agent_hidden=z['prior'].float()[None])['image_feats'][0]
