@@ -1,6 +1,7 @@
 import numpy as np
 import torch
 from functools import lru_cache
+import sys
 from study import STAGE, PREV, FORM, RFPO, ARMS, CONTRASTS, read, dump, load, sha, feature_path, banks, bank_for, digest
 from study import calculate, summary_by_seed, paired, fixed, rr
 
@@ -9,8 +10,14 @@ def saved_files(folder):
     return {key:val for j in range(2) for key,val in read(folder/('complete_'+str(j)+'.json'))['files'].items()}
 
 
-def features(tag, arm, seed, rows):
-    if arm == 'retained':
+def features(tag, arm, seed, rows, reference=False):
+    if arm == 'retained' and reference:
+        folder=STAGE/'reference/evaluate'/(seed+'_retained')
+        path=folder/(tag+'.pt')
+        assert sha(path)==read(folder/tag/'complete.json')['features']
+        result=load(path)
+        assert result['adapter']==read(PREV/'strict_rfpo/inputs/lock.json')['starts'][seed]['R2']
+    elif arm == 'retained':
         if tag in ('primary','official'):
             result = load(RFPO/'vectors'/(seed+'_deployed_'+tag+'.pt'))
         else:
@@ -102,7 +109,7 @@ def describe(raw, rows, mask=None):
     return result
 
 
-def main():
+def main(reference=False):
     torch.set_num_threads(1)
     packs = banks()
     text = [(p['native'].double().numpy(),p['hard'].double().numpy(),p['maps']) for p in packs]
@@ -122,7 +129,7 @@ def main():
         raw = {a:{} for a in ARMS}; metrics = {a:{} for a in ARMS}
         for arm in ARMS:
             for seed in 'ab':
-                v = features(tag,arm,seed,rows)
+                v = features(tag,arm,seed,rows,reference)
                 if formal:
                     metrics[arm][seed] = calculate(tag,v,rows)
                     full.extend(dict(tag=tag,arm=arm,seed=seed,image=row['image'],
@@ -146,8 +153,11 @@ def main():
         decision[comp] = all(result[t]['contrasts'][comp][k]['mean']>=0 for t in ('hold_first','hold_scene') for k in ('CDE','mrr')) and all(result[t]['joint'][comp]['net']['mean']>0 for t in ('hold_first','hold_scene'))
     cp = [result[t]['contrasts']['dualjoint-retained'][k] for t,k in [('primary','CDE'),('official','mR')]]
     result['decision'] = dict(cross_input=decision,promote=all(min(x['seeds'])>0 and x['interval'][0]>0 for x in cp))
-    dump(STAGE/'results/ucm.json',result);dump(STAGE/'results/caption_outcomes.json',logs);dump(STAGE/'results/formal_images.json',full)
+    dest=STAGE/'reference' if reference else STAGE/'results'
+    dump(dest/'ucm.json',result)
+    dump(dest/'caption_outcomes.json',[r for r in logs if r['arm']=='retained'] if reference else logs)
+    dump(dest/'formal_images.json',[r for r in full if r['arm']=='retained'] if reference else full)
 
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1:]==['reference'])
