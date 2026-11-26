@@ -1,0 +1,57 @@
+{
+  "base": {
+    "adapters": {
+      "a_guard": "30afa0d9e074bc3474cd80ec0e09e09f6ba7f577ec70f96802418565cba39e80",
+      "b_ordinary": "92825aabc9aad7f966e07f2309ea941a516f34de02b1041e45b3427aae5c77fa",
+      "b_guard": "f80467c7128d286ac7e03799879d89ef4d90abf37a091a9f4b632e8d0532b6b3",
+      "b_teacher": "50385ee9461c2dd4056ababddb0e23c44060c14ba03534eb16173247bf995dd5",
+      "a_teacher": "dbabd8c481c19f92225fcf286fc506907f7ddccc07462d2f63ff8ce5764dc965",
+      "a_ordinary": "1b74d2af0a242a42f2d4d8de59861619ec02bba6533cd9f935afa3745844dd4f"
+    },
+    "external": "/Users/botlv/cup-deploy-assets/e3-greedy-margin-20261126/models",
+    "ucm_generated": 3040,
+    "rsitmd_generated": 1792,
+    "sha256": {
+      "backup": "58d6a4902db8c3a754a242a32c2cfeb8cd700ef5be865188a4bae9f255b7149b",
+      "cross_backup": "c9893f52446a96a340ca962efb4ce48ce51e113655c278f2a84ead1f1318740b",
+      "score": "05a1a1b10528b0aea17630f78a8a619293d2de6e9040fd05e849c59fdb4f38c1",
+      "cross_scores": "89887083c4cb5e4b21caaaa00c9bcf7df1a9ffbd7d534f9620e73b2f390484b4"
+    }
+  },
+  "reachable": {
+    "adapters": {
+      "b_ordinary": "1513e38c16b94123dadc556c6b68e78eedfec4561df1e94f05c466d9aff03b4b",
+      "b_teacher": "cba4aeadb7f2742e95eca559b6bb53d66b10fc71e269285544db289def1d294f",
+      "a_teacher": "763554a72e07e4720ea726021aaa955bfb8700f2670f7899a5c4835b2d0e2f1d",
+      "a_ordinary": "93d3b72caca1065ca86683911c3121336fb318cf4efaec3b0dd3aca395a2e765"
+    },
+    "external": "/Users/botlv/cup-deploy-assets/e3-greedy-margin-20261126/reachable_models",
+    "ucm_generated": 1856,
+    "rsitmd_generated": 896,
+    "sha256": {
+      "backup": "d2baab9139807803ac204f5de22fb9458fab7b77156166ea710a014d87d9aeb1",
+      "cross_backup": "9e2f7bd7e5ed3bd1daf3ba43c07ec80508d1fce2a31e660ab68133e31742062d",
+      "score": "47c4367c7c68d0ecea97beb808c065021a752c4bd4fe306da58914fb2e6f4ffc",
+      "cross_scores": "15085fe94109cdd964db1f35a2e66a35e06a51e102de20f623c6df1bba3fcf1a"
+    }
+  },
+  "strict_rfpo": {
+    "adapters": {
+      "a_coldstrict": "80321382bc869186df85229e276c2f0743101916971fe4ffe7dced5604931174",
+      "a_coldordinary": "0952f9242b6aec5a78f4aa23689ba17c7f0f98bde3317d0cfaff5a54585d41e0",
+      "a_warmstrict": "a8e9c106c9bb9c11977ec34fef857c8a9d4b58fbefc8d6cb7db633b5116c4cbf",
+      "b_coldordinary": "d4de58d1e48fc70c68f99387ee26949403d7b3da2a79908848883bf5be12ca81",
+      "b_warmstrict": "de52abdaa4633e3789e6acd7884541c0b491586dea3ef72b3ecabbd73b792831",
+      "b_coldstrict": "b5918ce1229769e2a9a84430a2304cda1793dcaebc52366e6e8a427255ebd5a4"
+    },
+    "external": "/Users/botlv/cup-deploy-assets/e3-greedy-margin-20261126/strict_models",
+    "ucm_generated": 2784,
+    "rsitmd_generated": 2688,
+    "sha256": {
+      "backup": "fdd81ebb54e6c1b94eb1cc63c9ba771a45c90df3bdca42c703d93a2e798a948a",
+      "cross_backup": "b51e5b9a420f423bd95bcd95b41f0a1a8b866b43eb581c45651866b4772ea4ac",
+      "score": "32a882db3ccb923c7bf06e5ba069ca7484565d9265a70937246066256cd9de61",
+      "cross_scores": "aceb36d98bb26c8c21f92414439c1a2279305ed18ef42e87a3cab9f387694563"
+    }
+  }
+}
