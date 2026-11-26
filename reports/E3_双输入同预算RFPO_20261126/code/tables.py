@@ -21,9 +21,12 @@ def comparison(a,b):
 
 
 def main():
-    z=read(STAGE/'results/ucm.json');x=read(STAGE/'results/transfer.json')
+    reference=STAGE/'reference/ucm.json'
+    z=read(reference if reference.exists() else STAGE/'results/ucm.json');x=read(STAGE/'results/transfer.json')
     txt=['# 双输入 RFPO 的单次检索与细节读数',
          '普通组只使用正确配文排名。联合组再对普通平均排名和细节同时提高的候选给额外奖励。所有百分数为两份种子等权均值，差值按百分点报告。MRR 保留原值，括号内为配对 95% 区间。']
+    if reference.exists():
+        txt.append('表中 UCM 的现有 R2 使用本轮同一推理环境重新生成的先验。RSITMD 沿用历史同协议的 R2。')
     for panel,title in [('hold','主要 78 图'),('repeat','上轮 64 图重复'),('shared','正式面板重合的 106 图')]:
         txt.extend(['## '+title,
             table(['策略','场景细节（%）','场景其他配文 MRR','首句细节（%）','首句其他配文 MRR'],

@@ -18,6 +18,9 @@ def main():
     prior={(r['panel'],r['seed'],r['image']):r for r in read(STAGE/'results/caption_outcomes.json') if r['arm']=='retained'}
     fresh={(r['panel'],r['seed'],r['image']):r for r in read(stage/'caption_outcomes.json')}
     assert prior.keys()==fresh.keys()
+    form_old={(r['tag'],r['seed'],r['image']):r['values'] for r in read(STAGE/'results/formal_images.json') if r['arm']=='retained'}
+    form_new={(r['tag'],r['seed'],r['image']):r['values'] for r in read(stage/'formal_images.json')}
+    assert form_old.keys()==form_new.keys()
     out={}
     for seed in 'ab':
         cp=index['groups'][seed+'_retained']
@@ -34,6 +37,8 @@ def main():
             p=sum(sum(v!=w for v,w in zip(prior[k]['mrr_by_caption'],fresh[k]['mrr_by_caption'])) for k in linked)
             out[seed][tag]=dict(images=len(roster),exact_vectors=int(torch.all(diff==0,dim=1).sum()),max_coord=float(diff.abs().max()),
                 mean_L2=float(diff.norm(dim=1).mean()),decision_images=len(linked),changed_detail=c,changed_caption_ranks=p)
+            if tag in ('primary','official'):
+                out[seed][tag]['changed_formal_image_readouts']=sum(form_old[tag,seed,r['image']]!=form_new[tag,seed,r['image']] for r in roster)
         with tarfile.open(stage/'archives'/(seed+'_retained.tar.gz'),'r|gz') as tf:
             for entry in tf:
                 tag,key=entry.name.split('/');buf=tf.extractfile(entry).read()

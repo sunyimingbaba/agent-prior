@@ -1,0 +1,70 @@
+{
+  "singlejoint": {
+    "improved": {
+      "count": 0,
+      "example": null
+    },
+    "worse": {
+      "count": 6,
+      "example": {
+        "seed": "a",
+        "image": "1140.tif",
+        "panel": "hold_first",
+        "attribute": "crosswalk",
+        "prompt": "An intersection with many cars on the road .",
+        "detail_wording": "D",
+        "positive_detail": "There are painted stripes for pedestrians at the road crossing.",
+        "negative_detail": "There are no painted stripes for pedestrians at the road crossing.",
+        "old_correct": [
+          1,
+          1,
+          1
+        ],
+        "new_correct": [
+          1,
+          0,
+          1
+        ],
+        "caption": "An intersection with two roads are not vertical to each other .",
+        "old_reciprocal": 0.05,
+        "new_reciprocal": 0.047619047619047616,
+        "old_mean": 0.23125,
+        "new_mean": 0.23065476190476192
+      }
+    }
+  },
+  "dualplain": {
+    "improved": {
+      "count": 0,
+      "example": null
+    },
+    "worse": {
+      "count": 4,
+      "example": {
+        "seed": "b",
+        "image": "428.tif",
+        "panel": "hold_scene",
+        "attribute": "rooftops",
+        "prompt": "Scene: buildings.",
+        "detail_wording": "C",
+        "positive_detail": "Most roof surfaces have a dark tone.",
+        "negative_detail": "Most roof surfaces have a bright tone.",
+        "old_correct": [
+          1,
+          1,
+          0
+        ],
+        "new_correct": [
+          0,
+          1,
+          0
+        ],
+        "caption": "There are some buildings arranged neatly .",
+        "old_reciprocal": 0.3333333333333333,
+        "new_reciprocal": 0.125,
+        "old_mean": 0.6666666666666666,
+        "new_mean": 0.17302489177489178
+      }
+    }
+  }
+}
