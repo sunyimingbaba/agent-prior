@@ -5,6 +5,7 @@ import json
 import tarfile
 
 import numpy as np
+import torch
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -63,8 +64,15 @@ def archive_outputs(name, expected_adapter):
         assert len(proof["images"]) == size
         expected[f"{tag}.pt"] = proof["features"]
         expected[f"{tag}/complete.json"] = sha(manifest)
-        for image, digest in proof["images"].items():
-            expected[f"{tag}/{image}.pt"] = digest
+        bundle = torch.load(folder / f"{tag}.pt", map_location="cpu", weights_only=True)
+        assert len(bundle["images"]) == size and bundle["adapter"] == expected_adapter
+        assert set(bundle["images"]) == set(proof["images"])
+        for i, image in enumerate(bundle["images"]):
+            relative = f"{tag}/{image}.pt"
+            expected[relative] = proof["images"][image]
+            record = torch.load(folder / relative, map_location="cpu", weights_only=True)
+            assert record["adapter"] == expected_adapter and record["image"] == image
+            assert torch.equal(record["v"], bundle["features"][i]) and torch.isfinite(record["prior"]).all()
     with tarfile.open(path, "w:gz", compresslevel=3) as archive:
         for relative in sorted(expected):
             assert sha(folder / relative) == expected[relative]
