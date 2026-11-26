@@ -1,0 +1,3362 @@
+{
+  "changes": {
+    "retained": {
+      "parent": {
+        "a": {
+          "fixed": 0,
+          "lost": 1
+        },
+        "b": {
+          "fixed": 0,
+          "lost": 4
+        }
+      },
+      "ordinary": {
+        "a": {
+          "fixed": 1,
+          "lost": 8
+        },
+        "b": {
+          "fixed": 2,
+          "lost": 1
+        }
+      },
+      "guard": {
+        "a": {
+          "fixed": 2,
+          "lost": 4
+        },
+        "b": {
+          "fixed": 1,
+          "lost": 2
+        }
+      },
+      "teacher": {
+        "a": {
+          "fixed": 2,
+          "lost": 7
+        },
+        "b": {
+          "fixed": 3,
+          "lost": 3
+        }
+      },
+      "reachable_ordinary": {
+        "a": {
+          "fixed": 1,
+          "lost": 6
+        },
+        "b": {
+          "fixed": 4,
+          "lost": 2
+        }
+      },
+      "reachable_teacher": {
+        "a": {
+          "fixed": 5,
+          "lost": 6
+        },
+        "b": {
+          "fixed": 4,
+          "lost": 2
+        }
+      },
+      "strict_warmstrict": {
+        "a": {
+          "fixed": 5,
+          "lost": 8
+        },
+        "b": {
+          "fixed": 6,
+          "lost": 6
+        }
+      },
+      "strict_coldordinary": {
+        "a": {
+          "fixed": 7,
+          "lost": 8
+        },
+        "b": {
+          "fixed": 14,
+          "lost": 11
+        }
+      },
+      "strict_coldstrict": {
+        "a": {
+          "fixed": 10,
+          "lost": 11
+        },
+        "b": {
+          "fixed": 12,
+          "lost": 13
+        }
+      }
+    },
+    "parent": {
+      "retained": {
+        "a": {
+          "fixed": 1,
+          "lost": 0
+        },
+        "b": {
+          "fixed": 4,
+          "lost": 0
+        }
+      },
+      "ordinary": {
+        "a": {
+          "fixed": 2,
+          "lost": 8
+        },
+        "b": {
+          "fixed": 5,
+          "lost": 0
+        }
+      },
+      "guard": {
+        "a": {
+          "fixed": 3,
+          "lost": 4
+        },
+        "b": {
+          "fixed": 5,
+          "lost": 2
+        }
+      },
+      "teacher": {
+        "a": {
+          "fixed": 3,
+          "lost": 7
+        },
+        "b": {
+          "fixed": 5,
+          "lost": 1
+        }
+      },
+      "reachable_ordinary": {
+        "a": {
+          "fixed": 2,
+          "lost": 6
+        },
+        "b": {
+          "fixed": 7,
+          "lost": 1
+        }
+      },
+      "reachable_teacher": {
+        "a": {
+          "fixed": 6,
+          "lost": 6
+        },
+        "b": {
+          "fixed": 7,
+          "lost": 1
+        }
+      },
+      "strict_warmstrict": {
+        "a": {
+          "fixed": 5,
+          "lost": 7
+        },
+        "b": {
+          "fixed": 7,
+          "lost": 3
+        }
+      },
+      "strict_coldordinary": {
+        "a": {
+          "fixed": 7,
+          "lost": 7
+        },
+        "b": {
+          "fixed": 16,
+          "lost": 9
+        }
+      },
+      "strict_coldstrict": {
+        "a": {
+          "fixed": 10,
+          "lost": 10
+        },
+        "b": {
+          "fixed": 13,
+          "lost": 10
+        }
+      }
+    }
+  },
+  "five": {
+    "retained": {
+      "original_five_correct": 5,
+      "details": [
+        [
+          "a",
+          "993.tif",
+          "E"
+        ],
+        [
+          "b",
+          "1693.tif",
+          "C"
+        ],
+        [
+          "b",
+          "2096.tif",
+          "E"
+        ],
+        [
+          "b",
+          "688.tif",
+          "E"
+        ],
+        [
+          "b",
+          "689.tif",
+          "D"
+        ]
+      ]
+    },
+    "parent": {
+      "original_five_correct": 0,
+      "details": []
+    },
+    "ordinary": {
+      "original_five_correct": 4,
+      "details": [
+        [
+          "a",
+          "993.tif",
+          "E"
+        ],
+        [
+          "b",
+          "1693.tif",
+          "C"
+        ],
+        [
+          "b",
+          "2096.tif",
+          "E"
+        ],
+        [
+          "b",
+          "688.tif",
+          "E"
+        ]
+      ]
+    },
+    "guard": {
+      "original_five_correct": 5,
+      "details": [
+        [
+          "a",
+          "993.tif",
+          "E"
+        ],
+        [
+          "b",
+          "1693.tif",
+          "C"
+        ],
+        [
+          "b",
+          "2096.tif",
+          "E"
+        ],
+        [
+          "b",
+          "688.tif",
+          "E"
+        ],
+        [
+          "b",
+          "689.tif",
+          "D"
+        ]
+      ]
+    },
+    "teacher": {
+      "original_five_correct": 3,
+      "details": [
+        [
+          "a",
+          "993.tif",
+          "E"
+        ],
+        [
+          "b",
+          "1693.tif",
+          "C"
+        ],
+        [
+          "b",
+          "688.tif",
+          "E"
+        ]
+      ]
+    },
+    "reachable_ordinary": {
+      "original_five_correct": 4,
+      "details": [
+        [
+          "a",
+          "993.tif",
+          "E"
+        ],
+        [
+          "b",
+          "1693.tif",
+          "C"
+        ],
+        [
+          "b",
+          "2096.tif",
+          "E"
+        ],
+        [
+          "b",
+          "689.tif",
+          "D"
+        ]
+      ]
+    },
+    "reachable_teacher": {
+      "original_five_correct": 4,
+      "details": [
+        [
+          "a",
+          "993.tif",
+          "E"
+        ],
+        [
+          "b",
+          "1693.tif",
+          "C"
+        ],
+        [
+          "b",
+          "2096.tif",
+          "E"
+        ],
+        [
+          "b",
+          "688.tif",
+          "E"
+        ]
+      ]
+    },
+    "strict_warmstrict": {
+      "original_five_correct": 1,
+      "details": [
+        [
+          "b",
+          "688.tif",
+          "E"
+        ]
+      ]
+    },
+    "strict_coldordinary": {
+      "original_five_correct": 2,
+      "details": [
+        [
+          "b",
+          "2096.tif",
+          "E"
+        ],
+        [
+          "b",
+          "689.tif",
+          "D"
+        ]
+      ]
+    },
+    "strict_coldstrict": {
+      "original_five_correct": 1,
+      "details": [
+        [
+          "b",
+          "2096.tif",
+          "E"
+        ]
+      ]
+    }
+  },
+  "records": [
+    {
+      "reference": "retained",
+      "arm": "parent",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "parent",
+      "seed": "b",
+      "image": "688.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "parent",
+      "seed": "b",
+      "image": "689.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "parent",
+      "seed": "b",
+      "image": "1693.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "parent",
+      "seed": "b",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "393.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "1591.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "1799.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "2099.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "194.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "1998.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "ordinary",
+      "seed": "b",
+      "image": "689.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "ordinary",
+      "seed": "b",
+      "image": "1788.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "ordinary",
+      "seed": "b",
+      "image": "2094.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "guard",
+      "seed": "a",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "guard",
+      "seed": "a",
+      "image": "1091.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "guard",
+      "seed": "a",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "guard",
+      "seed": "a",
+      "image": "2099.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "guard",
+      "seed": "a",
+      "image": "194.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "guard",
+      "seed": "a",
+      "image": "1998.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "guard",
+      "seed": "b",
+      "image": "98.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "guard",
+      "seed": "b",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "guard",
+      "seed": "b",
+      "image": "2094.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "95.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "397.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "492.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "492.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "2099.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "194.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "b",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "b",
+      "image": "689.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "b",
+      "image": "1788.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "teacher",
+      "seed": "b",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "397.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "1788.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "194.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "1992.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_ordinary",
+      "seed": "b",
+      "image": "98.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_ordinary",
+      "seed": "b",
+      "image": "688.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_ordinary",
+      "seed": "b",
+      "image": "1500.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_ordinary",
+      "seed": "b",
+      "image": "1694.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_ordinary",
+      "seed": "b",
+      "image": "2094.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_ordinary",
+      "seed": "b",
+      "image": "2098.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "397.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "489.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "489.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "492.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "492.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "2099.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "194.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "b",
+      "image": "98.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "b",
+      "image": "689.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "b",
+      "image": "1500.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "reachable_teacher",
+      "seed": "b",
+      "image": "2094.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "489.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "489.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "492.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "492.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "1091.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "1591.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "2099.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "194.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "1992.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "1993.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "98.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "98.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "689.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "1499.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "1499.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "1492.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "1693.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "1892.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "191.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "291.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "397.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1285.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1498.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1498.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1694.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1794.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1792.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1792.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1898.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "2098.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1992.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "95.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "392.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "397.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "688.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1285.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1498.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1498.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1693.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1694.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1788.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1792.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1792.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1799.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1799.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1791.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1898.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "2099.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "2098.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "194.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "993.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1992.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1998.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "291.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "392.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "397.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "689.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1285.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "694.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1498.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1498.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1491.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1694.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1794.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1792.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1792.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1796.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1898.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "2098.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1992.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "91.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "95.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "397.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "688.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "689.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1285.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1498.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1693.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1694.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1788.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1794.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1792.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1792.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1799.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1898.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "2099.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "2098.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "194.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "993.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1992.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "retained",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1998.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "retained",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "retained",
+      "seed": "b",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "retained",
+      "seed": "b",
+      "image": "689.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "retained",
+      "seed": "b",
+      "image": "1693.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "retained",
+      "seed": "b",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "393.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "1591.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "1799.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "2099.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "194.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "a",
+      "image": "1998.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "b",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "b",
+      "image": "1693.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "b",
+      "image": "1788.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "b",
+      "image": "2094.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "ordinary",
+      "seed": "b",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "guard",
+      "seed": "a",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "guard",
+      "seed": "a",
+      "image": "1091.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "guard",
+      "seed": "a",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "guard",
+      "seed": "a",
+      "image": "2099.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "guard",
+      "seed": "a",
+      "image": "194.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "guard",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "guard",
+      "seed": "a",
+      "image": "1998.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "guard",
+      "seed": "b",
+      "image": "98.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "guard",
+      "seed": "b",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "guard",
+      "seed": "b",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "guard",
+      "seed": "b",
+      "image": "689.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "guard",
+      "seed": "b",
+      "image": "1693.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "guard",
+      "seed": "b",
+      "image": "2094.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "guard",
+      "seed": "b",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "95.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "397.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "492.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "492.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "2099.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "194.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "b",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "b",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "b",
+      "image": "1693.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "teacher",
+      "seed": "b",
+      "image": "1788.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "397.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "1788.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "194.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "a",
+      "image": "1992.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "b",
+      "image": "98.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "b",
+      "image": "689.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "b",
+      "image": "1500.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "b",
+      "image": "1693.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "b",
+      "image": "1694.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "b",
+      "image": "2094.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "b",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_ordinary",
+      "seed": "b",
+      "image": "2098.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "397.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "489.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "489.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "492.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "492.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "2099.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "194.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "a",
+      "image": "993.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "b",
+      "image": "98.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "b",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "b",
+      "image": "1500.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "b",
+      "image": "1693.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "b",
+      "image": "2094.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "reachable_teacher",
+      "seed": "b",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "489.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "489.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "492.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "492.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "1091.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "1591.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "2099.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "194.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "1992.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "a",
+      "image": "1993.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "98.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "98.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "688.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "1499.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "1499.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "1492.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "1892.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_warmstrict",
+      "seed": "b",
+      "image": "191.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "291.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "397.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1285.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1498.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1498.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1694.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1794.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1792.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1792.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1898.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "2098.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "a",
+      "image": "1992.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "95.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "392.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "397.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "689.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1285.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1498.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1498.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1694.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1788.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1792.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1792.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1799.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1799.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1791.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1898.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "2099.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "2098.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "194.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "993.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1992.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldordinary",
+      "seed": "b",
+      "image": "1998.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "291.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "392.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "397.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "689.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1285.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "694.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1498.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1498.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1491.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1694.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1794.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1792.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1792.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1796.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1898.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "2098.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "a",
+      "image": "1992.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "91.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "95.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "291.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "396.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "397.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1285.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1498.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1694.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1788.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1794.tif",
+      "wording": "D",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1792.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1792.tif",
+      "wording": "D",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1799.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1898.tif",
+      "wording": "C",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "2092.tif",
+      "wording": "C",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "2096.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "2099.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "2098.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "194.tif",
+      "wording": "E",
+      "change": 1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "993.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1992.tif",
+      "wording": "E",
+      "change": -1
+    },
+    {
+      "reference": "parent",
+      "arm": "strict_coldstrict",
+      "seed": "b",
+      "image": "1998.tif",
+      "wording": "C",
+      "change": 1
+    }
+  ]
+}
