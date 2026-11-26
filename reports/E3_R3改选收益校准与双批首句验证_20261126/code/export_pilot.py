@@ -21,7 +21,7 @@ def main():
     sources=[textwrap.dedent(inspect.getsource(fn)) for fn in (best,centered,gains_features)]
     sources.extend(extract(ROOT/'code'/file,names) for file,names in [
         ('study.py',{'choose','old_choices'}),('neighbor.py',{'unit','quantiles_of_scores','stats_matrix','decide'})])
-    (OUT/'selectors.py').write_text('import numpy as np\nEPS=1e-10\nTINY=1e-10\n\n'+'\n\n'.join(sources)+'\n')
+    (OUT/'pilot_rules.py').write_text('import numpy as np\nEPS=1e-10\nTINY=1e-10\n\n'+'\n\n'.join(sources)+'\n')
     model=joblib.load(ROOT/'inputs/switch_model.joblib')
     forest=model['trees']
     trees={}
