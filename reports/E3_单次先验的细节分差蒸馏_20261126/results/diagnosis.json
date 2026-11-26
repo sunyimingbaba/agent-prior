@@ -1,0 +1,659 @@
+{
+  "five": [
+    {
+      "seed": "a",
+      "image": "993.tif",
+      "attribute": "golf_sand",
+      "wording": "E",
+      "pair": [
+        "The grass is shown without a visible patch of bunker sand.",
+        "A patch of pale bunker sand appears beside the grass."
+      ],
+      "after": 0,
+      "margin": [
+        0.00010145879919570139,
+        -0.00025912806375801185
+      ],
+      "actions_equal": true,
+      "tool_feedback_equal": true,
+      "actions": [
+        [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        [
+          151644,
+          151644,
+          198,
+          18724,
+          151645
+        ]
+      ],
+      "relative_hidden_change": 0.01789664477109909
+    },
+    {
+      "seed": "b",
+      "image": "1693.tif",
+      "attribute": "river_axis",
+      "wording": "C",
+      "pair": [
+        "The channel spans the width of the view.",
+        "The channel spans the height of the view."
+      ],
+      "after": 0,
+      "margin": [
+        0.00047343780263563607,
+        -0.00036993907860795056
+      ],
+      "actions_equal": true,
+      "tool_feedback_equal": true,
+      "actions": [
+        [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        [
+          151644,
+          151644,
+          198,
+          18724,
+          151645
+        ]
+      ],
+      "relative_hidden_change": 0.026180701330304146
+    },
+    {
+      "seed": "b",
+      "image": "689.tif",
+      "attribute": "community_pool",
+      "wording": "D",
+      "pair": [
+        "There is no swimming pool in sight between the residential buildings.",
+        "A swimming pool appears between the residential buildings."
+      ],
+      "after": 0,
+      "margin": [
+        0.0010737676756605828,
+        -0.0005272778424763964
+      ],
+      "actions_equal": true,
+      "tool_feedback_equal": true,
+      "actions": [
+        [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        [
+          151644,
+          151644,
+          198,
+          18724,
+          151645
+        ]
+      ],
+      "relative_hidden_change": 0.026575623080134392
+    },
+    {
+      "seed": "b",
+      "image": "688.tif",
+      "attribute": "roof_hue",
+      "wording": "E",
+      "pair": [
+        "A gray color characterizes the residential roofs.",
+        "A reddish color characterizes the residential roofs."
+      ],
+      "after": 0,
+      "margin": [
+        0.000155522341646442,
+        -0.0001858528233518869
+      ],
+      "actions_equal": true,
+      "tool_feedback_equal": true,
+      "actions": [
+        [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        [
+          151644,
+          151644,
+          198,
+          18724,
+          151645
+        ]
+      ],
+      "relative_hidden_change": 0.022199420258402824
+    },
+    {
+      "seed": "b",
+      "image": "2096.tif",
+      "attribute": "court_red",
+      "wording": "E",
+      "pair": [
+        "The border around the painted court lacks a reddish color.",
+        "A reddish border surrounds the painted court."
+      ],
+      "after": 0,
+      "margin": [
+        8.672682776748875e-05,
+        -0.0005247734773441218
+      ],
+      "actions_equal": true,
+      "tool_feedback_equal": true,
+      "actions": [
+        [
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        [
+          151644,
+          151644,
+          198,
+          18724,
+          151645
+        ]
+      ],
+      "relative_hidden_change": 0.026950977742671967
+    }
+  ],
+  "training_groups": [
+    {
+      "seed": "a",
+      "image": "1018.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "a",
+      "image": "1306.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 10,
+      "all_match_greedy": true,
+      "share_full": 1.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "a",
+      "image": "1033.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "a",
+      "image": "345.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "a",
+      "image": "960.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "a",
+      "image": "910.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 7,
+      "all_match_greedy": true,
+      "share_full": 1.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "a",
+      "image": "310.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 2,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "a",
+      "image": "649.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "a",
+      "image": "301.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 5,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "a",
+      "image": "1408.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 3,
+      "all_match_greedy": true,
+      "share_full": 1.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "a",
+      "image": "625.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "a",
+      "image": "872.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "a",
+      "image": "878.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 1,
+      "all_match_greedy": true,
+      "share_full": 1.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "a",
+      "image": "211.tif",
+      "changed_winner": false,
+      "has_joint": true,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "a",
+      "image": "212.tif",
+      "changed_winner": false,
+      "has_joint": true,
+      "top_count": 4,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "a",
+      "image": "1501.tif",
+      "changed_winner": false,
+      "has_joint": true,
+      "top_count": 7,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "a",
+      "image": "1604.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 4,
+      "all_match_greedy": true,
+      "share_full": 1.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "a",
+      "image": "1143.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 7,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "a",
+      "image": "260.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 11,
+      "all_match_greedy": false,
+      "share_full": 0.5454545454545454,
+      "share_first": 0.5454545454545454
+    },
+    {
+      "seed": "a",
+      "image": "1274.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 4,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "a",
+      "image": "641.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 4,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "a",
+      "image": "868.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 8,
+      "all_match_greedy": true,
+      "share_full": 1.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "a",
+      "image": "362.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "a",
+      "image": "1508.tif",
+      "changed_winner": false,
+      "has_joint": true,
+      "top_count": 5,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "b",
+      "image": "640.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "b",
+      "image": "1044.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "b",
+      "image": "641.tif",
+      "changed_winner": false,
+      "has_joint": true,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "b",
+      "image": "205.tif",
+      "changed_winner": false,
+      "has_joint": true,
+      "top_count": 6,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "b",
+      "image": "1033.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 8,
+      "all_match_greedy": true,
+      "share_full": 1.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "b",
+      "image": "872.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "b",
+      "image": "1274.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 4,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "b",
+      "image": "301.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "b",
+      "image": "1501.tif",
+      "changed_winner": false,
+      "has_joint": true,
+      "top_count": 6,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "b",
+      "image": "868.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 3,
+      "all_match_greedy": true,
+      "share_full": 1.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "b",
+      "image": "212.tif",
+      "changed_winner": false,
+      "has_joint": true,
+      "top_count": 7,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "b",
+      "image": "310.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 2,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "b",
+      "image": "365.tif",
+      "changed_winner": false,
+      "has_joint": true,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "b",
+      "image": "1626.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "b",
+      "image": "1275.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 5,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "b",
+      "image": "1571.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "b",
+      "image": "1441.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 2,
+      "all_match_greedy": true,
+      "share_full": 1.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "b",
+      "image": "1143.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 2,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "b",
+      "image": "669.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "b",
+      "image": "2050.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 3,
+      "all_match_greedy": true,
+      "share_full": 1.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "b",
+      "image": "960.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "b",
+      "image": "2039.tif",
+      "changed_winner": false,
+      "has_joint": false,
+      "top_count": 6,
+      "all_match_greedy": true,
+      "share_full": 1.0,
+      "share_first": 1.0
+    },
+    {
+      "seed": "b",
+      "image": "1604.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    },
+    {
+      "seed": "b",
+      "image": "1102.tif",
+      "changed_winner": true,
+      "has_joint": true,
+      "top_count": 1,
+      "all_match_greedy": false,
+      "share_full": 0.0,
+      "share_first": 0.0
+    }
+  ],
+  "groups_with_good": 26,
+  "good_groups_winner_same_first": 0.34615384615384615,
+  "good_groups_winner_same_full": 0.0
+}
