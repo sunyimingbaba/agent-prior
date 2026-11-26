@@ -23,12 +23,17 @@ def audit():
                 assert np.array_equal(new["ordinary"], old["ordinary"]) and np.array_equal(new["joint"], s["rewards"]["joint"])
                 assert frac == s["joint_fraction"]
                 top = lambda r: set(np.flatnonzero(r == max(r)))
-                recs.append([max(frac) > 0, max(oldfrac) > 0, top(new["joint"]) != top(new["ordinary"]), top(old["joint"]) != top(new["joint"])])
+                recs.append([max(frac) > 0, max(oldfrac) > 0, top(new["joint"]) != top(new["ordinary"]),
+                             top(old["joint"]) != top(new["joint"]), not np.array_equal(new["joint"], new["ordinary"])])
             errors = [s["mean_error"] for s in steps]
             output[seed+"_"+arm] = dict(**cp, strict_eligible=sum(r[0] for r in recs), old_eligible=sum(r[1] for r in recs),
                 different_top_from_ordinary=sum(r[2] for r in recs), different_top_from_old=sum(r[3] for r in recs),
-                mean_replay_error=np.mean(errors), max_replay_error=max(s["max_error"] for s in steps))
+                different_any_from_ordinary=sum(r[4] for r in recs),
+                mean_replay_error=np.mean(errors), max_replay_error=max(s["max_error"] for s in steps),
+                sampled_trajectories=sum(len(s["paths"]) for s in steps), greedy_anchors=len(steps))
         historical=read(OLD / "mined_policy" / (seed+"_selected_joint") / "steps.json")[0]
         for a, b in ((historical, first["warmstrict"]), (first["coldordinary"], first["coldstrict"])):
             assert a["paths"] == b["paths"] and a["scores"] == b["scores"]
+        for arm in first:
+            output[seed+"_"+arm]["first_group_paths_and_scores_matched"] = True
     return output
