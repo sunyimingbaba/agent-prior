@@ -1,0 +1,1016 @@
+[
+  {
+    "image": "348.tif",
+    "pair": "348-340",
+    "attribute": "surf",
+    "query": "This is a beach with blue-green waters and sand .",
+    "A": [
+      "A broad band of white surf borders the beach.",
+      "Little white surf borders the beach."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "340.tif",
+    "pair": "348-340",
+    "attribute": "surf",
+    "query": "This is a beach with blue sea and sand .",
+    "A": [
+      "Little white surf borders the beach.",
+      "A broad band of white surf borders the beach."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "817.tif",
+    "pair": "817-821",
+    "attribute": "freeway_axis",
+    "query": "There are two straight freeways closed to each other .",
+    "A": [
+      "The freeway runs horizontally.",
+      "The freeway runs vertically."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "821.tif",
+    "pair": "817-821",
+    "attribute": "freeway_axis",
+    "query": "There are two straight freeways closed to each other and some plants beside the roads .",
+    "A": [
+      "The freeway runs vertically.",
+      "The freeway runs horizontally."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "851.tif",
+    "pair": "851-863",
+    "attribute": "freeway_axis",
+    "query": "There are two straight freeways closed together .",
+    "A": [
+      "The freeway runs horizontally.",
+      "The freeway runs vertically."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "863.tif",
+    "pair": "851-863",
+    "attribute": "freeway_axis",
+    "query": "There are two straight freeways in the desert .",
+    "A": [
+      "The freeway runs vertically.",
+      "The freeway runs horizontally."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "804.tif",
+    "pair": "804-841",
+    "attribute": "freeway_color",
+    "query": "There are two straight freeways closed to each other .",
+    "A": [
+      "The freeway pavement is pale.",
+      "The freeway pavement is dark."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "841.tif",
+    "pair": "804-841",
+    "attribute": "freeway_color",
+    "query": "There are some straight freeways with cars on the roads .",
+    "A": [
+      "The freeway pavement is dark.",
+      "The freeway pavement is pale."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1435.tif",
+    "pair": "1435-1449",
+    "attribute": "bridge_axis",
+    "query": "An overpass with a road go across another two roads diagonally .",
+    "A": [
+      "The upper roadway runs horizontally.",
+      "The upper roadway runs vertically."
+    ],
+    "group": "partial",
+    "reason": "斜交不说明上层路在图中的水平或垂直方向",
+    "category_mismatch": false
+  },
+  {
+    "image": "1449.tif",
+    "pair": "1435-1449",
+    "attribute": "bridge_axis",
+    "query": "An overpass cross the roads vertically .",
+    "A": [
+      "The upper roadway runs vertically.",
+      "The upper roadway runs horizontally."
+    ],
+    "group": "partial",
+    "reason": "垂直相交可能指两路夹角，也可能指画面方向",
+    "category_mismatch": false
+  },
+  {
+    "image": "1602.tif",
+    "pair": "1602-1639",
+    "attribute": "river_axis",
+    "query": "It is a river with dense forest on one bank and houses on the other side .",
+    "A": [
+      "The river runs horizontally.",
+      "The river runs vertically."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1639.tif",
+    "pair": "1602-1639",
+    "attribute": "river_axis",
+    "query": "It is a river with a dense forest on both banks of the river .",
+    "A": [
+      "The river runs vertically.",
+      "The river runs horizontally."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1829.tif",
+    "pair": "1829-1851",
+    "attribute": "house_pool",
+    "query": "A villa with grey roofs is surrounded by trees and lawn in the sparse residential area .",
+    "A": [
+      "The house has a visible swimming pool beside it.",
+      "The house has no visible swimming pool beside it."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1851.tif",
+    "pair": "1829-1851",
+    "attribute": "house_pool",
+    "query": "A house is surrounded by verdant lawn in the sparse residential area .",
+    "A": [
+      "The house has no visible swimming pool beside it.",
+      "The house has a visible swimming pool beside it."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1158.tif",
+    "pair": "1158-1162",
+    "attribute": "crosswalk",
+    "query": "An intersection with a few cars on the road .",
+    "A": [
+      "The intersection has striped crosswalks.",
+      "The intersection lacks striped crosswalks."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1162.tif",
+    "pair": "1158-1162",
+    "attribute": "crosswalk",
+    "query": "An intersection with no cars or pedestrians .",
+    "A": [
+      "The intersection lacks striped crosswalks.",
+      "The intersection has striped crosswalks."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "717.tif",
+    "pair": "717-730",
+    "attribute": "forest_color",
+    "query": "This is a dense forest with emerald green plants .",
+    "A": [
+      "Green foliage dominates the woodland.",
+      "Brown foliage dominates the woodland."
+    ],
+    "group": "direct",
+    "reason": "明确说树林为翠绿色",
+    "category_mismatch": false
+  },
+  {
+    "image": "730.tif",
+    "pair": "717-730",
+    "attribute": "forest_color",
+    "query": "This is a forest with green and grey plants .",
+    "A": [
+      "Brown foliage dominates the woodland.",
+      "Green foliage dominates the woodland."
+    ],
+    "group": "partial",
+    "reason": "写绿色和灰色植物，未说明哪种颜色占主导",
+    "category_mismatch": false
+  },
+  {
+    "image": "904.tif",
+    "pair": "904-908",
+    "attribute": "golf_sand",
+    "query": "This is a part of a golf course with turfs and some bunkers and trees .",
+    "A": [
+      "A pale sand bunker is visible on the golf course.",
+      "There is no pale sand bunker visible on the golf course."
+    ],
+    "group": "partial",
+    "reason": "提到沙坑，未写沙坑的浅色外观",
+    "category_mismatch": false
+  },
+  {
+    "image": "908.tif",
+    "pair": "904-908",
+    "attribute": "golf_sand",
+    "query": "This is a part of a golf course with turfs and some trees .",
+    "A": [
+      "There is no pale sand bunker visible on the golf course.",
+      "A pale sand bunker is visible on the golf course."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "938.tif",
+    "pair": "938-932",
+    "attribute": "golf_sand",
+    "query": "This is a part of a golf course with green turfs and some bunkers and trees .",
+    "A": [
+      "A pale sand bunker is visible on the golf course.",
+      "There is no pale sand bunker visible on the golf course."
+    ],
+    "group": "partial",
+    "reason": "提到沙坑，未写沙坑的浅色外观",
+    "category_mismatch": false
+  },
+  {
+    "image": "932.tif",
+    "pair": "938-932",
+    "attribute": "golf_sand",
+    "query": "This is a part of a golf course with turfs and some withered trees .",
+    "A": [
+      "There is no pale sand bunker visible on the golf course.",
+      "A pale sand bunker is visible on the golf course."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "973.tif",
+    "pair": "973-977",
+    "attribute": "golf_sand",
+    "query": "This is a part of a golf course with green turfs and some bunkers and trees .",
+    "A": [
+      "A pale sand bunker is visible on the golf course.",
+      "There is no pale sand bunker visible on the golf course."
+    ],
+    "group": "partial",
+    "reason": "提到沙坑，未写沙坑的浅色外观",
+    "category_mismatch": false
+  },
+  {
+    "image": "977.tif",
+    "pair": "973-977",
+    "attribute": "golf_sand",
+    "query": "This is a part of a golf course with green turfs and a trail go through the turfs .",
+    "A": [
+      "There is no pale sand bunker visible on the golf course.",
+      "A pale sand bunker is visible on the golf course."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "928.tif",
+    "pair": "928-939",
+    "attribute": "golf_sand",
+    "query": "This is a part of a golf course with turfs and some bunkers and trees .",
+    "A": [
+      "A pale sand bunker is visible on the golf course.",
+      "There is no pale sand bunker visible on the golf course."
+    ],
+    "group": "partial",
+    "reason": "提到沙坑，未写沙坑的浅色外观",
+    "category_mismatch": false
+  },
+  {
+    "image": "939.tif",
+    "pair": "928-939",
+    "attribute": "golf_sand",
+    "query": "This is a part of a golf course with green turfs and some bunkers and trees .",
+    "A": [
+      "There is no pale sand bunker visible on the golf course.",
+      "A pale sand bunker is visible on the golf course."
+    ],
+    "group": "partial",
+    "reason": "提到沙坑，未写沙坑的浅色外观",
+    "category_mismatch": false
+  },
+  {
+    "image": "1925.tif",
+    "pair": "1925-1923",
+    "attribute": "tank_number",
+    "query": "A white storage tank is in the lawn .",
+    "A": [
+      "There is one visible circular tank.",
+      "There are multiple visible circular tanks."
+    ],
+    "group": "partial",
+    "reason": "单数名词描述一座可见储罐，未写是否只有一座",
+    "category_mismatch": false
+  },
+  {
+    "image": "1923.tif",
+    "pair": "1925-1923",
+    "attribute": "tank_number",
+    "query": "Two storage tanks arranged neatly with a house beside .",
+    "A": [
+      "There are multiple visible circular tanks.",
+      "There is one visible circular tank."
+    ],
+    "group": "direct",
+    "reason": "明确写两座储罐",
+    "category_mismatch": false
+  },
+  {
+    "image": "1926.tif",
+    "pair": "1926-1928",
+    "attribute": "tank_number",
+    "query": "A white storage tank is in the lawn .",
+    "A": [
+      "There is one visible circular tank.",
+      "There are multiple visible circular tanks."
+    ],
+    "group": "partial",
+    "reason": "单数名词描述一座可见储罐，未写是否只有一座",
+    "category_mismatch": false
+  },
+  {
+    "image": "1928.tif",
+    "pair": "1926-1928",
+    "attribute": "tank_number",
+    "query": "Many storage tanks are on the ground .",
+    "A": [
+      "There are multiple visible circular tanks.",
+      "There is one visible circular tank."
+    ],
+    "group": "direct",
+    "reason": "明确写多座储罐",
+    "category_mismatch": false
+  },
+  {
+    "image": "1958.tif",
+    "pair": "1958-1955",
+    "attribute": "tank_number",
+    "query": "A big storage tank is on the lawn .",
+    "A": [
+      "There is one visible circular tank.",
+      "There are multiple visible circular tanks."
+    ],
+    "group": "partial",
+    "reason": "单数名词描述一座可见储罐，未写是否只有一座",
+    "category_mismatch": false
+  },
+  {
+    "image": "1955.tif",
+    "pair": "1958-1955",
+    "attribute": "tank_number",
+    "query": "Two same storage tanks are on the sands .",
+    "A": [
+      "There are multiple visible circular tanks.",
+      "There is one visible circular tank."
+    ],
+    "group": "direct",
+    "reason": "明确写两座储罐",
+    "category_mismatch": false
+  },
+  {
+    "image": "611.tif",
+    "pair": "611-607",
+    "attribute": "street_axis",
+    "query": "This is a dense residential area with houses and roads .",
+    "A": [
+      "The street between the houses runs horizontally.",
+      "The street between the houses runs vertically."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "607.tif",
+    "pair": "611-607",
+    "attribute": "street_axis",
+    "query": "There is a piece of farmland .",
+    "A": [
+      "The street between the houses runs vertically.",
+      "The street between the houses runs horizontally."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": true
+  },
+  {
+    "image": "1126.tif",
+    "pair": "1126-1141",
+    "attribute": "road_diagonal",
+    "query": "An intersection with no cars or pedestrians .",
+    "A": [
+      "The crossing roads run diagonally across the picture.",
+      "The crossing roads run horizontally and vertically in the picture."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1141.tif",
+    "pair": "1126-1141",
+    "attribute": "road_diagonal",
+    "query": "An intersection with some cars on the road .",
+    "A": [
+      "The crossing roads run horizontally and vertically in the picture.",
+      "The crossing roads run diagonally across the picture."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "561.tif",
+    "pair": "561-552",
+    "attribute": "chaparral_tone",
+    "query": "This is a chaparral .",
+    "A": [
+      "The scrubland has a gray-green background.",
+      "The scrubland has a sandy brown background."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "552.tif",
+    "pair": "561-552",
+    "attribute": "chaparral_tone",
+    "query": "This is a chaparral .",
+    "A": [
+      "The scrubland has a sandy brown background.",
+      "The scrubland has a gray-green background."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "624.tif",
+    "pair": "624-660",
+    "attribute": "community_pool",
+    "query": "This is a dense residential area with houses and a swimming pool .",
+    "A": [
+      "A swimming pool is visible in the residential area.",
+      "No swimming pool is visible in the residential area."
+    ],
+    "group": "direct",
+    "reason": "明确写有游泳池",
+    "category_mismatch": false
+  },
+  {
+    "image": "660.tif",
+    "pair": "624-660",
+    "attribute": "community_pool",
+    "query": "This is a dense residential area .",
+    "A": [
+      "No swimming pool is visible in the residential area.",
+      "A swimming pool is visible in the residential area."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "617.tif",
+    "pair": "617-664",
+    "attribute": "community_pool",
+    "query": "This is a dense residential area with houses and a swimming pool .",
+    "A": [
+      "A swimming pool is visible in the residential area.",
+      "No swimming pool is visible in the residential area."
+    ],
+    "group": "direct",
+    "reason": "明确写有游泳池",
+    "category_mismatch": false
+  },
+  {
+    "image": "664.tif",
+    "pair": "617-664",
+    "attribute": "community_pool",
+    "query": "This is a dense residential area with many houses .",
+    "A": [
+      "No swimming pool is visible in the residential area.",
+      "A swimming pool is visible in the residential area."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1255.tif",
+    "pair": "1255-1245",
+    "attribute": "community_pool",
+    "query": "It is a medium residential area .",
+    "A": [
+      "A swimming pool is visible in the residential area.",
+      "No swimming pool is visible in the residential area."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1245.tif",
+    "pair": "1255-1245",
+    "attribute": "community_pool",
+    "query": "It is a medium residential area .",
+    "A": [
+      "No swimming pool is visible in the residential area.",
+      "A swimming pool is visible in the residential area."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1466.tif",
+    "pair": "1466-1459",
+    "attribute": "bridge_curve",
+    "query": "A narrow overpass go across the roads diagonally .",
+    "A": [
+      "The upper roadway curves.",
+      "The upper roadway is straight."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1459.tif",
+    "pair": "1466-1459",
+    "attribute": "bridge_curve",
+    "query": "An overpass with a road go across another roads diagonally .",
+    "A": [
+      "The upper roadway is straight.",
+      "The upper roadway curves."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "13.tif",
+    "pair": "13-26",
+    "attribute": "field_axis",
+    "query": "There is a piece of farmland .",
+    "A": [
+      "The crop rows run horizontally.",
+      "The crop rows run vertically."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "26.tif",
+    "pair": "13-26",
+    "attribute": "field_axis",
+    "query": "There is a piece of farmland .",
+    "A": [
+      "The crop rows run vertically.",
+      "The crop rows run horizontally."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "463.tif",
+    "pair": "463-472",
+    "attribute": "rooftops",
+    "query": "There are some buildings with grey roofs .",
+    "A": [
+      "The rooftops are mostly light in color.",
+      "The rooftops are mostly dark in color."
+    ],
+    "group": "partial",
+    "reason": "灰色未指明整体明暗",
+    "category_mismatch": false
+  },
+  {
+    "image": "472.tif",
+    "pair": "463-472",
+    "attribute": "rooftops",
+    "query": "There are some buildings with grey and black roofs .",
+    "A": [
+      "The rooftops are mostly dark in color.",
+      "The rooftops are mostly light in color."
+    ],
+    "group": "partial",
+    "reason": "灰与黑并列，未说明深色是否占多数",
+    "category_mismatch": false
+  },
+  {
+    "image": "876.tif",
+    "pair": "876-860",
+    "attribute": "freeway_color",
+    "query": "There are two straight freeways with some plants beside them .",
+    "A": [
+      "The freeway pavement is pale.",
+      "The freeway pavement is dark."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "860.tif",
+    "pair": "876-860",
+    "attribute": "freeway_color",
+    "query": "There are two straight freeways in the desert .",
+    "A": [
+      "The freeway pavement is dark.",
+      "The freeway pavement is pale."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1063.tif",
+    "pair": "1063-1006",
+    "attribute": "harbor_rows",
+    "query": "Lots of boats docked at the harbor and the boats are closed to each other .",
+    "A": [
+      "The long rows of moored boats run horizontally.",
+      "The long rows of moored boats run vertically."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1006.tif",
+    "pair": "1063-1006",
+    "attribute": "harbor_rows",
+    "query": "Lots of boats docked at the harbor .",
+    "A": [
+      "The long rows of moored boats run vertically.",
+      "The long rows of moored boats run horizontally."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1140.tif",
+    "pair": "1140-1161",
+    "attribute": "crosswalk",
+    "query": "An intersection with many cars on the road .",
+    "A": [
+      "The intersection has striped crosswalks.",
+      "The intersection lacks striped crosswalks."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1161.tif",
+    "pair": "1140-1161",
+    "attribute": "crosswalk",
+    "query": "An intersection with no cars or pedestrians .",
+    "A": [
+      "The intersection lacks striped crosswalks.",
+      "The intersection has striped crosswalks."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1452.tif",
+    "pair": "1452-1461",
+    "attribute": "bridge_slope",
+    "query": "There is a piece of farmland .",
+    "A": [
+      "From left to right the upper roadway slopes upward.",
+      "From left to right the upper roadway slopes downward."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": true
+  },
+  {
+    "image": "1461.tif",
+    "pair": "1452-1461",
+    "attribute": "bridge_slope",
+    "query": "An overpass with a road go across another roads diagonally .",
+    "A": [
+      "From left to right the upper roadway slopes downward.",
+      "From left to right the upper roadway slopes upward."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "11.tif",
+    "pair": "11-21",
+    "attribute": "field_axis",
+    "query": "There is a piece of farmland .",
+    "A": [
+      "The crop rows run horizontally.",
+      "The crop rows run vertically."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "21.tif",
+    "pair": "11-21",
+    "attribute": "field_axis",
+    "query": "There is a piece of farmland .",
+    "A": [
+      "The crop rows run vertically.",
+      "The crop rows run horizontally."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "78.tif",
+    "pair": "78-76",
+    "attribute": "field_color",
+    "query": "There is a piece of farmland .",
+    "A": [
+      "The field is green.",
+      "The field is brown."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "76.tif",
+    "pair": "78-76",
+    "attribute": "field_color",
+    "query": "There is a piece of farmland .",
+    "A": [
+      "The field is brown.",
+      "The field is green."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "61.tif",
+    "pair": "61-7",
+    "attribute": "field_curve",
+    "query": "There is a piece of farmland .",
+    "A": [
+      "The crop rows are curved.",
+      "The crop rows are straight."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "7.tif",
+    "pair": "61-7",
+    "attribute": "field_curve",
+    "query": "There is a piece of farmland .",
+    "A": [
+      "The crop rows are straight.",
+      "The crop rows are curved."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1054.tif",
+    "pair": "1054-1012",
+    "attribute": "harbor_rows",
+    "query": "Lots of boats docked at the harbor the water is deep blue .",
+    "A": [
+      "The long rows of moored boats run horizontally.",
+      "The long rows of moored boats run vertically."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1012.tif",
+    "pair": "1054-1012",
+    "attribute": "harbor_rows",
+    "query": "Lots of boats docked in lines at the harbor .",
+    "A": [
+      "The long rows of moored boats run vertically.",
+      "The long rows of moored boats run horizontally."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1574.tif",
+    "pair": "1574-1545",
+    "attribute": "parking_ground",
+    "query": "Lots of cars are very closed to each other in the parking lot .",
+    "A": [
+      "The cars are parked on grass.",
+      "The cars are parked on pavement."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1545.tif",
+    "pair": "1574-1545",
+    "attribute": "parking_ground",
+    "query": "Lots of cars parked in lines in the parking lot .",
+    "A": [
+      "The cars are parked on pavement.",
+      "The cars are parked on grass."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1723.tif",
+    "pair": "1723-1739",
+    "attribute": "runway_number",
+    "query": "It is a straight runway with some mark lines and a number on it .",
+    "A": [
+      "Large painted numerals are visible on the runway.",
+      "No large painted numerals are visible on the runway."
+    ],
+    "group": "direct",
+    "reason": "明确写跑道上有数字",
+    "category_mismatch": false
+  },
+  {
+    "image": "1739.tif",
+    "pair": "1723-1739",
+    "attribute": "runway_number",
+    "query": "It is a straight runway with some mark lines on it .",
+    "A": [
+      "No large painted numerals are visible on the runway.",
+      "Large painted numerals are visible on the runway."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1812.tif",
+    "pair": "1812-1832",
+    "attribute": "house_pool",
+    "query": "A big villa with orange roofs is surrounded by trees and lawn in the sparse residential area .",
+    "A": [
+      "The house has a visible swimming pool beside it.",
+      "The house has no visible swimming pool beside it."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1832.tif",
+    "pair": "1812-1832",
+    "attribute": "house_pool",
+    "query": "A villa with grey roofs is surrounded by some withered plants and lawn in the sparse residential area .",
+    "A": [
+      "The house has no visible swimming pool beside it.",
+      "The house has a visible swimming pool beside it."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "2003.tif",
+    "pair": "2003-2040",
+    "attribute": "court_surround",
+    "query": "A tennis court with some plants and houses surrounded .",
+    "A": [
+      "The area surrounding the marked tennis playing surface is red.",
+      "The area surrounding the marked tennis playing surface is green."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "2040.tif",
+    "pair": "2003-2040",
+    "attribute": "court_surround",
+    "query": "Two tennis courts arranged neatly with some plants surrounded .",
+    "A": [
+      "The area surrounding the marked tennis playing surface is green.",
+      "The area surrounding the marked tennis playing surface is red."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "427.tif",
+    "pair": "427-428",
+    "attribute": "rooftops",
+    "query": "The buildings arranged neatly .",
+    "A": [
+      "The rooftops are mostly light in color.",
+      "The rooftops are mostly dark in color."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "428.tif",
+    "pair": "427-428",
+    "attribute": "rooftops",
+    "query": "The buildings arranged neatly .",
+    "A": [
+      "The rooftops are mostly dark in color.",
+      "The rooftops are mostly light in color."
+    ],
+    "group": "unmentioned",
+    "reason": "文字未区分该组正反细节",
+    "category_mismatch": false
+  },
+  {
+    "image": "1514.tif",
+    "pair": "1514-1549",
+    "attribute": "parking_fill",
+    "query": "Lots of cars parked neatly in the parking lot .",
+    "A": [
+      "The parking rows are densely filled with cars.",
+      "The parking rows have many empty spaces."
+    ],
+    "group": "partial",
+    "reason": "车辆众多但未说明车位填充比例",
+    "category_mismatch": false
+  },
+  {
+    "image": "1549.tif",
+    "pair": "1514-1549",
+    "attribute": "parking_fill",
+    "query": "Lots of cars parked in the parking lot .",
+    "A": [
+      "The parking rows have many empty spaces.",
+      "The parking rows are densely filled with cars."
+    ],
+    "group": "partial",
+    "reason": "车辆众多但未说明空位比例",
+    "category_mismatch": false
+  }
+]
