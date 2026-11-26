@@ -1,0 +1,163 @@
+{
+  "family": "trees",
+  "weight": 2.0,
+  "mode": "veto",
+  "file_sha256": "c959f472a72435eee0b9ca9da892d972e846249c0b0e9fb0fefa2bd0447dba34",
+  "old_model": "23f5f688430376e9e267024149a8d44424f55573cf82a967293cf8de326d2c27",
+  "source": {
+    "sample.py": "e458097287a25f9dbb3658830b25564d1d5a5b6a59e66d0e981247273c3d65e4",
+    "data.py": "83b22a654f20bb563584f939afc4f4a4d36199c7f54bed1c4c756e2fe7bc39c2",
+    "study.py": "6e04fb23d874bc590aed983707f9396d144812a2b702956f26efcb2d14cd505e"
+  },
+  "development_images": 204,
+  "outcome_scales": [
+    0.42371370564548977,
+    0.3383219384610304
+  ],
+  "candidates": [
+    {
+      "family": "trees",
+      "weight": 2.0,
+      "mode": "veto",
+      "detail_delta": 0.0001021241830065356,
+      "mrr_delta": -0.0004873151648247539,
+      "switch_rate": 0.013684640522875772
+    },
+    {
+      "family": "trees",
+      "weight": 2.0,
+      "mode": "rerank",
+      "detail_delta": 0.009635659819483316,
+      "mrr_delta": -0.000570044609353693,
+      "switch_rate": 0.2151756535947707
+    },
+    {
+      "family": "ridge",
+      "weight": 0.5,
+      "mode": "veto",
+      "detail_delta": -0.0007735906862745073,
+      "mrr_delta": -0.0008258829950006391,
+      "switch_rate": 0.01889297385620909
+    },
+    {
+      "family": "trees",
+      "weight": 1.0,
+      "mode": "veto",
+      "detail_delta": -0.00015318627450980343,
+      "mrr_delta": -0.0009146672925445275,
+      "switch_rate": 0.013378267973856163
+    },
+    {
+      "family": "trees",
+      "weight": 0.5,
+      "mode": "veto",
+      "detail_delta": -0.00015318627450980343,
+      "mrr_delta": -0.0010736892346547048,
+      "switch_rate": 0.013378267973856163
+    },
+    {
+      "family": "ridge",
+      "weight": 0.5,
+      "mode": "positive",
+      "detail_delta": -0.0014710745409274766,
+      "mrr_delta": -0.001214330405429145,
+      "switch_rate": 0.16278594771241764
+    },
+    {
+      "family": "ridge",
+      "weight": 2.0,
+      "mode": "positive",
+      "detail_delta": -0.0017774470899470831,
+      "mrr_delta": -0.0005822444009510485,
+      "switch_rate": 0.16125408496731963
+    },
+    {
+      "family": "ridge",
+      "weight": 1.0,
+      "mode": "positive",
+      "detail_delta": -0.0017774470899470831,
+      "mrr_delta": -0.0008960651897987357,
+      "switch_rate": 0.1615604575163392
+    },
+    {
+      "family": "ridge",
+      "weight": 1.0,
+      "mode": "veto",
+      "detail_delta": -0.0018367763772175476,
+      "mrr_delta": -0.0010214314212475943,
+      "switch_rate": 0.01981209150326791
+    },
+    {
+      "family": "ridge",
+      "weight": 2.0,
+      "mode": "veto",
+      "detail_delta": -0.002030812324929965,
+      "mrr_delta": -0.0009425515180209711,
+      "switch_rate": 0.02512254901960776
+    },
+    {
+      "family": "trees",
+      "weight": 2.0,
+      "mode": "positive",
+      "detail_delta": 0.006802200046685319,
+      "mrr_delta": -0.0024810630938072163,
+      "switch_rate": 0.11080473856209111
+    },
+    {
+      "family": "trees",
+      "weight": 0.5,
+      "mode": "positive",
+      "detail_delta": 0.007108572595704927,
+      "mrr_delta": -0.002789369316381825,
+      "switch_rate": 0.11294934640522836
+    },
+    {
+      "family": "trees",
+      "weight": 1.0,
+      "mode": "positive",
+      "detail_delta": 0.007108572595704927,
+      "mrr_delta": -0.002789369316381825,
+      "switch_rate": 0.11233660130718914
+    },
+    {
+      "family": "ridge",
+      "weight": 2.0,
+      "mode": "rerank",
+      "detail_delta": -0.0011895035792094599,
+      "mrr_delta": -0.002804252880056356,
+      "switch_rate": 0.2728758169934636
+    },
+    {
+      "family": "trees",
+      "weight": 1.0,
+      "mode": "rerank",
+      "detail_delta": 0.020971444133208752,
+      "mrr_delta": -0.01733735076311793,
+      "switch_rate": 0.3017769607843134
+    },
+    {
+      "family": "ridge",
+      "weight": 1.0,
+      "mode": "rerank",
+      "detail_delta": 0.01351637877373166,
+      "mrr_delta": -0.019016105819199432,
+      "switch_rate": 0.3422181372549012
+    },
+    {
+      "family": "ridge",
+      "weight": 0.5,
+      "mode": "rerank",
+      "detail_delta": 0.05232356831621524,
+      "mrr_delta": -0.046341078595942026,
+      "switch_rate": 0.42943218954248147
+    },
+    {
+      "family": "trees",
+      "weight": 0.5,
+      "mode": "rerank",
+      "detail_delta": 0.06284235916588843,
+      "mrr_delta": -0.06025664874428721,
+      "switch_rate": 0.4489379084967294
+    }
+  ]
+}
