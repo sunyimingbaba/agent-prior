@@ -1,0 +1,29 @@
+{
+  "protocol": "a7e8038371079d06d5d7c1b56a421f845c0fe2411ff506ad4661d20a3b763abf",
+  "train": "a13c305f1ee7bb4ac7a835bd3abd49dbec427e46941aeffd7a712143cd1d1148",
+  "holdout": "895f03732efcdb39fdcd130b3f28464cd4da42befb5e5276564e9ef9513d024f",
+  "starts": {
+    "a": {
+      "R0": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+      "R2": "50c8911f2a806d301a849ad7937d212999c2222ef49937b1bf416a468b67e27c"
+    },
+    "b": {
+      "R0": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd",
+      "R2": "2e0a06f58dd3608c597e464e1b0d5eb97ab7abfb5ddf55b84754a1220eeaf239"
+    }
+  },
+  "sources": {
+    "mined_train.py": "5da98c498b0bae96f0d70ef5fe8d77bdf6249c3ca9ac1c43738a8119808b33a8",
+    "mined_worker.py": "a385ac615395f650b7509bb77d9168f02d633ce256d876e2a343e8bbd5cd3c29",
+    "exact_reward.py": "eda4e69ed935404f0a65f4fc804196974a08dca057c5c62ecb5bd03f1ad8aee9"
+  },
+  "implementation": {
+    "train_strict.py": "141453a6a5d691e45f218991deb74039dc0a42d7c4cb6bebef240c2bd5592d20",
+    "strict_reward.py": "74a2544942fa80fee99754c9fb05b144ed37145e245270db307eeed864e49905",
+    "model_run.py": "0cd4afac83eae1789ca4eb66b11814c11de82fb1c1e2ad6aba8267303d39a280",
+    "evaluate.py": "6b09afef25de1de5c8762a0e3a27823af148212026ed0b0f6ea4f89faf2ba18e",
+    "cross.py": "fbf7c3eb300e50d2aefacca3518d58190868c047f6dbf9f40cfe70ddfd320534"
+  },
+  "historical_lock": "e4d166a026beedb21292bea3f5838c64124bbb43749aae034223a419e4a1333b",
+  "cross": "6b8558e9e784e1ce9395732930ae9d7af16f6d9e2bd54dfaa54be16579128578"
+}
