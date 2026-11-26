@@ -1,0 +1,48 @@
+{
+  "guard": {
+    "checks": {
+      "fresh_detail_both_seeds": true,
+      "fresh_mrr": true,
+      "fresh_net": true,
+      "fresh_mrr_over_calibrated": true,
+      "fresh_lower_drop_frequency": true,
+      "fresh_lower_first_loss": true,
+      "positive_pooled_detail_interval": true,
+      "historical_scene148_mrr": false,
+      "historical_scene122_mrr": true
+    },
+    "all_pass": false
+  },
+  "margin_guard": {
+    "checks": {
+      "fresh_detail_both_seeds": true,
+      "fresh_mrr": true,
+      "fresh_net": true,
+      "fresh_mrr_over_calibrated": false,
+      "fresh_lower_drop_frequency": true,
+      "fresh_lower_first_loss": true,
+      "positive_pooled_detail_interval": true,
+      "historical_scene148_mrr": false,
+      "historical_scene122_mrr": true,
+      "historical_first78_mrr": true
+    },
+    "all_pass": false
+  },
+  "rank_priority": {
+    "checks": {
+      "fresh_detail_both_seeds": true,
+      "fresh_mrr": true,
+      "fresh_net": true,
+      "fresh_mrr_over_calibrated": true,
+      "fresh_lower_drop_frequency": true,
+      "fresh_lower_first_loss": true,
+      "positive_pooled_detail_interval": true,
+      "historical_scene148_mrr": false,
+      "historical_scene122_mrr": true,
+      "cv_all_positive": true,
+      "pooled_above_rank_only": true,
+      "fresh_above_rank_only": true
+    },
+    "all_pass": false
+  }
+}
