@@ -1,0 +1,63 @@
+{
+  "train_arms": [
+    "ordinary",
+    "old",
+    "old3"
+  ],
+  "new_nominee": "old3",
+  "candidate_flags": {
+    "switch": false,
+    "neighbor": false,
+    "old3": true
+  },
+  "reference_pilot": true,
+  "adjusted": {
+    "old3": {
+      "detail": [
+        0.0011705220583099175,
+        0.008391169226474506
+      ],
+      "mrr": [
+        -0.0005940998999877148,
+        0.006188724182869212
+      ],
+      "net": [
+        0.0008662046908315565,
+        0.010092619023032594
+      ]
+    },
+    "switch": {
+      "detail": [
+        -0.0018477356708132687,
+        0.006199671896308262
+      ],
+      "mrr": [
+        -0.0022256113263866392,
+        0.005505293528089667
+      ],
+      "net": [
+        -0.0024949328851222438,
+        0.007693839617631439
+      ]
+    }
+  },
+  "starts": {
+    "a": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+    "b": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd"
+  },
+  "lock": {
+    "inputs/pilot/pair_by_name.json": "16c1ff50ebbaf86bfbe7165ae4f5a9166d9fcf6c32e5eb5c0e90601644e99f2c",
+    "inputs/pilot/reward.json": "6b0c528d4d798ce313243a3b0e3b9620cdb7fb1736fbb51957880c5f602a34a8",
+    "inputs/pilot/pilot_rules.py": "5c075f4b43f1342db7edd443dbb0081c5874de4fefe92a476b20d8ed758272f5",
+    "inputs/pilot/a_prototypes.npz": "a0e17fcbee9260707dd808713e263ecfe0dbf9f915b49ceda5cefd8cfd1884ee",
+    "inputs/pilot/train.json": "a13c305f1ee7bb4ac7a835bd3abd49dbec427e46941aeffd7a712143cd1d1148",
+    "inputs/pilot/positives.json": "72f169282d3d93adc1e1c0118700aec1f1c9e567d09e5c495f5e8aaac4b84ff2",
+    "inputs/pilot/b_prototypes.npz": "43936e95e5b506d4f61f876d1a727c5b1e955ff6450cf903c1169f2ef91765de",
+    "inputs/pilot/trees.npz": "678ab01b4f7d9f25ef4569aca16af03e6e640e503ac7e9b27b9f2c803f798428",
+    "inputs/pilot/text.npz": "a4dcbf25b3b99394f458787225f8c89415e7d5d964e04ec145c2ab7f2099d3df",
+    "code/policy_worker.py": "dae4b1c53b4b7172ab66b3d8570c2318e78c9d0ef49833795579fb563a0ff2a6",
+    "code/online_reward.py": "16be5fc58e789e207896ceec07031dbe03fd3471210c34ab9da94b7f7f0ec791",
+    "code/train_pilot.py": "d83ab6f62e68ad1413f26886ca50d4a3fc4c91c6ab065d795e7fcc0f76ba81da",
+    "code/eval_pilot.py": "6b0e0bb91ed344c7ef3f49a84a05a9f6eb233f1e9657336fb42525456eb247e4"
+  }
+}

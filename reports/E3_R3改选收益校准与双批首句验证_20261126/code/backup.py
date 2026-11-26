@@ -29,7 +29,7 @@ def main():
                 for name in sorted(hashes):
                     f=folder/(name+'.pt');assert digest(f)==hashes[name]
                     tar.add(f,arcname=part+'/'+f.name)
-        # Read the generated archive in full and verify all 196 binary payloads per seed.
+        # Read the generated archive in full and verify the raw trajectories and projected features for every image.
         with tarfile.open(path,'r:gz') as tar:
             for part in ('raw','features'):
                 mats=[m for m in tar.getmembers() if m.name.startswith(part+'/complete')]
