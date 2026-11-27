@@ -1,5 +1,6 @@
 """Check the fixed within-tie alternative on a separate historical first-caption panel."""
 from compare import OLD, REPORTS, ROOT, LIBRARIES, read, sha, scores_for_seed, summary
+from fractions import Fraction
 import gzip
 import json
 import numpy as np
@@ -8,14 +9,17 @@ import numpy as np
 def classify(row):
     scores = np.array(row["r2"])
     bonus = np.array(row["bonus"])
-    gaps = np.diff(np.unique(scores))
-    cap = gaps.min()/2 if len(gaps) else 0.
-    scale = min(1.,cap/bonus.max()) if bonus.max()>0 else 1.
-    safe = scores + scale*bonus
-    base = scores==scores.max()
-    selected=safe==safe.max()
+    # Exact arithmetic preserves strict differences down to a single floating-point ULP.
+    ranks=[Fraction(float(x)) for x in scores]
+    adds=[Fraction(float(x)) for x in bonus]
+    levels=sorted(set(ranks))
+    cap=min((b-a for a,b in zip(levels,levels[1:])),default=Fraction(0))/2
+    scale=min(Fraction(1),cap/max(adds)) if max(adds)>0 else Fraction(1)
+    safe=[v+scale*extra for v,extra in zip(ranks,adds)]
+    base=scores==scores.max()
+    selected=np.array([v==max(safe) for v in safe])
     main=np.equal(scores+bonus,np.max(scores+bonus))
-    assert np.all(base[selected]) and not np.any((scores[:,None]>scores[None,:]) & (safe[:,None]<=safe[None,:]))
+    assert np.all(base[selected]) and all(safe[i]>safe[j] for i in range(8) for j in range(8) if ranks[i]>ranks[j])
     values = {"tie_only_switch":int(not np.array_equal(base,selected)),
               "main_switch":int(not np.array_equal(base,main)),
               "main_lower_enters":int(any(~base[main]))}
