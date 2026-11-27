@@ -1,0 +1,62 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:05,  1.46s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:04,  1.41s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:04<00:02,  1.44s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:05<00:01,  1.40s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.03s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.20s/it]
+已加载 LoRA 适配器: /private/AGSE_E3_1_rebuild_20261112/second_answer_5090_20261124/R0/adapter
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+The tokenizer you are loading from '/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e.  This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+1 1015-1033
+2 1018-1043
+3 1047-1034
+4 1054-1012
+5 1063-1006
+6 1070-1005
+7 11-21
+8 1139-1143
+9 1140-1161
+10 1158-1162
+11 1229-1267
+12 13-26
+13 1306-1336
+14 1330-1309
+15 1405-1401
+16 1435-1449
+17 1451-1455
+18 1506-1508
+19 1514-1549
+20 1532-1501
+21 1572-1544
+22 1574-1545
+23 1602-1639
+24 1604-1670
+25 1613-1669
+26 1626-1630
+27 1663-1617
+28 1707-1712
+29 1719-1733
+30 1728-1730
+31 1745-1738
+32 1767-1734
+33 1777-1765
+34 1814-1861
+35 1815-1876
+36 2003-2040
+37 2027-2035
+38 2053-2006
+39 226-236
+40 246-212
+41 301-321
+42 310-324
+43 345-332
+44 346-315
+45 348-340
+46 463-472
+47 47-63
+48 636-640
+49 637-634
+50 651-641
+51 78-76
+52 804-841
+53 805-868
+54 851-863
+55 872-848
+56 876-860
+57 878-814
