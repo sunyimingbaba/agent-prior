@@ -1,0 +1,767 @@
+{
+  "panels": {
+    "train": {
+      "images": 24,
+      "attributes": 11,
+      "held_unique_tokens": 88,
+      "C_unique_tokens": 22
+    },
+    "dev": {
+      "images": 194,
+      "attributes": 21,
+      "held_unique_tokens": 168,
+      "C_unique_tokens": 42
+    },
+    "external": {
+      "images": 118,
+      "attributes": 22,
+      "held_unique_tokens": 176,
+      "C_unique_tokens": 44
+    },
+    "formal126": {
+      "images": 126,
+      "attributes": 29,
+      "held_unique_tokens": 180
+    }
+  },
+  "C_intersections_with_all_DEFG": [],
+  "canonical_ordered_properties": 23,
+  "orientation": {
+    "berths": {
+      "A": [
+        "Most berths on the docks are occupied.",
+        "Many berths on the docks are empty."
+      ],
+      "B": [
+        "The docks are densely lined with boats.",
+        "The docks have many open spaces for boats."
+      ],
+      "C": [
+        "Boats fill almost all the slips.",
+        "Numerous slips lack a moored boat."
+      ],
+      "D": [
+        "Very few spaces for boats are vacant at the docks.",
+        "Many spaces for boats are vacant at the docks."
+      ],
+      "E": [
+        "Boats occupy nearly every docking space.",
+        "Quite a few docking spaces are unoccupied."
+      ],
+      "FG": [
+        [
+          "Boats occupy most of the available slips at the docks.",
+          "Many of the slips at the docks have no boat in them."
+        ],
+        [
+          "Most docking places have a boat tied up in them.",
+          "A large number of docking places are vacant."
+        ]
+      ]
+    },
+    "bridge_axis": {
+      "A": [
+        "The upper roadway runs horizontally.",
+        "The upper roadway runs vertically."
+      ],
+      "B": [
+        "The road on top crosses from left to right.",
+        "The road on top crosses from top to bottom."
+      ],
+      "C": [
+        "The overpassing road spans the width of the image.",
+        "The overpassing road spans the height of the image."
+      ],
+      "D": [
+        "The deck on top has a left-right alignment.",
+        "The deck on top has a top-bottom alignment."
+      ],
+      "E": [
+        "The upper deck extends sideways through the frame.",
+        "The upper deck extends vertically through the frame."
+      ],
+      "FG": [
+        [
+          "In this view, the roadway on the upper level extends in the left-to-right direction.",
+          "In this view, the roadway on the upper level extends in the top-to-bottom direction."
+        ],
+        [
+          "The direction of the roadway on the upper level follows the width of the photograph.",
+          "The direction of the roadway on the upper level follows the height of the photograph."
+        ]
+      ]
+    },
+    "court_surround": {
+      "A": [
+        "The area surrounding the marked tennis playing surface is red.",
+        "The area surrounding the marked tennis playing surface is green."
+      ],
+      "B": [
+        "A red border surrounds the tennis playing area.",
+        "A green border surrounds the tennis playing area."
+      ],
+      "C": [
+        "Outside the marked lines the court surface is red.",
+        "Outside the marked lines the court surface is green."
+      ],
+      "D": [
+        "The outer apron of the tennis court is red.",
+        "The outer apron of the tennis court is green."
+      ],
+      "E": [
+        "A red surface borders the lined part of the tennis court.",
+        "A green surface borders the lined part of the tennis court."
+      ],
+      "FG": [
+        [
+          "A red surface borders the marked playing area of the tennis court.",
+          "A green surface borders the marked playing area of the tennis court."
+        ],
+        [
+          "Immediately outside the tennis court markings, the surrounding surface looks red.",
+          "Immediately outside the tennis court markings, the surrounding surface looks green."
+        ]
+      ]
+    },
+    "crosswalk": {
+      "A": [
+        "The intersection has striped crosswalks.",
+        "The intersection lacks striped crosswalks."
+      ],
+      "B": [
+        "Pedestrian crossings with repeated stripes are visible.",
+        "No pedestrian crossings with repeated stripes are visible."
+      ],
+      "C": [
+        "Bands of parallel pedestrian markings appear at the junction.",
+        "The junction has no bands of parallel pedestrian markings."
+      ],
+      "D": [
+        "There are painted stripes for pedestrians at the road crossing.",
+        "There are no painted stripes for pedestrians at the road crossing."
+      ],
+      "E": [
+        "Striped pedestrian crossings mark this intersection.",
+        "This intersection has no striped pedestrian crossings."
+      ],
+      "FG": [
+        [
+          "Striped pedestrian crossings are visible at the road junction.",
+          "The road junction shows no striped pedestrian crossings."
+        ],
+        [
+          "Crossing stripes mark the paths for pedestrians at the intersection.",
+          "The intersection has no crossing stripes marking paths for pedestrians."
+        ]
+      ]
+    },
+    "field_axis": {
+      "A": [
+        "The crop rows run horizontally.",
+        "The crop rows run vertically."
+      ],
+      "B": [
+        "The planting lines extend from left to right.",
+        "The planting lines extend from top to bottom."
+      ],
+      "C": [
+        "Rows of crops cross the field from side to side.",
+        "Rows of crops cross the field from the upper edge to the lower edge."
+      ],
+      "D": [
+        "The planting furrows have a left-right orientation.",
+        "The planting furrows have a top-bottom orientation."
+      ],
+      "E": [
+        "Furrows are oriented across the width of this field.",
+        "Furrows are oriented along the height of this field."
+      ],
+      "FG": [
+        [
+          "In this view, the lines of crops extend in the left-to-right direction.",
+          "In this view, the lines of crops extend in the top-to-bottom direction."
+        ],
+        [
+          "The direction of the lines of crops follows the width of the photograph.",
+          "The direction of the lines of crops follows the height of the photograph."
+        ]
+      ]
+    },
+    "field_color": {
+      "A": [
+        "The field is green.",
+        "The field is brown."
+      ],
+      "B": [
+        "Green is the dominant color of the cultivated land.",
+        "Brown is the dominant color of the cultivated land."
+      ],
+      "C": [
+        "The planted area has a green tone.",
+        "The planted area has a brown tone."
+      ],
+      "D": [
+        "The farmland looks green.",
+        "The farmland looks brown."
+      ],
+      "E": [
+        "Most of this cultivated plot appears green.",
+        "Most of this cultivated plot appears brown."
+      ],
+      "FG": [
+        [
+          "The farmland in view has a green surface.",
+          "The farmland in view has a brown surface."
+        ],
+        [
+          "The field itself appears green in the photograph.",
+          "The field itself appears brown in the photograph."
+        ]
+      ]
+    },
+    "field_curve": {
+      "A": [
+        "The crop rows are curved.",
+        "The crop rows are straight."
+      ],
+      "B": [
+        "The planting lines bend across the field.",
+        "The planting lines follow a straight course."
+      ],
+      "C": [
+        "The lines in the cultivated plot follow an arc.",
+        "The lines in the cultivated plot have a linear layout."
+      ],
+      "D": [
+        "The furrows change direction as they cross the plot.",
+        "The furrows maintain a straight course across the plot."
+      ],
+      "E": [
+        "A bend is visible in the planted rows.",
+        "The planted rows form straight lines."
+      ],
+      "FG": [
+        [
+          "The planting lines bend as they cross the field.",
+          "The planting lines hold a straight course through the field."
+        ],
+        [
+          "The rows in this field follow curved paths.",
+          "The rows in this field follow straight paths."
+        ]
+      ]
+    },
+    "freeway_axis": {
+      "A": [
+        "The freeway runs horizontally.",
+        "The freeway runs vertically."
+      ],
+      "B": [
+        "The freeway crosses from left to right.",
+        "The freeway crosses from top to bottom."
+      ],
+      "C": [
+        "The main highway spans the width of the view.",
+        "The main highway spans the height of the view."
+      ],
+      "D": [
+        "The highway lanes traverse the scene sideways.",
+        "The highway lanes traverse the scene from its top to its bottom."
+      ],
+      "E": [
+        "The main highway extends across the image from side to side.",
+        "The main highway extends through the image from top to bottom."
+      ],
+      "FG": [
+        [
+          "In this view, the freeway extends in the left-to-right direction.",
+          "In this view, the freeway extends in the top-to-bottom direction."
+        ],
+        [
+          "The direction of the freeway follows the width of the photograph.",
+          "The direction of the freeway follows the height of the photograph."
+        ]
+      ]
+    },
+    "freeway_color": {
+      "A": [
+        "The freeway pavement is pale.",
+        "The freeway pavement is dark."
+      ],
+      "B": [
+        "The highway surface is light in color.",
+        "The highway surface is dark in color."
+      ],
+      "C": [
+        "The road lanes have a bright surface.",
+        "The road lanes have a dark surface."
+      ],
+      "D": [
+        "A light-colored highway surface is visible.",
+        "A dark-colored highway surface is visible."
+      ],
+      "E": [
+        "The highway has pale paving.",
+        "The highway has dark paving."
+      ],
+      "FG": [
+        [
+          "The surface of the freeway looks light in tone in this view.",
+          "The surface of the freeway looks dark in tone in this view."
+        ],
+        [
+          "The freeway can be seen as a pale strip of pavement.",
+          "The freeway can be seen as a dark strip of pavement."
+        ]
+      ]
+    },
+    "harbor_rows": {
+      "A": [
+        "The long rows of moored boats run horizontally.",
+        "The long rows of moored boats run vertically."
+      ],
+      "B": [
+        "The lines of tied boats extend left to right.",
+        "The lines of tied boats extend top to bottom."
+      ],
+      "C": [
+        "The boat rows span the width of the picture.",
+        "The boat rows span the height of the picture."
+      ],
+      "D": [
+        "Moored boats form rows across the width of the frame.",
+        "Moored boats form rows down the height of the frame."
+      ],
+      "E": [
+        "The long lines of boats go from left to right in this harbor.",
+        "The long lines of boats go from top to bottom in this harbor."
+      ],
+      "FG": [
+        [
+          "In this view, the long lines of docked boats extend in the left-to-right direction.",
+          "In this view, the long lines of docked boats extend in the top-to-bottom direction."
+        ],
+        [
+          "The direction of the long lines of docked boats follows the width of the photograph.",
+          "The direction of the long lines of docked boats follows the height of the photograph."
+        ]
+      ]
+    },
+    "house_light": {
+      "A": [
+        "The main house has a light roof.",
+        "The main house has a dark roof."
+      ],
+      "B": [
+        "The roof on the main house looks pale.",
+        "The roof on the main house looks dark."
+      ],
+      "C": [
+        "The principal residential rooftop has a light tone.",
+        "The principal residential rooftop has a dark tone."
+      ],
+      "D": [
+        "Light-colored roofing covers the principal house.",
+        "Dark-colored roofing covers the principal house."
+      ],
+      "E": [
+        "The largest house has pale-colored roofing.",
+        "The largest house has dark-colored roofing."
+      ],
+      "FG": [
+        [
+          "A pale roof covers the main house in the image.",
+          "A dark-toned roof covers the main house in the image."
+        ],
+        [
+          "Of the features on the main house, the roof appears light in color.",
+          "Of the features on the main house, the roof appears dark in color."
+        ]
+      ]
+    },
+    "infield": {
+      "A": [
+        "The central baseball infield is grass.",
+        "The central baseball infield is dirt."
+      ],
+      "B": [
+        "Grass covers the middle of the infield.",
+        "Bare soil covers the middle of the infield."
+      ],
+      "C": [
+        "Inside the base paths the playing surface is grassy.",
+        "Inside the base paths the playing surface is earthen."
+      ],
+      "D": [
+        "Within the diamond there is a grass-covered patch around the mound.",
+        "Within the diamond the ground around the mound is dirt."
+      ],
+      "E": [
+        "The area inside the baseball diamond has a grassy center.",
+        "The area inside the baseball diamond has a dirt center."
+      ],
+      "FG": [
+        [
+          "Grass covers the middle of the baseball infield.",
+          "Dirt covers the middle of the baseball infield."
+        ],
+        [
+          "The center of the baseball diamond has a surface of grass.",
+          "The center of the baseball diamond has a surface of bare dirt."
+        ]
+      ]
+    },
+    "mobile_axis": {
+      "A": [
+        "The straight street between the mobile homes runs horizontally.",
+        "The straight street between the mobile homes runs vertically."
+      ],
+      "B": [
+        "A street extends left to right between mobile homes.",
+        "A street extends top to bottom between mobile homes."
+      ],
+      "C": [
+        "The mobile homes line a road spanning the width of the view.",
+        "The mobile homes line a road spanning the height of the view."
+      ],
+      "D": [
+        "The access street between the trailers follows a left-right course.",
+        "The access street between the trailers follows a top-bottom course."
+      ],
+      "E": [
+        "The road between the trailers crosses the picture from side to side.",
+        "The road between the trailers crosses the picture from top to bottom."
+      ],
+      "FG": [
+        [
+          "In this view, the straight street between the mobile homes extends in the left-to-right direction.",
+          "In this view, the straight street between the mobile homes extends in the top-to-bottom direction."
+        ],
+        [
+          "The direction of the straight street between the mobile homes follows the width of the photograph.",
+          "The direction of the straight street between the mobile homes follows the height of the photograph."
+        ]
+      ]
+    },
+    "parking_fill": {
+      "A": [
+        "The parking rows are densely filled with cars.",
+        "The parking rows have many empty spaces."
+      ],
+      "B": [
+        "Cars fill most of the parking stalls.",
+        "Numerous parking stalls are vacant."
+      ],
+      "C": [
+        "Nearly every place in the parking rows is occupied.",
+        "There are many gaps between cars in the parking rows."
+      ],
+      "D": [
+        "The parking spaces are almost all occupied.",
+        "A large number of parking spaces are unoccupied."
+      ],
+      "E": [
+        "Almost every stall in these parking rows contains a vehicle.",
+        "Many stalls in these parking rows contain no vehicle."
+      ],
+      "FG": [
+        [
+          "Cars occupy the parking rows densely in this view.",
+          "Many spaces in the parking rows are visibly vacant."
+        ],
+        [
+          "The parking rows are packed with vehicles.",
+          "The parking rows contain many unoccupied places for vehicles."
+        ]
+      ]
+    },
+    "parking_ground": {
+      "A": [
+        "The cars are parked on grass.",
+        "The cars are parked on pavement."
+      ],
+      "B": [
+        "Grass forms the surface beneath the parked cars.",
+        "Pavement forms the surface beneath the parked cars."
+      ],
+      "C": [
+        "The parking area has a grassy surface.",
+        "The parking area has a paved surface."
+      ],
+      "D": [
+        "Grass is visible under the parked vehicles.",
+        "A paved lot is visible under the parked vehicles."
+      ],
+      "E": [
+        "Vehicles stand on a grassy parking area.",
+        "Vehicles stand on a paved parking area."
+      ],
+      "FG": [
+        [
+          "Grass is the surface beneath the parked vehicles.",
+          "Pavement is the surface beneath the parked vehicles."
+        ],
+        [
+          "The parking area underneath the cars is grassy ground.",
+          "The parking area underneath the cars is paved ground."
+        ]
+      ]
+    },
+    "river_axis": {
+      "A": [
+        "The river runs horizontally.",
+        "The river runs vertically."
+      ],
+      "B": [
+        "The waterway crosses the image left to right.",
+        "The waterway crosses the image top to bottom."
+      ],
+      "C": [
+        "The channel spans the width of the view.",
+        "The channel spans the height of the view."
+      ],
+      "D": [
+        "The main course of the river goes across the frame sideways.",
+        "The main course of the river travels from the upper edge toward the lower edge."
+      ],
+      "E": [
+        "The channel stretches sideways across the scene.",
+        "The channel stretches vertically through the scene."
+      ],
+      "FG": [
+        [
+          "In this view, the course of the river extends in the left-to-right direction.",
+          "In this view, the course of the river extends in the top-to-bottom direction."
+        ],
+        [
+          "The direction of the course of the river follows the width of the photograph.",
+          "The direction of the course of the river follows the height of the photograph."
+        ]
+      ]
+    },
+    "river_bank": {
+      "A": [
+        "Dense green trees line the riverbanks.",
+        "The riverbanks have little green tree cover."
+      ],
+      "B": [
+        "The banks of the channel are covered with green trees.",
+        "The banks of the channel are mostly bare of green trees."
+      ],
+      "C": [
+        "Thick green woodland borders the water.",
+        "There is little green woodland bordering the water."
+      ],
+      "D": [
+        "A thick cover of green trees flanks the channel.",
+        "Green trees are sparse along the edges of the channel."
+      ],
+      "E": [
+        "Green trees grow thickly beside this watercourse.",
+        "There are few green trees beside this watercourse."
+      ],
+      "FG": [
+        [
+          "Thick green tree cover follows the edges of the river.",
+          "There are few green trees along the edges of the river."
+        ],
+        [
+          "The land bordering the river carries dense green trees.",
+          "The land bordering the river carries little green tree cover."
+        ]
+      ]
+    },
+    "rooftops": {
+      "A": [
+        "The rooftops are mostly light in color.",
+        "The rooftops are mostly dark in color."
+      ],
+      "B": [
+        "Pale roofs dominate this scene.",
+        "Dark roofs dominate this scene."
+      ],
+      "C": [
+        "Most roof surfaces have a bright tone.",
+        "Most roof surfaces have a dark tone."
+      ],
+      "D": [
+        "Light shades predominate on the roofs.",
+        "Dark shades predominate on the roofs."
+      ],
+      "E": [
+        "Most of the rooftops are pale in this scene.",
+        "Most of the rooftops are dark in this scene."
+      ],
+      "FG": [
+        [
+          "Light tones predominate among the roofs visible here.",
+          "Dark tones predominate among the roofs visible here."
+        ],
+        [
+          "Most of the roof surfaces look pale.",
+          "Most of the roof surfaces look dark."
+        ]
+      ]
+    },
+    "runway_bars": {
+      "A": [
+        "Broad white rectangular bars are painted on the runway.",
+        "The runway has no broad white rectangular bars."
+      ],
+      "B": [
+        "Wide white blocks are visible on the runway surface.",
+        "The runway surface lacks wide white blocks."
+      ],
+      "C": [
+        "The airstrip bears prominent broad white rectangles.",
+        "No broad white rectangles appear on the airstrip."
+      ],
+      "D": [
+        "The runway includes conspicuous wide white bars.",
+        "There are no conspicuous wide white bars on the runway."
+      ],
+      "E": [
+        "The runway has broad rectangular white markings.",
+        "The runway lacks broad rectangular white markings."
+      ],
+      "FG": [
+        [
+          "Wide rectangular white marks can be seen on the runway surface.",
+          "The runway surface shows no wide rectangular white marks."
+        ],
+        [
+          "The runway paint includes broad white bars shaped like rectangles.",
+          "The runway paint includes no broad white bars shaped like rectangles."
+        ]
+      ]
+    },
+    "runway_number": {
+      "A": [
+        "Large painted numerals are visible on the runway.",
+        "No large painted numerals are visible on the runway."
+      ],
+      "B": [
+        "The markings on the runway include a large number.",
+        "The markings on the runway do not include a large number."
+      ],
+      "C": [
+        "A large numeric designation appears on the airstrip surface.",
+        "The airstrip surface has no visible large numeric designation."
+      ],
+      "D": [
+        "The runway carries a prominent number marking.",
+        "The runway has no prominent number marking."
+      ],
+      "E": [
+        "Large digits have been painted on the runway.",
+        "There are no large painted digits on the runway."
+      ],
+      "FG": [
+        [
+          "Large numbers painted on the runway are visible in the photograph.",
+          "The photograph shows no large numbers painted on the runway."
+        ],
+        [
+          "The surface of the runway displays large painted digits.",
+          "The surface of the runway displays no large painted digits."
+        ]
+      ]
+    },
+    "street_axis": {
+      "A": [
+        "The street between the houses runs horizontally.",
+        "The street between the houses runs vertically."
+      ],
+      "B": [
+        "The street separating rows of houses extends left to right.",
+        "The street separating rows of houses extends top to bottom."
+      ],
+      "C": [
+        "The houses line a street spanning the width of the image.",
+        "The houses line a street spanning the height of the image."
+      ],
+      "D": [
+        "The residential road follows a left-right course.",
+        "The residential road follows a top-bottom course."
+      ],
+      "E": [
+        "The main street between the homes extends sideways in the image.",
+        "The main street between the homes extends vertically in the image."
+      ],
+      "FG": [
+        [
+          "In this view, the residential street extends in the left-to-right direction.",
+          "In this view, the residential street extends in the top-to-bottom direction."
+        ],
+        [
+          "The direction of the residential street follows the width of the photograph.",
+          "The direction of the residential street follows the height of the photograph."
+        ]
+      ]
+    },
+    "surf": {
+      "A": [
+        "A broad band of white surf borders the beach.",
+        "Little white surf borders the beach."
+      ],
+      "B": [
+        "The nearshore water is covered with a wide strip of white foam.",
+        "The nearshore water has very little white foam."
+      ],
+      "C": [
+        "Breaking waves create a wide frothy belt by the sand.",
+        "Only a thin trace of froth appears by the sand."
+      ],
+      "D": [
+        "There is extensive breaking whitewater at the shore.",
+        "There is little breaking whitewater at the shore."
+      ],
+      "E": [
+        "A broad swath of white foam breaks along the beach.",
+        "Very little white foam breaks along the beach."
+      ],
+      "FG": [
+        [
+          "A wide strip of white breaking water runs along the shore.",
+          "Only a little white breaking water is visible along the shore."
+        ],
+        [
+          "A broad white area of surf lies against the beach.",
+          "The beach has very little white surf at its edge."
+        ]
+      ]
+    },
+    "water_side": {
+      "A": [
+        "The sea is to the left of the beach.",
+        "The sea is to the right of the beach."
+      ],
+      "B": [
+        "The sandy shore lies on the right side of the water.",
+        "The sandy shore lies on the left side of the water."
+      ],
+      "C": [
+        "Water occupies the left side beside the shoreline.",
+        "Water occupies the right side beside the shoreline."
+      ],
+      "D": [
+        "Looking across the scene from left to right, water comes before sand.",
+        "Looking across the scene from left to right, sand comes before water."
+      ],
+      "E": [
+        "The sea occupies the left side of the shoreline view.",
+        "The sea occupies the right side of the shoreline view."
+      ],
+      "FG": [
+        [
+          "The water occupies the side of the scene to the left of the beach.",
+          "The water occupies the side of the scene to the right of the beach."
+        ],
+        [
+          "Relative to the sandy beach in the photograph, the sea lies on its left.",
+          "Relative to the sandy beach in the photograph, the sea lies on its right."
+        ]
+      ]
+    }
+  }
+}

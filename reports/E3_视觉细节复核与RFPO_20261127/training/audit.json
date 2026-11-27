@@ -1,0 +1,62 @@
+{
+  "a": {
+    "images": 24,
+    "sampled_candidates": 192,
+    "groups_with_changed_scores": [
+      3,
+      6,
+      8,
+      17,
+      22
+    ],
+    "groups_with_changed_top": [
+      3,
+      6,
+      8,
+      17,
+      22
+    ],
+    "candidates_with_changed_scores": 33,
+    "qualified_lower_candidates": 13,
+    "initial_consecutive_groups_exact_token_logp_and_readout": [
+      1,
+      2,
+      3
+    ],
+    "nonzero_gradient_updates": 23,
+    "final_adapter_identical_to_r2": false
+  },
+  "b": {
+    "images": 24,
+    "sampled_candidates": 192,
+    "groups_with_changed_scores": [
+      3,
+      5,
+      7,
+      12,
+      17,
+      18,
+      21,
+      22
+    ],
+    "groups_with_changed_top": [
+      3,
+      5,
+      7,
+      12,
+      17,
+      18,
+      21,
+      22
+    ],
+    "candidates_with_changed_scores": 53,
+    "qualified_lower_candidates": 29,
+    "initial_consecutive_groups_exact_token_logp_and_readout": [
+      1,
+      2,
+      3
+    ],
+    "nonzero_gradient_updates": 23,
+    "final_adapter_identical_to_r2": false
+  }
+}

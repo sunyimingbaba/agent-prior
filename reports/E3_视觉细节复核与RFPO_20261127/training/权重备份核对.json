@@ -1,0 +1,69 @@
+{
+  "path": "/Users/botlv/cup-deploy-assets/e3-visual-detail-rfpo-20261127/models",
+  "models": {
+    "a_strict": {
+      "files": {
+        "adapter/README.md": {
+          "sha256": "16003f82ca4b3d5d0be79ab070eb2a93022c7ea2fce5a2b32032d40e4db89033",
+          "bytes": 5076
+        },
+        "adapter/adapter_config.json": {
+          "sha256": "8d7e0ddc5e07fe7c5292fcfec66a50700382e5b568e271966c4c2651aef14528",
+          "bytes": 772
+        },
+        "adapter/adapter_model.safetensors": {
+          "sha256": "0bc230bcaff60aee643c6d7299dee955dffd26a134adc65f52b910fef63c08f9",
+          "bytes": 380800528
+        },
+        "complete.json": {
+          "sha256": "18a8631d9324b722a465caa952c398f0366360814170cd5e0c8323bd561ad8dd",
+          "bytes": 431
+        },
+        "resume.pt": {
+          "sha256": "0a3f205784e7c6cd7b11df0d5ebcb29258976e0c388456b643bfa9e1e430a568",
+          "bytes": 1142921169
+        },
+        "steps.json": {
+          "sha256": "d20e84dc218694d1164b207275935ea6a01cb45cc226e6ef7d740e9fbcc796da",
+          "bytes": 211262
+        }
+      },
+      "equal_resume_final_tensors": 584,
+      "optimizer_updates": [
+        23
+      ]
+    },
+    "b_strict": {
+      "files": {
+        "adapter/README.md": {
+          "sha256": "16003f82ca4b3d5d0be79ab070eb2a93022c7ea2fce5a2b32032d40e4db89033",
+          "bytes": 5076
+        },
+        "adapter/adapter_config.json": {
+          "sha256": "8d7e0ddc5e07fe7c5292fcfec66a50700382e5b568e271966c4c2651aef14528",
+          "bytes": 772
+        },
+        "adapter/adapter_model.safetensors": {
+          "sha256": "6ede1ae5c0e598bbf6e5770a6c7d1769858e29ef3cf8f3bcbdd241383ae46c99",
+          "bytes": 380800528
+        },
+        "complete.json": {
+          "sha256": "fbc8e13287c6ab1f5cb66abaeae677c4cf52d8be4d732a51da37518d4836a087",
+          "bytes": 431
+        },
+        "resume.pt": {
+          "sha256": "5e2078e6f11f5d5468d366fa1fec733bd8eb0c8888b74f7d057cd743ad5adc31",
+          "bytes": 1142913489
+        },
+        "steps.json": {
+          "sha256": "4b6f49c1c7844c2878c56067afd2f57022686507f91774e1972c105ac4e9627b",
+          "bytes": 187796
+        }
+      },
+      "equal_resume_final_tensors": 584,
+      "optimizer_updates": [
+        23
+      ]
+    }
+  }
+}
