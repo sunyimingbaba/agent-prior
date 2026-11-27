@@ -1,4 +1,5 @@
 """Choose with available captions and independently score the hidden caption."""
+from fractions import Fraction
 import gzip
 import json
 from pathlib import Path
@@ -33,8 +34,9 @@ def held_trials(group):
     fresh = None if fg[0] is None else (np.asarray(fg) > 0).mean(axis=1)
     trials = []
     for hidden in range(rr.shape[1]):
-        visible = np.delete(rr, hidden, axis=1).mean(axis=1)
-        possible = np.flatnonzero(better & (visible >= visible[top].mean() - 1e-12))
+        visible = [sum(Fraction.from_float(float(v)) for j,v in enumerate(values) if j != hidden) for values in rr]
+        target = sum(visible[i] for i in top)
+        possible = np.asarray([i for i in range(8) if better[i] and visible[i]*len(top) >= target], dtype=int)
         chosen = top
         if len(possible):
             weaker = ab.min(axis=1)
@@ -96,7 +98,7 @@ def main():
         trials = held_trials(b)
         if trials:
             images.append(dict(image=row["image"],pair=row["pair"],cohort=row["cohort"],
-                               selected=bool(a["achieved"]),trials=trials))
+                               selected=bool(a["opportunity_slots"]),trials=trials))
     assert images, "no scored eligible images"
     with gzip.open(OUT/"逐图留句.jsonl.gz","wt",encoding="utf-8") as f:
         for item in images:

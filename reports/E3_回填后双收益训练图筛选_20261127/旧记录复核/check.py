@@ -49,7 +49,7 @@ def compare():
             continue
         b = read(path)
         if b.get("items") and b["items"][0].get("other_caption_rr"):
-            data.append((row["cohort"],row["pair"],row["selected"],int(b["achieved"])))
+            data.append((row["cohort"],row["pair"],row["selected"],int(bool(b["opportunity_slots"]))))
     assert data
     pairs = sorted(set((c,p) for c,p,_,_ in data))
     counts = np.zeros((len(pairs),2,2),dtype=int)
