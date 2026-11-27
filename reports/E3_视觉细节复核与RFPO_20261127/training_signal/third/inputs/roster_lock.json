@@ -1,0 +1,33 @@
+{
+  "images": 24,
+  "pairs": 12,
+  "roster": "edf7c819c2aa5459cc647a2433b08a143c5fb6d022643e3e2ee3f9c7c2a5acb6",
+  "groups": "3086a1ac58117b5503f31c1380bcbfd55e4cd0f6169211e91345ef892e089554",
+  "protocol": "e78dfe6b150759e07c1a83259d5ff9b82f6babf5cea9fb2827d2ce8321d9d87c",
+  "old": {
+    "E3_回填后双收益训练图筛选_20261127/sampling/inputs/roster.json": "4b2de56c10061a51f46457cf4a02470a916e77cfabc553b05833b7b818e9dbff",
+    "E3_视觉细节复核与RFPO_20261127/training_signal/复算.json": "f9ee866bcd4fef3d6959ba073a1e1126bab37c12c618fb2d52f739fd57e28127",
+    "E3_回填后双收益训练图筛选_20261127/sampling/feedback_verified.json": "ac458fb7b2d3f33e26674d7639a5741e559e4f332e877e767aca6aaaa2c167c8",
+    "E3_回填后双收益训练图筛选_20261127/sampling/a_complete.json": "de1d5abb598c9232373b9c18556bffc92465ce5d4231b5865fb40faeac4f77bb",
+    "E3_回填后双收益训练图筛选_20261127/sampling/b_complete.json": "7d0d560649aa762e096af505fea2b9ff7d20c0e8f96343461cf78d84e48637ca",
+    "E3_回填后双收益训练图筛选_20261127/scoring/inputs/manifest.json": "0ba06fa0dff1501d8e4e827ec0323a2893f64ca9793f8c9789db80e9ab527f11",
+    "E3_回填后双收益训练图筛选_20261127/scoring/code/pool_reader.py": "d4e9798ecc9a20ea94def69267aa23e8a535c806ffe8c9e0eacb31098039b551",
+    "E3_困难奖励跨图跨措辞校准_20261127/code/reward.py": "15fec79a7235585cbd0060ab2f1333694a8bb56f75ebf8873dd86bed4dfd9b2c",
+    "E3_视觉细节复核与RFPO_20261127/training_signal/replay.py": "beb5bd8b08f3885993a34d398ad8b8fe5726f01d04333711898f59d58d54e211",
+    "E3_视觉细节复核与RFPO_20261127/training/run.py": "a15cf1fd14ce4be1bae1cb1e819abf54f8a3e08b197ac755cca1f61f0d6ac864"
+  },
+  "reader": "d4e9798ecc9a20ea94def69267aa23e8a535c806ffe8c9e0eacb31098039b551",
+  "redistribute": "15fec79a7235585cbd0060ab2f1333694a8bb56f75ebf8873dd86bed4dfd9b2c",
+  "reader_inputs": "0ba06fa0dff1501d8e4e827ec0323a2893f64ca9793f8c9789db80e9ab527f11",
+  "replay": "beb5bd8b08f3885993a34d398ad8b8fe5726f01d04333711898f59d58d54e211",
+  "model": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+  "seed_base": 481127000,
+  "bootstrap_seed": 271128,
+  "scripts": {
+    "generate.py": "6d4a1af7223735801912aac7cdb3d87eda23e21a777da6536b42ea4a0185b1a8",
+    "prepare.py": "26297c8090799f99867d05502c89191f9d16439c345a897de5cf464f527c2363",
+    "queue.sh": "dc6eb7b69bb5754b7212b0dd3ca4afe987273098706ef9fd8f58af9fddff82f7",
+    "report.py": "90e4733c821eb6d761f8ac8f405f5b15d44d6357b5bdbce6f4d1f54798b3a9d5",
+    "score.py": "98eef1394efd5279e815784dd213beec88c1c6aa768c6fd94b28a5df581d4b24"
+  }
+}
