@@ -32,6 +32,102 @@
       "optimizer_updates": [
         23
       ]
+    },
+    "a_r3": {
+      "files": {
+        "adapter/README.md": {
+          "sha256": "16003f82ca4b3d5d0be79ab070eb2a93022c7ea2fce5a2b32032d40e4db89033",
+          "bytes": 5076
+        },
+        "adapter/adapter_config.json": {
+          "sha256": "8d7e0ddc5e07fe7c5292fcfec66a50700382e5b568e271966c4c2651aef14528",
+          "bytes": 772
+        },
+        "adapter/adapter_model.safetensors": {
+          "sha256": "c4208029233890bb5762c7ea8bfe1826a5ffb316695bd728a6325e08be33de3f",
+          "bytes": 380800528
+        },
+        "complete.json": {
+          "sha256": "56f05fc22fcd4612818e52f079b5b499496f34f76ac5cf0ec7438be1d6d596fe",
+          "bytes": 431
+        },
+        "resume.pt": {
+          "sha256": "6336a8cc8ce525d0347d73e4063347742f12daa1012b0664677ce951e744cc4a",
+          "bytes": 1142924561
+        },
+        "steps.json": {
+          "sha256": "ba7ae3fdb0cc1f28d4d00c9d9977c6595969fd3a4878e341c8c5f7caf370f64d",
+          "bytes": 223139
+        }
+      },
+      "equal_resume_final_tensors": 584,
+      "optimizer_updates": [
+        24
+      ]
+    },
+    "b_r2": {
+      "files": {
+        "adapter/README.md": {
+          "sha256": "16003f82ca4b3d5d0be79ab070eb2a93022c7ea2fce5a2b32032d40e4db89033",
+          "bytes": 5076
+        },
+        "adapter/adapter_config.json": {
+          "sha256": "8d7e0ddc5e07fe7c5292fcfec66a50700382e5b568e271966c4c2651aef14528",
+          "bytes": 772
+        },
+        "adapter/adapter_model.safetensors": {
+          "sha256": "b4000d01e739209032fc42c6020df154ab413c020f337e3c91f4c4e888d5c655",
+          "bytes": 380800528
+        },
+        "complete.json": {
+          "sha256": "8af04978da5e3e8646b2f225edc970f08a61b1d56de997b98c177ecdfe7d010b",
+          "bytes": 431
+        },
+        "resume.pt": {
+          "sha256": "047b4043ed92b194f2d9309b338f3c65afe374ea947a2a4b15ff777825b55d7d",
+          "bytes": 1142914705
+        },
+        "steps.json": {
+          "sha256": "c978ccd54edd234091b3d14fec649aad965c7d8e4b81f9b1ecf9795280dd7e83",
+          "bytes": 191661
+        }
+      },
+      "equal_resume_final_tensors": 584,
+      "optimizer_updates": [
+        22
+      ]
+    },
+    "b_r3": {
+      "files": {
+        "adapter/README.md": {
+          "sha256": "16003f82ca4b3d5d0be79ab070eb2a93022c7ea2fce5a2b32032d40e4db89033",
+          "bytes": 5076
+        },
+        "adapter/adapter_config.json": {
+          "sha256": "8d7e0ddc5e07fe7c5292fcfec66a50700382e5b568e271966c4c2651aef14528",
+          "bytes": 772
+        },
+        "adapter/adapter_model.safetensors": {
+          "sha256": "10c7abbd0d18437433203d831cb74dd9030ddd65cda522ef425ed9a4bedd9a7d",
+          "bytes": 380800528
+        },
+        "complete.json": {
+          "sha256": "7f6eefb92faebcadcffde02be7919fc6fcb08aabcd5cee0ed4c5ba4a3ad73cfa",
+          "bytes": 431
+        },
+        "resume.pt": {
+          "sha256": "4c57f7cb07d8337b540188804ef3282c358217ce491e19175419d2aa1ae65f21",
+          "bytes": 1142912529
+        },
+        "steps.json": {
+          "sha256": "14e190d8539765be6d8123257d98f00d380b2421b03903c3e5a4c217b8f9e26b",
+          "bytes": 185036
+        }
+      },
+      "equal_resume_final_tensors": 584,
+      "optimizer_updates": [
+        22
+      ]
     }
   }
 }
