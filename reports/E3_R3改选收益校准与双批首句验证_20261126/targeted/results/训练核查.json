@@ -1,0 +1,225 @@
+{
+  "a": {
+    "arms": {
+      "ordinary": {
+        "nonzero": 13,
+        "final": "f11bb62431416e4150ee64b2ef1f37508a9d17b4566a496d53bffa6bb31d182b",
+        "max_replay_error": 0.5817241668701172,
+        "mean_replay_error": 0.02748497335063702,
+        "different_winners": {
+          "ordinary-old": [
+            6,
+            7,
+            10
+          ],
+          "ordinary-old3": [
+            1,
+            4,
+            6,
+            9,
+            10,
+            13
+          ],
+          "old-old3": [
+            1,
+            4,
+            7,
+            9,
+            13
+          ]
+        }
+      },
+      "old": {
+        "nonzero": 13,
+        "final": "9c2c5abd15e3fba65a9ff56a34abd574d0318f8b7515f263c4ece27088e7814e",
+        "max_replay_error": 0.5090306997299194,
+        "mean_replay_error": 0.030017455632467348,
+        "different_winners": {
+          "ordinary-old": [
+            6,
+            7,
+            10,
+            12,
+            13
+          ],
+          "ordinary-old3": [
+            1,
+            4,
+            6,
+            7,
+            9,
+            10,
+            13
+          ],
+          "old-old3": [
+            1,
+            4,
+            9,
+            12,
+            13
+          ]
+        }
+      },
+      "old3": {
+        "nonzero": 13,
+        "final": "2a93d15d930afb2c4099a7b2180c1f8949c804443dd6fc60c80815552e8f2f2f",
+        "max_replay_error": 0.5190420150756836,
+        "mean_replay_error": 0.025619307819236086,
+        "different_winners": {
+          "ordinary-old": [
+            6,
+            7,
+            10,
+            12
+          ],
+          "ordinary-old3": [
+            1,
+            4,
+            6,
+            9,
+            10,
+            13
+          ],
+          "old-old3": [
+            1,
+            4,
+            7,
+            9,
+            12,
+            13
+          ]
+        }
+      }
+    },
+    "deterministic_prefix": {
+      "ordinary-old": {
+        "first_different_advantage": 6,
+        "identical_updates_before": 5
+      },
+      "ordinary-old3": {
+        "first_different_advantage": 1,
+        "identical_updates_before": 0
+      },
+      "old-old3": {
+        "first_different_advantage": 1,
+        "identical_updates_before": 0
+      }
+    }
+  },
+  "b": {
+    "arms": {
+      "ordinary": {
+        "nonzero": 13,
+        "final": "9fa68bdae5ffbd17302f583b766bdb50187a92f43e2ce474b68076d2a258b82f",
+        "max_replay_error": 0.38346123695373535,
+        "mean_replay_error": 0.023675691917548033,
+        "different_winners": {
+          "ordinary-old": [
+            1,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            13
+          ],
+          "ordinary-old3": [
+            1,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            13
+          ],
+          "old-old3": [
+            5,
+            7
+          ]
+        }
+      },
+      "old": {
+        "nonzero": 13,
+        "final": "69a190b4575057ac956f7fcea1a271a0a00ad9baf9004a47d7632b8d5b92f64f",
+        "max_replay_error": 0.3491429090499878,
+        "mean_replay_error": 0.023431054119570804,
+        "different_winners": {
+          "ordinary-old": [
+            1,
+            2,
+            4,
+            6,
+            7,
+            10
+          ],
+          "ordinary-old3": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            9,
+            10,
+            13
+          ],
+          "old-old3": [
+            5,
+            7,
+            9,
+            13
+          ]
+        }
+      },
+      "old3": {
+        "nonzero": 13,
+        "final": "a3b15148ae7bbaec337629269547b0bf61fb021aa35c722c75c5014a367dbc00",
+        "max_replay_error": 0.340559720993042,
+        "mean_replay_error": 0.023049594427979117,
+        "different_winners": {
+          "ordinary-old": [
+            1,
+            2,
+            4,
+            6,
+            7,
+            8,
+            10
+          ],
+          "ordinary-old3": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            13
+          ],
+          "old-old3": [
+            5,
+            7,
+            9,
+            13
+          ]
+        }
+      }
+    },
+    "deterministic_prefix": {
+      "ordinary-old": {
+        "first_different_advantage": 1,
+        "identical_updates_before": 0
+      },
+      "ordinary-old3": {
+        "first_different_advantage": 1,
+        "identical_updates_before": 0
+      },
+      "old-old3": {
+        "first_different_advantage": 5,
+        "identical_updates_before": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/private/AGSE_E3_1_rebuild_20261112/r3_switch_gain_20261126/targeted/code/train.py", line 73, in <module>
+    if __name__=='__main__':main(*sys.argv[1:])
+                            ~~~~^^^^^^^^^^^^^^^
+  File "/private/AGSE_E3_1_rebuild_20261112/r3_switch_gain_20261126/targeted/code/train.py", line 18, in main
+    for rel,signature in cfg['lock'].items():assert sha(ROOT/rel)==signature
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,240 @@
+{
+  "a": {
+    "arms": {
+      "ordinary": {
+        "image_order": [
+          "1777.tif",
+          "2053.tif",
+          "1869.tif",
+          "1744.tif",
+          "315.tif",
+          "1745.tif",
+          "1729.tif",
+          "1274.tif",
+          "1865.tif",
+          "1728.tif",
+          "262.tif",
+          "1138.tif",
+          "1738.tif"
+        ],
+        "nonzero": 13,
+        "changes": {
+          "old3-old": [
+            1,
+            4,
+            7,
+            9,
+            13
+          ],
+          "old3-ordinary": [
+            1,
+            4,
+            6,
+            9,
+            10,
+            13
+          ]
+        },
+        "max_replay_error": 0.5817241668701172
+      },
+      "old": {
+        "image_order": [
+          "1777.tif",
+          "2053.tif",
+          "1869.tif",
+          "1744.tif",
+          "315.tif",
+          "1745.tif",
+          "1729.tif",
+          "1274.tif",
+          "1865.tif",
+          "1728.tif",
+          "262.tif",
+          "1138.tif",
+          "1738.tif"
+        ],
+        "nonzero": 13,
+        "changes": {
+          "old3-old": [
+            1,
+            4,
+            9,
+            12,
+            13
+          ],
+          "old3-ordinary": [
+            1,
+            4,
+            6,
+            7,
+            9,
+            10,
+            13
+          ]
+        },
+        "max_replay_error": 0.5090306997299194
+      },
+      "old3": {
+        "image_order": [
+          "1777.tif",
+          "2053.tif",
+          "1869.tif",
+          "1744.tif",
+          "315.tif",
+          "1745.tif",
+          "1729.tif",
+          "1274.tif",
+          "1865.tif",
+          "1728.tif",
+          "262.tif",
+          "1138.tif",
+          "1738.tif"
+        ],
+        "nonzero": 13,
+        "changes": {
+          "old3-old": [
+            1,
+            4,
+            7,
+            9,
+            12,
+            13
+          ],
+          "old3-ordinary": [
+            1,
+            4,
+            6,
+            9,
+            10,
+            13
+          ]
+        },
+        "max_replay_error": 0.5190420150756836
+      }
+    },
+    "first_different_feedback": {
+      "old-ordinary": 6,
+      "old3-ordinary": 1,
+      "old3-old": 1
+    }
+  },
+  "b": {
+    "arms": {
+      "ordinary": {
+        "image_order": [
+          "1777.tif",
+          "2053.tif",
+          "1869.tif",
+          "1744.tif",
+          "315.tif",
+          "1745.tif",
+          "1729.tif",
+          "1274.tif",
+          "1865.tif",
+          "1728.tif",
+          "262.tif",
+          "1138.tif",
+          "1738.tif"
+        ],
+        "nonzero": 13,
+        "changes": {
+          "old3-old": [
+            5,
+            7
+          ],
+          "old3-ordinary": [
+            1,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            13
+          ]
+        },
+        "max_replay_error": 0.38346123695373535
+      },
+      "old": {
+        "image_order": [
+          "1777.tif",
+          "2053.tif",
+          "1869.tif",
+          "1744.tif",
+          "315.tif",
+          "1745.tif",
+          "1729.tif",
+          "1274.tif",
+          "1865.tif",
+          "1728.tif",
+          "262.tif",
+          "1138.tif",
+          "1738.tif"
+        ],
+        "nonzero": 13,
+        "changes": {
+          "old3-old": [
+            5,
+            7,
+            9,
+            13
+          ],
+          "old3-ordinary": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            9,
+            10,
+            13
+          ]
+        },
+        "max_replay_error": 0.3491429090499878
+      },
+      "old3": {
+        "image_order": [
+          "1777.tif",
+          "2053.tif",
+          "1869.tif",
+          "1744.tif",
+          "315.tif",
+          "1745.tif",
+          "1729.tif",
+          "1274.tif",
+          "1865.tif",
+          "1728.tif",
+          "262.tif",
+          "1138.tif",
+          "1738.tif"
+        ],
+        "nonzero": 13,
+        "changes": {
+          "old3-old": [
+            5,
+            7,
+            9,
+            13
+          ],
+          "old3-ordinary": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            13
+          ]
+        },
+        "max_replay_error": 0.340559720993042
+      }
+    },
+    "first_different_feedback": {
+      "old-ordinary": 1,
+      "old3-ordinary": 1,
+      "old3-old": 5
+    }
+  }
+}

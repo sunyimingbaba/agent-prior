@@ -10,7 +10,7 @@ import torch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT.parent / "code"))
-from pilot_results import RFPO, FORM, read, rr, sha, calculate, summary_by_seed, fixed, paired
+from pilot_results import RFPO, FORM, read, rr, sha, calculate, summary_by_seed, fixed, paired, get as historical_vectors
 from transfer_scores import counts, summary, scalar_values
 
 ARMS = ("ordinary", "old", "old3", "retained")
@@ -40,8 +40,12 @@ def get_and_archive(seed, arm, gallery, common_inputs):
     folder = ROOT/"evaluate"/(seed+"_"+arm)
     proof = read(folder/"complete.json")
     assert sha(ROOT/"单次推理验收.md") == proof["protocol"] and sha(ROOT/"code/eval_single.py") == proof["decoder"]
-    final = (read(ROOT.parent/"archives/index.json")[seed]["adapter"] if arm == "retained"
-             else read(ROOT/"models"/(seed+"_"+arm)/"complete.json")["final"])
+    if arm == "retained":
+        final = read(ROOT.parent/"archives/index.json")[seed]["adapter"]
+    else:
+        training = read(ROOT/"models"/(seed+"_"+arm)/"complete.json")
+        assert training["steps"] == 13 and training["lock"] == sha(ROOT/"inputs/pilot/decision.json")
+        final = training["final"]
     bundle = torch.load(folder/"features.pt", weights_only=True, map_location="cpu")
     assert bundle["adapter"] == proof["adapter"] == final
     assert len(proof["images"]) == len(bundle["features"]) == len(gallery) == 210
@@ -106,19 +110,32 @@ def main():
     labels = read(RFPO/"inputs/panel.json")
     gallery = read(FORM/"inputs/ucm.json")
     gallery_ids = {r["rgb_sha256"]:i for i,r in enumerate(gallery)}
+    training = read(ROOT/"inputs/pilot/train.json")
+    train_pixels = {r["rgb_sha256"] for rows in training.values() for r in rows}
+    assert len(train_pixels) == 13 and train_pixels.isdisjoint(gallery_ids)
     overlap = [r for r in labels if r["rgb_sha256"] in gallery_ids]
     assert len(overlap) == 106
     native = torch.load(FORM/"results/ucm_text.pt", weights_only=True)
     hard = torch.load(RFPO/"records/text.pt", weights_only=True)
     cols = native["caption_order"].numpy().reshape(210,5)
     official, first, alternatives = (defaultdict(dict) for _ in range(3))
-    archives, raw, inputs = {}, [], {}
+    archives, raw, inputs, retained_replay = {}, [], {}, {}
     den = None
     for seed in "ab":
         for arm in ARMS:
             v, archives[seed+"_"+arm] = get_and_archive(seed, arm, gallery, inputs)
             official[arm][seed] = calculate("official",v,gallery)
             first[arm][seed] = details(v,overlap,gallery_ids,cols,native,hard)
+            if arm == "retained":
+                previous = historical_vectors("official", arm, seed, gallery)
+                before = calculate("official", previous, gallery)
+                before_detail = details(previous,overlap,gallery_ids,cols,native,hard)
+                retained_replay[seed] = {
+                    "images":len(v), "identical_vectors":int((v == previous).all(dim=1).sum()),
+                    "max_absolute_vector_delta":float((v-previous).abs().max()),
+                    "mR_delta":float(np.mean(official[arm][seed]["mR"]-before["mR"])),
+                    "DE_delta":float(np.mean(first[arm][seed]["DE"]-before_detail["DE"])),
+                    "other_caption_MRR_delta":float(np.mean(first[arm][seed]["mrr"]-before_detail["mrr"]))}
             ids, hits, ds = counts(v,native,"alternatives")
             if den is None:
                 owners, den = ids, ds
@@ -139,8 +156,10 @@ def main():
         out[tag] = {"images":len(units),"independent_units":len(set(units)),
                     "levels":{a:summary_by_seed(values[a],units) for a in ARMS},
                     "contrasts":{a+"-"+b:paired(values[a],values[b],units) for a,b in comparisons}}
+    assert len(den) == 210 and den.sum() == 833
     out["alternatives"] = {"images":len(den), "captions":int(den.sum()), "levels":{a:alt_summary(alternatives[a],den) for a in ARMS},
             "contrasts":{a+"-"+b:alt_summary({s:alternatives[a][s]-alternatives[b][s] for s in "ab"},den) for a,b in comparisons}}
+    out["matched_retained_vs_previous"] = retained_replay
     out["criteria"] = criteria(out)
     dump(ROOT/"archives/evaluate.json",archives)
     dump(ROOT/"results/逐图检索与细节.json",raw)
