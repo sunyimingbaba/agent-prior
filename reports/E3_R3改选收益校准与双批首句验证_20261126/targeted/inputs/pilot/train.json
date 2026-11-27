@@ -1,0 +1,1228 @@
+{
+  "a": [
+    {
+      "image": "1777.tif",
+      "pair": "1777-1765",
+      "rgb_sha256": "06570988c3a9fff7454a541eb5c6e37dbdaf5e3907e817d751a7b2e62ee71ca2",
+      "side": 0,
+      "row": 1436,
+      "split": "train",
+      "scene_id": 17,
+      "scene": "runway",
+      "attribute": "runway_bars",
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines on it .",
+      "captions": [
+        "It is a straight runway with some mark lines on it .",
+        "A straight runway with some mark lines on it .",
+        "There are some mark lines on the straight runway .",
+        "It is a straight runway with some white mark lines on it .",
+        "A straight runway with some white mark lines on it ."
+      ],
+      "A": [
+        "Broad white rectangular bars are painted on the runway.",
+        "The runway has no broad white rectangular bars."
+      ],
+      "B": [
+        "Wide white blocks are visible on the runway surface.",
+        "The runway surface lacks wide white blocks."
+      ],
+      "C": [
+        "The airstrip bears prominent broad white rectangles.",
+        "No broad white rectangles appear on the airstrip."
+      ],
+      "D": [
+        "The runway includes conspicuous wide white bars.",
+        "There are no conspicuous wide white bars on the runway."
+      ],
+      "E": [
+        "The runway has broad rectangular white markings.",
+        "The runway lacks broad rectangular white markings."
+      ],
+      "tag": "fresh",
+      "rng_a": 138436000,
+      "rng_b": 148436000,
+      "feedback": "runway (0.41), airplane (0.10), chaparral (0.05)",
+      "screening_seed": "a",
+      "status": "selected",
+      "match": "1777.tif"
+    },
+    {
+      "image": "2053.tif",
+      "row": 1652,
+      "split": "train",
+      "rgb_sha256": "24bd0c77a2297aaebacaf5b7b70a8bb783c1ee9a8482a1d27f1bee2386ca6197",
+      "pair": "2053-2006",
+      "attribute": "court_surround",
+      "side": 0,
+      "scene_id": 20,
+      "scene": "tennis courts",
+      "scene_query": "Scene: tennis courts.",
+      "orig_query": "Four tennis courts arranged neatly with a road beside .",
+      "captions": [
+        "Four tennis courts arranged neatly with a road beside .",
+        "Four tennis courts are surrounded by some buildings .",
+        "There are four tennis courts arranged neatly with a road beside .",
+        "There are four tennis courts surrounded by some buildings .",
+        "There are four tennis courts arranged neatly with a road beside ."
+      ],
+      "A": [
+        "The area surrounding the marked tennis playing surface is red.",
+        "The area surrounding the marked tennis playing surface is green."
+      ],
+      "B": [
+        "A red border surrounds the tennis playing area.",
+        "A green border surrounds the tennis playing area."
+      ],
+      "C": [
+        "Outside the marked lines the court surface is red.",
+        "Outside the marked lines the court surface is green."
+      ],
+      "D": [
+        "The outer apron of the tennis court is red.",
+        "The outer apron of the tennis court is green."
+      ],
+      "E": [
+        "A red surface borders the lined part of the tennis court.",
+        "A green surface borders the lined part of the tennis court."
+      ],
+      "feedback": "tennis court (0.54), baseball diamond (0.05), mobile home park (0.04)",
+      "tag": "extra",
+      "rng_a": 138652000,
+      "rng_b": 148652000,
+      "screening_seed": "b",
+      "status": "selected",
+      "match": "2053.tif"
+    },
+    {
+      "image": "1869.tif",
+      "row": 1508,
+      "split": "train",
+      "rgb_sha256": "292dbe6a6438bba5fcf14891b0e7b7be75be4495eba4e2d8a29669415531b2b6",
+      "pair": "1869-1821",
+      "attribute": "house_pool",
+      "side": 0,
+      "scene_id": 18,
+      "scene": "residential area",
+      "scene_query": "Scene: a residential area.",
+      "orig_query": "A villa with grey roofs is surrounded by lush plants in the sparse residential area .",
+      "captions": [
+        "A villa with grey roofs is surrounded by lush plants in the sparse residential area .",
+        "This is a sparse residential area with a villa surrounded by lush plants .",
+        "A villa with grey roofs has a swimming pool in the middle is in the sparse residential area .",
+        "A villa with plants surrounded is in the sparse residential area .",
+        "A villa with lush plants surrounded has a swimming pool in the middle ."
+      ],
+      "A": [
+        "The house has a visible swimming pool beside it.",
+        "The house has no visible swimming pool beside it."
+      ],
+      "B": [
+        "A swimming pool can be seen next to the house.",
+        "No swimming pool can be seen next to the house."
+      ],
+      "C": [
+        "A pool is visible in the grounds of the house.",
+        "The grounds of the house show no pool."
+      ],
+      "D": [
+        "A swimming pool is visible on the residential property.",
+        "No swimming pool is visible on the residential property."
+      ],
+      "E": [
+        "There is a swimming pool on the grounds around this home.",
+        "The grounds around this home have no visible swimming pool."
+      ],
+      "feedback": "sparse residential (0.36), dense residential (0.08), tennis court (0.08)",
+      "tag": "extra",
+      "rng_a": 138508000,
+      "rng_b": 148508000,
+      "screening_seed": "a",
+      "status": "selected",
+      "match": "1869.tif"
+    },
+    {
+      "image": "1744.tif",
+      "pair": "1744-1753",
+      "rgb_sha256": "54bf9daba34e90a9ae246e87032862cadc0e199c13c534727cc30f8ada2e1e83",
+      "side": 0,
+      "row": 1403,
+      "split": "train",
+      "scene_id": 17,
+      "scene": "runway",
+      "attribute": "runway_bars",
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines on it .",
+      "captions": [
+        "It is a straight runway with some mark lines on it .",
+        "A straight runway with some mark lines on it .",
+        "There are some mark lines on the straight runway .",
+        "It is a straight runway with some white mark lines on it .",
+        "A straight runway with some white mark lines on it ."
+      ],
+      "A": [
+        "Broad white rectangular bars are painted on the runway.",
+        "The runway has no broad white rectangular bars."
+      ],
+      "B": [
+        "Wide white blocks are visible on the runway surface.",
+        "The runway surface lacks wide white blocks."
+      ],
+      "C": [
+        "The airstrip bears prominent broad white rectangles.",
+        "No broad white rectangles appear on the airstrip."
+      ],
+      "D": [
+        "The runway includes conspicuous wide white bars.",
+        "There are no conspicuous wide white bars on the runway."
+      ],
+      "E": [
+        "The runway has broad rectangular white markings.",
+        "The runway lacks broad rectangular white markings."
+      ],
+      "tag": "fresh",
+      "rng_a": 138403000,
+      "rng_b": 148403000,
+      "feedback": "runway (0.53), airplane (0.09), storage tanks (0.04)",
+      "screening_seed": "b",
+      "status": "selected",
+      "match": "1744.tif"
+    },
+    {
+      "image": "315.tif",
+      "row": 255,
+      "split": "train",
+      "rgb_sha256": "60e026023982cbf6877c3095cbb19abd8d824f439e063cb8605216e59b4a9ffa",
+      "pair": "346-315",
+      "attribute": "surf",
+      "side": 1,
+      "scene_id": 3,
+      "scene": "beach",
+      "scene_query": "Scene: a beach.",
+      "orig_query": "This is a beach with greenish-blue sea and white sands .",
+      "captions": [
+        "This is a beach with greenish-blue sea and white sands .",
+        "The sand beach is peaceful and quiet .",
+        "It is a peaceful white sand beach .",
+        "It is a peaceful beach with crystal clear waters .",
+        "A peaceful white beach with greenish-blue waters ."
+      ],
+      "A": [
+        "Little white surf borders the beach.",
+        "A broad band of white surf borders the beach."
+      ],
+      "B": [
+        "The nearshore water has very little white foam.",
+        "The nearshore water is covered with a wide strip of white foam."
+      ],
+      "C": [
+        "Only a thin trace of froth appears by the sand.",
+        "Breaking waves create a wide frothy belt by the sand."
+      ],
+      "D": [
+        "There is little breaking whitewater at the shore.",
+        "There is extensive breaking whitewater at the shore."
+      ],
+      "E": [
+        "Very little white foam breaks along the beach.",
+        "A broad swath of white foam breaks along the beach."
+      ],
+      "feedback": "beach (0.51), agricultural (0.07), harbor (0.05)",
+      "tag": "extra",
+      "rng_a": 137255000,
+      "rng_b": 147255000,
+      "screening_seed": "a",
+      "status": "selected",
+      "match": "315.tif"
+    },
+    {
+      "image": "1745.tif",
+      "row": 1404,
+      "split": "train",
+      "rgb_sha256": "6205c63dec1ca503b43c6ed331246e665e6164e6e5599020cbe574b5e72e439d",
+      "pair": "1745-1738",
+      "attribute": "runway_number",
+      "side": 0,
+      "scene": "runway",
+      "scene_id": 17,
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines and a number and a letter R on it .",
+      "captions": [
+        "It is a straight runway with some mark lines and a number and a letter R on it .",
+        "A straight runway with some mark lines and a number and a letter R on it .",
+        "There are some mark lines and a number and a letter R on the straight runway .",
+        "It is a straight runway with some white mark lines and a number and a letter R on it .",
+        "A straight runway with some white mark lines and a number and a letter R on it ."
+      ],
+      "A": [
+        "Large painted numerals are visible on the runway.",
+        "No large painted numerals are visible on the runway."
+      ],
+      "B": [
+        "The markings on the runway include a large number.",
+        "The markings on the runway do not include a large number."
+      ],
+      "C": [
+        "A large numeric designation appears on the airstrip surface.",
+        "The airstrip surface has no visible large numeric designation."
+      ],
+      "D": [
+        "The runway carries a prominent number marking.",
+        "The runway has no prominent number marking."
+      ],
+      "E": [
+        "Large digits have been painted on the runway.",
+        "There are no large painted digits on the runway."
+      ],
+      "feedback": "runway (0.39), airplane (0.12), storage tanks (0.07)",
+      "tag": "extra",
+      "rng_a": 138404000,
+      "rng_b": 148404000,
+      "screening_seed": "b",
+      "status": "selected",
+      "match": "1745.tif"
+    },
+    {
+      "image": "1729.tif",
+      "row": 1388,
+      "split": "train",
+      "rgb_sha256": "70a7d381208261be9cdb0a09e0a8c48fa77c757c7bd3fa99da97fb6ccdccff81",
+      "pair": "1729-1706",
+      "attribute": "runway_bars",
+      "side": 0,
+      "scene_id": 17,
+      "scene": "runway",
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines on it .",
+      "captions": [
+        "It is a straight runway with some mark lines on it .",
+        "A straight runway with some mark lines on it .",
+        "There are some mark lines on the straight runway .",
+        "It is a straight runway with some white mark lines on it .",
+        "A straight runway with some white mark lines on it ."
+      ],
+      "A": [
+        "Broad white rectangular bars are painted on the runway.",
+        "The runway has no broad white rectangular bars."
+      ],
+      "B": [
+        "Wide white blocks are visible on the runway surface.",
+        "The runway surface lacks wide white blocks."
+      ],
+      "C": [
+        "The airstrip bears prominent broad white rectangles.",
+        "No broad white rectangles appear on the airstrip."
+      ],
+      "D": [
+        "The runway includes conspicuous wide white bars.",
+        "There are no conspicuous wide white bars on the runway."
+      ],
+      "E": [
+        "The runway has broad rectangular white markings.",
+        "The runway lacks broad rectangular white markings."
+      ],
+      "feedback": "runway (0.54), airplane (0.08), storage tanks (0.04)",
+      "tag": "saved",
+      "rng_a": 138388000,
+      "rng_b": 148388000,
+      "screening_seed": "b",
+      "status": "selected",
+      "match": "1729.tif"
+    },
+    {
+      "image": "1274.tif",
+      "row": 1033,
+      "rgb_sha256": "833a3131a151f499f1f4f91c19bd052387757111b650d96815114d92857335ee",
+      "split": "train",
+      "pair": "1202-1274",
+      "side": 1,
+      "scene_id": 12,
+      "scene": "residential area",
+      "attribute": "community_pool",
+      "scene_query": "Scene: a residential area.",
+      "orig_query": "It is a medium residential area with houses surrounded by lawn and plants .",
+      "captions": [
+        "It is a medium residential area with houses surrounded by lawn and plants .",
+        "A medium residential area with houses and trees and lawn .",
+        "A medium residential area with a road goes through this area .",
+        "Many houses with plants surrounded in the medium residential area .",
+        "This is a medium residential area with plants flurish ."
+      ],
+      "A": [
+        "No swimming pool is visible in the residential area.",
+        "A swimming pool is visible in the residential area."
+      ],
+      "B": [
+        "There is no visible pool among the homes.",
+        "There is a pool among the homes."
+      ],
+      "C": [
+        "The neighborhood shows no swimming pool.",
+        "The neighborhood contains a visible swimming pool."
+      ],
+      "D": [
+        "There is no swimming pool in sight between the residential buildings.",
+        "A swimming pool appears between the residential buildings."
+      ],
+      "E": [
+        "No swimming pool can be seen on this residential block.",
+        "One can see a swimming pool on this residential block."
+      ],
+      "tag": "extension",
+      "rng_a": 138033000,
+      "rng_b": 148033000,
+      "feedback": "medium residential (0.29), dense residential (0.12), mobile home park (0.11)",
+      "screening_seed": "a",
+      "status": "selected",
+      "match": "1274.tif"
+    },
+    {
+      "image": "1865.tif",
+      "row": 1504,
+      "split": "train",
+      "rgb_sha256": "9eeeaffecbd855aaab487c207f31fa1f23b99eeaba0573ecbfa0440592139d90",
+      "pair": "1865-1834",
+      "attribute": "house_pool",
+      "side": 0,
+      "scene": "residential area",
+      "scene_id": 18,
+      "scene_query": "Scene: a residential area.",
+      "orig_query": "A villa with grey roofs is surrounded by lush plants in the sparse residential area .",
+      "captions": [
+        "A villa with grey roofs is surrounded by lush plants in the sparse residential area .",
+        "This is a sparse residential area with a villa surrounded by lush plants .",
+        "A villa with grey roofs has a swimming pool in the middle is in the sparse residential area .",
+        "A villa with plants surrounded is in the sparse residential area .",
+        "A villa with lush plants surrounded has a swimming pool in the middle ."
+      ],
+      "A": [
+        "The house has a visible swimming pool beside it.",
+        "The house has no visible swimming pool beside it."
+      ],
+      "B": [
+        "A swimming pool can be seen next to the house.",
+        "No swimming pool can be seen next to the house."
+      ],
+      "C": [
+        "A pool is visible in the grounds of the house.",
+        "The grounds of the house show no pool."
+      ],
+      "D": [
+        "A swimming pool is visible on the residential property.",
+        "No swimming pool is visible on the residential property."
+      ],
+      "E": [
+        "There is a swimming pool on the grounds around this home.",
+        "The grounds around this home have no visible swimming pool."
+      ],
+      "feedback": "sparse residential (0.48), tennis court (0.07), dense residential (0.06)",
+      "tag": "extra",
+      "rng_a": 138504000,
+      "rng_b": 148504000,
+      "screening_seed": "a",
+      "status": "selected",
+      "match": "1865.tif"
+    },
+    {
+      "image": "1728.tif",
+      "pair": "1728-1730",
+      "rgb_sha256": "a4bbc74506cc3010784d3aa70ebee65e6cad6793813873f6a9c8a4639239c639",
+      "side": 0,
+      "row": 1387,
+      "split": "train",
+      "scene_id": 17,
+      "scene": "runway",
+      "attribute": "runway_bars",
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines on it .",
+      "captions": [
+        "It is a straight runway with some mark lines on it .",
+        "A straight runway with some mark lines on it .",
+        "There are some mark lines on the straight runway .",
+        "It is a straight runway with some white mark lines on it .",
+        "A straight runway with some white mark lines on it ."
+      ],
+      "A": [
+        "Broad white rectangular bars are painted on the runway.",
+        "The runway has no broad white rectangular bars."
+      ],
+      "B": [
+        "Wide white blocks are visible on the runway surface.",
+        "The runway surface lacks wide white blocks."
+      ],
+      "C": [
+        "The airstrip bears prominent broad white rectangles.",
+        "No broad white rectangles appear on the airstrip."
+      ],
+      "D": [
+        "The runway includes conspicuous wide white bars.",
+        "There are no conspicuous wide white bars on the runway."
+      ],
+      "E": [
+        "The runway has broad rectangular white markings.",
+        "The runway lacks broad rectangular white markings."
+      ],
+      "tag": "fresh",
+      "rng_a": 138387000,
+      "rng_b": 148387000,
+      "feedback": "runway (0.47), airplane (0.11), storage tanks (0.04)",
+      "screening_seed": "b",
+      "status": "selected",
+      "match": "1728.tif"
+    },
+    {
+      "image": "262.tif",
+      "pair": "211-262",
+      "rgb_sha256": "cf12cdd32532240c38a8027c6a79d14af48bd22b05ebf6faee83d7b2ccaba7f0",
+      "side": 1,
+      "row": 222,
+      "split": "train",
+      "scene_id": 2,
+      "scene": "baseball diamond",
+      "attribute": "infield_tone",
+      "scene_query": "Scene: a baseball field.",
+      "orig_query": "This is a old baseball diamond .",
+      "captions": [
+        "This is a old baseball diamond .",
+        "It is a small baseball diamond with sand and grass .",
+        "It is a small old baseball diamond .",
+        "This is a old baseball diamond .",
+        "This is a old baseball diamond ."
+      ],
+      "A": [
+        "The baseball infield is reddish brown.",
+        "The baseball infield is pale beige."
+      ],
+      "B": [
+        "The infield has a red-brown color.",
+        "The infield has a light tan color."
+      ],
+      "C": [
+        "The dirt inside the diamond is reddish brown.",
+        "The dirt inside the diamond is light beige."
+      ],
+      "D": [
+        "The enclosed playing area has a rust-colored surface.",
+        "The enclosed playing area has a pale tan surface."
+      ],
+      "E": [
+        "A reddish earthy color fills the infield.",
+        "A light, sandy color fills the infield."
+      ],
+      "tag": "fresh",
+      "rng_a": 137222000,
+      "rng_b": 147222000,
+      "feedback": "baseball diamond (0.60), storage tanks (0.04), tennis court (0.04)",
+      "screening_seed": "a",
+      "status": "selected",
+      "match": "262.tif"
+    },
+    {
+      "image": "1138.tif",
+      "row": 916,
+      "split": "train",
+      "rgb_sha256": "d91fd53ae9a0133fd8c55416f3f160b29abb24ca72bdd866cf50395d00c911e1",
+      "pair": "1138-1116",
+      "attribute": "crosswalk",
+      "side": 0,
+      "scene_id": 11,
+      "scene": "road intersection",
+      "scene_query": "Scene: a road intersection.",
+      "orig_query": "An intersection with many cars on the road .",
+      "captions": [
+        "An intersection with many cars on the road .",
+        "An intersection with some houses and plants at the corners .",
+        "A busy intersection with some houses and plants at the corners .",
+        "A busy intersection with many cars on the road .",
+        "An intersection with two roads vertical to each other ."
+      ],
+      "A": [
+        "The intersection has striped crosswalks.",
+        "The intersection lacks striped crosswalks."
+      ],
+      "B": [
+        "Pedestrian crossings with repeated stripes are visible.",
+        "No pedestrian crossings with repeated stripes are visible."
+      ],
+      "C": [
+        "Bands of parallel pedestrian markings appear at the junction.",
+        "The junction has no bands of parallel pedestrian markings."
+      ],
+      "D": [
+        "There are painted stripes for pedestrians at the road crossing.",
+        "There are no painted stripes for pedestrians at the road crossing."
+      ],
+      "E": [
+        "Striped pedestrian crossings mark this intersection.",
+        "This intersection has no striped pedestrian crossings."
+      ],
+      "feedback": "intersection (0.41), overpass (0.09), freeway (0.08)",
+      "tag": "extra",
+      "rng_a": 137916000,
+      "rng_b": 147916000,
+      "screening_seed": "b",
+      "status": "selected",
+      "match": "1138.tif"
+    },
+    {
+      "image": "1738.tif",
+      "row": 1397,
+      "split": "train",
+      "rgb_sha256": "ed649e7632e1bf48aa9ff5281a2f7cdcf8f80c10851ac462b664c221c1d104e9",
+      "pair": "1745-1738",
+      "attribute": "runway_number",
+      "side": 1,
+      "scene": "runway",
+      "scene_id": 17,
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines on it .",
+      "captions": [
+        "It is a straight runway with some mark lines on it .",
+        "A straight runway with some mark lines on it .",
+        "There are some mark lines on the straight runway .",
+        "It is a straight runway with some white mark lines on it .",
+        "A straight runway with some white mark lines on it ."
+      ],
+      "A": [
+        "No large painted numerals are visible on the runway.",
+        "Large painted numerals are visible on the runway."
+      ],
+      "B": [
+        "The markings on the runway do not include a large number.",
+        "The markings on the runway include a large number."
+      ],
+      "C": [
+        "The airstrip surface has no visible large numeric designation.",
+        "A large numeric designation appears on the airstrip surface."
+      ],
+      "D": [
+        "The runway has no prominent number marking.",
+        "The runway carries a prominent number marking."
+      ],
+      "E": [
+        "There are no large painted digits on the runway.",
+        "Large digits have been painted on the runway."
+      ],
+      "feedback": "runway (0.33), airplane (0.08), overpass (0.07)",
+      "tag": "extra",
+      "rng_a": 138397000,
+      "rng_b": 148397000,
+      "screening_seed": "b",
+      "status": "selected",
+      "match": "1738.tif"
+    }
+  ],
+  "b": [
+    {
+      "image": "1777.tif",
+      "pair": "1777-1765",
+      "rgb_sha256": "06570988c3a9fff7454a541eb5c6e37dbdaf5e3907e817d751a7b2e62ee71ca2",
+      "side": 0,
+      "row": 1436,
+      "split": "train",
+      "scene_id": 17,
+      "scene": "runway",
+      "attribute": "runway_bars",
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines on it .",
+      "captions": [
+        "It is a straight runway with some mark lines on it .",
+        "A straight runway with some mark lines on it .",
+        "There are some mark lines on the straight runway .",
+        "It is a straight runway with some white mark lines on it .",
+        "A straight runway with some white mark lines on it ."
+      ],
+      "A": [
+        "Broad white rectangular bars are painted on the runway.",
+        "The runway has no broad white rectangular bars."
+      ],
+      "B": [
+        "Wide white blocks are visible on the runway surface.",
+        "The runway surface lacks wide white blocks."
+      ],
+      "C": [
+        "The airstrip bears prominent broad white rectangles.",
+        "No broad white rectangles appear on the airstrip."
+      ],
+      "D": [
+        "The runway includes conspicuous wide white bars.",
+        "There are no conspicuous wide white bars on the runway."
+      ],
+      "E": [
+        "The runway has broad rectangular white markings.",
+        "The runway lacks broad rectangular white markings."
+      ],
+      "tag": "fresh",
+      "rng_a": 138436000,
+      "rng_b": 148436000,
+      "feedback": "runway (0.41), airplane (0.10), chaparral (0.05)",
+      "screening_seed": "a",
+      "status": "selected",
+      "match": "1777.tif"
+    },
+    {
+      "image": "2053.tif",
+      "row": 1652,
+      "split": "train",
+      "rgb_sha256": "24bd0c77a2297aaebacaf5b7b70a8bb783c1ee9a8482a1d27f1bee2386ca6197",
+      "pair": "2053-2006",
+      "attribute": "court_surround",
+      "side": 0,
+      "scene_id": 20,
+      "scene": "tennis courts",
+      "scene_query": "Scene: tennis courts.",
+      "orig_query": "Four tennis courts arranged neatly with a road beside .",
+      "captions": [
+        "Four tennis courts arranged neatly with a road beside .",
+        "Four tennis courts are surrounded by some buildings .",
+        "There are four tennis courts arranged neatly with a road beside .",
+        "There are four tennis courts surrounded by some buildings .",
+        "There are four tennis courts arranged neatly with a road beside ."
+      ],
+      "A": [
+        "The area surrounding the marked tennis playing surface is red.",
+        "The area surrounding the marked tennis playing surface is green."
+      ],
+      "B": [
+        "A red border surrounds the tennis playing area.",
+        "A green border surrounds the tennis playing area."
+      ],
+      "C": [
+        "Outside the marked lines the court surface is red.",
+        "Outside the marked lines the court surface is green."
+      ],
+      "D": [
+        "The outer apron of the tennis court is red.",
+        "The outer apron of the tennis court is green."
+      ],
+      "E": [
+        "A red surface borders the lined part of the tennis court.",
+        "A green surface borders the lined part of the tennis court."
+      ],
+      "feedback": "tennis court (0.54), baseball diamond (0.05), mobile home park (0.04)",
+      "tag": "extra",
+      "rng_a": 138652000,
+      "rng_b": 148652000,
+      "screening_seed": "b",
+      "status": "selected",
+      "match": "2053.tif"
+    },
+    {
+      "image": "1869.tif",
+      "row": 1508,
+      "split": "train",
+      "rgb_sha256": "292dbe6a6438bba5fcf14891b0e7b7be75be4495eba4e2d8a29669415531b2b6",
+      "pair": "1869-1821",
+      "attribute": "house_pool",
+      "side": 0,
+      "scene_id": 18,
+      "scene": "residential area",
+      "scene_query": "Scene: a residential area.",
+      "orig_query": "A villa with grey roofs is surrounded by lush plants in the sparse residential area .",
+      "captions": [
+        "A villa with grey roofs is surrounded by lush plants in the sparse residential area .",
+        "This is a sparse residential area with a villa surrounded by lush plants .",
+        "A villa with grey roofs has a swimming pool in the middle is in the sparse residential area .",
+        "A villa with plants surrounded is in the sparse residential area .",
+        "A villa with lush plants surrounded has a swimming pool in the middle ."
+      ],
+      "A": [
+        "The house has a visible swimming pool beside it.",
+        "The house has no visible swimming pool beside it."
+      ],
+      "B": [
+        "A swimming pool can be seen next to the house.",
+        "No swimming pool can be seen next to the house."
+      ],
+      "C": [
+        "A pool is visible in the grounds of the house.",
+        "The grounds of the house show no pool."
+      ],
+      "D": [
+        "A swimming pool is visible on the residential property.",
+        "No swimming pool is visible on the residential property."
+      ],
+      "E": [
+        "There is a swimming pool on the grounds around this home.",
+        "The grounds around this home have no visible swimming pool."
+      ],
+      "feedback": "sparse residential (0.36), dense residential (0.08), tennis court (0.08)",
+      "tag": "extra",
+      "rng_a": 138508000,
+      "rng_b": 148508000,
+      "screening_seed": "a",
+      "status": "selected",
+      "match": "1869.tif"
+    },
+    {
+      "image": "1744.tif",
+      "pair": "1744-1753",
+      "rgb_sha256": "54bf9daba34e90a9ae246e87032862cadc0e199c13c534727cc30f8ada2e1e83",
+      "side": 0,
+      "row": 1403,
+      "split": "train",
+      "scene_id": 17,
+      "scene": "runway",
+      "attribute": "runway_bars",
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines on it .",
+      "captions": [
+        "It is a straight runway with some mark lines on it .",
+        "A straight runway with some mark lines on it .",
+        "There are some mark lines on the straight runway .",
+        "It is a straight runway with some white mark lines on it .",
+        "A straight runway with some white mark lines on it ."
+      ],
+      "A": [
+        "Broad white rectangular bars are painted on the runway.",
+        "The runway has no broad white rectangular bars."
+      ],
+      "B": [
+        "Wide white blocks are visible on the runway surface.",
+        "The runway surface lacks wide white blocks."
+      ],
+      "C": [
+        "The airstrip bears prominent broad white rectangles.",
+        "No broad white rectangles appear on the airstrip."
+      ],
+      "D": [
+        "The runway includes conspicuous wide white bars.",
+        "There are no conspicuous wide white bars on the runway."
+      ],
+      "E": [
+        "The runway has broad rectangular white markings.",
+        "The runway lacks broad rectangular white markings."
+      ],
+      "tag": "fresh",
+      "rng_a": 138403000,
+      "rng_b": 148403000,
+      "feedback": "runway (0.53), airplane (0.09), storage tanks (0.04)",
+      "screening_seed": "b",
+      "status": "selected",
+      "match": "1744.tif"
+    },
+    {
+      "image": "315.tif",
+      "row": 255,
+      "split": "train",
+      "rgb_sha256": "60e026023982cbf6877c3095cbb19abd8d824f439e063cb8605216e59b4a9ffa",
+      "pair": "346-315",
+      "attribute": "surf",
+      "side": 1,
+      "scene_id": 3,
+      "scene": "beach",
+      "scene_query": "Scene: a beach.",
+      "orig_query": "This is a beach with greenish-blue sea and white sands .",
+      "captions": [
+        "This is a beach with greenish-blue sea and white sands .",
+        "The sand beach is peaceful and quiet .",
+        "It is a peaceful white sand beach .",
+        "It is a peaceful beach with crystal clear waters .",
+        "A peaceful white beach with greenish-blue waters ."
+      ],
+      "A": [
+        "Little white surf borders the beach.",
+        "A broad band of white surf borders the beach."
+      ],
+      "B": [
+        "The nearshore water has very little white foam.",
+        "The nearshore water is covered with a wide strip of white foam."
+      ],
+      "C": [
+        "Only a thin trace of froth appears by the sand.",
+        "Breaking waves create a wide frothy belt by the sand."
+      ],
+      "D": [
+        "There is little breaking whitewater at the shore.",
+        "There is extensive breaking whitewater at the shore."
+      ],
+      "E": [
+        "Very little white foam breaks along the beach.",
+        "A broad swath of white foam breaks along the beach."
+      ],
+      "feedback": "beach (0.51), agricultural (0.07), harbor (0.05)",
+      "tag": "extra",
+      "rng_a": 137255000,
+      "rng_b": 147255000,
+      "screening_seed": "a",
+      "status": "selected",
+      "match": "315.tif"
+    },
+    {
+      "image": "1745.tif",
+      "row": 1404,
+      "split": "train",
+      "rgb_sha256": "6205c63dec1ca503b43c6ed331246e665e6164e6e5599020cbe574b5e72e439d",
+      "pair": "1745-1738",
+      "attribute": "runway_number",
+      "side": 0,
+      "scene": "runway",
+      "scene_id": 17,
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines and a number and a letter R on it .",
+      "captions": [
+        "It is a straight runway with some mark lines and a number and a letter R on it .",
+        "A straight runway with some mark lines and a number and a letter R on it .",
+        "There are some mark lines and a number and a letter R on the straight runway .",
+        "It is a straight runway with some white mark lines and a number and a letter R on it .",
+        "A straight runway with some white mark lines and a number and a letter R on it ."
+      ],
+      "A": [
+        "Large painted numerals are visible on the runway.",
+        "No large painted numerals are visible on the runway."
+      ],
+      "B": [
+        "The markings on the runway include a large number.",
+        "The markings on the runway do not include a large number."
+      ],
+      "C": [
+        "A large numeric designation appears on the airstrip surface.",
+        "The airstrip surface has no visible large numeric designation."
+      ],
+      "D": [
+        "The runway carries a prominent number marking.",
+        "The runway has no prominent number marking."
+      ],
+      "E": [
+        "Large digits have been painted on the runway.",
+        "There are no large painted digits on the runway."
+      ],
+      "feedback": "runway (0.39), airplane (0.12), storage tanks (0.07)",
+      "tag": "extra",
+      "rng_a": 138404000,
+      "rng_b": 148404000,
+      "screening_seed": "b",
+      "status": "selected",
+      "match": "1745.tif"
+    },
+    {
+      "image": "1729.tif",
+      "row": 1388,
+      "split": "train",
+      "rgb_sha256": "70a7d381208261be9cdb0a09e0a8c48fa77c757c7bd3fa99da97fb6ccdccff81",
+      "pair": "1729-1706",
+      "attribute": "runway_bars",
+      "side": 0,
+      "scene_id": 17,
+      "scene": "runway",
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines on it .",
+      "captions": [
+        "It is a straight runway with some mark lines on it .",
+        "A straight runway with some mark lines on it .",
+        "There are some mark lines on the straight runway .",
+        "It is a straight runway with some white mark lines on it .",
+        "A straight runway with some white mark lines on it ."
+      ],
+      "A": [
+        "Broad white rectangular bars are painted on the runway.",
+        "The runway has no broad white rectangular bars."
+      ],
+      "B": [
+        "Wide white blocks are visible on the runway surface.",
+        "The runway surface lacks wide white blocks."
+      ],
+      "C": [
+        "The airstrip bears prominent broad white rectangles.",
+        "No broad white rectangles appear on the airstrip."
+      ],
+      "D": [
+        "The runway includes conspicuous wide white bars.",
+        "There are no conspicuous wide white bars on the runway."
+      ],
+      "E": [
+        "The runway has broad rectangular white markings.",
+        "The runway lacks broad rectangular white markings."
+      ],
+      "feedback": "runway (0.54), airplane (0.08), storage tanks (0.04)",
+      "tag": "saved",
+      "rng_a": 138388000,
+      "rng_b": 148388000,
+      "screening_seed": "b",
+      "status": "selected",
+      "match": "1729.tif"
+    },
+    {
+      "image": "1274.tif",
+      "row": 1033,
+      "rgb_sha256": "833a3131a151f499f1f4f91c19bd052387757111b650d96815114d92857335ee",
+      "split": "train",
+      "pair": "1202-1274",
+      "side": 1,
+      "scene_id": 12,
+      "scene": "residential area",
+      "attribute": "community_pool",
+      "scene_query": "Scene: a residential area.",
+      "orig_query": "It is a medium residential area with houses surrounded by lawn and plants .",
+      "captions": [
+        "It is a medium residential area with houses surrounded by lawn and plants .",
+        "A medium residential area with houses and trees and lawn .",
+        "A medium residential area with a road goes through this area .",
+        "Many houses with plants surrounded in the medium residential area .",
+        "This is a medium residential area with plants flurish ."
+      ],
+      "A": [
+        "No swimming pool is visible in the residential area.",
+        "A swimming pool is visible in the residential area."
+      ],
+      "B": [
+        "There is no visible pool among the homes.",
+        "There is a pool among the homes."
+      ],
+      "C": [
+        "The neighborhood shows no swimming pool.",
+        "The neighborhood contains a visible swimming pool."
+      ],
+      "D": [
+        "There is no swimming pool in sight between the residential buildings.",
+        "A swimming pool appears between the residential buildings."
+      ],
+      "E": [
+        "No swimming pool can be seen on this residential block.",
+        "One can see a swimming pool on this residential block."
+      ],
+      "tag": "extension",
+      "rng_a": 138033000,
+      "rng_b": 148033000,
+      "feedback": "medium residential (0.29), dense residential (0.12), mobile home park (0.11)",
+      "screening_seed": "a",
+      "status": "selected",
+      "match": "1274.tif"
+    },
+    {
+      "image": "1865.tif",
+      "row": 1504,
+      "split": "train",
+      "rgb_sha256": "9eeeaffecbd855aaab487c207f31fa1f23b99eeaba0573ecbfa0440592139d90",
+      "pair": "1865-1834",
+      "attribute": "house_pool",
+      "side": 0,
+      "scene": "residential area",
+      "scene_id": 18,
+      "scene_query": "Scene: a residential area.",
+      "orig_query": "A villa with grey roofs is surrounded by lush plants in the sparse residential area .",
+      "captions": [
+        "A villa with grey roofs is surrounded by lush plants in the sparse residential area .",
+        "This is a sparse residential area with a villa surrounded by lush plants .",
+        "A villa with grey roofs has a swimming pool in the middle is in the sparse residential area .",
+        "A villa with plants surrounded is in the sparse residential area .",
+        "A villa with lush plants surrounded has a swimming pool in the middle ."
+      ],
+      "A": [
+        "The house has a visible swimming pool beside it.",
+        "The house has no visible swimming pool beside it."
+      ],
+      "B": [
+        "A swimming pool can be seen next to the house.",
+        "No swimming pool can be seen next to the house."
+      ],
+      "C": [
+        "A pool is visible in the grounds of the house.",
+        "The grounds of the house show no pool."
+      ],
+      "D": [
+        "A swimming pool is visible on the residential property.",
+        "No swimming pool is visible on the residential property."
+      ],
+      "E": [
+        "There is a swimming pool on the grounds around this home.",
+        "The grounds around this home have no visible swimming pool."
+      ],
+      "feedback": "sparse residential (0.48), tennis court (0.07), dense residential (0.06)",
+      "tag": "extra",
+      "rng_a": 138504000,
+      "rng_b": 148504000,
+      "screening_seed": "a",
+      "status": "selected",
+      "match": "1865.tif"
+    },
+    {
+      "image": "1728.tif",
+      "pair": "1728-1730",
+      "rgb_sha256": "a4bbc74506cc3010784d3aa70ebee65e6cad6793813873f6a9c8a4639239c639",
+      "side": 0,
+      "row": 1387,
+      "split": "train",
+      "scene_id": 17,
+      "scene": "runway",
+      "attribute": "runway_bars",
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines on it .",
+      "captions": [
+        "It is a straight runway with some mark lines on it .",
+        "A straight runway with some mark lines on it .",
+        "There are some mark lines on the straight runway .",
+        "It is a straight runway with some white mark lines on it .",
+        "A straight runway with some white mark lines on it ."
+      ],
+      "A": [
+        "Broad white rectangular bars are painted on the runway.",
+        "The runway has no broad white rectangular bars."
+      ],
+      "B": [
+        "Wide white blocks are visible on the runway surface.",
+        "The runway surface lacks wide white blocks."
+      ],
+      "C": [
+        "The airstrip bears prominent broad white rectangles.",
+        "No broad white rectangles appear on the airstrip."
+      ],
+      "D": [
+        "The runway includes conspicuous wide white bars.",
+        "There are no conspicuous wide white bars on the runway."
+      ],
+      "E": [
+        "The runway has broad rectangular white markings.",
+        "The runway lacks broad rectangular white markings."
+      ],
+      "tag": "fresh",
+      "rng_a": 138387000,
+      "rng_b": 148387000,
+      "feedback": "runway (0.47), airplane (0.11), storage tanks (0.04)",
+      "screening_seed": "b",
+      "status": "selected",
+      "match": "1728.tif"
+    },
+    {
+      "image": "262.tif",
+      "pair": "211-262",
+      "rgb_sha256": "cf12cdd32532240c38a8027c6a79d14af48bd22b05ebf6faee83d7b2ccaba7f0",
+      "side": 1,
+      "row": 222,
+      "split": "train",
+      "scene_id": 2,
+      "scene": "baseball diamond",
+      "attribute": "infield_tone",
+      "scene_query": "Scene: a baseball field.",
+      "orig_query": "This is a old baseball diamond .",
+      "captions": [
+        "This is a old baseball diamond .",
+        "It is a small baseball diamond with sand and grass .",
+        "It is a small old baseball diamond .",
+        "This is a old baseball diamond .",
+        "This is a old baseball diamond ."
+      ],
+      "A": [
+        "The baseball infield is reddish brown.",
+        "The baseball infield is pale beige."
+      ],
+      "B": [
+        "The infield has a red-brown color.",
+        "The infield has a light tan color."
+      ],
+      "C": [
+        "The dirt inside the diamond is reddish brown.",
+        "The dirt inside the diamond is light beige."
+      ],
+      "D": [
+        "The enclosed playing area has a rust-colored surface.",
+        "The enclosed playing area has a pale tan surface."
+      ],
+      "E": [
+        "A reddish earthy color fills the infield.",
+        "A light, sandy color fills the infield."
+      ],
+      "tag": "fresh",
+      "rng_a": 137222000,
+      "rng_b": 147222000,
+      "feedback": "baseball diamond (0.60), storage tanks (0.04), tennis court (0.04)",
+      "screening_seed": "a",
+      "status": "selected",
+      "match": "262.tif"
+    },
+    {
+      "image": "1138.tif",
+      "row": 916,
+      "split": "train",
+      "rgb_sha256": "d91fd53ae9a0133fd8c55416f3f160b29abb24ca72bdd866cf50395d00c911e1",
+      "pair": "1138-1116",
+      "attribute": "crosswalk",
+      "side": 0,
+      "scene_id": 11,
+      "scene": "road intersection",
+      "scene_query": "Scene: a road intersection.",
+      "orig_query": "An intersection with many cars on the road .",
+      "captions": [
+        "An intersection with many cars on the road .",
+        "An intersection with some houses and plants at the corners .",
+        "A busy intersection with some houses and plants at the corners .",
+        "A busy intersection with many cars on the road .",
+        "An intersection with two roads vertical to each other ."
+      ],
+      "A": [
+        "The intersection has striped crosswalks.",
+        "The intersection lacks striped crosswalks."
+      ],
+      "B": [
+        "Pedestrian crossings with repeated stripes are visible.",
+        "No pedestrian crossings with repeated stripes are visible."
+      ],
+      "C": [
+        "Bands of parallel pedestrian markings appear at the junction.",
+        "The junction has no bands of parallel pedestrian markings."
+      ],
+      "D": [
+        "There are painted stripes for pedestrians at the road crossing.",
+        "There are no painted stripes for pedestrians at the road crossing."
+      ],
+      "E": [
+        "Striped pedestrian crossings mark this intersection.",
+        "This intersection has no striped pedestrian crossings."
+      ],
+      "feedback": "intersection (0.41), overpass (0.09), freeway (0.08)",
+      "tag": "extra",
+      "rng_a": 137916000,
+      "rng_b": 147916000,
+      "screening_seed": "b",
+      "status": "selected",
+      "match": "1138.tif"
+    },
+    {
+      "image": "1738.tif",
+      "row": 1397,
+      "split": "train",
+      "rgb_sha256": "ed649e7632e1bf48aa9ff5281a2f7cdcf8f80c10851ac462b664c221c1d104e9",
+      "pair": "1745-1738",
+      "attribute": "runway_number",
+      "side": 1,
+      "scene": "runway",
+      "scene_id": 17,
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines on it .",
+      "captions": [
+        "It is a straight runway with some mark lines on it .",
+        "A straight runway with some mark lines on it .",
+        "There are some mark lines on the straight runway .",
+        "It is a straight runway with some white mark lines on it .",
+        "A straight runway with some white mark lines on it ."
+      ],
+      "A": [
+        "No large painted numerals are visible on the runway.",
+        "Large painted numerals are visible on the runway."
+      ],
+      "B": [
+        "The markings on the runway do not include a large number.",
+        "The markings on the runway include a large number."
+      ],
+      "C": [
+        "The airstrip surface has no visible large numeric designation.",
+        "A large numeric designation appears on the airstrip surface."
+      ],
+      "D": [
+        "The runway has no prominent number marking.",
+        "The runway carries a prominent number marking."
+      ],
+      "E": [
+        "There are no large painted digits on the runway.",
+        "Large digits have been painted on the runway."
+      ],
+      "feedback": "runway (0.33), airplane (0.08), overpass (0.07)",
+      "tag": "extra",
+      "rng_a": 138397000,
+      "rng_b": 148397000,
+      "screening_seed": "b",
+      "status": "selected",
+      "match": "1738.tif"
+    }
+  ]
+}
