@@ -1,0 +1,29 @@
+{
+  "inputs": {
+    "images": 164,
+    "pairs": 82,
+    "source": 282,
+    "captions": 417,
+    "fine_texts": 104,
+    "full_RR_coverage": 164,
+    "overlap_pixels": {
+      "external118": 0,
+      "official210": 0,
+      "fine126": 0,
+      "RFPO24": 0,
+      "DPO": 0
+    }
+  },
+  "historical_metric_errors": {
+    "a_r2": {
+      "DE": 0.0,
+      "mrr": 0.0,
+      "mR": 1.1102230246251565e-16
+    },
+    "b_r3": {
+      "DE": 0.0,
+      "mrr": 0.0,
+      "mR": 1.1102230246251565e-16
+    }
+  }
+}

@@ -5,7 +5,7 @@ import numpy as np
 ROOT=Path(__file__).resolve().parents[1]
 PREV=ROOT.parent/"E3_困难奖励跨图跨措辞校准_20261127"
 sys.path.insert(0,str(PREV/"code"))
-from panel import read,save,interval,POOL
+from panel import read,save,interval,POOL,sha
 from reward import redistribute
 
 
@@ -32,6 +32,7 @@ def study(rows,sources,signals,teacher):
         per=[]
         for seed,folder in sources.items():
             g=read(folder/(name+".json"))
+            assert (g["image"], g["rgb"], g["seed"]) == (name, row["rgb_sha256"], seed)
             if not g["eligible"]:continue
             items=g["items"]; rr=np.array([x["other_caption_rr"] for x in items])
             if rr.shape[1]<2:continue
@@ -59,7 +60,17 @@ def study(rows,sources,signals,teacher):
 
 def main():
     folder=ROOT/"visual/results"
-    teacher=read(folder/"verified_truth.json");signals=read(folder/"candidate_margins.json")
+    proof = read(folder/"complete.json")
+    assert all(sha(folder / f) == digest for f, digest in proof["files"].items())
+    teacher = {}
+    for name, row in read(folder/"teacher.json").items():
+        raw = read(folder/"visual"/(name+".json"))
+        first, swapped = [obs["ab"] for obs in raw["observations"]]
+        truth = int(raw["side"])
+        verified = first[truth] > first[1-truth] and swapped[1-truth] > swapped[truth]
+        assert row["verified_truth"] is verified
+        teacher[name] = verified
+    signals = read(folder/"candidate_margins.json")
     configs={"panel194":(read(PREV/"inputs/test_panel.json"),{s:POOL/"scores"/s for s in "ab"}),
              "panel116":(read(PREV/"followup_pool/inputs/rows.json"),{"d":PREV/"followup_pool/scores"})}
     reports={}
