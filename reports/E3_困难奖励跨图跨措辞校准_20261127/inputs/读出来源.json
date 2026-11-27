@@ -1,0 +1,227 @@
+{
+  "train_images": 98,
+  "train_attributes": [
+    "berths",
+    "bridge_axis",
+    "court_surround",
+    "crosswalk",
+    "field_axis",
+    "field_color",
+    "freeway_axis",
+    "freeway_color",
+    "harbor_rows",
+    "house_light",
+    "infield",
+    "mobile_axis",
+    "parking_fill",
+    "parking_ground",
+    "river_axis",
+    "river_bank",
+    "rooftops",
+    "runway_bars",
+    "runway_number",
+    "street_axis",
+    "surf",
+    "water_side"
+  ],
+  "prior_manifest": "9637037ade7b8a876bf0d69365cb9801b26d2b53a3064c6d1e375ef13ca611a6",
+  "training_files": {
+    "31.tif": "e29b670308503efc06a179b19fa51ab0386a3a5b1ed18cebea17ae2e62051041",
+    "24.tif": "1eae2241ff0d9e865fef7b665fd66bc5d4dddf9c4a7fe24349b5ace0d698c5a9",
+    "49.tif": "448651d2b346ef8b17d3c1992ffbc1e8031337020f3fa46864aa048629b2078f",
+    "19.tif": "14d4a4fd6b6d1488996a78bc82dde4abd0c2c80ae5e37e258815c07301be6887",
+    "32.tif": "d335dc3629f6d1edf44729bddba4ffb3f2674b0714972c91dd166b756314c414",
+    "3.tif": "81881f43c9878cfd67a2c4963ff03e50f67d6f025eb8dbd376aacce13dc8bc79",
+    "18.tif": "9f20f29e8cfcd598666a4b6f6c764ce25cc62fb61d71018f8024016769957c25",
+    "45.tif": "5d8c6cd39d5004e9ffa6c94f9470f1fa688799ee68486cbd4d63e76aa7e6b5a6",
+    "222.tif": "1d9fb937c8e39406a48c5e7f14f73acadfab5eb0a94e4fc9be76108bf12d5313",
+    "234.tif": "15adaa8aa3da6d2acee27f698019e96e7a90f013a8f65c589d0488810e80143f",
+    "371.tif": "8f2287006452ada15249200853ec1396313c1872265483551a967f255c517c6e",
+    "374.tif": "e0edcbb968bd06a779733caef21fd1b8aec7f42cd74dd129d8ad11c0b5bf94a8",
+    "369.tif": "fcf1d126163e8ec3ce8fb0517a0ee5e38e620beb6ed5b42d429436ef9b1e9f29",
+    "359.tif": "ff333747114aadb56f22938f2daa1b8b0044b7396e499706806974c7b1214695",
+    "372.tif": "bc372afedbccf972e5cb7da4ceabcaf6e399683dea38411e5947e47b0da34bbb",
+    "352.tif": "2ed3c9e1a72b31e9ab81a8c65f7efbf1777f52db6f5aa3964b9f32b9436ff55f",
+    "368.tif": "8af51fdca0c41e0523dcb88ce43d7d12d2fc64f633188041b84167e70aabd3cd",
+    "353.tif": "2387dd401fae77490adbff86bb5fd8627a30fa6b8a26e5b78b463080b6b4369e",
+    "309.tif": "25493a2e41b54befda49b2e5f4c09650276f508857ba23cfb9f499e23325f74f",
+    "316.tif": "250e7bd1320010deaf8f1afcd2e33b90ede4958814d1e7d8cb3849bdc714eccc",
+    "460.tif": "607a789715bcbdc9e5c59566339bf8e62ea54eb398bdb79683830e619a16c8b4",
+    "417.tif": "2b0f266361045a2c370ebe023e101a9ca62d086ea494b4bc11c49e385864cc98",
+    "654.tif": "c9a4b4705c8d1846a510d3b8b6487ea2e329a8fc4ac90ed98d99d49098f16bf2",
+    "606.tif": "0eb8f27eae8e84357b81fa7b1ed6deba957478be1c04cd8aff1d6d3758071bb8",
+    "663.tif": "d1736836735f39de59fefec08e4003ec3080f33d422cfd77fb43e06f3268f603",
+    "619.tif": "986f10663a7d35bfbb50bf7131f2c48110b1cc9e33b01f054ffd7863e8a6b7ff",
+    "642.tif": "691f0b76f103f99f859e0f6e6d4baf9e0968efe97a204d1eec54323812fede5f",
+    "608.tif": "a5e56bd0a13d891df73354cad8b181ea33e14d26650fa510cd0a070e3c52c7fa",
+    "855.tif": "2365bbc4ae891c7380706bbccb37c92767c61093f50c0c2df15ff2881e5d66a8",
+    "858.tif": "44c8d4cae9ad24842fd4a1cda46431a02fc630255d84ce033e71ab446390c830",
+    "879.tif": "a9bd1ba811dd86c640f3cd353d5183312ba0fc18bd3f0f9f8ccded3b77419b96",
+    "846.tif": "05efe4618ddea7bddc657d8c9a5f9203b9c7bb35afbabb4321e1527326deab27",
+    "849.tif": "12c5c6cabba527853a444c1a49565f4c68e8afed8fd7730e3d0b97bf6d5c68ee",
+    "843.tif": "90a342fb6210c02defb789ac1a171c42d80ba8f551a3770472cd0b3d2b94e451",
+    "874.tif": "d0c52909b11af14416725a4aec39ee73bacf87f75c31c60993d21e62ee8cf150",
+    "833.tif": "b8026f15cacd6f10d7529a9c6aa19d69b477f77364ba17a51911787bd867caf7",
+    "877.tif": "f4529868077ebf4f01d20016f1d2fc3473f1327bf95493a01639f871f579f059",
+    "869.tif": "b1dbd650c496fab31f53011130f23bdf0e9d4b8a3f9e6c80311eea447e2629e7",
+    "835.tif": "2eb637045e4a52dd8380dd2f35f92495cfeebc846733268aa88cf677851038ec",
+    "871.tif": "897ec02b2a5cd0888f5517c8c3f72329547e944e852019a15bb76615ee17429a",
+    "825.tif": "bbc83f6dedf0bf567588b6e57f09185adabe799713d5d8b1b531262ea24f93e8",
+    "842.tif": "5a1b0a7a5ccf49a4a4a21d75ead1eb2f749a02306f60c0084e39b135f15748f6",
+    "826.tif": "b34d679190d617af971c3018bd0bfc25159f3ba807c7d7f8060811ac04dd2716",
+    "838.tif": "6ced6e8b90a080650a223bf795f9415f8c9785cd5a566f6bf7aa59505ff5d8c6",
+    "1069.tif": "700a066d1938a5e3b35d562e323bb85817af2803521db88aa292e3603a0ff01a",
+    "1038.tif": "f77cbe58939661869f551307e9d8cefefdad6e317b815dc4b5f4ad518e8df5e1",
+    "1053.tif": "1af2d85445b8c158735e78eb11c46fee6ede099f32f015b35abb654cb2bf608a",
+    "1011.tif": "c5fe11072447516605a8713208c7557561ee2b96cbc843fd9fd48fe66f9c7060",
+    "1065.tif": "7b654e617fc31ad2b7bc65121a8454242e9676fd4b968da077f08e074898ca71",
+    "1046.tif": "eced30af7b155192f79855c6bd07aff344596644614cd045f615429013c7864b",
+    "1137.tif": "241ddfc3f5c404c1b526882f002880232f7d991f5ee12f3ac87041ccd9a53adb",
+    "1146.tif": "304643ebff967769117639acc3d945768ecf1bb6ab8973e7c1e1d22b937fa0bf",
+    "1239.tif": "dcd1f11542a731aa35374ee7666b462b7dc0f3fd0f07789ce8a58f184f86f908",
+    "1262.tif": "8812ce761f0d1ef059905fa8b932245302176229850f42cb604d64e855955ace",
+    "1234.tif": "b121006b5e744336121f43335becf862d1c0bb0e25bb6e9d4fa9a362c639f8a0",
+    "1261.tif": "7d7fd6f92b979ecba0ba0fb5f36e79f77a128f09aea316ed02c0c73bbb40c2a7",
+    "1365.tif": "639bf1a136fdea47c01f8fbbdb42f7c16fd39e002b33e5716e26d877adbcfea9",
+    "1316.tif": "16b04fdeca17b662638b851304487214a27f3484320cd191fde9e410f59d0ac5",
+    "1328.tif": "140427212f94f697feef4b97e3d0e6798a9e5afd9cf0eb79729d00d9bdce598f",
+    "1308.tif": "f22e882bc7de3a522f6e3c8c71b1463fe02828f1bbc9191a3a508d6b46c9993c",
+    "1436.tif": "1d0f8f5b5b54ef68ab8941da9378f19fed742746cdc4e384d042577ae9b0c2b4",
+    "1427.tif": "11d751e47e5269240147386f9d6a0414ba4233fef28927e8f6549a89117b7bc0",
+    "1424.tif": "9a933830ee4d9e192ddb184e6a05e3f806c6c9821d04da48338f88b064bfdaf0",
+    "1473.tif": "d68a5ff1a1c2334523f98cc9d5ffaae872ba0edb16969b28c6ff57f72a730892",
+    "1529.tif": "259be5999c9f6c3881ce0d644aff42dbc0a837664c0921c916ada75a9094f88a",
+    "1526.tif": "6c0b4b6f487047dff3003a0dcb00bad0f24019a68c0e45d1ade63b2b2a8f8caf",
+    "1543.tif": "d57dc9b256b488f3557239b053ed304ce973f374cb34e2add083a7df1fc4865b",
+    "1566.tif": "cdc5447d61aafece9ce9b226d311ce0709a33799fe7bfcb71bdd4feb9646103e",
+    "1511.tif": "3062ef720f1987a40716d7fad58196a9b31ee535e9a6ed6ffe8a8e29d0bc7597",
+    "1548.tif": "48074e01925ccee74bc53efd41ba04229361bed6c166b2c656c4fe2bc35c8e96",
+    "1507.tif": "199aa0463ba94d6335be7482cf3bdddca832e5d13e1aeaa59ba085e7a2182b56",
+    "1561.tif": "b06ba4c20da0e6b284b3231e343c5461c6b8ec52d7562e24b34ff5d6787c203c",
+    "1505.tif": "cd3085286d5fe604c4133c6861702cabd44d3daf42a90042f8418d48b8ee762f",
+    "1555.tif": "ee2309f120127f1da3f4873f757b8bb2310ceb7da32f85da064b2263b25d2006",
+    "1606.tif": "7c8d350933e0a57dffe7a0418e05af3bb64c089f5b044a235608d336c2fc9377",
+    "1647.tif": "5961a9e5f4a6ca27bbb0de041805296ef890482225bf3cb58eec2164baf24897",
+    "1641.tif": "d3983427ac798959abd3776ef52eb9075b00b781f92509db79e2cb7f2eb2b1de",
+    "1648.tif": "c6c14386f183a1d5300cb04e5bf39307e7d870b5201c2ff62e2ed951e8b33c93",
+    "1623.tif": "038aeb38df4ce5b9688662bcfb6f34492f5d5759d1634fe756dc7589796035b3",
+    "1666.tif": "089dbe62460a4d01b36853f85ca6043e9476f654a4674778cce3560032d3f378",
+    "1620.tif": "bf73d4690c7cb070c19fa299733ae94d6f74ad37b9183e7f25bfe16a30694c40",
+    "1679.tif": "3d3780e87998784597d091a6da5bc684e6ba03923555e0c0947ae7d7636b3c2e",
+    "1750.tif": "0e287908b8d87dcd7c66a44cd63d6983c91edb663cd24eea6e590cfde6deb2c9",
+    "1774.tif": "268e7b8773c3f6dadfc579baa1fcf64d120d0504e37f7a72ea76807b2fdd963b",
+    "1721.tif": "846429c991243c7c8255a370c4fe22b3bcc05148e485a01afd0f5105c9e6b115",
+    "1772.tif": "93e5c550274593ff8953598dc114b2974bda351e40212c9197f6705564ef9b6c",
+    "1769.tif": "657061df81dccca0a6d8c6c5f90d2b37fd0df982d91a8d1a981ed4872ff80f3f",
+    "1771.tif": "ee9fcf2e3bed6a7ca527fa2417aaf235dfe1ac00a94a38d2ee9aa0f553278200",
+    "1742.tif": "b1f95986fa13c0a9af05c14676d4046daf302cc487dde109101acfa2c7003878",
+    "1704.tif": "c494a76d16470edde8ed37835afe419d70b2ca346e3b304963b746f2672aadd2",
+    "1702.tif": "b93c0324052ca22267de0a751bda47c653a5f7c97d08db80ef235ed66f1b608a",
+    "1752.tif": "f771dc9f21fc26f8bb72c68bfe043e72925e69c5923e580cdf78dcce64a63167",
+    "1842.tif": "aa44619026cf100de320ac7cbe9b05ad2c18ed1b2ac2b4e7c429bb5859fa8012",
+    "1838.tif": "7e3dff884b8cc0678aa14ea24887c3b5f90160d46abca34435a73553a3240642",
+    "1825.tif": "5f528219d840d057e48a84f0efb4d00441e472d697a100050dfb463014c59d4e",
+    "1862.tif": "ed06ba5d9b58d5cb2f1111dd987b9ad18b92af6f3cf15dcc7de4c2bf7c19942f",
+    "2020.tif": "6c2318385e22d1432624dd339c75219cc5711dcd26503bdcfdd06554ca95cd32",
+    "2058.tif": "d4092908aa49f5e7edb72f057a63737c7402763caae8ed35b7117ffd888ea397"
+  },
+  "target_images": 238,
+  "main": 194,
+  "main_pairs": 97,
+  "natural": 194,
+  "reserved_pairs": [
+    [
+      "v122",
+      "1241-1248"
+    ],
+    [
+      "v122",
+      "1547-1535"
+    ],
+    [
+      "v122",
+      "1611-1672"
+    ],
+    [
+      "v122",
+      "233-257"
+    ],
+    [
+      "v122",
+      "245-235"
+    ],
+    [
+      "v122",
+      "251-224"
+    ],
+    [
+      "v122",
+      "267-254"
+    ],
+    [
+      "v122",
+      "361-314"
+    ],
+    [
+      "v122",
+      "60-23"
+    ],
+    [
+      "v148",
+      "1059-1010"
+    ],
+    [
+      "v148",
+      "1253-1236"
+    ],
+    [
+      "v148",
+      "1359-1361"
+    ],
+    [
+      "v148",
+      "1364-1317"
+    ],
+    [
+      "v148",
+      "1724-1716"
+    ],
+    [
+      "v148",
+      "1749-1758"
+    ],
+    [
+      "v148",
+      "1761-1764"
+    ],
+    [
+      "v148",
+      "217-270"
+    ],
+    [
+      "v148",
+      "223-241"
+    ],
+    [
+      "v148",
+      "250-259"
+    ],
+    [
+      "v148",
+      "370-375"
+    ],
+    [
+      "v148",
+      "453-466"
+    ],
+    [
+      "v148",
+      "644-666"
+    ],
+    [
+      "v148",
+      "673-677"
+    ]
+  ],
+  "direction_sha256": "feb5c862f7cb366d3df9ecbd0f7b5e8375fb60798e1d7fc098d9cfa060ed4c06"
+}

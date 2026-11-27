@@ -1,0 +1,5312 @@
+[
+  {
+    "image": "1018.tif",
+    "row": 815,
+    "split": "train",
+    "rgb_sha256": "03c906b4f9e4172892f8d752bfa7638a9795cf8a3dfc0877f1686696a050cdf6",
+    "pair": "1018-1043",
+    "attribute": "berths",
+    "side": 0,
+    "scene": "harbor",
+    "scene_id": 10,
+    "scene_query": "Scene: a harbor.",
+    "orig_query": "Lots of boats docked in lines at the harbor .",
+    "captions": [
+      "Lots of boats docked in lines at the harbor .",
+      "Lots of boats docked in lines at the harbor the boats are closed to each other .",
+      "Many boats docked in lines at the harbor and the water is deep blue .",
+      "Many boats docked in lines at the harbor and just a few positions are free .",
+      "Lots of boats docked in lines at the harbor and the boats are closed to each other ."
+    ],
+    "A": [
+      "Most berths on the docks are occupied.",
+      "Many berths on the docks are empty."
+    ],
+    "B": [
+      "The docks are densely lined with boats.",
+      "The docks have many open spaces for boats."
+    ],
+    "C": [
+      "Boats fill almost all the slips.",
+      "Numerous slips lack a moored boat."
+    ],
+    "D": [
+      "Very few spaces for boats are vacant at the docks.",
+      "Many spaces for boats are vacant at the docks."
+    ],
+    "E": [
+      "Boats occupy nearly every docking space.",
+      "Quite a few docking spaces are unoccupied."
+    ],
+    "feedback": "harbor (0.65), runway (0.03), parking lot (0.03)",
+    "tag": "extra",
+    "rng_a": 51815000,
+    "rng_b": 61815000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1043.tif",
+    "row": 840,
+    "split": "train",
+    "rgb_sha256": "5f7683abaf142f6ec766ec6515ad5dca3e32443a76910eead6ebc590ba7d6404",
+    "pair": "1018-1043",
+    "attribute": "berths",
+    "side": 1,
+    "scene": "harbor",
+    "scene_id": 10,
+    "scene_query": "Scene: a harbor.",
+    "orig_query": "Lots of boats docked at the harbor and the water is turbid .",
+    "captions": [
+      "Lots of boats docked at the harbor and the water is turbid .",
+      "Lots of boats docked neatly at the harbor .",
+      "Many boats docked neatly at the harbor and the water is turbid .",
+      "Many boats docked neatly at the harbor and some positions are free .",
+      "Lots of boats docked neatly at the harbor and some positions are free ."
+    ],
+    "A": [
+      "Many berths on the docks are empty.",
+      "Most berths on the docks are occupied."
+    ],
+    "B": [
+      "The docks have many open spaces for boats.",
+      "The docks are densely lined with boats."
+    ],
+    "C": [
+      "Numerous slips lack a moored boat.",
+      "Boats fill almost all the slips."
+    ],
+    "D": [
+      "Many spaces for boats are vacant at the docks.",
+      "Very few spaces for boats are vacant at the docks."
+    ],
+    "E": [
+      "Quite a few docking spaces are unoccupied.",
+      "Boats occupy nearly every docking space."
+    ],
+    "feedback": "harbor (0.41), river (0.06), parking lot (0.06)",
+    "tag": "extra",
+    "rng_a": 51840000,
+    "rng_b": 61840000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1015.tif",
+    "row": 812,
+    "split": "train",
+    "rgb_sha256": "ad30d87c1d9cf81f5de152dd5e55ae9ccea12f7f3c1888f7277ef47d6ab41d11",
+    "pair": "1015-1033",
+    "attribute": "berths",
+    "side": 0,
+    "scene_id": 10,
+    "scene": "harbor",
+    "scene_query": "Scene: a harbor.",
+    "orig_query": "Lots of boats docked in lines at the harbor .",
+    "captions": [
+      "Lots of boats docked in lines at the harbor .",
+      "Lots of boats docked in lines at the harbor the boats are closed to each other .",
+      "Many boats docked in lines at the harbor and the water is deep blue .",
+      "Many boats docked in lines at the harbor and just a few positions are free .",
+      "Lots of boats docked in lines at the harbor and the boats are closed to each other ."
+    ],
+    "A": [
+      "Most berths on the docks are occupied.",
+      "Many berths on the docks are empty."
+    ],
+    "B": [
+      "The docks are densely lined with boats.",
+      "The docks have many open spaces for boats."
+    ],
+    "C": [
+      "Boats fill almost all the slips.",
+      "Numerous slips lack a moored boat."
+    ],
+    "D": [
+      "Very few spaces for boats are vacant at the docks.",
+      "Many spaces for boats are vacant at the docks."
+    ],
+    "E": [
+      "Boats occupy nearly every docking space.",
+      "Quite a few docking spaces are unoccupied."
+    ],
+    "feedback": "harbor (0.63), beach (0.03), runway (0.03)",
+    "tag": "saved",
+    "rng_a": 10000000,
+    "rng_b": 20000000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1033.tif",
+    "row": 830,
+    "split": "train",
+    "rgb_sha256": "37e880ffce52c0bae5a8309fbf735f5e611bab60f9d66c8622b4a508491bca6e",
+    "pair": "1015-1033",
+    "attribute": "berths",
+    "side": 1,
+    "scene_id": 10,
+    "scene": "harbor",
+    "scene_query": "Scene: a harbor.",
+    "orig_query": "Lots of boats docked at the harbor and the water is deep blue .",
+    "captions": [
+      "Lots of boats docked at the harbor and the water is deep blue .",
+      "Lots of boats docked neatly at the harbor .",
+      "Many boats docked neatly at the harbor and the water is deep blue .",
+      "Many boats docked neatly at the harbor and many positions are free .",
+      "Lots of boats docked neatly at the harbor and many positions are free ."
+    ],
+    "A": [
+      "Many berths on the docks are empty.",
+      "Most berths on the docks are occupied."
+    ],
+    "B": [
+      "The docks have many open spaces for boats.",
+      "The docks are densely lined with boats."
+    ],
+    "C": [
+      "Numerous slips lack a moored boat.",
+      "Boats fill almost all the slips."
+    ],
+    "D": [
+      "Many spaces for boats are vacant at the docks.",
+      "Very few spaces for boats are vacant at the docks."
+    ],
+    "E": [
+      "Quite a few docking spaces are unoccupied.",
+      "Boats occupy nearly every docking space."
+    ],
+    "feedback": "harbor (0.54), airplane (0.04), tennis court (0.04)",
+    "tag": "saved",
+    "rng_a": 10001000,
+    "rng_b": 20001000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1047.tif",
+    "row": 844,
+    "split": "train",
+    "rgb_sha256": "6c677805c28ec85dc7f252da84ea38e0211bfbbcd18e2a4db094a1ae19508090",
+    "pair": "1047-1034",
+    "attribute": "berths",
+    "side": 0,
+    "scene": "harbor",
+    "scene_id": 10,
+    "scene_query": "Scene: a harbor.",
+    "orig_query": "Lots of boats docked at the harbor and the water is deep blue .",
+    "captions": [
+      "Lots of boats docked at the harbor and the water is deep blue .",
+      "Lots of boats docked in lines at the harbor .",
+      "Many boats docked in lines at the harbor and the water is deep blue .",
+      "Many boats docked in lines at the harbor and some positions are free .",
+      "Lots of boats docked neatly at the harbor and the boats are closed to each other ."
+    ],
+    "A": [
+      "Most berths on the docks are occupied.",
+      "Many berths on the docks are empty."
+    ],
+    "B": [
+      "The docks are densely lined with boats.",
+      "The docks have many open spaces for boats."
+    ],
+    "C": [
+      "Boats fill almost all the slips.",
+      "Numerous slips lack a moored boat."
+    ],
+    "D": [
+      "Very few spaces for boats are vacant at the docks.",
+      "Many spaces for boats are vacant at the docks."
+    ],
+    "E": [
+      "Boats occupy nearly every docking space.",
+      "Quite a few docking spaces are unoccupied."
+    ],
+    "feedback": "harbor (0.62), parking lot (0.04), mobile home park (0.03)",
+    "tag": "saved",
+    "rng_a": 10001000,
+    "rng_b": 20001000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1034.tif",
+    "row": 831,
+    "split": "train",
+    "rgb_sha256": "f1cae2e0754a6b979cd47bef3a4c117c5fa309897ac313c3fb4c40845a06257a",
+    "pair": "1047-1034",
+    "attribute": "berths",
+    "side": 1,
+    "scene": "harbor",
+    "scene_id": 10,
+    "scene_query": "Scene: a harbor.",
+    "orig_query": "Lots of boats docked at the harbor and the water is deep blue .",
+    "captions": [
+      "Lots of boats docked at the harbor and the water is deep blue .",
+      "Lots of boats docked neatly at the harbor .",
+      "Many boats docked neatly at the harbor and the water is deep blue .",
+      "Many boats docked neatly at the harbor and many positions are free .",
+      "Lots of boats docked neatly at the harbor and many positions are free ."
+    ],
+    "A": [
+      "Many berths on the docks are empty.",
+      "Most berths on the docks are occupied."
+    ],
+    "B": [
+      "The docks have many open spaces for boats.",
+      "The docks are densely lined with boats."
+    ],
+    "C": [
+      "Numerous slips lack a moored boat.",
+      "Boats fill almost all the slips."
+    ],
+    "D": [
+      "Many spaces for boats are vacant at the docks.",
+      "Very few spaces for boats are vacant at the docks."
+    ],
+    "E": [
+      "Quite a few docking spaces are unoccupied.",
+      "Boats occupy nearly every docking space."
+    ],
+    "feedback": "harbor (0.42), storage tanks (0.05), airplane (0.04)",
+    "tag": "saved",
+    "rng_a": 10000000,
+    "rng_b": 20000000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1435.tif",
+    "pair": "1435-1449",
+    "rgb_sha256": "5ab4536d1b0d4f6f93a318a6ed66049f055a5a24540c1f77d3245697564ec29c",
+    "side": 0,
+    "row": 1154,
+    "split": "train",
+    "scene_id": 14,
+    "scene": "overpass",
+    "attribute": "bridge_axis",
+    "scene_query": "Scene: an overpass.",
+    "orig_query": "An overpass with a road go across another two roads diagonally .",
+    "captions": [
+      "An overpass with a road go across another two roads diagonally .",
+      "An overpass with a road go across another two roads diagonally with some cars on the roads .",
+      "An overpass with a road go across another two roads diagonally with some plants surounded the roads .",
+      "A road go across another two diagonally with some cars on the roads .",
+      "A road go across another two with some cars on the roads ."
+    ],
+    "A": [
+      "The upper roadway runs horizontally.",
+      "The upper roadway runs vertically."
+    ],
+    "B": [
+      "The road on top crosses from left to right.",
+      "The road on top crosses from top to bottom."
+    ],
+    "C": [
+      "The overpassing road spans the width of the image.",
+      "The overpassing road spans the height of the image."
+    ],
+    "D": [
+      "The deck on top has a left-right alignment.",
+      "The deck on top has a top-bottom alignment."
+    ],
+    "E": [
+      "The upper deck extends sideways through the frame.",
+      "The upper deck extends vertically through the frame."
+    ],
+    "tag": "fresh",
+    "rng_a": 32154000,
+    "rng_b": 42154000,
+    "feedback": "overpass (0.34), freeway (0.25), intersection (0.07)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1449.tif",
+    "pair": "1435-1449",
+    "rgb_sha256": "3ccdd91871e570c909b1ad2ca416c9b52c3c83647e80eee39c7da05ed2defd62",
+    "side": 1,
+    "row": 1168,
+    "split": "train",
+    "scene_id": 14,
+    "scene": "overpass",
+    "attribute": "bridge_axis",
+    "scene_query": "Scene: an overpass.",
+    "orig_query": "An overpass cross the roads vertically .",
+    "captions": [
+      "An overpass cross the roads vertically .",
+      "An overpass cross two roads vertically with some cars on the roads .",
+      "An overpass go across two roads vertically with some plants surounded the roads .",
+      "An overpass cross two roads vertically with some cars on the roads .",
+      "An overpass go across two roads with some cars on the roads and surrounded by plants ."
+    ],
+    "A": [
+      "The upper roadway runs vertically.",
+      "The upper roadway runs horizontally."
+    ],
+    "B": [
+      "The road on top crosses from top to bottom.",
+      "The road on top crosses from left to right."
+    ],
+    "C": [
+      "The overpassing road spans the height of the image.",
+      "The overpassing road spans the width of the image."
+    ],
+    "D": [
+      "The deck on top has a top-bottom alignment.",
+      "The deck on top has a left-right alignment."
+    ],
+    "E": [
+      "The upper deck extends vertically through the frame.",
+      "The upper deck extends sideways through the frame."
+    ],
+    "tag": "fresh",
+    "rng_a": 32168000,
+    "rng_b": 42168000,
+    "feedback": "overpass (0.41), freeway (0.24), intersection (0.07)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1405.tif",
+    "row": 1124,
+    "split": "train",
+    "rgb_sha256": "8f5fce7b51ea1090f9c94c6f188ad681a97a382d4a2452e93d5b3bc58ede005f",
+    "pair": "1405-1401",
+    "attribute": "bridge_axis",
+    "side": 0,
+    "scene": "overpass",
+    "scene_id": 14,
+    "scene_query": "Scene: an overpass.",
+    "orig_query": "An overpass with a road go across another two roads vertically .",
+    "captions": [
+      "An overpass with a road go across another two roads vertically .",
+      "An overpass with a road go across another two vertically and many cars on the roads .",
+      "An overpass with a road go across another two vertically .",
+      "A road go across another two vertically with many cars on the roads .",
+      "A road go across another two with many cars on the roads ."
+    ],
+    "A": [
+      "The upper roadway runs horizontally.",
+      "The upper roadway runs vertically."
+    ],
+    "B": [
+      "The road on top crosses from left to right.",
+      "The road on top crosses from top to bottom."
+    ],
+    "C": [
+      "The overpassing road spans the width of the image.",
+      "The overpassing road spans the height of the image."
+    ],
+    "D": [
+      "The deck on top has a left-right alignment.",
+      "The deck on top has a top-bottom alignment."
+    ],
+    "E": [
+      "The upper deck extends sideways through the frame.",
+      "The upper deck extends vertically through the frame."
+    ],
+    "feedback": "runway (0.11), agricultural (0.09), beach (0.08)",
+    "tag": "extra",
+    "rng_a": 52124000,
+    "rng_b": 62124000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1401.tif",
+    "row": 1120,
+    "split": "train",
+    "rgb_sha256": "623c2aff2134c0ca2b968ceddf933001d50742a32b9da019f81af1cd44eb305d",
+    "pair": "1405-1401",
+    "attribute": "bridge_axis",
+    "side": 1,
+    "scene": "overpass",
+    "scene_id": 14,
+    "scene_query": "Scene: an overpass.",
+    "orig_query": "An overpass with a road go across another two roads vertically .",
+    "captions": [
+      "An overpass with a road go across another two roads vertically .",
+      "An overpass with a road go across another two vertically with some cars on the roads .",
+      "An overpass with a road go across another two vertically with some plants surounded the roads .",
+      "A road go across another two vertically with some cars on the roads .",
+      "A road go across another two vertically with some cars on the roads and surrounded by plants ."
+    ],
+    "A": [
+      "The upper roadway runs vertically.",
+      "The upper roadway runs horizontally."
+    ],
+    "B": [
+      "The road on top crosses from top to bottom.",
+      "The road on top crosses from left to right."
+    ],
+    "C": [
+      "The overpassing road spans the height of the image.",
+      "The overpassing road spans the width of the image."
+    ],
+    "D": [
+      "The deck on top has a top-bottom alignment.",
+      "The deck on top has a left-right alignment."
+    ],
+    "E": [
+      "The upper deck extends vertically through the frame.",
+      "The upper deck extends sideways through the frame."
+    ],
+    "feedback": "overpass (0.25), freeway (0.24), intersection (0.08)",
+    "tag": "extra",
+    "rng_a": 52120000,
+    "rng_b": 62120000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1451.tif",
+    "row": 1170,
+    "split": "train",
+    "rgb_sha256": "9c93ee6d3ca252857711bbd610ae71e9ba514edb468058d415d987111e56628d",
+    "pair": "1451-1455",
+    "attribute": "bridge_axis",
+    "side": 0,
+    "scene_id": 14,
+    "scene": "overpass",
+    "scene_query": "Scene: an overpass.",
+    "orig_query": "There is a piece of farmland .",
+    "captions": [
+      "There is a piece of farmland .",
+      "There is a piece of cropland .",
+      "It is a piece of farmland .",
+      "It is a piece of cropland .",
+      "Here is a piece of farmland ."
+    ],
+    "A": [
+      "The upper roadway runs horizontally.",
+      "The upper roadway runs vertically."
+    ],
+    "B": [
+      "The road on top crosses from left to right.",
+      "The road on top crosses from top to bottom."
+    ],
+    "C": [
+      "The overpassing road spans the width of the image.",
+      "The overpassing road spans the height of the image."
+    ],
+    "D": [
+      "The deck on top has a left-right alignment.",
+      "The deck on top has a top-bottom alignment."
+    ],
+    "E": [
+      "The upper deck extends sideways through the frame.",
+      "The upper deck extends vertically through the frame."
+    ],
+    "feedback": "overpass (0.36), freeway (0.22), intersection (0.09)",
+    "tag": "saved",
+    "rng_a": 10002000,
+    "rng_b": 20002000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1455.tif",
+    "row": 1174,
+    "split": "train",
+    "rgb_sha256": "cafaa3762b05374da4c4c793bc43d0f2339a25690416f32b1ce89719abef0472",
+    "pair": "1451-1455",
+    "attribute": "bridge_axis",
+    "side": 1,
+    "scene_id": 14,
+    "scene": "overpass",
+    "scene_query": "Scene: an overpass.",
+    "orig_query": "An overpass with a road go across another roads vertically .",
+    "captions": [
+      "An overpass with a road go across another roads vertically .",
+      "An overpass with a road go across another roads vertically with some cars on the roads .",
+      "An overpass with a road go across another roads vertically with lawn surounded .",
+      "A road go across another roads vertically with some cars on the roads .",
+      "A road go across another roads with lawn surounded ."
+    ],
+    "A": [
+      "The upper roadway runs vertically.",
+      "The upper roadway runs horizontally."
+    ],
+    "B": [
+      "The road on top crosses from top to bottom.",
+      "The road on top crosses from left to right."
+    ],
+    "C": [
+      "The overpassing road spans the height of the image.",
+      "The overpassing road spans the width of the image."
+    ],
+    "D": [
+      "The deck on top has a top-bottom alignment.",
+      "The deck on top has a left-right alignment."
+    ],
+    "E": [
+      "The upper deck extends vertically through the frame.",
+      "The upper deck extends sideways through the frame."
+    ],
+    "feedback": "overpass (0.37), freeway (0.18), intersection (0.14)",
+    "tag": "saved",
+    "rng_a": 10003000,
+    "rng_b": 20003000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "2027.tif",
+    "row": 1626,
+    "split": "train",
+    "rgb_sha256": "fe7346e0a3d7b921306fcdd9bd38d32f1d2dbc41620a0007cbe42e6506f91ce8",
+    "pair": "2027-2035",
+    "attribute": "court_surround",
+    "side": 0,
+    "scene": "tennis courts",
+    "scene_id": 20,
+    "scene_query": "Scene: tennis courts.",
+    "orig_query": "Some tennis courts arranged in lines with some plants surrounded .",
+    "captions": [
+      "Some tennis courts arranged in lines with some plants surrounded .",
+      "Some tennis courts arranged in lines are surrounded by some trees and lawn .",
+      "There are some tennis courts arranged neatly and surrounded by some trees and lawn .",
+      "There are some tennis courts arranged in lines surrounded by some trees and lawn .",
+      "There are some tennis courts arranged neatly and surrounded by some trees ."
+    ],
+    "A": [
+      "The area surrounding the marked tennis playing surface is red.",
+      "The area surrounding the marked tennis playing surface is green."
+    ],
+    "B": [
+      "A red border surrounds the tennis playing area.",
+      "A green border surrounds the tennis playing area."
+    ],
+    "C": [
+      "Outside the marked lines the court surface is red.",
+      "Outside the marked lines the court surface is green."
+    ],
+    "D": [
+      "The outer apron of the tennis court is red.",
+      "The outer apron of the tennis court is green."
+    ],
+    "E": [
+      "A red surface borders the lined part of the tennis court.",
+      "A green surface borders the lined part of the tennis court."
+    ],
+    "feedback": "tennis court (0.57), baseball diamond (0.05), dense residential (0.04)",
+    "tag": "saved",
+    "rng_a": 10006000,
+    "rng_b": 20006000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "2035.tif",
+    "row": 1634,
+    "split": "train",
+    "rgb_sha256": "0762e24afcda2d7444a972fd7ff2fb6774e3bb8638f3ef92ee0b1648cab1dd45",
+    "pair": "2027-2035",
+    "attribute": "court_surround",
+    "side": 1,
+    "scene": "tennis courts",
+    "scene_id": 20,
+    "scene_query": "Scene: tennis courts.",
+    "orig_query": "Four tennis courts arranged in a line with some trees surrounded .",
+    "captions": [
+      "Four tennis courts arranged in a line with some trees surrounded .",
+      "Four tennis courts arranged in a line are surrounded by some trees .",
+      "There are four tennis courts arranged neatly and surrounded by some trees .",
+      "There are four tennis courts arranged in a line and surrounded by some trees .",
+      "There are four tennis courts arranged neatly and surrounded by some trees ."
+    ],
+    "A": [
+      "The area surrounding the marked tennis playing surface is green.",
+      "The area surrounding the marked tennis playing surface is red."
+    ],
+    "B": [
+      "A green border surrounds the tennis playing area.",
+      "A red border surrounds the tennis playing area."
+    ],
+    "C": [
+      "Outside the marked lines the court surface is green.",
+      "Outside the marked lines the court surface is red."
+    ],
+    "D": [
+      "The outer apron of the tennis court is green.",
+      "The outer apron of the tennis court is red."
+    ],
+    "E": [
+      "A green surface borders the lined part of the tennis court.",
+      "A red surface borders the lined part of the tennis court."
+    ],
+    "feedback": "tennis court (0.46), golf course (0.10), buildings (0.05)",
+    "tag": "saved",
+    "rng_a": 10007000,
+    "rng_b": 20007000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "2053.tif",
+    "row": 1652,
+    "split": "train",
+    "rgb_sha256": "24bd0c77a2297aaebacaf5b7b70a8bb783c1ee9a8482a1d27f1bee2386ca6197",
+    "pair": "2053-2006",
+    "attribute": "court_surround",
+    "side": 0,
+    "scene_id": 20,
+    "scene": "tennis courts",
+    "scene_query": "Scene: tennis courts.",
+    "orig_query": "Four tennis courts arranged neatly with a road beside .",
+    "captions": [
+      "Four tennis courts arranged neatly with a road beside .",
+      "Four tennis courts are surrounded by some buildings .",
+      "There are four tennis courts arranged neatly with a road beside .",
+      "There are four tennis courts surrounded by some buildings .",
+      "There are four tennis courts arranged neatly with a road beside ."
+    ],
+    "A": [
+      "The area surrounding the marked tennis playing surface is red.",
+      "The area surrounding the marked tennis playing surface is green."
+    ],
+    "B": [
+      "A red border surrounds the tennis playing area.",
+      "A green border surrounds the tennis playing area."
+    ],
+    "C": [
+      "Outside the marked lines the court surface is red.",
+      "Outside the marked lines the court surface is green."
+    ],
+    "D": [
+      "The outer apron of the tennis court is red.",
+      "The outer apron of the tennis court is green."
+    ],
+    "E": [
+      "A red surface borders the lined part of the tennis court.",
+      "A green surface borders the lined part of the tennis court."
+    ],
+    "feedback": "tennis court (0.54), baseball diamond (0.05), mobile home park (0.04)",
+    "tag": "extra",
+    "rng_a": 52652000,
+    "rng_b": 62652000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "2006.tif",
+    "row": 1605,
+    "split": "train",
+    "rgb_sha256": "f050d3855b7a4369ae0a37908abe53c87f48750f1ba809cc043537c7e7415099",
+    "pair": "2053-2006",
+    "attribute": "court_surround",
+    "side": 1,
+    "scene_id": 20,
+    "scene": "tennis courts",
+    "scene_query": "Scene: tennis courts.",
+    "orig_query": "Some tennis courts arranged neatly with some plants surrounded .",
+    "captions": [
+      "Some tennis courts arranged neatly with some plants surrounded .",
+      "Some tennis courts are surrounded by some plants .",
+      "There are some tennis courts arranged neatly and surrounded by some plants .",
+      "There are some tennis courts surrounded by some plants .",
+      "There are some tennis courts arranged neatly and surrounded by some plants ."
+    ],
+    "A": [
+      "The area surrounding the marked tennis playing surface is green.",
+      "The area surrounding the marked tennis playing surface is red."
+    ],
+    "B": [
+      "A green border surrounds the tennis playing area.",
+      "A red border surrounds the tennis playing area."
+    ],
+    "C": [
+      "Outside the marked lines the court surface is green.",
+      "Outside the marked lines the court surface is red."
+    ],
+    "D": [
+      "The outer apron of the tennis court is green.",
+      "The outer apron of the tennis court is red."
+    ],
+    "E": [
+      "A green surface borders the lined part of the tennis court.",
+      "A red surface borders the lined part of the tennis court."
+    ],
+    "feedback": "tennis court (0.51), baseball diamond (0.06), golf course (0.04)",
+    "tag": "extra",
+    "rng_a": 52605000,
+    "rng_b": 62605000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "2003.tif",
+    "row": 1602,
+    "split": "train",
+    "rgb_sha256": "f0d35df2e408a967b1ac1e81c692aa3a220a213c628691610692faa30086d048",
+    "pair": "2003-2040",
+    "attribute": "court_surround",
+    "side": 0,
+    "scene_id": 20,
+    "scene": "tennis courts",
+    "scene_query": "Scene: tennis courts.",
+    "orig_query": "A tennis court with some plants and houses surrounded .",
+    "captions": [
+      "A tennis court with some plants and houses surrounded .",
+      "A tennis court is surrounded by some plants and houses .",
+      "This is a tennis court surrounded by some plants .",
+      "There is a tennis court surrounded by some plants and houses .",
+      "There is a tennis court surrounded by some plants and houses ."
+    ],
+    "A": [
+      "The area surrounding the marked tennis playing surface is red.",
+      "The area surrounding the marked tennis playing surface is green."
+    ],
+    "B": [
+      "A red border surrounds the tennis playing area.",
+      "A green border surrounds the tennis playing area."
+    ],
+    "C": [
+      "Outside the marked lines the court surface is red.",
+      "Outside the marked lines the court surface is green."
+    ],
+    "D": [
+      "The outer apron of the tennis court is red.",
+      "The outer apron of the tennis court is green."
+    ],
+    "E": [
+      "A red surface borders the lined part of the tennis court.",
+      "A green surface borders the lined part of the tennis court."
+    ],
+    "feedback": "tennis court (0.35), sparse residential (0.13), medium residential (0.10)",
+    "tag": "saved",
+    "rng_a": 10006000,
+    "rng_b": 20006000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "2040.tif",
+    "row": 1639,
+    "split": "train",
+    "rgb_sha256": "2e30edb1b7862e7da8c0dbbacaed3741220a49c0181b33b865fdc62813da4b8f",
+    "pair": "2003-2040",
+    "attribute": "court_surround",
+    "side": 1,
+    "scene_id": 20,
+    "scene": "tennis courts",
+    "scene_query": "Scene: tennis courts.",
+    "orig_query": "Two tennis courts arranged neatly with some plants surrounded .",
+    "captions": [
+      "Two tennis courts arranged neatly with some plants surrounded .",
+      "Two tennis courts are surrounded by some many plants .",
+      "There are two tennis courts arranged neatly with a road beside .",
+      "There are two tennis courts surrounded by some trees and a road beside .",
+      "There are two tennis courts arranged neatly and a road beside ."
+    ],
+    "A": [
+      "The area surrounding the marked tennis playing surface is green.",
+      "The area surrounding the marked tennis playing surface is red."
+    ],
+    "B": [
+      "A green border surrounds the tennis playing area.",
+      "A red border surrounds the tennis playing area."
+    ],
+    "C": [
+      "Outside the marked lines the court surface is green.",
+      "Outside the marked lines the court surface is red."
+    ],
+    "D": [
+      "The outer apron of the tennis court is green.",
+      "The outer apron of the tennis court is red."
+    ],
+    "E": [
+      "A green surface borders the lined part of the tennis court.",
+      "A red surface borders the lined part of the tennis court."
+    ],
+    "feedback": "tennis court (0.39), baseball diamond (0.08), buildings (0.06)",
+    "tag": "saved",
+    "rng_a": 10007000,
+    "rng_b": 20007000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1139.tif",
+    "row": 917,
+    "split": "train",
+    "rgb_sha256": "1af42b8e02ac21e304c7988e630e80bf7234623a482034c0bf615876c7e5c33e",
+    "pair": "1139-1143",
+    "attribute": "crosswalk",
+    "side": 0,
+    "scene_id": 11,
+    "scene": "road intersection",
+    "scene_query": "Scene: a road intersection.",
+    "orig_query": "An intersection with many cars on the road .",
+    "captions": [
+      "An intersection with many cars on the road .",
+      "An intersection with some plants at the corners .",
+      "A busy intersection only with some plants at the corners .",
+      "A busy intersection with two roads are not vertical to each other .",
+      "An intersection with two roads are not vertical to each other ."
+    ],
+    "A": [
+      "The intersection has striped crosswalks.",
+      "The intersection lacks striped crosswalks."
+    ],
+    "B": [
+      "Pedestrian crossings with repeated stripes are visible.",
+      "No pedestrian crossings with repeated stripes are visible."
+    ],
+    "C": [
+      "Bands of parallel pedestrian markings appear at the junction.",
+      "The junction has no bands of parallel pedestrian markings."
+    ],
+    "D": [
+      "There are painted stripes for pedestrians at the road crossing.",
+      "There are no painted stripes for pedestrians at the road crossing."
+    ],
+    "E": [
+      "Striped pedestrian crossings mark this intersection.",
+      "This intersection has no striped pedestrian crossings."
+    ],
+    "feedback": "intersection (0.33), overpass (0.11), freeway (0.09)",
+    "tag": "saved",
+    "rng_a": 10008000,
+    "rng_b": 20008000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1143.tif",
+    "row": 921,
+    "split": "train",
+    "rgb_sha256": "dc693ee1d2558ec7251064ce3b6981854e1cfd652d358a3b9c579edc671abfd4",
+    "pair": "1139-1143",
+    "attribute": "crosswalk",
+    "side": 1,
+    "scene_id": 11,
+    "scene": "road intersection",
+    "scene_query": "Scene: a road intersection.",
+    "orig_query": "An intersection with no cars or pedestrians .",
+    "captions": [
+      "An intersection with no cars or pedestrians .",
+      "An intersection with some houses and plants at the corners .",
+      "A desolate intersection with some houses and plants at the corners .",
+      "A desolate intersection with two roads are not vertical to each other .",
+      "An intersection with two roads are not vertical to each other ."
+    ],
+    "A": [
+      "The intersection lacks striped crosswalks.",
+      "The intersection has striped crosswalks."
+    ],
+    "B": [
+      "No pedestrian crossings with repeated stripes are visible.",
+      "Pedestrian crossings with repeated stripes are visible."
+    ],
+    "C": [
+      "The junction has no bands of parallel pedestrian markings.",
+      "Bands of parallel pedestrian markings appear at the junction."
+    ],
+    "D": [
+      "There are no painted stripes for pedestrians at the road crossing.",
+      "There are painted stripes for pedestrians at the road crossing."
+    ],
+    "E": [
+      "This intersection has no striped pedestrian crossings.",
+      "Striped pedestrian crossings mark this intersection."
+    ],
+    "feedback": "intersection (0.30), medium residential (0.12), dense residential (0.11)",
+    "tag": "saved",
+    "rng_a": 10009000,
+    "rng_b": 20009000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1158.tif",
+    "pair": "1158-1162",
+    "rgb_sha256": "45c84c5057398994d962114f3aad6e91ac860828e3b9835292503f6615058fc4",
+    "side": 0,
+    "row": 936,
+    "split": "train",
+    "scene_id": 11,
+    "scene": "road intersection",
+    "attribute": "crosswalk",
+    "scene_query": "Scene: a road intersection.",
+    "orig_query": "An intersection with a few cars on the road .",
+    "captions": [
+      "An intersection with a few cars on the road .",
+      "An intersection with some plants and houses at the corners .",
+      "An intersection only with some plants and houses at the corners .",
+      "An intersection with a very big tree at the corner .",
+      "An intersection with two roads vertical to each other ."
+    ],
+    "A": [
+      "The intersection has striped crosswalks.",
+      "The intersection lacks striped crosswalks."
+    ],
+    "B": [
+      "Pedestrian crossings with repeated stripes are visible.",
+      "No pedestrian crossings with repeated stripes are visible."
+    ],
+    "C": [
+      "Bands of parallel pedestrian markings appear at the junction.",
+      "The junction has no bands of parallel pedestrian markings."
+    ],
+    "D": [
+      "There are painted stripes for pedestrians at the road crossing.",
+      "There are no painted stripes for pedestrians at the road crossing."
+    ],
+    "E": [
+      "Striped pedestrian crossings mark this intersection.",
+      "This intersection has no striped pedestrian crossings."
+    ],
+    "tag": "fresh",
+    "rng_a": 31936000,
+    "rng_b": 41936000,
+    "feedback": "intersection (0.38), medium residential (0.11), dense residential (0.08)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1162.tif",
+    "pair": "1158-1162",
+    "rgb_sha256": "c3fb02f7d57e0a8db6e3732b241426d78034babee01a9f86d97d8772418a962f",
+    "side": 1,
+    "row": 940,
+    "split": "train",
+    "scene_id": 11,
+    "scene": "road intersection",
+    "attribute": "crosswalk",
+    "scene_query": "Scene: a road intersection.",
+    "orig_query": "An intersection with no cars or pedestrians .",
+    "captions": [
+      "An intersection with no cars or pedestrians .",
+      "An intersection with four houses at each corner .",
+      "A desolate intersection only with four houses at each corner .",
+      "A desolate intersection with no cars or pedestrians .",
+      "An intersection with two roads vertical to each other ."
+    ],
+    "A": [
+      "The intersection lacks striped crosswalks.",
+      "The intersection has striped crosswalks."
+    ],
+    "B": [
+      "No pedestrian crossings with repeated stripes are visible.",
+      "Pedestrian crossings with repeated stripes are visible."
+    ],
+    "C": [
+      "The junction has no bands of parallel pedestrian markings.",
+      "Bands of parallel pedestrian markings appear at the junction."
+    ],
+    "D": [
+      "There are no painted stripes for pedestrians at the road crossing.",
+      "There are painted stripes for pedestrians at the road crossing."
+    ],
+    "E": [
+      "This intersection has no striped pedestrian crossings.",
+      "Striped pedestrian crossings mark this intersection."
+    ],
+    "tag": "fresh",
+    "rng_a": 31940000,
+    "rng_b": 41940000,
+    "feedback": "intersection (0.15), medium residential (0.15), dense residential (0.13)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1140.tif",
+    "row": 918,
+    "split": "train",
+    "rgb_sha256": "a21877e2016da207fec8b056363010ff2a2c4e36a01646617667696d114d9a51",
+    "pair": "1140-1161",
+    "attribute": "crosswalk",
+    "side": 0,
+    "scene": "road intersection",
+    "scene_id": 11,
+    "scene_query": "Scene: a road intersection.",
+    "orig_query": "An intersection with many cars on the road .",
+    "captions": [
+      "An intersection with many cars on the road .",
+      "An intersection with some plants at the corners .",
+      "A busy intersection only with some plants at the corners .",
+      "A busy intersection with two roads are not vertical to each other .",
+      "An intersection with two roads are not vertical to each other ."
+    ],
+    "A": [
+      "The intersection has striped crosswalks.",
+      "The intersection lacks striped crosswalks."
+    ],
+    "B": [
+      "Pedestrian crossings with repeated stripes are visible.",
+      "No pedestrian crossings with repeated stripes are visible."
+    ],
+    "C": [
+      "Bands of parallel pedestrian markings appear at the junction.",
+      "The junction has no bands of parallel pedestrian markings."
+    ],
+    "D": [
+      "There are painted stripes for pedestrians at the road crossing.",
+      "There are no painted stripes for pedestrians at the road crossing."
+    ],
+    "E": [
+      "Striped pedestrian crossings mark this intersection.",
+      "This intersection has no striped pedestrian crossings."
+    ],
+    "feedback": "intersection (0.39), overpass (0.11), freeway (0.08)",
+    "tag": "saved",
+    "rng_a": 10008000,
+    "rng_b": 20008000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1161.tif",
+    "row": 939,
+    "split": "train",
+    "rgb_sha256": "bb4bb734867bb4ad13e3ed0a4af7e49d473cf53963abad990896e3eb31988337",
+    "pair": "1140-1161",
+    "attribute": "crosswalk",
+    "side": 1,
+    "scene": "road intersection",
+    "scene_id": 11,
+    "scene_query": "Scene: a road intersection.",
+    "orig_query": "An intersection with no cars or pedestrians .",
+    "captions": [
+      "An intersection with no cars or pedestrians .",
+      "An intersection with four houses at each corner .",
+      "A desolate intersection only with four houses at each corner .",
+      "A desolate intersection with no cars or pedestrians .",
+      "An intersection with two roads vertical to each other ."
+    ],
+    "A": [
+      "The intersection lacks striped crosswalks.",
+      "The intersection has striped crosswalks."
+    ],
+    "B": [
+      "No pedestrian crossings with repeated stripes are visible.",
+      "Pedestrian crossings with repeated stripes are visible."
+    ],
+    "C": [
+      "The junction has no bands of parallel pedestrian markings.",
+      "Bands of parallel pedestrian markings appear at the junction."
+    ],
+    "D": [
+      "There are no painted stripes for pedestrians at the road crossing.",
+      "There are painted stripes for pedestrians at the road crossing."
+    ],
+    "E": [
+      "This intersection has no striped pedestrian crossings.",
+      "Striped pedestrian crossings mark this intersection."
+    ],
+    "feedback": "intersection (0.20), medium residential (0.13), dense residential (0.12)",
+    "tag": "saved",
+    "rng_a": 10009000,
+    "rng_b": 20009000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "11.tif",
+    "row": 10,
+    "split": "train",
+    "rgb_sha256": "1907a2fc83dbd4649ec9a0a8416db0cbc870529614aaa756d2f39481b2193e17",
+    "pair": "11-21",
+    "attribute": "field_axis",
+    "side": 0,
+    "scene_id": 0,
+    "scene": "agricultural field",
+    "scene_query": "Scene: an agricultural field.",
+    "orig_query": "There is a piece of farmland .",
+    "captions": [
+      "There is a piece of farmland .",
+      "There is a piece of cropland .",
+      "It is a piece of farmland .",
+      "It is a piece of cropland .",
+      "Here is a piece of farmland ."
+    ],
+    "A": [
+      "The crop rows run horizontally.",
+      "The crop rows run vertically."
+    ],
+    "B": [
+      "The planting lines extend from left to right.",
+      "The planting lines extend from top to bottom."
+    ],
+    "C": [
+      "Rows of crops cross the field from side to side.",
+      "Rows of crops cross the field from the upper edge to the lower edge."
+    ],
+    "D": [
+      "The planting furrows have a left-right orientation.",
+      "The planting furrows have a top-bottom orientation."
+    ],
+    "E": [
+      "Furrows are oriented across the width of this field.",
+      "Furrows are oriented along the height of this field."
+    ],
+    "feedback": "agricultural (0.23), beach (0.15), chaparral (0.09)",
+    "tag": "saved",
+    "rng_a": 10010000,
+    "rng_b": 20010000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "21.tif",
+    "row": 20,
+    "split": "train",
+    "rgb_sha256": "440512eed3100e9a0c9a316d4f52f69241a717bda52fd58dadf5f8108b2dca1e",
+    "pair": "11-21",
+    "attribute": "field_axis",
+    "side": 1,
+    "scene_id": 0,
+    "scene": "agricultural field",
+    "scene_query": "Scene: an agricultural field.",
+    "orig_query": "There is a piece of farmland .",
+    "captions": [
+      "There is a piece of farmland .",
+      "There is a piece of cropland .",
+      "It is a piece of farmland .",
+      "It is a piece of cropland .",
+      "Here is a piece of farmland ."
+    ],
+    "A": [
+      "The crop rows run vertically.",
+      "The crop rows run horizontally."
+    ],
+    "B": [
+      "The planting lines extend from top to bottom.",
+      "The planting lines extend from left to right."
+    ],
+    "C": [
+      "Rows of crops cross the field from the upper edge to the lower edge.",
+      "Rows of crops cross the field from side to side."
+    ],
+    "D": [
+      "The planting furrows have a top-bottom orientation.",
+      "The planting furrows have a left-right orientation."
+    ],
+    "E": [
+      "Furrows are oriented along the height of this field.",
+      "Furrows are oriented across the width of this field."
+    ],
+    "feedback": "agricultural (0.50), forest (0.04), golf course (0.04)",
+    "tag": "saved",
+    "rng_a": 10011000,
+    "rng_b": 20011000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "13.tif",
+    "row": 12,
+    "split": "train",
+    "rgb_sha256": "280cb9b02ad8b7fae07589cab5e9bffbb0ccf58fe85616ae0ea3cb976646af3c",
+    "pair": "13-26",
+    "attribute": "field_axis",
+    "side": 0,
+    "scene": "agricultural field",
+    "scene_id": 0,
+    "scene_query": "Scene: an agricultural field.",
+    "orig_query": "There is a piece of farmland .",
+    "captions": [
+      "There is a piece of farmland .",
+      "There is a piece of cropland .",
+      "It is a piece of farmland .",
+      "It is a piece of cropland .",
+      "Here is a piece of farmland ."
+    ],
+    "A": [
+      "The crop rows run horizontally.",
+      "The crop rows run vertically."
+    ],
+    "B": [
+      "The planting lines extend from left to right.",
+      "The planting lines extend from top to bottom."
+    ],
+    "C": [
+      "Rows of crops cross the field from side to side.",
+      "Rows of crops cross the field from the upper edge to the lower edge."
+    ],
+    "D": [
+      "The planting furrows have a left-right orientation.",
+      "The planting furrows have a top-bottom orientation."
+    ],
+    "E": [
+      "Furrows are oriented across the width of this field.",
+      "Furrows are oriented along the height of this field."
+    ],
+    "feedback": "agricultural (0.47), forest (0.07), chaparral (0.06)",
+    "tag": "saved",
+    "rng_a": 10010000,
+    "rng_b": 20010000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "26.tif",
+    "row": 25,
+    "split": "train",
+    "rgb_sha256": "70a38d8e4c4aca33111e75a17b24c266f0bba101a6cc9edd662b4eaa2e87abba",
+    "pair": "13-26",
+    "attribute": "field_axis",
+    "side": 1,
+    "scene": "agricultural field",
+    "scene_id": 0,
+    "scene_query": "Scene: an agricultural field.",
+    "orig_query": "There is a piece of farmland .",
+    "captions": [
+      "There is a piece of farmland .",
+      "There is a piece of cropland .",
+      "It is a piece of farmland .",
+      "It is a piece of cropland .",
+      "Here is a piece of farmland ."
+    ],
+    "A": [
+      "The crop rows run vertically.",
+      "The crop rows run horizontally."
+    ],
+    "B": [
+      "The planting lines extend from top to bottom.",
+      "The planting lines extend from left to right."
+    ],
+    "C": [
+      "Rows of crops cross the field from the upper edge to the lower edge.",
+      "Rows of crops cross the field from side to side."
+    ],
+    "D": [
+      "The planting furrows have a top-bottom orientation.",
+      "The planting furrows have a left-right orientation."
+    ],
+    "E": [
+      "Furrows are oriented along the height of this field.",
+      "Furrows are oriented across the width of this field."
+    ],
+    "feedback": "agricultural (0.40), chaparral (0.07), storage tanks (0.04)",
+    "tag": "saved",
+    "rng_a": 10011000,
+    "rng_b": 20011000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "78.tif",
+    "row": 77,
+    "split": "train",
+    "rgb_sha256": "63bfcd9b6cad1fdc105e9ea8f0076c6cd6bc708f35a02e46d1bf5e14d3a88671",
+    "pair": "78-76",
+    "attribute": "field_color",
+    "side": 0,
+    "scene_id": 0,
+    "scene": "agricultural field",
+    "scene_query": "Scene: an agricultural field.",
+    "orig_query": "There is a piece of farmland .",
+    "captions": [
+      "There is a piece of farmland .",
+      "There is a piece of cropland .",
+      "It is a piece of farmland .",
+      "It is a piece of cropland .",
+      "Here is a piece of farmland ."
+    ],
+    "A": [
+      "The field is green.",
+      "The field is brown."
+    ],
+    "B": [
+      "Green is the dominant color of the cultivated land.",
+      "Brown is the dominant color of the cultivated land."
+    ],
+    "C": [
+      "The planted area has a green tone.",
+      "The planted area has a brown tone."
+    ],
+    "D": [
+      "The farmland looks green.",
+      "The farmland looks brown."
+    ],
+    "E": [
+      "Most of this cultivated plot appears green.",
+      "Most of this cultivated plot appears brown."
+    ],
+    "feedback": "agricultural (0.47), forest (0.09), chaparral (0.05)",
+    "tag": "saved",
+    "rng_a": 10013000,
+    "rng_b": 20013000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "76.tif",
+    "row": 75,
+    "split": "train",
+    "rgb_sha256": "53869836b353fd298aea7bb475ee0b79056155c41b2446e253ea1cb603dad074",
+    "pair": "78-76",
+    "attribute": "field_color",
+    "side": 1,
+    "scene_id": 0,
+    "scene": "agricultural field",
+    "scene_query": "Scene: an agricultural field.",
+    "orig_query": "There is a piece of farmland .",
+    "captions": [
+      "There is a piece of farmland .",
+      "There is a piece of cropland .",
+      "It is a piece of farmland .",
+      "It is a piece of cropland .",
+      "Here is a piece of farmland ."
+    ],
+    "A": [
+      "The field is brown.",
+      "The field is green."
+    ],
+    "B": [
+      "Brown is the dominant color of the cultivated land.",
+      "Green is the dominant color of the cultivated land."
+    ],
+    "C": [
+      "The planted area has a brown tone.",
+      "The planted area has a green tone."
+    ],
+    "D": [
+      "The farmland looks brown.",
+      "The farmland looks green."
+    ],
+    "E": [
+      "Most of this cultivated plot appears brown.",
+      "Most of this cultivated plot appears green."
+    ],
+    "feedback": "agricultural (0.49), forest (0.06), beach (0.05)",
+    "tag": "saved",
+    "rng_a": 10012000,
+    "rng_b": 20012000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "47.tif",
+    "row": 46,
+    "split": "train",
+    "rgb_sha256": "92ba22838ba114785c87c496d35f7028da83a6569406434d08bd1e88d35d3bee",
+    "pair": "47-63",
+    "attribute": "field_color",
+    "side": 0,
+    "scene": "agricultural field",
+    "scene_id": 0,
+    "scene_query": "Scene: an agricultural field.",
+    "orig_query": "There is a piece of farmland .",
+    "captions": [
+      "There is a piece of farmland .",
+      "There is a piece of cropland .",
+      "It is a piece of farmland .",
+      "It is a piece of cropland .",
+      "Here is a piece of farmland ."
+    ],
+    "A": [
+      "The field is green.",
+      "The field is brown."
+    ],
+    "B": [
+      "Green is the dominant color of the cultivated land.",
+      "Brown is the dominant color of the cultivated land."
+    ],
+    "C": [
+      "The planted area has a green tone.",
+      "The planted area has a brown tone."
+    ],
+    "D": [
+      "The farmland looks green.",
+      "The farmland looks brown."
+    ],
+    "E": [
+      "Most of this cultivated plot appears green.",
+      "Most of this cultivated plot appears brown."
+    ],
+    "feedback": "agricultural (0.45), forest (0.06), beach (0.05)",
+    "tag": "saved",
+    "rng_a": 10012000,
+    "rng_b": 20012000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "63.tif",
+    "row": 62,
+    "split": "train",
+    "rgb_sha256": "b57980e1ae9744c6d7fe85d2dd53c708126d31a0977629d81fddcb2cd6e33656",
+    "pair": "47-63",
+    "attribute": "field_color",
+    "side": 1,
+    "scene": "agricultural field",
+    "scene_id": 0,
+    "scene_query": "Scene: an agricultural field.",
+    "orig_query": "There is a piece of farmland .",
+    "captions": [
+      "There is a piece of farmland .",
+      "There is a piece of cropland .",
+      "It is a piece of farmland .",
+      "It is a piece of cropland .",
+      "Here is a piece of farmland ."
+    ],
+    "A": [
+      "The field is brown.",
+      "The field is green."
+    ],
+    "B": [
+      "Brown is the dominant color of the cultivated land.",
+      "Green is the dominant color of the cultivated land."
+    ],
+    "C": [
+      "The planted area has a brown tone.",
+      "The planted area has a green tone."
+    ],
+    "D": [
+      "The farmland looks brown.",
+      "The farmland looks green."
+    ],
+    "E": [
+      "Most of this cultivated plot appears brown.",
+      "Most of this cultivated plot appears green."
+    ],
+    "feedback": "agricultural (0.53), forest (0.09), chaparral (0.05)",
+    "tag": "saved",
+    "rng_a": 10013000,
+    "rng_b": 20013000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "851.tif",
+    "pair": "851-863",
+    "rgb_sha256": "93fba11230e9ee13a01257b9097aeb27679ca770e9c5d3a746739cd47eb6e1ab",
+    "side": 0,
+    "row": 688,
+    "split": "train",
+    "scene_id": 8,
+    "scene": "freeway",
+    "attribute": "freeway_axis",
+    "scene_query": "Scene: a freeway.",
+    "orig_query": "There are two straight freeways closed together .",
+    "captions": [
+      "There are two straight freeways closed together .",
+      "There are two straight freeways with some cars on the roads .",
+      "Two straight freeways with some cars on them .",
+      "Two straight freeways closed to each other .",
+      "Two straight freeways closed to each other with some cars on them ."
+    ],
+    "A": [
+      "The freeway runs horizontally.",
+      "The freeway runs vertically."
+    ],
+    "B": [
+      "The freeway crosses from left to right.",
+      "The freeway crosses from top to bottom."
+    ],
+    "C": [
+      "The main highway spans the width of the view.",
+      "The main highway spans the height of the view."
+    ],
+    "D": [
+      "The highway lanes traverse the scene sideways.",
+      "The highway lanes traverse the scene from its top to its bottom."
+    ],
+    "E": [
+      "The main highway extends across the image from side to side.",
+      "The main highway extends through the image from top to bottom."
+    ],
+    "tag": "fresh",
+    "rng_a": 31688000,
+    "rng_b": 41688000,
+    "feedback": "freeway (0.34), overpass (0.18), runway (0.05)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "863.tif",
+    "pair": "851-863",
+    "rgb_sha256": "016b0e6708b739f4a3e2cc688c39c3c5002c4acafff478e537cc17902a7af960",
+    "side": 1,
+    "row": 700,
+    "split": "train",
+    "scene_id": 8,
+    "scene": "freeway",
+    "attribute": "freeway_axis",
+    "scene_query": "Scene: a freeway.",
+    "orig_query": "There are two straight freeways in the desert .",
+    "captions": [
+      "There are two straight freeways in the desert .",
+      "There are two straight freeways in the desert with no car on them .",
+      "Two straight freeways in the desert with no car on them .",
+      "Two straight freeways in the desert .",
+      "Two straight freeways in the desert with no car on the roads ."
+    ],
+    "A": [
+      "The freeway runs vertically.",
+      "The freeway runs horizontally."
+    ],
+    "B": [
+      "The freeway crosses from top to bottom.",
+      "The freeway crosses from left to right."
+    ],
+    "C": [
+      "The main highway spans the height of the view.",
+      "The main highway spans the width of the view."
+    ],
+    "D": [
+      "The highway lanes traverse the scene from its top to its bottom.",
+      "The highway lanes traverse the scene sideways."
+    ],
+    "E": [
+      "The main highway extends through the image from top to bottom.",
+      "The main highway extends across the image from side to side."
+    ],
+    "tag": "fresh",
+    "rng_a": 31700000,
+    "rng_b": 41700000,
+    "feedback": "freeway (0.25), overpass (0.11), chaparral (0.11)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "872.tif",
+    "row": 709,
+    "split": "train",
+    "rgb_sha256": "10a3d378368edb5c5837c25718ae8769471400f321575626a983eaaa633ef8e5",
+    "pair": "872-848",
+    "attribute": "freeway_axis",
+    "side": 0,
+    "scene": "freeway",
+    "scene_id": 8,
+    "scene_query": "Scene: a freeway.",
+    "orig_query": "There are two straight freeways with some plants beside them .",
+    "captions": [
+      "There are two straight freeways with some plants beside them .",
+      "There are two straight freeways with some cars on them .",
+      "Two straight freeways closed together with some plants beside them .",
+      "Two straight freeways with some plants beside them and some cars on the roads .",
+      "Two straight freeways closed together with some cars on them ."
+    ],
+    "A": [
+      "The freeway runs horizontally.",
+      "The freeway runs vertically."
+    ],
+    "B": [
+      "The freeway crosses from left to right.",
+      "The freeway crosses from top to bottom."
+    ],
+    "C": [
+      "The main highway spans the width of the view.",
+      "The main highway spans the height of the view."
+    ],
+    "D": [
+      "The highway lanes traverse the scene sideways.",
+      "The highway lanes traverse the scene from its top to its bottom."
+    ],
+    "E": [
+      "The main highway extends across the image from side to side.",
+      "The main highway extends through the image from top to bottom."
+    ],
+    "feedback": "freeway (0.38), overpass (0.18), parking lot (0.05)",
+    "tag": "saved",
+    "rng_a": 10017000,
+    "rng_b": 20017000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "848.tif",
+    "row": 685,
+    "split": "train",
+    "rgb_sha256": "6610a4c3493f615fd98842ac1bc13cfc2b53206bcbbb2f455d8256acb3f1436b",
+    "pair": "872-848",
+    "attribute": "freeway_axis",
+    "side": 1,
+    "scene": "freeway",
+    "scene_id": 8,
+    "scene_query": "Scene: a freeway.",
+    "orig_query": "There are two straight freeways closed together .",
+    "captions": [
+      "There are two straight freeways closed together .",
+      "There are two straight freeways with some cars on the roads .",
+      "Two straight freeways with some cars on them .",
+      "Two straight freeways closed to each other .",
+      "Two straight freeways closed to each other with some cars on them ."
+    ],
+    "A": [
+      "The freeway runs vertically.",
+      "The freeway runs horizontally."
+    ],
+    "B": [
+      "The freeway crosses from top to bottom.",
+      "The freeway crosses from left to right."
+    ],
+    "C": [
+      "The main highway spans the height of the view.",
+      "The main highway spans the width of the view."
+    ],
+    "D": [
+      "The highway lanes traverse the scene from its top to its bottom.",
+      "The highway lanes traverse the scene sideways."
+    ],
+    "E": [
+      "The main highway extends through the image from top to bottom.",
+      "The main highway extends across the image from side to side."
+    ],
+    "feedback": "runway (0.15), chaparral (0.07), agricultural (0.07)",
+    "tag": "saved",
+    "rng_a": 10016000,
+    "rng_b": 20016000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "878.tif",
+    "row": 715,
+    "split": "train",
+    "rgb_sha256": "36ad380eb49f7087d42f80d9fa440df41999f6a8ea040a6ea5e2401fda200db9",
+    "pair": "878-814",
+    "attribute": "freeway_axis",
+    "side": 0,
+    "scene_id": 8,
+    "scene": "freeway",
+    "scene_query": "Scene: a freeway.",
+    "orig_query": "There are two straight freeways closed together .",
+    "captions": [
+      "There are two straight freeways closed together .",
+      "There are two straight freeways with some cars on them .",
+      "Two straight freeways with some plants beside them .",
+      "Two straight freeways closed together with some cars on them .",
+      "Two straight freeways closed together with some plants beside them ."
+    ],
+    "A": [
+      "The freeway runs horizontally.",
+      "The freeway runs vertically."
+    ],
+    "B": [
+      "The freeway crosses from left to right.",
+      "The freeway crosses from top to bottom."
+    ],
+    "C": [
+      "The main highway spans the width of the view.",
+      "The main highway spans the height of the view."
+    ],
+    "D": [
+      "The highway lanes traverse the scene sideways.",
+      "The highway lanes traverse the scene from its top to its bottom."
+    ],
+    "E": [
+      "The main highway extends across the image from side to side.",
+      "The main highway extends through the image from top to bottom."
+    ],
+    "feedback": "freeway (0.33), overpass (0.23), intersection (0.05)",
+    "tag": "saved",
+    "rng_a": 10017000,
+    "rng_b": 20017000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "814.tif",
+    "row": 651,
+    "split": "train",
+    "rgb_sha256": "face54c229120cd27697ddef388159b2cac6ff8b78d9511c4a4627504a222abf",
+    "pair": "878-814",
+    "attribute": "freeway_axis",
+    "side": 1,
+    "scene_id": 8,
+    "scene": "freeway",
+    "scene_query": "Scene: a freeway.",
+    "orig_query": "There are two straight freeways closed to each other .",
+    "captions": [
+      "There are two straight freeways closed to each other .",
+      "There are two straight freeways closed to each other with some cars on the roads .",
+      "Two straight freeways closed to each other with some cars on the roads .",
+      "Some cars are on the freeways .",
+      "There are some cars are on the freeways ."
+    ],
+    "A": [
+      "The freeway runs vertically.",
+      "The freeway runs horizontally."
+    ],
+    "B": [
+      "The freeway crosses from top to bottom.",
+      "The freeway crosses from left to right."
+    ],
+    "C": [
+      "The main highway spans the height of the view.",
+      "The main highway spans the width of the view."
+    ],
+    "D": [
+      "The highway lanes traverse the scene from its top to its bottom.",
+      "The highway lanes traverse the scene sideways."
+    ],
+    "E": [
+      "The main highway extends through the image from top to bottom.",
+      "The main highway extends across the image from side to side."
+    ],
+    "feedback": "freeway (0.29), overpass (0.22), intersection (0.06)",
+    "tag": "saved",
+    "rng_a": 10016000,
+    "rng_b": 20016000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "876.tif",
+    "row": 713,
+    "split": "train",
+    "rgb_sha256": "197c055184a2d46dfb705aa87d7e27a06974bbb8433b11ab10e213c2a5c1d6e1",
+    "pair": "876-860",
+    "attribute": "freeway_color",
+    "side": 0,
+    "scene": "freeway",
+    "scene_id": 8,
+    "scene_query": "Scene: a freeway.",
+    "orig_query": "There are two straight freeways with some plants beside them .",
+    "captions": [
+      "There are two straight freeways with some plants beside them .",
+      "There are two straight freeways with some cars on them .",
+      "Two straight freeways closed together with some plants beside them .",
+      "Two straight freeways with some plants beside them and some cars on the roads .",
+      "Two straight freeways closed together with some cars on them ."
+    ],
+    "A": [
+      "The freeway pavement is pale.",
+      "The freeway pavement is dark."
+    ],
+    "B": [
+      "The highway surface is light in color.",
+      "The highway surface is dark in color."
+    ],
+    "C": [
+      "The road lanes have a bright surface.",
+      "The road lanes have a dark surface."
+    ],
+    "D": [
+      "A light-colored highway surface is visible.",
+      "A dark-colored highway surface is visible."
+    ],
+    "E": [
+      "The highway has pale paving.",
+      "The highway has dark paving."
+    ],
+    "feedback": "freeway (0.35), overpass (0.22), intersection (0.05)",
+    "tag": "saved",
+    "rng_a": 10019000,
+    "rng_b": 20019000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "860.tif",
+    "row": 697,
+    "split": "train",
+    "rgb_sha256": "53469b7f0369f8b23e0d53aaa46540ca361af1c9585712f300540c4308142e12",
+    "pair": "876-860",
+    "attribute": "freeway_color",
+    "side": 1,
+    "scene": "freeway",
+    "scene_id": 8,
+    "scene_query": "Scene: a freeway.",
+    "orig_query": "There are two straight freeways in the desert .",
+    "captions": [
+      "There are two straight freeways in the desert .",
+      "There are two straight freeways in the desert with some cars on them .",
+      "Two straight freeways in the desert with some cars on them .",
+      "Two straight freeways in the desert .",
+      "Two straight freeways in the desert with some cars on the roads ."
+    ],
+    "A": [
+      "The freeway pavement is dark.",
+      "The freeway pavement is pale."
+    ],
+    "B": [
+      "The highway surface is dark in color.",
+      "The highway surface is light in color."
+    ],
+    "C": [
+      "The road lanes have a dark surface.",
+      "The road lanes have a bright surface."
+    ],
+    "D": [
+      "A dark-colored highway surface is visible.",
+      "A light-colored highway surface is visible."
+    ],
+    "E": [
+      "The highway has dark paving.",
+      "The highway has pale paving."
+    ],
+    "feedback": "freeway (0.21), overpass (0.12), intersection (0.09)",
+    "tag": "saved",
+    "rng_a": 10018000,
+    "rng_b": 20018000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "804.tif",
+    "pair": "804-841",
+    "rgb_sha256": "23b3ad7d1fb9f9fc01ebeea4814eefabe7a676d6bdaba7ffe19439c15890f486",
+    "side": 0,
+    "row": 641,
+    "split": "train",
+    "scene_id": 8,
+    "scene": "freeway",
+    "attribute": "freeway_color",
+    "scene_query": "Scene: a freeway.",
+    "orig_query": "There are two straight freeways closed to each other .",
+    "captions": [
+      "There are two straight freeways closed to each other .",
+      "There are two straight freeways closed to each other with some cars on the roads .",
+      "Two straight freeways closed to each other with some cars on the roads .",
+      "Some cars are on the freeways .",
+      "There are some cars are on the freeways ."
+    ],
+    "A": [
+      "The freeway pavement is pale.",
+      "The freeway pavement is dark."
+    ],
+    "B": [
+      "The highway surface is light in color.",
+      "The highway surface is dark in color."
+    ],
+    "C": [
+      "The road lanes have a bright surface.",
+      "The road lanes have a dark surface."
+    ],
+    "D": [
+      "A light-colored highway surface is visible.",
+      "A dark-colored highway surface is visible."
+    ],
+    "E": [
+      "The highway has pale paving.",
+      "The highway has dark paving."
+    ],
+    "tag": "fresh",
+    "rng_a": 31641000,
+    "rng_b": 41641000,
+    "feedback": "freeway (0.39), overpass (0.16), parking lot (0.05)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "841.tif",
+    "pair": "804-841",
+    "rgb_sha256": "720b44ddaa2daddd28b0faa8d7d467d3577c305333c796a214e6b8cf177caee9",
+    "side": 1,
+    "row": 678,
+    "split": "train",
+    "scene_id": 8,
+    "scene": "freeway",
+    "attribute": "freeway_color",
+    "scene_query": "Scene: a freeway.",
+    "orig_query": "There are some straight freeways with cars on the roads .",
+    "captions": [
+      "There are some straight freeways with cars on the roads .",
+      "Some freeways parallel forward with some cars on the roads .",
+      "Some freeways parallel forward with some plants beside them .",
+      "There are some freeways parallel forward with some plants beside them .",
+      "Some freeways parallel forward ."
+    ],
+    "A": [
+      "The freeway pavement is dark.",
+      "The freeway pavement is pale."
+    ],
+    "B": [
+      "The highway surface is dark in color.",
+      "The highway surface is light in color."
+    ],
+    "C": [
+      "The road lanes have a dark surface.",
+      "The road lanes have a bright surface."
+    ],
+    "D": [
+      "A dark-colored highway surface is visible.",
+      "A light-colored highway surface is visible."
+    ],
+    "E": [
+      "The highway has dark paving.",
+      "The highway has pale paving."
+    ],
+    "tag": "fresh",
+    "rng_a": 31678000,
+    "rng_b": 41678000,
+    "feedback": "freeway (0.27), overpass (0.26), intersection (0.08)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "805.tif",
+    "pair": "805-868",
+    "rgb_sha256": "eda6c9bcd39eb72b14a749c5f4b32151e2f6bd574f26fbb714066b625aa60135",
+    "side": 0,
+    "row": 642,
+    "split": "train",
+    "scene_id": 8,
+    "scene": "freeway",
+    "attribute": "freeway_color",
+    "scene_query": "Scene: a freeway.",
+    "orig_query": "There are two curved  freeways closed to each other .",
+    "captions": [
+      "There are two curved  freeways closed to each other .",
+      "There are two curved  freeways closed to each other with some cars on the roads .",
+      "Two curved  freeways closed to each other with some cars on the roads .",
+      "Some cars are on the freeways .",
+      "There are some cars are on the freeways ."
+    ],
+    "A": [
+      "The freeway pavement is pale.",
+      "The freeway pavement is dark."
+    ],
+    "B": [
+      "The highway surface is light in color.",
+      "The highway surface is dark in color."
+    ],
+    "C": [
+      "The road lanes have a bright surface.",
+      "The road lanes have a dark surface."
+    ],
+    "D": [
+      "A light-colored highway surface is visible.",
+      "A dark-colored highway surface is visible."
+    ],
+    "E": [
+      "The highway has pale paving.",
+      "The highway has dark paving."
+    ],
+    "tag": "fresh",
+    "rng_a": 31642000,
+    "rng_b": 41642000,
+    "feedback": "freeway (0.36), overpass (0.19), intersection (0.05)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "868.tif",
+    "pair": "805-868",
+    "rgb_sha256": "e2b34a05d177b38e5312b1e845af3de5b72220c0088b5bffb3f814599e1e045e",
+    "side": 1,
+    "row": 705,
+    "split": "train",
+    "scene_id": 8,
+    "scene": "freeway",
+    "attribute": "freeway_color",
+    "scene_query": "Scene: a freeway.",
+    "orig_query": "There are two curved freeways with some plants beside them .",
+    "captions": [
+      "There are two curved freeways with some plants beside them .",
+      "There are two curved freeways with some cars on them .",
+      "Two curved freeways with some plants beside them .",
+      "Two curved freeways with some plants beside them and some cars on the roads .",
+      "Two curved freeways with some cars on them ."
+    ],
+    "A": [
+      "The freeway pavement is dark.",
+      "The freeway pavement is pale."
+    ],
+    "B": [
+      "The highway surface is dark in color.",
+      "The highway surface is light in color."
+    ],
+    "C": [
+      "The road lanes have a dark surface.",
+      "The road lanes have a bright surface."
+    ],
+    "D": [
+      "A dark-colored highway surface is visible.",
+      "A light-colored highway surface is visible."
+    ],
+    "E": [
+      "The highway has dark paving.",
+      "The highway has pale paving."
+    ],
+    "tag": "fresh",
+    "rng_a": 31705000,
+    "rng_b": 41705000,
+    "feedback": "freeway (0.34), overpass (0.18), parking lot (0.05)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1054.tif",
+    "row": 851,
+    "split": "train",
+    "rgb_sha256": "0e360cab018dc413ee1144f95fb730956be416e3966182081742651cb66ffd3b",
+    "pair": "1054-1012",
+    "attribute": "harbor_rows",
+    "side": 0,
+    "scene_id": 10,
+    "scene": "harbor",
+    "scene_query": "Scene: a harbor.",
+    "orig_query": "Lots of boats docked at the harbor the water is deep blue .",
+    "captions": [
+      "Lots of boats docked at the harbor the water is deep blue .",
+      "Lots of boats docked neatly at the harbor .",
+      "Many boats docked neatly at the harbor and the water is deep blue .",
+      "Many boats docked neatly at the harbor and some positions are free .",
+      "Lots of boats docked neatly at the harbor and some positions are free ."
+    ],
+    "A": [
+      "The long rows of moored boats run horizontally.",
+      "The long rows of moored boats run vertically."
+    ],
+    "B": [
+      "The lines of tied boats extend left to right.",
+      "The lines of tied boats extend top to bottom."
+    ],
+    "C": [
+      "The boat rows span the width of the picture.",
+      "The boat rows span the height of the picture."
+    ],
+    "D": [
+      "Moored boats form rows across the width of the frame.",
+      "Moored boats form rows down the height of the frame."
+    ],
+    "E": [
+      "The long lines of boats go from left to right in this harbor.",
+      "The long lines of boats go from top to bottom in this harbor."
+    ],
+    "feedback": "harbor (0.52), mobile home park (0.05), airplane (0.04)",
+    "tag": "saved",
+    "rng_a": 10021000,
+    "rng_b": 20021000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1012.tif",
+    "row": 809,
+    "split": "train",
+    "rgb_sha256": "6fd51a219bb20d720a9f651d13c7f987726365a3d97ab2448f4846b12d8da0e2",
+    "pair": "1054-1012",
+    "attribute": "harbor_rows",
+    "side": 1,
+    "scene_id": 10,
+    "scene": "harbor",
+    "scene_query": "Scene: a harbor.",
+    "orig_query": "Lots of boats docked in lines at the harbor .",
+    "captions": [
+      "Lots of boats docked in lines at the harbor .",
+      "Lots of boats docked in lines at the harbor the boats are closed to each other .",
+      "Many boats docked in lines at the harbor and the water is deep blue .",
+      "Many boats docked in lines at the harbor and just a few positions are free .",
+      "Lots of boats docked in lines at the harbor and the boats are closed to each other ."
+    ],
+    "A": [
+      "The long rows of moored boats run vertically.",
+      "The long rows of moored boats run horizontally."
+    ],
+    "B": [
+      "The lines of tied boats extend top to bottom.",
+      "The lines of tied boats extend left to right."
+    ],
+    "C": [
+      "The boat rows span the height of the picture.",
+      "The boat rows span the width of the picture."
+    ],
+    "D": [
+      "Moored boats form rows down the height of the frame.",
+      "Moored boats form rows across the width of the frame."
+    ],
+    "E": [
+      "The long lines of boats go from top to bottom in this harbor.",
+      "The long lines of boats go from left to right in this harbor."
+    ],
+    "feedback": "harbor (0.56), airplane (0.05), parking lot (0.03)",
+    "tag": "saved",
+    "rng_a": 10020000,
+    "rng_b": 20020000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1063.tif",
+    "row": 860,
+    "split": "train",
+    "rgb_sha256": "cf32a19303857ee9d8ff690cbcaa51419380870cdb6700c1bd3ebcda3b9b24c1",
+    "pair": "1063-1006",
+    "attribute": "harbor_rows",
+    "side": 0,
+    "scene": "harbor",
+    "scene_id": 10,
+    "scene_query": "Scene: a harbor.",
+    "orig_query": "Lots of boats docked at the harbor and the boats are closed to each other .",
+    "captions": [
+      "Lots of boats docked at the harbor and the boats are closed to each other .",
+      "Lots of boats docked neatly at the harbor .",
+      "Many boats docked neatly at the harbor and the water is deep blue .",
+      "Many boats docked neatly at the harbor and many positions are free .",
+      "Lots of boats docked neatly at the harbor and many positions are free ."
+    ],
+    "A": [
+      "The long rows of moored boats run horizontally.",
+      "The long rows of moored boats run vertically."
+    ],
+    "B": [
+      "The lines of tied boats extend left to right.",
+      "The lines of tied boats extend top to bottom."
+    ],
+    "C": [
+      "The boat rows span the width of the picture.",
+      "The boat rows span the height of the picture."
+    ],
+    "D": [
+      "Moored boats form rows across the width of the frame.",
+      "Moored boats form rows down the height of the frame."
+    ],
+    "E": [
+      "The long lines of boats go from left to right in this harbor.",
+      "The long lines of boats go from top to bottom in this harbor."
+    ],
+    "feedback": "harbor (0.55), beach (0.05), parking lot (0.04)",
+    "tag": "saved",
+    "rng_a": 10021000,
+    "rng_b": 20021000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1006.tif",
+    "row": 803,
+    "split": "train",
+    "rgb_sha256": "50eda4541e2e9f676db9ef6e01076bad15f8b16da0b2c37ab7ab785f79ae5fb2",
+    "pair": "1063-1006",
+    "attribute": "harbor_rows",
+    "side": 1,
+    "scene": "harbor",
+    "scene_id": 10,
+    "scene_query": "Scene: a harbor.",
+    "orig_query": "Lots of boats docked at the harbor .",
+    "captions": [
+      "Lots of boats docked at the harbor .",
+      "Lots of boats docked in lines at the harbor .",
+      "Many boats docked in lines at the harbor and the water is deep blue .",
+      "Many boats docked in lines at the harbor and the boats are closed to each other .",
+      "Lots of boats docked in lines at the harbor and the water is deep blue ."
+    ],
+    "A": [
+      "The long rows of moored boats run vertically.",
+      "The long rows of moored boats run horizontally."
+    ],
+    "B": [
+      "The lines of tied boats extend top to bottom.",
+      "The lines of tied boats extend left to right."
+    ],
+    "C": [
+      "The boat rows span the height of the picture.",
+      "The boat rows span the width of the picture."
+    ],
+    "D": [
+      "Moored boats form rows down the height of the frame.",
+      "Moored boats form rows across the width of the frame."
+    ],
+    "E": [
+      "The long lines of boats go from top to bottom in this harbor.",
+      "The long lines of boats go from left to right in this harbor."
+    ],
+    "feedback": "harbor (0.64), parking lot (0.04), runway (0.03)",
+    "tag": "saved",
+    "rng_a": 10020000,
+    "rng_b": 20020000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1070.tif",
+    "pair": "1070-1005",
+    "rgb_sha256": "82a536fc6e4c90d9d6cad8a4219409226a169bdbeebff0f73f97618b97d3ebce",
+    "side": 0,
+    "row": 867,
+    "split": "train",
+    "scene_id": 10,
+    "scene": "harbor",
+    "attribute": "harbor_rows",
+    "scene_query": "Scene: a harbor.",
+    "orig_query": "Some boats docked neatly at the harbor and the water is deep blue .",
+    "captions": [
+      "Some boats docked neatly at the harbor and the water is deep blue .",
+      "Some boats docked neatly at the harbor .",
+      "Many boats docked neatly at the harbor and the water is deep blue .",
+      "Many boats docked neatly at the harbor and some positions are free .",
+      "Lots of boats docked neatly at the harbor and some positions are free ."
+    ],
+    "A": [
+      "The long rows of moored boats run horizontally.",
+      "The long rows of moored boats run vertically."
+    ],
+    "B": [
+      "The lines of tied boats extend left to right.",
+      "The lines of tied boats extend top to bottom."
+    ],
+    "C": [
+      "The boat rows span the width of the picture.",
+      "The boat rows span the height of the picture."
+    ],
+    "D": [
+      "Moored boats form rows across the width of the frame.",
+      "Moored boats form rows down the height of the frame."
+    ],
+    "E": [
+      "The long lines of boats go from left to right in this harbor.",
+      "The long lines of boats go from top to bottom in this harbor."
+    ],
+    "tag": "fresh",
+    "rng_a": 31867000,
+    "rng_b": 41867000,
+    "feedback": "harbor (0.49), parking lot (0.04), tennis court (0.04)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1005.tif",
+    "pair": "1070-1005",
+    "rgb_sha256": "7461ba5d2dc9f6f64292a5f3db46e864cbb1a6d8f97fce6fc9903bea96b4b34a",
+    "side": 1,
+    "row": 802,
+    "split": "train",
+    "scene_id": 10,
+    "scene": "harbor",
+    "attribute": "harbor_rows",
+    "scene_query": "Scene: a harbor.",
+    "orig_query": "Lots of boats docked at the harbor .",
+    "captions": [
+      "Lots of boats docked at the harbor .",
+      "Lots of boats docked in lines at the harbor .",
+      "Many boats docked in lines at the harbor and the water is deep blue .",
+      "Many boats docked neatly at the harbor and just a few positions are free .",
+      "Lots of boats docked neatly at the harbor and just a few positions are free ."
+    ],
+    "A": [
+      "The long rows of moored boats run vertically.",
+      "The long rows of moored boats run horizontally."
+    ],
+    "B": [
+      "The lines of tied boats extend top to bottom.",
+      "The lines of tied boats extend left to right."
+    ],
+    "C": [
+      "The boat rows span the height of the picture.",
+      "The boat rows span the width of the picture."
+    ],
+    "D": [
+      "Moored boats form rows down the height of the frame.",
+      "Moored boats form rows across the width of the frame."
+    ],
+    "E": [
+      "The long lines of boats go from top to bottom in this harbor.",
+      "The long lines of boats go from left to right in this harbor."
+    ],
+    "tag": "fresh",
+    "rng_a": 31802000,
+    "rng_b": 41802000,
+    "feedback": "harbor (0.66), parking lot (0.03), beach (0.03)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1815.tif",
+    "row": 1454,
+    "split": "train",
+    "rgb_sha256": "0c932e7e6400c1721c1aaa3485ffdc02a54d1361c6970a3f35b1aa74ed643029",
+    "pair": "1815-1876",
+    "attribute": "house_light",
+    "side": 0,
+    "scene": "residential area",
+    "scene_id": 18,
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "A house is surrounded by sands and bushes in the sparse residential area .",
+    "captions": [
+      "A house is surrounded by sands and bushes in the sparse residential area .",
+      "This is a sparse residential area with a house surrounded by sands and bushes .",
+      "A house with bushes surrounded is in the sparse residential area .",
+      "A house with bushes surrounded is in the sparse residential area .",
+      "A house with sands and bushes surrounded has some cars parked beside ."
+    ],
+    "A": [
+      "The main house has a light roof.",
+      "The main house has a dark roof."
+    ],
+    "B": [
+      "The roof on the main house looks pale.",
+      "The roof on the main house looks dark."
+    ],
+    "C": [
+      "The principal residential rooftop has a light tone.",
+      "The principal residential rooftop has a dark tone."
+    ],
+    "D": [
+      "Light-colored roofing covers the principal house.",
+      "Dark-colored roofing covers the principal house."
+    ],
+    "E": [
+      "The largest house has pale-colored roofing.",
+      "The largest house has dark-colored roofing."
+    ],
+    "feedback": "sparse residential (0.28), medium residential (0.09), chaparral (0.09)",
+    "tag": "saved",
+    "rng_a": 10022000,
+    "rng_b": 20022000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1876.tif",
+    "row": 1515,
+    "split": "train",
+    "rgb_sha256": "23acfdc40fa085e32548250f2e10e18119792a3a3bb6d0f093c085a60ce8de40",
+    "pair": "1815-1876",
+    "attribute": "house_light",
+    "side": 1,
+    "scene": "residential area",
+    "scene_id": 18,
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "A house with orange roofs is surrounded by lawn and withered trees in the sparse residential area .",
+    "captions": [
+      "A house with orange roofs is surrounded by lawn and withered trees in the sparse residential area .",
+      "This is a sparse residential area with a villa surrounded by lawn and withered trees .",
+      "A house with lawn and withered trees surrounded is in the sparse residential area .",
+      "A house with plants surrounded and a road beside in the sparse residential area .",
+      "A house with plants surrounded and a road beside ."
+    ],
+    "A": [
+      "The main house has a dark roof.",
+      "The main house has a light roof."
+    ],
+    "B": [
+      "The roof on the main house looks dark.",
+      "The roof on the main house looks pale."
+    ],
+    "C": [
+      "The principal residential rooftop has a dark tone.",
+      "The principal residential rooftop has a light tone."
+    ],
+    "D": [
+      "Dark-colored roofing covers the principal house.",
+      "Light-colored roofing covers the principal house."
+    ],
+    "E": [
+      "The largest house has dark-colored roofing.",
+      "The largest house has pale-colored roofing."
+    ],
+    "feedback": "sparse residential (0.43), medium residential (0.07), golf course (0.04)",
+    "tag": "saved",
+    "rng_a": 10023000,
+    "rng_b": 20023000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1814.tif",
+    "row": 1453,
+    "split": "train",
+    "rgb_sha256": "542766756f9bf1f40cccff3cab102ac121b5ea526fe3bcb29db8aad3b8dce0a3",
+    "pair": "1814-1861",
+    "attribute": "house_light",
+    "side": 0,
+    "scene_id": 18,
+    "scene": "residential area",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "A house is surrounded by sands and bushes in the sparse residential area .",
+    "captions": [
+      "A house is surrounded by sands and bushes in the sparse residential area .",
+      "This is a sparse residential area with a house surrounded by sands and bushes .",
+      "A house with bushes surrounded is in the sparse residential area .",
+      "A house with bushes surrounded is in the sparse residential area .",
+      "A house with sands and bushes surrounded has some cars parked beside ."
+    ],
+    "A": [
+      "The main house has a light roof.",
+      "The main house has a dark roof."
+    ],
+    "B": [
+      "The roof on the main house looks pale.",
+      "The roof on the main house looks dark."
+    ],
+    "C": [
+      "The principal residential rooftop has a light tone.",
+      "The principal residential rooftop has a dark tone."
+    ],
+    "D": [
+      "Light-colored roofing covers the principal house.",
+      "Dark-colored roofing covers the principal house."
+    ],
+    "E": [
+      "The largest house has pale-colored roofing.",
+      "The largest house has dark-colored roofing."
+    ],
+    "feedback": "sparse residential (0.15), chaparral (0.10), medium residential (0.08)",
+    "tag": "saved",
+    "rng_a": 10022000,
+    "rng_b": 20022000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1861.tif",
+    "row": 1500,
+    "split": "train",
+    "rgb_sha256": "6e394bd2f5a244bd1ff3fc24929301a44a566ea6ff88c9e9cecfcb4ae5a0820a",
+    "pair": "1814-1861",
+    "attribute": "house_light",
+    "side": 1,
+    "scene_id": 18,
+    "scene": "residential area",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "A house is surrounded by verdant lawn in the sparse residential area .",
+    "captions": [
+      "A house is surrounded by verdant lawn in the sparse residential area .",
+      "This is a sparse residential area with a house surrounded by verdant lawn .",
+      "A house with verdant lawn surrounded is in the sparse residential area .",
+      "A house with verdant plants surrounded and a road beside in the sparse residential area .",
+      "A house with verdant lawn surrounded and a road beside ."
+    ],
+    "A": [
+      "The main house has a dark roof.",
+      "The main house has a light roof."
+    ],
+    "B": [
+      "The roof on the main house looks dark.",
+      "The roof on the main house looks pale."
+    ],
+    "C": [
+      "The principal residential rooftop has a dark tone.",
+      "The principal residential rooftop has a light tone."
+    ],
+    "D": [
+      "Dark-colored roofing covers the principal house.",
+      "Light-colored roofing covers the principal house."
+    ],
+    "E": [
+      "The largest house has dark-colored roofing.",
+      "The largest house has pale-colored roofing."
+    ],
+    "feedback": "sparse residential (0.36), medium residential (0.07), golf course (0.06)",
+    "tag": "saved",
+    "rng_a": 10023000,
+    "rng_b": 20023000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "249.tif",
+    "row": 209,
+    "split": "train",
+    "rgb_sha256": "08d6acadb84f64e69870b04e2bf1effffaded2afeb76c60fc7bca034172d692b",
+    "pair": "249-205",
+    "attribute": "infield",
+    "side": 0,
+    "scene_id": 2,
+    "scene": "baseball field",
+    "scene_query": "Scene: a baseball field.",
+    "orig_query": "This is a baseball diamond .",
+    "captions": [
+      "This is a baseball diamond .",
+      "It is a new baseball diamond with stands sorrounded .",
+      "It is a regular baseball diamond .",
+      "A regular baseball diamond compose of manicured lawns and sand .",
+      "A regular baseball diamond compose of manicured lawns and sand ."
+    ],
+    "A": [
+      "The central baseball infield is grass.",
+      "The central baseball infield is dirt."
+    ],
+    "B": [
+      "Grass covers the middle of the infield.",
+      "Bare soil covers the middle of the infield."
+    ],
+    "C": [
+      "Inside the base paths the playing surface is grassy.",
+      "Inside the base paths the playing surface is earthen."
+    ],
+    "D": [
+      "Within the diamond there is a grass-covered patch around the mound.",
+      "Within the diamond the ground around the mound is dirt."
+    ],
+    "E": [
+      "The area inside the baseball diamond has a grassy center.",
+      "The area inside the baseball diamond has a dirt center."
+    ],
+    "feedback": "baseball diamond (0.64), golf course (0.04), sparse residential (0.04)",
+    "tag": "saved",
+    "rng_a": 10027000,
+    "rng_b": 20027000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "205.tif",
+    "row": 165,
+    "split": "train",
+    "rgb_sha256": "cbae68c00c56f39c2052427134142d13da6f6735c2c3bd864fa305eeb5d9b343",
+    "pair": "249-205",
+    "attribute": "infield",
+    "side": 1,
+    "scene_id": 2,
+    "scene": "baseball field",
+    "scene_query": "Scene: a baseball field.",
+    "orig_query": "This is an old baseball diamond .",
+    "captions": [
+      "This is an old baseball diamond .",
+      "It is a very old baseball diamond with sand and weeds .",
+      "A baseball diamond composed of sand and weeds .",
+      "It is a very old baseball diamond compose of sand and weeds .",
+      "It is a very old baseball diamond compose of sand and weeds ."
+    ],
+    "A": [
+      "The central baseball infield is dirt.",
+      "The central baseball infield is grass."
+    ],
+    "B": [
+      "Bare soil covers the middle of the infield.",
+      "Grass covers the middle of the infield."
+    ],
+    "C": [
+      "Inside the base paths the playing surface is earthen.",
+      "Inside the base paths the playing surface is grassy."
+    ],
+    "D": [
+      "Within the diamond the ground around the mound is dirt.",
+      "Within the diamond there is a grass-covered patch around the mound."
+    ],
+    "E": [
+      "The area inside the baseball diamond has a dirt center.",
+      "The area inside the baseball diamond has a grassy center."
+    ],
+    "feedback": "baseball diamond (0.54), golf course (0.05), tennis court (0.04)",
+    "tag": "saved",
+    "rng_a": 10026000,
+    "rng_b": 20026000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "246.tif",
+    "row": 206,
+    "split": "train",
+    "rgb_sha256": "2215f6b44c1fee8e1624d5c59a7d978fdd15a2436df89948eeda38d52a4f7ce3",
+    "pair": "246-212",
+    "attribute": "infield",
+    "side": 0,
+    "scene_id": 2,
+    "scene": "baseball field",
+    "scene_query": "Scene: a baseball field.",
+    "orig_query": "This is a baseball diamond .",
+    "captions": [
+      "This is a baseball diamond .",
+      "It is a new baseball diamond with sands and grass .",
+      "It is a regular baseball diamond .",
+      "A regular baseball diamond compose of manicured lawns and sand .",
+      "A regular baseball diamond compose of manicured lawns and sand ."
+    ],
+    "A": [
+      "The central baseball infield is grass.",
+      "The central baseball infield is dirt."
+    ],
+    "B": [
+      "Grass covers the middle of the infield.",
+      "Bare soil covers the middle of the infield."
+    ],
+    "C": [
+      "Inside the base paths the playing surface is grassy.",
+      "Inside the base paths the playing surface is earthen."
+    ],
+    "D": [
+      "Within the diamond there is a grass-covered patch around the mound.",
+      "Within the diamond the ground around the mound is dirt."
+    ],
+    "E": [
+      "The area inside the baseball diamond has a grassy center.",
+      "The area inside the baseball diamond has a dirt center."
+    ],
+    "feedback": "baseball diamond (0.44), buildings (0.08), tennis court (0.07)",
+    "tag": "saved",
+    "rng_a": 10027000,
+    "rng_b": 20027000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "212.tif",
+    "row": 172,
+    "split": "train",
+    "rgb_sha256": "f73dcb96f7359c2a7d3baeb61edd601579401bf6c96cbc45fb1cabcd92576596",
+    "pair": "246-212",
+    "attribute": "infield",
+    "side": 1,
+    "scene_id": 2,
+    "scene": "baseball field",
+    "scene_query": "Scene: a baseball field.",
+    "orig_query": "This is an old baseball diamond .",
+    "captions": [
+      "This is an old baseball diamond .",
+      "It is a very old baseball diamond with sand and weeds .",
+      "A baseball diamond composed of sand and weeds .",
+      "It is a very old baseball diamond compose of sand and weeds .",
+      "It is a very old baseball diamond compose of sand and weeds ."
+    ],
+    "A": [
+      "The central baseball infield is dirt.",
+      "The central baseball infield is grass."
+    ],
+    "B": [
+      "Bare soil covers the middle of the infield.",
+      "Grass covers the middle of the infield."
+    ],
+    "C": [
+      "Inside the base paths the playing surface is earthen.",
+      "Inside the base paths the playing surface is grassy."
+    ],
+    "D": [
+      "Within the diamond the ground around the mound is dirt.",
+      "Within the diamond there is a grass-covered patch around the mound."
+    ],
+    "E": [
+      "The area inside the baseball diamond has a dirt center.",
+      "The area inside the baseball diamond has a grassy center."
+    ],
+    "feedback": "baseball diamond (0.53), storage tanks (0.04), golf course (0.04)",
+    "tag": "saved",
+    "rng_a": 10026000,
+    "rng_b": 20026000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "226.tif",
+    "row": 186,
+    "split": "train",
+    "rgb_sha256": "79f131ae510194ce532f5be0b69f4090cbe39446f3a1a95c3d550094df2a4e94",
+    "pair": "226-236",
+    "attribute": "infield",
+    "side": 0,
+    "scene": "baseball field",
+    "scene_id": 2,
+    "scene_query": "Scene: a baseball field.",
+    "orig_query": "This is an old baseball diamond .",
+    "captions": [
+      "This is an old baseball diamond .",
+      "It is a very old baseball diamond with sand and weeds .",
+      "A baseball diamond composed of sand and weeds .",
+      "It is a very old baseball diamond compose of sand and weeds .",
+      "It is a very old baseball diamond compose of sand and weeds ."
+    ],
+    "A": [
+      "The central baseball infield is grass.",
+      "The central baseball infield is dirt."
+    ],
+    "B": [
+      "Grass covers the middle of the infield.",
+      "Bare soil covers the middle of the infield."
+    ],
+    "C": [
+      "Inside the base paths the playing surface is grassy.",
+      "Inside the base paths the playing surface is earthen."
+    ],
+    "D": [
+      "Within the diamond there is a grass-covered patch around the mound.",
+      "Within the diamond the ground around the mound is dirt."
+    ],
+    "E": [
+      "The area inside the baseball diamond has a grassy center.",
+      "The area inside the baseball diamond has a dirt center."
+    ],
+    "feedback": "baseball diamond (0.73), golf course (0.03), tennis court (0.03)",
+    "tag": "extra",
+    "rng_a": 51186000,
+    "rng_b": 61186000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "236.tif",
+    "row": 196,
+    "split": "train",
+    "rgb_sha256": "55be623b6aca05fd642ce651d3e33ade59ad3de5f4852cbf761c32fad5c06a39",
+    "pair": "226-236",
+    "attribute": "infield",
+    "side": 1,
+    "scene": "baseball field",
+    "scene_id": 2,
+    "scene_query": "Scene: a baseball field.",
+    "orig_query": "This is an old baseball diamond .",
+    "captions": [
+      "This is an old baseball diamond .",
+      "It is an old baseball diamond with sands and grass .",
+      "It is a small baseball diamond .",
+      "An old baseball diamond with sands and grass .",
+      "An old baseball diamond with sands and grass ."
+    ],
+    "A": [
+      "The central baseball infield is dirt.",
+      "The central baseball infield is grass."
+    ],
+    "B": [
+      "Bare soil covers the middle of the infield.",
+      "Grass covers the middle of the infield."
+    ],
+    "C": [
+      "Inside the base paths the playing surface is earthen.",
+      "Inside the base paths the playing surface is grassy."
+    ],
+    "D": [
+      "Within the diamond the ground around the mound is dirt.",
+      "Within the diamond there is a grass-covered patch around the mound."
+    ],
+    "E": [
+      "The area inside the baseball diamond has a dirt center.",
+      "The area inside the baseball diamond has a grassy center."
+    ],
+    "feedback": "baseball diamond (0.45), tennis court (0.06), parking lot (0.04)",
+    "tag": "extra",
+    "rng_a": 51196000,
+    "rng_b": 61196000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1330.tif",
+    "row": 1069,
+    "split": "train",
+    "rgb_sha256": "95566a92eeff1b5503e4a0cba143f2a6ee59703ed1f7d66b0ea50e48480bc5d9",
+    "pair": "1330-1309",
+    "attribute": "mobile_axis",
+    "side": 0,
+    "scene": "mobile home park",
+    "scene_id": 13,
+    "scene_query": "Scene: a mobile home park.",
+    "orig_query": "Many mobile homes arranged in lines in the mobile home park .",
+    "captions": [
+      "Many mobile homes arranged in lines in the mobile home park .",
+      "Many mobile homes are closed to each other in the mobile home park .",
+      "Lots of mobile homes with plants surrounded in the mobile home park .",
+      "Many mobile homes arranged in lines in the mobile home park and some roads go through this area .",
+      "Lots of mobile homes are closed to each other and some roads go through this area ."
+    ],
+    "A": [
+      "The straight street between the mobile homes runs horizontally.",
+      "The straight street between the mobile homes runs vertically."
+    ],
+    "B": [
+      "A street extends left to right between mobile homes.",
+      "A street extends top to bottom between mobile homes."
+    ],
+    "C": [
+      "The mobile homes line a road spanning the width of the view.",
+      "The mobile homes line a road spanning the height of the view."
+    ],
+    "D": [
+      "The access street between the trailers follows a left-right course.",
+      "The access street between the trailers follows a top-bottom course."
+    ],
+    "E": [
+      "The road between the trailers crosses the picture from side to side.",
+      "The road between the trailers crosses the picture from top to bottom."
+    ],
+    "feedback": "mobile home park (0.49), medium residential (0.08), dense residential (0.07)",
+    "tag": "saved",
+    "rng_a": 10029000,
+    "rng_b": 20029000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1309.tif",
+    "row": 1048,
+    "split": "train",
+    "rgb_sha256": "b1ea114d911b272a2f59e9fec91628413a1bc6e7c3ce3301304cf7033ec1fad6",
+    "pair": "1330-1309",
+    "attribute": "mobile_axis",
+    "side": 1,
+    "scene": "mobile home park",
+    "scene_id": 13,
+    "scene_query": "Scene: a mobile home park.",
+    "orig_query": "Many mobile homes arranged in lines in the mobile home park .",
+    "captions": [
+      "Many mobile homes arranged in lines in the mobile home park .",
+      "Many mobile homes are closed to each other in the mobile home park .",
+      "Lots of mobile homes with plants surrounded in the mobile home park .",
+      "Many mobile homes arranged in lines in the mobile home park and some roads go through this area .",
+      "Lots of mobile homes arranged in lines and some roads go through this area ."
+    ],
+    "A": [
+      "The straight street between the mobile homes runs vertically.",
+      "The straight street between the mobile homes runs horizontally."
+    ],
+    "B": [
+      "A street extends top to bottom between mobile homes.",
+      "A street extends left to right between mobile homes."
+    ],
+    "C": [
+      "The mobile homes line a road spanning the height of the view.",
+      "The mobile homes line a road spanning the width of the view."
+    ],
+    "D": [
+      "The access street between the trailers follows a top-bottom course.",
+      "The access street between the trailers follows a left-right course."
+    ],
+    "E": [
+      "The road between the trailers crosses the picture from top to bottom.",
+      "The road between the trailers crosses the picture from side to side."
+    ],
+    "feedback": "mobile home park (0.26), medium residential (0.24), dense residential (0.14)",
+    "tag": "saved",
+    "rng_a": 10028000,
+    "rng_b": 20028000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1306.tif",
+    "row": 1045,
+    "split": "train",
+    "rgb_sha256": "ddea563252db59df9f627d1edc9e53b94d0e57bc9b814cbebc5461005dfe50bf",
+    "pair": "1306-1336",
+    "attribute": "mobile_axis",
+    "side": 0,
+    "scene_id": 13,
+    "scene": "mobile home park",
+    "scene_query": "Scene: a mobile home park.",
+    "orig_query": "Many mobile homes arranged in lines in the mobile home park .",
+    "captions": [
+      "Many mobile homes arranged in lines in the mobile home park .",
+      "Lots of mobile homes are closed to each other and some cars parked at the roadside in the mobile home park .",
+      "Many mobile homes with plants surrounded and some cars parked at the roadside in the mobile home park .",
+      "Lots of mobile homes arranged in lines in the mobile home park and some roads go through this area .",
+      "Many mobile homes arranged in lines and some roads go through this area ."
+    ],
+    "A": [
+      "The straight street between the mobile homes runs horizontally.",
+      "The straight street between the mobile homes runs vertically."
+    ],
+    "B": [
+      "A street extends left to right between mobile homes.",
+      "A street extends top to bottom between mobile homes."
+    ],
+    "C": [
+      "The mobile homes line a road spanning the width of the view.",
+      "The mobile homes line a road spanning the height of the view."
+    ],
+    "D": [
+      "The access street between the trailers follows a left-right course.",
+      "The access street between the trailers follows a top-bottom course."
+    ],
+    "E": [
+      "The road between the trailers crosses the picture from side to side.",
+      "The road between the trailers crosses the picture from top to bottom."
+    ],
+    "feedback": "mobile home park (0.33), medium residential (0.21), dense residential (0.14)",
+    "tag": "saved",
+    "rng_a": 10028000,
+    "rng_b": 20028000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1336.tif",
+    "row": 1075,
+    "split": "train",
+    "rgb_sha256": "f8998f5d9fc07cb23fd60cb26c532d4e51748017a9c2b085ebe91e36ecfc32e9",
+    "pair": "1306-1336",
+    "attribute": "mobile_axis",
+    "side": 1,
+    "scene_id": 13,
+    "scene": "mobile home park",
+    "scene_query": "Scene: a mobile home park.",
+    "orig_query": "Many mobile homes are arranged haphazardly in the mobile home park .",
+    "captions": [
+      "Many mobile homes are arranged haphazardly in the mobile home park .",
+      "Many mobile homes are arranged haphazardly in the mobile home park with plants flourish .",
+      "Lots of mobile homes with plants beside in the mobile home park .",
+      "Many mobile homes arranged haphazardly in the mobile home park and some roads go through this area .",
+      "Lots of mobile homes arranged haphazardly and some roads go through this area ."
+    ],
+    "A": [
+      "The straight street between the mobile homes runs vertically.",
+      "The straight street between the mobile homes runs horizontally."
+    ],
+    "B": [
+      "A street extends top to bottom between mobile homes.",
+      "A street extends left to right between mobile homes."
+    ],
+    "C": [
+      "The mobile homes line a road spanning the height of the view.",
+      "The mobile homes line a road spanning the width of the view."
+    ],
+    "D": [
+      "The access street between the trailers follows a top-bottom course.",
+      "The access street between the trailers follows a left-right course."
+    ],
+    "E": [
+      "The road between the trailers crosses the picture from top to bottom.",
+      "The road between the trailers crosses the picture from side to side."
+    ],
+    "feedback": "mobile home park (0.46), medium residential (0.07), dense residential (0.06)",
+    "tag": "saved",
+    "rng_a": 10029000,
+    "rng_b": 20029000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1532.tif",
+    "row": 1231,
+    "split": "train",
+    "rgb_sha256": "c5c9bf8b027d575be53dc072bcffa6663e8ae13363f9b1eb3500edc89180ff01",
+    "pair": "1532-1501",
+    "attribute": "parking_fill",
+    "side": 0,
+    "scene": "parking lot",
+    "scene_id": 15,
+    "scene_query": "Scene: a parking lot.",
+    "orig_query": "Lots of cars parked in lines in the parking lot .",
+    "captions": [
+      "Lots of cars parked in lines in the parking lot .",
+      "Lots of cars parked neatly in the parking lot .",
+      "Many cars arranged in lines in the parking lot .",
+      "It is a parking lot with many cars densely arranged .",
+      "Many cars are densely arranged in the parking lot ."
+    ],
+    "A": [
+      "The parking rows are densely filled with cars.",
+      "The parking rows have many empty spaces."
+    ],
+    "B": [
+      "Cars fill most of the parking stalls.",
+      "Numerous parking stalls are vacant."
+    ],
+    "C": [
+      "Nearly every place in the parking rows is occupied.",
+      "There are many gaps between cars in the parking rows."
+    ],
+    "D": [
+      "The parking spaces are almost all occupied.",
+      "A large number of parking spaces are unoccupied."
+    ],
+    "E": [
+      "Almost every stall in these parking rows contains a vehicle.",
+      "Many stalls in these parking rows contain no vehicle."
+    ],
+    "feedback": "parking lot (0.38), intersection (0.06), dense residential (0.06)",
+    "tag": "saved",
+    "rng_a": 10033000,
+    "rng_b": 20033000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1501.tif",
+    "row": 1200,
+    "split": "train",
+    "rgb_sha256": "22209bf2d1b804e0afefbe8c9879faa1967ecbf628ba80b7e5802ace11cc03a3",
+    "pair": "1532-1501",
+    "attribute": "parking_fill",
+    "side": 1,
+    "scene": "parking lot",
+    "scene_id": 15,
+    "scene_query": "Scene: a parking lot.",
+    "orig_query": "Lots of cars parked in the parking lot .",
+    "captions": [
+      "Lots of cars parked in the parking lot .",
+      "Lots of cars parked scatteredly in the parking lot .",
+      "Many cars parked scatteredly with some empty parking spaces in the parking lot .",
+      "It is a parking lot with many cars parked scatteredly and some parking spots are free .",
+      "Many cars parked scatteredly with some free parking spots in the parking lot ."
+    ],
+    "A": [
+      "The parking rows have many empty spaces.",
+      "The parking rows are densely filled with cars."
+    ],
+    "B": [
+      "Numerous parking stalls are vacant.",
+      "Cars fill most of the parking stalls."
+    ],
+    "C": [
+      "There are many gaps between cars in the parking rows.",
+      "Nearly every place in the parking rows is occupied."
+    ],
+    "D": [
+      "A large number of parking spaces are unoccupied.",
+      "The parking spaces are almost all occupied."
+    ],
+    "E": [
+      "Many stalls in these parking rows contain no vehicle.",
+      "Almost every stall in these parking rows contains a vehicle."
+    ],
+    "feedback": "parking lot (0.34), buildings (0.09), intersection (0.06)",
+    "tag": "saved",
+    "rng_a": 10032000,
+    "rng_b": 20032000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1514.tif",
+    "row": 1213,
+    "split": "train",
+    "rgb_sha256": "fe4c36723f74eb0d50ff1da22a26cd63fe7427baf6a3566a47727bf33e676888",
+    "pair": "1514-1549",
+    "attribute": "parking_fill",
+    "side": 0,
+    "scene_id": 15,
+    "scene": "parking lot",
+    "scene_query": "Scene: a parking lot.",
+    "orig_query": "Lots of cars parked neatly in the parking lot .",
+    "captions": [
+      "Lots of cars parked neatly in the parking lot .",
+      "Lots of cars parked in lines in the parking lot .",
+      "Many cars parked neatly with a few empty parking spaces in the parking lot .",
+      "It is a parking lot with many cars densely arranged and only a few parking spots are free .",
+      "Many cars densely arranged with a few free parking spots in the parking lot ."
+    ],
+    "A": [
+      "The parking rows are densely filled with cars.",
+      "The parking rows have many empty spaces."
+    ],
+    "B": [
+      "Cars fill most of the parking stalls.",
+      "Numerous parking stalls are vacant."
+    ],
+    "C": [
+      "Nearly every place in the parking rows is occupied.",
+      "There are many gaps between cars in the parking rows."
+    ],
+    "D": [
+      "The parking spaces are almost all occupied.",
+      "A large number of parking spaces are unoccupied."
+    ],
+    "E": [
+      "Almost every stall in these parking rows contains a vehicle.",
+      "Many stalls in these parking rows contain no vehicle."
+    ],
+    "feedback": "parking lot (0.49), harbor (0.05), airplane (0.04)",
+    "tag": "extra",
+    "rng_a": 52213000,
+    "rng_b": 62213000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1549.tif",
+    "row": 1248,
+    "split": "train",
+    "rgb_sha256": "274044bfbaf5fc1606b94c4482f58cb5e87bd725093601a3770d23dc08a4ef42",
+    "pair": "1514-1549",
+    "attribute": "parking_fill",
+    "side": 1,
+    "scene_id": 15,
+    "scene": "parking lot",
+    "scene_query": "Scene: a parking lot.",
+    "orig_query": "Lots of cars parked in the parking lot .",
+    "captions": [
+      "Lots of cars parked in the parking lot .",
+      "Lots of cars parked scatteredly in the parking lot .",
+      "Many cars parked scatteredly with some empty parking spaces in the parking lot .",
+      "It is a parking lot with many cars parked scatteredly and some parking spots are free .",
+      "Many cars parked scatteredly with some free parking spots in the parking lot ."
+    ],
+    "A": [
+      "The parking rows have many empty spaces.",
+      "The parking rows are densely filled with cars."
+    ],
+    "B": [
+      "Numerous parking stalls are vacant.",
+      "Cars fill most of the parking stalls."
+    ],
+    "C": [
+      "There are many gaps between cars in the parking rows.",
+      "Nearly every place in the parking rows is occupied."
+    ],
+    "D": [
+      "A large number of parking spaces are unoccupied.",
+      "The parking spaces are almost all occupied."
+    ],
+    "E": [
+      "Many stalls in these parking rows contain no vehicle.",
+      "Almost every stall in these parking rows contains a vehicle."
+    ],
+    "feedback": "parking lot (0.43), buildings (0.08), tennis court (0.04)",
+    "tag": "extra",
+    "rng_a": 52248000,
+    "rng_b": 62248000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1506.tif",
+    "row": 1205,
+    "split": "train",
+    "rgb_sha256": "79e595a7c6cbb82461dc67f57712624f89b2839517e2a00920a5ace41400b6e0",
+    "pair": "1506-1508",
+    "attribute": "parking_fill",
+    "side": 0,
+    "scene_id": 15,
+    "scene": "parking lot",
+    "scene_query": "Scene: a parking lot.",
+    "orig_query": "Lots of cars parked neatly in the parking lot .",
+    "captions": [
+      "Lots of cars parked neatly in the parking lot .",
+      "Lots of cars parked in lines in the parking lot .",
+      "Many cars parked neatly with some empty parking spaces in the parking lot .",
+      "It is a parking lot with many cars parked scatteredly and some parking spots are free .",
+      "Many cars parked in lines with some free parking spots in the parking lot ."
+    ],
+    "A": [
+      "The parking rows are densely filled with cars.",
+      "The parking rows have many empty spaces."
+    ],
+    "B": [
+      "Cars fill most of the parking stalls.",
+      "Numerous parking stalls are vacant."
+    ],
+    "C": [
+      "Nearly every place in the parking rows is occupied.",
+      "There are many gaps between cars in the parking rows."
+    ],
+    "D": [
+      "The parking spaces are almost all occupied.",
+      "A large number of parking spaces are unoccupied."
+    ],
+    "E": [
+      "Almost every stall in these parking rows contains a vehicle.",
+      "Many stalls in these parking rows contain no vehicle."
+    ],
+    "feedback": "parking lot (0.53), buildings (0.04), dense residential (0.04)",
+    "tag": "saved",
+    "rng_a": 10032000,
+    "rng_b": 20032000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1508.tif",
+    "row": 1207,
+    "split": "train",
+    "rgb_sha256": "b0be039efbe6055a8b423fe92f3f415a4ff4dfd584037657c03e489187271e7b",
+    "pair": "1506-1508",
+    "attribute": "parking_fill",
+    "side": 1,
+    "scene_id": 15,
+    "scene": "parking lot",
+    "scene_query": "Scene: a parking lot.",
+    "orig_query": "Lots of cars parked neatly in the parking lot .",
+    "captions": [
+      "Lots of cars parked neatly in the parking lot .",
+      "Lots of cars parked in lines in the parking lot .",
+      "Many cars parked neatly with many empty parking spaces in the parking lot .",
+      "It is a parking lot with many cars parked neatly and many parking spots are free .",
+      "Many cars parked in lines with many free parking spots in the parking lot ."
+    ],
+    "A": [
+      "The parking rows have many empty spaces.",
+      "The parking rows are densely filled with cars."
+    ],
+    "B": [
+      "Numerous parking stalls are vacant.",
+      "Cars fill most of the parking stalls."
+    ],
+    "C": [
+      "There are many gaps between cars in the parking rows.",
+      "Nearly every place in the parking rows is occupied."
+    ],
+    "D": [
+      "A large number of parking spaces are unoccupied.",
+      "The parking spaces are almost all occupied."
+    ],
+    "E": [
+      "Many stalls in these parking rows contain no vehicle.",
+      "Almost every stall in these parking rows contains a vehicle."
+    ],
+    "feedback": "parking lot (0.42), buildings (0.06), dense residential (0.05)",
+    "tag": "saved",
+    "rng_a": 10033000,
+    "rng_b": 20033000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1574.tif",
+    "row": 1273,
+    "split": "train",
+    "rgb_sha256": "41005c5ad0685c78475e9bba3eceac619cab04a7a923f2464825076cfe47149b",
+    "pair": "1574-1545",
+    "attribute": "parking_ground",
+    "side": 0,
+    "scene_id": 15,
+    "scene": "parking lot",
+    "scene_query": "Scene: a parking lot.",
+    "orig_query": "Lots of cars are very closed to each other in the parking lot .",
+    "captions": [
+      "Lots of cars are very closed to each other in the parking lot .",
+      "Lots of cars parked neatly in the parking lot .",
+      "Many cars are very closed to each other in the parking lot .",
+      "It is a parking lot with many cars densely arranged .",
+      "Many cars densely arranged in the parking lot ."
+    ],
+    "A": [
+      "The cars are parked on grass.",
+      "The cars are parked on pavement."
+    ],
+    "B": [
+      "Grass forms the surface beneath the parked cars.",
+      "Pavement forms the surface beneath the parked cars."
+    ],
+    "C": [
+      "The parking area has a grassy surface.",
+      "The parking area has a paved surface."
+    ],
+    "D": [
+      "Grass is visible under the parked vehicles.",
+      "A paved lot is visible under the parked vehicles."
+    ],
+    "E": [
+      "Vehicles stand on a grassy parking area.",
+      "Vehicles stand on a paved parking area."
+    ],
+    "feedback": "parking lot (0.42), buildings (0.05), harbor (0.04)",
+    "tag": "saved",
+    "rng_a": 10035000,
+    "rng_b": 20035000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1545.tif",
+    "row": 1244,
+    "split": "train",
+    "rgb_sha256": "302f235866f68f207167694e321b981defe92798fa76b6d4008312bae5693681",
+    "pair": "1574-1545",
+    "attribute": "parking_ground",
+    "side": 1,
+    "scene_id": 15,
+    "scene": "parking lot",
+    "scene_query": "Scene: a parking lot.",
+    "orig_query": "Lots of cars parked in lines in the parking lot .",
+    "captions": [
+      "Lots of cars parked in lines in the parking lot .",
+      "Lots of cars parked neatly in the parking lot .",
+      "Many cars arranged neatly in the parking lot .",
+      "It is a parking lot with many cars densely arranged .",
+      "Many cars densely arranged in the parking lot ."
+    ],
+    "A": [
+      "The cars are parked on pavement.",
+      "The cars are parked on grass."
+    ],
+    "B": [
+      "Pavement forms the surface beneath the parked cars.",
+      "Grass forms the surface beneath the parked cars."
+    ],
+    "C": [
+      "The parking area has a paved surface.",
+      "The parking area has a grassy surface."
+    ],
+    "D": [
+      "A paved lot is visible under the parked vehicles.",
+      "Grass is visible under the parked vehicles."
+    ],
+    "E": [
+      "Vehicles stand on a paved parking area.",
+      "Vehicles stand on a grassy parking area."
+    ],
+    "feedback": "parking lot (0.44), buildings (0.10), intersection (0.04)",
+    "tag": "saved",
+    "rng_a": 10034000,
+    "rng_b": 20034000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1572.tif",
+    "row": 1271,
+    "split": "train",
+    "rgb_sha256": "e28d8cecb44e9487bf1ec99a3e021f4c490e2c84aa604d5673bf927a78a1bb92",
+    "pair": "1572-1544",
+    "attribute": "parking_ground",
+    "side": 0,
+    "scene": "parking lot",
+    "scene_id": 15,
+    "scene_query": "Scene: a parking lot.",
+    "orig_query": "Lots of cars are very closed to each other in the parking lot .",
+    "captions": [
+      "Lots of cars are very closed to each other in the parking lot .",
+      "Lots of cars parked neatly in the parking lot .",
+      "Many cars are very closed to each other in the parking lot .",
+      "It is a parking lot with many cars densely arranged .",
+      "Many cars densely arranged in the parking lot ."
+    ],
+    "A": [
+      "The cars are parked on grass.",
+      "The cars are parked on pavement."
+    ],
+    "B": [
+      "Grass forms the surface beneath the parked cars.",
+      "Pavement forms the surface beneath the parked cars."
+    ],
+    "C": [
+      "The parking area has a grassy surface.",
+      "The parking area has a paved surface."
+    ],
+    "D": [
+      "Grass is visible under the parked vehicles.",
+      "A paved lot is visible under the parked vehicles."
+    ],
+    "E": [
+      "Vehicles stand on a grassy parking area.",
+      "Vehicles stand on a paved parking area."
+    ],
+    "feedback": "parking lot (0.34), harbor (0.07), freeway (0.07)",
+    "tag": "saved",
+    "rng_a": 10035000,
+    "rng_b": 20035000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1544.tif",
+    "row": 1243,
+    "split": "train",
+    "rgb_sha256": "563a3d4dda2c56b9d0b586ea5cd65aaf6a8b00cb845bfdc7fd8d5b481429d8b6",
+    "pair": "1572-1544",
+    "attribute": "parking_ground",
+    "side": 1,
+    "scene": "parking lot",
+    "scene_id": 15,
+    "scene_query": "Scene: a parking lot.",
+    "orig_query": "Lots of cars parked in lines in the parking lot .",
+    "captions": [
+      "Lots of cars parked in lines in the parking lot .",
+      "Lots of cars parked neatly in the parking lot .",
+      "Many cars arranged neatly in the parking lot .",
+      "It is a parking lot with many cars densely arranged .",
+      "Many cars densely arranged in the parking lot ."
+    ],
+    "A": [
+      "The cars are parked on pavement.",
+      "The cars are parked on grass."
+    ],
+    "B": [
+      "Pavement forms the surface beneath the parked cars.",
+      "Grass forms the surface beneath the parked cars."
+    ],
+    "C": [
+      "The parking area has a paved surface.",
+      "The parking area has a grassy surface."
+    ],
+    "D": [
+      "A paved lot is visible under the parked vehicles.",
+      "Grass is visible under the parked vehicles."
+    ],
+    "E": [
+      "Vehicles stand on a paved parking area.",
+      "Vehicles stand on a grassy parking area."
+    ],
+    "feedback": "parking lot (0.49), buildings (0.08), intersection (0.04)",
+    "tag": "saved",
+    "rng_a": 10034000,
+    "rng_b": 20034000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1663.tif",
+    "row": 1342,
+    "split": "train",
+    "rgb_sha256": "0f6b55cf106346d84ad5f9c72da8b28dcce3dc8ea8603588d91114a43dc51ba7",
+    "pair": "1663-1617",
+    "attribute": "river_axis",
+    "side": 0,
+    "scene": "river",
+    "scene_id": 16,
+    "scene_query": "Scene: a river.",
+    "orig_query": "It is a river with black water and a road on one bank of the river .",
+    "captions": [
+      "It is a river with black water and a road on one bank of the river .",
+      "A river with a road on one bank and plants on the other side .",
+      "Green plants flourish on one bank of a river with a road on the other side .",
+      "Lots of green plants flourish on one bank of a river with a road on the other side .",
+      "A river with black water go through the area with some plants on one bank and a road on the other side ."
+    ],
+    "A": [
+      "The river runs horizontally.",
+      "The river runs vertically."
+    ],
+    "B": [
+      "The waterway crosses the image left to right.",
+      "The waterway crosses the image top to bottom."
+    ],
+    "C": [
+      "The channel spans the width of the view.",
+      "The channel spans the height of the view."
+    ],
+    "D": [
+      "The main course of the river goes across the frame sideways.",
+      "The main course of the river travels from the upper edge toward the lower edge."
+    ],
+    "E": [
+      "The channel stretches sideways across the scene.",
+      "The channel stretches vertically through the scene."
+    ],
+    "feedback": "river (0.40), overpass (0.08), freeway (0.07)",
+    "tag": "saved",
+    "rng_a": 10037000,
+    "rng_b": 20037000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1617.tif",
+    "row": 1296,
+    "split": "train",
+    "rgb_sha256": "ebcd6fce1a99a5d32b0786c381de20e4f191ead1eb1e79376a9063e9a54d8e43",
+    "pair": "1663-1617",
+    "attribute": "river_axis",
+    "side": 1,
+    "scene": "river",
+    "scene_id": 16,
+    "scene_query": "Scene: a river.",
+    "orig_query": "It is a river with dense forest on both banks of the river .",
+    "captions": [
+      "It is a river with dense forest on both banks of the river .",
+      "A river with dense forest on both banks of the river .",
+      "Green plants flourish on both banks of the river .",
+      "Lots of green plants flourish on both banks of the river .",
+      "A river goes through a dense forest ."
+    ],
+    "A": [
+      "The river runs vertically.",
+      "The river runs horizontally."
+    ],
+    "B": [
+      "The waterway crosses the image top to bottom.",
+      "The waterway crosses the image left to right."
+    ],
+    "C": [
+      "The channel spans the height of the view.",
+      "The channel spans the width of the view."
+    ],
+    "D": [
+      "The main course of the river travels from the upper edge toward the lower edge.",
+      "The main course of the river goes across the frame sideways."
+    ],
+    "E": [
+      "The channel stretches vertically through the scene.",
+      "The channel stretches sideways across the scene."
+    ],
+    "feedback": "river (0.52), forest (0.10), agricultural (0.04)",
+    "tag": "saved",
+    "rng_a": 10036000,
+    "rng_b": 20036000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1602.tif",
+    "pair": "1602-1639",
+    "rgb_sha256": "7a05e9ee79f8575e69b84c14a3f4129e5e38b95e0dec68e2bab02ae93c28aa9f",
+    "side": 0,
+    "row": 1281,
+    "split": "train",
+    "scene_id": 16,
+    "scene": "river",
+    "attribute": "river_axis",
+    "scene_query": "Scene: a river.",
+    "orig_query": "It is a river with dense forest on one bank and houses on the other side .",
+    "captions": [
+      "It is a river with dense forest on one bank and houses on the other side .",
+      "A river with dense forest on one bank and houses on the other side .",
+      "Green plants flourish on both banks of the river .",
+      "Lots of green plants flourish on both banks of the river .",
+      "A river goes through this area with dense forest on one bank and houses on the other side ."
+    ],
+    "A": [
+      "The river runs horizontally.",
+      "The river runs vertically."
+    ],
+    "B": [
+      "The waterway crosses the image left to right.",
+      "The waterway crosses the image top to bottom."
+    ],
+    "C": [
+      "The channel spans the width of the view.",
+      "The channel spans the height of the view."
+    ],
+    "D": [
+      "The main course of the river goes across the frame sideways.",
+      "The main course of the river travels from the upper edge toward the lower edge."
+    ],
+    "E": [
+      "The channel stretches sideways across the scene.",
+      "The channel stretches vertically through the scene."
+    ],
+    "tag": "fresh",
+    "rng_a": 32281000,
+    "rng_b": 42281000,
+    "feedback": "river (0.41), sparse residential (0.08), forest (0.06)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1639.tif",
+    "pair": "1602-1639",
+    "rgb_sha256": "c06030e56fd5d7359333134edc85ac76da8d91463da5aa5701b20a17f531ba54",
+    "side": 1,
+    "row": 1318,
+    "split": "train",
+    "scene_id": 16,
+    "scene": "river",
+    "attribute": "river_axis",
+    "scene_query": "Scene: a river.",
+    "orig_query": "It is a river with a dense forest on both banks of the river .",
+    "captions": [
+      "It is a river with a dense forest on both banks of the river .",
+      "A river with a dense forest on both banks of the river .",
+      "Green plants flourish on both banks of the river .",
+      "Lots of green plants flourish on both banks of the river .",
+      "A river goes through a dense forest ."
+    ],
+    "A": [
+      "The river runs vertically.",
+      "The river runs horizontally."
+    ],
+    "B": [
+      "The waterway crosses the image top to bottom.",
+      "The waterway crosses the image left to right."
+    ],
+    "C": [
+      "The channel spans the height of the view.",
+      "The channel spans the width of the view."
+    ],
+    "D": [
+      "The main course of the river travels from the upper edge toward the lower edge.",
+      "The main course of the river goes across the frame sideways."
+    ],
+    "E": [
+      "The channel stretches vertically through the scene.",
+      "The channel stretches sideways across the scene."
+    ],
+    "tag": "fresh",
+    "rng_a": 32318000,
+    "rng_b": 42318000,
+    "feedback": "river (0.44), forest (0.10), beach (0.04)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1604.tif",
+    "row": 1283,
+    "split": "train",
+    "rgb_sha256": "797126f9cfd7c08a5b67ef0a4a54ef8b9005e4d6c0604504a9c9397e2dfcc341",
+    "pair": "1604-1670",
+    "attribute": "river_bank",
+    "side": 0,
+    "scene_id": 16,
+    "scene": "river",
+    "scene_query": "Scene: a river.",
+    "orig_query": "It is a river with dense forest on one bank and houses on the other side .",
+    "captions": [
+      "It is a river with dense forest on one bank and houses on the other side .",
+      "A river with dense forest on one bank and houses on the other side .",
+      "Green plants flourish on both banks of the river .",
+      "Lots of green plants flourish on both banks of the river .",
+      "A river goes through this area with dense forest on one bank and houses on the other side ."
+    ],
+    "A": [
+      "Dense green trees line the riverbanks.",
+      "The riverbanks have little green tree cover."
+    ],
+    "B": [
+      "The banks of the channel are covered with green trees.",
+      "The banks of the channel are mostly bare of green trees."
+    ],
+    "C": [
+      "Thick green woodland borders the water.",
+      "There is little green woodland bordering the water."
+    ],
+    "D": [
+      "A thick cover of green trees flanks the channel.",
+      "Green trees are sparse along the edges of the channel."
+    ],
+    "E": [
+      "Green trees grow thickly beside this watercourse.",
+      "There are few green trees beside this watercourse."
+    ],
+    "feedback": "river (0.46), forest (0.07), sparse residential (0.05)",
+    "tag": "extra",
+    "rng_a": 52283000,
+    "rng_b": 62283000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1670.tif",
+    "row": 1349,
+    "split": "train",
+    "rgb_sha256": "2eccb18fc5b2b981c83936704537ed46d3127248fd879f06cd17a92460de47e7",
+    "pair": "1604-1670",
+    "attribute": "river_bank",
+    "side": 1,
+    "scene_id": 16,
+    "scene": "river",
+    "scene_query": "Scene: a river.",
+    "orig_query": "It is a river with some plants on both banks of the river .",
+    "captions": [
+      "It is a river with some plants on both banks of the river .",
+      "A river go through a desolate land only with plants on the banks of the river .",
+      "Green plants flourish only on the banks of the river .",
+      "A river go through a desolate land only with plants on the banks .",
+      "A river go through a desolate land ."
+    ],
+    "A": [
+      "The riverbanks have little green tree cover.",
+      "Dense green trees line the riverbanks."
+    ],
+    "B": [
+      "The banks of the channel are mostly bare of green trees.",
+      "The banks of the channel are covered with green trees."
+    ],
+    "C": [
+      "There is little green woodland bordering the water.",
+      "Thick green woodland borders the water."
+    ],
+    "D": [
+      "Green trees are sparse along the edges of the channel.",
+      "A thick cover of green trees flanks the channel."
+    ],
+    "E": [
+      "There are few green trees beside this watercourse.",
+      "Green trees grow thickly beside this watercourse."
+    ],
+    "feedback": "river (0.41), forest (0.07), agricultural (0.06)",
+    "tag": "extra",
+    "rng_a": 52349000,
+    "rng_b": 62349000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1626.tif",
+    "row": 1305,
+    "split": "train",
+    "rgb_sha256": "bd9830048db9f696032cb3266d1f71bb5f1159ecc6ae80fdccf03dbebf745899",
+    "pair": "1626-1630",
+    "attribute": "river_bank",
+    "side": 0,
+    "scene": "river",
+    "scene_id": 16,
+    "scene_query": "Scene: a river.",
+    "orig_query": "It is a river with some plants on one bank and some cars parked on the other side .",
+    "captions": [
+      "It is a river with some plants on one bank and some cars parked on the other side .",
+      "A river with some plants on one bank and some cars parked on the other side .",
+      "Green plants flourish on both banks of the river .",
+      "Lots of green plants flourish on both banks of the river .",
+      "A river the area with some plants on one bank and some cars parked on the other side ."
+    ],
+    "A": [
+      "Dense green trees line the riverbanks.",
+      "The riverbanks have little green tree cover."
+    ],
+    "B": [
+      "The banks of the channel are covered with green trees.",
+      "The banks of the channel are mostly bare of green trees."
+    ],
+    "C": [
+      "Thick green woodland borders the water.",
+      "There is little green woodland bordering the water."
+    ],
+    "D": [
+      "A thick cover of green trees flanks the channel.",
+      "Green trees are sparse along the edges of the channel."
+    ],
+    "E": [
+      "Green trees grow thickly beside this watercourse.",
+      "There are few green trees beside this watercourse."
+    ],
+    "feedback": "river (0.38), forest (0.07), buildings (0.05)",
+    "tag": "extra",
+    "rng_a": 52305000,
+    "rng_b": 62305000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1630.tif",
+    "row": 1309,
+    "split": "train",
+    "rgb_sha256": "3a10d32074cc115730226e5775b91e055ebc3162a73d09b93a0159f1cce3640b",
+    "pair": "1626-1630",
+    "attribute": "river_bank",
+    "side": 1,
+    "scene": "river",
+    "scene_id": 16,
+    "scene_query": "Scene: a river.",
+    "orig_query": "It is a river with plants wilted on both banks of the river .",
+    "captions": [
+      "It is a river with plants wilted on both banks of the river .",
+      "A river with plants wilted on both banks of the river .",
+      "Grey plants wilted on both banks of the river .",
+      "Lots of plants wilted on both banks of the river .",
+      "A river go through the desolate land ."
+    ],
+    "A": [
+      "The riverbanks have little green tree cover.",
+      "Dense green trees line the riverbanks."
+    ],
+    "B": [
+      "The banks of the channel are mostly bare of green trees.",
+      "The banks of the channel are covered with green trees."
+    ],
+    "C": [
+      "There is little green woodland bordering the water.",
+      "Thick green woodland borders the water."
+    ],
+    "D": [
+      "Green trees are sparse along the edges of the channel.",
+      "A thick cover of green trees flanks the channel."
+    ],
+    "E": [
+      "There are few green trees beside this watercourse.",
+      "Green trees grow thickly beside this watercourse."
+    ],
+    "feedback": "river (0.27), agricultural (0.07), golf course (0.07)",
+    "tag": "extra",
+    "rng_a": 52309000,
+    "rng_b": 62309000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1613.tif",
+    "row": 1292,
+    "split": "train",
+    "rgb_sha256": "d9e89efa5c02047a5b6eb271d133e6e35b366efb2b6f88511e2a3d3490e664df",
+    "pair": "1613-1669",
+    "attribute": "river_bank",
+    "side": 0,
+    "scene_id": 16,
+    "scene": "river",
+    "scene_query": "Scene: a river.",
+    "orig_query": "It is a river with dense forest on both banks of the river .",
+    "captions": [
+      "It is a river with dense forest on both banks of the river .",
+      "A river with dense forest on both banks of the river .",
+      "Green plants flourish on both banks of the river .",
+      "Lots of green plants flourish on both banks of the river .",
+      "A river goes through a dense forest ."
+    ],
+    "A": [
+      "Dense green trees line the riverbanks.",
+      "The riverbanks have little green tree cover."
+    ],
+    "B": [
+      "The banks of the channel are covered with green trees.",
+      "The banks of the channel are mostly bare of green trees."
+    ],
+    "C": [
+      "Thick green woodland borders the water.",
+      "There is little green woodland bordering the water."
+    ],
+    "D": [
+      "A thick cover of green trees flanks the channel.",
+      "Green trees are sparse along the edges of the channel."
+    ],
+    "E": [
+      "Green trees grow thickly beside this watercourse.",
+      "There are few green trees beside this watercourse."
+    ],
+    "feedback": "river (0.38), forest (0.19), agricultural (0.06)",
+    "tag": "saved",
+    "rng_a": 10038000,
+    "rng_b": 20038000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1669.tif",
+    "row": 1348,
+    "split": "train",
+    "rgb_sha256": "df42c83d94f708d78e32e0590f47cb2bd68b8f1fa421a6638920ef846f35d569",
+    "pair": "1613-1669",
+    "attribute": "river_bank",
+    "side": 1,
+    "scene_id": 16,
+    "scene": "river",
+    "scene_query": "Scene: a river.",
+    "orig_query": "It is a river with some plants on both banks of the river .",
+    "captions": [
+      "It is a river with some plants on both banks of the river .",
+      "A river go through a desolate land only with plants on the banks of the river .",
+      "Green plants flourish only on the banks of the river .",
+      "A river go through a desolate land only with plants on the banks .",
+      "A river go through a desolate land ."
+    ],
+    "A": [
+      "The riverbanks have little green tree cover.",
+      "Dense green trees line the riverbanks."
+    ],
+    "B": [
+      "The banks of the channel are mostly bare of green trees.",
+      "The banks of the channel are covered with green trees."
+    ],
+    "C": [
+      "There is little green woodland bordering the water.",
+      "Thick green woodland borders the water."
+    ],
+    "D": [
+      "Green trees are sparse along the edges of the channel.",
+      "A thick cover of green trees flanks the channel."
+    ],
+    "E": [
+      "There are few green trees beside this watercourse.",
+      "Green trees grow thickly beside this watercourse."
+    ],
+    "feedback": "river (0.34), forest (0.10), agricultural (0.07)",
+    "tag": "saved",
+    "rng_a": 10039000,
+    "rng_b": 20039000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1229.tif",
+    "row": 988,
+    "split": "train",
+    "rgb_sha256": "0f0aae15f39fc3976feb51e90f856a7d723aeb41145d9be4f61080e1260e5e03",
+    "pair": "1229-1267",
+    "attribute": "rooftops",
+    "side": 0,
+    "scene": "residential area",
+    "scene_id": 12,
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "It is a medium residential area .",
+    "captions": [
+      "It is a medium residential area .",
+      "A medium residential area with houses and some swimming pools in the backyards .",
+      "A medium residential area with houses arranged neatly and plants surrounded .",
+      "Many houses with plants surrounded in the medium residential area .",
+      "This is a medium residential area with some houses have swimming pools in the backyards ."
+    ],
+    "A": [
+      "The rooftops are mostly light in color.",
+      "The rooftops are mostly dark in color."
+    ],
+    "B": [
+      "Pale roofs dominate this scene.",
+      "Dark roofs dominate this scene."
+    ],
+    "C": [
+      "Most roof surfaces have a bright tone.",
+      "Most roof surfaces have a dark tone."
+    ],
+    "D": [
+      "Light shades predominate on the roofs.",
+      "Dark shades predominate on the roofs."
+    ],
+    "E": [
+      "Most of the rooftops are pale in this scene.",
+      "Most of the rooftops are dark in this scene."
+    ],
+    "feedback": "medium residential (0.24), dense residential (0.23), mobile home park (0.12)",
+    "tag": "extra",
+    "rng_a": 51988000,
+    "rng_b": 61988000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1267.tif",
+    "row": 1026,
+    "split": "train",
+    "rgb_sha256": "72a71777faff4cfa0eca2c3af08a361bc19291bfce8a5b5b0665bac94b13880a",
+    "pair": "1229-1267",
+    "attribute": "rooftops",
+    "side": 1,
+    "scene": "residential area",
+    "scene_id": 12,
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "It is a medium residential area .",
+    "captions": [
+      "It is a medium residential area .",
+      "A medium residential area with houses and trees .",
+      "A medium residential area with a road beside .",
+      "Many houses with plants surrounded in the medium residential area .",
+      "This is a medium residential area with a road beside ."
+    ],
+    "A": [
+      "The rooftops are mostly dark in color.",
+      "The rooftops are mostly light in color."
+    ],
+    "B": [
+      "Dark roofs dominate this scene.",
+      "Pale roofs dominate this scene."
+    ],
+    "C": [
+      "Most roof surfaces have a dark tone.",
+      "Most roof surfaces have a bright tone."
+    ],
+    "D": [
+      "Dark shades predominate on the roofs.",
+      "Light shades predominate on the roofs."
+    ],
+    "E": [
+      "Most of the rooftops are dark in this scene.",
+      "Most of the rooftops are pale in this scene."
+    ],
+    "feedback": "medium residential (0.27), dense residential (0.20), mobile home park (0.12)",
+    "tag": "extra",
+    "rng_a": 52026000,
+    "rng_b": 62026000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "427.tif",
+    "row": 347,
+    "split": "train",
+    "rgb_sha256": "8a863c9d9513150c54fcc1bba2ccd7d8129d283c36ac06f0353cf2251daf73e7",
+    "pair": "427-428",
+    "attribute": "rooftops",
+    "side": 0,
+    "scene_id": 4,
+    "scene": "buildings",
+    "scene_query": "Scene: buildings.",
+    "orig_query": "The buildings arranged neatly .",
+    "captions": [
+      "The buildings arranged neatly .",
+      "The buildings arranged neatly with some cars parked beside them .",
+      "There are some buildings arranged neatly .",
+      "Some cars parked beside buildings .",
+      "Some buildings arranged neatly ."
+    ],
+    "A": [
+      "The rooftops are mostly light in color.",
+      "The rooftops are mostly dark in color."
+    ],
+    "B": [
+      "Pale roofs dominate this scene.",
+      "Dark roofs dominate this scene."
+    ],
+    "C": [
+      "Most roof surfaces have a bright tone.",
+      "Most roof surfaces have a dark tone."
+    ],
+    "D": [
+      "Light shades predominate on the roofs.",
+      "Dark shades predominate on the roofs."
+    ],
+    "E": [
+      "Most of the rooftops are pale in this scene.",
+      "Most of the rooftops are dark in this scene."
+    ],
+    "feedback": "buildings (0.21), storage tanks (0.10), mobile home park (0.09)",
+    "tag": "extra",
+    "rng_a": 51347000,
+    "rng_b": 61347000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "428.tif",
+    "row": 348,
+    "split": "train",
+    "rgb_sha256": "25f5d88446eecd8e273b9f18b9c203c44f9c522aaaf089bf6cc7700f85e67951",
+    "pair": "427-428",
+    "attribute": "rooftops",
+    "side": 1,
+    "scene_id": 4,
+    "scene": "buildings",
+    "scene_query": "Scene: buildings.",
+    "orig_query": "The buildings arranged neatly .",
+    "captions": [
+      "The buildings arranged neatly .",
+      "The buildings arranged neatly with some cars parked beside them .",
+      "There are some buildings arranged neatly .",
+      "Some cars parked beside buildings .",
+      "Some buildings arranged neatly ."
+    ],
+    "A": [
+      "The rooftops are mostly dark in color.",
+      "The rooftops are mostly light in color."
+    ],
+    "B": [
+      "Dark roofs dominate this scene.",
+      "Pale roofs dominate this scene."
+    ],
+    "C": [
+      "Most roof surfaces have a dark tone.",
+      "Most roof surfaces have a bright tone."
+    ],
+    "D": [
+      "Dark shades predominate on the roofs.",
+      "Light shades predominate on the roofs."
+    ],
+    "E": [
+      "Most of the rooftops are dark in this scene.",
+      "Most of the rooftops are pale in this scene."
+    ],
+    "feedback": "buildings (0.21), parking lot (0.08), storage tanks (0.08)",
+    "tag": "extra",
+    "rng_a": 51348000,
+    "rng_b": 61348000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "463.tif",
+    "row": 383,
+    "split": "train",
+    "rgb_sha256": "7215f3242bae189ffaaca09d95205f83b57aee2c34f9a61791f3d617a00b7097",
+    "pair": "463-472",
+    "attribute": "rooftops",
+    "side": 0,
+    "scene": "buildings",
+    "scene_id": 4,
+    "scene_query": "Scene: buildings.",
+    "orig_query": "There are some buildings with grey roofs .",
+    "captions": [
+      "There are some buildings with grey roofs .",
+      "Some buildings with grey roofs arranged compactly .",
+      "Some buildings with grey roofs pressed together .",
+      "There are some buildings pressed together .",
+      "Buildings pressed together ."
+    ],
+    "A": [
+      "The rooftops are mostly light in color.",
+      "The rooftops are mostly dark in color."
+    ],
+    "B": [
+      "Pale roofs dominate this scene.",
+      "Dark roofs dominate this scene."
+    ],
+    "C": [
+      "Most roof surfaces have a bright tone.",
+      "Most roof surfaces have a dark tone."
+    ],
+    "D": [
+      "Light shades predominate on the roofs.",
+      "Dark shades predominate on the roofs."
+    ],
+    "E": [
+      "Most of the rooftops are pale in this scene.",
+      "Most of the rooftops are dark in this scene."
+    ],
+    "feedback": "buildings (0.18), storage tanks (0.15), dense residential (0.06)",
+    "tag": "saved",
+    "rng_a": 10042000,
+    "rng_b": 20042000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "472.tif",
+    "row": 392,
+    "split": "train",
+    "rgb_sha256": "d05fafbdf87b9eb0a9f24597994acd43ef716c4c54ab04b3a257d8283df2142f",
+    "pair": "463-472",
+    "attribute": "rooftops",
+    "side": 1,
+    "scene": "buildings",
+    "scene_id": 4,
+    "scene_query": "Scene: buildings.",
+    "orig_query": "There are some buildings with grey and black roofs .",
+    "captions": [
+      "There are some buildings with grey and black roofs .",
+      "Some buildings with grey and black roofs .",
+      "Some buildings with plants arround them .",
+      "There are some buildings and plants .",
+      "Buildings and plants ."
+    ],
+    "A": [
+      "The rooftops are mostly dark in color.",
+      "The rooftops are mostly light in color."
+    ],
+    "B": [
+      "Dark roofs dominate this scene.",
+      "Pale roofs dominate this scene."
+    ],
+    "C": [
+      "Most roof surfaces have a dark tone.",
+      "Most roof surfaces have a bright tone."
+    ],
+    "D": [
+      "Dark shades predominate on the roofs.",
+      "Light shades predominate on the roofs."
+    ],
+    "E": [
+      "Most of the rooftops are dark in this scene.",
+      "Most of the rooftops are pale in this scene."
+    ],
+    "feedback": "buildings (0.28), tennis court (0.09), parking lot (0.06)",
+    "tag": "saved",
+    "rng_a": 10043000,
+    "rng_b": 20043000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1777.tif",
+    "pair": "1777-1765",
+    "rgb_sha256": "06570988c3a9fff7454a541eb5c6e37dbdaf5e3907e817d751a7b2e62ee71ca2",
+    "side": 0,
+    "row": 1436,
+    "split": "train",
+    "scene_id": 17,
+    "scene": "runway",
+    "attribute": "runway_bars",
+    "scene_query": "Scene: a runway.",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "captions": [
+      "It is a straight runway with some mark lines on it .",
+      "A straight runway with some mark lines on it .",
+      "There are some mark lines on the straight runway .",
+      "It is a straight runway with some white mark lines on it .",
+      "A straight runway with some white mark lines on it ."
+    ],
+    "A": [
+      "Broad white rectangular bars are painted on the runway.",
+      "The runway has no broad white rectangular bars."
+    ],
+    "B": [
+      "Wide white blocks are visible on the runway surface.",
+      "The runway surface lacks wide white blocks."
+    ],
+    "C": [
+      "The airstrip bears prominent broad white rectangles.",
+      "No broad white rectangles appear on the airstrip."
+    ],
+    "D": [
+      "The runway includes conspicuous wide white bars.",
+      "There are no conspicuous wide white bars on the runway."
+    ],
+    "E": [
+      "The runway has broad rectangular white markings.",
+      "The runway lacks broad rectangular white markings."
+    ],
+    "tag": "fresh",
+    "rng_a": 32436000,
+    "rng_b": 42436000,
+    "feedback": "runway (0.41), airplane (0.10), chaparral (0.05)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1765.tif",
+    "pair": "1777-1765",
+    "rgb_sha256": "6e3dd922f5f68736bd5cc97c787971130b9e7cc2792f6a9c0f83d441ca65e877",
+    "side": 1,
+    "row": 1424,
+    "split": "train",
+    "scene_id": 17,
+    "scene": "runway",
+    "attribute": "runway_bars",
+    "scene_query": "Scene: a runway.",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "captions": [
+      "It is a straight runway with some mark lines on it .",
+      "A straight runway with some mark lines on it .",
+      "There are some mark lines on the straight runway .",
+      "It is a straight runway with some white mark lines on it .",
+      "A straight runway with some white mark lines on it ."
+    ],
+    "A": [
+      "The runway has no broad white rectangular bars.",
+      "Broad white rectangular bars are painted on the runway."
+    ],
+    "B": [
+      "The runway surface lacks wide white blocks.",
+      "Wide white blocks are visible on the runway surface."
+    ],
+    "C": [
+      "No broad white rectangles appear on the airstrip.",
+      "The airstrip bears prominent broad white rectangles."
+    ],
+    "D": [
+      "There are no conspicuous wide white bars on the runway.",
+      "The runway includes conspicuous wide white bars."
+    ],
+    "E": [
+      "The runway lacks broad rectangular white markings.",
+      "The runway has broad rectangular white markings."
+    ],
+    "tag": "fresh",
+    "rng_a": 32424000,
+    "rng_b": 42424000,
+    "feedback": "runway (0.20), agricultural (0.08), freeway (0.07)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1728.tif",
+    "pair": "1728-1730",
+    "rgb_sha256": "a4bbc74506cc3010784d3aa70ebee65e6cad6793813873f6a9c8a4639239c639",
+    "side": 0,
+    "row": 1387,
+    "split": "train",
+    "scene_id": 17,
+    "scene": "runway",
+    "attribute": "runway_bars",
+    "scene_query": "Scene: a runway.",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "captions": [
+      "It is a straight runway with some mark lines on it .",
+      "A straight runway with some mark lines on it .",
+      "There are some mark lines on the straight runway .",
+      "It is a straight runway with some white mark lines on it .",
+      "A straight runway with some white mark lines on it ."
+    ],
+    "A": [
+      "Broad white rectangular bars are painted on the runway.",
+      "The runway has no broad white rectangular bars."
+    ],
+    "B": [
+      "Wide white blocks are visible on the runway surface.",
+      "The runway surface lacks wide white blocks."
+    ],
+    "C": [
+      "The airstrip bears prominent broad white rectangles.",
+      "No broad white rectangles appear on the airstrip."
+    ],
+    "D": [
+      "The runway includes conspicuous wide white bars.",
+      "There are no conspicuous wide white bars on the runway."
+    ],
+    "E": [
+      "The runway has broad rectangular white markings.",
+      "The runway lacks broad rectangular white markings."
+    ],
+    "tag": "fresh",
+    "rng_a": 32387000,
+    "rng_b": 42387000,
+    "feedback": "runway (0.47), airplane (0.11), storage tanks (0.04)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1730.tif",
+    "pair": "1728-1730",
+    "rgb_sha256": "2ab51776b12d91ff0b0fe80b9e27745f1d388d17096b1166d6a5911a207fb3a2",
+    "side": 1,
+    "row": 1389,
+    "split": "train",
+    "scene_id": 17,
+    "scene": "runway",
+    "attribute": "runway_bars",
+    "scene_query": "Scene: a runway.",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "captions": [
+      "It is a straight runway with some mark lines on it .",
+      "A straight runway with some mark lines on it .",
+      "There are some mark lines on the straight runway .",
+      "It is a straight runway with some white mark lines on it .",
+      "A straight runway with some white mark lines on it ."
+    ],
+    "A": [
+      "The runway has no broad white rectangular bars.",
+      "Broad white rectangular bars are painted on the runway."
+    ],
+    "B": [
+      "The runway surface lacks wide white blocks.",
+      "Wide white blocks are visible on the runway surface."
+    ],
+    "C": [
+      "No broad white rectangles appear on the airstrip.",
+      "The airstrip bears prominent broad white rectangles."
+    ],
+    "D": [
+      "There are no conspicuous wide white bars on the runway.",
+      "The runway includes conspicuous wide white bars."
+    ],
+    "E": [
+      "The runway lacks broad rectangular white markings.",
+      "The runway has broad rectangular white markings."
+    ],
+    "tag": "fresh",
+    "rng_a": 32389000,
+    "rng_b": 42389000,
+    "feedback": "runway (0.50), airplane (0.09), storage tanks (0.04)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1707.tif",
+    "pair": "1707-1712",
+    "rgb_sha256": "3ba21f642b3d71a4c09e044d7a79944d4b5435bf729dc9cea2d39e340fc4d16a",
+    "side": 0,
+    "row": 1366,
+    "split": "train",
+    "scene_id": 17,
+    "scene": "runway",
+    "attribute": "runway_bars",
+    "scene_query": "Scene: a runway.",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "captions": [
+      "It is a straight runway with some mark lines on it .",
+      "A straight runway with some mark lines on it .",
+      "There are some mark lines on the straight runway .",
+      "It is a straight runway with some white mark lines on it .",
+      "A straight runway with some white mark lines on it ."
+    ],
+    "A": [
+      "Broad white rectangular bars are painted on the runway.",
+      "The runway has no broad white rectangular bars."
+    ],
+    "B": [
+      "Wide white blocks are visible on the runway surface.",
+      "The runway surface lacks wide white blocks."
+    ],
+    "C": [
+      "The airstrip bears prominent broad white rectangles.",
+      "No broad white rectangles appear on the airstrip."
+    ],
+    "D": [
+      "The runway includes conspicuous wide white bars.",
+      "There are no conspicuous wide white bars on the runway."
+    ],
+    "E": [
+      "The runway has broad rectangular white markings.",
+      "The runway lacks broad rectangular white markings."
+    ],
+    "tag": "fresh",
+    "rng_a": 32366000,
+    "rng_b": 42366000,
+    "feedback": "runway (0.28), freeway (0.08), parking lot (0.07)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1712.tif",
+    "pair": "1707-1712",
+    "rgb_sha256": "c4389c75823e4aa29e61ca558323785d934b0c76d96ab19c0e00dd0ad6fe0d52",
+    "side": 1,
+    "row": 1371,
+    "split": "train",
+    "scene_id": 17,
+    "scene": "runway",
+    "attribute": "runway_bars",
+    "scene_query": "Scene: a runway.",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "captions": [
+      "It is a straight runway with some mark lines on it .",
+      "A straight runway with some mark lines on it .",
+      "There are some mark lines on the straight runway .",
+      "It is a straight runway with some white mark lines on it .",
+      "A straight runway with some white mark lines on it ."
+    ],
+    "A": [
+      "The runway has no broad white rectangular bars.",
+      "Broad white rectangular bars are painted on the runway."
+    ],
+    "B": [
+      "The runway surface lacks wide white blocks.",
+      "Wide white blocks are visible on the runway surface."
+    ],
+    "C": [
+      "No broad white rectangles appear on the airstrip.",
+      "The airstrip bears prominent broad white rectangles."
+    ],
+    "D": [
+      "There are no conspicuous wide white bars on the runway.",
+      "The runway includes conspicuous wide white bars."
+    ],
+    "E": [
+      "The runway lacks broad rectangular white markings.",
+      "The runway has broad rectangular white markings."
+    ],
+    "tag": "fresh",
+    "rng_a": 32371000,
+    "rng_b": 42371000,
+    "feedback": "runway (0.29), overpass (0.07), freeway (0.06)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "1719.tif",
+    "row": 1378,
+    "split": "train",
+    "rgb_sha256": "ce56ff98c677ae7ac735078accb58f1f3178f374127567d9d9a030e3bc599004",
+    "pair": "1719-1733",
+    "attribute": "runway_number",
+    "side": 0,
+    "scene_id": 17,
+    "scene": "runway",
+    "scene_query": "Scene: a runway.",
+    "orig_query": "It is a straight runway with some mark lines and a number on it .",
+    "captions": [
+      "It is a straight runway with some mark lines and a number on it .",
+      "A straight runway with some mark lines and a number on it .",
+      "There are some mark lines and a number on the straight runway .",
+      "It is a straight runway with some white mark lines and a number on it .",
+      "A straight runway with some white mark lines and a number on it ."
+    ],
+    "A": [
+      "Large painted numerals are visible on the runway.",
+      "No large painted numerals are visible on the runway."
+    ],
+    "B": [
+      "The markings on the runway include a large number.",
+      "The markings on the runway do not include a large number."
+    ],
+    "C": [
+      "A large numeric designation appears on the airstrip surface.",
+      "The airstrip surface has no visible large numeric designation."
+    ],
+    "D": [
+      "The runway carries a prominent number marking.",
+      "The runway has no prominent number marking."
+    ],
+    "E": [
+      "Large digits have been painted on the runway.",
+      "There are no large painted digits on the runway."
+    ],
+    "feedback": "runway (0.41), airplane (0.08), overpass (0.04)",
+    "tag": "extra",
+    "rng_a": 52378000,
+    "rng_b": 62378000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1733.tif",
+    "row": 1392,
+    "split": "train",
+    "rgb_sha256": "00d2dca67fe101d234924f51d3991ceda24b4c0690d8d5dd64c40dab8fa02cfa",
+    "pair": "1719-1733",
+    "attribute": "runway_number",
+    "side": 1,
+    "scene_id": 17,
+    "scene": "runway",
+    "scene_query": "Scene: a runway.",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "captions": [
+      "It is a straight runway with some mark lines on it .",
+      "A straight runway with some mark lines on it .",
+      "There are some mark lines on the straight runway .",
+      "It is a straight runway with some white mark lines on it .",
+      "A straight runway with some white mark lines on it ."
+    ],
+    "A": [
+      "No large painted numerals are visible on the runway.",
+      "Large painted numerals are visible on the runway."
+    ],
+    "B": [
+      "The markings on the runway do not include a large number.",
+      "The markings on the runway include a large number."
+    ],
+    "C": [
+      "The airstrip surface has no visible large numeric designation.",
+      "A large numeric designation appears on the airstrip surface."
+    ],
+    "D": [
+      "The runway has no prominent number marking.",
+      "The runway carries a prominent number marking."
+    ],
+    "E": [
+      "There are no large painted digits on the runway.",
+      "Large digits have been painted on the runway."
+    ],
+    "feedback": "runway (0.38), airplane (0.11), storage tanks (0.04)",
+    "tag": "extra",
+    "rng_a": 52392000,
+    "rng_b": 62392000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1767.tif",
+    "row": 1426,
+    "split": "train",
+    "rgb_sha256": "01418f48df97c553e8d71953ccfaaa814d794c024c45ba145484fa00018667db",
+    "pair": "1767-1734",
+    "attribute": "runway_number",
+    "side": 0,
+    "scene": "runway",
+    "scene_id": 17,
+    "scene_query": "Scene: a runway.",
+    "orig_query": "It is a straight runway with some mark lines and a number and a letter L on it .",
+    "captions": [
+      "It is a straight runway with some mark lines and a number and a letter L on it .",
+      "A straight runway with some mark lines and a number and a letter L on it .",
+      "There are some mark lines and a number and a letter L on the straight runway .",
+      "It is a straight runway with some white mark lines and a number and a letter L on it .",
+      "A straight runway with some white mark lines and a number and a letter L on it ."
+    ],
+    "A": [
+      "Large painted numerals are visible on the runway.",
+      "No large painted numerals are visible on the runway."
+    ],
+    "B": [
+      "The markings on the runway include a large number.",
+      "The markings on the runway do not include a large number."
+    ],
+    "C": [
+      "A large numeric designation appears on the airstrip surface.",
+      "The airstrip surface has no visible large numeric designation."
+    ],
+    "D": [
+      "The runway carries a prominent number marking.",
+      "The runway has no prominent number marking."
+    ],
+    "E": [
+      "Large digits have been painted on the runway.",
+      "There are no large painted digits on the runway."
+    ],
+    "feedback": "runway (0.32), chaparral (0.10), airplane (0.07)",
+    "tag": "saved",
+    "rng_a": 10047000,
+    "rng_b": 20047000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1734.tif",
+    "row": 1393,
+    "split": "train",
+    "rgb_sha256": "572d48bffe996a01e82702d740ddfa323abaf66f1a3b1b0aa3ad6b6084ef320f",
+    "pair": "1767-1734",
+    "attribute": "runway_number",
+    "side": 1,
+    "scene": "runway",
+    "scene_id": 17,
+    "scene_query": "Scene: a runway.",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "captions": [
+      "It is a straight runway with some mark lines on it .",
+      "A straight runway with some mark lines on it .",
+      "There are some mark lines on the straight runway .",
+      "It is a straight runway with some white mark lines on it .",
+      "A straight runway with some white mark lines on it ."
+    ],
+    "A": [
+      "No large painted numerals are visible on the runway.",
+      "Large painted numerals are visible on the runway."
+    ],
+    "B": [
+      "The markings on the runway do not include a large number.",
+      "The markings on the runway include a large number."
+    ],
+    "C": [
+      "The airstrip surface has no visible large numeric designation.",
+      "A large numeric designation appears on the airstrip surface."
+    ],
+    "D": [
+      "The runway has no prominent number marking.",
+      "The runway carries a prominent number marking."
+    ],
+    "E": [
+      "There are no large painted digits on the runway.",
+      "Large digits have been painted on the runway."
+    ],
+    "feedback": "runway (0.35), airplane (0.07), overpass (0.07)",
+    "tag": "saved",
+    "rng_a": 10046000,
+    "rng_b": 20046000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1745.tif",
+    "row": 1404,
+    "split": "train",
+    "rgb_sha256": "6205c63dec1ca503b43c6ed331246e665e6164e6e5599020cbe574b5e72e439d",
+    "pair": "1745-1738",
+    "attribute": "runway_number",
+    "side": 0,
+    "scene": "runway",
+    "scene_id": 17,
+    "scene_query": "Scene: a runway.",
+    "orig_query": "It is a straight runway with some mark lines and a number and a letter R on it .",
+    "captions": [
+      "It is a straight runway with some mark lines and a number and a letter R on it .",
+      "A straight runway with some mark lines and a number and a letter R on it .",
+      "There are some mark lines and a number and a letter R on the straight runway .",
+      "It is a straight runway with some white mark lines and a number and a letter R on it .",
+      "A straight runway with some white mark lines and a number and a letter R on it ."
+    ],
+    "A": [
+      "Large painted numerals are visible on the runway.",
+      "No large painted numerals are visible on the runway."
+    ],
+    "B": [
+      "The markings on the runway include a large number.",
+      "The markings on the runway do not include a large number."
+    ],
+    "C": [
+      "A large numeric designation appears on the airstrip surface.",
+      "The airstrip surface has no visible large numeric designation."
+    ],
+    "D": [
+      "The runway carries a prominent number marking.",
+      "The runway has no prominent number marking."
+    ],
+    "E": [
+      "Large digits have been painted on the runway.",
+      "There are no large painted digits on the runway."
+    ],
+    "feedback": "runway (0.39), airplane (0.12), storage tanks (0.07)",
+    "tag": "extra",
+    "rng_a": 52404000,
+    "rng_b": 62404000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "1738.tif",
+    "row": 1397,
+    "split": "train",
+    "rgb_sha256": "ed649e7632e1bf48aa9ff5281a2f7cdcf8f80c10851ac462b664c221c1d104e9",
+    "pair": "1745-1738",
+    "attribute": "runway_number",
+    "side": 1,
+    "scene": "runway",
+    "scene_id": 17,
+    "scene_query": "Scene: a runway.",
+    "orig_query": "It is a straight runway with some mark lines on it .",
+    "captions": [
+      "It is a straight runway with some mark lines on it .",
+      "A straight runway with some mark lines on it .",
+      "There are some mark lines on the straight runway .",
+      "It is a straight runway with some white mark lines on it .",
+      "A straight runway with some white mark lines on it ."
+    ],
+    "A": [
+      "No large painted numerals are visible on the runway.",
+      "Large painted numerals are visible on the runway."
+    ],
+    "B": [
+      "The markings on the runway do not include a large number.",
+      "The markings on the runway include a large number."
+    ],
+    "C": [
+      "The airstrip surface has no visible large numeric designation.",
+      "A large numeric designation appears on the airstrip surface."
+    ],
+    "D": [
+      "The runway has no prominent number marking.",
+      "The runway carries a prominent number marking."
+    ],
+    "E": [
+      "There are no large painted digits on the runway.",
+      "Large digits have been painted on the runway."
+    ],
+    "feedback": "runway (0.33), airplane (0.08), overpass (0.07)",
+    "tag": "extra",
+    "rng_a": 52397000,
+    "rng_b": 62397000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "651.tif",
+    "pair": "651-641",
+    "rgb_sha256": "8d13b2eed70823406fd8615a1cc96bd9bab296321b8d1a38ba361c1ac36439d1",
+    "side": 0,
+    "row": 528,
+    "split": "train",
+    "scene_id": 6,
+    "scene": "residential area",
+    "attribute": "street_axis",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "There is a piece of farmland .",
+    "captions": [
+      "There is a piece of farmland .",
+      "There is a piece of cropland .",
+      "It is a piece of farmland .",
+      "It is a piece of cropland .",
+      "Here is a piece of farmland ."
+    ],
+    "A": [
+      "The street between the houses runs horizontally.",
+      "The street between the houses runs vertically."
+    ],
+    "B": [
+      "The street separating rows of houses extends left to right.",
+      "The street separating rows of houses extends top to bottom."
+    ],
+    "C": [
+      "The houses line a street spanning the width of the image.",
+      "The houses line a street spanning the height of the image."
+    ],
+    "D": [
+      "The residential road follows a left-right course.",
+      "The residential road follows a top-bottom course."
+    ],
+    "E": [
+      "The main street between the homes extends sideways in the image.",
+      "The main street between the homes extends vertically in the image."
+    ],
+    "tag": "fresh",
+    "rng_a": 31528000,
+    "rng_b": 41528000,
+    "feedback": "dense residential (0.20), sparse residential (0.14), medium residential (0.13)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "641.tif",
+    "pair": "651-641",
+    "rgb_sha256": "0882a73a71065bb8bb2979d120bf06dd044b0e87c79e5d4749d0f07fe758f09a",
+    "side": 1,
+    "row": 518,
+    "split": "train",
+    "scene_id": 6,
+    "scene": "residential area",
+    "attribute": "street_axis",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "This is a dense residential area .",
+    "captions": [
+      "This is a dense residential area .",
+      "It is a dense residential area with lots of houses pressed together .",
+      "There are lots of houses pressed together and a road goes through them .",
+      "Lots of houses with white and grey roofs pressed together .",
+      "Lots of houses with grey roofs pressed together and a road goes through them ."
+    ],
+    "A": [
+      "The street between the houses runs vertically.",
+      "The street between the houses runs horizontally."
+    ],
+    "B": [
+      "The street separating rows of houses extends top to bottom.",
+      "The street separating rows of houses extends left to right."
+    ],
+    "C": [
+      "The houses line a street spanning the height of the image.",
+      "The houses line a street spanning the width of the image."
+    ],
+    "D": [
+      "The residential road follows a top-bottom course.",
+      "The residential road follows a left-right course."
+    ],
+    "E": [
+      "The main street between the homes extends vertically in the image.",
+      "The main street between the homes extends sideways in the image."
+    ],
+    "tag": "fresh",
+    "rng_a": 31518000,
+    "rng_b": 41518000,
+    "feedback": "dense residential (0.17), mobile home park (0.15), medium residential (0.13)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "636.tif",
+    "row": 513,
+    "split": "train",
+    "rgb_sha256": "69fb0812e9efe12c26e1cb45de3134fd892724cc2c94a960a9e75ad907e7f944",
+    "pair": "636-640",
+    "attribute": "street_axis",
+    "side": 0,
+    "scene": "residential area",
+    "scene_id": 6,
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "This is a dense residential area .",
+    "captions": [
+      "This is a dense residential area .",
+      "It is a dense residential area with lots of houses arranged neatly and a road goes through them .",
+      "There are lots of houses arranged neatly and a road goes through them .",
+      "Lots of houses arranged neatly and a road goes through them .",
+      "Lots of houses arranged neatly ."
+    ],
+    "A": [
+      "The street between the houses runs horizontally.",
+      "The street between the houses runs vertically."
+    ],
+    "B": [
+      "The street separating rows of houses extends left to right.",
+      "The street separating rows of houses extends top to bottom."
+    ],
+    "C": [
+      "The houses line a street spanning the width of the image.",
+      "The houses line a street spanning the height of the image."
+    ],
+    "D": [
+      "The residential road follows a left-right course.",
+      "The residential road follows a top-bottom course."
+    ],
+    "E": [
+      "The main street between the homes extends sideways in the image.",
+      "The main street between the homes extends vertically in the image."
+    ],
+    "feedback": "medium residential (0.24), mobile home park (0.21), dense residential (0.18)",
+    "tag": "saved",
+    "rng_a": 10048000,
+    "rng_b": 20048000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "640.tif",
+    "row": 517,
+    "split": "train",
+    "rgb_sha256": "1c11c183e84822ed08907b79f252fea8f8b9bda589caa64969b3292b443c382d",
+    "pair": "636-640",
+    "attribute": "street_axis",
+    "side": 1,
+    "scene": "residential area",
+    "scene_id": 6,
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "This is a dense residential area .",
+    "captions": [
+      "This is a dense residential area .",
+      "It is a dense residential area with lots of houses arranged neatly and a road goes through them .",
+      "There are lots of houses arranged neatly and a road goes through them .",
+      "Lots of houses arranged neatly and a road goes through them .",
+      "Lots of houses with grey houses arranged neatly ."
+    ],
+    "A": [
+      "The street between the houses runs vertically.",
+      "The street between the houses runs horizontally."
+    ],
+    "B": [
+      "The street separating rows of houses extends top to bottom.",
+      "The street separating rows of houses extends left to right."
+    ],
+    "C": [
+      "The houses line a street spanning the height of the image.",
+      "The houses line a street spanning the width of the image."
+    ],
+    "D": [
+      "The residential road follows a top-bottom course.",
+      "The residential road follows a left-right course."
+    ],
+    "E": [
+      "The main street between the homes extends vertically in the image.",
+      "The main street between the homes extends sideways in the image."
+    ],
+    "feedback": "medium residential (0.25), dense residential (0.22), mobile home park (0.16)",
+    "tag": "saved",
+    "rng_a": 10049000,
+    "rng_b": 20049000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "637.tif",
+    "row": 514,
+    "split": "train",
+    "rgb_sha256": "ad0be6911ca768cac11508c2da22e1e0c7959e8cff8e74aaa04de078a7f2fd7f",
+    "pair": "637-634",
+    "attribute": "street_axis",
+    "side": 0,
+    "scene_id": 6,
+    "scene": "residential area",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "This is a dense residential area .",
+    "captions": [
+      "This is a dense residential area .",
+      "It is a dense residential area with lots of houses arranged neatly and a road goes through them .",
+      "There are lots of houses arranged neatly and a road goes through them .",
+      "Lots of houses arranged neatly and a road goes through them .",
+      "Lots of houses arranged neatly ."
+    ],
+    "A": [
+      "The street between the houses runs horizontally.",
+      "The street between the houses runs vertically."
+    ],
+    "B": [
+      "The street separating rows of houses extends left to right.",
+      "The street separating rows of houses extends top to bottom."
+    ],
+    "C": [
+      "The houses line a street spanning the width of the image.",
+      "The houses line a street spanning the height of the image."
+    ],
+    "D": [
+      "The residential road follows a left-right course.",
+      "The residential road follows a top-bottom course."
+    ],
+    "E": [
+      "The main street between the homes extends sideways in the image.",
+      "The main street between the homes extends vertically in the image."
+    ],
+    "feedback": "mobile home park (0.24), medium residential (0.22), dense residential (0.19)",
+    "tag": "saved",
+    "rng_a": 10049000,
+    "rng_b": 20049000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "634.tif",
+    "row": 511,
+    "split": "train",
+    "rgb_sha256": "426c00e95774fa8b208b797496504e49b574268c495a389916aee88800827ead",
+    "pair": "637-634",
+    "attribute": "street_axis",
+    "side": 1,
+    "scene_id": 6,
+    "scene": "residential area",
+    "scene_query": "Scene: a residential area.",
+    "orig_query": "This is a dense residential area .",
+    "captions": [
+      "This is a dense residential area .",
+      "It is a dense residential area with lots of houses arranged neatly and a road goes through them .",
+      "There are lots of houses with grey roofs arranged neatly and a road goes through them .",
+      "Lots of houses arranged neatly and some cars parked on the roadside .",
+      "Lots of houses with grey roofs arranged neatly and some cars parked on the roadside ."
+    ],
+    "A": [
+      "The street between the houses runs vertically.",
+      "The street between the houses runs horizontally."
+    ],
+    "B": [
+      "The street separating rows of houses extends top to bottom.",
+      "The street separating rows of houses extends left to right."
+    ],
+    "C": [
+      "The houses line a street spanning the height of the image.",
+      "The houses line a street spanning the width of the image."
+    ],
+    "D": [
+      "The residential road follows a top-bottom course.",
+      "The residential road follows a left-right course."
+    ],
+    "E": [
+      "The main street between the homes extends vertically in the image.",
+      "The main street between the homes extends sideways in the image."
+    ],
+    "feedback": "dense residential (0.23), medium residential (0.19), mobile home park (0.14)",
+    "tag": "saved",
+    "rng_a": 10048000,
+    "rng_b": 20048000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "348.tif",
+    "pair": "348-340",
+    "rgb_sha256": "596f5de7982eb6fd14a17037b30ece458d1958efd46ac84cf951bef38632923c",
+    "side": 0,
+    "row": 288,
+    "split": "train",
+    "scene_id": 3,
+    "scene": "beach",
+    "attribute": "surf",
+    "scene_query": "Scene: a beach.",
+    "orig_query": "This is a beach with blue-green waters and sand .",
+    "captions": [
+      "This is a beach with blue-green waters and sand .",
+      "Waves slapping a white sand beach .",
+      "Waves slapping a white sand beach throw up white foams .",
+      "The waves beat on the white sands .",
+      "Waves slapping a white sand beach throw up white foams ."
+    ],
+    "A": [
+      "A broad band of white surf borders the beach.",
+      "Little white surf borders the beach."
+    ],
+    "B": [
+      "The nearshore water is covered with a wide strip of white foam.",
+      "The nearshore water has very little white foam."
+    ],
+    "C": [
+      "Breaking waves create a wide frothy belt by the sand.",
+      "Only a thin trace of froth appears by the sand."
+    ],
+    "D": [
+      "There is extensive breaking whitewater at the shore.",
+      "There is little breaking whitewater at the shore."
+    ],
+    "E": [
+      "A broad swath of white foam breaks along the beach.",
+      "Very little white foam breaks along the beach."
+    ],
+    "tag": "fresh",
+    "rng_a": 31288000,
+    "rng_b": 41288000,
+    "feedback": "beach (0.56), agricultural (0.05), chaparral (0.05)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "340.tif",
+    "pair": "348-340",
+    "rgb_sha256": "214acfd7d0ebbb0356c578d07c2c84c94a8dcf532b0b52650f22be938cd286e7",
+    "side": 1,
+    "row": 280,
+    "split": "train",
+    "scene_id": 3,
+    "scene": "beach",
+    "attribute": "surf",
+    "scene_query": "Scene: a beach.",
+    "orig_query": "This is a beach with blue sea and sand .",
+    "captions": [
+      "This is a beach with blue sea and sand .",
+      "Waves slapping a white sand beach and some cars parked on the beach .",
+      "Waves slapping a white sand beach throwing up white foasm .",
+      "This is a beach with clear waters and white sands .",
+      "Some plants and cars on the beach ."
+    ],
+    "A": [
+      "Little white surf borders the beach.",
+      "A broad band of white surf borders the beach."
+    ],
+    "B": [
+      "The nearshore water has very little white foam.",
+      "The nearshore water is covered with a wide strip of white foam."
+    ],
+    "C": [
+      "Only a thin trace of froth appears by the sand.",
+      "Breaking waves create a wide frothy belt by the sand."
+    ],
+    "D": [
+      "There is little breaking whitewater at the shore.",
+      "There is extensive breaking whitewater at the shore."
+    ],
+    "E": [
+      "Very little white foam breaks along the beach.",
+      "A broad swath of white foam breaks along the beach."
+    ],
+    "tag": "fresh",
+    "rng_a": 31280000,
+    "rng_b": 41280000,
+    "feedback": "beach (0.34), river (0.05), chaparral (0.05)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "345.tif",
+    "pair": "345-332",
+    "rgb_sha256": "818f6ed92f3819786fb5b32ac4023fd9a9e3140232fa71c0406604eec1baa0b8",
+    "side": 0,
+    "row": 285,
+    "split": "train",
+    "scene_id": 3,
+    "scene": "beach",
+    "attribute": "surf",
+    "scene_query": "Scene: a beach.",
+    "orig_query": "This is a beach with blue-green waters and sand .",
+    "captions": [
+      "This is a beach with blue-green waters and sand .",
+      "Waves slapping a white sand beach .",
+      "Waves slapping a white sand beach throw up white foams .",
+      "The waves beat on the white sands .",
+      "Waves slapping a white sand beach throw up white foams ."
+    ],
+    "A": [
+      "A broad band of white surf borders the beach.",
+      "Little white surf borders the beach."
+    ],
+    "B": [
+      "The nearshore water is covered with a wide strip of white foam.",
+      "The nearshore water has very little white foam."
+    ],
+    "C": [
+      "Breaking waves create a wide frothy belt by the sand.",
+      "Only a thin trace of froth appears by the sand."
+    ],
+    "D": [
+      "There is extensive breaking whitewater at the shore.",
+      "There is little breaking whitewater at the shore."
+    ],
+    "E": [
+      "A broad swath of white foam breaks along the beach.",
+      "Very little white foam breaks along the beach."
+    ],
+    "tag": "fresh",
+    "rng_a": 31285000,
+    "rng_b": 41285000,
+    "feedback": "beach (0.56), chaparral (0.06), agricultural (0.05)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "332.tif",
+    "pair": "345-332",
+    "rgb_sha256": "4b509ebd201f248c10f743725848329cd776ab598be4bd8be2b42e1dfec8ae81",
+    "side": 1,
+    "row": 272,
+    "split": "train",
+    "scene_id": 3,
+    "scene": "beach",
+    "attribute": "surf",
+    "scene_query": "Scene: a beach.",
+    "orig_query": "This is a beach with green sea and white sands .",
+    "captions": [
+      "This is a beach with green sea and white sands .",
+      "The waves coming over and over again to the sand beach .",
+      "Waves slapping a white sand beach throw up white foam .",
+      "Waves come to the white sand beach over and over again and throw up white foams .",
+      "Waves come to the white sand beach over and over again with white foasm ."
+    ],
+    "A": [
+      "Little white surf borders the beach.",
+      "A broad band of white surf borders the beach."
+    ],
+    "B": [
+      "The nearshore water has very little white foam.",
+      "The nearshore water is covered with a wide strip of white foam."
+    ],
+    "C": [
+      "Only a thin trace of froth appears by the sand.",
+      "Breaking waves create a wide frothy belt by the sand."
+    ],
+    "D": [
+      "There is little breaking whitewater at the shore.",
+      "There is extensive breaking whitewater at the shore."
+    ],
+    "E": [
+      "Very little white foam breaks along the beach.",
+      "A broad swath of white foam breaks along the beach."
+    ],
+    "tag": "fresh",
+    "rng_a": 31272000,
+    "rng_b": 41272000,
+    "feedback": "beach (0.50), harbor (0.05), agricultural (0.04)",
+    "cohort": "independent282"
+  },
+  {
+    "image": "346.tif",
+    "row": 286,
+    "split": "train",
+    "rgb_sha256": "b8bb6cd02c5a7e521eea27ec20fe99c08de70a6bb8fd46076a464d510c589d65",
+    "pair": "346-315",
+    "attribute": "surf",
+    "side": 0,
+    "scene_id": 3,
+    "scene": "beach",
+    "scene_query": "Scene: a beach.",
+    "orig_query": "This is a beach with blue-green waters and sand .",
+    "captions": [
+      "This is a beach with blue-green waters and sand .",
+      "Waves slapping a white sand beach .",
+      "Waves slapping a white sand beach throw up white foams .",
+      "The waves beat on the white sands .",
+      "Waves slapping a white sand beach throw up white foams ."
+    ],
+    "A": [
+      "A broad band of white surf borders the beach.",
+      "Little white surf borders the beach."
+    ],
+    "B": [
+      "The nearshore water is covered with a wide strip of white foam.",
+      "The nearshore water has very little white foam."
+    ],
+    "C": [
+      "Breaking waves create a wide frothy belt by the sand.",
+      "Only a thin trace of froth appears by the sand."
+    ],
+    "D": [
+      "There is extensive breaking whitewater at the shore.",
+      "There is little breaking whitewater at the shore."
+    ],
+    "E": [
+      "A broad swath of white foam breaks along the beach.",
+      "Very little white foam breaks along the beach."
+    ],
+    "feedback": "beach (0.54), chaparral (0.04), harbor (0.04)",
+    "tag": "extra",
+    "rng_a": 51286000,
+    "rng_b": 61286000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "315.tif",
+    "row": 255,
+    "split": "train",
+    "rgb_sha256": "60e026023982cbf6877c3095cbb19abd8d824f439e063cb8605216e59b4a9ffa",
+    "pair": "346-315",
+    "attribute": "surf",
+    "side": 1,
+    "scene_id": 3,
+    "scene": "beach",
+    "scene_query": "Scene: a beach.",
+    "orig_query": "This is a beach with greenish-blue sea and white sands .",
+    "captions": [
+      "This is a beach with greenish-blue sea and white sands .",
+      "The sand beach is peaceful and quiet .",
+      "It is a peaceful white sand beach .",
+      "It is a peaceful beach with crystal clear waters .",
+      "A peaceful white beach with greenish-blue waters ."
+    ],
+    "A": [
+      "Little white surf borders the beach.",
+      "A broad band of white surf borders the beach."
+    ],
+    "B": [
+      "The nearshore water has very little white foam.",
+      "The nearshore water is covered with a wide strip of white foam."
+    ],
+    "C": [
+      "Only a thin trace of froth appears by the sand.",
+      "Breaking waves create a wide frothy belt by the sand."
+    ],
+    "D": [
+      "There is little breaking whitewater at the shore.",
+      "There is extensive breaking whitewater at the shore."
+    ],
+    "E": [
+      "Very little white foam breaks along the beach.",
+      "A broad swath of white foam breaks along the beach."
+    ],
+    "feedback": "beach (0.51), agricultural (0.07), harbor (0.05)",
+    "tag": "extra",
+    "rng_a": 51255000,
+    "rng_b": 61255000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "310.tif",
+    "row": 250,
+    "split": "train",
+    "rgb_sha256": "6b273555820c806f7bbe59e6525a732f7e2c2a1c8d770bb3afa437f1f53f56a8",
+    "pair": "310-324",
+    "attribute": "water_side",
+    "side": 0,
+    "scene_id": 3,
+    "scene": "beach",
+    "scene_query": "Scene: a beach.",
+    "orig_query": "This is a beach with blue sea and white sands .",
+    "captions": [
+      "This is a beach with blue sea and white sands .",
+      "Waves slapping a white sand beach .",
+      "Waves slapping a white sand beach and throwing up white foams .",
+      "Waves beat the beach and throw up white foams .",
+      "This is a beach with violent waves ."
+    ],
+    "A": [
+      "The sea is to the left of the beach.",
+      "The sea is to the right of the beach."
+    ],
+    "B": [
+      "The sandy shore lies on the right side of the water.",
+      "The sandy shore lies on the left side of the water."
+    ],
+    "C": [
+      "Water occupies the left side beside the shoreline.",
+      "Water occupies the right side beside the shoreline."
+    ],
+    "D": [
+      "Looking across the scene from left to right, water comes before sand.",
+      "Looking across the scene from left to right, sand comes before water."
+    ],
+    "E": [
+      "The sea occupies the left side of the shoreline view.",
+      "The sea occupies the right side of the shoreline view."
+    ],
+    "feedback": "beach (0.51), chaparral (0.05), agricultural (0.05)",
+    "tag": "saved",
+    "rng_a": 10052000,
+    "rng_b": 20052000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "324.tif",
+    "row": 264,
+    "split": "train",
+    "rgb_sha256": "0a6aecb91bd8bbdad5eb0211853aea5de57d7b8e48f9cab253c68cb5c9c16404",
+    "pair": "310-324",
+    "attribute": "water_side",
+    "side": 1,
+    "scene_id": 3,
+    "scene": "beach",
+    "scene_query": "Scene: a beach.",
+    "orig_query": "This is a beach with blue sea and white sands .",
+    "captions": [
+      "This is a beach with blue sea and white sands .",
+      "Waves are slapping a white sand beach and some plants on the beach .",
+      "Waves are slapping a white sand beach throwing up white foam and some plants on the beach .",
+      "The beach is made of green water and white sands .",
+      "Violent waves beat a white sand beach and throw up white foams ."
+    ],
+    "A": [
+      "The sea is to the right of the beach.",
+      "The sea is to the left of the beach."
+    ],
+    "B": [
+      "The sandy shore lies on the left side of the water.",
+      "The sandy shore lies on the right side of the water."
+    ],
+    "C": [
+      "Water occupies the right side beside the shoreline.",
+      "Water occupies the left side beside the shoreline."
+    ],
+    "D": [
+      "Looking across the scene from left to right, sand comes before water.",
+      "Looking across the scene from left to right, water comes before sand."
+    ],
+    "E": [
+      "The sea occupies the right side of the shoreline view.",
+      "The sea occupies the left side of the shoreline view."
+    ],
+    "feedback": "beach (0.44), agricultural (0.06), chaparral (0.05)",
+    "tag": "saved",
+    "rng_a": 10053000,
+    "rng_b": 20053000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "301.tif",
+    "row": 241,
+    "split": "train",
+    "rgb_sha256": "d922e2a0f2a649010e90e239c28097eb6b1888ca7d2a71b0eda3452ad868dab7",
+    "pair": "301-321",
+    "attribute": "water_side",
+    "side": 0,
+    "scene": "beach",
+    "scene_id": 3,
+    "scene_query": "Scene: a beach.",
+    "orig_query": "This is a beach with blue sea and white sands .",
+    "captions": [
+      "This is a beach with blue sea and white sands .",
+      "Waves slapping a white sand beach while some birds flying .",
+      "Waves slapping a white sand beach and throwing up white foams .",
+      "Waves beat the beach and throw up white foam while some birds flying .",
+      "This is a beach with waves ."
+    ],
+    "A": [
+      "The sea is to the left of the beach.",
+      "The sea is to the right of the beach."
+    ],
+    "B": [
+      "The sandy shore lies on the right side of the water.",
+      "The sandy shore lies on the left side of the water."
+    ],
+    "C": [
+      "Water occupies the left side beside the shoreline.",
+      "Water occupies the right side beside the shoreline."
+    ],
+    "D": [
+      "Looking across the scene from left to right, water comes before sand.",
+      "Looking across the scene from left to right, sand comes before water."
+    ],
+    "E": [
+      "The sea occupies the left side of the shoreline view.",
+      "The sea occupies the right side of the shoreline view."
+    ],
+    "feedback": "beach (0.50), chaparral (0.05), agricultural (0.05)",
+    "tag": "saved",
+    "rng_a": 10052000,
+    "rng_b": 20052000,
+    "cohort": "independent282"
+  },
+  {
+    "image": "321.tif",
+    "row": 261,
+    "split": "train",
+    "rgb_sha256": "eb196f20fd3458f35e5b85b16ec16ea9546b93a5fb2e83c4a2092c77e42818b2",
+    "pair": "301-321",
+    "attribute": "water_side",
+    "side": 1,
+    "scene": "beach",
+    "scene_id": 3,
+    "scene_query": "Scene: a beach.",
+    "orig_query": "This is a beach with blue sea and white sands .",
+    "captions": [
+      "This is a beach with blue sea and white sands .",
+      "Waves are slapping a white sand beach and some plants on the beach .",
+      "Waves are slapping a white sand beach throwing up white foam and some plants on the beach .",
+      "The beach is made of green water and white sands .",
+      "Violent waves beat a white sand beach and throw up white foams ."
+    ],
+    "A": [
+      "The sea is to the right of the beach.",
+      "The sea is to the left of the beach."
+    ],
+    "B": [
+      "The sandy shore lies on the left side of the water.",
+      "The sandy shore lies on the right side of the water."
+    ],
+    "C": [
+      "Water occupies the right side beside the shoreline.",
+      "Water occupies the left side beside the shoreline."
+    ],
+    "D": [
+      "Looking across the scene from left to right, sand comes before water.",
+      "Looking across the scene from left to right, water comes before sand."
+    ],
+    "E": [
+      "The sea occupies the right side of the shoreline view.",
+      "The sea occupies the left side of the shoreline view."
+    ],
+    "feedback": "beach (0.47), forest (0.05), agricultural (0.05)",
+    "tag": "saved",
+    "rng_a": 10053000,
+    "rng_b": 20053000,
+    "cohort": "independent282"
+  }
+]

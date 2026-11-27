@@ -1,0 +1,30 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:04<00:17,  4.47s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:08<00:12,  4.27s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:13<00:08,  4.33s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:16<00:04,  4.19s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:17<00:00,  3.03s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:17<00:00,  3.59s/it]
+已加载 LoRA 适配器: /private/AGSE_E3_1_rebuild_20261112/second_answer_5090_20261124/R0/adapter
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+The tokenizer you are loading from '/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e.  This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+d 1 1018.tif True
+d 2 1043.tif True
+d 3 1015.tif True
+d 4 1033.tif True
+d 5 1047.tif True
+d 6 1034.tif True
+d 7 1435.tif True
+d 8 1449.tif True
+d 9 1405.tif True
+d 10 1401.tif True
+d 11 1451.tif True
+d 12 1455.tif True
+d 13 2027.tif True
+d 14 2035.tif True
+d 15 2053.tif True
+d 16 2006.tif True
+d 17 2003.tif True
+d 18 2040.tif True
+d 19 1139.tif True
+d 20 1143.tif True
+d 21 1158.tif True
+d 22 1162.tif True
+d 23 1140.tif True
+d 24 1161.tif True
+d 25 11.tif True
