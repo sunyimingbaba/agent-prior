@@ -1,0 +1,1424 @@
+{
+  "a_selected": 57,
+  "both_eligible_selected": 57,
+  "a_lock": "3cd98ffb827e91c57ed13150e1b791218926bab886ce88f472c6eddfc48b2ebe",
+  "b_eligibility_hash": "0ac2e68eb0cfcb74c913dcab245c39a39d6af0db4bc1ad54e807d9df2d6b8919",
+  "eligible_selected": [
+    "1236.tif",
+    "217.tif",
+    "1359.tif",
+    "224.tif",
+    "361.tif",
+    "270.tif",
+    "1749.tif",
+    "673.tif",
+    "267.tif",
+    "644.tif",
+    "1611.tif",
+    "241.tif",
+    "1761.tif",
+    "1535.tif",
+    "1248.tif",
+    "1010.tif",
+    "370.tif",
+    "250.tif",
+    "235.tif",
+    "257.tif",
+    "1364.tif",
+    "23.tif",
+    "1724.tif",
+    "453.tif",
+    "216.tif",
+    "357.tif",
+    "1362.tif",
+    "466.tif",
+    "1538.tif",
+    "1350.tif",
+    "327.tif",
+    "1049.tif",
+    "305.tif",
+    "77.tif",
+    "237.tif",
+    "1820.tif",
+    "1866.tif",
+    "311.tif",
+    "259.tif",
+    "367.tif",
+    "215.tif",
+    "875.tif",
+    "639.tif",
+    "80.tif",
+    "1524.tif",
+    "870.tif",
+    "1801.tif",
+    "1344.tif",
+    "459.tif",
+    "1520.tif",
+    "214.tif",
+    "366.tif",
+    "1716.tif",
+    "844.tif",
+    "1640.tif",
+    "364.tif",
+    "66.tif"
+  ],
+  "rows": [
+    {
+      "image": "1236.tif",
+      "row": 995,
+      "rgb_sha256": "01f15366aaabb6e825301205c65af85a156e0ea64c54d6224041d75240c1e77c",
+      "split": "train",
+      "pair": "1253-1236",
+      "side": 1,
+      "scene_id": 12,
+      "scene": "residential area",
+      "attribute": "street_axis",
+      "scene_query": "Scene: a residential area.",
+      "orig_query": "It is a medium residential area .",
+      "captions": [
+        "It is a medium residential area .",
+        "A medium residential area with houses and trees .",
+        "A medium residential area with some houses and a swimming pool .",
+        "Some houses with a swimming pool in the medium residential area .",
+        "This is a medium residential area with some houses and trees ."
+      ],
+      "C": [
+        "The houses line a street spanning the height of the image.",
+        "The houses line a street spanning the width of the image."
+      ],
+      "D": [
+        "The residential road follows a top-bottom course.",
+        "The residential road follows a left-right course."
+      ],
+      "E": [
+        "The main street between the homes extends vertically in the image.",
+        "The main street between the homes extends sideways in the image."
+      ],
+      "A": [
+        "The street between the houses runs vertically.",
+        "The street between the houses runs horizontally."
+      ],
+      "B": [
+        "The street separating rows of houses extends top to bottom.",
+        "The street separating rows of houses extends left to right."
+      ],
+      "cohort": "v148",
+      "feedback": "buildings (0.20), dense residential (0.12), mobile home park (0.10)",
+      "rng_a": 111995000,
+      "rng_b": 121995000,
+      "native_ids": [
+        767,
+        795,
+        798,
+        799,
+        794
+      ],
+      "alt_ids": [
+        794,
+        795,
+        798,
+        799
+      ]
+    },
+    {
+      "image": "217.tif",
+      "row": 177,
+      "rgb_sha256": "08ee56ac55b45dd47e4205bfaf62dfcce390d4a154e20367494bdd9a19a5b4e2",
+      "split": "train",
+      "pair": "217-270",
+      "side": 0,
+      "scene_id": 2,
+      "scene": "baseball field",
+      "attribute": "infield",
+      "scene_query": "Scene: a baseball field.",
+      "orig_query": "This is a baseball diamond .",
+      "captions": [
+        "This is a baseball diamond .",
+        "It is a new baseball diamond with sands and grass .",
+        "It is a regular baseball diamond .",
+        "A regular baseball diamond compose of manicured lawns and sand .",
+        "A regular baseball diamond compose of manicured lawns and sand ."
+      ],
+      "C": [
+        "Inside the base paths the playing surface is grassy.",
+        "Inside the base paths the playing surface is earthen."
+      ],
+      "D": [
+        "Within the diamond there is a grass-covered patch around the mound.",
+        "Within the diamond the ground around the mound is dirt."
+      ],
+      "E": [
+        "The area inside the baseball diamond has a grassy center.",
+        "The area inside the baseball diamond has a dirt center."
+      ],
+      "A": [
+        "The central baseball infield is grass.",
+        "The central baseball infield is dirt."
+      ],
+      "B": [
+        "Grass covers the middle of the infield.",
+        "Bare soil covers the middle of the infield."
+      ],
+      "cohort": "v148",
+      "feedback": "baseball diamond (0.64), golf course (0.05), sparse residential (0.05)",
+      "rng_a": 111177000,
+      "rng_b": 121177000,
+      "native_ids": [
+        196,
+        197,
+        198,
+        199,
+        199
+      ],
+      "alt_ids": [
+        197,
+        198,
+        199
+      ]
+    },
+    {
+      "image": "1359.tif",
+      "row": 1098,
+      "rgb_sha256": "0aa2ed5f0ae9a6bca34385c98960a1318ef149a1d92e5a8336ae45af2cf985ae",
+      "split": "train",
+      "pair": "1359-1361",
+      "side": 0,
+      "scene_id": 13,
+      "scene": "mobile home park",
+      "attribute": "mobile_axis",
+      "scene_query": "Scene: a mobile home park.",
+      "orig_query": "Many mobile homes arranged neatly in the mobile home park .",
+      "captions": [
+        "Many mobile homes arranged neatly in the mobile home park .",
+        "Many mobile homes are closed to each other in the mobile home park .",
+        "Lots of mobile homes with some cars parked at the roadside in the mobile home park .",
+        "Many mobile homes arranged neatly in the mobile home park and some roads go through this area .",
+        "Lots of mobile homes are closed to each other and some roads go through this area ."
+      ],
+      "C": [
+        "The mobile homes line a road spanning the width of the view.",
+        "The mobile homes line a road spanning the height of the view."
+      ],
+      "D": [
+        "The access street between the trailers follows a left-right course.",
+        "The access street between the trailers follows a top-bottom course."
+      ],
+      "E": [
+        "The road between the trailers crosses the picture from side to side.",
+        "The road between the trailers crosses the picture from top to bottom."
+      ],
+      "A": [
+        "The straight street between the mobile homes runs horizontally.",
+        "The straight street between the mobile homes runs vertically."
+      ],
+      "B": [
+        "A street extends left to right between mobile homes.",
+        "A street extends top to bottom between mobile homes."
+      ],
+      "cohort": "v148",
+      "feedback": "mobile home park (0.44), medium residential (0.11), dense residential (0.10)",
+      "rng_a": 112098000,
+      "rng_b": 122098000,
+      "native_ids": [
+        836,
+        818,
+        844,
+        837,
+        835
+      ],
+      "alt_ids": [
+        818,
+        835,
+        837,
+        844
+      ]
+    },
+    {
+      "image": "224.tif",
+      "row": 184,
+      "rgb_sha256": "0ae631bd8600d4aa557e3c43754f5a2d97e075c353a1a1f80993d03cfbb7568a",
+      "split": "train",
+      "pair": "251-224",
+      "side": 1,
+      "scene_id": 2,
+      "scene": "baseball field",
+      "attribute": "infield",
+      "scene_query": "Scene: a baseball field.",
+      "orig_query": "This is an old baseball diamond .",
+      "captions": [
+        "This is an old baseball diamond .",
+        "It is a very old baseball diamond with sand and weeds .",
+        "A baseball diamond composed of sand and weeds .",
+        "It is a very old baseball diamond compose of sand and weeds .",
+        "It is a very old baseball diamond compose of sand and weeds ."
+      ],
+      "C": [
+        "Inside the base paths the playing surface is earthen.",
+        "Inside the base paths the playing surface is grassy."
+      ],
+      "D": [
+        "Within the diamond the ground around the mound is dirt.",
+        "Within the diamond there is a grass-covered patch around the mound."
+      ],
+      "E": [
+        "The area inside the baseball diamond has a dirt center.",
+        "The area inside the baseball diamond has a grassy center."
+      ],
+      "A": [
+        "The central baseball infield is dirt.",
+        "The central baseball infield is grass."
+      ],
+      "B": [
+        "Bare soil covers the middle of the infield.",
+        "Grass covers the middle of the infield."
+      ],
+      "cohort": "v122",
+      "feedback": "baseball diamond (0.57), golf course (0.07), tennis court (0.04)",
+      "rng_a": 111184000,
+      "rng_b": 121184000,
+      "native_ids": [
+        192,
+        193,
+        194,
+        195,
+        195
+      ],
+      "alt_ids": [
+        193,
+        194,
+        195
+      ]
+    },
+    {
+      "image": "361.tif",
+      "row": 301,
+      "rgb_sha256": "0ff06545d7ab0a1c2a9961db1f475ba89020ef5c65686b337539f41c824b566a",
+      "split": "train",
+      "pair": "361-314",
+      "side": 0,
+      "scene_id": 3,
+      "scene": "beach",
+      "attribute": "surf",
+      "scene_query": "Scene: a beach.",
+      "orig_query": "This is a beach with blue sea and sand .",
+      "captions": [
+        "This is a beach with blue sea and sand .",
+        "The waves slapping a white sand beach .",
+        "The waves come over again and again to the sand beach and throw up white foam .",
+        "The waves slapping a white sand beach over and over again .",
+        "The waves violently slapping a white sand beach over and over again ."
+      ],
+      "C": [
+        "Breaking waves create a wide frothy belt by the sand.",
+        "Only a thin trace of froth appears by the sand."
+      ],
+      "D": [
+        "There is extensive breaking whitewater at the shore.",
+        "There is little breaking whitewater at the shore."
+      ],
+      "E": [
+        "A broad swath of white foam breaks along the beach.",
+        "Very little white foam breaks along the beach."
+      ],
+      "A": [
+        "A broad band of white surf borders the beach.",
+        "Little white surf borders the beach."
+      ],
+      "B": [
+        "The nearshore water is covered with a wide strip of white foam.",
+        "The nearshore water has very little white foam."
+      ],
+      "cohort": "v122",
+      "feedback": "beach (0.41), agricultural (0.06), river (0.05)",
+      "rng_a": 111301000,
+      "rng_b": 121301000,
+      "native_ids": [
+        247,
+        254,
+        255,
+        256,
+        257
+      ],
+      "alt_ids": [
+        254,
+        255,
+        256,
+        257
+      ]
+    },
+    {
+      "image": "270.tif",
+      "row": 230,
+      "rgb_sha256": "128d5926e0f36a87bc1815c3afa463bc19b6f5705c04d524c2080b19f53c5f95",
+      "split": "train",
+      "pair": "217-270",
+      "side": 1,
+      "scene_id": 2,
+      "scene": "baseball field",
+      "attribute": "infield",
+      "scene_query": "Scene: a baseball field.",
+      "orig_query": "This is a old baseball diamond .",
+      "captions": [
+        "This is a old baseball diamond .",
+        "It is a small baseball diamond with sand and grass .",
+        "It is a small old baseball diamond .",
+        "This is a old baseball diamond .",
+        "This is a old baseball diamond ."
+      ],
+      "C": [
+        "Inside the base paths the playing surface is earthen.",
+        "Inside the base paths the playing surface is grassy."
+      ],
+      "D": [
+        "Within the diamond the ground around the mound is dirt.",
+        "Within the diamond there is a grass-covered patch around the mound."
+      ],
+      "E": [
+        "The area inside the baseball diamond has a dirt center.",
+        "The area inside the baseball diamond has a grassy center."
+      ],
+      "A": [
+        "The central baseball infield is dirt.",
+        "The central baseball infield is grass."
+      ],
+      "B": [
+        "Bare soil covers the middle of the infield.",
+        "Grass covers the middle of the infield."
+      ],
+      "cohort": "v148",
+      "feedback": "baseball diamond (0.65), golf course (0.05), tennis court (0.04)",
+      "rng_a": 111230000,
+      "rng_b": 121230000,
+      "native_ids": [
+        212,
+        213,
+        214,
+        212,
+        212
+      ],
+      "alt_ids": [
+        213,
+        214
+      ]
+    },
+    {
+      "image": "1749.tif",
+      "row": 1408,
+      "rgb_sha256": "13181adc1ae1912bf4ca5baa793a0f25984cdaaa383b53adf1857145bed6347b",
+      "split": "train",
+      "pair": "1749-1758",
+      "side": 0,
+      "scene_id": 17,
+      "scene": "runway",
+      "attribute": "runway_bars",
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines on it .",
+      "captions": [
+        "It is a straight runway with some mark lines on it .",
+        "A straight runway with some mark lines on it .",
+        "There are some mark lines on the straight runway .",
+        "It is a straight runway with some white mark lines on it .",
+        "A straight runway with some white mark lines on it ."
+      ],
+      "C": [
+        "The airstrip bears prominent broad white rectangles.",
+        "No broad white rectangles appear on the airstrip."
+      ],
+      "D": [
+        "The runway includes conspicuous wide white bars.",
+        "There are no conspicuous wide white bars on the runway."
+      ],
+      "E": [
+        "The runway has broad rectangular white markings.",
+        "The runway lacks broad rectangular white markings."
+      ],
+      "A": [
+        "Broad white rectangular bars are painted on the runway.",
+        "The runway has no broad white rectangular bars."
+      ],
+      "B": [
+        "Wide white blocks are visible on the runway surface.",
+        "The runway surface lacks wide white blocks."
+      ],
+      "cohort": "v148",
+      "feedback": "runway (0.53), airplane (0.08), storage tanks (0.04)",
+      "rng_a": 112408000,
+      "rng_b": 122408000,
+      "native_ids": [
+        1066,
+        1067,
+        1068,
+        1069,
+        1070
+      ],
+      "alt_ids": [
+        1067,
+        1068,
+        1069,
+        1070
+      ]
+    },
+    {
+      "image": "673.tif",
+      "row": 550,
+      "rgb_sha256": "1ac0906f093c3fe7e4d74c49d1ea69f8aebe108acf24dd7c518c1bd2e75cb137",
+      "split": "train",
+      "pair": "673-677",
+      "side": 0,
+      "scene_id": 6,
+      "scene": "residential area",
+      "attribute": "street_axis",
+      "scene_query": "Scene: a residential area.",
+      "orig_query": "This is a dense residential area .",
+      "captions": [
+        "This is a dense residential area .",
+        "It is a dense residential area with many houses arranged in lines .",
+        "There are lots of houses arranged in lines .",
+        "Lots of houses arranged in lines with some roads fo through them .",
+        "There are some houses arranged in lines in the dense residential area ."
+      ],
+      "C": [
+        "The houses line a street spanning the width of the image.",
+        "The houses line a street spanning the height of the image."
+      ],
+      "D": [
+        "The residential road follows a left-right course.",
+        "The residential road follows a top-bottom course."
+      ],
+      "E": [
+        "The main street between the homes extends sideways in the image.",
+        "The main street between the homes extends vertically in the image."
+      ],
+      "A": [
+        "The street between the houses runs horizontally.",
+        "The street between the houses runs vertically."
+      ],
+      "B": [
+        "The street separating rows of houses extends left to right.",
+        "The street separating rows of houses extends top to bottom."
+      ],
+      "cohort": "v148",
+      "feedback": "dense residential (0.30), medium residential (0.17), mobile home park (0.12)",
+      "rng_a": 111550000,
+      "rng_b": 121550000,
+      "native_ids": [
+        421,
+        503,
+        504,
+        505,
+        506
+      ],
+      "alt_ids": [
+        503,
+        504,
+        505,
+        506
+      ]
+    },
+    {
+      "image": "267.tif",
+      "row": 227,
+      "rgb_sha256": "1b0d834c5eaa6fba1d8a889ac314a33dcbc4858a77b8c3ac443ff61b7c277efa",
+      "split": "train",
+      "pair": "267-254",
+      "side": 0,
+      "scene_id": 2,
+      "scene": "baseball field",
+      "attribute": "infield",
+      "scene_query": "Scene: a baseball field.",
+      "orig_query": "This is a old baseball diamond .",
+      "captions": [
+        "This is a old baseball diamond .",
+        "It is a small baseball diamond with sand and grass .",
+        "It is a small old baseball diamond .",
+        "This is a old baseball diamond .",
+        "This is a old baseball diamond ."
+      ],
+      "C": [
+        "Inside the base paths the playing surface is grassy.",
+        "Inside the base paths the playing surface is earthen."
+      ],
+      "D": [
+        "Within the diamond there is a grass-covered patch around the mound.",
+        "Within the diamond the ground around the mound is dirt."
+      ],
+      "E": [
+        "The area inside the baseball diamond has a grassy center.",
+        "The area inside the baseball diamond has a dirt center."
+      ],
+      "A": [
+        "The central baseball infield is grass.",
+        "The central baseball infield is dirt."
+      ],
+      "B": [
+        "Grass covers the middle of the infield.",
+        "Bare soil covers the middle of the infield."
+      ],
+      "cohort": "v122",
+      "feedback": "baseball diamond (0.65), golf course (0.05), tennis court (0.03)",
+      "rng_a": 111227000,
+      "rng_b": 121227000,
+      "native_ids": [
+        212,
+        213,
+        214,
+        212,
+        212
+      ],
+      "alt_ids": [
+        213,
+        214
+      ]
+    },
+    {
+      "image": "644.tif",
+      "row": 521,
+      "rgb_sha256": "1dd9c6d5de957a1808bc0c1ce18d843473679712e52458d1d6668d9379652f57",
+      "split": "train",
+      "pair": "644-666",
+      "side": 0,
+      "scene_id": 6,
+      "scene": "residential area",
+      "attribute": "street_axis",
+      "scene_query": "Scene: a residential area.",
+      "orig_query": "This is a dense residential area .",
+      "captions": [
+        "This is a dense residential area .",
+        "It is a dense residential area with lots of houses arranged neatly and a road goes through them .",
+        "There are lots of houses with black and grey roofs arranged neatly .",
+        "Lots of houses arranged neatly and a road goes through them .",
+        "Lots of houses with black and grey roofs arranged neatly and a road goes through them ."
+      ],
+      "C": [
+        "The houses line a street spanning the width of the image.",
+        "The houses line a street spanning the height of the image."
+      ],
+      "D": [
+        "The residential road follows a left-right course.",
+        "The residential road follows a top-bottom course."
+      ],
+      "E": [
+        "The main street between the homes extends sideways in the image.",
+        "The main street between the homes extends vertically in the image."
+      ],
+      "A": [
+        "The street between the houses runs horizontally.",
+        "The street between the houses runs vertically."
+      ],
+      "B": [
+        "The street separating rows of houses extends left to right.",
+        "The street separating rows of houses extends top to bottom."
+      ],
+      "cohort": "v148",
+      "feedback": "dense residential (0.22), medium residential (0.18), mobile home park (0.15)",
+      "rng_a": 111521000,
+      "rng_b": 121521000,
+      "native_ids": [
+        421,
+        422,
+        475,
+        424,
+        476
+      ],
+      "alt_ids": [
+        422,
+        424,
+        475,
+        476
+      ]
+    },
+    {
+      "image": "1611.tif",
+      "row": 1290,
+      "rgb_sha256": "1e4557c70f4a6ba9a7100e1624ac72d1903f1d1e4544f5e060c0164d056ea322",
+      "split": "train",
+      "pair": "1611-1672",
+      "side": 0,
+      "scene_id": 16,
+      "scene": "river",
+      "attribute": "river_bank",
+      "scene_query": "Scene: a river.",
+      "orig_query": "It is a river with dense forest on both banks of the river .",
+      "captions": [
+        "It is a river with dense forest on both banks of the river .",
+        "A river with dense forest on both banks of the river .",
+        "Green plants flourish on both banks of the river .",
+        "Lots of green plants flourish on both banks of the river .",
+        "A river goes through a dense forest ."
+      ],
+      "C": [
+        "Thick green woodland borders the water.",
+        "There is little green woodland bordering the water."
+      ],
+      "D": [
+        "A thick cover of green trees flanks the channel.",
+        "Green trees are sparse along the edges of the channel."
+      ],
+      "E": [
+        "Green trees grow thickly beside this watercourse.",
+        "There are few green trees beside this watercourse."
+      ],
+      "A": [
+        "Dense green trees line the riverbanks.",
+        "The riverbanks have little green tree cover."
+      ],
+      "B": [
+        "The banks of the channel are covered with green trees.",
+        "The banks of the channel are mostly bare of green trees."
+      ],
+      "cohort": "v122",
+      "feedback": "river (0.45), forest (0.13), agricultural (0.04)",
+      "rng_a": 112290000,
+      "rng_b": 122290000,
+      "native_ids": [
+        1005,
+        1006,
+        1007,
+        1008,
+        1009
+      ],
+      "alt_ids": [
+        1006,
+        1007,
+        1008,
+        1009
+      ]
+    },
+    {
+      "image": "241.tif",
+      "row": 201,
+      "rgb_sha256": "1e9fc8a4cae002350e0471e92e721043263ed664e0415a733d1bedaa7132bf22",
+      "split": "train",
+      "pair": "223-241",
+      "side": 1,
+      "scene_id": 2,
+      "scene": "baseball field",
+      "attribute": "infield",
+      "scene_query": "Scene: a baseball field.",
+      "orig_query": "This is an old baseball diamond .",
+      "captions": [
+        "This is an old baseball diamond .",
+        "It is an old baseball diamond with sands and grass .",
+        "It is a small baseball diamond .",
+        "An old baseball diamond with sands and grass .",
+        "An old baseball diamond with sands and grass ."
+      ],
+      "C": [
+        "Inside the base paths the playing surface is earthen.",
+        "Inside the base paths the playing surface is grassy."
+      ],
+      "D": [
+        "Within the diamond the ground around the mound is dirt.",
+        "Within the diamond there is a grass-covered patch around the mound."
+      ],
+      "E": [
+        "The area inside the baseball diamond has a dirt center.",
+        "The area inside the baseball diamond has a grassy center."
+      ],
+      "A": [
+        "The central baseball infield is dirt.",
+        "The central baseball infield is grass."
+      ],
+      "B": [
+        "Bare soil covers the middle of the infield.",
+        "Grass covers the middle of the infield."
+      ],
+      "cohort": "v148",
+      "feedback": "baseball diamond (0.45), tennis court (0.08), buildings (0.04)",
+      "rng_a": 111201000,
+      "rng_b": 121201000,
+      "native_ids": [
+        192,
+        203,
+        204,
+        205,
+        205
+      ],
+      "alt_ids": [
+        203,
+        204,
+        205
+      ]
+    },
+    {
+      "image": "1761.tif",
+      "row": 1420,
+      "rgb_sha256": "20fecb7d67c18812d5e417ac685d3c815556a91fbb81e8fe6b88b4848e745dff",
+      "split": "train",
+      "pair": "1761-1764",
+      "side": 0,
+      "scene_id": 17,
+      "scene": "runway",
+      "attribute": "runway_number",
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines and a number and a letter L on it .",
+      "captions": [
+        "It is a straight runway with some mark lines and a number and a letter L on it .",
+        "A straight runway with some mark lines and a number and a letter L on it .",
+        "There are some mark lines and a number and a letter L on the straight runway .",
+        "It is a straight runway with some white mark lines and a number and a letter L on it .",
+        "A straight runway with some white mark lines and a number and a letter L on it ."
+      ],
+      "C": [
+        "A large numeric designation appears on the airstrip surface.",
+        "The airstrip surface has no visible large numeric designation."
+      ],
+      "D": [
+        "The runway carries a prominent number marking.",
+        "The runway has no prominent number marking."
+      ],
+      "E": [
+        "Large digits have been painted on the runway.",
+        "There are no large painted digits on the runway."
+      ],
+      "A": [
+        "Large painted numerals are visible on the runway.",
+        "No large painted numerals are visible on the runway."
+      ],
+      "B": [
+        "The markings on the runway include a large number.",
+        "The markings on the runway do not include a large number."
+      ],
+      "cohort": "v148",
+      "feedback": "runway (0.23), agricultural (0.07), beach (0.06)",
+      "rng_a": 112420000,
+      "rng_b": 122420000,
+      "native_ids": [
+        1081,
+        1082,
+        1083,
+        1084,
+        1085
+      ],
+      "alt_ids": [
+        1082,
+        1083,
+        1084,
+        1085
+      ]
+    },
+    {
+      "image": "1535.tif",
+      "row": 1234,
+      "rgb_sha256": "22f7e7a2db21e006e922345b3a9ebe4b0448b38c9bed85f5befe16f79e25ddcb",
+      "split": "train",
+      "pair": "1547-1535",
+      "side": 1,
+      "scene_id": 15,
+      "scene": "parking lot",
+      "attribute": "parking_fill",
+      "scene_query": "Scene: a parking lot.",
+      "orig_query": "Lots of cars parked neatly in the parking lot .",
+      "captions": [
+        "Lots of cars parked neatly in the parking lot .",
+        "Lots of cars parked in lines in the parking lot .",
+        "Many cars parked neatly with many empty parking spaces in the parking lot .",
+        "It is a parking lot with many cars parked neatly and many parking spots are free .",
+        "Many cars parked in lines with many free parking spots in the parking lot ."
+      ],
+      "C": [
+        "There are many gaps between cars in the parking rows.",
+        "Nearly every place in the parking rows is occupied."
+      ],
+      "D": [
+        "A large number of parking spaces are unoccupied.",
+        "The parking spaces are almost all occupied."
+      ],
+      "E": [
+        "Many stalls in these parking rows contain no vehicle.",
+        "Almost every stall in these parking rows contains a vehicle."
+      ],
+      "A": [
+        "The parking rows have many empty spaces.",
+        "The parking rows are densely filled with cars."
+      ],
+      "B": [
+        "Numerous parking stalls are vacant.",
+        "Cars fill most of the parking stalls."
+      ],
+      "cohort": "v122",
+      "feedback": "parking lot (0.39), buildings (0.08), tennis court (0.04)",
+      "rng_a": 112234000,
+      "rng_b": 122234000,
+      "native_ids": [
+        964,
+        965,
+        969,
+        970,
+        971
+      ],
+      "alt_ids": [
+        965,
+        969,
+        970,
+        971
+      ]
+    },
+    {
+      "image": "1248.tif",
+      "row": 1007,
+      "rgb_sha256": "261e0db5556f42fb6ec4f94bf62afafa0178888192f8fa8ad8fd766f9ba9015c",
+      "split": "train",
+      "pair": "1241-1248",
+      "side": 1,
+      "scene_id": 12,
+      "scene": "residential area",
+      "attribute": "street_axis",
+      "scene_query": "Scene: a residential area.",
+      "orig_query": "It is a medium residential area with houses arranged neatly .",
+      "captions": [
+        "It is a medium residential area with houses arranged neatly .",
+        "A medium residential area with houses and some swimming pools in the backyards .",
+        "A medium residential area with a road goes through this area .",
+        "Some houses with swimming pools in the medium residential area .",
+        "This is a medium residential area with a road goes through this area ."
+      ],
+      "C": [
+        "The houses line a street spanning the height of the image.",
+        "The houses line a street spanning the width of the image."
+      ],
+      "D": [
+        "The residential road follows a top-bottom course.",
+        "The residential road follows a left-right course."
+      ],
+      "E": [
+        "The main street between the homes extends vertically in the image.",
+        "The main street between the homes extends sideways in the image."
+      ],
+      "A": [
+        "The street between the houses runs vertically.",
+        "The street between the houses runs horizontally."
+      ],
+      "B": [
+        "The street separating rows of houses extends top to bottom.",
+        "The street separating rows of houses extends left to right."
+      ],
+      "cohort": "v122",
+      "feedback": "medium residential (0.24), mobile home park (0.21), dense residential (0.13)",
+      "rng_a": 112007000,
+      "rng_b": 122007000,
+      "native_ids": [
+        801,
+        784,
+        781,
+        802,
+        782
+      ],
+      "alt_ids": [
+        781,
+        782,
+        784,
+        802
+      ]
+    },
+    {
+      "image": "1010.tif",
+      "row": 807,
+      "rgb_sha256": "3aaa5b907bd9fdf7c7a3d6a1c8e5b5db254cbe1564c032de88783afaedbdab6f",
+      "split": "train",
+      "pair": "1059-1010",
+      "side": 1,
+      "scene_id": 10,
+      "scene": "harbor",
+      "attribute": "harbor_rows",
+      "scene_query": "Scene: a harbor.",
+      "orig_query": "Lots of boats docked in lines at the harbor .",
+      "captions": [
+        "Lots of boats docked in lines at the harbor .",
+        "Lots of boats docked neatly at the harbor .",
+        "Many boats docked neatly at the harbor and the water is deep blue .",
+        "Many boats docked neatly at the harbor and just a few positions are free .",
+        "Lots of boats docked in lines at the harbor and just a few positions are free ."
+      ],
+      "C": [
+        "The boat rows span the height of the picture.",
+        "The boat rows span the width of the picture."
+      ],
+      "D": [
+        "Moored boats form rows down the height of the frame.",
+        "Moored boats form rows across the width of the frame."
+      ],
+      "E": [
+        "The long lines of boats go from top to bottom in this harbor.",
+        "The long lines of boats go from left to right in this harbor."
+      ],
+      "A": [
+        "The long rows of moored boats run vertically.",
+        "The long rows of moored boats run horizontally."
+      ],
+      "B": [
+        "The lines of tied boats extend top to bottom.",
+        "The lines of tied boats extend left to right."
+      ],
+      "cohort": "v148",
+      "feedback": "harbor (0.58), airplane (0.05), parking lot (0.04)",
+      "rng_a": 111807000,
+      "rng_b": 121807000,
+      "native_ids": [
+        663,
+        659,
+        660,
+        661,
+        668
+      ],
+      "alt_ids": [
+        659,
+        660,
+        661,
+        668
+      ]
+    },
+    {
+      "image": "370.tif",
+      "row": 310,
+      "rgb_sha256": "43c4822379cc91681e4d3cb617720fa3b7774fa004c3badf38e1b9970fd57ed0",
+      "split": "train",
+      "pair": "370-375",
+      "side": 0,
+      "scene_id": 3,
+      "scene": "beach",
+      "attribute": "surf",
+      "scene_query": "Scene: a beach.",
+      "orig_query": "This is a beach with blue sea and sand .",
+      "captions": [
+        "This is a beach with blue sea and sand .",
+        "The waves slapping a white sand beach .",
+        "The waves come over again and again to the sand beach and throw up white foam .",
+        "The waves slapping a white sand beach over and over again .",
+        "The waves violently slapping a white sand beach over and over again ."
+      ],
+      "C": [
+        "Breaking waves create a wide frothy belt by the sand.",
+        "Only a thin trace of froth appears by the sand."
+      ],
+      "D": [
+        "There is extensive breaking whitewater at the shore.",
+        "There is little breaking whitewater at the shore."
+      ],
+      "E": [
+        "A broad swath of white foam breaks along the beach.",
+        "Very little white foam breaks along the beach."
+      ],
+      "A": [
+        "A broad band of white surf borders the beach.",
+        "Little white surf borders the beach."
+      ],
+      "B": [
+        "The nearshore water is covered with a wide strip of white foam.",
+        "The nearshore water has very little white foam."
+      ],
+      "cohort": "v148",
+      "feedback": "beach (0.37), agricultural (0.09), chaparral (0.07)",
+      "rng_a": 111310000,
+      "rng_b": 121310000,
+      "native_ids": [
+        247,
+        254,
+        255,
+        256,
+        257
+      ],
+      "alt_ids": [
+        254,
+        255,
+        256,
+        257
+      ]
+    },
+    {
+      "image": "250.tif",
+      "row": 210,
+      "rgb_sha256": "4516bf7e6afbbddc57def53ab88d9e41a62273904fe010fee8324bebd77a6477",
+      "split": "train",
+      "pair": "250-259",
+      "side": 0,
+      "scene_id": 2,
+      "scene": "baseball field",
+      "attribute": "infield",
+      "scene_query": "Scene: a baseball field.",
+      "orig_query": "This is a baseball diamond .",
+      "captions": [
+        "This is a baseball diamond .",
+        "It is a new baseball diamond with stands sorrounded .",
+        "It is a regular baseball diamond .",
+        "A regular baseball diamond compose of manicured lawns and sand .",
+        "A regular baseball diamond compose of manicured lawns and sand ."
+      ],
+      "C": [
+        "Inside the base paths the playing surface is grassy.",
+        "Inside the base paths the playing surface is earthen."
+      ],
+      "D": [
+        "Within the diamond there is a grass-covered patch around the mound.",
+        "Within the diamond the ground around the mound is dirt."
+      ],
+      "E": [
+        "The area inside the baseball diamond has a grassy center.",
+        "The area inside the baseball diamond has a dirt center."
+      ],
+      "A": [
+        "The central baseball infield is grass.",
+        "The central baseball infield is dirt."
+      ],
+      "B": [
+        "Grass covers the middle of the infield.",
+        "Bare soil covers the middle of the infield."
+      ],
+      "cohort": "v148",
+      "feedback": "baseball diamond (0.61), tennis court (0.04), buildings (0.04)",
+      "rng_a": 111210000,
+      "rng_b": 121210000,
+      "native_ids": [
+        196,
+        206,
+        198,
+        199,
+        199
+      ],
+      "alt_ids": [
+        198,
+        199,
+        206
+      ]
+    },
+    {
+      "image": "235.tif",
+      "row": 195,
+      "rgb_sha256": "455595482f7b258b1603e435fa3817eb20633fea6ebab1650e5704106e49effe",
+      "split": "train",
+      "pair": "245-235",
+      "side": 1,
+      "scene_id": 2,
+      "scene": "baseball field",
+      "attribute": "infield",
+      "scene_query": "Scene: a baseball field.",
+      "orig_query": "This is an old baseball diamond .",
+      "captions": [
+        "This is an old baseball diamond .",
+        "It is an old baseball diamond with sands and grass .",
+        "It is a small baseball diamond .",
+        "An old baseball diamond with sands and grass .",
+        "An old baseball diamond with sands and grass ."
+      ],
+      "C": [
+        "Inside the base paths the playing surface is earthen.",
+        "Inside the base paths the playing surface is grassy."
+      ],
+      "D": [
+        "Within the diamond the ground around the mound is dirt.",
+        "Within the diamond there is a grass-covered patch around the mound."
+      ],
+      "E": [
+        "The area inside the baseball diamond has a dirt center.",
+        "The area inside the baseball diamond has a grassy center."
+      ],
+      "A": [
+        "The central baseball infield is dirt.",
+        "The central baseball infield is grass."
+      ],
+      "B": [
+        "Bare soil covers the middle of the infield.",
+        "Grass covers the middle of the infield."
+      ],
+      "cohort": "v122",
+      "feedback": "baseball diamond (0.56), golf course (0.05), sparse residential (0.04)",
+      "rng_a": 111195000,
+      "rng_b": 121195000,
+      "native_ids": [
+        192,
+        203,
+        204,
+        205,
+        205
+      ],
+      "alt_ids": [
+        203,
+        204,
+        205
+      ]
+    },
+    {
+      "image": "257.tif",
+      "row": 217,
+      "rgb_sha256": "49ba18e1253360f23f1266d2391d9740234283e00d6cc6b953ee830fd106c4bd",
+      "split": "train",
+      "pair": "233-257",
+      "side": 1,
+      "scene_id": 2,
+      "scene": "baseball field",
+      "attribute": "infield",
+      "scene_query": "Scene: a baseball field.",
+      "orig_query": "There are two baseball diamonds .",
+      "captions": [
+        "There are two baseball diamonds .",
+        "Two small baseball diamonds with sands and grass .",
+        "Two old small baseball diamonds surrounded by plants .",
+        "Two small baseball diamonds compose of sand and weeds .",
+        "There are two baseball diamonds surrounded by plantss ."
+      ],
+      "C": [
+        "Inside the base paths the playing surface is earthen.",
+        "Inside the base paths the playing surface is grassy."
+      ],
+      "D": [
+        "Within the diamond the ground around the mound is dirt.",
+        "Within the diamond there is a grass-covered patch around the mound."
+      ],
+      "E": [
+        "The area inside the baseball diamond has a dirt center.",
+        "The area inside the baseball diamond has a grassy center."
+      ],
+      "A": [
+        "The central baseball infield is dirt.",
+        "The central baseball infield is grass."
+      ],
+      "B": [
+        "Bare soil covers the middle of the infield.",
+        "Grass covers the middle of the infield."
+      ],
+      "cohort": "v122",
+      "feedback": "baseball diamond (0.53), tennis court (0.07), golf course (0.05)",
+      "rng_a": 111217000,
+      "rng_b": 121217000,
+      "native_ids": [
+        207,
+        208,
+        209,
+        210,
+        211
+      ],
+      "alt_ids": [
+        208,
+        209,
+        210,
+        211
+      ]
+    },
+    {
+      "image": "1364.tif",
+      "row": 1103,
+      "rgb_sha256": "4caf6f7df1e27df26860e7f982634786e24dadfbbc5493ac4bd16d03670d3163",
+      "split": "train",
+      "pair": "1364-1317",
+      "side": 0,
+      "scene_id": 13,
+      "scene": "mobile home park",
+      "attribute": "mobile_axis",
+      "scene_query": "Scene: a mobile home park.",
+      "orig_query": "Many mobile homes arranged in lines in the mobile home park .",
+      "captions": [
+        "Many mobile homes arranged in lines in the mobile home park .",
+        "Many mobile homes are very closed to each other in the mobile home park .",
+        "Lots of mobile homes arranged in lines with some cars parked at the roadside in the mobile home park .",
+        "Many mobile homes arranged in lines in the mobile home park and some roads go through this area .",
+        "Lots of mobile homes are very closed to each other and some roads go through this area ."
+      ],
+      "C": [
+        "The mobile homes line a road spanning the width of the view.",
+        "The mobile homes line a road spanning the height of the view."
+      ],
+      "D": [
+        "The access street between the trailers follows a left-right course.",
+        "The access street between the trailers follows a top-bottom course."
+      ],
+      "E": [
+        "The road between the trailers crosses the picture from side to side.",
+        "The road between the trailers crosses the picture from top to bottom."
+      ],
+      "A": [
+        "The straight street between the mobile homes runs horizontally.",
+        "The straight street between the mobile homes runs vertically."
+      ],
+      "B": [
+        "A street extends left to right between mobile homes.",
+        "A street extends top to bottom between mobile homes."
+      ],
+      "cohort": "v148",
+      "feedback": "mobile home park (0.42), medium residential (0.13), dense residential (0.11)",
+      "rng_a": 112103000,
+      "rng_b": 122103000,
+      "native_ids": [
+        817,
+        845,
+        846,
+        820,
+        847
+      ],
+      "alt_ids": [
+        820,
+        845,
+        846,
+        847
+      ]
+    },
+    {
+      "image": "23.tif",
+      "row": 22,
+      "rgb_sha256": "54685620ca2db4bb5ad8bdf934bb3cc7f9aba8f2ea4132f141024a7b28a32bda",
+      "split": "train",
+      "pair": "60-23",
+      "side": 1,
+      "scene_id": 0,
+      "scene": "agricultural field",
+      "attribute": "field_curve",
+      "scene_query": "Scene: an agricultural field.",
+      "orig_query": "There is a piece of farmland .",
+      "captions": [
+        "There is a piece of farmland .",
+        "There is a piece of cropland .",
+        "It is a piece of farmland .",
+        "It is a piece of cropland .",
+        "Here is a piece of farmland ."
+      ],
+      "C": [
+        "The lines in the cultivated plot have a linear layout.",
+        "The lines in the cultivated plot follow an arc."
+      ],
+      "D": [
+        "The furrows maintain a straight course across the plot.",
+        "The furrows change direction as they cross the plot."
+      ],
+      "E": [
+        "The planted rows form straight lines.",
+        "A bend is visible in the planted rows."
+      ],
+      "A": [
+        "The crop rows are straight.",
+        "The crop rows are curved."
+      ],
+      "B": [
+        "The planting lines follow a straight course.",
+        "The planting lines bend across the field."
+      ],
+      "cohort": "v122",
+      "feedback": "agricultural (0.30), forest (0.14), chaparral (0.07)",
+      "rng_a": 111022000,
+      "rng_b": 121022000,
+      "native_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "alt_ids": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "image": "1724.tif",
+      "row": 1383,
+      "rgb_sha256": "5784198797b6db013b4aef18b9ed952132f8bb2afaac73739b66f081be68172f",
+      "split": "train",
+      "pair": "1724-1716",
+      "side": 0,
+      "scene_id": 17,
+      "scene": "runway",
+      "attribute": "runway_bars",
+      "scene_query": "Scene: a runway.",
+      "orig_query": "It is a straight runway with some mark lines on it .",
+      "captions": [
+        "It is a straight runway with some mark lines on it .",
+        "A straight runway with some mark lines on it .",
+        "There are some mark lines on the straight runway .",
+        "It is a straight runway with some white mark lines on it .",
+        "A straight runway with some white mark lines on it ."
+      ],
+      "C": [
+        "The airstrip bears prominent broad white rectangles.",
+        "No broad white rectangles appear on the airstrip."
+      ],
+      "D": [
+        "The runway includes conspicuous wide white bars.",
+        "There are no conspicuous wide white bars on the runway."
+      ],
+      "E": [
+        "The runway has broad rectangular white markings.",
+        "The runway lacks broad rectangular white markings."
+      ],
+      "A": [
+        "Broad white rectangular bars are painted on the runway.",
+        "The runway has no broad white rectangular bars."
+      ],
+      "B": [
+        "Wide white blocks are visible on the runway surface.",
+        "The runway surface lacks wide white blocks."
+      ],
+      "cohort": "v148",
+      "feedback": "runway (0.33), airplane (0.16), storage tanks (0.05)",
+      "rng_a": 112383000,
+      "rng_b": 122383000,
+      "native_ids": [
+        1066,
+        1067,
+        1068,
+        1069,
+        1070
+      ],
+      "alt_ids": [
+        1067,
+        1068,
+        1069,
+        1070
+      ]
+    },
+    {
+      "image": "453.tif",
+      "row": 373,
+      "rgb_sha256": "582fdbca10f5cd02fd46ba53abdd77cb91dee36189892bdcd861d7fa7dcae391",
+      "split": "train",
+      "pair": "453-466",
+      "side": 0,
+      "scene_id": 4,
+      "scene": "buildings",
+      "attribute": "rooftops",
+      "scene_query": "Scene: buildings.",
+      "orig_query": "There are some buildings with white roofs .",
+      "captions": [
+        "There are some buildings with white roofs .",
+        "Some buildings with white roofs .",
+        "Some buildings with white roofs .",
+        "Some buildings with white roofs .",
+        "Some buildings with white roofs ."
+      ],
+      "C": [
+        "Most roof surfaces have a bright tone.",
+        "Most roof surfaces have a dark tone."
+      ],
+      "D": [
+        "Light shades predominate on the roofs.",
+        "Dark shades predominate on the roofs."
+      ],
+      "E": [
+        "Most of the rooftops are pale in this scene.",
+        "Most of the rooftops are dark in this scene."
+      ],
+      "A": [
+        "The rooftops are mostly light in color.",
+        "The rooftops are mostly dark in color."
+      ],
+      "B": [
+        "Pale roofs dominate this scene.",
+        "Dark roofs dominate this scene."
+      ],
+      "cohort": "v148",
+      "feedback": "buildings (0.23), storage tanks (0.07), sparse residential (0.07)",
+      "rng_a": 111373000,
+      "rng_b": 121373000,
+      "native_ids": [
+        344,
+        345,
+        345,
+        345,
+        345
+      ],
+      "alt_ids": [
+        345
+      ]
+    }
+  ],
+  "sealed_utc": "2026-11-27T03:31:11.173796+00:00"
+}
