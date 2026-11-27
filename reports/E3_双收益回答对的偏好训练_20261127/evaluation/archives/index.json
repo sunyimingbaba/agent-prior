@@ -1,0 +1,182 @@
+{
+  "a_r2": {
+    "archive_sha256": "e4a0b90a209cd0d12ec0d841ad7002cffdb927c0153d6c2901287dc0cdf7d7b7",
+    "bytes": 2599779,
+    "files": 212,
+    "env": {
+      "torch": "2.10.0",
+      "device": "NVIDIA GeForce RTX 5090",
+      "cuda": "13.0",
+      "source_hashes": {
+        "policy": "31ac06ef767813de37df161182139b382e74acb30c3803a3fd09c327647a63b6",
+        "reader": "86473423a1f12524ca6c27979b8559aaa29b64f3b2a02b5f0d76b99afbf6eda8",
+        "greedy": "f22c21a037c4b26a431112138fa66a5108c5e9cfe4c9169e732c1d15ea7a8406",
+        "datasets": "01be2a07b7f974c2ea520f5d7df75d861cc9bfc9cc9084a8442dc0548f2b6b0c",
+        "rgb": "b6817451f760ccd3c8e197c5084c8fbf871a8e595d99d13e975de2d4f4664a72"
+      }
+    },
+    "adapter": "59287e4caba6b26f4280ca39c1412295614b5fdcfd9c369cae5e47d3f4473fce"
+  },
+  "a_r3": {
+    "archive_sha256": "14e985fd7edd9bcf7ccc63eccab202eeddff853711ac898d2a0be228c2738fa8",
+    "bytes": 2597769,
+    "files": 212,
+    "env": {
+      "torch": "2.10.0",
+      "device": "NVIDIA GeForce RTX 5090",
+      "cuda": "13.0",
+      "source_hashes": {
+        "policy": "31ac06ef767813de37df161182139b382e74acb30c3803a3fd09c327647a63b6",
+        "reader": "86473423a1f12524ca6c27979b8559aaa29b64f3b2a02b5f0d76b99afbf6eda8",
+        "greedy": "f22c21a037c4b26a431112138fa66a5108c5e9cfe4c9169e732c1d15ea7a8406",
+        "datasets": "01be2a07b7f974c2ea520f5d7df75d861cc9bfc9cc9084a8442dc0548f2b6b0c",
+        "rgb": "b6817451f760ccd3c8e197c5084c8fbf871a8e595d99d13e975de2d4f4664a72"
+      }
+    },
+    "adapter": "220b342f823e8c02a6f79cc4bd1e4070b2198e99ca85542c27d0ad560712edb1"
+  },
+  "a_retained": {
+    "anchor_archive": {
+      "archive_sha256": "540f921d1d7d57a72097dbed1914c6a9e1dcca133652e54aa241bbd5e792b2e6",
+      "bytes": 34213,
+      "files": 5
+    },
+    "reference_archive": {
+      "sha256": "24604c19b3db01e0cca7d54a7ba9490a94fdd1727d954e445733401b513862b1",
+      "files": 212,
+      "bytes": 2590931,
+      "adapter": "50c8911f2a806d301a849ad7937d212999c2222ef49937b1bf416a468b67e27c",
+      "torch": "2.10.0",
+      "device": "NVIDIA GeForce RTX 5090"
+    },
+    "env": {
+      "torch": "2.10.0",
+      "device": "NVIDIA GeForce RTX 5090",
+      "cuda": "13.0",
+      "source_hashes": {
+        "policy": "31ac06ef767813de37df161182139b382e74acb30c3803a3fd09c327647a63b6",
+        "reader": "86473423a1f12524ca6c27979b8559aaa29b64f3b2a02b5f0d76b99afbf6eda8",
+        "greedy": "f22c21a037c4b26a431112138fa66a5108c5e9cfe4c9169e732c1d15ea7a8406",
+        "datasets": "01be2a07b7f974c2ea520f5d7df75d861cc9bfc9cc9084a8442dc0548f2b6b0c",
+        "rgb": "b6817451f760ccd3c8e197c5084c8fbf871a8e595d99d13e975de2d4f4664a72"
+      }
+    },
+    "adapter": "50c8911f2a806d301a849ad7937d212999c2222ef49937b1bf416a468b67e27c"
+  },
+  "a_R0": {
+    "anchor_archive": {
+      "archive_sha256": "483de695f8895c06bbd1faba1091b110d1178fdd88ddedabeab1dd985191b705",
+      "bytes": 34214,
+      "files": 5
+    },
+    "reference_archive": {
+      "sha256": "13dd394d334d576e605c23c28856e93d9927c4eef94a014f7cbe6c95e961f79c",
+      "adapter": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+      "files": 212,
+      "bytes": 2598088
+    },
+    "env": {
+      "torch": "2.10.0",
+      "device": "NVIDIA GeForce RTX 5090",
+      "cuda": "13.0",
+      "source_hashes": {
+        "policy": "31ac06ef767813de37df161182139b382e74acb30c3803a3fd09c327647a63b6",
+        "reader": "86473423a1f12524ca6c27979b8559aaa29b64f3b2a02b5f0d76b99afbf6eda8",
+        "greedy": "f22c21a037c4b26a431112138fa66a5108c5e9cfe4c9169e732c1d15ea7a8406",
+        "datasets": "01be2a07b7f974c2ea520f5d7df75d861cc9bfc9cc9084a8442dc0548f2b6b0c",
+        "rgb": "b6817451f760ccd3c8e197c5084c8fbf871a8e595d99d13e975de2d4f4664a72"
+      }
+    },
+    "adapter": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a"
+  },
+  "b_r2": {
+    "archive_sha256": "a11161b3ca8a5242d825a3e018c5091d9425156609bc6414b5d5e61a51530643",
+    "bytes": 2598693,
+    "files": 212,
+    "env": {
+      "torch": "2.10.0",
+      "device": "NVIDIA GeForce RTX 5090",
+      "cuda": "13.0",
+      "source_hashes": {
+        "policy": "31ac06ef767813de37df161182139b382e74acb30c3803a3fd09c327647a63b6",
+        "reader": "86473423a1f12524ca6c27979b8559aaa29b64f3b2a02b5f0d76b99afbf6eda8",
+        "greedy": "f22c21a037c4b26a431112138fa66a5108c5e9cfe4c9169e732c1d15ea7a8406",
+        "datasets": "01be2a07b7f974c2ea520f5d7df75d861cc9bfc9cc9084a8442dc0548f2b6b0c",
+        "rgb": "b6817451f760ccd3c8e197c5084c8fbf871a8e595d99d13e975de2d4f4664a72"
+      }
+    },
+    "adapter": "f9fc01253be4e7290048a047c528c962ae7d0ff0ed509e2a948cbfc7dc1760f9"
+  },
+  "b_r3": {
+    "archive_sha256": "67106369eeb7e8e444b9508a9e3b0cf03d4aa1392287dffef78e247c6ad0fa6c",
+    "bytes": 2597603,
+    "files": 212,
+    "env": {
+      "torch": "2.10.0",
+      "device": "NVIDIA GeForce RTX 5090",
+      "cuda": "13.0",
+      "source_hashes": {
+        "policy": "31ac06ef767813de37df161182139b382e74acb30c3803a3fd09c327647a63b6",
+        "reader": "86473423a1f12524ca6c27979b8559aaa29b64f3b2a02b5f0d76b99afbf6eda8",
+        "greedy": "f22c21a037c4b26a431112138fa66a5108c5e9cfe4c9169e732c1d15ea7a8406",
+        "datasets": "01be2a07b7f974c2ea520f5d7df75d861cc9bfc9cc9084a8442dc0548f2b6b0c",
+        "rgb": "b6817451f760ccd3c8e197c5084c8fbf871a8e595d99d13e975de2d4f4664a72"
+      }
+    },
+    "adapter": "bfff7660732a55205ed7caa86084d91e7acde26d6f9929f82d3635500ee70ac1"
+  },
+  "b_retained": {
+    "anchor_archive": {
+      "archive_sha256": "4f48223e36da2553d28786f627f41c423096087983fe104b8986746d71390244",
+      "bytes": 34231,
+      "files": 5
+    },
+    "reference_archive": {
+      "sha256": "2d6400e3477e839d887da11e4ffca82e98ac8034039e8dc5b2c0b90358d63f17",
+      "files": 212,
+      "bytes": 2590866,
+      "adapter": "2e0a06f58dd3608c597e464e1b0d5eb97ab7abfb5ddf55b84754a1220eeaf239",
+      "torch": "2.10.0",
+      "device": "NVIDIA GeForce RTX 5090"
+    },
+    "env": {
+      "torch": "2.10.0",
+      "device": "NVIDIA GeForce RTX 5090",
+      "cuda": "13.0",
+      "source_hashes": {
+        "policy": "31ac06ef767813de37df161182139b382e74acb30c3803a3fd09c327647a63b6",
+        "reader": "86473423a1f12524ca6c27979b8559aaa29b64f3b2a02b5f0d76b99afbf6eda8",
+        "greedy": "f22c21a037c4b26a431112138fa66a5108c5e9cfe4c9169e732c1d15ea7a8406",
+        "datasets": "01be2a07b7f974c2ea520f5d7df75d861cc9bfc9cc9084a8442dc0548f2b6b0c",
+        "rgb": "b6817451f760ccd3c8e197c5084c8fbf871a8e595d99d13e975de2d4f4664a72"
+      }
+    },
+    "adapter": "2e0a06f58dd3608c597e464e1b0d5eb97ab7abfb5ddf55b84754a1220eeaf239"
+  },
+  "b_R0": {
+    "anchor_archive": {
+      "archive_sha256": "2ad5224da235ddbba997f98134dbd1cd61e7b518080d8360b349a0c80b23b05d",
+      "bytes": 34232,
+      "files": 5
+    },
+    "reference_archive": {
+      "sha256": "7a534501634bb910ec3bea456764ca5a0e10fc76b135bb75aa4a7f2f9d4330c5",
+      "adapter": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd",
+      "files": 212,
+      "bytes": 2598181
+    },
+    "env": {
+      "torch": "2.10.0",
+      "device": "NVIDIA GeForce RTX 5090",
+      "cuda": "13.0",
+      "source_hashes": {
+        "policy": "31ac06ef767813de37df161182139b382e74acb30c3803a3fd09c327647a63b6",
+        "reader": "86473423a1f12524ca6c27979b8559aaa29b64f3b2a02b5f0d76b99afbf6eda8",
+        "greedy": "f22c21a037c4b26a431112138fa66a5108c5e9cfe4c9169e732c1d15ea7a8406",
+        "datasets": "01be2a07b7f974c2ea520f5d7df75d861cc9bfc9cc9084a8442dc0548f2b6b0c",
+        "rgb": "b6817451f760ccd3c8e197c5084c8fbf871a8e595d99d13e975de2d4f4664a72"
+      }
+    },
+    "adapter": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd"
+  }
+}

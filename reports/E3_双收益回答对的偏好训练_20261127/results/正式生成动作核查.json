@@ -1,0 +1,51 @@
+{
+  "by_seed": {
+    "a": {
+      "r2_second_round": 197,
+      "r2_fixed_second_action": 196,
+      "r3_second_round": 204,
+      "r3_fixed_second_action": 203
+    },
+    "b": {
+      "r2_second_round": 202,
+      "r2_fixed_second_action": 201,
+      "r3_second_round": 207,
+      "r3_fixed_second_action": 206
+    }
+  },
+  "all": {
+    "mR": {
+      "observations": 420,
+      "mean_delta": 0.004546957671957673
+    },
+    "DE": {
+      "observations": 212,
+      "mean_delta": 0.030660377358490566
+    },
+    "mrr": {
+      "observations": 212,
+      "mean_delta": 0.031842925980798
+    }
+  },
+  "same_actions": {
+    "mR": {
+      "observations": 406,
+      "mean_delta": 0.005237411056376573
+    },
+    "DE": {
+      "observations": 212,
+      "mean_delta": 0.030660377358490566
+    },
+    "mrr": {
+      "observations": 212,
+      "mean_delta": 0.031842925980798
+    }
+  },
+  "different_actions": {
+    "mR": {
+      "observations": 14,
+      "mean_delta": -0.01547619047619048
+    }
+  },
+  "same_actions_and_identical_visual": 0
+}

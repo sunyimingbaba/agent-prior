@@ -1,0 +1,160 @@
+{
+  "first": {
+    "images": 98,
+    "pairs": 49,
+    "held_trials": 379,
+    "switches": 34,
+    "metrics": {
+      "switched": {
+        "images": 98,
+        "mean": 0.08758503401360543,
+        "interval": [
+          0.041666666666666664,
+          0.13945578231292516
+        ]
+      },
+      "held_rr": {
+        "images": 98,
+        "mean": 0.009440592282709393,
+        "interval": [
+          -0.003008079855318751,
+          0.026113270635065362
+        ]
+      },
+      "DE": {
+        "images": 98,
+        "mean": 0.01403061224489796,
+        "interval": [
+          0.002551020408163265,
+          0.02806122448979592
+        ]
+      },
+      "FG": {
+        "images": 98,
+        "mean": 0.02423469387755102,
+        "interval": [
+          0.006377551020408163,
+          0.04591836734693878
+        ]
+      }
+    }
+  },
+  "tied": {
+    "images": 98,
+    "pairs": 49,
+    "held_trials": 379,
+    "switches": 34,
+    "metrics": {
+      "switched": {
+        "images": 98,
+        "mean": 0.08758503401360543,
+        "interval": [
+          0.041666666666666664,
+          0.13945578231292516
+        ]
+      },
+      "held_rr": {
+        "images": 98,
+        "mean": 0.003460371253584136,
+        "interval": [
+          -0.012820632586744218,
+          0.02197676163120365
+        ]
+      },
+      "DE": {
+        "images": 98,
+        "mean": 0.006377551020408163,
+        "interval": [
+          -0.007653061224489796,
+          0.02295918367346939
+        ]
+      },
+      "FG": {
+        "images": 98,
+        "mean": 0.02125850340136054,
+        "interval": [
+          0.0008503401360544199,
+          0.044217687074829926
+        ]
+      }
+    }
+  },
+  "by_seed": {
+    "c": {
+      "images": 98,
+      "pairs": 49,
+      "held_trials": 379,
+      "switches": 34,
+      "metrics": {
+        "switched": {
+          "images": 98,
+          "mean": 0.08758503401360543,
+          "interval": [
+            0.041666666666666664,
+            0.13945578231292516
+          ]
+        },
+        "held_rr": {
+          "images": 98,
+          "mean": 0.009440592282709393,
+          "interval": [
+            -0.003008079855318751,
+            0.026113270635065362
+          ]
+        },
+        "DE": {
+          "images": 98,
+          "mean": 0.01403061224489796,
+          "interval": [
+            0.002551020408163265,
+            0.02806122448979592
+          ]
+        },
+        "FG": {
+          "images": 98,
+          "mean": 0.02423469387755102,
+          "interval": [
+            0.006377551020408163,
+            0.04591836734693878
+          ]
+        }
+      }
+    }
+  },
+  "omitted": [],
+  "switch_images": 13,
+  "source": {
+    "rule": "3ff4fab995876c3c99ed3d243e35917e729a5fb9c945dcc04a56df441c2d1566",
+    "protocol": "99d36b24d2556d66d03de29c52f2cd3d7abbeb0968ccbdc7386a931e8e8c1618",
+    "script": "59db7e83b3f2187837e6df00c2653d4f68fcc73e0d36ba2854478b33658a14c5",
+    "independent_source": "47f79c30123f13fbe51b2c5025f68951a8e3aa9f24a22a86a79789e921251ac8",
+    "archive": "598ac96356594aa8207914f782b6c415273726aec4886e77374c25dc28c1bde3",
+    "separation": {
+      "selected_training_270": {
+        "size": 270,
+        "overlap": 0,
+        "sha256": "4b2de56c10061a51f46457cf4a02470a916e77cfabc553b05833b7b818e9dbff"
+      },
+      "selected_training_pairs": {
+        "size": 24,
+        "overlap": 0,
+        "sha256": "e995b61fdda6edb119c416f22b297b64283eba202c7c89ade3e2e0907efd7bfa"
+      },
+      "formal_UCM_210": {
+        "size": 210,
+        "overlap": 0,
+        "sha256": "31e4052b7e612bfd4e3c44edc8a41fa3308d960c52d62c6dae0b3aac65ea613c"
+      },
+      "formal_RSITMD_448": {
+        "size": 448,
+        "overlap": 0,
+        "sha256": "95c2ebf83d62674bb0284ee41656d0a47949317afb9fd6ab32f0aba8a795bf1e"
+      },
+      "local_detail_panel_126_including_106_test": {
+        "size": 126,
+        "overlap": 0,
+        "sha256": "17be4144ceee6a28fb3b1a4c80884ce467d016d6e0b8fe8ee45bacb8ae437989"
+      }
+    }
+  }
+}

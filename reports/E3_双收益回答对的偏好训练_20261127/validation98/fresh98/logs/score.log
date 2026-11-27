@@ -1,0 +1,115 @@
+[HAMI-core ERROR (pid:8071 thread=140428272237440 libvgpu.c:897)]: cuInit failed:100
+If for semantic segmentation, please install mmsegmentation first
+If for detection, please install mmdetection first
+
+###########This is config ####################
+{'exp_name': 'finetune_irtr_ucm_randaug', 'seed': 0, 'datasets': ['ucm'], 'loss_names': {'itm': 0, 'mlm': 0, 'mpp': 0, 'vqa': 0, 'nlvr2': 0, 'irtr': 0, 'clip': 1}, 'batch_size': 256, 'clip_model': 'ViT-L/14', 'current_epoch': 49, 'weight_margin': 0.015, 'loss_scale_kl': 1, 'loss_scale_un': 1, 'loss_scale': 1, 'max_image_len': -1, 'patch_size': 32, 'draw_false_image': 1, 'image_only': False, 'vqav2_label_size': 3129, 'max_text_len': 77, 'tokenizer': 'bert-base-uncased', 'vocab_size': 30522, 'whole_word_masking': False, 'mlm_prob': 0.15, 'draw_false_text': 0, 'vit': 'vit_base_patch32_384', 'hidden_size': 768, 'num_heads': 12, 'num_layers': 12, 'mlp_ratio': 4, 'drop_rate': 0.1, 'prompt_length': 16, 'optim_type': 'adamw', 'learning_rate': 0.0001, 'weight_decay': 0.01, 'decay_power': 1, 'max_epoch': 50, 'max_steps': None, 'warmup_steps': 0.1, 'end_lr': 0, 'lr_mult': 1, 'clip_zero': True, 'get_recall_metric': True, 'resume_from': None, 'fast_dev_run': False, 'val_check_interval': 1.0, 'test_only': False, 'data_root': '/workspace/cup-debug/data/ucm', 'log_dir': '/workspace/cup-debug/logs', 'per_gpu_batchsize': 32, 'num_gpus': 1, 'num_nodes': 1, 'load_path': '', 'num_workers': 8, 'precision': 16, 'linear_projector': 0.1, 'train_transform_keys': 'ViT-L/14', 'val_transform_keys': 'ViT-L/14', 'image_size': [14, 14], 'img_features_dim': 1024, 'txt_features_dim': 768, 'cls_number': 21, 'save_image_path': '/workspace/cup-debug/images', 'json': '/home/amax/wyj/dataset/UCM_captions/karpathy/ucm.json', 'use_agent_prior': True, 'agent_cache_dir': '/workspace/cup-debug/agent_cache_domain_tool', 'agent_hidden_dim': 3584, '__doc__': 'ViT-L/14 骨干：UCM 遥感数据集'}
+###########This is config ####################
+
+this is name:/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt
+
+###########This is config ####################
+{'exp_name': 'finetune_irtr_ucm_randaug', 'seed': 0, 'datasets': ['ucm'], 'loss_names': {'itm': 0, 'mlm': 0, 'mpp': 0, 'vqa': 0, 'nlvr2': 0, 'irtr': 0, 'clip': 1}, 'batch_size': 256, 'clip_model': 'ViT-L/14', 'current_epoch': 49, 'weight_margin': 0.015, 'loss_scale_kl': 1, 'loss_scale_un': 1, 'loss_scale': 1, 'max_image_len': -1, 'patch_size': 32, 'draw_false_image': 1, 'image_only': False, 'vqav2_label_size': 3129, 'max_text_len': 77, 'tokenizer': 'bert-base-uncased', 'vocab_size': 30522, 'whole_word_masking': False, 'mlm_prob': 0.15, 'draw_false_text': 0, 'vit': 'vit_base_patch32_384', 'hidden_size': 768, 'num_heads': 12, 'num_layers': 12, 'mlp_ratio': 4, 'drop_rate': 0.1, 'prompt_length': 16, 'optim_type': 'adamw', 'learning_rate': 0.0001, 'weight_decay': 0.01, 'decay_power': 1, 'max_epoch': 50, 'max_steps': None, 'warmup_steps': 0.1, 'end_lr': 0, 'lr_mult': 1, 'clip_zero': True, 'get_recall_metric': True, 'resume_from': '/private/AGSE_E3_1_rebuild_20261112/scorer_training_20261112/attempt_02/snapshots/epoch_30/last.ckpt', 'fast_dev_run': False, 'val_check_interval': 1.0, 'test_only': False, 'data_root': '/private/AGSE_E1_20261110/legacy/assets/ucm', 'log_dir': '/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/logs', 'per_gpu_batchsize': 32, 'num_gpus': 1, 'num_nodes': 1, 'load_path': '', 'num_workers': 8, 'precision': 32, 'linear_projector': 0.1, 'train_transform_keys': 'ViT-L/14', 'val_transform_keys': 'ViT-L/14', 'image_size': [14, 14], 'img_features_dim': 1024, 'txt_features_dim': 768, 'cls_number': 21, 'save_image_path': '/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/images', 'json': '/private/AGSE_E3_1_rebuild_20261112/scorer_resume_20261113/run_01/unused_legacy_annotation.json', 'use_agent_prior': True, 'agent_cache_dir': '/private/AGSE_E3_1_rebuild_20261112/plain_prior_full_20261112/run_01/priors', 'agent_hidden_dim': 3584, '__doc__': 'ViT-L/14 骨干：UCM 遥感数据集'}
+###########This is config ####################
+
+this is name:/private/AGSE_E1_20261110/legacy/assets/models/ViT-L-14.pt
+/private/AGSE_E1_20261110/legacy/CUP/agent/grpo/scorer.py:72: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  data = torch.load(self.cache_path, map_location="cpu")
+1 31.tif True
+2 24.tif True
+3 49.tif True
+4 19.tif True
+5 32.tif True
+6 3.tif True
+7 18.tif True
+8 45.tif True
+9 222.tif True
+10 234.tif True
+11 371.tif True
+12 374.tif True
+13 369.tif True
+14 359.tif True
+15 372.tif True
+16 352.tif True
+17 368.tif True
+18 353.tif True
+19 309.tif True
+20 316.tif True
+21 460.tif True
+22 417.tif True
+23 654.tif True
+24 606.tif True
+25 663.tif True
+26 619.tif True
+27 642.tif True
+28 608.tif True
+29 855.tif True
+30 858.tif True
+31 879.tif True
+32 846.tif True
+33 849.tif True
+34 843.tif True
+35 874.tif True
+36 833.tif True
+37 877.tif True
+38 869.tif True
+39 835.tif True
+40 871.tif True
+41 825.tif True
+42 842.tif True
+43 826.tif True
+44 838.tif True
+45 1069.tif True
+46 1038.tif True
+47 1053.tif True
+48 1011.tif True
+49 1065.tif True
+50 1046.tif True
+51 1137.tif True
+52 1146.tif True
+53 1239.tif True
+54 1262.tif True
+55 1234.tif True
+56 1261.tif True
+57 1365.tif True
+58 1316.tif True
+59 1328.tif True
+60 1308.tif True
+61 1436.tif True
+62 1427.tif True
+63 1424.tif True
+64 1473.tif True
+65 1529.tif True
+66 1526.tif True
+67 1543.tif True
+68 1566.tif True
+69 1511.tif True
+70 1548.tif True
+71 1507.tif True
+72 1561.tif True
+73 1505.tif True
+74 1555.tif True
+75 1606.tif True
+76 1647.tif True
+77 1641.tif True
+78 1648.tif True
+79 1623.tif True
+80 1666.tif True
+81 1620.tif True
+82 1679.tif True
+83 1750.tif True
+84 1774.tif True
+85 1721.tif True
+86 1772.tif True
+87 1769.tif True
+88 1771.tif True
+89 1742.tif True
+90 1704.tif True
+91 1702.tif True
+92 1752.tif True
+93 1842.tif True
+94 1838.tif True
+95 1825.tif True
+96 1862.tif True
+97 2020.tif True
+98 2058.tif True

@@ -1,0 +1,31 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:06,  1.53s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:04,  1.49s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:04<00:02,  1.48s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:05<00:01,  1.48s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.12s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.28s/it]
+已加载 LoRA 适配器: /private/AGSE_E3_1_rebuild_20261112/second_answer_5090_20261124/R0/adapter
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+The tokenizer you are loading from '/private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e.  This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+a r3 1 0.6931471805599453 11.386853218078613
+a r3 2 0.6897003783727479 7.971767902374268
+a r3 3 0.664883730772922 10.34199047088623
+a r3 4 0.6726076036968988 6.716026782989502
+a r3 5 0.7091535173762379 9.050148963928223
+a r3 6 0.7212349214651379 10.730592727661133
+a r3 7 0.6835562751561468 4.146698474884033
+a r3 8 0.7118270470229 4.243894577026367
+a r3 9 0.6862740288270223 4.099725723266602
+a r3 10 0.7162839846800804 14.937528610229492
+a r3 11 0.6403273551233111 12.833344459533691
+a r3 12 0.6747216169454479 12.208370208740234
+a r3 13 0.6652386274240933 4.933259963989258
+a r3 14 0.6310370483987 11.024751663208008
+a r3 15 0.6728525196869025 10.934403419494629
+a r3 16 0.6491144223463395 10.958338737487793
+a r3 17 0.7860310915652783 11.151464462280273
+a r3 18 0.5329903409245083 8.83657169342041
+a r3 19 0.4627604085427542 17.39422607421875
+a r3 20 0.7274901540548413 4.445858478546143
+a r3 21 0.6136927317125768 10.000571250915527
+a r3 22 0.48091440733065693 25.55957794189453
+a r3 23 0.5206183024541926 6.814208030700684
+a r3 24 1.0384733571804086 13.72665786743164
+/private/AGSE_E1_20261110/e1_prior_compat_20261111/venv/lib/python3.13/site-packages/peft/utils/save_and_load.py:154: UserWarning: Could not find a config file in /private/AGSE_E1_20261110/legacy/assets/models/Qwen2.5-VL-7B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
