@@ -1,0 +1,91 @@
+{
+  "history98": {
+    "selected_training_270": {
+      "size": 270,
+      "overlap": 0,
+      "sha256": "4b2de56c10061a51f46457cf4a02470a916e77cfabc553b05833b7b818e9dbff"
+    },
+    "selected_training_pairs": {
+      "size": 24,
+      "overlap": 0,
+      "sha256": "e995b61fdda6edb119c416f22b297b64283eba202c7c89ade3e2e0907efd7bfa"
+    },
+    "formal_UCM_210": {
+      "size": 210,
+      "overlap": 0,
+      "sha256": "31e4052b7e612bfd4e3c44edc8a41fa3308d960c52d62c6dae0b3aac65ea613c"
+    },
+    "formal_RSITMD_448": {
+      "size": 448,
+      "overlap": 0,
+      "sha256": "95c2ebf83d62674bb0284ee41656d0a47949317afb9fd6ab32f0aba8a795bf1e"
+    },
+    "local_detail_panel_126_including_106_test": {
+      "size": 126,
+      "overlap": 0,
+      "sha256": "17be4144ceee6a28fb3b1a4c80884ce467d016d6e0b8fe8ee45bacb8ae437989"
+    }
+  },
+  "natural_cold26": {
+    "overlap": {
+      "history98": 0,
+      "training270": 0,
+      "formalUCM": 0,
+      "formalRSITMD": 0
+    },
+    "seeds": {
+      "a": {
+        "greedy_reach": 26,
+        "candidate_paths": 416,
+        "same_prefix_reached": 236,
+        "matching_counts_per_block": {
+          "1": 1,
+          "2": 3,
+          "3": 9,
+          "4": 10,
+          "5": 17,
+          "6": 8,
+          "7": 3,
+          "8": 1
+        },
+        "all_eight": [
+          {
+            "image": "1707.tif",
+            "block": 0
+          }
+        ]
+      },
+      "b": {
+        "greedy_reach": 26,
+        "candidate_paths": 416,
+        "same_prefix_reached": 227,
+        "matching_counts_per_block": {
+          "1": 2,
+          "2": 3,
+          "3": 5,
+          "4": 16,
+          "5": 19,
+          "6": 4,
+          "7": 3
+        },
+        "all_eight": []
+      }
+    },
+    "roster": "4c5e72449bc064f61f2afaed9037bc9a522cc79f77d30f0fbd3a355ce98ce350",
+    "old_targeted": true
+  },
+  "scene_prompt_cold_multicap": {
+    "a": {
+      "roster": 168,
+      "first_batch_image": "236.tif",
+      "source": "a789aedba7da932b49e393972b579f9e011b2fcd00f1c47b7481889c0c12c87d",
+      "initial": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a"
+    },
+    "b": {
+      "roster": 168,
+      "first_batch_image": "236.tif",
+      "source": "a789aedba7da932b49e393972b579f9e011b2fcd00f1c47b7481889c0c12c87d",
+      "initial": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd"
+    }
+  }
+}

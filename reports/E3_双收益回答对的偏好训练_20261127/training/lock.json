@@ -1,0 +1,28 @@
+{
+  "stage": {
+    "training/dpo.py": "03230dc01f695107ecd5ec9f88478e465a5ef5a545a596859a2f8c0f3fceef70",
+    "training/prepare.py": "35ed8af82b6a1f29a256bfbefdf6b25683c3bbf091580c172b7761bf18fefac8",
+    "training/run.sh": "683d9ee5f105fc4de8eb6e32d495a65415880c80f2b54325e15aa130cafc870e",
+    "training/训练口径.md": "b198ae8e3fe1f302ed6100e94fd34fa65cbc80fe9ea882a3f488ab83e89433c2",
+    "inputs/train_pairs.json": "e995b61fdda6edb119c416f22b297b64283eba202c7c89ade3e2e0907efd7bfa",
+    "training/data.json": "41756f1b2e782089472ed27f3a6003d5e0e61450d11c809803136c054d94b8ad"
+  },
+  "historical": {
+    "a": {
+      "code/policy.py": "31ac06ef767813de37df161182139b382e74acb30c3803a3fd09c327647a63b6",
+      "code/shared.py": "b6817451f760ccd3c8e197c5084c8fbf871a8e595d99d13e975de2d4f4664a72",
+      "initial.json": "4faf975f7146118ae505e2a604b4fe738ae1477c8a3280d70111847615ba7793",
+      "R0/adapter/adapter_config.json": "971b0ee7a17c06bd3ffd7c1cc5ceb7eb7ce6089a107d6f297b417233a97d4892",
+      "R0/adapter/adapter_model.safetensors": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a"
+    },
+    "b": {
+      "code/policy.py": "31ac06ef767813de37df161182139b382e74acb30c3803a3fd09c327647a63b6",
+      "code/shared.py": "b6817451f760ccd3c8e197c5084c8fbf871a8e595d99d13e975de2d4f4664a72",
+      "initial.json": "8f9a48ac91e2f974400573d3434a8c33986d0515ae2c1a8e07d7a374cbd021ea",
+      "R0/adapter/adapter_config.json": "651b153dcabb6bd1664d0411d0c9e6adcd36f6bcb7c82072b038900d8d65676c",
+      "R0/adapter/adapter_model.safetensors": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd"
+    }
+  },
+  "pairs": 24,
+  "sampling": "de1d5abb598c9232373b9c18556bffc92465ce5d4231b5865fb40faeac4f77bb"
+}

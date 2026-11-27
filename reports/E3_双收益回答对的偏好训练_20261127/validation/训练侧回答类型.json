@@ -1,0 +1,822 @@
+{
+  "counts": {
+    "groups": 267,
+    "candidates": 2136,
+    "well_formed": 224,
+    "any_well_formed": 151,
+    "joint_groups": 32,
+    "joint_slots": 91,
+    "tagged_joint_slots": 2,
+    "any_tagged_challenge": 2,
+    "selected_challenge_tagged": 2
+  },
+  "examples": [
+    {
+      "image": "80.tif",
+      "in_training": false,
+      "attribute": "field_axis",
+      "target": "The crop rows run vertically.",
+      "baseline": "\n addCriterion",
+      "chosen": "",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 1,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 2,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 3,
+          "text": "",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "77.tif",
+      "in_training": false,
+      "attribute": "field_axis",
+      "target": "The crop rows run vertically.",
+      "baseline": "\n addCriterion",
+      "chosen": "",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 6,
+          "text": "",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "23.tif",
+      "in_training": false,
+      "attribute": "field_curve",
+      "target": "The crop rows are straight.",
+      "baseline": "\n addCriterion",
+      "chosen": "",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 1,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 2,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 6,
+          "text": "",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "267.tif",
+      "in_training": true,
+      "attribute": "infield",
+      "target": "The central baseball infield is grass.",
+      "baseline": "\n addCriterion\n<answer>该图像中的主体为一个棒球场，并非一座旧的棒球场，因此与查询文本内容不符。图中可能是新修建或保存状况良好的棒球场。",
+      "chosen": "\n addCriterion\n<tool_call>scene_classify",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 1,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 2,
+          "text": "\n addCriterion\n<tool_call>scene_classify",
+          "extra": ""
+        },
+        {
+          "slot": 6,
+          "text": "\n addCriterion\n<result>baseball diamond (0.79), golf course (0.03), tennis court (0.01)</result>",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "214.tif",
+      "in_training": false,
+      "attribute": "infield",
+      "target": "The central baseball infield is grass.",
+      "baseline": "\n addCriterion\n",
+      "chosen": "\n addCriterion",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 1,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 3,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 4,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 6,
+          "text": "\n addCriterion",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "237.tif",
+      "in_training": false,
+      "attribute": "infield",
+      "target": "The central baseball infield is dirt.",
+      "baseline": "\n addCriterion",
+      "chosen": "\n addCriterion\n<answer>图中的场地似乎是一个棒球场，符合查询文本的描述。不过图片中的信息不足以确定这是否是一个旧的棒球场。</answer>",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 5,
+          "text": "\n addCriterion\n<answer>图中的场地似乎是一个棒球场，符合查询文本的描述。不过图片中的信息不足以确定这是否是一个旧的棒球场。</answer>",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "257.tif",
+      "in_training": true,
+      "attribute": "infield",
+      "target": "The central baseball infield is dirt.",
+      "baseline": "\n addCriterion",
+      "chosen": "\n addCriterion-text=\"There are two baseball diamonds .\"",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 4,
+          "text": "\n addCriterion-text=\"There are two baseball diamonds .\"",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "366.tif",
+      "in_training": false,
+      "attribute": "surf",
+      "target": "A broad band of white surf borders the beach.",
+      "baseline": "\n addCriterion",
+      "chosen": "",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 0,
+          "text": "",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "361.tif",
+      "in_training": true,
+      "attribute": "surf",
+      "target": "A broad band of white surf borders the beach.",
+      "baseline": "\n addCriterion",
+      "chosen": "\n addCriterion\n<tool_call>scene_classify",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 1,
+          "text": "\n addCriterion(\"蓝色水域\", 0.89)",
+          "extra": ""
+        },
+        {
+          "slot": 5,
+          "text": "\n addCriterion\n<tool_call>scene_classify",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "367.tif",
+      "in_training": false,
+      "attribute": "surf",
+      "target": "A broad band of white surf borders the beach.",
+      "baseline": "\n addCriterion",
+      "chosen": "\n addCriterion(\"QueryImageId\", \"Q01\")\n<tool_call>scene_classify",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 1,
+          "text": "\n addCriterion(\"\\n\").",
+          "extra": ""
+        },
+        {
+          "slot": 3,
+          "text": "\n addCriterion(\"QueryImageId\", \"Q01\")\n<tool_call>scene_classify",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "639.tif",
+      "in_training": false,
+      "attribute": "roof_hue",
+      "target": "The houses have reddish roofs.",
+      "baseline": "",
+      "chosen": "\n addCriterion",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 1,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 2,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 4,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 5,
+          "text": "\n addCriterion",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "1350.tif",
+      "in_training": false,
+      "attribute": "mobile_axis",
+      "target": "The straight street between the mobile homes runs horizontally.",
+      "baseline": "\n addCriterion\n<answer>图中并没有显示许多排列成行的移动家园。相反，这里是一个住宅区域，可能不符合查询中的描述。",
+      "chosen": "\n addCriterion",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 0,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 2,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 6,
+          "text": "\n addCriterion",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "1520.tif",
+      "in_training": false,
+      "attribute": "parking_fill",
+      "target": "The parking rows have many empty spaces.",
+      "baseline": "",
+      "chosen": "\n addCriterion\n",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 3,
+          "text": "\n addCriterion\n",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "1535.tif",
+      "in_training": true,
+      "attribute": "parking_fill",
+      "target": "The parking rows have many empty spaces.",
+      "baseline": "\n addCriterion\"port",
+      "chosen": "\n addCriterion",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 0,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 3,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 7,
+          "text": "\n addCriterion",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "1538.tif",
+      "in_training": false,
+      "attribute": "parking_axis",
+      "target": "The long parking rows run horizontally.",
+      "baseline": "\n addCriterion",
+      "chosen": "",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 1,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 5,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 6,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 7,
+          "text": "",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "1611.tif",
+      "in_training": true,
+      "attribute": "river_bank",
+      "target": "Dense green trees line the riverbanks.",
+      "baseline": "\n addCriterion(\"forest probability大于river\")",
+      "chosen": "<tool_call>",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 0,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 4,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 5,
+          "text": "<tool_call>",
+          "extra": ""
+        },
+        {
+          "slot": 6,
+          "text": "\n addCriterion",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "1801.tif",
+      "in_training": false,
+      "attribute": "house_pool",
+      "target": "The house has a visible swimming pool beside it.",
+      "baseline": "\n addCriterion('')\n<answer>图中的别墅具有橙色屋顶，并在稀疏住宅区周围有树木和草坪。可见的数据提供了一些可能场景类别的信息，但未能直接匹配查询文本中描述的具体环境。实际图片的判断需结合具体信息，可能该别墅区域并未完全",
+      "chosen": "\n addCriterion('land use')",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 4,
+          "text": "\n addCriterion('land use')",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "66.tif",
+      "in_training": false,
+      "attribute": "field_axis",
+      "target": "The crop rows run vertically.",
+      "baseline": "\n addCriterion",
+      "chosen": "",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 5,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 6,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 7,
+          "text": "",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "250.tif",
+      "in_training": true,
+      "attribute": "infield",
+      "target": "The central baseball infield is grass.",
+      "baseline": "\n addCriterion\n<response>图中有棒球场，符合查询文本描述。</response>\n",
+      "chosen": "\n addCriterion",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 0,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 1,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 5,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 6,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 7,
+          "text": "\n addCriterion",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "259.tif",
+      "in_training": false,
+      "attribute": "infield",
+      "target": "The central baseball infield is dirt.",
+      "baseline": "\n addCriterion",
+      "chosen": "",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 0,
+          "text": "",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "217.tif",
+      "in_training": true,
+      "attribute": "infield",
+      "target": "The central baseball infield is grass.",
+      "baseline": "GuidId",
+      "chosen": "\n addCriterion",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 2,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 7,
+          "text": "\n addCriterion",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "270.tif",
+      "in_training": true,
+      "attribute": "infield",
+      "target": "The central baseball infield is dirt.",
+      "baseline": "\n addCriterion",
+      "chosen": "",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 6,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 7,
+          "text": "",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "364.tif",
+      "in_training": false,
+      "attribute": "surf",
+      "target": "A broad band of white surf borders the beach.",
+      "baseline": "\n addCriterion",
+      "chosen": "\n addCriterion(\"confidence\", str(0))\n",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 0,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 1,
+          "text": "\n addCriterion(\"confidence\", str(0))\n",
+          "extra": ""
+        },
+        {
+          "slot": 2,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 3,
+          "text": "",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "370.tif",
+      "in_training": true,
+      "attribute": "surf",
+      "target": "A broad band of white surf borders the beach.",
+      "baseline": "\n addCriterion",
+      "chosen": "",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 1,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 2,
+          "text": "\n addCriterion\n",
+          "extra": ""
+        },
+        {
+          "slot": 3,
+          "text": "\n addCriterion(\"beach\"):",
+          "extra": ""
+        },
+        {
+          "slot": 5,
+          "text": "",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "357.tif",
+      "in_training": false,
+      "attribute": "surf",
+      "target": "A broad band of white surf borders the beach.",
+      "baseline": "\n addCriterion",
+      "chosen": "",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 1,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 3,
+          "text": "\n addCriterion\n<result>beach (0.91), ocean (0.05), cliff (0.04)</result>\n",
+          "extra": ""
+        },
+        {
+          "slot": 4,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 5,
+          "text": "",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "673.tif",
+      "in_training": true,
+      "attribute": "street_axis",
+      "target": "The street between the houses runs horizontally.",
+      "baseline": "\n addCriterion(\"suggestions\"):\n<item>图中似乎是一个住宅区，但没有明显看到任何特定的建筑或标识，可能需要更多细节来精确匹配。您可以尝试提出更多的具体问题或描述。</item>",
+      "chosen": "\n addCriterion",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 0,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 2,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 4,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 5,
+          "text": "\n addCriterion",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "844.tif",
+      "in_training": false,
+      "attribute": "freeway_axis",
+      "target": "The freeway runs vertically.",
+      "baseline": "\n addCriterion",
+      "chosen": "",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 7,
+          "text": "",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "1362.tif",
+      "in_training": false,
+      "attribute": "mobile_axis",
+      "target": "The straight street between the mobile homes runs horizontally.",
+      "baseline": "\n addCriterion\n<answer>图中确实发现了许多排列成行的移动房屋，并且是一个移动房屋公园，与查询描述相符。</answer>",
+      "chosen": "\n addCriterion",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 0,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 1,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 3,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 4,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 5,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 6,
+          "text": "\n addCriterion",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "1359.tif",
+      "in_training": true,
+      "attribute": "mobile_axis",
+      "target": "The straight street between the mobile homes runs horizontally.",
+      "baseline": "\n addCriterion\n<answer>图像中显示的是一个整齐排列的移动房屋区，与查询相关描述相符。</answer>",
+      "chosen": "\n addCriterion",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 0,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 1,
+          "text": "\n addCriterion",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "1724.tif",
+      "in_training": false,
+      "attribute": "runway_bars",
+      "target": "Broad white rectangular bars are painted on the runway.",
+      "baseline": "\n addCriterion\n<question>It is also an open area with no buildings.</question>",
+      "chosen": "",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 1,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 3,
+          "text": "",
+          "extra": ""
+        },
+        {
+          "slot": 4,
+          "text": "",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "1716.tif",
+      "in_training": false,
+      "attribute": "runway_bars",
+      "target": "The runway has no broad white rectangular bars.",
+      "baseline": "\n addCriterion",
+      "chosen": "\n addCriterion\n<answer>图表中的内容不包含与查询信息相关的跑道和标记线。它看起来像是一个平坦的基础或停车场，标记线似乎不那么明显或者被模糊了。</answer>",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 0,
+          "text": "\n addCriterion\n<answer>图表中的内容不包含与查询信息相关的跑道和标记线。它看起来像是一个平坦的基础或停车场，标记线似乎不那么明显或者被模糊了。</answer>",
+          "extra": ""
+        },
+        {
+          "slot": 7,
+          "text": "\n addCriterion\n<result>runway (0.25), highway (0.14), parking lot (0.13)</result>\n",
+          "extra": ""
+        }
+      ]
+    },
+    {
+      "image": "1749.tif",
+      "in_training": true,
+      "attribute": "runway_bars",
+      "target": "Broad white rectangular bars are painted on the runway.",
+      "baseline": "\n addCriterion(\"飞机跑道\")",
+      "chosen": "��\n addCriterion",
+      "extra": "",
+      "eligible_slots": [
+        {
+          "slot": 0,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 1,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 3,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 4,
+          "text": "��\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 5,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 6,
+          "text": "\n addCriterion",
+          "extra": ""
+        },
+        {
+          "slot": 7,
+          "text": "\n addCriterion",
+          "extra": ""
+        }
+      ]
+    }
+  ]
+}

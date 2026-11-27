@@ -1,0 +1,200 @@
+{
+  "first": {
+    "images": 98,
+    "pairs": 49,
+    "held_trials": 1516,
+    "switches": 164,
+    "metrics": {
+      "switched": {
+        "images": 98,
+        "mean": 0.10799319727891155,
+        "interval": [
+          0.0663265306122449,
+          0.15348639455782312
+        ]
+      },
+      "held_rr": {
+        "images": 98,
+        "mean": 0.014144682151577164,
+        "interval": [
+          0.0012669467570155097,
+          0.030454233621162955
+        ]
+      },
+      "DE": {
+        "images": 98,
+        "mean": 0.00935374149659864,
+        "interval": [
+          -0.009247448979591837,
+          0.028486394557823126
+        ]
+      },
+      "FG": {
+        "images": 98,
+        "mean": 0.028698979591836735,
+        "interval": [
+          0.011798469387755101,
+          0.048150510204081634
+        ]
+      }
+    }
+  },
+  "tied": {
+    "images": 98,
+    "pairs": 49,
+    "held_trials": 1516,
+    "switches": 164,
+    "metrics": {
+      "switched": {
+        "images": 98,
+        "mean": 0.10799319727891155,
+        "interval": [
+          0.0663265306122449,
+          0.15348639455782312
+        ]
+      },
+      "held_rr": {
+        "images": 98,
+        "mean": 0.016283114363684358,
+        "interval": [
+          0.002385558602993868,
+          0.03322925753715073
+        ]
+      },
+      "DE": {
+        "images": 98,
+        "mean": 0.004464285714285715,
+        "interval": [
+          -0.014774659863945579,
+          0.02380952380952381
+        ]
+      },
+      "FG": {
+        "images": 98,
+        "mean": 0.028273809523809524,
+        "interval": [
+          0.01020408163265306,
+          0.0492160926870746
+        ]
+      }
+    }
+  },
+  "by_seed": {
+    "a": {
+      "images": 98,
+      "pairs": 49,
+      "held_trials": 758,
+      "switches": 78,
+      "metrics": {
+        "switched": {
+          "images": 98,
+          "mean": 0.10331632653061225,
+          "interval": [
+            0.05739795918367347,
+            0.15433673469387754
+          ]
+        },
+        "held_rr": {
+          "images": 98,
+          "mean": 0.010872538655473885,
+          "interval": [
+            -0.0019559556024683405,
+            0.028435737128845773
+          ]
+        },
+        "DE": {
+          "images": 98,
+          "mean": 0.013392857142857142,
+          "interval": [
+            -0.00701530612244898,
+            0.03380102040816327
+          ]
+        },
+        "FG": {
+          "images": 98,
+          "mean": 0.02806122448979592,
+          "interval": [
+            0.008290816326530613,
+            0.05102040816326531
+          ]
+        }
+      }
+    },
+    "b": {
+      "images": 98,
+      "pairs": 49,
+      "held_trials": 758,
+      "switches": 86,
+      "metrics": {
+        "switched": {
+          "images": 98,
+          "mean": 0.11267006802721088,
+          "interval": [
+            0.06420068027210885,
+            0.16539115646258506
+          ]
+        },
+        "held_rr": {
+          "images": 98,
+          "mean": 0.017416825647680444,
+          "interval": [
+            0.002642985673716742,
+            0.034508965375086624
+          ]
+        },
+        "DE": {
+          "images": 98,
+          "mean": 0.005314625850340135,
+          "interval": [
+            -0.014668367346938776,
+            0.02614795918367347
+          ]
+        },
+        "FG": {
+          "images": 98,
+          "mean": 0.029336734693877552,
+          "interval": [
+            0.010841836734693877,
+            0.051658163265306124
+          ]
+        }
+      }
+    }
+  },
+  "omitted": [],
+  "switch_images": 26,
+  "source": {
+    "rule": "3ff4fab995876c3c99ed3d243e35917e729a5fb9c945dcc04a56df441c2d1566",
+    "protocol": "99d36b24d2556d66d03de29c52f2cd3d7abbeb0968ccbdc7386a931e8e8c1618",
+    "script": "59db7e83b3f2187837e6df00c2653d4f68fcc73e0d36ba2854478b33658a14c5",
+    "independent_source": "47f79c30123f13fbe51b2c5025f68951a8e3aa9f24a22a86a79789e921251ac8",
+    "archive": "bb05de16ed1aa392f4d264ffe6fc4ba633f263a761f415a2dca9167385dbc893",
+    "separation": {
+      "selected_training_270": {
+        "size": 270,
+        "overlap": 0,
+        "sha256": "4b2de56c10061a51f46457cf4a02470a916e77cfabc553b05833b7b818e9dbff"
+      },
+      "selected_training_pairs": {
+        "size": 24,
+        "overlap": 0,
+        "sha256": "e995b61fdda6edb119c416f22b297b64283eba202c7c89ade3e2e0907efd7bfa"
+      },
+      "formal_UCM_210": {
+        "size": 210,
+        "overlap": 0,
+        "sha256": "31e4052b7e612bfd4e3c44edc8a41fa3308d960c52d62c6dae0b3aac65ea613c"
+      },
+      "formal_RSITMD_448": {
+        "size": 448,
+        "overlap": 0,
+        "sha256": "95c2ebf83d62674bb0284ee41656d0a47949317afb9fd6ab32f0aba8a795bf1e"
+      },
+      "local_detail_panel_126_including_106_test": {
+        "size": 126,
+        "overlap": 0,
+        "sha256": "17be4144ceee6a28fb3b1a4c80884ce467d016d6e0b8fe8ee45bacb8ae437989"
+      }
+    }
+  }
+}

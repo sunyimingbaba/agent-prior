@@ -1,0 +1,99 @@
+{
+  "train_rows": 24,
+  "train_sha256": "e995b61fdda6edb119c416f22b297b64283eba202c7c89ade3e2e0907efd7bfa",
+  "held_images": 225,
+  "excluded_training_pairs": 21,
+  "held_folds": 855,
+  "held_pairs": 114,
+  "held_all_slots_and_scores_match": true,
+  "tie_sensitivity_matches": true,
+  "probe_rows": 16,
+  "token_counts": {
+    "joint": {
+      "preferred_tokens": 67,
+      "rejected_tokens": 193,
+      "preferred_continuation": 2,
+      "rejected_continuation": 0,
+      "preferred_shorter": 9
+    },
+    "anchor": {
+      "preferred_tokens": 100,
+      "rejected_tokens": 244,
+      "preferred_continuation": 0,
+      "rejected_continuation": 0,
+      "preferred_shorter": 7
+    }
+  },
+  "independent": [
+    {
+      "images": 225,
+      "pairs": 114,
+      "folds": 855,
+      "metrics": {
+        "switched": {
+          "value": 0.10407407407407407,
+          "interval": [
+            0.06956690923286354,
+            0.1396398967460611
+          ]
+        },
+        "MRR": {
+          "value": 0.008035099292932895,
+          "interval": [
+            -0.0011377911215810419,
+            0.018023021238494037
+          ]
+        },
+        "DE": {
+          "value": 0.008518518518518517,
+          "interval": [
+            -0.0071008255644717175,
+            0.02511160714285714
+          ]
+        },
+        "FG": {
+          "value": 0.016666666666666666,
+          "interval": [
+            0.006452802359882006,
+            0.02914844917787739
+          ]
+        }
+      }
+    },
+    {
+      "images": 225,
+      "pairs": 114,
+      "folds": 855,
+      "metrics": {
+        "switched": {
+          "value": 0.10407407407407407,
+          "interval": [
+            0.06956690923286354,
+            0.1396398967460611
+          ]
+        },
+        "MRR": {
+          "value": 0.007269644455991152,
+          "interval": [
+            -0.0025723492674930436,
+            0.01766099312740802
+          ]
+        },
+        "DE": {
+          "value": 0.012592592592592593,
+          "interval": [
+            -0.0031481481481481477,
+            0.029467755919636383
+          ]
+        },
+        "FG": {
+          "value": 0.021407407407407406,
+          "interval": [
+            0.009471365638766521,
+            0.03551851851851852
+          ]
+        }
+      }
+    }
+  ]
+}

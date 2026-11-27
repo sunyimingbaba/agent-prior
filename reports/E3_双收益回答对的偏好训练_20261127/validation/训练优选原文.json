@@ -1,0 +1,500 @@
+{
+  "fixed_tokens": [
+    151644,
+    151644,
+    198,
+    18724,
+    151645
+  ],
+  "training_frequency": 5,
+  "images": [
+    {
+      "image": "217.tif",
+      "attribute": "infield",
+      "true_detail": "The central baseball infield is grass.",
+      "r2": {
+        "tokens": [
+          151644,
+          88174,
+          151645
+        ],
+        "text": "GuidId",
+        "extra": "",
+        "complete_answer": false
+      },
+      "r3": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          151645
+        ],
+        "text": "\n addCriterion",
+        "extra": "",
+        "complete_answer": false
+      }
+    },
+    {
+      "image": "1359.tif",
+      "attribute": "mobile_axis",
+      "true_detail": "The straight street between the mobile homes runs horizontally.",
+      "r2": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          198,
+          27,
+          9217,
+          29,
+          107553,
+          15946,
+          54021,
+          100146,
+          46944,
+          109489,
+          108467,
+          9370,
+          101148,
+          104176,
+          23836,
+          3837,
+          57218,
+          51154,
+          78556,
+          53481,
+          118338,
+          37132,
+          9217,
+          29,
+          151645
+        ],
+        "text": "\n addCriterion\n<answer>图像中显示的是一个整齐排列的移动房屋区，与查询相关描述相符。</answer>",
+        "extra": "",
+        "complete_answer": true
+      },
+      "r3": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          151645
+        ],
+        "text": "\n addCriterion",
+        "extra": "",
+        "complete_answer": false
+      }
+    },
+    {
+      "image": "361.tif",
+      "attribute": "surf",
+      "true_detail": "A broad band of white surf borders the beach.",
+      "r2": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          151645
+        ],
+        "text": "\n addCriterion",
+        "extra": "",
+        "complete_answer": false
+      },
+      "r3": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          198,
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "text": "\n addCriterion\n<tool_call>scene_classify",
+        "extra": "",
+        "complete_answer": false
+      }
+    },
+    {
+      "image": "270.tif",
+      "attribute": "infield",
+      "true_detail": "The central baseball infield is dirt.",
+      "r2": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          151645
+        ],
+        "text": "\n addCriterion",
+        "extra": "",
+        "complete_answer": false
+      },
+      "r3": {
+        "tokens": [
+          151645
+        ],
+        "text": "",
+        "extra": "",
+        "complete_answer": false
+      }
+    },
+    {
+      "image": "1749.tif",
+      "attribute": "runway_bars",
+      "true_detail": "Broad white rectangular bars are painted on the runway.",
+      "r2": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          445,
+          104410,
+          115280,
+          899,
+          151645
+        ],
+        "text": "\n addCriterion(\"飞机跑道\")",
+        "extra": "",
+        "complete_answer": false
+      },
+      "r3": {
+        "tokens": [
+          151644,
+          90557,
+          198,
+          18724,
+          151645
+        ],
+        "text": "��\n addCriterion",
+        "extra": "",
+        "complete_answer": false
+      }
+    },
+    {
+      "image": "673.tif",
+      "attribute": "street_axis",
+      "true_detail": "The street between the houses runs horizontally.",
+      "r2": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          445,
+          82,
+          37882,
+          15146,
+          27,
+          1203,
+          29,
+          28029,
+          15946,
+          101994,
+          101909,
+          104547,
+          23836,
+          3837,
+          77288,
+          80443,
+          100687,
+          101038,
+          99885,
+          105149,
+          9370,
+          99893,
+          57191,
+          106918,
+          3837,
+          87267,
+          85106,
+          99573,
+          104449,
+          36407,
+          108639,
+          106188,
+          1773,
+          107952,
+          104482,
+          101080,
+          102075,
+          100398,
+          86119,
+          57191,
+          53481,
+          37132,
+          1203,
+          29,
+          151645
+        ],
+        "text": "\n addCriterion(\"suggestions\"):\n<item>图中似乎是一个住宅区，但没有明显看到任何特定的建筑或标识，可能需要更多细节来精确匹配。您可以尝试提出更多的具体问题或描述。</item>",
+        "extra": "",
+        "complete_answer": false
+      },
+      "r3": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          151645
+        ],
+        "text": "\n addCriterion",
+        "extra": "",
+        "complete_answer": false
+      }
+    },
+    {
+      "image": "267.tif",
+      "attribute": "infield",
+      "true_detail": "The central baseball infield is grass.",
+      "r2": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          198,
+          27,
+          9217,
+          29,
+          75882,
+          107553,
+          101047,
+          101273,
+          17714,
+          46944,
+          102321,
+          108992,
+          90395,
+          65676,
+          104788,
+          100052,
+          9370,
+          102321,
+          108992,
+          3837,
+          101886,
+          57218,
+          51154,
+          108704,
+          43815,
+          116383,
+          1773,
+          28029,
+          15946,
+          104560,
+          16628,
+          107757,
+          57191,
+          46485,
+          104215,
+          104205,
+          102321,
+          108992,
+          1773,
+          151645
+        ],
+        "text": "\n addCriterion\n<answer>该图像中的主体为一个棒球场，并非一座旧的棒球场，因此与查询文本内容不符。图中可能是新修建或保存状况良好的棒球场。",
+        "extra": "",
+        "complete_answer": false
+      },
+      "r3": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          198,
+          151657,
+          22483,
+          4790,
+          1437,
+          151645
+        ],
+        "text": "\n addCriterion\n<tool_call>scene_classify",
+        "extra": "",
+        "complete_answer": false
+      }
+    },
+    {
+      "image": "1611.tif",
+      "attribute": "river_bank",
+      "true_detail": "Dense green trees line the riverbanks.",
+      "r2": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          445,
+          50655,
+          18927,
+          107043,
+          5469,
+          899,
+          151645
+        ],
+        "text": "\n addCriterion(\"forest probability大于river\")",
+        "extra": "",
+        "complete_answer": false
+      },
+      "r3": {
+        "tokens": [
+          151657,
+          151645
+        ],
+        "text": "<tool_call>",
+        "extra": "",
+        "complete_answer": false
+      }
+    },
+    {
+      "image": "1535.tif",
+      "attribute": "parking_fill",
+      "true_detail": "The parking rows have many empty spaces.",
+      "r2": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          1,
+          403,
+          151645
+        ],
+        "text": "\n addCriterion\"port",
+        "extra": "",
+        "complete_answer": false
+      },
+      "r3": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          151645
+        ],
+        "text": "\n addCriterion",
+        "extra": "",
+        "complete_answer": false
+      }
+    },
+    {
+      "image": "370.tif",
+      "attribute": "surf",
+      "true_detail": "A broad band of white surf borders the beach.",
+      "r2": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          151645
+        ],
+        "text": "\n addCriterion",
+        "extra": "",
+        "complete_answer": false
+      },
+      "r3": {
+        "tokens": [
+          151645
+        ],
+        "text": "",
+        "extra": "",
+        "complete_answer": false
+      }
+    },
+    {
+      "image": "250.tif",
+      "attribute": "infield",
+      "true_detail": "The central baseball infield is grass.",
+      "r2": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          198,
+          27,
+          2322,
+          29,
+          28029,
+          105656,
+          102321,
+          108992,
+          3837,
+          101137,
+          51154,
+          108704,
+          53481,
+          37132,
+          2322,
+          397,
+          151645
+        ],
+        "text": "\n addCriterion\n<response>图中有棒球场，符合查询文本描述。</response>\n",
+        "extra": "",
+        "complete_answer": false
+      },
+      "r3": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          151645
+        ],
+        "text": "\n addCriterion",
+        "extra": "",
+        "complete_answer": false
+      }
+    },
+    {
+      "image": "257.tif",
+      "attribute": "infield",
+      "true_detail": "The central baseball infield is dirt.",
+      "r2": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          151645
+        ],
+        "text": "\n addCriterion",
+        "extra": "",
+        "complete_answer": false
+      },
+      "r3": {
+        "tokens": [
+          151644,
+          151644,
+          198,
+          18724,
+          9345,
+          428,
+          3862,
+          525,
+          1378,
+          19507,
+          48051,
+          41348,
+          151645
+        ],
+        "text": "\n addCriterion-text=\"There are two baseball diamonds .\"",
+        "extra": "",
+        "complete_answer": false
+      }
+    }
+  ]
+}
