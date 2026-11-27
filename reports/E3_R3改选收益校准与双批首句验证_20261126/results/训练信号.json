@@ -1,4 +1,36 @@
 {
+  "a_ordinary": {
+    "first_norm": 22.504980087280273,
+    "first_winners": [
+      2
+    ],
+    "steps": 24,
+    "nonzero": 24,
+    "final": "bc964c33ff0d93c189452780ddee0dade24a054fe35a31a87da717ff9da63428",
+    "changes_on_same_candidates": {
+      "old-ordinary": [
+        1,
+        2,
+        4,
+        11,
+        19,
+        20
+      ],
+      "old3-ordinary": [
+        1,
+        2,
+        4,
+        11,
+        19,
+        20
+      ],
+      "old3-old": [
+        2
+      ]
+    },
+    "mean_replay_error": 0.030400001709593366,
+    "max_replay_error": 1.258564829826355
+  },
   "a_old": {
     "first_norm": 33.12928771972656,
     "first_winners": [
@@ -69,37 +101,30 @@
     "mean_replay_error": 0.03042460857156751,
     "max_replay_error": 0.9534419178962708
   },
-  "a_ordinary": {
-    "first_norm": 22.504980087280273,
+  "b_ordinary": {
+    "first_norm": 36.42542266845703,
     "first_winners": [
-      2
+      1,
+      3
     ],
     "steps": 24,
     "nonzero": 24,
-    "final": "bc964c33ff0d93c189452780ddee0dade24a054fe35a31a87da717ff9da63428",
+    "final": "b8445dd4ccee711c7837fe207f4e3f03618b726bfbed2887ebcbead0edc15cde",
     "changes_on_same_candidates": {
       "old-ordinary": [
-        1,
-        2,
-        4,
-        11,
-        19,
-        20
+        7,
+        15,
+        16
       ],
       "old3-ordinary": [
-        1,
-        2,
-        4,
-        11,
-        19,
-        20
+        7,
+        15,
+        16
       ],
-      "old3-old": [
-        2
-      ]
+      "old3-old": []
     },
-    "mean_replay_error": 0.030400001709593366,
-    "max_replay_error": 1.258564829826355
+    "mean_replay_error": 0.028841909980843693,
+    "max_replay_error": 0.8794770240783691
   },
   "b_old": {
     "first_norm": 37.27524948120117,
@@ -150,30 +175,5 @@
     },
     "mean_replay_error": 0.030025964077125867,
     "max_replay_error": 1.0206183195114136
-  },
-  "b_ordinary": {
-    "first_norm": 36.42542266845703,
-    "first_winners": [
-      1,
-      3
-    ],
-    "steps": 24,
-    "nonzero": 24,
-    "final": "b8445dd4ccee711c7837fe207f4e3f03618b726bfbed2887ebcbead0edc15cde",
-    "changes_on_same_candidates": {
-      "old-ordinary": [
-        7,
-        15,
-        16
-      ],
-      "old3-ordinary": [
-        7,
-        15,
-        16
-      ],
-      "old3-old": []
-    },
-    "mean_replay_error": 0.028841909980843693,
-    "max_replay_error": 0.8794770240783691
   }
 }
