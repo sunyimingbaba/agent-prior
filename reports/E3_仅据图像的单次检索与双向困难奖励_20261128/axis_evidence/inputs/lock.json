@@ -1,0 +1,35 @@
+{
+  "files": {
+    "口径.md": "9e59dac3efa00ce126558683f41ac954b06d530c6c0f231fba644cad583a08b3",
+    "code/pixels.py": "168f8929c467a1442b79304b1f835cc34e8f66b3ba16da21164dfacd8873baed",
+    "code/prepare.py": "8e2cfa8cc8e2b78989951862e4ec14e31e0e1cc66c8038b658e3e3ab4049508c",
+    "code/check.py": "7ba9399918b8be779fe92029f25ac6eb843fbe1851f041a19d38232e45aed9d1",
+    "inputs/roster.json": "4974e875361a9f529a7d204e066f66ea2dc9471d597511cb80c320a481ba2a73"
+  },
+  "sources": {
+    "E3_回填后双收益训练图筛选_20261127/sampling/inputs/roster.json": "4b2de56c10061a51f46457cf4a02470a916e77cfabc553b05833b7b818e9dbff",
+    "E3_UCM多描述奖励同预算RFPO_20261124/inputs/panel.json": "17be4144ceee6a28fb3b1a4c80884ce467d016d6e0b8fe8ee45bacb8ae437989",
+    "E3-2_UCM与RSITMD独立复验_20261124/inputs/ucm.json": "31e4052b7e612bfd4e3c44edc8a41fa3308d960c52d62c6dae0b3aac65ea613c",
+    "E3_视觉细节复核与RFPO_20261127/extra164/inputs/rows.json": "939b67447d0de4cc6871cb4c7d6a51d1db7a3d4f02d8d0b613bcc087fd7620cc"
+  },
+  "attributes": [
+    "field_axis",
+    "bridge_axis",
+    "freeway_axis",
+    "harbor_rows",
+    "mobile_axis",
+    "parking_axis",
+    "river_axis",
+    "street_axis"
+  ],
+  "full_sizes": {
+    "train270": 270,
+    "formal106": 106,
+    "extra164": 164
+  },
+  "full_overlap": {
+    "train270__formal106": 0,
+    "train270__extra164": 0,
+    "formal106__extra164": 0
+  }
+}

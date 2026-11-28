@@ -1,0 +1,3540 @@
+[
+  {
+    "image": "17.tif",
+    "rgb": "190000e83e5c010172ca11d85a86645760af0d7fb560e5c1de563d88d32e80da",
+    "row": 16,
+    "split": "train",
+    "pair": "17-80",
+    "attribute": "field_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The crop rows run horizontally.",
+      "B": "The planting lines extend from left to right."
+    },
+    "margin": 0.6494753481231427,
+    "scale_margins": [
+      0.898272062319509,
+      0.8854537527763344,
+      0.1647002292735849
+    ],
+    "axis": "horizontal",
+    "rotation_error": 1.1102230246251565e-16,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.6494753481231428,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "80.tif",
+    "rgb": "c75bff0c81fb800b80cfa6ed5be6f3cc21181ee6460ba817c63980aaccc8f333",
+    "row": 79,
+    "split": "train",
+    "pair": "17-80",
+    "attribute": "field_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The crop rows run vertically.",
+      "B": "The planting lines extend from top to bottom."
+    },
+    "margin": -0.8833867017103992,
+    "scale_margins": [
+      -0.8613072250201331,
+      -0.9264764976639112,
+      -0.8623763824471535
+    ],
+    "axis": "vertical",
+    "rotation_error": 1.1102230246251565e-16,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.8833867017103993,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "20.tif",
+    "rgb": "baa5bfe6bf9a6f093adf29f413de3ce5593dafba2ae3a806e1c048d7de64d87a",
+    "row": 19,
+    "split": "train",
+    "pair": "20-77",
+    "attribute": "field_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The crop rows run horizontally.",
+      "B": "The planting lines extend from left to right."
+    },
+    "margin": 0.8894301098598384,
+    "scale_margins": [
+      0.9118500668295325,
+      0.9494797620428536,
+      0.806960500707129
+    ],
+    "axis": "horizontal",
+    "rotation_error": 1.1102230246251565e-16,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.8894301098598385,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "77.tif",
+    "rgb": "92a860fd225949aaa5c04495c9e1aac00d69cf036a4a1504e55572d38dd49e5a",
+    "row": 76,
+    "split": "train",
+    "pair": "20-77",
+    "attribute": "field_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The crop rows run vertically.",
+      "B": "The planting lines extend from top to bottom."
+    },
+    "margin": -0.9238373568144885,
+    "scale_margins": [
+      -0.8267578937090047,
+      -0.9644202561660085,
+      -0.9803339205684523
+    ],
+    "axis": "vertical",
+    "rotation_error": 2.220446049250313e-16,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.9238373568144883,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "650.tif",
+    "rgb": "220dd88f842b0cfdc36e8e92191b0ad1bd572d27c98b64a51d6008a201ec2a8a",
+    "row": 527,
+    "split": "train",
+    "pair": "650-659",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs horizontally.",
+      "B": "The street separating rows of houses extends left to right."
+    },
+    "margin": 0.24555137476670671,
+    "scale_margins": [
+      0.16341304680127564,
+      0.23401411757920657,
+      0.33922695991963786
+    ],
+    "axis": "horizontal",
+    "rotation_error": 8.326672684688674e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.24555137476670663,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "659.tif",
+    "rgb": "3d78d6027b187b301241889c8086a36f6f8e9a37023fc1a2aa0dcfff51942c72",
+    "row": 536,
+    "split": "train",
+    "pair": "650-659",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs vertically.",
+      "B": "The street separating rows of houses extends top to bottom."
+    },
+    "margin": 0.22771321641332765,
+    "scale_margins": [
+      0.17824109873847263,
+      0.2205057494507101,
+      0.2843928010508002
+    ],
+    "axis": "horizontal",
+    "rotation_error": 2.7755575615628914e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.22771321641332767,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "658.tif",
+    "rgb": "814f1b4126a083566f762e22242722572e2d7f2ce8edf619cac19019522691e9",
+    "row": 535,
+    "split": "train",
+    "pair": "658-680",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs horizontally.",
+      "B": "The street separating rows of houses extends left to right."
+    },
+    "margin": 0.06277783882201605,
+    "scale_margins": [
+      -0.056124208873906005,
+      0.029110643645872295,
+      0.21534708169408187
+    ],
+    "axis": "horizontal",
+    "rotation_error": 2.7755575615628914e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.06277783882201603,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "680.tif",
+    "rgb": "6fee57beb8a17ef925c7069222ec8ef729cc9bef873cdfcbc4fdfdc9fa88e774",
+    "row": 557,
+    "split": "train",
+    "pair": "658-680",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs vertically.",
+      "B": "The street separating rows of houses extends top to bottom."
+    },
+    "margin": 0.004739639145573432,
+    "scale_margins": [
+      0.016078117574734593,
+      0.0389706144232717,
+      -0.040829814561285996
+    ],
+    "axis": "horizontal",
+    "rotation_error": 4.597017211338539e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.004739639145573386,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "653.tif",
+    "rgb": "492640f56cdbef5497fbd52cae52fc4fa4fbbdeb00dcdf4055260f3a2240743c",
+    "row": 530,
+    "split": "train",
+    "pair": "653-676",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs horizontally.",
+      "B": "The street separating rows of houses extends left to right."
+    },
+    "margin": 0.10993055335096873,
+    "scale_margins": [
+      0.009112268298932436,
+      0.1222541466489033,
+      0.19842524510507045
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.10993055335096873,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "676.tif",
+    "rgb": "cde7242b0a455969db13a172f779531c490903748a0f87f8c7c0c666eb47ee6d",
+    "row": 553,
+    "split": "train",
+    "pair": "653-676",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs vertically.",
+      "B": "The street separating rows of houses extends top to bottom."
+    },
+    "margin": -0.15160608696046632,
+    "scale_margins": [
+      -0.01292634763545322,
+      -0.11879007979927717,
+      -0.32310183344666854
+    ],
+    "axis": "vertical",
+    "rotation_error": 8.326672684688674e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.1516060869604664,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1207.tif",
+    "rgb": "8dad0f2d14360652b674292ced2184b37923c8a459812afa43b17107d2a0ea2a",
+    "row": 966,
+    "split": "train",
+    "pair": "1207-1277",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs horizontally.",
+      "B": "The street separating rows of houses extends left to right."
+    },
+    "margin": -0.19033741552504777,
+    "scale_margins": [
+      -0.08783102498517445,
+      -0.17576158039891357,
+      -0.30741964119105525
+    ],
+    "axis": "vertical",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.19033741552504782,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1277.tif",
+    "rgb": "bcccc5d5005a12640f06b5806fccdfc7de7841c0bd2d1335ca1afa0ffb672a41",
+    "row": 1036,
+    "split": "train",
+    "pair": "1207-1277",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs vertically.",
+      "B": "The street separating rows of houses extends top to bottom."
+    },
+    "margin": -0.09348164635478085,
+    "scale_margins": [
+      -0.15334707481952564,
+      -0.10555091218031734,
+      -0.02154695206449953
+    ],
+    "axis": "vertical",
+    "rotation_error": 4.163336342344337e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.09348164635478089,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1240.tif",
+    "rgb": "920dc76f8431e6ce44e5de63f76f6ceff94b538c1c348ffb49bc58549bbe6b19",
+    "row": 999,
+    "split": "train",
+    "pair": "1240-1250",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs horizontally.",
+      "B": "The street separating rows of houses extends left to right."
+    },
+    "margin": 0.05464493572757672,
+    "scale_margins": [
+      0.10871989096988328,
+      0.0365302385920995,
+      0.018684677620747363
+    ],
+    "axis": "horizontal",
+    "rotation_error": 2.7755575615628914e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.05464493572757675,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1250.tif",
+    "rgb": "ea9f7af63242d919f2d9d07e9cb8c76d72bdd1a41179a6fb4585b2787ea17aef",
+    "row": 1009,
+    "split": "train",
+    "pair": "1240-1250",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs vertically.",
+      "B": "The street separating rows of houses extends top to bottom."
+    },
+    "margin": -0.25003779923869107,
+    "scale_margins": [
+      -0.19399420925132888,
+      -0.26915628289616456,
+      -0.28696290556857984
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.25003779923869107,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1241.tif",
+    "rgb": "1a7d28113e087b2a3188b07a0db97f4f8af8599ac14ae881b07f517015bbe3d1",
+    "row": 1000,
+    "split": "train",
+    "pair": "1241-1248",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs horizontally.",
+      "B": "The street separating rows of houses extends left to right."
+    },
+    "margin": 0.13354355833030174,
+    "scale_margins": [
+      0.13023909970663008,
+      0.12443653752099142,
+      0.14595503776328372
+    ],
+    "axis": "horizontal",
+    "rotation_error": 2.7755575615628914e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.1335435583303017,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1248.tif",
+    "rgb": "261e0db5556f42fb6ec4f94bf62afafa0178888192f8fa8ad8fd766f9ba9015c",
+    "row": 1007,
+    "split": "train",
+    "pair": "1241-1248",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs vertically.",
+      "B": "The street separating rows of houses extends top to bottom."
+    },
+    "margin": 0.00684503285926287,
+    "scale_margins": [
+      -0.05231812012214923,
+      0.0054244226469472015,
+      0.06742879605299064
+    ],
+    "axis": "horizontal",
+    "rotation_error": 1.6479873021779667e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.006845032859262854,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1251.tif",
+    "rgb": "c5d1239e4cdd5041f41c6f21e7dbe8c10613b314ef0c02d71505fcaf85a1bebf",
+    "row": 1010,
+    "split": "train",
+    "pair": "1251-1256",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs horizontally.",
+      "B": "The street separating rows of houses extends left to right."
+    },
+    "margin": -0.15617107975156988,
+    "scale_margins": [
+      -0.1415032586486797,
+      -0.1802891709689716,
+      -0.14672080963705833
+    ],
+    "axis": "vertical",
+    "rotation_error": 1.1102230246251565e-16,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.15617107975156977,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1256.tif",
+    "rgb": "a34ebf2a91a9938545e769b207d64acca11db101908f655dfcfec2c5163faac1",
+    "row": 1015,
+    "split": "train",
+    "pair": "1251-1256",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs vertically.",
+      "B": "The street separating rows of houses extends top to bottom."
+    },
+    "margin": 0.2954491740426659,
+    "scale_margins": [
+      0.3682923182991681,
+      0.3032607397855768,
+      0.21479446404325286
+    ],
+    "axis": "horizontal",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.29544917404266596,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1349.tif",
+    "rgb": "657cca2c2049f078d524187e505f97f99b13856e22c9cb41238037d8fafc5745",
+    "row": 1088,
+    "split": "train",
+    "pair": "1349-1311",
+    "attribute": "mobile_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The straight street between the mobile homes runs horizontally.",
+      "B": "A street extends left to right between mobile homes."
+    },
+    "margin": -0.33626766556943544,
+    "scale_margins": [
+      -0.29295412029297935,
+      -0.3478041968216136,
+      -0.36804467959371345
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.33626766556943544,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1311.tif",
+    "rgb": "122d1ac703f739c3271ac8151208417d892998272e12e9a3d05ac25d52badaaf",
+    "row": 1050,
+    "split": "train",
+    "pair": "1349-1311",
+    "attribute": "mobile_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The straight street between the mobile homes runs vertically.",
+      "B": "A street extends top to bottom between mobile homes."
+    },
+    "margin": 0.24010609854030485,
+    "scale_margins": [
+      0.23682228616517345,
+      0.24314952823416355,
+      0.2403464812215775
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.24010609854030485,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1350.tif",
+    "rgb": "702e9e463f8779603972de32b90ad7964cb7df217af3492451f0db6670862c72",
+    "row": 1089,
+    "split": "train",
+    "pair": "1350-1315",
+    "attribute": "mobile_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The straight street between the mobile homes runs horizontally.",
+      "B": "A street extends left to right between mobile homes."
+    },
+    "margin": -0.3219613568760144,
+    "scale_margins": [
+      -0.2557703845880158,
+      -0.3290930607895297,
+      -0.38102062525049757
+    ],
+    "axis": "vertical",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.32196135687601446,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1315.tif",
+    "rgb": "b583c177ffc1081e601c89e735b1172b3901203298d6e5a2932eb483180ff5e4",
+    "row": 1054,
+    "split": "train",
+    "pair": "1350-1315",
+    "attribute": "mobile_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The straight street between the mobile homes runs vertically.",
+      "B": "A street extends top to bottom between mobile homes."
+    },
+    "margin": 0.42621537140702087,
+    "scale_margins": [
+      0.49422615398283265,
+      0.4463335537510583,
+      0.3380864064871715
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.42621537140702087,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1344.tif",
+    "rgb": "cf6ddd394f7bb87330d5e3c121fe2bd0eaf53b5cb1bf60c29e44a1e99f11956b",
+    "row": 1083,
+    "split": "train",
+    "pair": "1344-1312",
+    "attribute": "mobile_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The straight street between the mobile homes runs horizontally.",
+      "B": "A street extends left to right between mobile homes."
+    },
+    "margin": -0.10465226285529595,
+    "scale_margins": [
+      -0.1374593871884693,
+      -0.1348196164046187,
+      -0.04167778497279991
+    ],
+    "axis": "vertical",
+    "rotation_error": 4.163336342344337e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.104652262855296,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1312.tif",
+    "rgb": "a6a13b2c8204abf614ae286b2a6e6898bc2535e4309138a68fb9e52d4f7d5003",
+    "row": 1051,
+    "split": "train",
+    "pair": "1344-1312",
+    "attribute": "mobile_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The straight street between the mobile homes runs vertically.",
+      "B": "A street extends top to bottom between mobile homes."
+    },
+    "margin": 0.2806370612873082,
+    "scale_margins": [
+      0.2599905956785306,
+      0.26733537934336277,
+      0.31458520884003116
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.2806370612873082,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1307.tif",
+    "rgb": "9db27c8f86d54cb0b22843e01b26c0073d33bfddc6542fde56276eb24408d7c8",
+    "row": 1046,
+    "split": "train",
+    "pair": "1307-1358",
+    "attribute": "mobile_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The straight street between the mobile homes runs horizontally.",
+      "B": "A street extends left to right between mobile homes."
+    },
+    "margin": -0.04362750494227747,
+    "scale_margins": [
+      -0.006460471261373105,
+      -0.047281219776009104,
+      -0.07714082378945021
+    ],
+    "axis": "vertical",
+    "rotation_error": 1.3877787807814457e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.043627504942277455,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1358.tif",
+    "rgb": "4e8b23d8321b86572658ca1302439d3fc325584ad8ac71374698918d275a7bc3",
+    "row": 1097,
+    "split": "train",
+    "pair": "1307-1358",
+    "attribute": "mobile_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The straight street between the mobile homes runs vertically.",
+      "B": "A street extends top to bottom between mobile homes."
+    },
+    "margin": 0.1580223193805947,
+    "scale_margins": [
+      0.1897607668462869,
+      0.16718538281172787,
+      0.11712080848376934
+    ],
+    "axis": "horizontal",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.15802231938059474,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1563.tif",
+    "rgb": "70e823e4275a03eb79c5a8c5252dbb4c355c007805e6b1f83c05106493547af6",
+    "row": 1262,
+    "split": "train",
+    "pair": "1563-1575",
+    "attribute": "parking_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The long parking rows run horizontally.",
+      "B": "The rows of parked cars extend left to right."
+    },
+    "margin": -0.173251954205116,
+    "scale_margins": [
+      -0.16598872056796024,
+      -0.2780990943583452,
+      -0.07566804768904256
+    ],
+    "axis": "vertical",
+    "rotation_error": 8.326672684688674e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.17325195420511608,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1575.tif",
+    "rgb": "ac1582485cbdcb4ad17044136227af22cb64789e24cc790c19afe5e80aef497c",
+    "row": 1274,
+    "split": "train",
+    "pair": "1563-1575",
+    "attribute": "parking_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The long parking rows run vertically.",
+      "B": "The rows of parked cars extend top to bottom."
+    },
+    "margin": 0.3078795846572537,
+    "scale_margins": [
+      0.40556380040202944,
+      0.44181252477609867,
+      0.07626242879363294
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.3078795846572537,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1538.tif",
+    "rgb": "6dad15c424cc5015f98f9dee697d3de761ca1eb5e8a46a28be7ecf39f686b9af",
+    "row": 1237,
+    "split": "train",
+    "pair": "1538-1573",
+    "attribute": "parking_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The long parking rows run horizontally.",
+      "B": "The rows of parked cars extend left to right."
+    },
+    "margin": 0.1082853860713507,
+    "scale_margins": [
+      0.0101849157058849,
+      0.04664726148236511,
+      0.2680239810258021
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.1082853860713507,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1573.tif",
+    "rgb": "20cf768ed6035d9d3fa53b76a1f45c142055434215c13d2f76e59c51d8d54a58",
+    "row": 1272,
+    "split": "train",
+    "pair": "1538-1573",
+    "attribute": "parking_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The long parking rows run vertically.",
+      "B": "The rows of parked cars extend top to bottom."
+    },
+    "margin": 0.4060712132918829,
+    "scale_margins": [
+      0.4535334081685819,
+      0.5451669820181174,
+      0.21951324968894942
+    ],
+    "axis": "horizontal",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.40607121329188284,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1673.tif",
+    "rgb": "1988ed4e0f9d8dbf79e9f4de33cbb8884044f6c317b3d1fd4f2651092a441c09",
+    "row": 1352,
+    "split": "train",
+    "pair": "1673-1608",
+    "attribute": "river_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The river runs horizontally.",
+      "B": "The waterway crosses the image left to right."
+    },
+    "margin": 0.48562062091142266,
+    "scale_margins": [
+      0.3300810805974789,
+      0.46458931758311905,
+      0.6621914645536701
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.48562062091142266,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1608.tif",
+    "rgb": "4924b8044b95be6e41c07ff0e16459615acb011f17ee88ad3c8243d81760f37c",
+    "row": 1287,
+    "split": "train",
+    "pair": "1673-1608",
+    "attribute": "river_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The river runs vertically.",
+      "B": "The waterway crosses the image top to bottom."
+    },
+    "margin": -0.23857895085614408,
+    "scale_margins": [
+      -0.17103216679105718,
+      -0.24599413579152563,
+      -0.2987105499858495
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.23857895085614408,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1631.tif",
+    "rgb": "50a429408ca4d0191210c54a0406b18d77ab7e5bf4c628f4682b483f19243c55",
+    "row": 1310,
+    "split": "train",
+    "pair": "1631-1616",
+    "attribute": "river_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The river runs horizontally.",
+      "B": "The waterway crosses the image left to right."
+    },
+    "margin": -0.01790469506691519,
+    "scale_margins": [
+      -0.07010742761827407,
+      -0.06942216400788889,
+      0.0858155064254174
+    ],
+    "axis": "vertical",
+    "rotation_error": 2.42861286636753e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.017904695066915166,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1616.tif",
+    "rgb": "e2d8836356b83981e013c2b077eb4b67f77cfad0050dda8d0210974e19707dcc",
+    "row": 1295,
+    "split": "train",
+    "pair": "1631-1616",
+    "attribute": "river_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The river runs vertically.",
+      "B": "The waterway crosses the image top to bottom."
+    },
+    "margin": -0.2534696363390006,
+    "scale_margins": [
+      -0.09872356414777583,
+      -0.2284348814158676,
+      -0.4332504634533583
+    ],
+    "axis": "vertical",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.25346963633900055,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1607.tif",
+    "rgb": "c9d732440438d036b4d733b49af8da5baa5d2586f9e1c0fc34510a3b6754da37",
+    "row": 1286,
+    "split": "train",
+    "pair": "1607-1622",
+    "attribute": "river_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The river runs horizontally.",
+      "B": "The waterway crosses the image left to right."
+    },
+    "margin": 0.5716725502951275,
+    "scale_margins": [
+      0.4697295171115145,
+      0.5703979979887478,
+      0.6748901357851204
+    ],
+    "axis": "horizontal",
+    "rotation_error": 1.1102230246251565e-16,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.5716725502951276,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1622.tif",
+    "rgb": "3837b2f2fc8d55682d210351228beeefa6b630917f2c5ff1a01181ce800fdc96",
+    "row": 1301,
+    "split": "train",
+    "pair": "1607-1622",
+    "attribute": "river_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The river runs vertically.",
+      "B": "The waterway crosses the image top to bottom."
+    },
+    "margin": -0.295355805353897,
+    "scale_margins": [
+      -0.17023572159653333,
+      -0.26781334056804124,
+      -0.4480183538971164
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.295355805353897,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "27.tif",
+    "rgb": "0e7a9837ea08a86560626cefffc93b0071efb9b4abef705c663c12fcb5bff048",
+    "row": 26,
+    "split": "train",
+    "pair": "27-66",
+    "attribute": "field_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The crop rows run horizontally.",
+      "B": "The planting lines extend from left to right."
+    },
+    "margin": 0.9436182810790585,
+    "scale_margins": [
+      0.9415213646306678,
+      0.9737156633031732,
+      0.9156178153033345
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.9436182810790585,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "66.tif",
+    "rgb": "fc63c4284abb4b9634716e8ff4cdf1854543f390c4bb416b9a29a145d76a01e6",
+    "row": 65,
+    "split": "train",
+    "pair": "27-66",
+    "attribute": "field_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The crop rows run vertically.",
+      "B": "The planting lines extend from top to bottom."
+    },
+    "margin": -0.8825084658695647,
+    "scale_margins": [
+      -0.7583750457573213,
+      -0.9338114256177448,
+      -0.9553389262336277
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.8825084658695647,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "79.tif",
+    "rgb": "5918aa37674c435e989da5cf9af2b05d59d7bce6a34b061c2c008bd11bce54af",
+    "row": 78,
+    "split": "train",
+    "pair": "79-22",
+    "attribute": "field_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The crop rows run horizontally.",
+      "B": "The planting lines extend from left to right."
+    },
+    "margin": 0.5449625610441883,
+    "scale_margins": [
+      0.8022162403949907,
+      0.4638556696822392,
+      0.36881577305533497
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.5449625610441883,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "22.tif",
+    "rgb": "4194955963bb1b98b4541f1a3b84d2d645378be84ddb6f9558fc889db5fdb11a",
+    "row": 21,
+    "split": "train",
+    "pair": "79-22",
+    "attribute": "field_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The crop rows run vertically.",
+      "B": "The planting lines extend from top to bottom."
+    },
+    "margin": -0.3751565472495731,
+    "scale_margins": [
+      -0.1309258919299452,
+      -0.3118122078265581,
+      -0.6827315419922161
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.3751565472495731,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "673.tif",
+    "rgb": "1ac0906f093c3fe7e4d74c49d1ea69f8aebe108acf24dd7c518c1bd2e75cb137",
+    "row": 550,
+    "split": "train",
+    "pair": "673-677",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs horizontally.",
+      "B": "The street separating rows of houses extends left to right."
+    },
+    "margin": 0.05589633915046488,
+    "scale_margins": [
+      -0.18588669524902746,
+      0.0027084273662061477,
+      0.35086728533421596
+    ],
+    "axis": "horizontal",
+    "rotation_error": 3.469446951953614e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.055896339150464845,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "677.tif",
+    "rgb": "ea1c784135ff211411bfbbe8ec38b0c630370728b134270928b46ef5bd25c26d",
+    "row": 554,
+    "split": "train",
+    "pair": "673-677",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs vertically.",
+      "B": "The street separating rows of houses extends top to bottom."
+    },
+    "margin": -0.09158240177092265,
+    "scale_margins": [
+      -0.00373887472161022,
+      -0.08117136283481488,
+      -0.1898369677563429
+    ],
+    "axis": "vertical",
+    "rotation_error": 2.7755575615628914e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.09158240177092263,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "652.tif",
+    "rgb": "33f81e4b4647e0b9d713bd3ee802f760cbf80a82024ab0ce287f557e56129ff7",
+    "row": 529,
+    "split": "train",
+    "pair": "652-643",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs horizontally.",
+      "B": "The street separating rows of houses extends left to right."
+    },
+    "margin": 0.08092308276870962,
+    "scale_margins": [
+      0.045751731200475425,
+      0.1063554313954495,
+      0.09066208571020389
+    ],
+    "axis": "horizontal",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.08092308276870967,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "643.tif",
+    "rgb": "15577c6d67496f92f6f3568ddcf63e9159cb6d2a0c7ac261e5a70e826708c3fb",
+    "row": 520,
+    "split": "train",
+    "pair": "652-643",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs vertically.",
+      "B": "The street separating rows of houses extends top to bottom."
+    },
+    "margin": -0.240433795782949,
+    "scale_margins": [
+      -0.22897633212617835,
+      -0.2374289135367029,
+      -0.2548961416859657
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.240433795782949,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "644.tif",
+    "rgb": "1dd9c6d5de957a1808bc0c1ce18d843473679712e52458d1d6668d9379652f57",
+    "row": 521,
+    "split": "train",
+    "pair": "644-666",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs horizontally.",
+      "B": "The street separating rows of houses extends left to right."
+    },
+    "margin": 0.13610118036566246,
+    "scale_margins": [
+      0.05256290020467216,
+      0.11883380236676806,
+      0.23690683852554723
+    ],
+    "axis": "horizontal",
+    "rotation_error": 2.7755575615628914e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.1361011803656625,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "666.tif",
+    "rgb": "611acb8e37cb79f1cd436cf4148a4781aa163a5680a216f198925e4fe7f80f06",
+    "row": 543,
+    "split": "train",
+    "pair": "644-666",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs vertically.",
+      "B": "The street separating rows of houses extends top to bottom."
+    },
+    "margin": 0.2170140333221446,
+    "scale_margins": [
+      0.1944387059731791,
+      0.21522235330413306,
+      0.2413810406891216
+    ],
+    "axis": "horizontal",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.21701403332214456,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "850.tif",
+    "rgb": "d300082f3feac83b708db6e4c82953fcb7c69ceb6d271d7dbb22e64bbd5c8a87",
+    "row": 687,
+    "split": "train",
+    "pair": "850-852",
+    "attribute": "freeway_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The freeway runs horizontally.",
+      "B": "The freeway crosses from left to right."
+    },
+    "margin": 0.7904218963097668,
+    "scale_margins": [
+      0.7154730195914489,
+      0.7965359928700796,
+      0.8592566764677716
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.7904218963097668,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "852.tif",
+    "rgb": "599c0c494b227ad92dcb7532f4666916f66f69cb6c9c41a45da247c8554b70a6",
+    "row": 689,
+    "split": "train",
+    "pair": "850-852",
+    "attribute": "freeway_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The freeway runs vertically.",
+      "B": "The freeway crosses from top to bottom."
+    },
+    "margin": -0.7907186894231798,
+    "scale_margins": [
+      -0.631269547409722,
+      -0.8297962849692138,
+      -0.9110902358906038
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.7907186894231798,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "854.tif",
+    "rgb": "bd7f270a2d810cec19338437bdca16d684f64daa0d7d11a6e871fc453df000d0",
+    "row": 691,
+    "split": "train",
+    "pair": "854-857",
+    "attribute": "freeway_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The freeway runs horizontally.",
+      "B": "The freeway crosses from left to right."
+    },
+    "margin": 0.7336511242419445,
+    "scale_margins": [
+      0.6658710939376318,
+      0.7210262922279731,
+      0.8140559865602287
+    ],
+    "axis": "horizontal",
+    "rotation_error": 2.220446049250313e-16,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.7336511242419447,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "857.tif",
+    "rgb": "9bbbcd7e049445221fe32be0c8e9f89ee2aaa599f0e3b46429b39d664eb8c80f",
+    "row": 694,
+    "split": "train",
+    "pair": "854-857",
+    "attribute": "freeway_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The freeway runs vertically.",
+      "B": "The freeway crosses from top to bottom."
+    },
+    "margin": -0.5955059414564383,
+    "scale_margins": [
+      -0.5250671562883866,
+      -0.5759438452365871,
+      -0.6855068228443412
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.5955059414564383,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "875.tif",
+    "rgb": "c59432c6d7c0a2de65a0c035c79c90c3f6a9aac9a0f72a484dbf7d601463aed1",
+    "row": 712,
+    "split": "train",
+    "pair": "875-847",
+    "attribute": "freeway_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The freeway runs horizontally.",
+      "B": "The freeway crosses from left to right."
+    },
+    "margin": 0.6344428606646931,
+    "scale_margins": [
+      0.6998726121404055,
+      0.6448177847116903,
+      0.5586381851419837
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.6344428606646931,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "847.tif",
+    "rgb": "1e976d61041d445c88ebe82ffdbea566d607ed9bee67bb5ccb74751279b22f7e",
+    "row": 684,
+    "split": "train",
+    "pair": "875-847",
+    "attribute": "freeway_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The freeway runs vertically.",
+      "B": "The freeway crosses from top to bottom."
+    },
+    "margin": -0.8401030252537275,
+    "scale_margins": [
+      -0.7302212029061118,
+      -0.8520361034362913,
+      -0.9380517694187791
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.8401030252537275,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "861.tif",
+    "rgb": "852f84e08ccbff2fe700553b39a0d439a716d866a978320542c79d46175a67aa",
+    "row": 698,
+    "split": "train",
+    "pair": "861-844",
+    "attribute": "freeway_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The freeway runs horizontally.",
+      "B": "The freeway crosses from left to right."
+    },
+    "margin": 0.4061858039992099,
+    "scale_margins": [
+      0.3605631104549355,
+      0.46185041691870315,
+      0.396143884623991
+    ],
+    "axis": "horizontal",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.40618580399920995,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "844.tif",
+    "rgb": "e943abd5a18e34c2b842dc63eeb5df124a11248fe11283669dde3f2598dd6ab5",
+    "row": 681,
+    "split": "train",
+    "pair": "861-844",
+    "attribute": "freeway_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The freeway runs vertically.",
+      "B": "The freeway crosses from top to bottom."
+    },
+    "margin": -0.7360363206969914,
+    "scale_margins": [
+      -0.6450146462384498,
+      -0.7416796713572527,
+      -0.8214146444952716
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.7360363206969914,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1059.tif",
+    "rgb": "bf6ab003cc5bed82fae98a72ca3fb63d294c6e27b2cc66ab663e7911baca9205",
+    "row": 856,
+    "split": "train",
+    "pair": "1059-1010",
+    "attribute": "harbor_rows",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The long rows of moored boats run horizontally.",
+      "B": "The lines of tied boats extend left to right."
+    },
+    "margin": -0.1930224013901922,
+    "scale_margins": [
+      -0.2937343565369854,
+      -0.20580196935813935,
+      -0.07953087827545177
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.1930224013901922,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1010.tif",
+    "rgb": "3aaa5b907bd9fdf7c7a3d6a1c8e5b5db254cbe1564c032de88783afaedbdab6f",
+    "row": 807,
+    "split": "train",
+    "pair": "1059-1010",
+    "attribute": "harbor_rows",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The long rows of moored boats run vertically.",
+      "B": "The lines of tied boats extend top to bottom."
+    },
+    "margin": 0.23880800874023675,
+    "scale_margins": [
+      0.2385498645492831,
+      0.26313480868271766,
+      0.2147393529887095
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.23880800874023675,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1243.tif",
+    "rgb": "37613d61f0576b267fad39d13407278a920ff85b4af0fb06c52ae29bce5af494",
+    "row": 1002,
+    "split": "train",
+    "pair": "1243-1279",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs horizontally.",
+      "B": "The street separating rows of houses extends left to right."
+    },
+    "margin": -0.0558682046436735,
+    "scale_margins": [
+      -0.06864291401482374,
+      -0.041530861453869056,
+      -0.057430838462327695
+    ],
+    "axis": "vertical",
+    "rotation_error": 6.938893903907228e-18,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.05586820464367351,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1279.tif",
+    "rgb": "714ea1d9ca287dd1226a79e5d67c9e12fe85ae70b3a10c5a7cb5dead4dc490ee",
+    "row": 1038,
+    "split": "train",
+    "pair": "1243-1279",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs vertically.",
+      "B": "The street separating rows of houses extends top to bottom."
+    },
+    "margin": 0.007349177183073906,
+    "scale_margins": [
+      -0.012199208397094517,
+      0.002419568342491834,
+      0.0318271716038244
+    ],
+    "axis": "horizontal",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.0073491771830738505,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1253.tif",
+    "rgb": "9c77206c587e8731f40312b62ea283317dc57aca3df3bf39270047470932c96c",
+    "row": 1012,
+    "split": "train",
+    "pair": "1253-1236",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs horizontally.",
+      "B": "The street separating rows of houses extends left to right."
+    },
+    "margin": -0.017239106446531604,
+    "scale_margins": [
+      0.011292482869945377,
+      -0.01582782036995336,
+      -0.04718198183958683
+    ],
+    "axis": "vertical",
+    "rotation_error": 8.326672684688674e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.01723910644653152,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1236.tif",
+    "rgb": "01f15366aaabb6e825301205c65af85a156e0ea64c54d6224041d75240c1e77c",
+    "row": 995,
+    "split": "train",
+    "pair": "1253-1236",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs vertically.",
+      "B": "The street separating rows of houses extends top to bottom."
+    },
+    "margin": 0.0490208389196564,
+    "scale_margins": [
+      0.0513858423354078,
+      0.05969023384943443,
+      0.03598644057412699
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.0490208389196564,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1364.tif",
+    "rgb": "4caf6f7df1e27df26860e7f982634786e24dadfbbc5493ac4bd16d03670d3163",
+    "row": 1103,
+    "split": "train",
+    "pair": "1364-1317",
+    "attribute": "mobile_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The straight street between the mobile homes runs horizontally.",
+      "B": "A street extends left to right between mobile homes."
+    },
+    "margin": -0.39942742944609977,
+    "scale_margins": [
+      -0.3661833768355648,
+      -0.39481530947075877,
+      -0.43728360203197575
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.39942742944609977,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1317.tif",
+    "rgb": "03ef0bb4d70fb7d8495c6e84cc0ed941b511ecc379884119807b6b4879fa40ce",
+    "row": 1056,
+    "split": "train",
+    "pair": "1364-1317",
+    "attribute": "mobile_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The straight street between the mobile homes runs vertically.",
+      "B": "A street extends top to bottom between mobile homes."
+    },
+    "margin": 0.30509366383896536,
+    "scale_margins": [
+      0.26170211103358126,
+      0.30201588868478196,
+      0.3515629917985328
+    ],
+    "axis": "horizontal",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.3050936638389653,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1362.tif",
+    "rgb": "63848bb8284c8dd395540ccd1aaef97ec36afd23119d80cec73a8fa2db206d5d",
+    "row": 1101,
+    "split": "train",
+    "pair": "1362-1310",
+    "attribute": "mobile_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The straight street between the mobile homes runs horizontally.",
+      "B": "A street extends left to right between mobile homes."
+    },
+    "margin": -0.26100645631610453,
+    "scale_margins": [
+      -0.2295046497903784,
+      -0.2743931605232509,
+      -0.27912155863468424
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.26100645631610453,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1310.tif",
+    "rgb": "fd608bfd38596773c9c9057485c0f78872cfecb689cb164104292c124fd9b76a",
+    "row": 1049,
+    "split": "train",
+    "pair": "1362-1310",
+    "attribute": "mobile_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The straight street between the mobile homes runs vertically.",
+      "B": "A street extends top to bottom between mobile homes."
+    },
+    "margin": 0.3141895723213743,
+    "scale_margins": [
+      0.2634633996684159,
+      0.32370562091322863,
+      0.35539969638247826
+    ],
+    "axis": "horizontal",
+    "rotation_error": 1.1102230246251565e-16,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.3141895723213742,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1359.tif",
+    "rgb": "0aa2ed5f0ae9a6bca34385c98960a1318ef149a1d92e5a8336ae45af2cf985ae",
+    "row": 1098,
+    "split": "train",
+    "pair": "1359-1361",
+    "attribute": "mobile_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The straight street between the mobile homes runs horizontally.",
+      "B": "A street extends left to right between mobile homes."
+    },
+    "margin": -0.2832542242547418,
+    "scale_margins": [
+      -0.2524038401933931,
+      -0.29154210411434267,
+      -0.3058167284564895
+    ],
+    "axis": "vertical",
+    "rotation_error": 1.1102230246251565e-16,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.28325422425474167,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1361.tif",
+    "rgb": "4fc46a2aec3d2683763a084990a6a368701b3ee1232dba88207cf10565b269bd",
+    "row": 1100,
+    "split": "train",
+    "pair": "1359-1361",
+    "attribute": "mobile_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The straight street between the mobile homes runs vertically.",
+      "B": "A street extends top to bottom between mobile homes."
+    },
+    "margin": 0.21758324762201364,
+    "scale_margins": [
+      0.21388520280222437,
+      0.23820980849621318,
+      0.20065473156760338
+    ],
+    "axis": "horizontal",
+    "rotation_error": 8.326672684688674e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.21758324762201356,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1434.tif",
+    "rgb": "781b9d27c1d6ce35a786a2ebba283151d7367a390c17ac5be317d4f1cd08aee6",
+    "row": 1153,
+    "split": "train",
+    "pair": "1434-1412",
+    "attribute": "bridge_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The upper roadway runs horizontally.",
+      "B": "The road on top crosses from left to right."
+    },
+    "margin": 0.23244135642357164,
+    "scale_margins": [
+      0.10233365840143538,
+      0.20717749764623944,
+      0.38781291322304007
+    ],
+    "axis": "horizontal",
+    "rotation_error": 2.7755575615628914e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.23244135642357167,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1412.tif",
+    "rgb": "f8e702d28245bfaf11c10be3f3d9f5275256bdb135c92be198a8b72d6110fcae",
+    "row": 1131,
+    "split": "train",
+    "pair": "1434-1412",
+    "attribute": "bridge_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The upper roadway runs vertically.",
+      "B": "The road on top crosses from top to bottom."
+    },
+    "margin": -0.09859821724875474,
+    "scale_margins": [
+      0.006369013194812437,
+      -0.12297732697246258,
+      -0.17918633796861408
+    ],
+    "axis": "vertical",
+    "rotation_error": 8.326672684688674e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.09859821724875482,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1450.tif",
+    "rgb": "acb8e34a5470da8790070246887f6019778eb3457e488a82cb7552a616a473f8",
+    "row": 1169,
+    "split": "train",
+    "pair": "1450-1415",
+    "attribute": "bridge_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The upper roadway runs horizontally.",
+      "B": "The road on top crosses from left to right."
+    },
+    "margin": -0.009610890270365676,
+    "scale_margins": [
+      -0.25035295285328996,
+      -0.09538061390516842,
+      0.3169008959473613
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.009610890270365676,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1415.tif",
+    "rgb": "a59a9e41e10ae3ed175f5a527e584424e7521fd0683863c8986a21e4c0c3fc36",
+    "row": 1134,
+    "split": "train",
+    "pair": "1450-1415",
+    "attribute": "bridge_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The upper roadway runs vertically.",
+      "B": "The road on top crosses from top to bottom."
+    },
+    "margin": 0.2744254212895431,
+    "scale_margins": [
+      0.22256270899013328,
+      0.2367501537252222,
+      0.36396340115327386
+    ],
+    "axis": "horizontal",
+    "rotation_error": 1.1102230246251565e-16,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.274425421289543,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1403.tif",
+    "rgb": "2cb43c271d038199cfc8c634448e5f1735866a0d23166048efd75919e9c043c3",
+    "row": 1122,
+    "split": "train",
+    "pair": "1403-1447",
+    "attribute": "bridge_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The upper roadway runs horizontally.",
+      "B": "The road on top crosses from left to right."
+    },
+    "margin": 0.3920877535231042,
+    "scale_margins": [
+      0.30269754628589596,
+      0.4065844963004136,
+      0.4669812179830031
+    ],
+    "axis": "horizontal",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.39208775352310427,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1447.tif",
+    "rgb": "af5e31e88950f20b16c59c8b82a076462e40017a0d3ad8d0fd6977464da16da3",
+    "row": 1166,
+    "split": "train",
+    "pair": "1403-1447",
+    "attribute": "bridge_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The upper roadway runs vertically.",
+      "B": "The road on top crosses from top to bottom."
+    },
+    "margin": -0.09141877945347703,
+    "scale_margins": [
+      -0.05445588103248212,
+      0.017895773070850513,
+      -0.23769623039879945
+    ],
+    "axis": "vertical",
+    "rotation_error": 2.7755575615628914e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.09141877945347705,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1404.tif",
+    "rgb": "8556830f9fe166b975df0fe607104fbf5c16e5b5a8c94364d33a9e63371cabba",
+    "row": 1123,
+    "split": "train",
+    "pair": "1404-1411",
+    "attribute": "bridge_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The upper roadway runs horizontally.",
+      "B": "The road on top crosses from left to right."
+    },
+    "margin": 0.40417946726660503,
+    "scale_margins": [
+      0.3701116002599516,
+      0.4397710968113145,
+      0.40265570472854917
+    ],
+    "axis": "horizontal",
+    "rotation_error": 1.6653345369377348e-16,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.4041794672666052,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1411.tif",
+    "rgb": "5b6ccbe9d3d6a78c84ac89e5db854bae2841de090efc80dc73798f77129b346d",
+    "row": 1130,
+    "split": "train",
+    "pair": "1404-1411",
+    "attribute": "bridge_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The upper roadway runs vertically.",
+      "B": "The road on top crosses from top to bottom."
+    },
+    "margin": -0.0944543599355711,
+    "scale_margins": [
+      -0.07737380497760696,
+      -0.0545746859558499,
+      -0.15141458887325646
+    ],
+    "axis": "vertical",
+    "rotation_error": 2.7755575615628914e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.09445435993557112,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1421.tif",
+    "rgb": "d4f6607b5820ec4b1ec3b30de95fe386f03a8873be4598a98990f831f2c05e55",
+    "row": 1140,
+    "split": "train",
+    "pair": "1421-1453",
+    "attribute": "bridge_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The upper roadway runs horizontally.",
+      "B": "The road on top crosses from left to right."
+    },
+    "margin": -0.32650014309667935,
+    "scale_margins": [
+      -0.40340738085435096,
+      -0.42226836574175736,
+      -0.15382468269392982
+    ],
+    "axis": "vertical",
+    "rotation_error": 1.1102230246251565e-16,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.32650014309667946,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1453.tif",
+    "rgb": "f60ff5bf6fb380df117a90163e676fcd0e707c42e27310d94b3c4a5b245dc9d2",
+    "row": 1172,
+    "split": "train",
+    "pair": "1421-1453",
+    "attribute": "bridge_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The upper roadway runs vertically.",
+      "B": "The road on top crosses from top to bottom."
+    },
+    "margin": -0.005077529520883435,
+    "scale_margins": [
+      0.08708937895138458,
+      0.011482509286469031,
+      -0.11380447680050391
+    ],
+    "axis": "vertical",
+    "rotation_error": 4.336808689942018e-18,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.005077529520883431,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1444.tif",
+    "rgb": "08a94b5bfe6424c8ee35eb499914b4b0dfee07cd9374a67e60c97db1d05ddd82",
+    "row": 1163,
+    "split": "train",
+    "pair": "1444-1478",
+    "attribute": "bridge_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The upper roadway runs horizontally.",
+      "B": "The road on top crosses from left to right."
+    },
+    "margin": 0.840076942007434,
+    "scale_margins": [
+      0.8006749399123639,
+      0.8491782904569641,
+      0.8703775956529738
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.840076942007434,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1478.tif",
+    "rgb": "2854981042d7f4e8ef386ceddb7237a7d170c332f97fd9f4ce4a0a67faa9f7d3",
+    "row": 1197,
+    "split": "train",
+    "pair": "1444-1478",
+    "attribute": "bridge_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The upper roadway runs vertically.",
+      "B": "The road on top crosses from top to bottom."
+    },
+    "margin": 0.496794821534068,
+    "scale_margins": [
+      0.5846679431571734,
+      0.4752491912969656,
+      0.430467330148065
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.496794821534068,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1512.tif",
+    "rgb": "b8b6e2a51c84aebf45252ad1c53c35964c7d261f87f8de5530ced52aa5c9fed9",
+    "row": 1211,
+    "split": "train",
+    "pair": "1512-1524",
+    "attribute": "parking_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The long parking rows run horizontally.",
+      "B": "The rows of parked cars extend left to right."
+    },
+    "margin": 0.19517519135010233,
+    "scale_margins": [
+      0.1117098706232925,
+      0.1915377790071718,
+      0.28227792441984273
+    ],
+    "axis": "horizontal",
+    "rotation_error": 1.1102230246251565e-16,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.19517519135010244,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1524.tif",
+    "rgb": "c92f0b8a693b8358ff1f8835177ae00885eb108546e5357ea808fc0ac649073d",
+    "row": 1223,
+    "split": "train",
+    "pair": "1512-1524",
+    "attribute": "parking_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The long parking rows run vertically.",
+      "B": "The rows of parked cars extend top to bottom."
+    },
+    "margin": 0.1123640670356809,
+    "scale_margins": [
+      0.11536527811969194,
+      0.24064367078594226,
+      -0.018916747798591507
+    ],
+    "axis": "horizontal",
+    "rotation_error": 8.326672684688674e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.11236406703568082,
+    "cohort": "train270",
+    "hit": 0.0
+  },
+  {
+    "image": "1657.tif",
+    "rgb": "a4f1263d767b895aeb18a1e277c90b84bf7b339d7ac2b23a42b257517d3c2de8",
+    "row": 1336,
+    "split": "train",
+    "pair": "1657-1610",
+    "attribute": "river_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The river runs horizontally.",
+      "B": "The waterway crosses the image left to right."
+    },
+    "margin": 0.543144345528397,
+    "scale_margins": [
+      0.3448326283659277,
+      0.5597529773103369,
+      0.7248474309089264
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.543144345528397,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1610.tif",
+    "rgb": "273da43ac119f46438f25e35faedba2f01981052bf5b5942dc5bdb9f287193ec",
+    "row": 1289,
+    "split": "train",
+    "pair": "1657-1610",
+    "attribute": "river_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The river runs vertically.",
+      "B": "The waterway crosses the image top to bottom."
+    },
+    "margin": -0.14747553969749008,
+    "scale_margins": [
+      -0.05429999840246235,
+      -0.1343658649465657,
+      -0.25376075574344226
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.14747553969749008,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1665.tif",
+    "rgb": "664453308e50b27a637611671daf1c71cfa09e6e0ff755248135669627cd8f6f",
+    "row": 1344,
+    "split": "train",
+    "pair": "1665-1676",
+    "attribute": "river_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The river runs horizontally.",
+      "B": "The waterway crosses the image left to right."
+    },
+    "margin": 0.3021730999984132,
+    "scale_margins": [
+      0.07202595649745398,
+      0.25690849645806635,
+      0.5775848470397192
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.3021730999984132,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1676.tif",
+    "rgb": "aaa3a0fb3d07d6fb4d403151022cf313d5d2bf319b1837dab2f47a87d9bdb29a",
+    "row": 1355,
+    "split": "train",
+    "pair": "1665-1676",
+    "attribute": "river_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The river runs vertically.",
+      "B": "The waterway crosses the image top to bottom."
+    },
+    "margin": -0.2176401484474025,
+    "scale_margins": [
+      -0.08993394374344962,
+      -0.206508423371795,
+      -0.3564780782269628
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.2176401484474025,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1643.tif",
+    "rgb": "6db01cead55ff6ad474f44030a3c190e1d60dc15241cce2c67e2a770e1c9c4cd",
+    "row": 1322,
+    "split": "train",
+    "pair": "1643-1640",
+    "attribute": "river_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The river runs horizontally.",
+      "B": "The waterway crosses the image left to right."
+    },
+    "margin": 0.10860040447843318,
+    "scale_margins": [
+      0.048896826120538577,
+      0.07179199335632439,
+      0.20511239395843658
+    ],
+    "axis": "horizontal",
+    "rotation_error": 2.7755575615628914e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.10860040447843315,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "1640.tif",
+    "rgb": "eec7490622ebf3e2e7f50f44ed09715727bee8bf69178e7cb322c0f350af91f1",
+    "row": 1319,
+    "split": "train",
+    "pair": "1643-1640",
+    "attribute": "river_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The river runs vertically.",
+      "B": "The waterway crosses the image top to bottom."
+    },
+    "margin": -0.2652782185903173,
+    "scale_margins": [
+      -0.18780066542839174,
+      -0.2511300021845183,
+      -0.35690398815804186
+    ],
+    "axis": "vertical",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.26527821859031736,
+    "cohort": "train270",
+    "hit": 1.0
+  },
+  {
+    "image": "691.tif",
+    "rgb": "1ca0a59da445ec48c7032c806e9c1bcf9d1a5b9a47756a15a899a7ac4e9846bd",
+    "row": 60,
+    "split": "test",
+    "pair": "691-694",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The residential road follows a left-right course.",
+      "E": "The main street between the homes extends sideways in the image."
+    },
+    "margin": -0.20921890293453085,
+    "scale_margins": [
+      -0.11290484887142738,
+      -0.24555272510188458,
+      -0.26919913483028063
+    ],
+    "axis": "vertical",
+    "rotation_error": 2.7755575615628914e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.20921890293453083,
+    "cohort": "formal106",
+    "hit": 0.0
+  },
+  {
+    "image": "694.tif",
+    "rgb": "58ebebde8cb04331b2012df2ee7032cb855206db97d250a149ced3f39bf804c9",
+    "row": 63,
+    "split": "test",
+    "pair": "691-694",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The residential road follows a top-bottom course.",
+      "E": "The main street between the homes extends vertically in the image."
+    },
+    "margin": -0.08731516457598233,
+    "scale_margins": [
+      -0.11441453932928868,
+      -0.11644719650448378,
+      -0.03108375789417457
+    ],
+    "axis": "vertical",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.08731516457598239,
+    "cohort": "formal106",
+    "hit": 1.0
+  },
+  {
+    "image": "692.tif",
+    "rgb": "07944910d3eeeec498832a981131009f8b82eae3593dc34a1c9fb2985f1eaa58",
+    "row": 61,
+    "split": "test",
+    "pair": "692-697",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The residential road follows a left-right course.",
+      "E": "The main street between the homes extends sideways in the image."
+    },
+    "margin": -0.23982153565621264,
+    "scale_margins": [
+      -0.14319314084799767,
+      -0.2775788031563935,
+      -0.2986926629642467
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.23982153565621264,
+    "cohort": "formal106",
+    "hit": 0.0
+  },
+  {
+    "image": "697.tif",
+    "rgb": "8729144a34b2124fab0a96c2fb84f6d4f36d4beddaa73349f83f501fe6f2dec6",
+    "row": 66,
+    "split": "test",
+    "pair": "692-697",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The residential road follows a top-bottom course.",
+      "E": "The main street between the homes extends vertically in the image."
+    },
+    "margin": 0.011520121753923385,
+    "scale_margins": [
+      0.02669407904123896,
+      0.03430894954701637,
+      -0.026442663326485167
+    ],
+    "axis": "horizontal",
+    "rotation_error": 1.9081958235744878e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.011520121753923404,
+    "cohort": "formal106",
+    "hit": 0.0
+  },
+  {
+    "image": "1095.tif",
+    "rgb": "605542265ec83ba4488cc672db6ce016c7c309fccb4941b20b10c5f59106acbd",
+    "row": 104,
+    "split": "test",
+    "pair": "1095-1091",
+    "attribute": "harbor_rows",
+    "label": "horizontal",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "Moored boats form rows across the width of the frame.",
+      "E": "The long lines of boats go from left to right in this harbor."
+    },
+    "margin": -0.28170323363124034,
+    "scale_margins": [
+      -0.3660660133898765,
+      -0.3143308539291863,
+      -0.16471283357465824
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.28170323363124034,
+    "cohort": "formal106",
+    "hit": 0.0
+  },
+  {
+    "image": "1091.tif",
+    "rgb": "d6ee97bed262183257c608672221f2d75d39d68d28a1198d4bb9f6cf4df3e5c8",
+    "row": 100,
+    "split": "test",
+    "pair": "1095-1091",
+    "attribute": "harbor_rows",
+    "label": "vertical",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "Moored boats form rows down the height of the frame.",
+      "E": "The long lines of boats go from top to bottom in this harbor."
+    },
+    "margin": 0.43098956357544266,
+    "scale_margins": [
+      0.4634066727504501,
+      0.4678621079613111,
+      0.3616999100145668
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.43098956357544266,
+    "cohort": "formal106",
+    "hit": 0.0
+  },
+  {
+    "image": "1394.tif",
+    "rgb": "ce07a0594c0316def9be7a3aeb8cdf78cd2d7fe06b4324864b9a2327fdf71783",
+    "row": 133,
+    "split": "test",
+    "pair": "1394-1392",
+    "attribute": "mobile_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The access street between the trailers follows a left-right course.",
+      "E": "The road between the trailers crosses the picture from side to side."
+    },
+    "margin": -0.17439706469954444,
+    "scale_margins": [
+      -0.13236205755130134,
+      -0.18508377820788763,
+      -0.20574535833944438
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.17439706469954444,
+    "cohort": "formal106",
+    "hit": 0.0
+  },
+  {
+    "image": "1392.tif",
+    "rgb": "a32e6fdd9ff6a20d4e9a735d8ff5bf01b2c23778e5772b9550674788e41857cf",
+    "row": 131,
+    "split": "test",
+    "pair": "1394-1392",
+    "attribute": "mobile_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The access street between the trailers follows a top-bottom course.",
+      "E": "The road between the trailers crosses the picture from top to bottom."
+    },
+    "margin": 0.27847338207667754,
+    "scale_margins": [
+      0.28220995819274636,
+      0.30774216913360586,
+      0.24546801890368047
+    ],
+    "axis": "horizontal",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.2784733820766776,
+    "cohort": "formal106",
+    "hit": 0.0
+  },
+  {
+    "image": "1498.tif",
+    "rgb": "0e8a0510b477d5499f7f6573185d20dcd0218217eadb8d1cad6b597e89b0e404",
+    "row": 147,
+    "split": "test",
+    "pair": "1498-1491",
+    "attribute": "bridge_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The deck on top has a left-right alignment.",
+      "E": "The upper deck extends sideways through the frame."
+    },
+    "margin": 0.32490035170029513,
+    "scale_margins": [
+      0.26514152511200884,
+      0.2834706311190849,
+      0.4260888988697917
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.32490035170029513,
+    "cohort": "formal106",
+    "hit": 1.0
+  },
+  {
+    "image": "1491.tif",
+    "rgb": "4d6be65d40297752de5e0433f1a872a00640c5b8cf29e5760751ec78f2a07aed",
+    "row": 140,
+    "split": "test",
+    "pair": "1498-1491",
+    "attribute": "bridge_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The deck on top has a top-bottom alignment.",
+      "E": "The upper deck extends vertically through the frame."
+    },
+    "margin": 0.3799919125545683,
+    "scale_margins": [
+      0.3360768630667643,
+      0.3413251934656297,
+      0.46257368113131103
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.3799919125545683,
+    "cohort": "formal106",
+    "hit": 0.0
+  },
+  {
+    "image": "1499.tif",
+    "rgb": "ffcf9dbf0f1bb64b88bb9de70d3adb40b6c46015a3bb54058872ef3d1f6e09ec",
+    "row": 148,
+    "split": "test",
+    "pair": "1499-1492",
+    "attribute": "bridge_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The deck on top has a left-right alignment.",
+      "E": "The upper deck extends sideways through the frame."
+    },
+    "margin": -0.07142595746636661,
+    "scale_margins": [
+      -0.13156361656047513,
+      -0.17442085826610088,
+      0.09170660242747615
+    ],
+    "axis": "vertical",
+    "rotation_error": 2.7755575615628914e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.07142595746636658,
+    "cohort": "formal106",
+    "hit": 0.0
+  },
+  {
+    "image": "1492.tif",
+    "rgb": "7d72d8bddeb38e1e9f0e32f0fe5051f210afb61ea13d409bb11c4618b251323c",
+    "row": 141,
+    "split": "test",
+    "pair": "1499-1492",
+    "attribute": "bridge_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The deck on top has a top-bottom alignment.",
+      "E": "The upper deck extends vertically through the frame."
+    },
+    "margin": -0.1266109109790172,
+    "scale_margins": [
+      -0.23852187577496872,
+      -0.22083632363562478,
+      0.0795254664735419
+    ],
+    "axis": "vertical",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.12661091097901714,
+    "cohort": "formal106",
+    "hit": 1.0
+  },
+  {
+    "image": "1500.tif",
+    "rgb": "6324654479b93e74ba7604cf64632ee7e84d86ffa720f35fa963485b0f1c1768",
+    "row": 149,
+    "split": "test",
+    "pair": "1500-1494",
+    "attribute": "bridge_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The deck on top has a left-right alignment.",
+      "E": "The upper deck extends sideways through the frame."
+    },
+    "margin": -0.011711426891746932,
+    "scale_margins": [
+      -0.10009131236541871,
+      -0.12521440301229766,
+      0.19017143470247558
+    ],
+    "axis": "vertical",
+    "rotation_error": 3.8163916471489756e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.01171142689174697,
+    "cohort": "formal106",
+    "hit": 0.0
+  },
+  {
+    "image": "1494.tif",
+    "rgb": "029735a307216c5cc65fcf8e4a811bf08e7b01ee4284ea2748a686e3fc22b150",
+    "row": 143,
+    "split": "test",
+    "pair": "1500-1494",
+    "attribute": "bridge_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The deck on top has a top-bottom alignment.",
+      "E": "The upper deck extends vertically through the frame."
+    },
+    "margin": 0.02502893497511319,
+    "scale_margins": [
+      0.11615657595071664,
+      0.07580465755689933,
+      -0.11687442858227638
+    ],
+    "axis": "horizontal",
+    "rotation_error": 4.85722573273506e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.02502893497511324,
+    "cohort": "formal106",
+    "hit": 0.0
+  },
+  {
+    "image": "1591.tif",
+    "rgb": "69d0fb587c4716d5f33acad421f6e70f1133e01019beaa58d567451248eb7a28",
+    "row": 150,
+    "split": "test",
+    "pair": "1591-1597",
+    "attribute": "parking_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The parking rows follow a left-right alignment.",
+      "E": "The lines of cars extend sideways across the lot."
+    },
+    "margin": -0.30699571418559407,
+    "scale_margins": [
+      -0.35200839610270335,
+      -0.4798380369850058,
+      -0.08914070946907306
+    ],
+    "axis": "vertical",
+    "rotation_error": 1.1102230246251565e-16,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.3069957141855942,
+    "cohort": "formal106",
+    "hit": 0.0
+  },
+  {
+    "image": "1597.tif",
+    "rgb": "75dbd3f7bdafa786a9e79fa8e0d5bead0a74c09a0aac6bfba0f6f8113117cf54",
+    "row": 156,
+    "split": "test",
+    "pair": "1591-1597",
+    "attribute": "parking_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The parking rows follow a top-bottom alignment.",
+      "E": "The lines of cars extend vertically across the lot."
+    },
+    "margin": 0.05416259526063529,
+    "scale_margins": [
+      -0.013004120934556464,
+      0.1380159508022093,
+      0.03747595591425304
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.05416259526063529,
+    "cohort": "formal106",
+    "hit": 0.0
+  },
+  {
+    "image": "1594.tif",
+    "rgb": "6cb7bde504e8f5c4de70c95337e7eb04159f51816cc51baf7af7ecefa60534f7",
+    "row": 153,
+    "split": "test",
+    "pair": "1594-1599",
+    "attribute": "parking_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The parking rows follow a left-right alignment.",
+      "E": "The lines of cars extend sideways across the lot."
+    },
+    "margin": -0.28068426937843727,
+    "scale_margins": [
+      -0.28449402966544923,
+      -0.4182320543751474,
+      -0.13932672409471508
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.28068426937843727,
+    "cohort": "formal106",
+    "hit": 0.0
+  },
+  {
+    "image": "1599.tif",
+    "rgb": "09b9bb4353b7b90ad2a234cce87846290b5033ed66a555d24a01703e62ff7edf",
+    "row": 158,
+    "split": "test",
+    "pair": "1594-1599",
+    "attribute": "parking_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The parking rows follow a top-bottom alignment.",
+      "E": "The lines of cars extend vertically across the lot."
+    },
+    "margin": -0.011365436944630847,
+    "scale_margins": [
+      -0.02741707754434215,
+      0.017624569710467077,
+      -0.024303803000017474
+    ],
+    "axis": "vertical",
+    "rotation_error": 2.7755575615628914e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.01136543694463082,
+    "cohort": "formal106",
+    "hit": 1.0
+  },
+  {
+    "image": "1693.tif",
+    "rgb": "67fc12e3ed70a568de11da5794619b299ccc9e601fd7b1c68b179f79f8c2a379",
+    "row": 162,
+    "split": "test",
+    "pair": "1693-1699",
+    "attribute": "river_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The main course of the river goes across the frame sideways.",
+      "E": "The channel stretches sideways across the scene."
+    },
+    "margin": 0.4213505346762427,
+    "scale_margins": [
+      0.282233028143689,
+      0.3898776482125053,
+      0.5919409276725337
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.4213505346762427,
+    "cohort": "formal106",
+    "hit": 1.0
+  },
+  {
+    "image": "1699.tif",
+    "rgb": "688c686d41fe61aeca21cf4237ccfc52a5d52f14ff947cd633b4d5d02937a5ce",
+    "row": 168,
+    "split": "test",
+    "pair": "1693-1699",
+    "attribute": "river_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The main course of the river travels from the upper edge toward the lower edge.",
+      "E": "The channel stretches vertically through the scene."
+    },
+    "margin": -0.1963165448858268,
+    "scale_margins": [
+      -0.08606133711636568,
+      -0.19113588669909498,
+      -0.31175241084201977
+    ],
+    "axis": "vertical",
+    "rotation_error": 2.7755575615628914e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.19631654488582684,
+    "cohort": "formal106",
+    "hit": 1.0
+  },
+  {
+    "image": "1692.tif",
+    "rgb": "1b35fb489a77dfac7d3e5ddee31b36f5cdd554c45c59a1d1ac046d3e0bde99da",
+    "row": 161,
+    "split": "test",
+    "pair": "1692-1700",
+    "attribute": "river_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The main course of the river goes across the frame sideways.",
+      "E": "The channel stretches sideways across the scene."
+    },
+    "margin": 0.2878880609867114,
+    "scale_margins": [
+      0.19558128973708494,
+      0.28886702204466624,
+      0.379215871178383
+    ],
+    "axis": "horizontal",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.28788806098671144,
+    "cohort": "formal106",
+    "hit": 1.0
+  },
+  {
+    "image": "1700.tif",
+    "rgb": "8f26bca355d22f9bfb66fb501fc6a280f16dfbd37696c87975e862cd290f6de5",
+    "row": 169,
+    "split": "test",
+    "pair": "1692-1700",
+    "attribute": "river_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "D",
+      "E"
+    ],
+    "correct_phrasing": {
+      "D": "The main course of the river travels from the upper edge toward the lower edge.",
+      "E": "The channel stretches vertically through the scene."
+    },
+    "margin": -0.06510574590237074,
+    "scale_margins": [
+      0.03933016743767388,
+      -0.057617725619120555,
+      -0.17702967952566556
+    ],
+    "axis": "vertical",
+    "rotation_error": 1.3877787807814457e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.06510574590237073,
+    "cohort": "formal106",
+    "hit": 1.0
+  },
+  {
+    "image": "817.tif",
+    "rgb": "e08bcc0df9a75947fd461d4ba9426b4198bcf6b2e3d0036fa7addffacfa41ec4",
+    "row": 654,
+    "split": "train",
+    "pair": "817-821",
+    "attribute": "freeway_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The freeway runs horizontally.",
+      "B": "The freeway crosses from left to right."
+    },
+    "margin": 0.668462213471491,
+    "scale_margins": [
+      0.6840467814901112,
+      0.6832297929065748,
+      0.6381100660177869
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.668462213471491,
+    "cohort": "extra164",
+    "hit": 1.0
+  },
+  {
+    "image": "821.tif",
+    "rgb": "ed8cdf858274e912f6b821599653cb255cf264d6f3b762e4ea0d65f90e937e73",
+    "row": 658,
+    "split": "train",
+    "pair": "817-821",
+    "attribute": "freeway_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The freeway runs vertically.",
+      "B": "The freeway crosses from top to bottom."
+    },
+    "margin": -0.663966806084706,
+    "scale_margins": [
+      -0.6131107052601314,
+      -0.6676318598256032,
+      -0.7111578531683833
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.663966806084706,
+    "cohort": "extra164",
+    "hit": 1.0
+  },
+  {
+    "image": "859.tif",
+    "rgb": "e65bfd459b3ced931bce44b8f0e16718196fde0287675edbac607329b6c1c0af",
+    "row": 696,
+    "split": "train",
+    "pair": "859-830",
+    "attribute": "freeway_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The freeway runs horizontally.",
+      "B": "The freeway crosses from left to right."
+    },
+    "margin": 0.6531713407793708,
+    "scale_margins": [
+      0.5102369458966476,
+      0.7011541255800469,
+      0.7481229508614178
+    ],
+    "axis": "horizontal",
+    "rotation_error": 1.1102230246251565e-16,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.6531713407793709,
+    "cohort": "extra164",
+    "hit": 1.0
+  },
+  {
+    "image": "830.tif",
+    "rgb": "3ad1b0e4929eb25a3420c76a77c66c86745ad58cfa48aa271b0d86d73d6d2ac8",
+    "row": 667,
+    "split": "train",
+    "pair": "859-830",
+    "attribute": "freeway_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The freeway runs vertically.",
+      "B": "The freeway crosses from top to bottom."
+    },
+    "margin": -0.6217802254585295,
+    "scale_margins": [
+      -0.6092410854141448,
+      -0.6486228729689453,
+      -0.6074767179924985
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.6217802254585295,
+    "cohort": "extra164",
+    "hit": 1.0
+  },
+  {
+    "image": "1407.tif",
+    "rgb": "bcee96924f38b49beea9c4d8e6ca6b9a299059e57bbffcc01d8849d6f92e17f7",
+    "row": 1126,
+    "split": "train",
+    "pair": "1407-1422",
+    "attribute": "bridge_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The upper roadway runs horizontally.",
+      "B": "The road on top crosses from left to right."
+    },
+    "margin": -0.05444780696274235,
+    "scale_margins": [
+      -0.021665701536964805,
+      -0.050840012342752476,
+      -0.09083770700850978
+    ],
+    "axis": "vertical",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.05444780696274241,
+    "cohort": "extra164",
+    "hit": 0.0
+  },
+  {
+    "image": "1422.tif",
+    "rgb": "c08483010648d05a5804f3cf60d7e128f73d969169f62b2f4858e38c9700e4f9",
+    "row": 1141,
+    "split": "train",
+    "pair": "1407-1422",
+    "attribute": "bridge_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The upper roadway runs vertically.",
+      "B": "The road on top crosses from top to bottom."
+    },
+    "margin": 0.03456439106261008,
+    "scale_margins": [
+      0.11957108451164833,
+      0.034300765244597985,
+      -0.050178676568416104
+    ],
+    "axis": "horizontal",
+    "rotation_error": 6.938893903907228e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.03456439106261001,
+    "cohort": "extra164",
+    "hit": 0.0
+  },
+  {
+    "image": "1571.tif",
+    "rgb": "c2a3aff9082e1a85c45a7d76386f1aedf0d3707839e28c817281b2449725c379",
+    "row": 1270,
+    "split": "train",
+    "pair": "1571-1580",
+    "attribute": "parking_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The long parking rows run horizontally.",
+      "B": "The rows of parked cars extend left to right."
+    },
+    "margin": 0.32678186767413625,
+    "scale_margins": [
+      0.17893676960603092,
+      0.2752324404833089,
+      0.526176392933069
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.32678186767413625,
+    "cohort": "extra164",
+    "hit": 1.0
+  },
+  {
+    "image": "1580.tif",
+    "rgb": "3b309e2a0e312beb5801933aedbc4edb249aed3c611c1544cda58a1e9fa400e6",
+    "row": 1279,
+    "split": "train",
+    "pair": "1571-1580",
+    "attribute": "parking_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The long parking rows run vertically.",
+      "B": "The rows of parked cars extend top to bottom."
+    },
+    "margin": 0.07711161016226913,
+    "scale_margins": [
+      0.12265252524579832,
+      0.10619111204036882,
+      0.0024911932006402306
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.07711161016226913,
+    "cohort": "extra164",
+    "hit": 0.0
+  },
+  {
+    "image": "611.tif",
+    "rgb": "6526ee92cb5b096b5108220cd21af8afaa6f5e33a0357126d018eaf34208114d",
+    "row": 491,
+    "split": "train",
+    "pair": "611-607",
+    "attribute": "street_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs horizontally.",
+      "B": "The street separating rows of houses extends left to right."
+    },
+    "margin": 0.08376924442669509,
+    "scale_margins": [
+      0.06874395914340645,
+      0.08534081510754428,
+      0.0972229590291345
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.08376924442669509,
+    "cohort": "extra164",
+    "hit": 1.0
+  },
+  {
+    "image": "607.tif",
+    "rgb": "c350bc58729874c0f7eb2426b92cca6eec98824168046295d2f3a82633974035",
+    "row": 487,
+    "split": "train",
+    "pair": "611-607",
+    "attribute": "street_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The street between the houses runs vertically.",
+      "B": "The street separating rows of houses extends top to bottom."
+    },
+    "margin": 0.12167533828092884,
+    "scale_margins": [
+      -0.046463281995940756,
+      0.0709067632683373,
+      0.34058253357039
+    ],
+    "axis": "horizontal",
+    "rotation_error": 1.3877787807814457e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.12167533828092886,
+    "cohort": "extra164",
+    "hit": 0.0
+  },
+  {
+    "image": "1579.tif",
+    "rgb": "ed613e687f284fc1e1ae77539fd1887857a61f0cb246fe6038692f61acfcfa49",
+    "row": 1278,
+    "split": "train",
+    "pair": "1579-1503",
+    "attribute": "parking_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The long parking rows run horizontally.",
+      "B": "The rows of parked cars extend left to right."
+    },
+    "margin": -0.14903679588172383,
+    "scale_margins": [
+      -0.28595320577702504,
+      -0.23735591896714167,
+      0.07619873709899522
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.14903679588172383,
+    "cohort": "extra164",
+    "hit": 0.0
+  },
+  {
+    "image": "1503.tif",
+    "rgb": "b9bdab664248d7a9ea77eb77689f5534955286cc12355bc7d5e941c707a4bb8b",
+    "row": 1202,
+    "split": "train",
+    "pair": "1579-1503",
+    "attribute": "parking_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The long parking rows run vertically.",
+      "B": "The rows of parked cars extend top to bottom."
+    },
+    "margin": 0.314504286968335,
+    "scale_margins": [
+      0.32459166213059265,
+      0.3813407206365333,
+      0.23758047813787894
+    ],
+    "axis": "horizontal",
+    "rotation_error": 5.551115123125783e-17,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.31450428696833493,
+    "cohort": "extra164",
+    "hit": 0.0
+  },
+  {
+    "image": "818.tif",
+    "rgb": "ccee08577d7a06a02f452e2c35cc4d64b2166eecbf96553bd0a47a99061d4a64",
+    "row": 655,
+    "split": "train",
+    "pair": "818-832",
+    "attribute": "freeway_axis",
+    "label": "horizontal",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The freeway runs horizontally.",
+      "B": "The freeway crosses from left to right."
+    },
+    "margin": 0.7197595084904943,
+    "scale_margins": [
+      0.727837170223774,
+      0.7379312050395604,
+      0.6935101502081482
+    ],
+    "axis": "horizontal",
+    "rotation_error": 0.0,
+    "rotated_axis": "vertical",
+    "rotated_margin": -0.7197595084904943,
+    "cohort": "extra164",
+    "hit": 1.0
+  },
+  {
+    "image": "832.tif",
+    "rgb": "90c9877221beb497a49fc39f7531c0ee97c9e7bcc9e007c1bf30a7f0117bed1f",
+    "row": 669,
+    "split": "train",
+    "pair": "818-832",
+    "attribute": "freeway_axis",
+    "label": "vertical",
+    "truth_sources": [
+      "A",
+      "B"
+    ],
+    "correct_phrasing": {
+      "A": "The freeway runs vertically.",
+      "B": "The freeway crosses from top to bottom."
+    },
+    "margin": -0.7672791215511343,
+    "scale_margins": [
+      -0.7500439471596325,
+      -0.7953246009245034,
+      -0.756468816569267
+    ],
+    "axis": "vertical",
+    "rotation_error": 0.0,
+    "rotated_axis": "horizontal",
+    "rotated_margin": 0.7672791215511343,
+    "cohort": "extra164",
+    "hit": 1.0
+  }
+]

@@ -1,0 +1,2082 @@
+{
+  "train270": [
+    {
+      "image": "17.tif",
+      "rgb": "190000e83e5c010172ca11d85a86645760af0d7fb560e5c1de563d88d32e80da",
+      "row": 16,
+      "split": "train",
+      "pair": "17-80",
+      "attribute": "field_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The crop rows run horizontally.",
+        "B": "The planting lines extend from left to right."
+      }
+    },
+    {
+      "image": "80.tif",
+      "rgb": "c75bff0c81fb800b80cfa6ed5be6f3cc21181ee6460ba817c63980aaccc8f333",
+      "row": 79,
+      "split": "train",
+      "pair": "17-80",
+      "attribute": "field_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The crop rows run vertically.",
+        "B": "The planting lines extend from top to bottom."
+      }
+    },
+    {
+      "image": "20.tif",
+      "rgb": "baa5bfe6bf9a6f093adf29f413de3ce5593dafba2ae3a806e1c048d7de64d87a",
+      "row": 19,
+      "split": "train",
+      "pair": "20-77",
+      "attribute": "field_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The crop rows run horizontally.",
+        "B": "The planting lines extend from left to right."
+      }
+    },
+    {
+      "image": "77.tif",
+      "rgb": "92a860fd225949aaa5c04495c9e1aac00d69cf036a4a1504e55572d38dd49e5a",
+      "row": 76,
+      "split": "train",
+      "pair": "20-77",
+      "attribute": "field_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The crop rows run vertically.",
+        "B": "The planting lines extend from top to bottom."
+      }
+    },
+    {
+      "image": "650.tif",
+      "rgb": "220dd88f842b0cfdc36e8e92191b0ad1bd572d27c98b64a51d6008a201ec2a8a",
+      "row": 527,
+      "split": "train",
+      "pair": "650-659",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs horizontally.",
+        "B": "The street separating rows of houses extends left to right."
+      }
+    },
+    {
+      "image": "659.tif",
+      "rgb": "3d78d6027b187b301241889c8086a36f6f8e9a37023fc1a2aa0dcfff51942c72",
+      "row": 536,
+      "split": "train",
+      "pair": "650-659",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs vertically.",
+        "B": "The street separating rows of houses extends top to bottom."
+      }
+    },
+    {
+      "image": "658.tif",
+      "rgb": "814f1b4126a083566f762e22242722572e2d7f2ce8edf619cac19019522691e9",
+      "row": 535,
+      "split": "train",
+      "pair": "658-680",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs horizontally.",
+        "B": "The street separating rows of houses extends left to right."
+      }
+    },
+    {
+      "image": "680.tif",
+      "rgb": "6fee57beb8a17ef925c7069222ec8ef729cc9bef873cdfcbc4fdfdc9fa88e774",
+      "row": 557,
+      "split": "train",
+      "pair": "658-680",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs vertically.",
+        "B": "The street separating rows of houses extends top to bottom."
+      }
+    },
+    {
+      "image": "653.tif",
+      "rgb": "492640f56cdbef5497fbd52cae52fc4fa4fbbdeb00dcdf4055260f3a2240743c",
+      "row": 530,
+      "split": "train",
+      "pair": "653-676",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs horizontally.",
+        "B": "The street separating rows of houses extends left to right."
+      }
+    },
+    {
+      "image": "676.tif",
+      "rgb": "cde7242b0a455969db13a172f779531c490903748a0f87f8c7c0c666eb47ee6d",
+      "row": 553,
+      "split": "train",
+      "pair": "653-676",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs vertically.",
+        "B": "The street separating rows of houses extends top to bottom."
+      }
+    },
+    {
+      "image": "1207.tif",
+      "rgb": "8dad0f2d14360652b674292ced2184b37923c8a459812afa43b17107d2a0ea2a",
+      "row": 966,
+      "split": "train",
+      "pair": "1207-1277",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs horizontally.",
+        "B": "The street separating rows of houses extends left to right."
+      }
+    },
+    {
+      "image": "1277.tif",
+      "rgb": "bcccc5d5005a12640f06b5806fccdfc7de7841c0bd2d1335ca1afa0ffb672a41",
+      "row": 1036,
+      "split": "train",
+      "pair": "1207-1277",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs vertically.",
+        "B": "The street separating rows of houses extends top to bottom."
+      }
+    },
+    {
+      "image": "1240.tif",
+      "rgb": "920dc76f8431e6ce44e5de63f76f6ceff94b538c1c348ffb49bc58549bbe6b19",
+      "row": 999,
+      "split": "train",
+      "pair": "1240-1250",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs horizontally.",
+        "B": "The street separating rows of houses extends left to right."
+      }
+    },
+    {
+      "image": "1250.tif",
+      "rgb": "ea9f7af63242d919f2d9d07e9cb8c76d72bdd1a41179a6fb4585b2787ea17aef",
+      "row": 1009,
+      "split": "train",
+      "pair": "1240-1250",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs vertically.",
+        "B": "The street separating rows of houses extends top to bottom."
+      }
+    },
+    {
+      "image": "1241.tif",
+      "rgb": "1a7d28113e087b2a3188b07a0db97f4f8af8599ac14ae881b07f517015bbe3d1",
+      "row": 1000,
+      "split": "train",
+      "pair": "1241-1248",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs horizontally.",
+        "B": "The street separating rows of houses extends left to right."
+      }
+    },
+    {
+      "image": "1248.tif",
+      "rgb": "261e0db5556f42fb6ec4f94bf62afafa0178888192f8fa8ad8fd766f9ba9015c",
+      "row": 1007,
+      "split": "train",
+      "pair": "1241-1248",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs vertically.",
+        "B": "The street separating rows of houses extends top to bottom."
+      }
+    },
+    {
+      "image": "1251.tif",
+      "rgb": "c5d1239e4cdd5041f41c6f21e7dbe8c10613b314ef0c02d71505fcaf85a1bebf",
+      "row": 1010,
+      "split": "train",
+      "pair": "1251-1256",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs horizontally.",
+        "B": "The street separating rows of houses extends left to right."
+      }
+    },
+    {
+      "image": "1256.tif",
+      "rgb": "a34ebf2a91a9938545e769b207d64acca11db101908f655dfcfec2c5163faac1",
+      "row": 1015,
+      "split": "train",
+      "pair": "1251-1256",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs vertically.",
+        "B": "The street separating rows of houses extends top to bottom."
+      }
+    },
+    {
+      "image": "1349.tif",
+      "rgb": "657cca2c2049f078d524187e505f97f99b13856e22c9cb41238037d8fafc5745",
+      "row": 1088,
+      "split": "train",
+      "pair": "1349-1311",
+      "attribute": "mobile_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The straight street between the mobile homes runs horizontally.",
+        "B": "A street extends left to right between mobile homes."
+      }
+    },
+    {
+      "image": "1311.tif",
+      "rgb": "122d1ac703f739c3271ac8151208417d892998272e12e9a3d05ac25d52badaaf",
+      "row": 1050,
+      "split": "train",
+      "pair": "1349-1311",
+      "attribute": "mobile_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The straight street between the mobile homes runs vertically.",
+        "B": "A street extends top to bottom between mobile homes."
+      }
+    },
+    {
+      "image": "1350.tif",
+      "rgb": "702e9e463f8779603972de32b90ad7964cb7df217af3492451f0db6670862c72",
+      "row": 1089,
+      "split": "train",
+      "pair": "1350-1315",
+      "attribute": "mobile_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The straight street between the mobile homes runs horizontally.",
+        "B": "A street extends left to right between mobile homes."
+      }
+    },
+    {
+      "image": "1315.tif",
+      "rgb": "b583c177ffc1081e601c89e735b1172b3901203298d6e5a2932eb483180ff5e4",
+      "row": 1054,
+      "split": "train",
+      "pair": "1350-1315",
+      "attribute": "mobile_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The straight street between the mobile homes runs vertically.",
+        "B": "A street extends top to bottom between mobile homes."
+      }
+    },
+    {
+      "image": "1344.tif",
+      "rgb": "cf6ddd394f7bb87330d5e3c121fe2bd0eaf53b5cb1bf60c29e44a1e99f11956b",
+      "row": 1083,
+      "split": "train",
+      "pair": "1344-1312",
+      "attribute": "mobile_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The straight street between the mobile homes runs horizontally.",
+        "B": "A street extends left to right between mobile homes."
+      }
+    },
+    {
+      "image": "1312.tif",
+      "rgb": "a6a13b2c8204abf614ae286b2a6e6898bc2535e4309138a68fb9e52d4f7d5003",
+      "row": 1051,
+      "split": "train",
+      "pair": "1344-1312",
+      "attribute": "mobile_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The straight street between the mobile homes runs vertically.",
+        "B": "A street extends top to bottom between mobile homes."
+      }
+    },
+    {
+      "image": "1307.tif",
+      "rgb": "9db27c8f86d54cb0b22843e01b26c0073d33bfddc6542fde56276eb24408d7c8",
+      "row": 1046,
+      "split": "train",
+      "pair": "1307-1358",
+      "attribute": "mobile_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The straight street between the mobile homes runs horizontally.",
+        "B": "A street extends left to right between mobile homes."
+      }
+    },
+    {
+      "image": "1358.tif",
+      "rgb": "4e8b23d8321b86572658ca1302439d3fc325584ad8ac71374698918d275a7bc3",
+      "row": 1097,
+      "split": "train",
+      "pair": "1307-1358",
+      "attribute": "mobile_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The straight street between the mobile homes runs vertically.",
+        "B": "A street extends top to bottom between mobile homes."
+      }
+    },
+    {
+      "image": "1563.tif",
+      "rgb": "70e823e4275a03eb79c5a8c5252dbb4c355c007805e6b1f83c05106493547af6",
+      "row": 1262,
+      "split": "train",
+      "pair": "1563-1575",
+      "attribute": "parking_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The long parking rows run horizontally.",
+        "B": "The rows of parked cars extend left to right."
+      }
+    },
+    {
+      "image": "1575.tif",
+      "rgb": "ac1582485cbdcb4ad17044136227af22cb64789e24cc790c19afe5e80aef497c",
+      "row": 1274,
+      "split": "train",
+      "pair": "1563-1575",
+      "attribute": "parking_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The long parking rows run vertically.",
+        "B": "The rows of parked cars extend top to bottom."
+      }
+    },
+    {
+      "image": "1538.tif",
+      "rgb": "6dad15c424cc5015f98f9dee697d3de761ca1eb5e8a46a28be7ecf39f686b9af",
+      "row": 1237,
+      "split": "train",
+      "pair": "1538-1573",
+      "attribute": "parking_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The long parking rows run horizontally.",
+        "B": "The rows of parked cars extend left to right."
+      }
+    },
+    {
+      "image": "1573.tif",
+      "rgb": "20cf768ed6035d9d3fa53b76a1f45c142055434215c13d2f76e59c51d8d54a58",
+      "row": 1272,
+      "split": "train",
+      "pair": "1538-1573",
+      "attribute": "parking_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The long parking rows run vertically.",
+        "B": "The rows of parked cars extend top to bottom."
+      }
+    },
+    {
+      "image": "1673.tif",
+      "rgb": "1988ed4e0f9d8dbf79e9f4de33cbb8884044f6c317b3d1fd4f2651092a441c09",
+      "row": 1352,
+      "split": "train",
+      "pair": "1673-1608",
+      "attribute": "river_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The river runs horizontally.",
+        "B": "The waterway crosses the image left to right."
+      }
+    },
+    {
+      "image": "1608.tif",
+      "rgb": "4924b8044b95be6e41c07ff0e16459615acb011f17ee88ad3c8243d81760f37c",
+      "row": 1287,
+      "split": "train",
+      "pair": "1673-1608",
+      "attribute": "river_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The river runs vertically.",
+        "B": "The waterway crosses the image top to bottom."
+      }
+    },
+    {
+      "image": "1631.tif",
+      "rgb": "50a429408ca4d0191210c54a0406b18d77ab7e5bf4c628f4682b483f19243c55",
+      "row": 1310,
+      "split": "train",
+      "pair": "1631-1616",
+      "attribute": "river_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The river runs horizontally.",
+        "B": "The waterway crosses the image left to right."
+      }
+    },
+    {
+      "image": "1616.tif",
+      "rgb": "e2d8836356b83981e013c2b077eb4b67f77cfad0050dda8d0210974e19707dcc",
+      "row": 1295,
+      "split": "train",
+      "pair": "1631-1616",
+      "attribute": "river_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The river runs vertically.",
+        "B": "The waterway crosses the image top to bottom."
+      }
+    },
+    {
+      "image": "1607.tif",
+      "rgb": "c9d732440438d036b4d733b49af8da5baa5d2586f9e1c0fc34510a3b6754da37",
+      "row": 1286,
+      "split": "train",
+      "pair": "1607-1622",
+      "attribute": "river_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The river runs horizontally.",
+        "B": "The waterway crosses the image left to right."
+      }
+    },
+    {
+      "image": "1622.tif",
+      "rgb": "3837b2f2fc8d55682d210351228beeefa6b630917f2c5ff1a01181ce800fdc96",
+      "row": 1301,
+      "split": "train",
+      "pair": "1607-1622",
+      "attribute": "river_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The river runs vertically.",
+        "B": "The waterway crosses the image top to bottom."
+      }
+    },
+    {
+      "image": "27.tif",
+      "rgb": "0e7a9837ea08a86560626cefffc93b0071efb9b4abef705c663c12fcb5bff048",
+      "row": 26,
+      "split": "train",
+      "pair": "27-66",
+      "attribute": "field_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The crop rows run horizontally.",
+        "B": "The planting lines extend from left to right."
+      }
+    },
+    {
+      "image": "66.tif",
+      "rgb": "fc63c4284abb4b9634716e8ff4cdf1854543f390c4bb416b9a29a145d76a01e6",
+      "row": 65,
+      "split": "train",
+      "pair": "27-66",
+      "attribute": "field_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The crop rows run vertically.",
+        "B": "The planting lines extend from top to bottom."
+      }
+    },
+    {
+      "image": "79.tif",
+      "rgb": "5918aa37674c435e989da5cf9af2b05d59d7bce6a34b061c2c008bd11bce54af",
+      "row": 78,
+      "split": "train",
+      "pair": "79-22",
+      "attribute": "field_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The crop rows run horizontally.",
+        "B": "The planting lines extend from left to right."
+      }
+    },
+    {
+      "image": "22.tif",
+      "rgb": "4194955963bb1b98b4541f1a3b84d2d645378be84ddb6f9558fc889db5fdb11a",
+      "row": 21,
+      "split": "train",
+      "pair": "79-22",
+      "attribute": "field_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The crop rows run vertically.",
+        "B": "The planting lines extend from top to bottom."
+      }
+    },
+    {
+      "image": "673.tif",
+      "rgb": "1ac0906f093c3fe7e4d74c49d1ea69f8aebe108acf24dd7c518c1bd2e75cb137",
+      "row": 550,
+      "split": "train",
+      "pair": "673-677",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs horizontally.",
+        "B": "The street separating rows of houses extends left to right."
+      }
+    },
+    {
+      "image": "677.tif",
+      "rgb": "ea1c784135ff211411bfbbe8ec38b0c630370728b134270928b46ef5bd25c26d",
+      "row": 554,
+      "split": "train",
+      "pair": "673-677",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs vertically.",
+        "B": "The street separating rows of houses extends top to bottom."
+      }
+    },
+    {
+      "image": "652.tif",
+      "rgb": "33f81e4b4647e0b9d713bd3ee802f760cbf80a82024ab0ce287f557e56129ff7",
+      "row": 529,
+      "split": "train",
+      "pair": "652-643",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs horizontally.",
+        "B": "The street separating rows of houses extends left to right."
+      }
+    },
+    {
+      "image": "643.tif",
+      "rgb": "15577c6d67496f92f6f3568ddcf63e9159cb6d2a0c7ac261e5a70e826708c3fb",
+      "row": 520,
+      "split": "train",
+      "pair": "652-643",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs vertically.",
+        "B": "The street separating rows of houses extends top to bottom."
+      }
+    },
+    {
+      "image": "644.tif",
+      "rgb": "1dd9c6d5de957a1808bc0c1ce18d843473679712e52458d1d6668d9379652f57",
+      "row": 521,
+      "split": "train",
+      "pair": "644-666",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs horizontally.",
+        "B": "The street separating rows of houses extends left to right."
+      }
+    },
+    {
+      "image": "666.tif",
+      "rgb": "611acb8e37cb79f1cd436cf4148a4781aa163a5680a216f198925e4fe7f80f06",
+      "row": 543,
+      "split": "train",
+      "pair": "644-666",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs vertically.",
+        "B": "The street separating rows of houses extends top to bottom."
+      }
+    },
+    {
+      "image": "850.tif",
+      "rgb": "d300082f3feac83b708db6e4c82953fcb7c69ceb6d271d7dbb22e64bbd5c8a87",
+      "row": 687,
+      "split": "train",
+      "pair": "850-852",
+      "attribute": "freeway_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The freeway runs horizontally.",
+        "B": "The freeway crosses from left to right."
+      }
+    },
+    {
+      "image": "852.tif",
+      "rgb": "599c0c494b227ad92dcb7532f4666916f66f69cb6c9c41a45da247c8554b70a6",
+      "row": 689,
+      "split": "train",
+      "pair": "850-852",
+      "attribute": "freeway_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The freeway runs vertically.",
+        "B": "The freeway crosses from top to bottom."
+      }
+    },
+    {
+      "image": "854.tif",
+      "rgb": "bd7f270a2d810cec19338437bdca16d684f64daa0d7d11a6e871fc453df000d0",
+      "row": 691,
+      "split": "train",
+      "pair": "854-857",
+      "attribute": "freeway_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The freeway runs horizontally.",
+        "B": "The freeway crosses from left to right."
+      }
+    },
+    {
+      "image": "857.tif",
+      "rgb": "9bbbcd7e049445221fe32be0c8e9f89ee2aaa599f0e3b46429b39d664eb8c80f",
+      "row": 694,
+      "split": "train",
+      "pair": "854-857",
+      "attribute": "freeway_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The freeway runs vertically.",
+        "B": "The freeway crosses from top to bottom."
+      }
+    },
+    {
+      "image": "875.tif",
+      "rgb": "c59432c6d7c0a2de65a0c035c79c90c3f6a9aac9a0f72a484dbf7d601463aed1",
+      "row": 712,
+      "split": "train",
+      "pair": "875-847",
+      "attribute": "freeway_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The freeway runs horizontally.",
+        "B": "The freeway crosses from left to right."
+      }
+    },
+    {
+      "image": "847.tif",
+      "rgb": "1e976d61041d445c88ebe82ffdbea566d607ed9bee67bb5ccb74751279b22f7e",
+      "row": 684,
+      "split": "train",
+      "pair": "875-847",
+      "attribute": "freeway_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The freeway runs vertically.",
+        "B": "The freeway crosses from top to bottom."
+      }
+    },
+    {
+      "image": "861.tif",
+      "rgb": "852f84e08ccbff2fe700553b39a0d439a716d866a978320542c79d46175a67aa",
+      "row": 698,
+      "split": "train",
+      "pair": "861-844",
+      "attribute": "freeway_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The freeway runs horizontally.",
+        "B": "The freeway crosses from left to right."
+      }
+    },
+    {
+      "image": "844.tif",
+      "rgb": "e943abd5a18e34c2b842dc63eeb5df124a11248fe11283669dde3f2598dd6ab5",
+      "row": 681,
+      "split": "train",
+      "pair": "861-844",
+      "attribute": "freeway_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The freeway runs vertically.",
+        "B": "The freeway crosses from top to bottom."
+      }
+    },
+    {
+      "image": "1059.tif",
+      "rgb": "bf6ab003cc5bed82fae98a72ca3fb63d294c6e27b2cc66ab663e7911baca9205",
+      "row": 856,
+      "split": "train",
+      "pair": "1059-1010",
+      "attribute": "harbor_rows",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The long rows of moored boats run horizontally.",
+        "B": "The lines of tied boats extend left to right."
+      }
+    },
+    {
+      "image": "1010.tif",
+      "rgb": "3aaa5b907bd9fdf7c7a3d6a1c8e5b5db254cbe1564c032de88783afaedbdab6f",
+      "row": 807,
+      "split": "train",
+      "pair": "1059-1010",
+      "attribute": "harbor_rows",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The long rows of moored boats run vertically.",
+        "B": "The lines of tied boats extend top to bottom."
+      }
+    },
+    {
+      "image": "1243.tif",
+      "rgb": "37613d61f0576b267fad39d13407278a920ff85b4af0fb06c52ae29bce5af494",
+      "row": 1002,
+      "split": "train",
+      "pair": "1243-1279",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs horizontally.",
+        "B": "The street separating rows of houses extends left to right."
+      }
+    },
+    {
+      "image": "1279.tif",
+      "rgb": "714ea1d9ca287dd1226a79e5d67c9e12fe85ae70b3a10c5a7cb5dead4dc490ee",
+      "row": 1038,
+      "split": "train",
+      "pair": "1243-1279",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs vertically.",
+        "B": "The street separating rows of houses extends top to bottom."
+      }
+    },
+    {
+      "image": "1253.tif",
+      "rgb": "9c77206c587e8731f40312b62ea283317dc57aca3df3bf39270047470932c96c",
+      "row": 1012,
+      "split": "train",
+      "pair": "1253-1236",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs horizontally.",
+        "B": "The street separating rows of houses extends left to right."
+      }
+    },
+    {
+      "image": "1236.tif",
+      "rgb": "01f15366aaabb6e825301205c65af85a156e0ea64c54d6224041d75240c1e77c",
+      "row": 995,
+      "split": "train",
+      "pair": "1253-1236",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs vertically.",
+        "B": "The street separating rows of houses extends top to bottom."
+      }
+    },
+    {
+      "image": "1364.tif",
+      "rgb": "4caf6f7df1e27df26860e7f982634786e24dadfbbc5493ac4bd16d03670d3163",
+      "row": 1103,
+      "split": "train",
+      "pair": "1364-1317",
+      "attribute": "mobile_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The straight street between the mobile homes runs horizontally.",
+        "B": "A street extends left to right between mobile homes."
+      }
+    },
+    {
+      "image": "1317.tif",
+      "rgb": "03ef0bb4d70fb7d8495c6e84cc0ed941b511ecc379884119807b6b4879fa40ce",
+      "row": 1056,
+      "split": "train",
+      "pair": "1364-1317",
+      "attribute": "mobile_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The straight street between the mobile homes runs vertically.",
+        "B": "A street extends top to bottom between mobile homes."
+      }
+    },
+    {
+      "image": "1362.tif",
+      "rgb": "63848bb8284c8dd395540ccd1aaef97ec36afd23119d80cec73a8fa2db206d5d",
+      "row": 1101,
+      "split": "train",
+      "pair": "1362-1310",
+      "attribute": "mobile_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The straight street between the mobile homes runs horizontally.",
+        "B": "A street extends left to right between mobile homes."
+      }
+    },
+    {
+      "image": "1310.tif",
+      "rgb": "fd608bfd38596773c9c9057485c0f78872cfecb689cb164104292c124fd9b76a",
+      "row": 1049,
+      "split": "train",
+      "pair": "1362-1310",
+      "attribute": "mobile_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The straight street between the mobile homes runs vertically.",
+        "B": "A street extends top to bottom between mobile homes."
+      }
+    },
+    {
+      "image": "1359.tif",
+      "rgb": "0aa2ed5f0ae9a6bca34385c98960a1318ef149a1d92e5a8336ae45af2cf985ae",
+      "row": 1098,
+      "split": "train",
+      "pair": "1359-1361",
+      "attribute": "mobile_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The straight street between the mobile homes runs horizontally.",
+        "B": "A street extends left to right between mobile homes."
+      }
+    },
+    {
+      "image": "1361.tif",
+      "rgb": "4fc46a2aec3d2683763a084990a6a368701b3ee1232dba88207cf10565b269bd",
+      "row": 1100,
+      "split": "train",
+      "pair": "1359-1361",
+      "attribute": "mobile_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The straight street between the mobile homes runs vertically.",
+        "B": "A street extends top to bottom between mobile homes."
+      }
+    },
+    {
+      "image": "1434.tif",
+      "rgb": "781b9d27c1d6ce35a786a2ebba283151d7367a390c17ac5be317d4f1cd08aee6",
+      "row": 1153,
+      "split": "train",
+      "pair": "1434-1412",
+      "attribute": "bridge_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The upper roadway runs horizontally.",
+        "B": "The road on top crosses from left to right."
+      }
+    },
+    {
+      "image": "1412.tif",
+      "rgb": "f8e702d28245bfaf11c10be3f3d9f5275256bdb135c92be198a8b72d6110fcae",
+      "row": 1131,
+      "split": "train",
+      "pair": "1434-1412",
+      "attribute": "bridge_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The upper roadway runs vertically.",
+        "B": "The road on top crosses from top to bottom."
+      }
+    },
+    {
+      "image": "1450.tif",
+      "rgb": "acb8e34a5470da8790070246887f6019778eb3457e488a82cb7552a616a473f8",
+      "row": 1169,
+      "split": "train",
+      "pair": "1450-1415",
+      "attribute": "bridge_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The upper roadway runs horizontally.",
+        "B": "The road on top crosses from left to right."
+      }
+    },
+    {
+      "image": "1415.tif",
+      "rgb": "a59a9e41e10ae3ed175f5a527e584424e7521fd0683863c8986a21e4c0c3fc36",
+      "row": 1134,
+      "split": "train",
+      "pair": "1450-1415",
+      "attribute": "bridge_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The upper roadway runs vertically.",
+        "B": "The road on top crosses from top to bottom."
+      }
+    },
+    {
+      "image": "1403.tif",
+      "rgb": "2cb43c271d038199cfc8c634448e5f1735866a0d23166048efd75919e9c043c3",
+      "row": 1122,
+      "split": "train",
+      "pair": "1403-1447",
+      "attribute": "bridge_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The upper roadway runs horizontally.",
+        "B": "The road on top crosses from left to right."
+      }
+    },
+    {
+      "image": "1447.tif",
+      "rgb": "af5e31e88950f20b16c59c8b82a076462e40017a0d3ad8d0fd6977464da16da3",
+      "row": 1166,
+      "split": "train",
+      "pair": "1403-1447",
+      "attribute": "bridge_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The upper roadway runs vertically.",
+        "B": "The road on top crosses from top to bottom."
+      }
+    },
+    {
+      "image": "1404.tif",
+      "rgb": "8556830f9fe166b975df0fe607104fbf5c16e5b5a8c94364d33a9e63371cabba",
+      "row": 1123,
+      "split": "train",
+      "pair": "1404-1411",
+      "attribute": "bridge_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The upper roadway runs horizontally.",
+        "B": "The road on top crosses from left to right."
+      }
+    },
+    {
+      "image": "1411.tif",
+      "rgb": "5b6ccbe9d3d6a78c84ac89e5db854bae2841de090efc80dc73798f77129b346d",
+      "row": 1130,
+      "split": "train",
+      "pair": "1404-1411",
+      "attribute": "bridge_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The upper roadway runs vertically.",
+        "B": "The road on top crosses from top to bottom."
+      }
+    },
+    {
+      "image": "1421.tif",
+      "rgb": "d4f6607b5820ec4b1ec3b30de95fe386f03a8873be4598a98990f831f2c05e55",
+      "row": 1140,
+      "split": "train",
+      "pair": "1421-1453",
+      "attribute": "bridge_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The upper roadway runs horizontally.",
+        "B": "The road on top crosses from left to right."
+      }
+    },
+    {
+      "image": "1453.tif",
+      "rgb": "f60ff5bf6fb380df117a90163e676fcd0e707c42e27310d94b3c4a5b245dc9d2",
+      "row": 1172,
+      "split": "train",
+      "pair": "1421-1453",
+      "attribute": "bridge_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The upper roadway runs vertically.",
+        "B": "The road on top crosses from top to bottom."
+      }
+    },
+    {
+      "image": "1444.tif",
+      "rgb": "08a94b5bfe6424c8ee35eb499914b4b0dfee07cd9374a67e60c97db1d05ddd82",
+      "row": 1163,
+      "split": "train",
+      "pair": "1444-1478",
+      "attribute": "bridge_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The upper roadway runs horizontally.",
+        "B": "The road on top crosses from left to right."
+      }
+    },
+    {
+      "image": "1478.tif",
+      "rgb": "2854981042d7f4e8ef386ceddb7237a7d170c332f97fd9f4ce4a0a67faa9f7d3",
+      "row": 1197,
+      "split": "train",
+      "pair": "1444-1478",
+      "attribute": "bridge_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The upper roadway runs vertically.",
+        "B": "The road on top crosses from top to bottom."
+      }
+    },
+    {
+      "image": "1512.tif",
+      "rgb": "b8b6e2a51c84aebf45252ad1c53c35964c7d261f87f8de5530ced52aa5c9fed9",
+      "row": 1211,
+      "split": "train",
+      "pair": "1512-1524",
+      "attribute": "parking_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The long parking rows run horizontally.",
+        "B": "The rows of parked cars extend left to right."
+      }
+    },
+    {
+      "image": "1524.tif",
+      "rgb": "c92f0b8a693b8358ff1f8835177ae00885eb108546e5357ea808fc0ac649073d",
+      "row": 1223,
+      "split": "train",
+      "pair": "1512-1524",
+      "attribute": "parking_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The long parking rows run vertically.",
+        "B": "The rows of parked cars extend top to bottom."
+      }
+    },
+    {
+      "image": "1657.tif",
+      "rgb": "a4f1263d767b895aeb18a1e277c90b84bf7b339d7ac2b23a42b257517d3c2de8",
+      "row": 1336,
+      "split": "train",
+      "pair": "1657-1610",
+      "attribute": "river_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The river runs horizontally.",
+        "B": "The waterway crosses the image left to right."
+      }
+    },
+    {
+      "image": "1610.tif",
+      "rgb": "273da43ac119f46438f25e35faedba2f01981052bf5b5942dc5bdb9f287193ec",
+      "row": 1289,
+      "split": "train",
+      "pair": "1657-1610",
+      "attribute": "river_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The river runs vertically.",
+        "B": "The waterway crosses the image top to bottom."
+      }
+    },
+    {
+      "image": "1665.tif",
+      "rgb": "664453308e50b27a637611671daf1c71cfa09e6e0ff755248135669627cd8f6f",
+      "row": 1344,
+      "split": "train",
+      "pair": "1665-1676",
+      "attribute": "river_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The river runs horizontally.",
+        "B": "The waterway crosses the image left to right."
+      }
+    },
+    {
+      "image": "1676.tif",
+      "rgb": "aaa3a0fb3d07d6fb4d403151022cf313d5d2bf319b1837dab2f47a87d9bdb29a",
+      "row": 1355,
+      "split": "train",
+      "pair": "1665-1676",
+      "attribute": "river_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The river runs vertically.",
+        "B": "The waterway crosses the image top to bottom."
+      }
+    },
+    {
+      "image": "1643.tif",
+      "rgb": "6db01cead55ff6ad474f44030a3c190e1d60dc15241cce2c67e2a770e1c9c4cd",
+      "row": 1322,
+      "split": "train",
+      "pair": "1643-1640",
+      "attribute": "river_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The river runs horizontally.",
+        "B": "The waterway crosses the image left to right."
+      }
+    },
+    {
+      "image": "1640.tif",
+      "rgb": "eec7490622ebf3e2e7f50f44ed09715727bee8bf69178e7cb322c0f350af91f1",
+      "row": 1319,
+      "split": "train",
+      "pair": "1643-1640",
+      "attribute": "river_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The river runs vertically.",
+        "B": "The waterway crosses the image top to bottom."
+      }
+    }
+  ],
+  "formal106": [
+    {
+      "image": "691.tif",
+      "rgb": "1ca0a59da445ec48c7032c806e9c1bcf9d1a5b9a47756a15a899a7ac4e9846bd",
+      "row": 60,
+      "split": "test",
+      "pair": "691-694",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The residential road follows a left-right course.",
+        "E": "The main street between the homes extends sideways in the image."
+      }
+    },
+    {
+      "image": "694.tif",
+      "rgb": "58ebebde8cb04331b2012df2ee7032cb855206db97d250a149ced3f39bf804c9",
+      "row": 63,
+      "split": "test",
+      "pair": "691-694",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The residential road follows a top-bottom course.",
+        "E": "The main street between the homes extends vertically in the image."
+      }
+    },
+    {
+      "image": "692.tif",
+      "rgb": "07944910d3eeeec498832a981131009f8b82eae3593dc34a1c9fb2985f1eaa58",
+      "row": 61,
+      "split": "test",
+      "pair": "692-697",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The residential road follows a left-right course.",
+        "E": "The main street between the homes extends sideways in the image."
+      }
+    },
+    {
+      "image": "697.tif",
+      "rgb": "8729144a34b2124fab0a96c2fb84f6d4f36d4beddaa73349f83f501fe6f2dec6",
+      "row": 66,
+      "split": "test",
+      "pair": "692-697",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The residential road follows a top-bottom course.",
+        "E": "The main street between the homes extends vertically in the image."
+      }
+    },
+    {
+      "image": "1095.tif",
+      "rgb": "605542265ec83ba4488cc672db6ce016c7c309fccb4941b20b10c5f59106acbd",
+      "row": 104,
+      "split": "test",
+      "pair": "1095-1091",
+      "attribute": "harbor_rows",
+      "label": "horizontal",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "Moored boats form rows across the width of the frame.",
+        "E": "The long lines of boats go from left to right in this harbor."
+      }
+    },
+    {
+      "image": "1091.tif",
+      "rgb": "d6ee97bed262183257c608672221f2d75d39d68d28a1198d4bb9f6cf4df3e5c8",
+      "row": 100,
+      "split": "test",
+      "pair": "1095-1091",
+      "attribute": "harbor_rows",
+      "label": "vertical",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "Moored boats form rows down the height of the frame.",
+        "E": "The long lines of boats go from top to bottom in this harbor."
+      }
+    },
+    {
+      "image": "1394.tif",
+      "rgb": "ce07a0594c0316def9be7a3aeb8cdf78cd2d7fe06b4324864b9a2327fdf71783",
+      "row": 133,
+      "split": "test",
+      "pair": "1394-1392",
+      "attribute": "mobile_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The access street between the trailers follows a left-right course.",
+        "E": "The road between the trailers crosses the picture from side to side."
+      }
+    },
+    {
+      "image": "1392.tif",
+      "rgb": "a32e6fdd9ff6a20d4e9a735d8ff5bf01b2c23778e5772b9550674788e41857cf",
+      "row": 131,
+      "split": "test",
+      "pair": "1394-1392",
+      "attribute": "mobile_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The access street between the trailers follows a top-bottom course.",
+        "E": "The road between the trailers crosses the picture from top to bottom."
+      }
+    },
+    {
+      "image": "1498.tif",
+      "rgb": "0e8a0510b477d5499f7f6573185d20dcd0218217eadb8d1cad6b597e89b0e404",
+      "row": 147,
+      "split": "test",
+      "pair": "1498-1491",
+      "attribute": "bridge_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The deck on top has a left-right alignment.",
+        "E": "The upper deck extends sideways through the frame."
+      }
+    },
+    {
+      "image": "1491.tif",
+      "rgb": "4d6be65d40297752de5e0433f1a872a00640c5b8cf29e5760751ec78f2a07aed",
+      "row": 140,
+      "split": "test",
+      "pair": "1498-1491",
+      "attribute": "bridge_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The deck on top has a top-bottom alignment.",
+        "E": "The upper deck extends vertically through the frame."
+      }
+    },
+    {
+      "image": "1499.tif",
+      "rgb": "ffcf9dbf0f1bb64b88bb9de70d3adb40b6c46015a3bb54058872ef3d1f6e09ec",
+      "row": 148,
+      "split": "test",
+      "pair": "1499-1492",
+      "attribute": "bridge_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The deck on top has a left-right alignment.",
+        "E": "The upper deck extends sideways through the frame."
+      }
+    },
+    {
+      "image": "1492.tif",
+      "rgb": "7d72d8bddeb38e1e9f0e32f0fe5051f210afb61ea13d409bb11c4618b251323c",
+      "row": 141,
+      "split": "test",
+      "pair": "1499-1492",
+      "attribute": "bridge_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The deck on top has a top-bottom alignment.",
+        "E": "The upper deck extends vertically through the frame."
+      }
+    },
+    {
+      "image": "1500.tif",
+      "rgb": "6324654479b93e74ba7604cf64632ee7e84d86ffa720f35fa963485b0f1c1768",
+      "row": 149,
+      "split": "test",
+      "pair": "1500-1494",
+      "attribute": "bridge_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The deck on top has a left-right alignment.",
+        "E": "The upper deck extends sideways through the frame."
+      }
+    },
+    {
+      "image": "1494.tif",
+      "rgb": "029735a307216c5cc65fcf8e4a811bf08e7b01ee4284ea2748a686e3fc22b150",
+      "row": 143,
+      "split": "test",
+      "pair": "1500-1494",
+      "attribute": "bridge_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The deck on top has a top-bottom alignment.",
+        "E": "The upper deck extends vertically through the frame."
+      }
+    },
+    {
+      "image": "1591.tif",
+      "rgb": "69d0fb587c4716d5f33acad421f6e70f1133e01019beaa58d567451248eb7a28",
+      "row": 150,
+      "split": "test",
+      "pair": "1591-1597",
+      "attribute": "parking_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The parking rows follow a left-right alignment.",
+        "E": "The lines of cars extend sideways across the lot."
+      }
+    },
+    {
+      "image": "1597.tif",
+      "rgb": "75dbd3f7bdafa786a9e79fa8e0d5bead0a74c09a0aac6bfba0f6f8113117cf54",
+      "row": 156,
+      "split": "test",
+      "pair": "1591-1597",
+      "attribute": "parking_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The parking rows follow a top-bottom alignment.",
+        "E": "The lines of cars extend vertically across the lot."
+      }
+    },
+    {
+      "image": "1594.tif",
+      "rgb": "6cb7bde504e8f5c4de70c95337e7eb04159f51816cc51baf7af7ecefa60534f7",
+      "row": 153,
+      "split": "test",
+      "pair": "1594-1599",
+      "attribute": "parking_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The parking rows follow a left-right alignment.",
+        "E": "The lines of cars extend sideways across the lot."
+      }
+    },
+    {
+      "image": "1599.tif",
+      "rgb": "09b9bb4353b7b90ad2a234cce87846290b5033ed66a555d24a01703e62ff7edf",
+      "row": 158,
+      "split": "test",
+      "pair": "1594-1599",
+      "attribute": "parking_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The parking rows follow a top-bottom alignment.",
+        "E": "The lines of cars extend vertically across the lot."
+      }
+    },
+    {
+      "image": "1693.tif",
+      "rgb": "67fc12e3ed70a568de11da5794619b299ccc9e601fd7b1c68b179f79f8c2a379",
+      "row": 162,
+      "split": "test",
+      "pair": "1693-1699",
+      "attribute": "river_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The main course of the river goes across the frame sideways.",
+        "E": "The channel stretches sideways across the scene."
+      }
+    },
+    {
+      "image": "1699.tif",
+      "rgb": "688c686d41fe61aeca21cf4237ccfc52a5d52f14ff947cd633b4d5d02937a5ce",
+      "row": 168,
+      "split": "test",
+      "pair": "1693-1699",
+      "attribute": "river_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The main course of the river travels from the upper edge toward the lower edge.",
+        "E": "The channel stretches vertically through the scene."
+      }
+    },
+    {
+      "image": "1692.tif",
+      "rgb": "1b35fb489a77dfac7d3e5ddee31b36f5cdd554c45c59a1d1ac046d3e0bde99da",
+      "row": 161,
+      "split": "test",
+      "pair": "1692-1700",
+      "attribute": "river_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The main course of the river goes across the frame sideways.",
+        "E": "The channel stretches sideways across the scene."
+      }
+    },
+    {
+      "image": "1700.tif",
+      "rgb": "8f26bca355d22f9bfb66fb501fc6a280f16dfbd37696c87975e862cd290f6de5",
+      "row": 169,
+      "split": "test",
+      "pair": "1692-1700",
+      "attribute": "river_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "D",
+        "E"
+      ],
+      "correct_phrasing": {
+        "D": "The main course of the river travels from the upper edge toward the lower edge.",
+        "E": "The channel stretches vertically through the scene."
+      }
+    }
+  ],
+  "extra164": [
+    {
+      "image": "817.tif",
+      "rgb": "e08bcc0df9a75947fd461d4ba9426b4198bcf6b2e3d0036fa7addffacfa41ec4",
+      "row": 654,
+      "split": "train",
+      "pair": "817-821",
+      "attribute": "freeway_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The freeway runs horizontally.",
+        "B": "The freeway crosses from left to right."
+      }
+    },
+    {
+      "image": "821.tif",
+      "rgb": "ed8cdf858274e912f6b821599653cb255cf264d6f3b762e4ea0d65f90e937e73",
+      "row": 658,
+      "split": "train",
+      "pair": "817-821",
+      "attribute": "freeway_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The freeway runs vertically.",
+        "B": "The freeway crosses from top to bottom."
+      }
+    },
+    {
+      "image": "859.tif",
+      "rgb": "e65bfd459b3ced931bce44b8f0e16718196fde0287675edbac607329b6c1c0af",
+      "row": 696,
+      "split": "train",
+      "pair": "859-830",
+      "attribute": "freeway_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The freeway runs horizontally.",
+        "B": "The freeway crosses from left to right."
+      }
+    },
+    {
+      "image": "830.tif",
+      "rgb": "3ad1b0e4929eb25a3420c76a77c66c86745ad58cfa48aa271b0d86d73d6d2ac8",
+      "row": 667,
+      "split": "train",
+      "pair": "859-830",
+      "attribute": "freeway_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The freeway runs vertically.",
+        "B": "The freeway crosses from top to bottom."
+      }
+    },
+    {
+      "image": "1407.tif",
+      "rgb": "bcee96924f38b49beea9c4d8e6ca6b9a299059e57bbffcc01d8849d6f92e17f7",
+      "row": 1126,
+      "split": "train",
+      "pair": "1407-1422",
+      "attribute": "bridge_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The upper roadway runs horizontally.",
+        "B": "The road on top crosses from left to right."
+      }
+    },
+    {
+      "image": "1422.tif",
+      "rgb": "c08483010648d05a5804f3cf60d7e128f73d969169f62b2f4858e38c9700e4f9",
+      "row": 1141,
+      "split": "train",
+      "pair": "1407-1422",
+      "attribute": "bridge_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The upper roadway runs vertically.",
+        "B": "The road on top crosses from top to bottom."
+      }
+    },
+    {
+      "image": "1571.tif",
+      "rgb": "c2a3aff9082e1a85c45a7d76386f1aedf0d3707839e28c817281b2449725c379",
+      "row": 1270,
+      "split": "train",
+      "pair": "1571-1580",
+      "attribute": "parking_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The long parking rows run horizontally.",
+        "B": "The rows of parked cars extend left to right."
+      }
+    },
+    {
+      "image": "1580.tif",
+      "rgb": "3b309e2a0e312beb5801933aedbc4edb249aed3c611c1544cda58a1e9fa400e6",
+      "row": 1279,
+      "split": "train",
+      "pair": "1571-1580",
+      "attribute": "parking_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The long parking rows run vertically.",
+        "B": "The rows of parked cars extend top to bottom."
+      }
+    },
+    {
+      "image": "611.tif",
+      "rgb": "6526ee92cb5b096b5108220cd21af8afaa6f5e33a0357126d018eaf34208114d",
+      "row": 491,
+      "split": "train",
+      "pair": "611-607",
+      "attribute": "street_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs horizontally.",
+        "B": "The street separating rows of houses extends left to right."
+      }
+    },
+    {
+      "image": "607.tif",
+      "rgb": "c350bc58729874c0f7eb2426b92cca6eec98824168046295d2f3a82633974035",
+      "row": 487,
+      "split": "train",
+      "pair": "611-607",
+      "attribute": "street_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The street between the houses runs vertically.",
+        "B": "The street separating rows of houses extends top to bottom."
+      }
+    },
+    {
+      "image": "1579.tif",
+      "rgb": "ed613e687f284fc1e1ae77539fd1887857a61f0cb246fe6038692f61acfcfa49",
+      "row": 1278,
+      "split": "train",
+      "pair": "1579-1503",
+      "attribute": "parking_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The long parking rows run horizontally.",
+        "B": "The rows of parked cars extend left to right."
+      }
+    },
+    {
+      "image": "1503.tif",
+      "rgb": "b9bdab664248d7a9ea77eb77689f5534955286cc12355bc7d5e941c707a4bb8b",
+      "row": 1202,
+      "split": "train",
+      "pair": "1579-1503",
+      "attribute": "parking_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The long parking rows run vertically.",
+        "B": "The rows of parked cars extend top to bottom."
+      }
+    },
+    {
+      "image": "818.tif",
+      "rgb": "ccee08577d7a06a02f452e2c35cc4d64b2166eecbf96553bd0a47a99061d4a64",
+      "row": 655,
+      "split": "train",
+      "pair": "818-832",
+      "attribute": "freeway_axis",
+      "label": "horizontal",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The freeway runs horizontally.",
+        "B": "The freeway crosses from left to right."
+      }
+    },
+    {
+      "image": "832.tif",
+      "rgb": "90c9877221beb497a49fc39f7531c0ee97c9e7bcc9e007c1bf30a7f0117bed1f",
+      "row": 669,
+      "split": "train",
+      "pair": "818-832",
+      "attribute": "freeway_axis",
+      "label": "vertical",
+      "truth_sources": [
+        "A",
+        "B"
+      ],
+      "correct_phrasing": {
+        "A": "The freeway runs vertically.",
+        "B": "The freeway crosses from top to bottom."
+      }
+    }
+  ]
+}
