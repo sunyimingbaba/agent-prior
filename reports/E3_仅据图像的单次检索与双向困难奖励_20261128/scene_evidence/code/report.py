@@ -1,5 +1,6 @@
 """Fixed-policy comparisons using the verified common evaluation galleries and original native scores."""
 from collections import Counter
+from importlib.util import module_from_spec, spec_from_file_location
 import gzip
 import json
 from pathlib import Path
@@ -10,8 +11,13 @@ import torch
 ROOT = Path(__file__).resolve().parents[1]
 BASELINE = ROOT.parent / "image_only"
 sys.path.insert(0, str(BASELINE/"code"))
-from score import (read, sha, dump, FORM, FINE, OLD, calculate, details, metrics_extra,
-                   extra_stats, summary_by_seed)
+spec = spec_from_file_location("image_only_scoring", BASELINE/"code/score.py")
+scoring = module_from_spec(spec)
+spec.loader.exec_module(scoring)
+read, sha, dump = scoring.read, scoring.sha, scoring.dump
+FORM, FINE, OLD = scoring.FORM, scoring.FINE, scoring.OLD
+calculate, details, metrics_extra = scoring.calculate, scoring.details, scoring.metrics_extra
+extra_stats, summary_by_seed = scoring.extra_stats, scoring.summary_by_seed
 
 
 def data(root, tag, condition, name, rows, lock, donor, checksum, feedback):

@@ -1,0 +1,30 @@
+{
+  "query": "Describe the visible features of this remote sensing image.",
+  "images": 374,
+  "counts": {
+    "official": 210,
+    "extra": 164
+  },
+  "expected_chat_template_sha256": "3b1ecc1a5ee18fada0f7d2096be28a76894d26962418432fb4a43a4e7a8a601e",
+  "expected_tokens_by_image_size": {
+    "256x256": {
+      "digest": "86854f7db13f34b84b5c7dc446d060f44c1c5b3c70b9b0f07153c65b32c87b95",
+      "length": 297
+    }
+  },
+  "image_sizes": {
+    "256x256": 374
+  },
+  "pixels_verified": 374,
+  "num_train_intersections": 0,
+  "scene_head": "275f041920aa5747e9d90d6e14c79fb341882948bcf17cf02ae159d35cc9540b",
+  "clip": "b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836",
+  "reader": "fafb860c45a7bc5d99ef7c835d13f5793c631cdf85faafddc3622be722b77f16",
+  "reader_source": "09ef20e0b354efbf8a7d4d49105cd92e1ae9412b3ea58820961265a065a874dc",
+  "adapters": {
+    "a_r2": "53ff57218ad017e1d454b264668d39d4e8e7bfd94cf182a0212241853807cc27",
+    "a_strict": "0bc230bcaff60aee643c6d7299dee955dffd26a134adc65f52b910fef63c08f9",
+    "b_r2": "b4000d01e739209032fc42c6020df154ab413c020f337e3c91f4c4e888d5c655",
+    "b_strict": "6ede1ae5c0e598bbf6e5770a6c7d1769858e29ef3cf8f3bcbdd241383ae46c99"
+  }
+}

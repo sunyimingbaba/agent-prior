@@ -1,0 +1,59 @@
+{
+  "query": "Describe the visible features of this remote sensing image.",
+  "policies": {
+    "a_r2": {
+      "adapter": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+      "initial": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+      "steps": 0,
+      "actual_output": "a_R0"
+    },
+    "a_strict": {
+      "adapter": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+      "initial": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+      "steps": 0,
+      "actual_output": "a_R0"
+    },
+    "a_R0": {
+      "adapter": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+      "initial": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+      "steps": 0
+    },
+    "b_r2": {
+      "adapter": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd",
+      "initial": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd",
+      "steps": 0,
+      "actual_output": "b_R0"
+    },
+    "b_strict": {
+      "adapter": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd",
+      "initial": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd",
+      "steps": 0,
+      "actual_output": "b_R0"
+    },
+    "b_R0": {
+      "adapter": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd",
+      "initial": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd",
+      "steps": 0
+    }
+  },
+  "evaluation_lock": "f29ce24955f6173465ba34de905db245d497f7b6c603b700e6de8afb3dfe2b98",
+  "no_eligible": {
+    "a_r2": "86a8ca9557062d29a37fb4d3a88801963f04d5bd1f38d09cf500c773d7c36e73",
+    "a_strict": "d62bee667f3749c9882be00f484f3053e5a920e98d9778da12ed94adf49a9537",
+    "b_r2": "95215d08cc3e1fdde9f6a8ef5a03b0836750f640950b7cc778454cde08e9a3f3",
+    "b_strict": "a32332cbb3f9298dfa894cf163a27eab934c81b9db2f6d287e13c3dfc3ea7e08"
+  },
+  "source": "590db24a489ccd35040a6b956111c3a9292b9d9c0006bfb9aefdadd9d9d4a067",
+  "scoring_inputs": {
+    "E3-2_UCM与RSITMD独立复验_20261124/results/ucm_text.pt": "d4ca08cf6df1834a698f2e206fd1b1357c79aeb5256dd83f711a7249370fdfef",
+    "E3_UCM多描述奖励同预算RFPO_20261124/inputs/panel.json": "17be4144ceee6a28fb3b1a4c80884ce467d016d6e0b8fe8ee45bacb8ae437989",
+    "E3_UCM多描述奖励同预算RFPO_20261124/records/text.pt": "87745ae4dad0c127073af1489c2461c4217ee823b8b6f92dd3cda85b4e62ce4c",
+    "E3-2_UCM与RSITMD独立复验_20261124/inputs/ucm.json": "31e4052b7e612bfd4e3c44edc8a41fa3308d960c52d62c6dae0b3aac65ea613c",
+    "E3_视觉细节复核与RFPO_20261127/extra164/inputs/rows.json": "939b67447d0de4cc6871cb4c7d6a51d1db7a3d4f02d8d0b613bcc087fd7620cc",
+    "E3_视觉细节复核与RFPO_20261127/extra164/inputs/texts.pt": "d9ff3891d5003dadb1adffd47c06cbd844eb1bee7508839299498cebf53c5436",
+    "E3_视觉细节复核与RFPO_20261127/evaluation/results/单次检索对照.json": "2649b8ea90b01c58382e392043efa8da2aaca5d5119747654540367cc44c3aba",
+    "E3_视觉细节复核与RFPO_20261127/extra164/summary.json": "6e5e8b34f383499253e10e8b11a5f1fab3ec7d5711ee0078d1ca5183a93551f4"
+  },
+  "actual_models": 2,
+  "fresh_predictions": 748
+}

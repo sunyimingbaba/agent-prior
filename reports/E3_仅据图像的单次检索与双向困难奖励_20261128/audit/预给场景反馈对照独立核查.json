@@ -1,0 +1,46 @@
+{
+  "panels": {
+    "official": {
+      "images": 210,
+      "different_top": 210,
+      "distinct_feedback": 208,
+      "shift": 19,
+      "maximum_text_frequency": 2
+    },
+    "extra": {
+      "images": 164,
+      "different_top": 164,
+      "distinct_feedback": 164,
+      "shift": 18,
+      "maximum_text_frequency": 1
+    }
+  },
+  "label": "Scene classifier output: ",
+  "source_policies": {
+    "a_r2": {
+      "adapter": "53ff57218ad017e1d454b264668d39d4e8e7bfd94cf182a0212241853807cc27",
+      "initial": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+      "proof": "56699eba84a5b47b1adef03be17b173d03cda4000a7576f02aae1c3eb598c7a9",
+      "steps": 24
+    },
+    "a_strict": {
+      "adapter": "0bc230bcaff60aee643c6d7299dee955dffd26a134adc65f52b910fef63c08f9",
+      "initial": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+      "proof": "18a8631d9324b722a465caa952c398f0366360814170cd5e0c8323bd561ad8dd",
+      "steps": 24
+    },
+    "b_r2": {
+      "adapter": "b4000d01e739209032fc42c6020df154ab413c020f337e3c91f4c4e888d5c655",
+      "initial": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd",
+      "proof": "8af04978da5e3e8646b2f225edc970f08a61b1d56de997b98c177ecdfe7d010b",
+      "steps": 24
+    },
+    "b_strict": {
+      "adapter": "6ede1ae5c0e598bbf6e5770a6c7d1769858e29ef3cf8f3bcbdd241383ae46c99",
+      "initial": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd",
+      "proof": "fbc8e13287c6ab1f5cb66abaeae677c4cf52d8be4d732a51da37518d4836a087",
+      "steps": 24
+    }
+  },
+  "tool_probability_max_abs_error": 2.2649765014648438e-06
+}
