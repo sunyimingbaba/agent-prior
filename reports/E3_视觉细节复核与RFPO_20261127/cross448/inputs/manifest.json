@@ -1,0 +1,51 @@
+{
+  "policies": {
+    "a_r2": {
+      "adapter": "59287e4caba6b26f4280ca39c1412295614b5fdcfd9c369cae5e47d3f4473fce",
+      "train_proof": "1aecabca0603752281921957dcd832bd4ca76939e0a7266d406a319aa150868c",
+      "initial": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+      "scores": "64bd5ab20c657b59dca914419ec8c84ed791b34c4d699450bb5397401d80dc11"
+    },
+    "a_r3": {
+      "adapter": "220b342f823e8c02a6f79cc4bd1e4070b2198e99ca85542c27d0ad560712edb1",
+      "train_proof": "fc772b501670fd0bd57e89aaa3baf0ee6b5af8a559c66ac66108c339fa6e3df6",
+      "initial": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+      "scores": "16e83f2377a99ed134a7d5f4e1a4f28d4d8f23e010ca22c56f7aafc4effa77b2"
+    },
+    "b_r2": {
+      "adapter": "f9fc01253be4e7290048a047c528c962ae7d0ff0ed509e2a948cbfc7dc1760f9",
+      "train_proof": "a0b8ea87cb44cfed32426909ee644b089630220f92ed7ba501fbe539a23d7210",
+      "initial": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd",
+      "scores": "76314e78107b72e0532597e609308c1607ad951e5c31eb8577d69cf94e8c03f0"
+    },
+    "b_r3": {
+      "adapter": "bfff7660732a55205ed7caa86084d91e7acde26d6f9929f82d3635500ee70ac1",
+      "train_proof": "0a6182c0a97711b1eae2bd1b67afcda850966e3a7444edd2e0aec255f9c5d79d",
+      "initial": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd",
+      "scores": "98837c2ae107c0d67f4e573ec781ebc337ad68df0fdce328cf54fbe20c2fe79f"
+    }
+  },
+  "roster": "95c2ebf83d62674bb0284ee41656d0a47949317afb9fd6ab32f0aba8a795bf1e",
+  "gallery_text": "2d7178f349bf0f4d5375f9712027519d2815b13f7ea5cec68123e79905d73601",
+  "arrow": "4e859d26ee642a9f0a0b18626b09f5d27a6f38d2d1e2a0c194c999c1f3deb873",
+  "tool_cache": "d87ddb25cafb0ed20ead32f29fd525a3c29e64f6eeed56bb24a9a20e20485de4",
+  "scene_head": "275f041920aa5747e9d90d6e14c79fb341882948bcf17cf02ae159d35cc9540b",
+  "train_pairs": "e995b61fdda6edb119c416f22b297b64283eba202c7c89ade3e2e0907efd7bfa",
+  "historical_scores": "7d865ee9463edf827d53faf2296cc7f38aa2fc38d9c849932673366ca718ac6d",
+  "train_photos": 24,
+  "heldout_photos": 448,
+  "exact_pixel_overlap": 0,
+  "eligible_photos": 446,
+  "eligible_captions": 1739,
+  "scorer_sources": {
+    "single_scores.py": "3738806895c78d3fdfdf219a3143dd705e8acb8816310a7e070e3c55697dfc88",
+    "transfer_scores.py": "6e580a87e835ebc488ce1319abe47e7cf7545f5d95558925d8636ef6f554ad90"
+  },
+  "files": {
+    "口径.md": "b87add98b68682553f8876d7217a4b1e7c8fcc33eefd8936218e66063bc0705d",
+    "code/prepare.py": "fe20144c385d098d67cbfbab7c6c2c3c448c87063ba19af5e19c46956d201af7",
+    "code/predict.py": "2487185f23229c461b137e4af11f66b071917cbb521c40c104f1d831c0d536e1",
+    "code/run.sh": "1a1ccf4e844e99c40e1fe0e821bccc1d3b0e2474dc3a6d7aaadcd60a3f4a7a60",
+    "code/score.py": "1a4be36751f05995338bffc7d4316f0a21a61b80f9c9b2df42ea300f7b8ff2eb"
+  }
+}

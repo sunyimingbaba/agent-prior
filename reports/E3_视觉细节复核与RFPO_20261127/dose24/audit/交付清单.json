@@ -1,0 +1,48 @@
+{
+  "models": {
+    "a_r2": {
+      "final": "321ba48cfeed99af4c127a12079bbabb80ddf5f217e0febb2e0bc725aac8113d",
+      "verified_tensors": 584,
+      "optimizer_updates": [
+        20
+      ]
+    },
+    "a_strict": {
+      "final": "c53636df4061f2f0fde7692aa3ca8053238b56502fd186cae1c195ec9fd8f054",
+      "verified_tensors": 584,
+      "optimizer_updates": [
+        18
+      ]
+    },
+    "b_r2": {
+      "final": "a6e7ed1b5cc50f3728bc604a654189aeda2137b6c145d11cd8c3beafeb49136c",
+      "verified_tensors": 584,
+      "optimizer_updates": [
+        22
+      ]
+    },
+    "b_strict": {
+      "final": "8a7fe97ac7ced86010f84fb0f7e5998eef3d6a288f968d0559e76ebfa1f8e504",
+      "verified_tensors": 584,
+      "optimizer_updates": [
+        23
+      ]
+    }
+  },
+  "groups": 96,
+  "actual_candidates": 768,
+  "formal_outputs": 840,
+  "local_weight_copy": "/Users/botlv/cup-deploy-assets/e3-visual-detail-rfpo-20261127/dose24/models",
+  "sha256": {
+    "inputs/train_lock.json": "201e323f6486bea7d94384f1058a6b867d3870cebdc71bec6462ffe7c7bd755c",
+    "inputs/roster.json": "c8acd02c13d373f245c061588bd8fa295435c0a33531210d741eac33ea0edf3b",
+    "audit/远端模型摘要.json": "adebdc5bd8a102f41cfb0eb90c2c9df03cb849065a6922ca09eca9e072be701d",
+    "audit/权重备份核对.json": "36513ac1d9639a24c8586dc8245f906c23bf9334f1c739693d99e4087b747cb8",
+    "audit/训练核查.json": "7076e03e5d53730a761d15754e35a0d8066099c11fcc73d90e05634aa00eb0f6",
+    "evaluation/archives/index.json": "d718d518d09dc0839a85e5e917691431c6e2d94697e0daed999cc8c0b5394d6e",
+    "evaluation/results/complete.json": "fce2776a823010e0fd86e065d1b198803119a631ea748c0fd0a40e894b5deb7f",
+    "evaluation/results/单次新措辞复核.json": "fe848e14731092344b974adb4d1e84cdeffda7b9113dc2010476348e9605baea",
+    "evaluation/results/独立验算.json": "0bb7d2a0d8d6c7b895cf354223f65bfafdad626bcf6eadf2fd8e66fb52d27de5",
+    "正式验收与训练.md": "d9d4f1143cc886cf369ab99f6c1bccda9aab0617374c5b0b134f7fcbf5e4aca2"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "a_r2": {
+    "groups": 24,
+    "slots": 192,
+    "correctly_reproduced_selected_reward_groups": 24,
+    "strict_rule_changes_top_steps": [
+      2,
+      8,
+      12,
+      13
+    ],
+    "strict_rule_changes_advantage_steps": [
+      2,
+      8,
+      12,
+      13
+    ],
+    "nonzero_updates": 20,
+    "adapter": "321ba48cfeed99af4c127a12079bbabb80ddf5f217e0febb2e0bc725aac8113d"
+  },
+  "a_strict": {
+    "groups": 24,
+    "slots": 192,
+    "correctly_reproduced_selected_reward_groups": 24,
+    "strict_rule_changes_top_steps": [
+      2,
+      12,
+      13
+    ],
+    "strict_rule_changes_advantage_steps": [
+      2,
+      12,
+      13
+    ],
+    "nonzero_updates": 18,
+    "adapter": "c53636df4061f2f0fde7692aa3ca8053238b56502fd186cae1c195ec9fd8f054"
+  },
+  "a_paired": {
+    "initial_matching_full_sample_groups": [
+      1,
+      2
+    ]
+  },
+  "b_r2": {
+    "groups": 24,
+    "slots": 192,
+    "correctly_reproduced_selected_reward_groups": 24,
+    "strict_rule_changes_top_steps": [
+      6,
+      8,
+      12,
+      13,
+      18,
+      20
+    ],
+    "strict_rule_changes_advantage_steps": [
+      6,
+      8,
+      12,
+      13,
+      18,
+      20
+    ],
+    "nonzero_updates": 22,
+    "adapter": "a6e7ed1b5cc50f3728bc604a654189aeda2137b6c145d11cd8c3beafeb49136c"
+  },
+  "b_strict": {
+    "groups": 24,
+    "slots": 192,
+    "correctly_reproduced_selected_reward_groups": 24,
+    "strict_rule_changes_top_steps": [
+      6,
+      8,
+      12,
+      13,
+      18,
+      23,
+      24
+    ],
+    "strict_rule_changes_advantage_steps": [
+      6,
+      8,
+      12,
+      13,
+      18,
+      23,
+      24
+    ],
+    "nonzero_updates": 23,
+    "adapter": "8a7fe97ac7ced86010f84fb0f7e5998eef3d6a288f968d0559e76ebfa1f8e504"
+  },
+  "b_paired": {
+    "initial_matching_full_sample_groups": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+}

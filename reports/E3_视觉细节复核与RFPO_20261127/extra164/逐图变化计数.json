@@ -1,0 +1,94 @@
+{
+  "rfpo_strict": {
+    "a": {
+      "images": 164,
+      "explicit_questions_per_image": 2,
+      "detail_questions": {
+        "higher": 7,
+        "equal": 314,
+        "lower": 7
+      },
+      "details_by_image": {
+        "higher": 7,
+        "equal": 150,
+        "lower": 7
+      },
+      "other_caption_MRR": {
+        "higher": 67,
+        "equal": 52,
+        "lower": 45
+      },
+      "identical_generated_token_sequence": 161,
+      "identical_tool_calls": 161,
+      "identical_native_features": 0
+    },
+    "b": {
+      "images": 164,
+      "explicit_questions_per_image": 2,
+      "detail_questions": {
+        "higher": 8,
+        "equal": 316,
+        "lower": 4
+      },
+      "details_by_image": {
+        "higher": 8,
+        "equal": 152,
+        "lower": 4
+      },
+      "other_caption_MRR": {
+        "higher": 49,
+        "equal": 70,
+        "lower": 45
+      },
+      "identical_generated_token_sequence": 152,
+      "identical_tool_calls": 152,
+      "identical_native_features": 0
+    }
+  },
+  "dpo_r3": {
+    "a": {
+      "images": 164,
+      "explicit_questions_per_image": 2,
+      "detail_questions": {
+        "higher": 12,
+        "equal": 301,
+        "lower": 15
+      },
+      "details_by_image": {
+        "higher": 12,
+        "equal": 137,
+        "lower": 15
+      },
+      "other_caption_MRR": {
+        "higher": 56,
+        "equal": 38,
+        "lower": 70
+      },
+      "identical_generated_token_sequence": 156,
+      "identical_tool_calls": 157,
+      "identical_native_features": 0
+    },
+    "b": {
+      "images": 164,
+      "explicit_questions_per_image": 2,
+      "detail_questions": {
+        "higher": 10,
+        "equal": 308,
+        "lower": 10
+      },
+      "details_by_image": {
+        "higher": 10,
+        "equal": 144,
+        "lower": 10
+      },
+      "other_caption_MRR": {
+        "higher": 50,
+        "equal": 37,
+        "lower": 77
+      },
+      "identical_generated_token_sequence": 162,
+      "identical_tool_calls": 162,
+      "identical_native_features": 0
+    }
+  }
+}

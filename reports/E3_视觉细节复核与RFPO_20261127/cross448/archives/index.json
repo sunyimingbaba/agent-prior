@@ -1,0 +1,66 @@
+{
+  "a_r2": {
+    "sha256": "635b21a389b2037bfb42971af07d04e66bb41f002de04cb573033285cba6c73b",
+    "files": 450,
+    "bytes": 5503498,
+    "adapter": "59287e4caba6b26f4280ca39c1412295614b5fdcfd9c369cae5e47d3f4473fce",
+    "tool_calls_per_image": {
+      "1": 412,
+      "0": 36
+    },
+    "tokens": 4164,
+    "env": {
+      "device": "NVIDIA GeForce RTX 5090",
+      "cuda": "13.0",
+      "torch": "2.10.0"
+    }
+  },
+  "a_r3": {
+    "sha256": "44f8aaabb8a4a87c08af6b3a4d5ea37a2d6c876f138fdb08a0ca6391947400ca",
+    "files": 450,
+    "bytes": 5500820,
+    "adapter": "220b342f823e8c02a6f79cc4bd1e4070b2198e99ca85542c27d0ad560712edb1",
+    "tool_calls_per_image": {
+      "1": 431,
+      "0": 17
+    },
+    "tokens": 4278,
+    "env": {
+      "device": "NVIDIA GeForce RTX 5090",
+      "cuda": "13.0",
+      "torch": "2.10.0"
+    }
+  },
+  "b_r2": {
+    "sha256": "52e9d9d7307ff418511aed641be1040a830acf448b47dbaab49849be6b115d75",
+    "files": 450,
+    "bytes": 5503315,
+    "adapter": "f9fc01253be4e7290048a047c528c962ae7d0ff0ed509e2a948cbfc7dc1760f9",
+    "tool_calls_per_image": {
+      "1": 419,
+      "0": 29
+    },
+    "tokens": 4239,
+    "env": {
+      "device": "NVIDIA GeForce RTX 5090",
+      "cuda": "13.0",
+      "torch": "2.10.0"
+    }
+  },
+  "b_r3": {
+    "sha256": "847b517ab61e260d983da20a41be31dd87766d02ac28d07418d9b93377a655af",
+    "files": 450,
+    "bytes": 5501181,
+    "adapter": "bfff7660732a55205ed7caa86084d91e7acde26d6f9929f82d3635500ee70ac1",
+    "tool_calls_per_image": {
+      "1": 433,
+      "0": 15
+    },
+    "tokens": 4306,
+    "env": {
+      "device": "NVIDIA GeForce RTX 5090",
+      "cuda": "13.0",
+      "torch": "2.10.0"
+    }
+  }
+}
