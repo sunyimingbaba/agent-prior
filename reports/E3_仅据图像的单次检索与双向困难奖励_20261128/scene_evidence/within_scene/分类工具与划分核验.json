@@ -1,0 +1,60 @@
+{
+  "head_sha256": "275f041920aa5747e9d90d6e14c79fb341882948bcf17cf02ae159d35cc9540b",
+  "historical_train_log": "649258b02a11b884569d7495a8ff90edbc0d6e6cdf0e2ee09d3f30e56da689c3",
+  "source_train_rows": 1680,
+  "class_count_matches_archive_log": true,
+  "archive_training_class_counts": [
+    80,
+    81,
+    80,
+    80,
+    80,
+    80,
+    77,
+    80,
+    80,
+    80,
+    81,
+    81,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80
+  ],
+  "unique_rgb": {
+    "train": 1680,
+    "val": 210,
+    "test": 210
+  },
+  "panels": {
+    "official": {
+      "images": 210,
+      "exact_rgb_in_arrow_split": {
+        "train": 0,
+        "val": 0,
+        "test": 210
+      },
+      "real_top1": 194,
+      "real_top3": 210,
+      "permuted_top1": 1,
+      "permuted_top3": 10
+    },
+    "extra": {
+      "images": 164,
+      "exact_rgb_in_arrow_split": {
+        "train": 164,
+        "val": 0,
+        "test": 0
+      },
+      "real_top1": 157,
+      "real_top3": 164,
+      "permuted_top1": 0,
+      "permuted_top3": 25
+    }
+  }
+}
