@@ -1,0 +1,84 @@
+{
+  "query": "Describe the visible features of this remote sensing image.",
+  "label": "Scene classifier output: ",
+  "images": 448,
+  "captions": 2240,
+  "overlap": 0,
+  "donor_shift": 80,
+  "scene_counts": {
+    "agricultural": 25,
+    "airplane": 12,
+    "baseball diamond": 49,
+    "beach": 18,
+    "buildings": 80,
+    "chaparral": 8,
+    "dense residential": 8,
+    "forest": 20,
+    "golf course": 3,
+    "harbor": 15,
+    "intersection": 13,
+    "medium residential": 15,
+    "mobile home park": 2,
+    "overpass": 21,
+    "parking lot": 15,
+    "river": 52,
+    "sparse residential": 27,
+    "storage tanks": 57,
+    "tennis court": 8
+  },
+  "old_policies": {
+    "a_r2": {
+      "adapter": "53ff57218ad017e1d454b264668d39d4e8e7bfd94cf182a0212241853807cc27",
+      "initial": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+      "proof": "56699eba84a5b47b1adef03be17b173d03cda4000a7576f02aae1c3eb598c7a9",
+      "steps": 24
+    },
+    "a_strict": {
+      "adapter": "0bc230bcaff60aee643c6d7299dee955dffd26a134adc65f52b910fef63c08f9",
+      "initial": "31d99b00278ea09070c564a3a6f6799d2bc72259378ff692b3e946318455990a",
+      "proof": "18a8631d9324b722a465caa952c398f0366360814170cd5e0c8323bd561ad8dd",
+      "steps": 24
+    },
+    "b_r2": {
+      "adapter": "b4000d01e739209032fc42c6020df154ab413c020f337e3c91f4c4e888d5c655",
+      "initial": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd",
+      "proof": "8af04978da5e3e8646b2f225edc970f08a61b1d56de997b98c177ecdfe7d010b",
+      "steps": 24
+    },
+    "b_strict": {
+      "adapter": "6ede1ae5c0e598bbf6e5770a6c7d1769858e29ef3cf8f3bcbdd241383ae46c99",
+      "initial": "0c37df1c29204d737a49869183cda72cf99c36eab57c467b119d4d316f6d7edd",
+      "proof": "fbc8e13287c6ab1f5cb66abaeae677c4cf52d8be4d732a51da37518d4836a087",
+      "steps": 24
+    }
+  },
+  "prior_gallery": "95c2ebf83d62674bb0284ee41656d0a47949317afb9fd6ab32f0aba8a795bf1e",
+  "arrow": "4e859d26ee642a9f0a0b18626b09f5d27a6f38d2d1e2a0c194c999c1f3deb873",
+  "tool_cache": "d87ddb25cafb0ed20ead32f29fd525a3c29e64f6eeed56bb24a9a20e20485de4",
+  "head": "275f041920aa5747e9d90d6e14c79fb341882948bcf17cf02ae159d35cc9540b",
+  "scorer_sources": {
+    "single_scores.py": "3738806895c78d3fdfdf219a3143dd705e8acb8816310a7e070e3c55697dfc88",
+    "transfer_scores.py": "6e580a87e835ebc488ce1319abe47e7cf7545f5d95558925d8636ef6f554ad90"
+  },
+  "external": {
+    "old448": "6e56e0ea76493ddb8c3d406dd0501e43d834597a215b4bc3d693e2642ae14c21",
+    "weights_source": "590db24a489ccd35040a6b956111c3a9292b9d9c0006bfb9aefdadd9d9d4a067",
+    "scene_method": "6ce9042e131bba7109adbf4d88c922d83f63005ac94c5a8549adbadcf323d1ee",
+    "first_train": "9267e0551168cc52cd806fe4d11f9627e9a3ff53e9e5b999a9eb327242cd1eab",
+    "first_eval": "05248f469cff79bede3df255eaaa06697a7045037debd34535cae6903749aa9b",
+    "evidence_generate": "443f05bc753ecce9f79ba70f07bd7ff841c60c00f6071b4c73215f9e94cadf76",
+    "query_check": "2d32151dbc390478854da283b1b46f5e3a094290abefac9b82dbef678de24237",
+    "old448_score": "1a4be36751f05995338bffc7d4316f0a21a61b80f9c9b2df42ea300f7b8ff2eb",
+    "gallery_text": "2d7178f349bf0f4d5375f9712027519d2815b13f7ea5cec68123e79905d73601"
+  },
+  "files": {
+    "code/gate.py": "a8931637c7d75a1b79d237fe7cff392048de3e745bbe21b3a783171237268a0e",
+    "code/generate.py": "454b9773489ce23766a0d8b77c9968f6c6925ca44ec556c0a010b16d0535fa70",
+    "code/prepare.py": "9b60567c972b17b3b0a7182b30b2cc04d46f7fc8ca808c6b559954672e7d7407",
+    "code/score_cross.py": "f4d094f796dfe982ce95ad062af37fe2872a7b4252c03a5029a701ac7787e99c",
+    "code/queue.sh": "092760141d473b704305ebd65478661781df7e28ba02144c99cbf92980f8663a",
+    "复核事前口径.md": "cd6ac3a79b88fce603bdf54cad7c1e98f24a98579b8ecb2d01aab3fe843552b3",
+    "inputs/roster.json": "898fe3dca53f011f518b65cfd91069a37a31ea1e862f3168dffb16eb47a8b46b",
+    "inputs/donors.json": "ec2662cd6d4c8a1904e0eda0d2b35b908b6c0bd5dce4e1905fa44c4995d79cff"
+  }
+}
